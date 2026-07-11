@@ -1,0 +1,52 @@
+{
+  "roads": [
+    {
+      "id": "kingsroad",
+      "name": "The Kingsroad",
+      "path": "M 420 180 L 410 340 L 420 460 Q 430 500 430 555 L 460 660 Q 495 715 530 770 L 560 870",
+      "type": "major"
+    },
+    {
+      "id": "goldroad",
+      "name": "The Goldroad",
+      "path": "M 530 770 Q 430 720 380 680 L 310 620 L 270 640",
+      "type": "major"
+    },
+    {
+      "id": "roseroad",
+      "name": "The Roseroad",
+      "path": "M 530 770 Q 420 830 310 900 L 270 990",
+      "type": "major"
+    },
+    {
+      "id": "riverroad",
+      "name": "The River Road",
+      "path": "M 270 640 L 310 620 L 390 630 L 460 670",
+      "type": "minor"
+    },
+    {
+      "id": "oceanroad",
+      "name": "The Ocean Road",
+      "path": "M 265 655 L 255 720 Q 280 810 310 900",
+      "type": "minor"
+    },
+    {
+      "id": "highroad",
+      "name": "The High Road",
+      "path": "M 460 660 Q 530 630 600 600",
+      "type": "minor"
+    },
+    {
+      "id": "boneway",
+      "name": "The Boneway",
+      "path": "M 560 870 Q 520 980 480 1100",
+      "type": "pass"
+    },
+    {
+      "id": "princes_pass",
+      "name": "Prince's Pass",
+      "path": "M 310 900 Q 320 1000 340 1100",
+      "type": "pass"
+    }
+  ]
+}

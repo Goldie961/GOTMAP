@@ -1,0 +1,95 @@
+/* Ornate, fantasy-focused typography */
+
+.heading-primary {
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--ink);
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.heading-secondary {
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--ink-light);
+}
+
+.heading-decorative {
+  font-family: 'Cinzel', serif;
+  font-weight: 400;
+  color: var(--gold-dark);
+  border-bottom: 2px double var(--gold);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.heading-decorative::after {
+  content: '♦';
+  position: absolute;
+  bottom: -7px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--parchment);
+  padding: 0 8px;
+  font-size: 0.8rem;
+  color: var(--gold-dark);
+}
+
+.body-text {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--ink);
+}
+
+.body-text-small {
+  font-family: 'Crimson Text', serif;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--ink-light);
+}
+
+.label {
+  font-family: 'Cinzel', serif;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink-faint);
+  font-weight: 600;
+}
+
+/* Ornate dividers */
+.decorative-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.decorative-divider::before,
+.decorative-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--gold-dark), transparent);
+}
+
+.decorative-divider span {
+  font-size: 0.8rem;
+  color: var(--gold-dark);
+  margin: 0 10px;
+}
+
+/* Aged text styling */
+.chronicle-text {
+  font-style: italic;
+  position: relative;
+  padding-left: 1.5rem;
+  border-left: 3px solid var(--gold-dark);
+  margin: 1rem 0;
+  color: var(--ink-light);
+}

@@ -1,0 +1,90 @@
+{
+  "forests": [
+    {
+      "id": "wolfswood",
+      "name": "The Wolfswood",
+      "trees": [
+        { "x": 320, "y": 290, "size": "medium" },
+        { "x": 330, "y": 300, "size": "large" },
+        { "x": 340, "y": 285, "size": "small" },
+        { "x": 350, "y": 295, "size": "medium" },
+        { "x": 360, "y": 290, "size": "large" },
+        { "x": 370, "y": 305, "size": "small" },
+        { "x": 325, "y": 315, "size": "medium" },
+        { "x": 335, "y": 330, "size": "large" },
+        { "x": 345, "y": 320, "size": "medium" },
+        { "x": 355, "y": 340, "size": "large" },
+        { "x": 365, "y": 330, "size": "small" },
+        { "x": 315, "y": 345, "size": "medium" },
+        { "x": 330, "y": 355, "size": "large" },
+        { "x": 340, "y": 350, "size": "medium" },
+        { "x": 350, "y": 360, "size": "large" }
+      ]
+    },
+    {
+      "id": "haunted_forest",
+      "name": "The Haunted Forest",
+      "trees": [
+        { "x": 390, "y": 90, "size": "medium" },
+        { "x": 405, "y": 80, "size": "large" },
+        { "x": 420, "y": 95, "size": "small" },
+        { "x": 435, "y": 85, "size": "medium" },
+        { "x": 450, "y": 90, "size": "large" },
+        { "x": 465, "y": 100, "size": "small" },
+        { "x": 395, "y": 115, "size": "medium" },
+        { "x": 410, "y": 130, "size": "large" },
+        { "x": 425, "y": 120, "size": "medium" },
+        { "x": 440, "y": 140, "size": "large" },
+        { "x": 455, "y": 130, "size": "small" },
+        { "x": 470, "y": 125, "size": "medium" },
+        { "x": 400, "y": 150, "size": "large" },
+        { "x": 415, "y": 160, "size": "medium" },
+        { "x": 430, "y": 155, "size": "large" },
+        { "x": 445, "y": 165, "size": "medium" },
+        { "x": 460, "y": 150, "size": "small" }
+      ]
+    },
+    {
+      "id": "kingswood",
+      "name": "The Kingswood",
+      "trees": [
+        { "x": 510, "y": 790, "size": "medium" },
+        { "x": 520, "y": 785, "size": "large" },
+        { "x": 530, "y": 795, "size": "small" },
+        { "x": 540, "y": 780, "size": "medium" },
+        { "x": 550, "y": 790, "size": "large" },
+        { "x": 515, "y": 805, "size": "medium" },
+        { "x": 525, "y": 815, "size": "large" },
+        { "x": 535, "y": 800, "size": "medium" },
+        { "x": 545, "y": 810, "size": "large" }
+      ]
+    },
+    {
+      "id": "rainwood",
+      "name": "The Rainwood",
+      "trees": [
+        { "x": 560, "y": 845, "size": "medium" },
+        { "x": 570, "y": 840, "size": "large" },
+        { "x": 580, "y": 850, "size": "small" },
+        { "x": 565, "y": 860, "size": "medium" },
+        { "x": 575, "y": 870, "size": "large" },
+        { "x": 585, "y": 860, "size": "medium" },
+        { "x": 560, "y": 875, "size": "large" },
+        { "x": 570, "y": 880, "size": "medium" },
+        { "x": 580, "y": 875, "size": "small" }
+      ]
+    },
+    {
+      "id": "whispering_wood",
+      "name": "The Whispering Wood",
+      "trees": [
+        { "x": 370, "y": 590, "size": "medium" },
+        { "x": 380, "y": 585, "size": "large" },
+        { "x": 390, "y": 595, "size": "small" },
+        { "x": 375, "y": 605, "size": "medium" },
+        { "x": 385, "y": 615, "size": "large" },
+        { "x": 395, "y": 600, "size": "medium" }
+      ]
+    }
+  ]
+}

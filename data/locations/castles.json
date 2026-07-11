@@ -1,0 +1,937 @@
+[
+  {
+    "id": "winterfell",
+    "name": "Winterfell",
+    "type": "castle",
+    "coordinates": { "x": 410, "y": 340 },
+    "region": "the_north",
+    "description": "The ancient seat of House Stark, a vast stronghold built thousands of years ago in the heart of the North. It stands above hot springs that heat its halls.",
+    "canon": "canon",
+    "vassals": ["bolton", "karstark", "umber", "mormont", "manderly", "reed"],
+    "timeline": [
+      {
+        "year": -8000,
+        "house": "stark",
+        "lord": "Brandon the Builder",
+        "status": "intact",
+        "event": "Winterfell is founded after the Long Night.",
+        "canon": "inferred"
+      },
+      {
+        "year": 1,
+        "house": "stark",
+        "lord": "Torrhen Stark",
+        "status": "intact",
+        "event": "Torrhen Stark, the King Who Knelt, bends the knee to Aegon the Conqueror.",
+        "canon": "canon"
+      }
+    ],
+    "narratorText": "Winterfell is the capital of the North. Built by Brandon the Builder in the Age of Heroes, the castle is protected by double granite walls and a deep moat. Below the castle lie the Crypts of Winterfell, where the Kings of Winter are laid to rest with stone direwolves and iron swords."
+  },
+  {
+    "id": "castle_black",
+    "name": "Castle Black",
+    "type": "castle",
+    "coordinates": { "x": 420, "y": 180 },
+    "region": "beyond_the_wall",
+    "description": "The primary headquarters of the Night's Watch, situated at the center of the Wall. It has no walls of its own, only the massive ice barrier to its north.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "nights_watch",
+        "lord": "Tristan Mudd",
+        "status": "intact",
+        "event": "The Night's Watch guards the Wall under Targaryen rule.",
+        "canon": "canon"
+      }
+    ],
+    "narratorText": "Castle Black is the largest of the castles along the Wall. In Year 1 AC, it is ruled by Lord Commander Tristan Mudd, guarding the realm of men against wildlings and worse."
+  },
+  {
+    "id": "eastwatch",
+    "name": "Eastwatch-by-the-Sea",
+    "type": "castle",
+    "coordinates": { "x": 600, "y": 175 },
+    "region": "beyond_the_wall",
+    "description": "The easternmost castle on the Wall, acting as a port for the Night's Watch to monitor trade and wildling movements across the Bay of Seals.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "nights_watch",
+        "lord": "Commander of Eastwatch",
+        "status": "intact",
+        "event": "Eastwatch patrol fleet monitors the Bay of Seals.",
+        "canon": "inferred"
+      }
+    ],
+    "narratorText": "Eastwatch-by-the-Sea is critical for the trade and naval operations of the Night's Watch. It prevents wildling smugglers from landing south of the Wall."
+  },
+  {
+    "id": "shadow_tower",
+    "name": "Shadow Tower",
+    "type": "castle",
+    "coordinates": { "x": 310, "y": 185 },
+    "region": "beyond_the_wall",
+    "description": "A dark fortress built into the cliffs near the western gorge of the Wall, guarding the hazardous mountain passes of the Frostfangs.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "nights_watch",
+        "lord": "Commander of the Shadow Tower",
+        "status": "intact",
+        "event": "Watchmen patrol the dangerous western bridge of skulls.",
+        "canon": "inferred"
+      }
+    ],
+    "narratorText": "Perched precariously on the mountain cliffs, the Shadow Tower guards the western reach of the Wall, where the gorge offers passage to wildling raiders."
+  },
+  {
+    "id": "casterly_rock",
+    "name": "Casterly Rock",
+    "type": "castle",
+    "coordinates": { "x": 270, "y": 640 },
+    "region": "the_westerlands",
+    "description": "A colossal fortress carved out of a massive stone mount overlooking the Sunset Sea, served as the wealthy seat of House Lannister.",
+    "canon": "canon",
+    "vassals": ["crakehall", "golden_tooth"],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "lannister",
+        "lord": "Loren Lannister",
+        "status": "intact",
+        "event": "Loren Lannister submits to Aegon I after the Field of Fire and is named Warden of the West.",
+        "canon": "canon"
+      }
+    ],
+    "narratorText": "Casterly Rock is carved from a stone hill resembling a couchant lion. It contains massive gold veins, making House Lannister the richest family in Westeros. Its tunnels, halls, and dungeons stretch deep underground."
+  },
+  {
+    "id": "the_eyrie",
+    "name": "The Eyrie",
+    "type": "fortress",
+    "coordinates": { "x": 600, "y": 600 },
+    "region": "the_vale",
+    "description": "An impregnable fortress perched high atop the Giant's Lance mountain, accessible only by a narrow mountain path guarded by three waycastles.",
+    "canon": "canon",
+    "vassals": ["gulltown", "runestone", "hearts_home"],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "arryn",
+        "lord": "Ronnel Arryn",
+        "status": "intact",
+        "event": "Queen Regent Sharra Arryn yields the Eyrie after Visenya Targaryen flies Vhagar directly into the courtyard.",
+        "canon": "canon"
+      }
+    ],
+    "narratorText": "Perched six thousand feet above the Vale, the Eyrie is the smallest of the great castles, consisting of seven slim white towers. Its height makes it impregnable to assault, but Queen Visenya Targaryen bypassed all defenses by flying her dragon Vhagar straight to the top."
+  },
+  {
+    "id": "dragonstone",
+    "name": "Dragonstone",
+    "type": "castle",
+    "coordinates": { "x": 620, "y": 740 },
+    "region": "the_crownlands",
+    "description": "The volcanic island fortress built by the Valyrian Freehold using advanced stonemasonry, serving as the ancestral seat of House Targaryen.",
+    "canon": "canon",
+    "vassals": ["velaryon"],
+    "timeline": [
+      {
+        "year": -114,
+        "house": "targaryen",
+        "lord": "Aenar Targaryen",
+        "status": "intact",
+        "event": "Aenar Targaryen sells his estates in Valyria and moves his family to Dragonstone.",
+        "canon": "canon"
+      },
+      {
+        "year": 1,
+        "house": "targaryen",
+        "lord": "Aegon I Targaryen",
+        "status": "intact",
+        "event": "Dragonstone remains the primary stronghold and seat of House Targaryen.",
+        "canon": "canon"
+      }
+    ],
+    "narratorText": "Dragonstone was shaped by Valyrian dragonlords using magic and fire to warp stone into the shapes of dragons and gargoyles. It is a grim, black fortress sitting in the shadow of the volcano Dragonmont."
+  },
+  {
+    "id": "kings_landing",
+    "name": "King's Landing (Aegonfort)",
+    "type": "castle",
+    "coordinates": { "x": 530, "y": 770 },
+    "region": "the_crownlands",
+    "description": "Initially the Aegonfort, a rough wood-and-earth fort built at the mouth of the Blackwater Rush where Aegon first landed. Now transforming into the new capital city.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": -2,
+        "house": "targaryen",
+        "lord": "Aegon I Targaryen",
+        "status": "under_construction",
+        "event": "Aegon lands at the mouth of the Blackwater and erects a crude fort of wood and earth.",
+        "canon": "canon"
+      },
+      {
+        "year": 1,
+        "house": "targaryen",
+        "lord": "Aegon I Targaryen",
+        "status": "under_construction",
+        "event": "The Aegonfort is expanded as stone buildings start to rise, founding King's Landing.",
+        "canon": "canon"
+      }
+    ],
+    "narratorText": "In Year 1 AC, King's Landing is a muddy, sprawling settlement growing around the Aegonfort. Aegon I Targaryen has chosen this spot as his capital, ordering the construction of a city that will house the Iron Throne."
+  },
+  {
+    "id": "highgarden",
+    "name": "Highgarden",
+    "type": "castle",
+    "coordinates": { "x": 310, "y": 900 },
+    "region": "the_reach",
+    "description": "A breathtaking tiered castle surrounded by briar labyrinths, orchards, and white stone walls, overlooking the placid waters of the Mander.",
+    "canon": "canon",
+    "vassals": ["horn_hill", "brightwater_keep", "arbor"],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "tyrell",
+        "lord": "Harlan Tyrell",
+        "status": "intact",
+        "event": "Harlan Tyrell yields Highgarden to Aegon I after King Mern IX Gardener dies on the Field of Fire. Aegon grants him the castle.",
+        "canon": "canon"
+      }
+    ],
+    "narratorText": "Highgarden is the seat of the Lords Paramount of the Reach. Formerly held by House Gardener, it was given to House Tyrell, their stewards, after the Field of Fire, which caused great resentment among older Reach houses."
+  },
+  {
+    "id": "riverrun",
+    "name": "Riverrun",
+    "type": "castle",
+    "coordinates": { "x": 390, "y": 630 },
+    "region": "the_riverlands",
+    "description": "A stout stone castle situated at the confluence of the Tumblestone and Red Fork. Its unique design allows it to be surrounded by water on all three sides.",
+    "canon": "canon",
+    "vassals": ["frey", "raventree_hall", "stone_hedge", "acorn_hall"],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "tully",
+        "lord": "Edmyn Tully",
+        "status": "intact",
+        "event": "Edmyn Tully leads the rebel river lords to join Aegon I and is named Lord Paramount of the Trident.",
+        "canon": "canon"
+      }
+    ],
+    "narratorText": "Riverrun's strategic design allows its defenders to open sluice gates, flooding a wide moat and turning the castle into an island that cannot be breached. Edmyn Tully rebelled against King Harren the Black, winning Aegon's favor."
+  },
+  {
+    "id": "harrenhal",
+    "name": "Harrenhal",
+    "type": "castle",
+    "coordinates": { "x": 460, "y": 670 },
+    "region": "the_riverlands",
+    "description": "The largest castle ever built in Westeros, now a half-melted black ruin after Aegon Targaryen unleashed Balerion's dragonfire to destroy Harren the Black.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": -2,
+        "house": "hoare",
+        "lord": "Harren Hoare",
+        "status": "intact",
+        "event": "Harren the Black completes construction of Harrenhal after forty years of slave labor.",
+        "canon": "canon"
+      },
+      {
+        "year": 1,
+        "house": "targaryen",
+        "lord": "Aegon I Targaryen",
+        "status": "ruined",
+        "event": "Aegon melts Harrenhal with Balerion, destroying House Hoare. The castle remains ruined and cursed.",
+        "canon": "canon"
+      }
+    ],
+    "narratorText": "Harrenhal's colossal towers were melted like wax when Balerion bathed the castle in dragonfire. In Year 1 AC, it stands as a terrifying monument to the power of the Targaryen dragons, left empty and haunted."
+  },
+  {
+    "id": "pyke",
+    "name": "Pyke",
+    "type": "castle",
+    "coordinates": { "x": 210, "y": 585 },
+    "region": "the_iron_islands",
+    "description": "An ancient stronghold built on jagged rock stacks jutting into the sea, connected by swaying rope and wood bridges.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "greyjoy",
+        "lord": "Vickon Greyjoy",
+        "status": "intact",
+        "event": "Vickon Greyjoy is elected by the ironborn to rule the Iron Islands from Pyke after Aegon I executes the Hoare pretenders.",
+        "canon": "canon"
+      }
+    ],
+    "narratorText": "Pyke is the ancient seat of House Greyjoy. Over centuries, the cliffs have eroded into the sea, leaving the castle towers standing on isolated stone spires lashed by the salt water."
+  },
+  {
+    "id": "storm_end",
+    "name": "Storm's End",
+    "type": "fortress",
+    "coordinates": { "x": 560, "y": 870 },
+    "region": "the_stormlands",
+    "description": "An ancient, massive fortress built by Durran Godsgrief. Its single colossal drum tower is protected by a shield wall that repels the storms of Shipbreaker Bay.",
+    "canon": "canon",
+    "vassals": ["griffins_roost", "rain_house", "evenfall_hall"],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "baratheon",
+        "lord": "Orys Baratheon",
+        "status": "intact",
+        "event": "Orys Baratheon slays King Argilac Durrandon, marries his daughter Argella, and is granted the castle and lands by Aegon I.",
+        "canon": "canon"
+      }
+    ],
+    "narratorText": "Storm's End is said to have magic woven into its stones to prevent spells from crossing its walls. Its massive curtain wall is eighty feet thick, designed to withstand the fury of Shipbreaker Bay."
+  },
+  {
+    "id": "sunspear",
+    "name": "Sunspear",
+    "type": "castle",
+    "coordinates": { "x": 560, "y": 1120 },
+    "region": "dorne",
+    "description": "A sprawling castle of mudbrick and gold domes located on the dry eastern coast of Dorne. The seat of the independent House Martell.",
+    "canon": "canon",
+    "vassals": ["yronwood", "starfall", "godsgrace"],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "martell",
+        "lord": "Meria Martell",
+        "status": "intact",
+        "event": "Princess Meria Martell resists Aegon's Conquest, keeping Dorne independent.",
+        "canon": "canon"
+      }
+    ],
+    "narratorText": "Sunspear consists of the Spear Tower and the Tower of the Sun, rising above the sprawling Shadow City. In Year 1 AC, it remains the only sovereign palace in Westeros, refusing to yield to Targaryen dragons."
+  },
+  {
+    "id": "white_harbor",
+    "name": "New Keep (White Harbor)",
+    "type": "castle",
+    "coordinates": { "x": 500, "y": 430 },
+    "region": "the_north",
+    "description": "The New Keep is the castle of House Manderly, overlooking the wealthy port city of White Harbor on the Knife river.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "manderly",
+        "lord": "Manderly Lord",
+        "status": "intact",
+        "event": "House Manderly develops White Harbor into a powerful northern port.",
+        "canon": "inferred"
+      }
+    ],
+    "narratorText": "White Harbor is the only true city in the North. House Manderly, originally exiled from the Reach, built the New Keep here and guards the North's eastern trade."
+  },
+  {
+    "id": "oldtown",
+    "name": "Hightower (Oldtown)",
+    "type": "fortress",
+    "coordinates": { "x": 270, "y": 990 },
+    "region": "the_reach",
+    "description": "A colossal stone lighthouse that serves as the seat of House Hightower, rising hundreds of feet over the harbor of Oldtown.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "hightower",
+        "lord": "Manfred Hightower",
+        "status": "intact",
+        "event": "Lord Manfred Hightower opens the gates of Oldtown to Aegon I, who is crowned by the High Septon in the Starry Sept.",
+        "canon": "canon"
+      }
+    ],
+    "narratorText": "The Hightower is the tallest structure in the known world, topped by a beacon fire. In Year 1 AC, it towers over Oldtown, the center of learning (the Citadel) and the Faith in Westeros."
+  },
+  {
+    "id": "moat_cailin",
+    "name": "Moat Cailin",
+    "type": "fortress",
+    "coordinates": { "x": 420, "y": 460 },
+    "region": "the_north",
+    "description": "An ancient, decaying fortress consisting of three basalt towers guarding the Neck. It is the key to defending the North from southern invasion.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "stark",
+        "lord": "Torrhen Stark",
+        "status": "intact",
+        "event": "Torrhen Stark gathers his army at Moat Cailin before marching south to confront Aegon.",
+        "canon": "canon"
+      }
+    ],
+    "narratorText": "Though mostly ruined, Moat Cailin's positioning in the swamps of the Neck makes it impossible to take from the south. Its towers command the only passable road into the North."
+  },
+  {
+    "id": "the_dreadfort",
+    "name": "The Dreadfort",
+    "type": "castle",
+    "coordinates": { "x": 480, "y": 310 },
+    "region": "the_north",
+    "description": "A sinister, thick-walled fortress located on the Weeping Water, the ancestral seat of House Bolton, long-time rivals of the Starks.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "bolton",
+        "lord": "Rogan Bolton",
+        "status": "intact",
+        "event": "House Bolton reluctantly submits to Torrhen Stark's peace with the Targaryens.",
+        "canon": "inferred"
+      }
+    ],
+    "narratorText": "The Dreadfort is notorious for its dark history of flaying enemies, a practice House Bolton officially abandoned when they swore fealty to Winterfell, though rumors persist."
+  },
+  {
+    "id": "the_twins",
+    "name": "The Twins",
+    "type": "castle",
+    "coordinates": { "x": 430, "y": 555 },
+    "region": "the_riverlands",
+    "description": "Two identical fortresses flanking the Green Fork of the Trident, connected by a heavily fortified stone bridge. Seat of House Frey.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "frey",
+        "lord": "Frey Lord",
+        "status": "intact",
+        "event": "House Frey extracts tolls from travelers crossing the Trident.",
+        "canon": "inferred"
+      }
+    ],
+    "narratorText": "The Twins control the strategic crossing of the Green Fork. Built over generations by House Frey, the bridge and its twin towers represent immense wealth and transit control."
+  },
+  {
+    "id": "karhold",
+    "name": "Karhold",
+    "type": "castle",
+    "coordinates": { "x": 530, "y": 260 },
+    "region": "the_north",
+    "description": "A cold, stone fortress built by Karlon Stark near the Shivering Sea, seat of House Karstark.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "karstark",
+        "lord": "Karstark Lord",
+        "status": "intact",
+        "event": "Karstark patrols guard the eastern coasts from wildling raiders.",
+        "canon": "inferred"
+      }
+    ],
+    "narratorText": "Karhold was founded by a younger son of Winterfell, Karlon Stark, after he defeated a rebel lord. Over centuries, Karl's Hold became Karhold and his descendants Karstarks."
+  },
+  {
+    "id": "last_hearth",
+    "name": "Last Hearth",
+    "type": "castle",
+    "coordinates": { "x": 460, "y": 240 },
+    "region": "the_north",
+    "description": "The northernmost castle of the Seven Kingdoms south of the Wall, seat of the fiercely loyal House Umber.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "umber",
+        "lord": "Umber Lord",
+        "status": "intact",
+        "event": "House Umber fights wildling raiders slipping past the Wall.",
+        "canon": "inferred"
+      }
+    ],
+    "narratorText": "Last Hearth sits near the Haunted Forest, exposed to harsh winters and constant wildling incursions. The Umbers are giants of men, hardened by their environment."
+  },
+  {
+    "id": "bear_island",
+    "name": "Mormont Keep (Bear Island)",
+    "type": "castle",
+    "coordinates": { "x": 300, "y": 250 },
+    "region": "the_north",
+    "description": "A wooden fortress built of huge logs, situated on Bear Island in the Bay of Ice. Home of House Mormont.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "mormont",
+        "lord": "Mormont Lord",
+        "status": "intact",
+        "event": "House Mormont defends the Bay of Ice from ironborn reavers.",
+        "canon": "inferred"
+      }
+    ],
+    "narratorText": "Bear Island was won by King Rodrik Stark in a wrestling match and given to the Mormonts. The keep is built of timber, and even the women are trained to fight ironborn raiders."
+  },
+  {
+    "id": "deepwood_motte",
+    "name": "Deepwood Motte",
+    "type": "castle",
+    "coordinates": { "x": 330, "y": 290 },
+    "region": "the_north",
+    "description": "A timber motte-and-bailey castle nestled deep inside the Wolfswood, seat of House Glover.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "glover",
+        "lord": "Glover Lord",
+        "status": "intact",
+        "event": "House Glover logs timber in the Wolfswood.",
+        "canon": "inferred"
+      }
+    ],
+    "narratorText": "Deepwood Motte is built of wood and earth, surrounded by a deep ditch. The Glovers rule the western forests of the North, protecting the shoreline from reavers."
+  },
+  {
+    "id": "greywater_watch",
+    "name": "Greywater Watch",
+    "type": "castle",
+    "coordinates": { "x": 410, "y": 490 },
+    "region": "the_north",
+    "description": "A floating, hidden castle built on a crannog in the swamps of the Neck. Its location moves, making it impossible to find.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "reed",
+        "lord": "Reed Lord",
+        "status": "intact",
+        "event": "The Reeds guide northern scouts through the Neck's bogs.",
+        "canon": "inferred"
+      }
+    ],
+    "narratorText": "Greywater Watch has no stone walls or towers, only thatch and floating platforms. House Reed, the crannogmen, use poison darts and swamp magic to defend the Neck."
+  },
+  {
+    "id": "seagard",
+    "name": "Seagard",
+    "type": "castle",
+    "coordinates": { "x": 350, "y": 570 },
+    "region": "the_riverlands",
+    "description": "A coastal fortress built specifically to defend the Riverlands against ironborn longships, featuring the Booming Tower.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "mallister",
+        "lord": "Mallister Lord",
+        "status": "intact",
+        "event": "House Mallister patrols the shores of the Sunset Sea.",
+        "canon": "inferred"
+      }
+    ],
+    "narratorText": "Seagard's Booming Tower houses a bronze bell that rings to warn of incoming ironborn longships. The Mallisters are renowned knights who hate the Iron Islands."
+  },
+  {
+    "id": "golden_tooth",
+    "name": "Golden Tooth",
+    "type": "fortress",
+    "coordinates": { "x": 310, "y": 620 },
+    "region": "the_westerlands",
+    "description": "A strong hill castle guarding the main pass through the hills between the Riverlands and the Westerlands. Seat of House Lefford.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "lefford",
+        "lord": "Lefford Lord",
+        "status": "intact",
+        "event": "The Lefford garrison guards the mountain passes.",
+        "canon": "inferred"
+      }
+    ],
+    "narratorText": "The Golden Tooth is a vital choke point. Any army attempting to invade the Westerlands from the east must take this steep, heavily fortified pass."
+  },
+  {
+    "id": "crakehall",
+    "name": "Crakehall",
+    "type": "castle",
+    "coordinates": { "x": 255, "y": 720 },
+    "region": "the_westerlands",
+    "description": "A sturdy fortress situated in the southern hills of the Westerlands, home of House Crakehall.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "crakehall",
+        "lord": "Crakehall Lord",
+        "status": "intact",
+        "event": "House Crakehall guards the Ocean Road approach.",
+        "canon": "inferred"
+      }
+    ],
+    "narratorText": "House Crakehall has a reputation for breeding large, powerful warriors. Their castle commands the southern border of the Westerlands near the Reach."
+  },
+  {
+    "id": "raventree_hall",
+    "name": "Raventree Hall",
+    "type": "castle",
+    "coordinates": { "x": 400, "y": 610 },
+    "region": "the_riverlands",
+    "description": "The ancient stone seat of House Blackwood in the Blackwood Vale, featuring a colossal dead Weirwood tree in its godswood.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "blackwood",
+        "lord": "Blackwood Lord",
+        "status": "intact",
+        "event": "House Blackwood rebels against Harren the Black, joining Tully and Targaryen.",
+        "canon": "canon"
+      }
+    ],
+    "narratorText": "Raventree Hall is one of the few places in the south that still worships the Old Gods. Its giant dead Weirwood tree is home to thousands of ravens that roost there at dusk."
+  },
+  {
+    "id": "stone_hedge",
+    "name": "Stone Hedge",
+    "type": "castle",
+    "coordinates": { "x": 420, "y": 620 },
+    "region": "the_riverlands",
+    "description": "The fortified seat of House Bracken, bitter enemies of House Blackwood, located in the central Riverlands.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "bracken",
+        "lord": "Bracken Lord",
+        "status": "intact",
+        "event": "House Bracken submits to Aegon I after the fall of Harrenhal.",
+        "canon": "canon"
+      }
+    ],
+    "narratorText": "Stone Hedge has been rebuilt many times due to the endless blood feud between Brackens and Blackwoods, which has raged since the Age of Heroes."
+  },
+  {
+    "id": "acorn_hall",
+    "name": "Acorn Hall",
+    "type": "castle",
+    "coordinates": { "x": 420, "y": 650 },
+    "region": "the_riverlands",
+    "description": "A small oak-walled castle situated south of the Red Fork, seat of House Smallwood.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "smallwood",
+        "lord": "Smallwood Lord",
+        "status": "intact",
+        "event": "House Smallwood joins Edmyn Tully in swearing fealty to Aegon.",
+        "canon": "inferred"
+      }
+    ],
+    "narratorText": "Acorn Hall features stone foundations with thick oaken palisades. The Smallwoods are sworn vassals of Riverrun."
+  },
+  {
+    "id": "gulltown",
+    "name": "Shett Keep (Gulltown)",
+    "type": "castle",
+    "coordinates": { "x": 630, "y": 620 },
+    "region": "the_vale",
+    "description": "The fortress guarding Gulltown, the Vale's primary port and richest trade city.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "grafton",
+        "lord": "Grafton Lord",
+        "status": "intact",
+        "event": "Gulltown harbor operates under Grafton rule, sworn to Arryn.",
+        "canon": "inferred"
+      }
+    ],
+    "narratorText": "Gulltown is a vital commercial harbor, linking the Vale's goods (wheat, barley) to the rest of the world. It is ruled by House Grafton."
+  },
+  {
+    "id": "runestone",
+    "name": "Runestone",
+    "type": "castle",
+    "coordinates": { "x": 620, "y": 595 },
+    "region": "the_vale",
+    "description": "The ancient coastal seat of House Royce, built of dark stone etched with runes of the First Men.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "royce",
+        "lord": "Royce Lord",
+        "status": "intact",
+        "event": "House Royce maintains their ancient bronze armor and runes.",
+        "canon": "inferred"
+      }
+    ],
+    "narratorText": "House Royce of Runestone is one of the most powerful houses in the Vale, tracing their lineage back to the Bronze Kings of the First Men."
+  },
+  {
+    "id": "hearts_home",
+    "name": "Heart's Home",
+    "type": "castle",
+    "coordinates": { "x": 630, "y": 570 },
+    "region": "the_vale",
+    "description": "A beautiful castle nestled in a forested valley near the waters of the Anchors, seat of House Corbray.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "corbray",
+        "lord": "Corbray Lord",
+        "status": "intact",
+        "event": "House Corbray wields the Valyrian steel sword Lady Forlorn.",
+        "canon": "inferred"
+      }
+    ],
+    "narratorText": "Heart's Home is the ancestral seat of House Corbray, who gained renown during Aegon's Conquest when Qarlton Corbray fought in the Vale campaigns."
+  },
+  {
+    "id": "driftmark",
+    "name": "Driftmark",
+    "type": "castle",
+    "coordinates": { "x": 600, "y": 755 },
+    "region": "the_crownlands",
+    "description": "The ancient, damp castle of Castle Driftmark, ancestral seat of the seafaring House Velaryon.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "velaryon",
+        "lord": "Daemon Velaryon",
+        "status": "intact",
+        "event": "Daemon Velaryon, Master of Ships for Aegon I, commands the royal fleet from Driftmark.",
+        "canon": "canon"
+      }
+    ],
+    "narratorText": "Driftmark is a low-lying island close to Dragonstone. House Velaryon, another family of Valyrian origin, has ruled it since before the Conquest, dominating the shipping lanes."
+  },
+  {
+    "id": "griffins_roost",
+    "name": "Griffin's Roost",
+    "type": "castle",
+    "coordinates": { "x": 560, "y": 830 },
+    "region": "the_stormlands",
+    "description": "A small but highly defensible castle perched on a craggy crag jutting into Shipbreaker Bay, seat of House Connington.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "connington",
+        "lord": "Connington Lord",
+        "status": "intact",
+        "event": "House Connington swears fealty to the newly elevated Orys Baratheon.",
+        "canon": "inferred"
+      }
+    ],
+    "narratorText": "Griffin's Roost is surrounded by deep water on three sides, accessible only by a narrow ridge of stone known as the griffin's neck."
+  },
+  {
+    "id": "rain_house",
+    "name": "Rain House",
+    "type": "castle",
+    "coordinates": { "x": 580, "y": 860 },
+    "region": "the_stormlands",
+    "description": "A grim stone castle situated on the forested peninsula of the Cape of Wrath, seat of House Wylde.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "wylde",
+        "lord": "Wylde Lord",
+        "status": "intact",
+        "event": "House Wylde logs timber in the Rainwood.",
+        "canon": "inferred"
+      }
+    ],
+    "narratorText": "The Rain House is named for the wet, stormy climate of the Cape of Wrath. It is surrounded by the dense Rainwood."
+  },
+  {
+    "id": "evenfall_hall",
+    "name": "Evenfall Hall",
+    "type": "castle",
+    "coordinates": { "x": 590, "y": 850 },
+    "region": "the_stormlands",
+    "description": "The beautiful coastal seat of House Tarth, located on the island of Tarth, famous for its sapphire-blue waters.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "tarth",
+        "lord": "Tarth Lord",
+        "status": "intact",
+        "event": "Tarth ships guard the straits of the Narrow Sea.",
+        "canon": "inferred"
+      }
+    ],
+    "narratorText": "Evenfall Hall sits on the eastern side of Tarth. The island's brilliant waters have led to Tarth being called the Sapphire Isle."
+  },
+  {
+    "id": "horn_hill",
+    "name": "Horn Hill",
+    "type": "castle",
+    "coordinates": { "x": 340, "y": 950 },
+    "region": "the_reach",
+    "description": "A fine castle nestled in the foothills of the Red Mountains, seat of the martial House Tarly.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "tarly",
+        "lord": "Tarly Lord",
+        "status": "intact",
+        "event": "House Tarly commands Reach infantry under Tyrell Warden of the South.",
+        "canon": "inferred"
+      }
+    ],
+    "narratorText": "Horn Hill is surrounded by rich hunting grounds and thick forests. The Tarlys are renowned soldiers who wield Heartsbane, a greatsword of Valyrian steel."
+  },
+  {
+    "id": "brightwater_keep",
+    "name": "Brightwater Keep",
+    "type": "castle",
+    "coordinates": { "x": 320, "y": 930 },
+    "region": "the_reach",
+    "description": "A beautiful, rich castle situated near the source of the Honeywine, seat of House Florent.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "florent",
+        "lord": "Florent Lord",
+        "status": "intact",
+        "event": "House Florent disputes Tyrell's claim to Highgarden, asserting closer blood ties to the Gardeners.",
+        "canon": "canon"
+      }
+    ],
+    "narratorText": "Brightwater Keep controls the upper Honeywine. The Florents trace their lineage back to Florys the Fox, claiming a superior right to rule the Reach over House Tyrell."
+  },
+  {
+    "id": "arbor",
+    "name": "Ryne Keep (The Arbor)",
+    "type": "castle",
+    "coordinates": { "x": 280, "y": 1030 },
+    "region": "the_reach",
+    "description": "The castle of House Redwyne, located on the Arbor, the premier wine-making island of Westeros.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "redwyne",
+        "lord": "Redwyne Lord",
+        "status": "intact",
+        "event": "Redwyne merchant fleets trade wine across the Narrow Sea.",
+        "canon": "inferred"
+      }
+    ],
+    "narratorText": "The Arbor produces the finest wines in Westeros. House Redwyne possesses a massive merchant and war fleet, guarding the southwestern sea approaches."
+  },
+  {
+    "id": "yronwood",
+    "name": "Yronwood",
+    "type": "fortress",
+    "coordinates": { "x": 480, "y": 1100 },
+    "region": "dorne",
+    "description": "A massive stone fortress guarding the Boneway mountain pass, seat of House Yronwood, the most powerful vassals in Dorne.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "yronwood",
+        "lord": "Yronwood Lord",
+        "status": "intact",
+        "event": "Yronwood garrisons repel Targaryen incursions through the Boneway.",
+        "canon": "inferred"
+      }
+    ],
+    "narratorText": "Yronwood is the gatekeeper of Dorne. Built of solid grey stone, it protects the northern pass and has historically competed with Sunspear for dominance."
+  },
+  {
+    "id": "starfall",
+    "name": "Starfall",
+    "type": "castle",
+    "coordinates": { "x": 340, "y": 1100 },
+    "region": "dorne",
+    "description": "A beautiful castle built on an island at the mouth of the Torrentine in western Dorne, home of House Dayne.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "dayne",
+        "lord": "Dayne Lord",
+        "status": "intact",
+        "event": "The Daynes defend the Torrentine canyons from invaders.",
+        "canon": "inferred"
+      }
+    ],
+    "narratorText": "Starfall was founded where a falling star hit the ground. The sword Dawn, wielded by the Sword of the Morning, is forged from the heart of this fallen meteor."
+  },
+  {
+    "id": "godsgrace",
+    "name": "Godsgrace",
+    "type": "castle",
+    "coordinates": { "x": 480, "y": 1080 },
+    "region": "dorne",
+    "description": "A stout mudbrick castle located at the confluence of the Scourge and the Vaith, seat of House Allyrion.",
+    "canon": "canon",
+    "vassals": [],
+    "timeline": [
+      {
+        "year": 1,
+        "house": "allyrion",
+        "lord": "Allyrion Lord",
+        "status": "intact",
+        "event": "House Allyrion guards the interior river trade lanes.",
+        "canon": "inferred"
+      }
+    ],
+    "narratorText": "Godsgrace sits where Dorne's internal rivers merge to form the Greenblood. It is a vital oasis and shipping hub in the Dornish sands."
+  }
+]

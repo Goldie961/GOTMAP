@@ -1,0 +1,107 @@
+:root {
+  /* Premium Parchment Palette */
+  --parchment: #F4E4C1;
+  --parchment-dark: #D4C4A1;
+  --parchment-light: #FFF8E7;
+  --ink: #2C1810;
+  --ink-light: #5C4830;
+  --ink-faint: #8B7355;
+  --gold: #C5A55A;
+  --gold-bright: #E8D48B;
+  --gold-dark: #8B7340;
+  --sea: #7BA5B5;
+  --sea-deep: #4A7585;
+  --sea-light: #9DC5D5;
+  --forest: #4A6741;
+  --mountain: #8B7355;
+  --road: #A08060;
+  --blood: #8B0000;
+  --fire: #CC4400;
+  --ice: #B0C4DE;
+  --night: #0a0a2a;
+  
+  --transition-speed: 0.3s;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--ink);
+  color: var(--ink);
+  font-family: 'Crimson Text', serif;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+#app {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--parchment-light);
+  border-left: 1px solid var(--parchment-dark);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--parchment-dark);
+  border: 2px solid var(--parchment-light);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold-dark);
+}
+
+/* Loading Screen */
+#loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, var(--parchment-light) 0%, var(--parchment) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  transition: opacity 0.5s ease;
+}
+#loading-screen.fade-out {
+  opacity: 0;
+  pointer-events: none;
+}
+.loading-content {
+  text-align: center;
+}
+.loading-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.loading-bar {
+  width: 300px;
+  height: 4px;
+  background: var(--parchment-dark);
+  margin: 1.5rem auto 0;
+  position: relative;
+  overflow: hidden;
+  border-radius: 2px;
+}
+.loading-progress {
+  width: 0%;
+  height: 100%;
+  background: var(--gold);
+  transition: width 0.3s ease;
+}

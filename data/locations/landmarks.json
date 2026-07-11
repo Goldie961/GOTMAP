@@ -1,0 +1,77 @@
+[
+  {
+    "id": "the_wall",
+    "name": "The Wall",
+    "type": "landmark",
+    "coordinates": { "x": 450, "y": 180 },
+    "region": "beyond_the_wall",
+    "description": "A colossal barrier of solid ice, stone, and ancient magic, stretching 300 miles from the Gorge to the Bay of Seals. It stands over 700 feet tall.",
+    "canon": "canon",
+    "timeline": [
+      {
+        "year": -8000,
+        "house": "nights_watch",
+        "lord": "Brandon the Builder",
+        "status": "intact",
+        "event": "The Wall is constructed to defend the realms of men.",
+        "canon": "inferred"
+      }
+    ],
+    "narratorText": "The Wall is the legendary shield of the Seven Kingdoms. Built with ice and reinforced with old runes, it is guarded by the Night's Watch, who staff several castles along its base."
+  },
+  {
+    "id": "gods_eye",
+    "name": "The God's Eye",
+    "type": "landmark",
+    "coordinates": { "x": 450, "y": 690 },
+    "region": "the_riverlands",
+    "description": "The largest lake in Westeros, containing deep, mysterious waters and acting as the southern border of Harrenhal.",
+    "canon": "canon",
+    "timeline": [],
+    "narratorText": "The God's Eye is a sacred body of water, steeped in history. The Pact between the Children of the Forest and the First Men was signed here, ending their war."
+  },
+  {
+    "id": "isle_of_faces",
+    "name": "Isle of Faces",
+    "type": "landmark",
+    "coordinates": { "x": 455, "y": 695 },
+    "region": "the_riverlands",
+    "description": "A mysterious island in the center of the God's Eye, covered in ancient weirwood trees with carved faces, guarded by the Green Men.",
+    "canon": "canon",
+    "timeline": [],
+    "narratorText": "The Isle of Faces is one of the last remaining sanctuaries of the Children of the Forest's religion in the south. The faces carved into the weirwoods keep watch over the lake."
+  },
+  {
+    "id": "the_neck",
+    "name": "The Neck",
+    "type": "natural",
+    "coordinates": { "x": 410, "y": 480 },
+    "region": "the_north",
+    "description": "A swampy, waterlogged isthmus that connects the North to the south. It is filled with quicksand, alligators, and floating peat bog.",
+    "canon": "canon",
+    "timeline": [],
+    "narratorText": "The Neck is a formidable natural defense. It is inhabited by crannogmen, who use guerrilla warfare to annihilate any hostile force trying to march north."
+  },
+  {
+    "id": "fist_of_first_men",
+    "name": "Fist of the First Men",
+    "type": "landmark",
+    "coordinates": { "x": 380, "y": 120 },
+    "region": "beyond_the_wall",
+    "description": "An ancient ring fort built on a steep hill deep in the Haunted Forest, commanding a view of the surrounding wilderness.",
+    "canon": "canon",
+    "timeline": [],
+    "narratorText": "The Fist is a natural defensive position used by the First Men thousands of years ago. It stands as a lonely stone crown overlooking the wild forest."
+  },
+  {
+    "id": "crasters_keep",
+    "name": "Craster's Keep",
+    "type": "natural",
+    "coordinates": { "x": 410, "y": 150 },
+    "region": "beyond_the_wall",
+    "description": "A crude homestead located in the Haunted Forest, inhabited by the wildling Craster and his many wives.",
+    "canon": "canon",
+    "timeline": [],
+    "narratorText": "A simple wooden hall and pigsty, Craster's Keep serves as a crucial, if hostile, staging post for Night's Watch rangings north of the Wall."
+  }
+]

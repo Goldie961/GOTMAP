@@ -1,0 +1,64 @@
+{
+  "regions": [
+    {
+      "id": "beyond_the_wall",
+      "name": "Beyond the Wall",
+      "path": "M 310 185 L 310 100 L 400 50 L 500 60 L 600 100 L 600 175 L 420 180 Z",
+      "labelPosition": { "x": 450, "y": 120 }
+    },
+    {
+      "id": "the_north",
+      "name": "The North",
+      "path": "M 310 185 L 420 180 L 600 175 L 610 250 L 550 350 L 520 440 L 480 470 L 450 490 L 410 490 L 350 470 L 320 440 L 300 350 L 320 280 Z",
+      "labelPosition": { "x": 420, "y": 360 }
+    },
+    {
+      "id": "the_riverlands",
+      "name": "The Riverlands",
+      "path": "M 350 470 L 410 490 L 450 490 L 480 470 L 520 440 L 540 520 L 560 550 L 540 600 L 520 630 L 480 650 L 450 670 L 420 680 L 380 650 L 350 600 L 330 560 Z",
+      "labelPosition": { "x": 430, "y": 620 }
+    },
+    {
+      "id": "the_vale",
+      "name": "The Vale",
+      "path": "M 520 440 L 550 350 L 610 250 L 650 380 L 680 480 L 660 580 L 630 630 L 600 650 L 560 550 L 540 520 Z",
+      "labelPosition": { "x": 610, "y": 550 }
+    },
+    {
+      "id": "the_iron_islands",
+      "name": "The Iron Islands",
+      "path": "M 180 560 L 230 560 L 230 620 L 180 620 Z",
+      "labelPosition": { "x": 205, "y": 605 }
+    },
+    {
+      "id": "the_westerlands",
+      "name": "The Westerlands",
+      "path": "M 330 560 L 350 600 L 380 650 L 420 680 L 420 710 L 380 730 L 320 750 L 260 740 L 240 670 L 280 600 Z",
+      "labelPosition": { "x": 300, "y": 680 }
+    },
+    {
+      "id": "the_crownlands",
+      "name": "The Crownlands",
+      "path": "M 480 650 L 520 630 L 600 650 L 630 730 L 610 800 L 550 810 L 490 800 L 450 780 L 420 710 Z",
+      "labelPosition": { "x": 540, "y": 750 }
+    },
+    {
+      "id": "the_reach",
+      "name": "The Reach",
+      "path": "M 320 750 L 380 730 L 420 710 L 450 780 L 490 800 L 490 850 L 460 900 L 440 950 L 340 980 L 280 1020 L 240 950 L 250 850 L 260 780 Z",
+      "labelPosition": { "x": 350, "y": 880 }
+    },
+    {
+      "id": "the_stormlands",
+      "name": "The Stormlands",
+      "path": "M 490 800 L 550 810 L 610 800 L 620 860 L 590 910 L 530 920 L 480 910 L 460 900 L 490 850 Z",
+      "labelPosition": { "x": 550, "y": 860 }
+    },
+    {
+      "id": "dorne",
+      "name": "Dorne",
+      "path": "M 340 980 L 440 950 L 460 900 L 480 910 L 530 920 L 590 910 L 600 1000 L 580 1100 L 560 1150 L 480 1150 L 380 1120 L 300 1080 Z",
+      "labelPosition": { "x": 460, "y": 1050 }
+    }
+  ]
+}

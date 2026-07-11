@@ -1,0 +1,268 @@
+[
+  {
+    "id": "aegon_i",
+    "name": "Aegon I Targaryen",
+    "titles": ["King of the Andals, the Rhoynar, and the First Men", "Lord of the Seven Kingdoms", "Protector of the Realm", "Aegon the Conqueror", "Aegon the Dragon"],
+    "house": "targaryen",
+    "born": -27,
+    "died": 37,
+    "canon": "canon",
+    "description": "The founder of the Targaryen dynasty. Aegon, riding the black dragon Balerion, conquered and unified six of the Seven Kingdoms of Westeros.",
+    "timeline": [
+      {
+        "year": 1,
+        "location": "kings_landing",
+        "role": "King",
+        "event": "Crowned at Oldtown, Aegon establishes his capital at King's Landing and begins building the kingdom.",
+        "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "visenya_targaryen",
+    "name": "Visenya Targaryen",
+    "titles": ["Queen of the Seven Kingdoms", "Sister-Wife of Aegon I"],
+    "house": "targaryen",
+    "born": -29,
+    "died": 44,
+    "canon": "canon",
+    "description": "The elder sister-wife of Aegon I. A fierce warrior, she rode the dragon Vhagar, wielded the Valyrian steel sword Dark Sister, and oversaw the conquest of the Vale.",
+    "timeline": [
+      {
+        "year": 1,
+        "location": "kings_landing",
+        "role": "Queen",
+        "event": "Assists Aegon in administration and designs the Kingsguard protection.",
+        "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "rhaenys_targaryen",
+    "name": "Rhaenys Targaryen",
+    "titles": ["Queen of the Seven Kingdoms", "Sister-Wife of Aegon I"],
+    "house": "targaryen",
+    "born": -25,
+    "died": 10,
+    "canon": "canon",
+    "description": "The younger, more playful sister-wife of Aegon I. She rode the dragon Meraxes, loved music and poetry, and helped win the Stormlands.",
+    "timeline": [
+      {
+        "year": 1,
+        "location": "kings_landing",
+        "role": "Queen",
+        "event": "Patronizes singers and fosters diplomatic ties across the realm.",
+        "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "orys_baratheon",
+    "name": "Orys Baratheon",
+    "titles": ["Lord of Storm's End", "Hand of the King", "Orys One-Hand"],
+    "house": "baratheon",
+    "born": -25,
+    "died": 38,
+    "canon": "canon",
+    "description": "Aegon's close friend and rumored half-brother. Orys slew King Argilac, married his daughter Argella, and became the first Hand of the King and founder of House Baratheon.",
+    "timeline": [
+      {
+        "year": 1,
+        "location": "storm_end",
+        "role": "Lord Hand",
+        "event": "Rules the Stormlands from Storm's End and serves as Aegon's primary commander.",
+        "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "torrhen_stark",
+    "name": "Torrhen Stark",
+    "titles": ["Lord of Winterfell", "Warden of the North", "The King Who Knelt"],
+    "house": "stark",
+    "born": null,
+    "died": null,
+    "canon": "canon",
+    "description": "The last King in the North. Torrhen Stark marched a large army south to fight Aegon but bent the knee after seeing the scale of Targaryen forces and dragons.",
+    "timeline": [
+      {
+        "year": 1,
+        "location": "winterfell",
+        "role": "Warden of the North",
+        "event": "Enforces the peace of the Dragon in the North, facing some political backlash from his brothers.",
+        "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "loren_lannister",
+    "name": "Loren I Lannister",
+    "titles": ["Lord of Casterly Rock", "Warden of the West", "Loren the Last"],
+    "house": "lannister",
+    "born": null,
+    "died": null,
+    "canon": "canon",
+    "description": "The last King of the Rock. He allied with Mern Gardener to fight Aegon on the Field of Fire, escaped the blaze, submitted, and was named Warden of the West.",
+    "timeline": [
+      {
+        "year": 1,
+        "location": "casterly_rock",
+        "role": "Warden of the West",
+        "event": "Integrates the Westerlands into the royal economy, resuming gold flow.",
+        "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "edmyn_tully",
+    "name": "Edmyn Tully",
+    "titles": ["Lord of Riverrun", "Lord Paramount of the Trident"],
+    "house": "tully",
+    "born": null,
+    "died": 37,
+    "canon": "canon",
+    "description": "The first Tully Lord Paramount. Edmyn led the Riverlands rebellion against King Harren the Black, swearing fealty to Aegon before Harrenhal burned.",
+    "timeline": [
+      {
+        "year": 1,
+        "location": "riverrun",
+        "role": "Lord Paramount",
+        "event": "Accepts fealty from the other river lords, pacifying the central kingdoms.",
+        "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "harlan_tyrell",
+    "name": "Harlan Tyrell",
+    "titles": ["Lord of Highgarden", "Warden of the South"],
+    "house": "tyrell",
+    "born": null,
+    "died": 5,
+    "canon": "canon",
+    "description": "The high steward of Highgarden who yielded the castle to Aegon after House Gardener was extinguished. Aegon rewarded his surrender with the castle and rule of the Reach.",
+    "timeline": [
+      {
+        "year": 1,
+        "location": "highgarden",
+        "role": "Warden of the South",
+        "event": "Consolidates his rule over the Reach, facing coldness from Florents and Oakhearts.",
+        "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "ronnel_arryn",
+    "name": "Ronnel Arryn",
+    "titles": ["Lord of the Eyrie", "Warden of the East", "The King Who Flew"],
+    "house": "arryn",
+    "born": -5,
+    "died": 37,
+    "canon": "canon",
+    "description": "The boy king who surrendered the Vale. When Queen Visenya flew Vhagar to the Eyrie, Ronnel was found sitting on her lap, asking if he could ride the dragon.",
+    "timeline": [
+      {
+        "year": 1,
+        "location": "the_eyrie",
+        "role": "Lord of the Eyrie",
+        "event": "Ronnel rules the Vale under the regency of his mother, Sharra Arryn.",
+        "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "sharra_arryn",
+    "name": "Sharra Arryn",
+    "titles": ["Queen Regent of the Vale", "Mother of Ronnel Arryn"],
+    "house": "arryn",
+    "born": null,
+    "died": null,
+    "canon": "canon",
+    "description": "The regent who ruled the Vale for her young son Ronnel. Known as the 'Flower of the Vale', she submitted after Visenya flew over their defenses.",
+    "timeline": [
+      {
+        "year": 1,
+        "location": "the_eyrie",
+        "role": "Regent",
+        "event": "Assists her son in governing the mountain clans and sea ports.",
+        "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "vickon_greyjoy",
+    "name": "Vickon Greyjoy",
+    "titles": ["Lord of Pyke", "Lord of the Iron Islands"],
+    "house": "greyjoy",
+    "born": null,
+    "died": 33,
+    "canon": "canon",
+    "description": "The first Greyjoy ruler of the Iron Islands. Vickon was elected by the ironborn lords in 2 AC after Aegon executed the remaining Hoares.",
+    "timeline": [
+      {
+        "year": 1,
+        "location": "pyke",
+        "role": "Lord of the Iron Islands",
+        "event": "Appointed by election, Vickon enforces royal laws and discourages reaving.",
+        "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "meria_martell",
+    "name": "Meria Martell",
+    "titles": ["Princess of Dorne", "The Yellow Toad of Dorne"],
+    "house": "martell",
+    "born": -20,
+    "died": 13,
+    "canon": "canon",
+    "description": "The eighty-year-old, blind ruler of Dorne who resisted Aegon. She told Rhaenys that Dorne would fight and refuse to bend, successfully holding off the dragons.",
+    "timeline": [
+      {
+        "year": 1,
+        "location": "sunspear",
+        "role": "Princess of Dorne",
+        "event": "Refuses Rhaenys' terms of surrender, declaring Dorne will stay sovereign.",
+        "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "daemon_velaryon",
+    "name": "Daemon Velaryon",
+    "titles": ["Lord of Driftmark", "Master of Ships"],
+    "house": "velaryon",
+    "born": null,
+    "died": -2,
+    "canon": "canon",
+    "description": "Aegon's first Master of Ships. He commanded the fleet during the conquest and was slain by Arryn forces at the battle in Gulltown harbor.",
+    "timeline": [
+      {
+        "year": -2,
+        "location": "driftmark",
+        "role": "Master of Ships",
+        "event": "Slain in the Gulltown naval combat.",
+        "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "crispian_celtigar",
+    "name": "Crispian Celtigar",
+    "titles": ["Lord of Claw Isle", "Master of Coin"],
+    "house": "celtigar",
+    "born": null,
+    "died": null,
+    "canon": "canon",
+    "description": "A Valyrian nobleman who served as Aegon's first Master of Coin, establishing the realm's taxation and treasury systems.",
+    "timeline": [
+      {
+        "year": 1,
+        "location": "kings_landing",
+        "role": "Master of Coin",
+        "event": "Manages treasury operations and taxes for the newly unified Seven Kingdoms.",
+        "canon": "canon"
+      }
+    ]
+  }
+]

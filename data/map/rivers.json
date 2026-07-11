@@ -1,0 +1,72 @@
+{
+  "rivers": [
+    {
+      "id": "trident",
+      "name": "The Trident",
+      "branches": [
+        {
+          "name": "Green Fork",
+          "path": "M 430 555 Q 420 580 440 605 T 460 660",
+          "width": 2
+        },
+        {
+          "name": "Blue Fork",
+          "path": "M 350 570 Q 380 580 410 610 T 460 660",
+          "width": 1.5
+        },
+        {
+          "name": "Red Fork",
+          "path": "M 390 630 Q 420 640 440 650 T 460 660",
+          "width": 2
+        },
+        {
+          "name": "Main Stem",
+          "path": "M 460 660 Q 480 670 490 690",
+          "width": 3
+        }
+      ]
+    },
+    {
+      "id": "blackwater",
+      "name": "The Blackwater Rush",
+      "path": "M 410 690 Q 450 720 490 750 T 530 770",
+      "width": 2.5
+    },
+    {
+      "id": "mander",
+      "name": "The Mander",
+      "path": "M 450 780 Q 400 810 350 830 T 310 900 T 250 850",
+      "width": 3
+    },
+    {
+      "id": "honeywine",
+      "name": "The Honeywine",
+      "path": "M 320 930 Q 300 950 280 970 T 270 990",
+      "width": 1.5
+    },
+    {
+      "id": "white_knife",
+      "name": "The White Knife",
+      "path": "M 410 340 Q 450 380 480 400 T 500 430",
+      "width": 2
+    },
+    {
+      "id": "fever_river",
+      "name": "Fever River",
+      "path": "M 420 460 Q 380 460 350 470",
+      "width": 1.5
+    },
+    {
+      "id": "greenblood",
+      "name": "The Greenblood",
+      "path": "M 480 1080 Q 500 1100 520 1120 T 540 1140",
+      "width": 2
+    },
+    {
+      "id": "torrentine",
+      "name": "The Torrentine",
+      "path": "M 340 1100 L 340 1130",
+      "width": 1.5
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "balerion",
+    "name": "Balerion",
+    "epithet": "The Black Dread",
+    "color": "#111111",
+    "born": -114,
+    "died": 94,
+    "birthplace": "valyria",
+    "canon": "canon",
+    "description": "The largest and oldest of the Targaryen dragons, the only one born in Valyria. His scales and wings were black, and his fire was said to melt stone. He was ridden by Aegon I during the Conquest.",
+    "riders": [
+      {
+        "character": "aegon_i",
+        "from": -2,
+        "to": 37,
+        "canon": "canon"
+      }
+    ],
+    "timeline": [
+      {
+        "year": -2,
+        "location": "harrenhal",
+        "event": "Balerion burns Harrenhal, destroying Harren the Black and his line.",
+        "canon": "canon"
+      },
+      {
+        "year": 1,
+        "location": "kings_landing",
+        "event": "Resides with Aegon I at the rising capital of King's Landing.",
+        "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "vhagar",
+    "name": "Vhagar",
+    "epithet": "The Bronze Fury",
+    "color": "#8B5A2B",
+    "born": -51,
+    "died": 130,
+    "birthplace": "dragonstone",
+    "canon": "canon",
+    "description": "A fierce bronze-and-green dragon ridden by Queen Visenya Targaryen. During the Conquest, Vhagar's size was third to Balerion, but she grew to equal him in size in her old age.",
+    "riders": [
+      {
+        "character": "visenya_targaryen",
+        "from": -2,
+        "to": 44,
+        "canon": "canon"
+      }
+    ],
+    "timeline": [
+      {
+        "year": -2,
+        "location": "the_eyrie",
+        "event": "Vhagar lands in the Eyrie courtyard, prompting Sharra Arryn to surrender.",
+        "canon": "canon"
+      },
+      {
+        "year": 1,
+        "location": "kings_landing",
+        "event": "Vhagar resides with Queen Visenya.",
+        "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "meraxes",
+    "name": "Meraxes",
+    "epithet": "The Golden-Eyed Queen",
+    "color": "#C0C0C0",
+    "born": -52,
+    "died": 10,
+    "birthplace": "dragonstone",
+    "canon": "canon",
+    "description": "A massive silver-grey dragon ridden by Queen Rhaenys Targaryen, known for her gold eyes and great speed. Meraxes was larger than Vhagar during the Conquest.",
+    "riders": [
+      {
+        "character": "rhaenys_targaryen",
+        "from": -2,
+        "to": 10,
+        "canon": "canon"
+      }
+    ],
+    "timeline": [
+      {
+        "year": -2,
+        "location": "storm_end",
+        "event": "Meraxes blasts Argilac's host at the Last Storm.",
+        "canon": "canon"
+      },
+      {
+        "year": 1,
+        "location": "kings_landing",
+        "event": "Meraxes resides with Queen Rhaenys.",
+        "canon": "canon"
+      }
+    ]
+  }
+]

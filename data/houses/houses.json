@@ -1,0 +1,572 @@
+[
+  {
+    "id": "targaryen",
+    "name": "House Targaryen",
+    "words": "Fire and Blood",
+    "seat": "dragonstone",
+    "region": "the_crownlands",
+    "colors": {
+      "primary": "#8B0000",
+      "secondary": "#1a1a1a"
+    },
+    "sigil": "A three-headed red dragon breathing fire on a black field.",
+    "founded": "Ancient Valyria",
+    "canon": "canon",
+    "timeline": [
+      {
+        "year": 1,
+        "lord": "Aegon I Targaryen",
+        "title": "King of the Andals, the Rhoynar, and the First Men, Lord of the Seven Kingdoms",
+        "event": "Aegon completes his Conquest and is crowned at Oldtown.",
+        "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "stark",
+    "name": "House Stark",
+    "words": "Winter Is Coming",
+    "seat": "winterfell",
+    "region": "the_north",
+    "colors": {
+      "primary": "#708090",
+      "secondary": "#F5F5F5"
+    },
+    "sigil": "A grey direwolf running across an ice-white field.",
+    "founded": "Age of Heroes",
+    "canon": "canon",
+    "timeline": [
+      {
+        "year": 1,
+        "lord": "Torrhen Stark",
+        "title": "Lord of Winterfell, Warden of the North",
+        "event": "Torrhen bends the knee, relinquishing his crown to become Warden.",
+        "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "lannister",
+    "name": "House Lannister",
+    "words": "Hear Me Roar!",
+    "seat": "casterly_rock",
+    "region": "the_westerlands",
+    "colors": {
+      "primary": "#DAA520",
+      "secondary": "#8B0000"
+    },
+    "sigil": "A golden lion rampant on a crimson field.",
+    "founded": "Age of Heroes",
+    "canon": "canon",
+    "timeline": [
+      {
+        "year": 1,
+        "lord": "Loren Lannister",
+        "title": "Lord of Casterly Rock, Warden of the West",
+        "event": "Loren survives the Field of Fire and is named Warden of the West.",
+        "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "baratheon",
+    "name": "House Baratheon",
+    "words": "Ours Is the Fury",
+    "seat": "storm_end",
+    "region": "the_stormlands",
+    "colors": {
+      "primary": "#FFD700",
+      "secondary": "#1a1a1a"
+    },
+    "sigil": "A crowned black stag leaping on a golden field.",
+    "founded": "1 AC (Aegon's Conquest)",
+    "canon": "canon",
+    "timeline": [
+      {
+        "year": 1,
+        "lord": "Orys Baratheon",
+        "title": "Lord Paramount of the Stormlands, Hand of the King",
+        "event": "Orys founds the house, marrying Argella Durrandon and taking her sigil.",
+        "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "tyrell",
+    "name": "House Tyrell",
+    "words": "Growing Strong",
+    "seat": "highgarden",
+    "region": "the_reach",
+    "colors": {
+      "primary": "#228B22",
+      "secondary": "#FFD700"
+    },
+    "sigil": "A golden rose on a grass-green field.",
+    "founded": "Age of Heroes (as Stewards)",
+    "canon": "canon",
+    "timeline": [
+      {
+        "year": 1,
+        "lord": "Harlan Tyrell",
+        "title": "Lord Paramount of the Reach, Warden of the South",
+        "event": "Harlan is elevated to Lord Paramount after yielding Highgarden.",
+        "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "tully",
+    "name": "House Tully",
+    "words": "Family, Duty, Honor",
+    "seat": "riverrun",
+    "region": "the_riverlands",
+    "colors": {
+      "primary": "#4169E1",
+      "secondary": "#DC143C"
+    },
+    "sigil": "A leaping silver trout on a field of blue and red ripples.",
+    "founded": "Age of Heroes",
+    "canon": "canon",
+    "timeline": [
+      {
+        "year": 1,
+        "lord": "Edmyn Tully",
+        "title": "Lord Paramount of the Trident",
+        "event": "Edmyn is elevated to Lord Paramount of the Riverlands by Aegon I.",
+        "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "arryn",
+    "name": "House Arryn",
+    "words": "As High as Honor",
+    "seat": "the_eyrie",
+    "region": "the_vale",
+    "colors": {
+      "primary": "#4682B4",
+      "secondary": "#F5F5F5"
+    },
+    "sigil": "A sky-blue falcon and crescent moon on a white field.",
+    "founded": "Andal Invasion",
+    "canon": "canon",
+    "timeline": [
+      {
+        "year": 1,
+        "lord": "Ronnel Arryn",
+        "title": "Lord of the Eyrie, Warden of the East",
+        "event": "Ronnel, a child, submits alongside his regent mother Sharra.",
+        "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "greyjoy",
+    "name": "House Greyjoy",
+    "words": "We Do Not Sow",
+    "seat": "pyke",
+    "region": "the_iron_islands",
+    "colors": {
+      "primary": "#2F4F4F",
+      "secondary": "#FFD700"
+    },
+    "sigil": "A golden kraken on a black field.",
+    "founded": "Age of Heroes",
+    "canon": "canon",
+    "timeline": [
+      {
+        "year": 1,
+        "lord": "Vickon Greyjoy",
+        "title": "Lord of the Iron Islands",
+        "event": "Vickon is chosen by the ironborn after Aegon allows them to elect their lord.",
+        "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "martell",
+    "name": "House Nymeros Martell",
+    "words": "Unbowed, Unbent, Unbroken",
+    "seat": "sunspear",
+    "region": "dorne",
+    "colors": {
+      "primary": "#FF8C00",
+      "secondary": "#8B0000"
+    },
+    "sigil": "A gold spear piercing a red sun on an orange field.",
+    "founded": "Rhoynish Invasion",
+    "canon": "canon",
+    "timeline": [
+      {
+        "year": 1,
+        "lord": "Meria Martell",
+        "title": "Princess of Dorne",
+        "event": "Meria defies the Targaryen conquest, remaining independent.",
+        "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "bolton",
+    "name": "House Bolton",
+    "words": "Our Blades Are Sharp",
+    "seat": "the_dreadfort",
+    "region": "the_north",
+    "colors": {
+      "primary": "#8B0000",
+      "secondary": "#FFC0CB"
+    },
+    "sigil": "A red flayed man hanging upside down on a pink field.",
+    "founded": "Age of Heroes",
+    "canon": "canon",
+    "timeline": [
+      {
+        "year": 1,
+        "lord": "Rogan Bolton",
+        "title": "Lord of the Dreadfort",
+        "event": "House Bolton swears fealty to Winterfell's Warden.",
+        "canon": "inferred"
+      }
+    ]
+  },
+  {
+    "id": "karstark",
+    "name": "House Karstark",
+    "words": "The Sun of Winter",
+    "seat": "karhold",
+    "region": "the_north",
+    "colors": {
+      "primary": "#333333",
+      "secondary": "#FFFFFF"
+    },
+    "sigil": "A white sunburst on a black field.",
+    "founded": "Karlon Stark",
+    "canon": "canon",
+    "timeline": [
+      {
+        "year": 1,
+        "lord": "Karstark Lord",
+        "title": "Lord of Karhold",
+        "event": "House Karstark obeys the peace of Torrhen Stark.",
+        "canon": "inferred"
+      }
+    ]
+  },
+  {
+    "id": "umber",
+    "name": "House Umber",
+    "words": "Sworn to Winterfell",
+    "seat": "last_hearth",
+    "region": "the_north",
+    "colors": {
+      "primary": "#8A4A3B",
+      "secondary": "#D2B48C"
+    },
+    "sigil": "A roaring giant in furs with broken silver chains on dark red.",
+    "founded": "Age of Heroes",
+    "canon": "inferred",
+    "timeline": []
+  },
+  {
+    "id": "mormont",
+    "name": "House Mormont",
+    "words": "Here We Stand",
+    "seat": "bear_island",
+    "region": "the_north",
+    "colors": {
+      "primary": "#1E4620",
+      "secondary": "#C0C0C0"
+    },
+    "sigil": "A black bear in a green wood.",
+    "founded": "Rodrik Stark",
+    "canon": "canon",
+    "timeline": []
+  },
+  {
+    "id": "manderly",
+    "name": "House Manderly",
+    "words": "Our Reach is Deep",
+    "seat": "white_harbor",
+    "region": "the_north",
+    "colors": {
+      "primary": "#008080",
+      "secondary": "#FFFDD0"
+    },
+    "sigil": "A white merman with dark green hair holding a trident on a blue-green field.",
+    "founded": "Exiled from Reach",
+    "canon": "canon",
+    "timeline": []
+  },
+  {
+    "id": "reed",
+    "name": "House Reed",
+    "words": "Sworn to Winterfell",
+    "seat": "greywater_watch",
+    "region": "the_north",
+    "colors": {
+      "primary": "#4F7942",
+      "secondary": "#8FBC8F"
+    },
+    "sigil": "A black lizard-lion on a grey-green field.",
+    "founded": "Age of Heroes",
+    "canon": "inferred",
+    "timeline": []
+  },
+  {
+    "id": "hightower",
+    "name": "House Hightower",
+    "words": "We Light the Way",
+    "seat": "oldtown",
+    "region": "the_reach",
+    "colors": {
+      "primary": "#E8E8E8",
+      "secondary": "#808080"
+    },
+    "sigil": "A stone watchtower topped with a crown of fire on grey.",
+    "founded": "Age of Heroes",
+    "canon": "canon",
+    "timeline": [
+      {
+        "year": 1,
+        "lord": "Manfred Hightower",
+        "title": "Lord of Oldtown, Voice of the Reach",
+        "event": "Manfred Hightower welcomes Aegon I into Oldtown for coronation.",
+        "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "redwyne",
+    "name": "House Redwyne",
+    "words": "None so Sweet",
+    "seat": "arbor",
+    "region": "the_reach",
+    "colors": {
+      "primary": "#722F37",
+      "secondary": "#DAA520"
+    },
+    "sigil": "A burgundy grape cluster on a gold field.",
+    "founded": "Age of Heroes",
+    "canon": "canon",
+    "timeline": []
+  },
+  {
+    "id": "florent",
+    "name": "House Florent",
+    "words": "Bright and Bold",
+    "seat": "brightwater_keep",
+    "region": "the_reach",
+    "colors": {
+      "primary": "#CC5500",
+      "secondary": "#FFF8E7"
+    },
+    "sigil": "A golden fox head surrounded by blue flowers.",
+    "founded": "Age of Heroes",
+    "canon": "canon",
+    "timeline": []
+  },
+  {
+    "id": "tarly",
+    "name": "House Tarly",
+    "words": "First in Battle",
+    "seat": "horn_hill",
+    "region": "the_reach",
+    "colors": {
+      "primary": "#006400",
+      "secondary": "#8B0000"
+    },
+    "sigil": "A striding red huntsman on a green field.",
+    "founded": "Age of Heroes",
+    "canon": "canon",
+    "timeline": []
+  },
+  {
+    "id": "dayne",
+    "name": "House Dayne",
+    "words": "Sworn to Sunspear",
+    "seat": "starfall",
+    "region": "dorne",
+    "colors": {
+      "primary": "#4B0082",
+      "secondary": "#FFFFFF"
+    },
+    "sigil": "A sword and falling star on a lavender field.",
+    "founded": "Dawn of History",
+    "canon": "canon",
+    "timeline": []
+  },
+  {
+    "id": "yronwood",
+    "name": "House Yronwood",
+    "words": "We Guard the Way",
+    "seat": "yronwood",
+    "region": "dorne",
+    "colors": {
+      "primary": "#D4AF37",
+      "secondary": "#000000"
+    },
+    "sigil": "A black portcullis on a yellow field.",
+    "founded": "Age of Heroes",
+    "canon": "canon",
+    "timeline": []
+  },
+  {
+    "id": "connington",
+    "name": "House Connington",
+    "words": "A Fierce Friend",
+    "seat": "griffins_roost",
+    "region": "the_stormlands",
+    "colors": {
+      "primary": "#DC143C",
+      "secondary": "#FFFFFF"
+    },
+    "sigil": "Two griffins combatant, red and white, on a white field.",
+    "founded": "Age of Heroes",
+    "canon": "canon",
+    "timeline": []
+  },
+  {
+    "id": "selmy",
+    "name": "House Selmy",
+    "words": "Loyal and True",
+    "seat": "harvest_hall",
+    "region": "the_stormlands",
+    "colors": {
+      "primary": "#F0E68C",
+      "secondary": "#A0522D"
+    },
+    "sigil": "Three stalks of yellow wheat on a brown field.",
+    "founded": "inferred",
+    "canon": "inferred",
+    "timeline": []
+  },
+  {
+    "id": "frey",
+    "name": "House Frey",
+    "words": "We Stand Together",
+    "seat": "the_twins",
+    "region": "the_riverlands",
+    "colors": {
+      "primary": "#708090",
+      "secondary": "#4169E1"
+    },
+    "sigil": "Two blue towers on a grey field, connected by a bridge.",
+    "founded": "600 years ago",
+    "canon": "canon",
+    "timeline": []
+  },
+  {
+    "id": "blackwood",
+    "name": "House Blackwood",
+    "words": "Sworn to Riverrun",
+    "seat": "raventree_hall",
+    "region": "the_riverlands",
+    "colors": {
+      "primary": "#111111",
+      "secondary": "#8B0000"
+    },
+    "sigil": "A flock of black ravens surrounding a dead Weirwood on a scarlet field.",
+    "founded": "Age of Heroes",
+    "canon": "canon",
+    "timeline": []
+  },
+  {
+    "id": "bracken",
+    "name": "House Bracken",
+    "words": "Sworn to Riverrun",
+    "seat": "stone_hedge",
+    "region": "the_riverlands",
+    "colors": {
+      "primary": "#A52A2A",
+      "secondary": "#DAA520"
+    },
+    "sigil": "A red stallion rampant on a gold shield.",
+    "founded": "Age of Heroes",
+    "canon": "canon",
+    "timeline": []
+  },
+  {
+    "id": "mallister",
+    "name": "House Mallister",
+    "words": "Above the Rest",
+    "seat": "seagard",
+    "region": "the_riverlands",
+    "colors": {
+      "primary": "#4682B4",
+      "secondary": "#4B5320"
+    },
+    "sigil": "A silver eagle flying on an indigo field.",
+    "founded": "Andal Invasion",
+    "canon": "canon",
+    "timeline": []
+  },
+  {
+    "id": "velaryon",
+    "name": "House Velaryon",
+    "words": "The Old, the True, the Brave",
+    "seat": "driftmark",
+    "region": "the_crownlands",
+    "colors": {
+      "primary": "#008B8B",
+      "secondary": "#C0C0C0"
+    },
+    "sigil": "A silver seahorse on a sea-green field.",
+    "founded": "Before Valyria's rise",
+    "canon": "canon",
+    "timeline": [
+      {
+        "year": 1,
+        "lord": "Daemon Velaryon",
+        "title": "Lord of Driftmark, Master of Ships",
+        "event": "Daemon is named Aegon's first Master of Ships.",
+        "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "celtigar",
+    "name": "House Celtigar",
+    "words": "Sworn to Dragonstone",
+    "seat": "claw_isle",
+    "region": "the_crownlands",
+    "colors": {
+      "primary": "#B22222",
+      "secondary": "#FFD700"
+    },
+    "sigil": "Red crabs strewn on a white field.",
+    "founded": "Before the Doom",
+    "canon": "canon",
+    "timeline": [
+      {
+        "year": 1,
+        "lord": "Crispian Celtigar",
+        "title": "Lord of Claw Isle, Master of Coin",
+        "event": "Crispian Celtigar is named Aegon's first Master of Coin.",
+        "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "nights_watch",
+    "name": "The Night's Watch",
+    "words": "The Shield of the Realms of Men",
+    "seat": "castle_black",
+    "region": "beyond_the_wall",
+    "colors": {
+      "primary": "#111111",
+      "secondary": "#222222"
+    },
+    "sigil": "A solid black banner.",
+    "founded": "Age of Heroes",
+    "canon": "canon",
+    "timeline": [
+      {
+        "year": 1,
+        "lord": "Tristan Mudd",
+        "title": "Lord Commander of the Night's Watch",
+        "event": "The Watch remains neutral during the Conquest, preserving its vows.",
+        "canon": "canon"
+      }
+    ]
+  }
+]

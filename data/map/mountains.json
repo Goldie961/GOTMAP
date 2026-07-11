@@ -1,0 +1,74 @@
+{
+  "ranges": [
+    {
+      "id": "mountains_of_the_moon",
+      "name": "Mountains of the Moon",
+      "peaks": [
+        { "x": 540, "y": 560, "size": "large" },
+        { "x": 555, "y": 550, "size": "medium" },
+        { "x": 560, "y": 570, "size": "large" },
+        { "x": 575, "y": 565, "size": "medium" },
+        { "x": 580, "y": 585, "size": "large" },
+        { "x": 590, "y": 575, "size": "small" },
+        { "x": 550, "y": 590, "size": "medium" },
+        { "x": 565, "y": 605, "size": "large" },
+        { "x": 580, "y": 615, "size": "medium" },
+        { "x": 595, "y": 600, "size": "small" }
+      ]
+    },
+    {
+      "id": "red_mountains",
+      "name": "Red Mountains",
+      "peaks": [
+        { "x": 340, "y": 960, "size": "medium" },
+        { "x": 355, "y": 970, "size": "large" },
+        { "x": 370, "y": 960, "size": "medium" },
+        { "x": 390, "y": 950, "size": "large" },
+        { "x": 410, "y": 940, "size": "medium" },
+        { "x": 430, "y": 930, "size": "large" },
+        { "x": 450, "y": 920, "size": "medium" },
+        { "x": 470, "y": 930, "size": "large" },
+        { "x": 490, "y": 940, "size": "medium" },
+        { "x": 510, "y": 950, "size": "small" },
+        { "x": 360, "y": 990, "size": "small" },
+        { "x": 380, "y": 985, "size": "medium" },
+        { "x": 400, "y": 975, "size": "large" },
+        { "x": 420, "y": 965, "size": "medium" },
+        { "x": 440, "y": 955, "size": "large" },
+        { "x": 460, "y": 960, "size": "medium" }
+      ]
+    },
+    {
+      "id": "frostfangs",
+      "name": "The Frostfangs",
+      "peaks": [
+        { "x": 300, "y": 100, "size": "large" },
+        { "x": 315, "y": 90, "size": "medium" },
+        { "x": 320, "y": 110, "size": "large" },
+        { "x": 335, "y": 105, "size": "medium" },
+        { "x": 340, "y": 125, "size": "large" },
+        { "x": 350, "y": 115, "size": "small" },
+        { "x": 310, "y": 130, "size": "medium" },
+        { "x": 325, "y": 145, "size": "large" },
+        { "x": 340, "y": 155, "size": "medium" },
+        { "x": 355, "y": 140, "size": "small" }
+      ]
+    },
+    {
+      "id": "northern_mountains",
+      "name": "Northern Mountains",
+      "peaks": [
+        { "x": 340, "y": 210, "size": "medium" },
+        { "x": 350, "y": 220, "size": "large" },
+        { "x": 365, "y": 215, "size": "medium" },
+        { "x": 375, "y": 230, "size": "large" },
+        { "x": 380, "y": 245, "size": "medium" },
+        { "x": 395, "y": 235, "size": "small" },
+        { "x": 350, "y": 250, "size": "medium" },
+        { "x": 365, "y": 265, "size": "large" },
+        { "x": 380, "y": 275, "size": "medium" },
+        { "x": 395, "y": 260, "size": "small" }
+      ]
+    }
+  ]
+}

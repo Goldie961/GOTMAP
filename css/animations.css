@@ -1,0 +1,128 @@
+/* All animations (subtle transitions and micro-animations) */
+
+@keyframes pulseGlow {
+  0% {
+    filter: drop-shadow(0 0 2px rgba(197, 165, 90, 0.4));
+  }
+  50% {
+    filter: drop-shadow(0 0 10px rgba(197, 165, 90, 0.8));
+  }
+  100% {
+    filter: drop-shadow(0 0 2px rgba(197, 165, 90, 0.4));
+  }
+}
+
+.glow-pulsing {
+  animation: pulseGlow 2.5s infinite ease-in-out;
+}
+
+/* Water Shimmer Pattern Animation */
+@keyframes waterShimmer {
+  0% {
+    opacity: 0.85;
+  }
+  50% {
+    opacity: 0.95;
+  }
+  100% {
+    opacity: 0.85;
+  }
+}
+
+.sea-pattern-anim {
+  animation: waterShimmer 8s infinite ease-in-out;
+}
+
+/* Fog Drift Animation */
+@keyframes fogDrift {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(50px, -20px) scale(1.1);
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+.fog-overlay {
+  animation: fogDrift 60s infinite ease-in-out;
+  pointer-events: none;
+}
+
+/* Smoke rising animation (subtle) */
+@keyframes smokeRise {
+  0% {
+    transform: translateY(0) scale(0.8);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.4;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(-25px) scale(1.5);
+    opacity: 0;
+  }
+}
+
+.smoke-particle {
+  animation: smokeRise 5s infinite linear;
+  fill: var(--ink-faint);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Night Overlay Transition */
+#night-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--night);
+  mix-blend-mode: multiply;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 5;
+  transition: opacity 2s ease;
+}
+
+#night-overlay.night-active {
+  opacity: 0.65;
+}
+
+/* Cities Glow at Night */
+.city-glow-point {
+  fill: var(--gold-bright);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 2s ease;
+}
+
+.night-active .city-glow-point {
+  opacity: 0.8;
+  filter: drop-shadow(0 0 4px var(--gold));
+}
+
+/* Winter Season Frost Layer Overlay */
+#winter-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--ice);
+  mix-blend-mode: overlay;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 6;
+  transition: opacity 1.5s ease;
+}
+
+#winter-overlay.winter-active {
+  opacity: 0.35;
+}

@@ -1,0 +1,302 @@
+/* Info Panel (Sidebar) */
+.info-panel {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 420px;
+  background: radial-gradient(circle, var(--parchment-light) 0%, var(--parchment) 100%);
+  border-left: 2px solid var(--gold);
+  box-shadow: -4px 0 20px rgba(0,0,0,0.3);
+  transform: translateX(100%);
+  transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-panel.open {
+  transform: translateX(0);
+}
+
+.info-panel-close {
+  position: absolute;
+  top: 1rem;
+  right: 1.2rem;
+  background: none;
+  border: none;
+  font-family: 'Cinzel', serif;
+  font-size: 1.5rem;
+  color: var(--ink-light);
+  cursor: pointer;
+  z-index: 10;
+  transition: color 0.2s;
+}
+
+.info-panel-close:hover {
+  color: var(--blood);
+}
+
+.info-panel-header {
+  padding: 2rem 1.5rem 1rem;
+  border-bottom: 1px solid var(--parchment-dark);
+  text-align: center;
+  position: relative;
+}
+
+.info-panel-header h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.house-banner-stripe {
+  height: 5px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.house-sigil-display {
+  width: 70px;
+  height: 70px;
+  margin: 0.5rem auto;
+  border-radius: 50%;
+  border: 2px solid var(--gold);
+  background: var(--parchment-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.1), 0 2px 5px rgba(0,0,0,0.15);
+}
+
+.house-words {
+  font-style: italic;
+  color: var(--gold-dark);
+  font-size: 1rem;
+  margin-top: 0.25rem;
+}
+
+.info-panel-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1.5rem;
+}
+
+.info-section {
+  margin-bottom: 1.5rem;
+}
+
+.info-section h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid var(--parchment-dark);
+  padding-bottom: 2px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+}
+
+.info-row .info-label {
+  font-weight: bold;
+  color: var(--ink-light);
+}
+
+/* Timeline vertical list */
+.timeline-list {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+.timeline-list::before {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  bottom: 5px;
+  width: 2px;
+  background: var(--gold-dark);
+}
+
+.timeline-entry {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.timeline-entry::before {
+  content: '';
+  position: absolute;
+  left: -23px;
+  top: 6px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--parchment-light);
+  border: 2px solid var(--gold);
+}
+
+.timeline-entry.active::before {
+  background: var(--gold-bright);
+  border-color: var(--blood);
+  box-shadow: 0 0 5px var(--gold);
+}
+
+.timeline-entry-year {
+  font-family: 'Cinzel', serif;
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: var(--gold-dark);
+}
+
+.timeline-entry-event {
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+
+/* Canon confidence badges */
+.canon-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 1px 6px;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.canon-badge.canon {
+  background-color: rgba(74, 103, 65, 0.15);
+  color: var(--forest);
+  border: 1px solid rgba(74, 103, 65, 0.3);
+}
+
+.canon-badge.inferred {
+  background-color: rgba(197, 165, 90, 0.15);
+  color: var(--gold-dark);
+  border: 1px solid rgba(197, 165, 90, 0.3);
+}
+
+.canon-badge.unknown {
+  background-color: rgba(139, 0, 0, 0.1);
+  color: var(--blood);
+  border: 1px solid rgba(139, 0, 0, 0.2);
+}
+
+/* Filter Panel (Left bar) */
+.filter-panel {
+  position: fixed;
+  left: 20px;
+  top: 80px;
+  background: radial-gradient(circle, var(--parchment-light) 0%, var(--parchment) 100%);
+  border: 1px solid var(--gold);
+  border-radius: 4px;
+  padding: 1rem;
+  box-shadow: 2px 4px 15px rgba(0,0,0,0.25);
+  z-index: 100;
+  max-width: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  transition: transform var(--transition-speed), opacity var(--transition-speed);
+}
+
+.filter-panel.collapsed {
+  transform: translateX(-120%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.filter-title {
+  font-family: 'Cinzel', serif;
+  font-size: 0.95rem;
+  font-weight: bold;
+  border-bottom: 1px solid var(--parchment-dark);
+  padding-bottom: 4px;
+  margin-bottom: 0.2rem;
+  text-align: center;
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.filter-option input[type="checkbox"] {
+  accent-color: var(--gold-dark);
+  cursor: pointer;
+}
+
+/* Distance Tool Output Popup */
+.distance-popup {
+  position: fixed;
+  left: 50%;
+  top: 80px;
+  transform: translateX(-50%);
+  background: radial-gradient(circle, var(--parchment-light) 0%, var(--parchment) 100%);
+  border: 2px solid var(--gold);
+  border-radius: 4px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  z-index: 150;
+  max-width: 500px;
+  text-align: center;
+  transition: opacity 0.3s;
+}
+
+.distance-popup.hidden {
+  display: none;
+}
+
+.distance-popup-close {
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--ink-light);
+}
+
+.distance-popup h4 {
+  font-family: 'Cinzel', serif;
+  margin-bottom: 0.5rem;
+}
+
+.distance-results-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.8rem;
+  margin-top: 0.8rem;
+}
+
+.distance-result-item {
+  background: rgba(44, 24, 16, 0.05);
+  border-radius: 3px;
+  padding: 0.5rem 0.25rem;
+  border: 1px solid var(--parchment-dark);
+}
+
+.distance-result-item .speed-icon {
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.distance-result-item .speed-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: var(--ink-light);
+}
+
+.distance-result-item .speed-val {
+  font-size: 0.9rem;
+  font-weight: bold;
+}

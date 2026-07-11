@@ -1,0 +1,174 @@
+#map-container {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: var(--sea-deep);
+  cursor: grab;
+  user-select: none;
+}
+
+#map-container.panning {
+  cursor: grabbing;
+}
+
+#map-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Terrain Layers Styling */
+.sea-bg {
+  fill: url(#seaPattern);
+  transition: fill var(--transition-speed);
+}
+
+.region-polygon {
+  stroke: var(--parchment-dark);
+  stroke-width: 1px;
+  stroke-dasharray: 4 4;
+  fill: var(--parchment);
+  fill-opacity: 0.25;
+  transition: fill-opacity var(--transition-speed), fill var(--transition-speed);
+}
+
+.region-polygon:hover {
+  fill-opacity: 0.35;
+}
+
+.coastline-path {
+  fill: var(--parchment);
+  stroke: var(--ink);
+  stroke-width: 1.5px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  filter: drop-shadow(2px 4px 6px rgba(44, 24, 16, 0.15));
+}
+
+.island-path {
+  fill: var(--parchment);
+  stroke: var(--ink);
+  stroke-width: 1px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.river-path {
+  fill: none;
+  stroke: var(--sea-light);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.road-path {
+  fill: none;
+  stroke: var(--road);
+  stroke-width: 1px;
+  stroke-dasharray: 4 3;
+  opacity: 0.7;
+}
+
+/* Geography Details */
+.mountain-peak {
+  fill: var(--mountain);
+  stroke: var(--ink);
+  stroke-width: 0.5px;
+}
+
+.forest-tree {
+  fill: var(--forest);
+  stroke: var(--ink);
+  stroke-width: 0.3px;
+}
+
+/* Map Labels */
+.map-label {
+  font-family: 'Cinzel', serif;
+  font-size: 10px;
+  text-anchor: middle;
+  fill: var(--ink);
+  pointer-events: none;
+  font-weight: bold;
+}
+
+.map-label-region {
+  font-size: 18px;
+  letter-spacing: 0.3em;
+  opacity: 0.4;
+  fill: var(--ink-light);
+  text-transform: uppercase;
+}
+
+.map-label-sea {
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  font-style: italic;
+  opacity: 0.3;
+  fill: var(--parchment-light);
+}
+
+/* Interactive Location Markers */
+.location-marker {
+  cursor: pointer;
+  transition: transform 0.2s ease, filter var(--transition-speed);
+}
+
+.location-marker:hover {
+  transform: scale(1.3);
+  filter: url(#markerGlowHover);
+}
+
+.location-marker.selected {
+  transform: scale(1.4);
+  filter: url(#markerGlowSelected);
+}
+
+/* Distance Tool Line */
+.distance-line {
+  fill: none;
+  stroke: var(--blood);
+  stroke-width: 2px;
+  stroke-dasharray: 6 4;
+  animation: dashmove 20s linear infinite;
+}
+
+@keyframes dashmove {
+  to {
+    stroke-dashoffset: -1000;
+  }
+}
+
+/* Tooltip on Map */
+.map-tooltip {
+  position: absolute;
+  background: var(--parchment-light);
+  border: 1px solid var(--gold-dark);
+  border-radius: 3px;
+  padding: 0.5rem 0.8rem;
+  box-shadow: 2px 4px 10px rgba(0,0,0,0.25);
+  font-family: 'Cinzel', serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--ink);
+  pointer-events: none;
+  z-index: 400;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  transform: translate(-50%, -100%) translateY(-10px);
+}
+
+.map-tooltip::after {
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 6px 6px 0;
+  border-style: solid;
+  border-color: var(--parchment-light) transparent;
+  display: block;
+  width: 0;
+}

@@ -1,0 +1,25 @@
+{
+  "year": 1,
+  "yearName": "Year of Aegon's Coronation",
+  "king": {
+    "character": "aegon_i",
+    "title": "King of the Andals, the Rhoynar, and the First Men, Lord of the Seven Kingdoms, Protector of the Realm",
+    "seat": "kings_landing",
+    "canon": "canon"
+  },
+  "queens": ["visenya_targaryen", "rhaenys_targaryen"],
+  "regions": {
+    "the_north": { "house": "stark", "lord": "Torrhen Stark", "title": "Warden of the North", "status": "sworn", "canon": "canon" },
+    "the_vale": { "house": "arryn", "lord": "Ronnel Arryn", "title": "Warden of the East", "status": "sworn", "canon": "canon" },
+    "the_riverlands": { "house": "tully", "lord": "Edmyn Tully", "title": "Lord Paramount of the Trident", "status": "sworn", "canon": "canon" },
+    "the_westerlands": { "house": "lannister", "lord": "Loren Lannister", "title": "Warden of the West", "status": "sworn", "canon": "canon" },
+    "the_reach": { "house": "tyrell", "lord": "Harlan Tyrell", "title": "Warden of the South", "status": "sworn", "canon": "canon" },
+    "the_stormlands": { "house": "baratheon", "lord": "Orys Baratheon", "title": "Lord Paramount of the Stormlands", "status": "sworn", "canon": "canon" },
+    "the_iron_islands": { "house": "greyjoy", "lord": "Vickon Greyjoy", "title": "Lord of the Iron Islands", "status": "sworn", "canon": "canon" },
+    "dorne": { "house": "martell", "lord": "Meria Martell", "title": "Princess of Dorne", "status": "independent", "canon": "canon" },
+    "the_crownlands": { "house": "targaryen", "lord": "Aegon I Targaryen", "title": "King", "status": "royal_domain", "canon": "canon" }
+  },
+  "dragons": ["balerion", "vhagar", "meraxes"],
+  "season": "unknown",
+  "notes": "First year of Aegon's reign, post-Conquest. The Seven Kingdoms (minus Dorne) are united under Targaryen rule for the first time."
+}
