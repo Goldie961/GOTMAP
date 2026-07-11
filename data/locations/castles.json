@@ -24,6 +24,78 @@
         "status": "intact",
         "event": "Torrhen Stark, the King Who Knelt, bends the knee to Aegon the Conqueror.",
         "canon": "canon"
+      },
+      {
+        "year": 101,
+        "house": "stark",
+        "lord": "Ellard Stark",
+        "status": "intact",
+        "event": "Lord Ellard Stark supports Laenor Velaryon's claim at the Great Council of 101 AC.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Ellard_Stark"
+      },
+      {
+        "year": 129,
+        "house": "stark",
+        "lord": "Cregan Stark",
+        "status": "intact",
+        "event": "Cregan Stark forms the Pact of Ice and Fire with Prince Jacaerys Velaryon, later marching south in the Hour of the Wolf.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Cregan_Stark"
+      },
+      {
+        "year": 209,
+        "house": "stark",
+        "lord": "Beron Stark",
+        "status": "intact",
+        "event": "Lord Beron Stark gathers troops to defend the northern coastlines against Dagon Greyjoy's raids.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Beron_Stark"
+      },
+      {
+        "year": 282,
+        "house": "stark",
+        "lord": "Rickard Stark",
+        "status": "intact",
+        "event": "Lord Rickard Stark is brutally executed by King Aerys II in King's Landing.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Rickard_Stark"
+      },
+      {
+        "year": 283,
+        "house": "stark",
+        "lord": "Eddard Stark",
+        "status": "intact",
+        "event": "Lord Eddard Stark returns to Winterfell with his infant son Robb Stark after Robert's Rebellion.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Eddard_Stark"
+      },
+      {
+        "year": 298,
+        "house": "stark",
+        "lord": "Eddard Stark",
+        "status": "intact",
+        "event": "King Robert I visits Winterfell. Eddard Stark leaves to become Hand of the King.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Eddard_Stark"
+      },
+      {
+        "year": 299,
+        "house": "stark",
+        "lord": "Robb Stark",
+        "status": "ruined",
+        "event": "Winterfell is captured by Theon Greyjoy, then betrayed and burned by Ramsay Snow.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Sack_of_Winterfell_(299_AC)"
+      },
+      {
+        "year": 300,
+        "house": "bolton",
+        "lord": "Roose Bolton",
+        "status": "under_construction",
+        "event": "House Bolton seizes control of the North. Roose Bolton occupies the ruined Winterfell.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Roose_Bolton"
       }
     ],
     "narratorText": "Winterfell is the capital of the North. Built by Brandon the Builder in the Age of Heroes, the castle is protected by double granite walls and a deep moat. Below the castle lie the Crypts of Winterfell, where the Kings of Winter are laid to rest with stone direwolves and iron swords."
@@ -45,6 +117,33 @@
         "status": "intact",
         "event": "The Night's Watch guards the Wall under Targaryen rule.",
         "canon": "canon"
+      },
+      {
+        "year": 226,
+        "house": "nights_watch",
+        "lord": "Jack Musgood",
+        "status": "intact",
+        "event": "Lord Commander Jack Musgood, known as Jolly Jack, is outgeneraled by Raymun Redbeard, who leads a wildling host across the Wall.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Jack_Musgood"
+      },
+      {
+        "year": 298,
+        "house": "nights_watch",
+        "lord": "Jeor Mormont",
+        "status": "intact",
+        "event": "Lord Commander Jeor Mormont prepares the Great Ranger Mutiny beyond the Wall, where he is eventually murdered.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Jeor_Mormont"
+      },
+      {
+        "year": 300,
+        "house": "nights_watch",
+        "lord": "Jon Snow",
+        "status": "intact",
+        "event": "Jon Snow is elected the 998th Lord Commander of the Night's Watch after the battle at Castle Black.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Jon_Snow"
       }
     ],
     "narratorText": "Castle Black is the largest of the castles along the Wall. In Year 1 AC, it is ruled by Lord Commander Tristan Mudd, guarding the realm of men against wildlings and worse."
@@ -108,6 +207,51 @@
         "status": "intact",
         "event": "Loren Lannister submits to Aegon I after the Field of Fire and is named Warden of the West.",
         "canon": "canon"
+      },
+      {
+        "year": 129,
+        "house": "lannister",
+        "lord": "Jason Lannister",
+        "status": "intact",
+        "event": "Lord Jason Lannister supports the Greens in the Dance of the Dragons, marching his host to the Riverlands.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Jason_Lannister"
+      },
+      {
+        "year": 130,
+        "house": "lannister",
+        "lord": "Johanna Lannister",
+        "status": "intact",
+        "event": "Following Jason's death, Lady Johanna Lannister rules as regent, successfully defending Casterly Rock and the West from the Red Kraken.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Johanna_Lannister"
+      },
+      {
+        "year": 209,
+        "house": "lannister",
+        "lord": "Damon Lannister",
+        "status": "intact",
+        "event": "Lord Damon Lannister, the Grey Lion, rules Casterly Rock during the First Blackfyre Rebellion.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Damon_Lannister"
+      },
+      {
+        "year": 282,
+        "house": "lannister",
+        "lord": "Tywin Lannister",
+        "status": "intact",
+        "event": "Lord Tywin Lannister serves as Lord of Casterly Rock and Warden of the West, expanding the family's immense wealth and power.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Tywin_Lannister"
+      },
+      {
+        "year": 300,
+        "house": "lannister",
+        "lord": "Cersei Lannister",
+        "status": "intact",
+        "event": "Following Tywin Lannister's murder, his daughter Queen Regent Cersei Lannister becomes Lady of Casterly Rock.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Cersei_Lannister"
       }
     ],
     "narratorText": "Casterly Rock is carved from a stone hill resembling a couchant lion. It contains massive gold veins, making House Lannister the richest family in Westeros. Its tunnels, halls, and dungeons stretch deep underground."
@@ -129,6 +273,42 @@
         "status": "intact",
         "event": "Queen Regent Sharra Arryn yields the Eyrie after Visenya Targaryen flies Vhagar directly into the courtyard.",
         "canon": "canon"
+      },
+      {
+        "year": 129,
+        "house": "arryn",
+        "lord": "Jeyne Arryn",
+        "status": "intact",
+        "event": "Lady Jeyne Arryn, the Maiden of the Vale, aligns House Arryn with Queen Rhaenyra and the Blacks.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Jeyne_Arryn"
+      },
+      {
+        "year": 282,
+        "house": "arryn",
+        "lord": "Jon Arryn",
+        "status": "intact",
+        "event": "Lord Jon Arryn raises the banners of the Vale in rebellion after Aerys II demands the heads of Eddard Stark and Robert Baratheon.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Jon_Arryn"
+      },
+      {
+        "year": 298,
+        "house": "arryn",
+        "lord": "Lysa Arryn",
+        "status": "intact",
+        "event": "Following Jon Arryn's death, Lady Lysa Arryn flees to the Eyrie with her son Robert Arryn and maintains neutrality.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Lysa_Arryn"
+      },
+      {
+        "year": 300,
+        "house": "arryn",
+        "lord": "Petyr Baelish",
+        "status": "intact",
+        "event": "Lysa Arryn is pushed to her death from the Moon Door. Lord Petyr Baelish seizes control as Lord Protector of the Vale.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Petyr_Baelish"
       }
     ],
     "narratorText": "Perched six thousand feet above the Vale, the Eyrie is the smallest of the great castles, consisting of seven slim white towers. Its height makes it impregnable to assault, but Queen Visenya Targaryen bypassed all defenses by flying her dragon Vhagar straight to the top."
@@ -158,6 +338,69 @@
         "status": "intact",
         "event": "Dragonstone remains the primary stronghold and seat of House Targaryen.",
         "canon": "canon"
+      },
+      {
+        "year": 37,
+        "house": "targaryen",
+        "lord": "Aenys I Targaryen",
+        "status": "intact",
+        "event": "Aenys I Targaryen succeeds Aegon I and inherits Dragonstone.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Aenys_I_Targaryen"
+      },
+      {
+        "year": 42,
+        "house": "targaryen",
+        "lord": "Maegor I Targaryen",
+        "status": "intact",
+        "event": "Dowager Queen Visenya Targaryen seizes control of Dragonstone and crowns Maegor I Targaryen.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Maegor_I_Targaryen"
+      },
+      {
+        "year": 48,
+        "house": "targaryen",
+        "lord": "Jaehaerys I Targaryen",
+        "status": "intact",
+        "event": "Jaehaerys I Targaryen makes Dragonstone his temporary seat before reconciling with the Faith.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Jaehaerys_I_Targaryen"
+      },
+      {
+        "year": 129,
+        "house": "targaryen",
+        "lord": "Rhaenyra Targaryen",
+        "status": "intact",
+        "event": "Rhaenyra Targaryen is crowned Queen at Dragonstone, making it the capital of the Blacks.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Rhaenyra_Targaryen"
+      },
+      {
+        "year": 130,
+        "house": "targaryen",
+        "lord": "Aegon II Targaryen",
+        "status": "intact",
+        "event": "Aegon II Targaryen secretly takes Dragonstone and executes Rhaenyra by feeding her to his dragon Sunfyre.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Aegon_II_Targaryen"
+      },
+      {
+        "year": 283,
+        "house": "baratheon",
+        "lord": "Stannis Baratheon",
+        "status": "intact",
+        "event": "Stannis Baratheon captures Dragonstone, ending Targaryen presence, and Robert grants him the seat.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Stannis_Baratheon"
+      },
+      {
+        "year": 298,
+        "house": "baratheon",
+        "lord": "Stannis Baratheon",
+        "status": "intact",
+        "event": "Stannis declares himself King and rallies his vassals at Dragonstone.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Stannis_Baratheon"
       }
     ],
     "narratorText": "Dragonstone was shaped by Valyrian dragonlords using magic and fire to warp stone into the shapes of dragons and gargoyles. It is a grim, black fortress sitting in the shadow of the volcano Dragonmont."
@@ -187,6 +430,186 @@
         "status": "under_construction",
         "event": "The Aegonfort is expanded as stone buildings start to rise, founding King's Landing.",
         "canon": "canon"
+      },
+      {
+        "year": 37,
+        "house": "targaryen",
+        "lord": "Aenys I Targaryen",
+        "status": "under_construction",
+        "event": "Aenys I Targaryen succeeds Aegon I. Construction of the Red Keep begins.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Aenys_I_Targaryen"
+      },
+      {
+        "year": 42,
+        "house": "targaryen",
+        "lord": "Maegor I Targaryen",
+        "status": "under_construction",
+        "event": "Maegor I Targaryen seizes the Iron Throne after the death of Aenys I.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Maegor_I_Targaryen"
+      },
+      {
+        "year": 45,
+        "house": "targaryen",
+        "lord": "Maegor I Targaryen",
+        "status": "intact",
+        "event": "The Red Keep is completed. Maegor executes all the builders to hide the castle's secret passages.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Red_Keep"
+      },
+      {
+        "year": 48,
+        "house": "targaryen",
+        "lord": "Jaehaerys I Targaryen",
+        "status": "intact",
+        "event": "Maegor I dies on the Iron Throne. Jaehaerys I Targaryen succeeds him.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Jaehaerys_I_Targaryen"
+      },
+      {
+        "year": 103,
+        "house": "targaryen",
+        "lord": "Viserys I Targaryen",
+        "status": "intact",
+        "event": "King Jaehaerys I Targaryen dies. Viserys I Targaryen succeeds him peacefully.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Viserys_I_Targaryen"
+      },
+      {
+        "year": 129,
+        "house": "targaryen",
+        "lord": "Aegon II Targaryen",
+        "status": "intact",
+        "event": "Aegon II Targaryen seizes the throne, sparking the Dance of the Dragons.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Dance_of_the_Dragons"
+      },
+      {
+        "year": 130,
+        "house": "targaryen",
+        "lord": "Rhaenyra Targaryen",
+        "status": "intact",
+        "event": "Queen Rhaenyra Targaryen captures King's Landing and sits on the Iron Throne.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Rhaenyra_Targaryen"
+      },
+      {
+        "year": 131,
+        "house": "targaryen",
+        "lord": "Aegon III Targaryen",
+        "status": "intact",
+        "event": "Aegon II Targaryen is poisoned. Aegon III Targaryen succeeds him under regency.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Aegon_III_Targaryen"
+      },
+      {
+        "year": 157,
+        "house": "targaryen",
+        "lord": "Daeron I Targaryen",
+        "status": "intact",
+        "event": "King Aegon III dies. His son Daeron I Targaryen, the Young Dragon, succeeds him.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Daeron_I_Targaryen"
+      },
+      {
+        "year": 161,
+        "house": "targaryen",
+        "lord": "Baelor I Targaryen",
+        "status": "intact",
+        "event": "Daeron I Targaryen is killed in Dorne. Baelor I Targaryen succeeds him.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Baelor_I_Targaryen"
+      },
+      {
+        "year": 172,
+        "house": "targaryen",
+        "lord": "Aegon IV Targaryen",
+        "status": "intact",
+        "event": "Aegon IV Targaryen (the Unworthy) ascends the Iron Throne.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Aegon_IV_Targaryen"
+      },
+      {
+        "year": 184,
+        "house": "targaryen",
+        "lord": "Daeron II Targaryen",
+        "status": "intact",
+        "event": "Aegon IV Targaryen dies. Daeron II Targaryen succeeds him.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Daeron_II_Targaryen"
+      },
+      {
+        "year": 209,
+        "house": "targaryen",
+        "lord": "Aerys I Targaryen",
+        "status": "intact",
+        "event": "Daeron II dies of the Great Spring Sickness. Aerys I Targaryen succeeds him.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Aerys_I_Targaryen"
+      },
+      {
+        "year": 221,
+        "house": "targaryen",
+        "lord": "Maekar I Targaryen",
+        "status": "intact",
+        "event": "Maekar I Targaryen succeeds Aerys I on the Iron Throne.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Maekar_I_Targaryen"
+      },
+      {
+        "year": 233,
+        "house": "targaryen",
+        "lord": "Aegon V Targaryen",
+        "status": "intact",
+        "event": "Maekar I dies in battle. The Great Council elects Aegon V Targaryen (Egg).",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Aegon_V_Targaryen"
+      },
+      {
+        "year": 259,
+        "house": "targaryen",
+        "lord": "Jaehaerys II Targaryen",
+        "status": "intact",
+        "event": "Aegon V dies at Summerhall. Jaehaerys II Targaryen succeeds him.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Jaehaerys_II_Targaryen"
+      },
+      {
+        "year": 262,
+        "house": "targaryen",
+        "lord": "Aerys II Targaryen",
+        "status": "intact",
+        "event": "Aerys II Targaryen succeeds Jaehaerys II on the Iron Throne.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Aerys_II_Targaryen"
+      },
+      {
+        "year": 283,
+        "house": "baratheon",
+        "lord": "Robert Baratheon",
+        "status": "intact",
+        "event": "Tywin Lannister sacks the city. Aerys II is slain, and Robert Baratheon claims the throne.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Sack_of_King%27s_Landing"
+      },
+      {
+        "year": 298,
+        "house": "baratheon",
+        "lord": "Joffrey Baratheon",
+        "status": "intact",
+        "event": "Robert Baratheon dies. Joffrey Baratheon ascends the Iron Throne.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Joffrey_Baratheon"
+      },
+      {
+        "year": 300,
+        "house": "baratheon",
+        "lord": "Tommen Baratheon",
+        "status": "intact",
+        "event": "Joffrey is poisoned. Tommen Baratheon succeeds him.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Tommen_Baratheon"
       }
     ],
     "narratorText": "In Year 1 AC, King's Landing is a muddy, sprawling settlement growing around the Aegonfort. Aegon I Targaryen has chosen this spot as his capital, ordering the construction of a city that will house the Iron Throne."
@@ -208,6 +631,33 @@
         "status": "intact",
         "event": "Harlan Tyrell yields Highgarden to Aegon I after King Mern IX Gardener dies on the Field of Fire. Aegon grants him the castle.",
         "canon": "canon"
+      },
+      {
+        "year": 129,
+        "house": "tyrell",
+        "lord": "Tyrell Regent",
+        "status": "intact",
+        "event": "The infant Lord Tyrell's mother serves as regent, maintaining neutrality for Highgarden during the Dance of the Dragons.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/House_Tyrell"
+      },
+      {
+        "year": 282,
+        "house": "tyrell",
+        "lord": "Mace Tyrell",
+        "status": "intact",
+        "event": "Lord Mace Tyrell rules Highgarden, leading the Reach's vast military host during Robert's Rebellion.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Mace_Tyrell"
+      },
+      {
+        "year": 298,
+        "house": "tyrell",
+        "lord": "Mace Tyrell",
+        "status": "intact",
+        "event": "Highgarden allies with Renly Baratheon, betrothing Margaery Tyrell to him.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Mace_Tyrell"
       }
     ],
     "narratorText": "Highgarden is the seat of the Lords Paramount of the Reach. Formerly held by House Gardener, it was given to House Tyrell, their stewards, after the Field of Fire, which caused great resentment among older Reach houses."
@@ -229,6 +679,51 @@
         "status": "intact",
         "event": "Edmyn Tully leads the rebel river lords to join Aegon I and is named Lord Paramount of the Trident.",
         "canon": "canon"
+      },
+      {
+        "year": 129,
+        "house": "tully",
+        "lord": "Grover Tully",
+        "status": "intact",
+        "event": "Lord Grover Tully wishes to support the Greens, but his grandson Elmo Tully holds the castle for the Blacks.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Grover_Tully"
+      },
+      {
+        "year": 131,
+        "house": "tully",
+        "lord": "Kermit Tully",
+        "status": "intact",
+        "event": "Young Lord Kermit Tully leads the Riverlords to victory at the Battle of the Kingsroad.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Kermit_Tully"
+      },
+      {
+        "year": 282,
+        "house": "tully",
+        "lord": "Hoster Tully",
+        "status": "intact",
+        "event": "Lord Hoster Tully joins Robert's Rebellion, marrying his daughters to Jon Arryn and Eddard Stark.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Hoster_Tully"
+      },
+      {
+        "year": 298,
+        "house": "tully",
+        "lord": "Hoster Tully",
+        "status": "intact",
+        "event": "Jaime Lannister defeats Edmure Tully outside Riverrun and lays siege to the castle.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Siege_of_Riverrun_(298_AC)"
+      },
+      {
+        "year": 300,
+        "house": "frey",
+        "lord": "Emmon Frey",
+        "status": "intact",
+        "event": "The Tullies are stripped of Riverrun, which is granted to Emmon Frey by the Iron Throne.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/House_Frey_of_Riverrun"
       }
     ],
     "narratorText": "Riverrun's strategic design allows its defenders to open sluice gates, flooding a wide moat and turning the castle into an island that cannot be breached. Edmyn Tully rebelled against King Harren the Black, winning Aegon's favor."
@@ -253,11 +748,75 @@
       },
       {
         "year": 1,
-        "house": "targaryen",
-        "lord": "Aegon I Targaryen",
+        "house": "qoherys",
+        "lord": "Lucas Qoherys",
         "status": "ruined",
-        "event": "Aegon melts Harrenhal with Balerion, destroying House Hoare. The castle remains ruined and cursed.",
-        "canon": "canon"
+        "event": "Aegon I Targaryen grants the ruined and melted Harrenhal to Lucas Qoherys, former master-at-arms of Dragonstone.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/House_Qoherys"
+      },
+      {
+        "year": 37,
+        "house": "harroway",
+        "lord": "Lucas Harroway",
+        "status": "ruined",
+        "event": "Gargon Qoherys is killed by rebel Harren the Red. King Aenys I grants Harrenhal to Lucas Harroway.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/House_Harroway"
+      },
+      {
+        "year": 44,
+        "house": "towers",
+        "lord": "Towers Lord",
+        "status": "ruined",
+        "event": "Maegor I Targaryen exterminates House Harroway. He grants the ruined castle to House Towers.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/House_Towers"
+      },
+      {
+        "year": 101,
+        "house": "strong",
+        "lord": "Lyonel Strong",
+        "status": "intact",
+        "event": "Lord Maegor Towers dies without heirs. Jaehaerys I grants Harrenhal to Lyonel Strong. Great Council of 101 meets here.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/House_Strong"
+      },
+      {
+        "year": 129,
+        "house": "strong",
+        "lord": "Larys Strong",
+        "status": "intact",
+        "event": "Daemon Targaryen captures Harrenhal for the Blacks. Ser Aemond later executes all of House Strong except Larys.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Larys_Strong"
+      },
+      {
+        "year": 151,
+        "house": "lothston",
+        "lord": "Lucas Lothston",
+        "status": "intact",
+        "event": "King Aegon III grants Harrenhal to Lucas Lothston.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/House_Lothston"
+      },
+      {
+        "year": 282,
+        "house": "whent",
+        "lord": "Walter Whent",
+        "status": "intact",
+        "event": "House Whent holds the great Tourney of Harrenhal, where Prince Rhaegar meets Lyanna Stark.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/House_Whent"
+      },
+      {
+        "year": 298,
+        "house": "whent",
+        "lord": "Shella Whent",
+        "status": "intact",
+        "event": "Lady Shella Whent yields Harrenhal to Lord Tywin Lannister during the War of the Five Kings.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Shella_Whent"
       }
     ],
     "narratorText": "Harrenhal's colossal towers were melted like wax when Balerion bathed the castle in dragonfire. In Year 1 AC, it stands as a terrifying monument to the power of the Targaryen dragons, left empty and haunted."
@@ -279,6 +838,42 @@
         "status": "intact",
         "event": "Vickon Greyjoy is elected by the ironborn to rule the Iron Islands from Pyke after Aegon I executes the Hoare pretenders.",
         "canon": "canon"
+      },
+      {
+        "year": 129,
+        "house": "greyjoy",
+        "lord": "Dalton Greyjoy",
+        "status": "intact",
+        "event": "Dalton Greyjoy, the Red Kraken, becomes Lord of the Iron Islands. He aligns with the Blacks and attacks the Westerlands.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Dalton_Greyjoy"
+      },
+      {
+        "year": 289,
+        "house": "greyjoy",
+        "lord": "Balon Greyjoy",
+        "status": "intact",
+        "event": "Balon Greyjoy declares himself King of the Iron Islands. Pyke is besieged and breached by King Robert and Lord Stark. Balon yields.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Greyjoy_Rebellion"
+      },
+      {
+        "year": 298,
+        "house": "greyjoy",
+        "lord": "Balon Greyjoy",
+        "status": "intact",
+        "event": "Balon Greyjoy declares independence once more and launches attacks on the North during the War of the Five Kings.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Balon_Greyjoy"
+      },
+      {
+        "year": 299,
+        "house": "greyjoy",
+        "lord": "Euron Greyjoy",
+        "status": "intact",
+        "event": "Balon falls from a bridge to his death. His exiled brother Euron Greyjoy seizes Pyke and the Seastone Chair.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Euron_Greyjoy"
       }
     ],
     "narratorText": "Pyke is the ancient seat of House Greyjoy. Over centuries, the cliffs have eroded into the sea, leaving the castle towers standing on isolated stone spires lashed by the salt water."
@@ -300,6 +895,51 @@
         "status": "intact",
         "event": "Orys Baratheon slays King Argilac Durrandon, marries his daughter Argella, and is granted the castle and lands by Aegon I.",
         "canon": "canon"
+      },
+      {
+        "year": 129,
+        "house": "baratheon",
+        "lord": "Borros Baratheon",
+        "status": "intact",
+        "event": "Lord Borros Baratheon receives Aemond Targaryen and aligns House Baratheon with Aegon II and the Greens.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Borros_Baratheon"
+      },
+      {
+        "year": 282,
+        "house": "baratheon",
+        "lord": "Stannis Baratheon",
+        "status": "besieged",
+        "event": "Stannis Baratheon holds Storm's End through a year-long siege by the Tyrell host, saved from starvation by Davos Seaworth.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Siege_of_Storm%27s_End"
+      },
+      {
+        "year": 283,
+        "house": "baratheon",
+        "lord": "Renly Baratheon",
+        "status": "intact",
+        "event": "King Robert grants the ancestral seat of Storm's End to his youngest brother Renly Baratheon.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Renly_Baratheon"
+      },
+      {
+        "year": 298,
+        "house": "baratheon",
+        "lord": "Renly Baratheon",
+        "status": "intact",
+        "event": "Renly Baratheon claims the Iron Throne and gathers his massive host at Storm's End.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Renly_Baratheon"
+      },
+      {
+        "year": 299,
+        "house": "baratheon",
+        "lord": "Stannis Baratheon",
+        "status": "intact",
+        "event": "Renly is assassinated. Ser Cortnay Penrose refuses to yield, is killed, and Stannis Baratheon seizes the fortress.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Siege_of_Storm%27s_End_(299_AC)"
       }
     ],
     "narratorText": "Storm's End is said to have magic woven into its stones to prevent spells from crossing its walls. Its massive curtain wall is eighty feet thick, designed to withstand the fury of Shipbreaker Bay."
@@ -321,6 +961,42 @@
         "status": "intact",
         "event": "Princess Meria Martell resists Aegon's Conquest, keeping Dorne independent.",
         "canon": "canon"
+      },
+      {
+        "year": 157,
+        "house": "targaryen",
+        "lord": "Daeron I Targaryen",
+        "status": "intact",
+        "event": "King Daeron I conquers Dorne. Sunspear yields and bends the knee, though Dornish resistance continues.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Conquest_of_Dorne"
+      },
+      {
+        "year": 161,
+        "house": "martell",
+        "lord": "Martell Prince",
+        "status": "intact",
+        "event": "Dorne rebels and kills Daeron's regent. Baelor I walks barefoot to Sunspear to forge peace, restoring Dornish independence.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Baelor_I_Targaryen"
+      },
+      {
+        "year": 187,
+        "house": "martell",
+        "lord": "Maron Martell",
+        "status": "intact",
+        "event": "Prince Maron Martell marries Daenerys Targaryen, joining Dorne to the Seven Kingdoms peacefully.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Maron_Martell"
+      },
+      {
+        "year": 298,
+        "house": "martell",
+        "lord": "Doran Martell",
+        "status": "intact",
+        "event": "Prince Doran Martell rules Dorne from Sunspear, keeping his realm isolated from the War of the Five Kings.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Doran_Martell"
       }
     ],
     "narratorText": "Sunspear consists of the Spear Tower and the Tower of the Sun, rising above the sprawling Shadow City. In Year 1 AC, it remains the only sovereign palace in Westeros, refusing to yield to Targaryen dragons."
@@ -405,6 +1081,33 @@
         "status": "intact",
         "event": "House Bolton reluctantly submits to Torrhen Stark's peace with the Targaryens.",
         "canon": "inferred"
+      },
+      {
+        "year": 282,
+        "house": "bolton",
+        "lord": "Roose Bolton",
+        "status": "intact",
+        "event": "Lord Roose Bolton rules the Dreadfort and fights at the Battle of the Trident under Eddard Stark.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Roose_Bolton"
+      },
+      {
+        "year": 299,
+        "house": "bolton",
+        "lord": "Ramsay Bolton",
+        "status": "intact",
+        "event": "Ramsay Snow sacks Winterfell and is legitimized as Ramsay Bolton. The Boltons betray the Starks at the Red Wedding.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Ramsay_Bolton"
+      },
+      {
+        "year": 300,
+        "house": "bolton",
+        "lord": "Roose Bolton",
+        "status": "intact",
+        "event": "Roose Bolton is named Warden of the North by the Iron Throne, ruling from Winterfell.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Roose_Bolton"
       }
     ],
     "narratorText": "The Dreadfort is notorious for its dark history of flaying enemies, a practice House Bolton officially abandoned when they swore fealty to Winterfell, though rumors persist."
@@ -426,6 +1129,33 @@
         "status": "intact",
         "event": "House Frey extracts tolls from travelers crossing the Trident.",
         "canon": "inferred"
+      },
+      {
+        "year": 129,
+        "house": "frey",
+        "lord": "Forrest Frey",
+        "status": "intact",
+        "event": "Forrest Frey (the Fool) joins the Blacks and leads Frey levies to battle during the Dance of the Dragons.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Forrest_Frey"
+      },
+      {
+        "year": 282,
+        "house": "frey",
+        "lord": "Walder Frey",
+        "status": "intact",
+        "event": "Walder Frey, the Late Lord Frey, arrives too late to the Battle of the Trident during Robert's Rebellion.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Walder_Frey"
+      },
+      {
+        "year": 299,
+        "house": "frey",
+        "lord": "Walder Frey",
+        "status": "intact",
+        "event": "House Frey hosts the Red Wedding, murdering King Robb Stark and violating guest right.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Red_Wedding"
       }
     ],
     "narratorText": "The Twins control the strategic crossing of the Green Fork. Built over generations by House Frey, the bridge and its twin towers represent immense wealth and transit control."

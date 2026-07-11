@@ -19,6 +19,86 @@
         "title": "King of the Andals, the Rhoynar, and the First Men, Lord of the Seven Kingdoms",
         "event": "Aegon completes his Conquest and is crowned at Oldtown.",
         "canon": "canon"
+      },
+      {
+        "year": 37,
+        "lord": "Aenys I Targaryen",
+        "title": "King of the Seven Kingdoms",
+        "event": "Aenys I succeeds his father Aegon I.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Aenys_I_Targaryen"
+      },
+      {
+        "year": 42,
+        "lord": "Maegor I Targaryen",
+        "title": "King of the Seven Kingdoms",
+        "event": "Maegor I seizes the Iron Throne.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Maegor_I_Targaryen"
+      },
+      {
+        "year": 48,
+        "lord": "Jaehaerys I Targaryen",
+        "title": "King of the Seven Kingdoms",
+        "event": "Jaehaerys I begins a long era of peace and reconciliation.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Jaehaerys_I_Targaryen"
+      },
+      {
+        "year": 103,
+        "lord": "Viserys I Targaryen",
+        "title": "King of the Seven Kingdoms",
+        "event": "Viserys I succeeds Jaehaerys I peacefully.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Viserys_I_Targaryen"
+      },
+      {
+        "year": 129,
+        "lord": "Aegon II Targaryen",
+        "title": "King of the Seven Kingdoms",
+        "event": "Aegon II seizes the throne, sparking the Dance of the Dragons.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Aegon_II_Targaryen"
+      },
+      {
+        "year": 131,
+        "lord": "Aegon III Targaryen",
+        "title": "King of the Seven Kingdoms",
+        "event": "Aegon III Targaryen succeeds, ending the Dance.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Aegon_III_Targaryen"
+      },
+      {
+        "year": 157,
+        "lord": "Daeron I Targaryen",
+        "title": "King of the Seven Kingdoms",
+        "event": "The Young Dragon conquers Dorne.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Daeron_I_Targaryen"
+      },
+      {
+        "year": 184,
+        "lord": "Daeron II Targaryen",
+        "title": "King of the Seven Kingdoms",
+        "event": "Daeron the Good succeeds Aegon the Unworthy.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Daeron_II_Targaryen"
+      },
+      {
+        "year": 233,
+        "lord": "Aegon V Targaryen",
+        "title": "King of the Seven Kingdoms",
+        "event": "Aegon V (Egg) is elected by a Great Council.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Aegon_V_Targaryen"
+      },
+      {
+        "year": 262,
+        "lord": "Aerys II Targaryen",
+        "title": "King of the Seven Kingdoms",
+        "event": "Aerys the Mad King succeeds Jaehaerys II.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Aerys_II_Targaryen"
       }
     ]
   },
@@ -42,6 +122,38 @@
         "title": "Lord of Winterfell, Warden of the North",
         "event": "Torrhen bends the knee, relinquishing his crown to become Warden.",
         "canon": "canon"
+      },
+      {
+        "year": 129,
+        "lord": "Cregan Stark",
+        "title": "Lord of Winterfell, Warden of the North",
+        "event": "Cregan Stark marches south and briefly serves as Hand of the King during the Hour of the Wolf.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Cregan_Stark"
+      },
+      {
+        "year": 282,
+        "lord": "Rickard Stark",
+        "title": "Lord of Winterfell, Warden of the North",
+        "event": "Rickard Stark is executed by Aerys II.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Rickard_Stark"
+      },
+      {
+        "year": 283,
+        "lord": "Eddard Stark",
+        "title": "Lord of Winterfell, Warden of the North",
+        "event": "Eddard Stark succeeds his murdered father and brother.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Eddard_Stark"
+      },
+      {
+        "year": 299,
+        "lord": "Robb Stark",
+        "title": "King in the North",
+        "event": "Robb Stark is proclaimed King in the North. Murdered at the Red Wedding.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Robb_Stark"
       }
     ]
   },
@@ -65,6 +177,30 @@
         "title": "Lord of Casterly Rock, Warden of the West",
         "event": "Loren survives the Field of Fire and is named Warden of the West.",
         "canon": "canon"
+      },
+      {
+        "year": 129,
+        "lord": "Jason Lannister",
+        "title": "Lord of Casterly Rock, Warden of the West",
+        "event": "Jason Lannister supports the Greens in the Dance.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Jason_Lannister"
+      },
+      {
+        "year": 282,
+        "lord": "Tywin Lannister",
+        "title": "Lord of Casterly Rock, Warden of the West",
+        "event": "Tywin Lannister sacks King's Landing during Robert's Rebellion.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Tywin_Lannister"
+      },
+      {
+        "year": 300,
+        "lord": "Cersei Lannister",
+        "title": "Lady of Casterly Rock",
+        "event": "Cersei inherits after Tywin's murder.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Cersei_Lannister"
       }
     ]
   },
@@ -88,6 +224,30 @@
         "title": "Lord Paramount of the Stormlands, Hand of the King",
         "event": "Orys founds the house, marrying Argella Durrandon and taking her sigil.",
         "canon": "canon"
+      },
+      {
+        "year": 129,
+        "lord": "Borros Baratheon",
+        "title": "Lord of Storm's End",
+        "event": "Borros Baratheon aligns with the Greens.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Borros_Baratheon"
+      },
+      {
+        "year": 283,
+        "lord": "Robert Baratheon",
+        "title": "King of the Seven Kingdoms",
+        "event": "Robert Baratheon wins the throne in Robert's Rebellion.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Robert_Baratheon"
+      },
+      {
+        "year": 298,
+        "lord": "Joffrey Baratheon",
+        "title": "King of the Seven Kingdoms",
+        "event": "Robert dies. Joffrey ascends the throne.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Joffrey_Baratheon"
       }
     ]
   },
@@ -111,6 +271,14 @@
         "title": "Lord Paramount of the Reach, Warden of the South",
         "event": "Harlan is elevated to Lord Paramount after yielding Highgarden.",
         "canon": "canon"
+      },
+      {
+        "year": 282,
+        "lord": "Mace Tyrell",
+        "title": "Lord of Highgarden, Warden of the South",
+        "event": "Mace Tyrell besieges Storm's End during Robert's Rebellion.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Mace_Tyrell"
       }
     ]
   },
@@ -134,6 +302,30 @@
         "title": "Lord Paramount of the Trident",
         "event": "Edmyn is elevated to Lord Paramount of the Riverlands by Aegon I.",
         "canon": "canon"
+      },
+      {
+        "year": 131,
+        "lord": "Kermit Tully",
+        "title": "Lord Paramount of the Trident",
+        "event": "Young Lord Kermit Tully leads the Riverlords to victory.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Kermit_Tully"
+      },
+      {
+        "year": 282,
+        "lord": "Hoster Tully",
+        "title": "Lord Paramount of the Trident",
+        "event": "Hoster joins Robert's Rebellion.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Hoster_Tully"
+      },
+      {
+        "year": 299,
+        "lord": "Edmure Tully",
+        "title": "Lord Paramount of the Trident",
+        "event": "Hoster Tully dies. Edmure Tully succeeds.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Edmure_Tully"
       }
     ]
   },
@@ -147,7 +339,7 @@
       "primary": "#4682B4",
       "secondary": "#F5F5F5"
     },
-    "sigil": "A sky-blue falcon and crescent moon on a white field.",
+    "sigil": "A silver falcon volant and crescent moon on a sky-blue field.",
     "founded": "Andal Invasion",
     "canon": "canon",
     "timeline": [
@@ -157,6 +349,38 @@
         "title": "Lord of the Eyrie, Warden of the East",
         "event": "Ronnel, a child, submits alongside his regent mother Sharra.",
         "canon": "canon"
+      },
+      {
+        "year": 129,
+        "lord": "Jeyne Arryn",
+        "title": "Lady of the Eyrie, Maiden of the Vale",
+        "event": "Lady Jeyne Arryn supports the Blacks during the Dance of the Dragons.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Jeyne_Arryn"
+      },
+      {
+        "year": 282,
+        "lord": "Jon Arryn",
+        "title": "Lord of the Eyrie, Warden of the East",
+        "event": "Jon Arryn rebels against the Mad King.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Jon_Arryn"
+      },
+      {
+        "year": 298,
+        "lord": "Lysa Arryn",
+        "title": "Lady Regent of the Vale",
+        "event": "Lysa Arryn flees to the Eyrie following Jon Arryn's death.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Lysa_Arryn"
+      },
+      {
+        "year": 300,
+        "lord": "Petyr Baelish",
+        "title": "Lord Protector of the Vale",
+        "event": "Petyr Baelish takes control of the Vale as Lord Protector.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Petyr_Baelish"
       }
     ]
   },
@@ -180,6 +404,38 @@
         "title": "Lord of the Iron Islands",
         "event": "Vickon is chosen by the ironborn after Aegon allows them to elect their lord.",
         "canon": "canon"
+      },
+      {
+        "year": 129,
+        "lord": "Dalton Greyjoy",
+        "title": "Lord of the Iron Islands, The Red Kraken",
+        "event": "Dalton Greyjoy raids the Westerlands during the Dance of the Dragons.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Dalton_Greyjoy"
+      },
+      {
+        "year": 289,
+        "lord": "Balon Greyjoy",
+        "title": "Lord of the Iron Islands",
+        "event": "Balon Greyjoy rebels against the Iron Throne. His rebellion is crushed.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Greyjoy_Rebellion"
+      },
+      {
+        "year": 298,
+        "lord": "Balon Greyjoy",
+        "title": "King of the Iron Islands",
+        "event": "Balon Greyjoy declares independence during the War of the Five Kings.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Balon_Greyjoy"
+      },
+      {
+        "year": 299,
+        "lord": "Euron Greyjoy",
+        "title": "King of the Iron Islands",
+        "event": "Euron Greyjoy claims Pyke and the Seastone Chair.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Euron_Greyjoy"
       }
     ]
   },
@@ -203,6 +459,22 @@
         "title": "Princess of Dorne",
         "event": "Meria defies the Targaryen conquest, remaining independent.",
         "canon": "canon"
+      },
+      {
+        "year": 187,
+        "lord": "Maron Martell",
+        "title": "Prince of Dorne",
+        "event": "Prince Maron Martell marries Daenerys Targaryen, integrating Dorne into the realm.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Maron_Martell"
+      },
+      {
+        "year": 298,
+        "lord": "Doran Martell",
+        "title": "Prince of Dorne",
+        "event": "Prince Doran Martell rules Dorne, maintaining neutrality.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Doran_Martell"
       }
     ]
   },
@@ -226,6 +498,30 @@
         "title": "Lord of the Dreadfort",
         "event": "House Bolton swears fealty to Winterfell's Warden.",
         "canon": "inferred"
+      },
+      {
+        "year": 282,
+        "lord": "Roose Bolton",
+        "title": "Lord of the Dreadfort",
+        "event": "Roose Bolton rules the Dreadfort and fights in Robert's Rebellion.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Roose_Bolton"
+      },
+      {
+        "year": 299,
+        "lord": "Ramsay Bolton",
+        "title": "Lord of Winterfell",
+        "event": "Ramsay Bolton acts as castellan and later betrays the Starks.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Ramsay_Bolton"
+      },
+      {
+        "year": 300,
+        "lord": "Roose Bolton",
+        "title": "Warden of the North",
+        "event": "Roose Bolton is named Warden of the North by the Iron Throne.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Roose_Bolton"
       }
     ]
   },
@@ -453,7 +749,32 @@
     "sigil": "Two blue towers on a grey field, connected by a bridge.",
     "founded": "600 years ago",
     "canon": "canon",
-    "timeline": []
+    "timeline": [
+      {
+        "year": 129,
+        "lord": "Forrest Frey",
+        "title": "Lord of the Crossing",
+        "event": "Forrest Frey supports the Blacks in the Dance, leading Frey forces to battle.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Forrest_Frey"
+      },
+      {
+        "year": 282,
+        "lord": "Walder Frey",
+        "title": "Lord of the Crossing",
+        "event": "Walder Frey, the Late Lord, arrives late to the Battle of the Trident during Robert's Rebellion.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Walder_Frey"
+      },
+      {
+        "year": 299,
+        "lord": "Walder Frey",
+        "title": "Lord of the Crossing",
+        "event": "House Frey hosts the Red Wedding, violating guest right and murdering King Robb Stark.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Red_Wedding"
+      }
+    ]
   },
   {
     "id": "blackwood",
@@ -566,6 +887,166 @@
         "title": "Lord Commander of the Night's Watch",
         "event": "The Watch remains neutral during the Conquest, preserving its vows.",
         "canon": "canon"
+      }
+    ]
+  },
+  {
+    "id": "qoherys",
+    "name": "House Qoherys",
+    "words": null,
+    "seat": "harrenhal",
+    "region": "the_riverlands",
+    "colors": {
+      "primary": "#4A3C31",
+      "secondary": "#C5A55A"
+    },
+    "sigil": "A saltire between four red skulls.",
+    "founded": "1 AC",
+    "canon": "canon",
+    "timeline": [
+      {
+        "year": 1,
+        "lord": "Lucas Qoherys",
+        "title": "Lord of Harrenhal",
+        "event": "Lucas Qoherys, former master-at-arms of Dragonstone, is granted Harrenhal.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/House_Qoherys"
+      }
+    ]
+  },
+  {
+    "id": "harroway",
+    "name": "House Harroway",
+    "words": null,
+    "seat": "harrenhal",
+    "region": "the_riverlands",
+    "colors": {
+      "primary": "#FF5733",
+      "secondary": "#33FF57"
+    },
+    "sigil": "Quartered chimney, red castle, gold crown, blue wave.",
+    "founded": "37 AC",
+    "canon": "canon",
+    "timeline": [
+      {
+        "year": 37,
+        "lord": "Lucas Harroway",
+        "title": "Lord of Harrenhal",
+        "event": "Lucas Harroway is granted Harrenhal after House Qoherys dies out.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/House_Harroway"
+      }
+    ]
+  },
+  {
+    "id": "towers",
+    "name": "House Towers",
+    "words": null,
+    "seat": "harrenhal",
+    "region": "the_riverlands",
+    "colors": {
+      "primary": "#555555",
+      "secondary": "#1a1a1a"
+    },
+    "sigil": "Five black towers on a red field.",
+    "founded": "44 AC",
+    "canon": "canon",
+    "timeline": [
+      {
+        "year": 44,
+        "lord": "Towers Lord",
+        "title": "Lord of Harrenhal",
+        "event": "House Towers is granted Harrenhal after House Harroway is destroyed.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/House_Towers"
+      }
+    ]
+  },
+  {
+    "id": "strong",
+    "name": "House Strong",
+    "words": null,
+    "seat": "harrenhal",
+    "region": "the_riverlands",
+    "colors": {
+      "primary": "#FFFFFF",
+      "secondary": "#8B0000"
+    },
+    "sigil": "A blue pale on white, charged with a red hand.",
+    "founded": "Age of Heroes",
+    "canon": "canon",
+    "timeline": [
+      {
+        "year": 101,
+        "lord": "Lyonel Strong",
+        "title": "Lord of Harrenhal",
+        "event": "Lyonel Strong is granted Harrenhal by Jaehaerys I.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/House_Strong"
+      },
+      {
+        "year": 129,
+        "lord": "Larys Strong",
+        "title": "Lord of Harrenhal, Master of Whisperers",
+        "event": "Larys Strong rules Harrenhal and supports Aegon II.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Larys_Strong"
+      }
+    ]
+  },
+  {
+    "id": "lothston",
+    "name": "House Lothston",
+    "words": null,
+    "seat": "harrenhal",
+    "region": "the_riverlands",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#DAA520"
+    },
+    "sigil": "A black bat on a silver and gold field.",
+    "founded": "151 AC",
+    "canon": "canon",
+    "timeline": [
+      {
+        "year": 151,
+        "lord": "Lucas Lothston",
+        "title": "Lord of Harrenhal",
+        "event": "Lucas Lothston is granted Harrenhal by Aegon III.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/House_Lothston"
+      }
+    ]
+  },
+  {
+    "id": "whent",
+    "name": "House Whent",
+    "words": null,
+    "seat": "harrenhal",
+    "region": "the_riverlands",
+    "colors": {
+      "primary": "#DAA520",
+      "secondary": "#000000"
+    },
+    "sigil": "Nine black bats on a yellow field.",
+    "founded": "Third century AC",
+    "canon": "canon",
+    "timeline": [
+      {
+        "year": 282,
+        "lord": "Walter Whent",
+        "title": "Lord of Harrenhal",
+        "event": "Walter Whent hosts the Great Tourney of Harrenhal.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/House_Whent"
+      },
+      {
+        "year": 298,
+        "lord": "Shella Whent",
+        "title": "Lady of Harrenhal",
+        "event": "Shella Whent yields Harrenhal to Tywin Lannister.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Shella_Whent"
       }
     ]
   }

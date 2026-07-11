@@ -217,6 +217,12 @@
   cursor: pointer;
   transform-origin: 0 0;
   transition: transform 0.35s cubic-bezier(0.25, 1, 0.5, 1), filter 0.35s ease;
+  pointer-events: bounding-box;
+}
+
+/* Bug C: Invisible hit area behind marker icons for easier click/hover targeting */
+.marker-hit-area {
+  pointer-events: all;
 }
 
 .location-marker:hover {
