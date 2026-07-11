@@ -213,10 +213,14 @@ export class MapRenderer {
       if (CAPITAL_LOCATIONS.has(loc.id)) tier = '1';
       else if (loc.type === 'castle' || loc.type === 'fortress' || loc.type === 'city') tier = '2';
 
+      const markerContainer = createSVGElement('g', {
+        class: 'location-marker-position',
+        transform: `translate(${loc.coordinates.x}, ${loc.coordinates.y})`
+      });
+
       const marker = createSVGElement('g', {
         class: 'location-marker',
-        'data-location-id': loc.id,
-        transform: `translate(${loc.coordinates.x}, ${loc.coordinates.y})`
+        'data-location-id': loc.id
       });
 
       // ── Marker shapes ──
@@ -391,6 +395,8 @@ export class MapRenderer {
         y: (loc.type === 'castle' || loc.type === 'fortress') ? '-16' : '-10',
         class: `map-label map-label-${tierClass}`,
         'data-label-tier': tier,
+        'data-x': loc.coordinates.x,
+        'data-y': loc.coordinates.y,
         'text-anchor': 'middle'
       });
       label.textContent = loc.name;
@@ -413,7 +419,8 @@ export class MapRenderer {
         }));
       });
 
-      group.appendChild(marker);
+      markerContainer.appendChild(marker);
+      group.appendChild(markerContainer);
     });
   }
 
@@ -422,17 +429,114 @@ export class MapRenderer {
      ───────────────────────────────────────────── */
   updateLabelVisibility(viewBoxWidth) {
     const labels = this.svg.querySelectorAll('.map-label');
+    
+    // Helper to check if two bounding boxes overlap
+    function rectsOverlap(r1, r2, padding = 4) {
+      return !(r2.x > r1.x + r1.width + padding ||
+               r2.x + r2.width + padding < r1.x ||
+               r2.y > r1.y + r1.height + padding ||
+               r2.y + r2.height + padding < r1.y);
+    }
+
+    // Step 1: Filter candidates based on zoom thresholds
+    const candidates = [];
     labels.forEach(label => {
       const tier = label.getAttribute('data-label-tier');
+      let isCandidate = false;
+
       if (viewBoxWidth > 700) {
-        // Zoomed out: only capitals + region/sea labels
-        label.style.opacity = (tier === '1' || tier === 'region' || tier === 'sea') ? '' : '0';
+        // Zoomed out: only capitals (1) + regions + seas
+        isCandidate = (tier === '1' || tier === 'region' || tier === 'sea');
       } else if (viewBoxWidth > 400) {
-        // Medium zoom: capitals + castles + region/sea
-        label.style.opacity = (tier === '3') ? '0' : '';
+        // Medium zoom: capitals (1) + castles/fortresses/cities (2) + regions + seas
+        isCandidate = (tier !== '3');
       } else {
-        // Zoomed in: everything visible
+        // Zoomed in: everything is a candidate
+        isCandidate = true;
+      }
+
+      if (isCandidate) {
         label.style.opacity = '';
+        candidates.push(label);
+      } else {
+        label.style.opacity = '0';
+      }
+    });
+
+    // Step 2: Map to global bounding boxes and priorities
+    const labelBoxes = candidates.map(label => {
+      const localBBox = label.getBBox();
+      const tier = label.getAttribute('data-label-tier');
+      
+      const dataX = label.getAttribute('data-x');
+      const dataY = label.getAttribute('data-y');
+      const x = dataX ? parseFloat(dataX) : 0;
+      const y = dataY ? parseFloat(dataY) : 0;
+
+      const isLocationLabel = (tier === '1' || tier === '2' || tier === '3');
+      
+      let width = localBBox.width;
+      let height = localBBox.height;
+      let localX = localBBox.x;
+      let localY = localBBox.y;
+
+      if (width === 0 || height === 0) {
+        // Estimate size if browser layout has not run or is zero
+        const textLength = label.textContent.length;
+        let fontSize = 10;
+        if (tier === '1') fontSize = 12;
+        else if (tier === '2') fontSize = 10;
+        else if (tier === 'region') fontSize = 13;
+        else if (tier === 'sea') fontSize = 11;
+        
+        width = textLength * fontSize * 0.55;
+        height = fontSize;
+        localX = -width / 2; // middle anchor
+        localY = isLocationLabel ? -16 : -5;
+      }
+
+      const globalX = isLocationLabel ? (x + localX) : (localX || x);
+      const globalY = isLocationLabel ? (y + localY) : (localY || y);
+
+      let priority = 0;
+      if (tier === '1') priority = 5;       // Capitals (highest)
+      else if (tier === '2') priority = 4;  // Major Castles & Cities
+      else if (tier === '3') priority = 3;  // Minor Castles & Villages
+      else if (tier === 'sea') priority = 2; // Seas
+      else if (tier === 'region') priority = 1; // Regions (lowest - yield first)
+
+      return {
+        label,
+        priority,
+        box: {
+          x: globalX,
+          y: globalY,
+          width: width,
+          height: height
+        }
+      };
+    });
+
+    // Step 3: Sort by priority DESC (higher priority first)
+    labelBoxes.sort((a, b) => b.priority - a.priority);
+
+    // Step 4: Keep visible labels that don't collide
+    const visibleBoxes = [];
+    labelBoxes.forEach(item => {
+      let collided = false;
+      
+      for (const visible of visibleBoxes) {
+        if (rectsOverlap(item.box, visible.box, 4)) {
+          collided = true;
+          break;
+        }
+      }
+
+      if (collided) {
+        item.label.style.opacity = '0';
+      } else {
+        item.label.style.opacity = '';
+        visibleBoxes.push(item);
       }
     });
   }

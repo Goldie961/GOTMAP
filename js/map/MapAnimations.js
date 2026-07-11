@@ -146,7 +146,7 @@ export class MapAnimations {
     const lightsGroup = this.svg.getElementById('map-night-lights');
     
     if (this.isNight) {
-      if (nightOverlay) nightOverlay.style.opacity = '0.65';
+      if (nightOverlay) nightOverlay.style.opacity = '0.38';
       if (lightsGroup) lightsGroup.style.opacity = '0.8';
     } else {
       if (nightOverlay) nightOverlay.style.opacity = '0';

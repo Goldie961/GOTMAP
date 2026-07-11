@@ -284,7 +284,9 @@ export class MapGeography {
         x: region.labelPosition.x,
         y: region.labelPosition.y,
         class: 'map-label map-label-region',
-        'data-label-tier': 'region'
+        'data-label-tier': 'region',
+        'data-x': region.labelPosition.x,
+        'data-y': region.labelPosition.y
       });
       label.textContent = region.name;
       group.appendChild(label);
@@ -295,7 +297,9 @@ export class MapGeography {
       x: '760',
       y: '650',
       class: 'map-label map-label-sea',
-      'data-label-tier': 'sea'
+      'data-label-tier': 'sea',
+      'data-x': '760',
+      'data-y': '650'
     });
     narrowSeaLabel.textContent = "The Narrow Sea";
     group.appendChild(narrowSeaLabel);
@@ -304,7 +308,9 @@ export class MapGeography {
       x: '110',
       y: '780',
       class: 'map-label map-label-sea',
-      'data-label-tier': 'sea'
+      'data-label-tier': 'sea',
+      'data-x': '110',
+      'data-y': '780'
     });
     sunsetSeaLabel.textContent = "The Sunset Sea";
     group.appendChild(sunsetSeaLabel);

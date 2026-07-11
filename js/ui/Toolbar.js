@@ -49,7 +49,8 @@ export class Toolbar {
     nightBtn.title = "Toggle Day/Night Mode";
     nightBtn.addEventListener('click', () => {
       document.dispatchEvent(new CustomEvent('toggleDayNight'));
-      nightBtn.innerHTML = nightBtn.innerHTML === '☀' ? '🌙' : '☀';
+      const active = nightBtn.classList.toggle('active');
+      nightBtn.innerHTML = active ? '🌙' : '☀';
     });
     buttons.appendChild(nightBtn);
 
