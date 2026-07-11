@@ -172,5 +172,8 @@ export class MapInteraction {
 
   updateViewBox() {
     this.svg.setAttribute('viewBox', `${this.viewBox.x.toFixed(2)} ${this.viewBox.y.toFixed(2)} ${this.viewBox.width.toFixed(2)} ${this.viewBox.height.toFixed(2)}`);
+    if (window.atlasApp && window.atlasApp.mapRenderer) {
+      window.atlasApp.mapRenderer.updateLabelVisibility(this.viewBox.width);
+    }
   }
 }

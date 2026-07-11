@@ -5,7 +5,7 @@
   top: 0;
   left: 0;
   overflow: hidden;
-  background-color: var(--sea-deep);
+  background-color: #3D6B7F;
   cursor: grab;
   user-select: none;
 }
@@ -18,121 +18,223 @@
   width: 100%;
   height: 100%;
   display: block;
+  filter: url(#paperGrain); /* Blends the entire map with the paper texture filter */
 }
 
-/* Terrain Layers Styling */
+/* ─────────────────────────────────────────────
+   Terrain Layers Styling (Parchment & Sea)
+   ───────────────────────────────────────────── */
 .sea-bg {
-  fill: url(#seaPattern);
-  transition: fill var(--transition-speed);
-}
-
-.region-polygon {
-  stroke: var(--parchment-dark);
-  stroke-width: 1px;
-  stroke-dasharray: 4 4;
-  fill: var(--parchment);
-  fill-opacity: 0.25;
-  transition: fill-opacity var(--transition-speed), fill var(--transition-speed);
-}
-
-.region-polygon:hover {
-  fill-opacity: 0.35;
+  fill: url(#parchmentFill); /* Warm parchment color under ocean wave pattern */
+  opacity: 0.95;
+  mix-blend-mode: normal;
 }
 
 .coastline-path {
-  fill: var(--parchment);
-  stroke: var(--ink);
-  stroke-width: 1.5px;
+  fill: url(#parchmentFill); /* Mainland is warm textured paper */
+  stroke: #2E1D13; /* Ink color */
+  stroke-width: 1.8px;
   stroke-linejoin: round;
   stroke-linecap: round;
-  filter: drop-shadow(2px 4px 6px rgba(44, 24, 16, 0.15));
+  filter: drop-shadow(2px 3px 6px rgba(44, 24, 16, 0.22));
+}
+
+.coastline-essos {
+  fill: #e8dbbc;
+  stroke: #453023;
+  stroke-width: 1.2px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  opacity: 0.8;
 }
 
 .island-path {
-  fill: var(--parchment);
-  stroke: var(--ink);
-  stroke-width: 1px;
+  fill: url(#parchmentFill);
+  stroke: #2E1D13;
+  stroke-width: 1.2px;
   stroke-linejoin: round;
   stroke-linecap: round;
 }
 
+.region-polygon {
+  stroke: #8B7340;
+  stroke-width: 0.75px;
+  stroke-dasharray: 2 5; /* Very subtle, non-intrusive border boundaries */
+  stroke-opacity: 0.35;
+  fill: transparent;
+  transition: fill var(--transition-speed);
+  pointer-events: visiblePainted; /* Ensure mouse enter/leaves still trigger region hover */
+}
+
+.region-polygon:hover {
+  fill-opacity: 0.05;
+}
+
+/* ─────────────────────────────────────────────
+   Rivers & Roads
+   ───────────────────────────────────────────── */
 .river-path {
   fill: none;
-  stroke: var(--sea-light);
+  stroke: #4A7B90; /* Soft ink-blue river line */
+  stroke-opacity: 0.8;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
 
 .road-path {
   fill: none;
-  stroke: var(--road);
-  stroke-width: 1px;
-  stroke-dasharray: 4 3;
-  opacity: 0.7;
+  stroke: #7D6348; /* Warm brown-gray trail */
+  stroke-width: 0.9px;
+  stroke-dasharray: 3 4; /* Faint dotted/dashed trails */
+  stroke-opacity: 0.65;
 }
 
-/* Geography Details */
-.mountain-peak {
-  fill: var(--mountain);
-  stroke: var(--ink);
+/* ─────────────────────────────────────────────
+   Mountains & Relief Hatching
+   ───────────────────────────────────────────── */
+.mountain-group {
+  pointer-events: none;
+}
+
+.mountain-outline {
+  fill: none;
+  stroke: #332015; /* Dark ink outline */
+  stroke-width: 0.8px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.mountain-shadow-wash {
+  fill: #3a2a1b; /* Soft dark wash on eastern face */
+  fill-opacity: 0.15;
+}
+
+.mountain-hatch-lines {
+  fill: none;
+  stroke: #332015;
+  stroke-width: 0.4px;
+  stroke-linecap: round;
+  opacity: 0.75;
+}
+
+/* ─────────────────────────────────────────────
+   Forests & Trees
+   ───────────────────────────────────────────── */
+.tree-group {
+  pointer-events: none;
+}
+
+.tree-foliage-pine {
+  fill: #5E7A5A; /* Pine forest green wash */
+  fill-opacity: 0.55;
+  stroke: #2E1E12; /* Inked outlines */
   stroke-width: 0.5px;
+  stroke-linejoin: round;
 }
 
-.forest-tree {
-  fill: var(--forest);
-  stroke: var(--ink);
-  stroke-width: 0.3px;
+.tree-foliage-round {
+  fill: #6E8752; /* Richer olive green for Southern woods */
+  fill-opacity: 0.55;
+  stroke: #2E1E12;
+  stroke-width: 0.5px;
+  stroke-linejoin: round;
 }
 
-/* Map Labels */
+.tree-foliage-shade {
+  fill: none;
+  stroke: #2E1E12;
+  stroke-width: 0.35px;
+  stroke-linecap: round;
+  opacity: 0.65;
+}
+
+.tree-trunk {
+  stroke: #2E1E12;
+  stroke-width: 0.45px;
+  stroke-linecap: round;
+}
+
+/* ─────────────────────────────────────────────
+   Typography & Map Labels
+   ───────────────────────────────────────────── */
 .map-label {
+  pointer-events: none;
+  fill: #2E1D13; /* Strong ink color */
+  font-weight: 600;
+  transition: opacity 0.25s ease;
+  /* Premium letter halo filter: soft white/parchment background so text stands out over maps */
+  filter: drop-shadow(0px 1px 1px #FFF8E7) drop-shadow(0px -1px 1px #FFF8E7) drop-shadow(1px 0px 1px #FFF8E7) drop-shadow(-1px 0px 1px #FFF8E7);
+}
+
+.map-label-capital {
   font-family: 'Cinzel', serif;
   font-size: 10px;
-  text-anchor: middle;
-  fill: var(--ink);
-  pointer-events: none;
-  font-weight: bold;
-}
-
-.map-label-region {
-  font-size: 18px;
-  letter-spacing: 0.3em;
-  opacity: 0.4;
-  fill: var(--ink-light);
+  letter-spacing: 0.08em;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
-.map-label-sea {
-  font-size: 14px;
-  letter-spacing: 0.2em;
-  font-style: italic;
-  opacity: 0.3;
-  fill: var(--parchment-light);
+.map-label-castle {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
 }
 
-/* Interactive Location Markers */
+.map-label-minor {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 8.5px;
+  font-style: italic;
+  font-weight: 500;
+  fill: #5C4830;
+}
+
+.map-label-region {
+  font-family: 'Cinzel', serif;
+  font-size: 15px;
+  letter-spacing: 0.32em;
+  opacity: 0.42;
+  fill: #453023;
+  font-weight: 700;
+  text-transform: uppercase;
+  filter: none; /* No shadow halo on large landscape region labels */
+}
+
+.map-label-sea {
+  font-family: 'Cinzel', serif;
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  font-style: italic;
+  opacity: 0.35;
+  fill: #E8D4A8; /* Light parchment color so it blends into sea wave pattern */
+  filter: none;
+}
+
+/* ─────────────────────────────────────────────
+   Interactive Location Markers
+   ───────────────────────────────────────────── */
 .location-marker {
   cursor: pointer;
-  transition: transform 0.2s ease, filter var(--transition-speed);
+  transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .location-marker:hover {
-  transform: scale(1.3);
+  transform: scale(1.35);
   filter: url(#markerGlowHover);
 }
 
 .location-marker.selected {
-  transform: scale(1.4);
+  transform: scale(1.45);
   filter: url(#markerGlowSelected);
 }
 
 /* Distance Tool Line */
 .distance-line {
   fill: none;
-  stroke: var(--blood);
-  stroke-width: 2px;
-  stroke-dasharray: 6 4;
-  animation: dashmove 20s linear infinite;
+  stroke: #8B0000;
+  stroke-width: 1.5px;
+  stroke-dasharray: 5 4;
+  animation: dashmove 25s linear infinite;
 }
 
 @keyframes dashmove {
@@ -144,29 +246,29 @@
 /* Tooltip on Map */
 .map-tooltip {
   position: absolute;
-  background: var(--parchment-light);
+  background: radial-gradient(circle, var(--parchment-light) 0%, var(--parchment) 100%);
   border: 1px solid var(--gold-dark);
-  border-radius: 3px;
-  padding: 0.5rem 0.8rem;
-  box-shadow: 2px 4px 10px rgba(0,0,0,0.25);
+  border-radius: 2px;
+  padding: 0.4rem 0.75rem;
+  box-shadow: 2px 3px 8px rgba(44, 24, 16, 0.25);
   font-family: 'Cinzel', serif;
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   font-weight: 600;
   color: var(--ink);
   pointer-events: none;
   z-index: 400;
   opacity: 0;
   transition: opacity 0.2s ease;
-  transform: translate(-50%, -100%) translateY(-10px);
+  transform: translate(-50%, -100%) translateY(-8px);
 }
 
 .map-tooltip::after {
   content: '';
   position: absolute;
-  bottom: -6px;
+  bottom: -5px;
   left: 50%;
   transform: translateX(-50%);
-  border-width: 6px 6px 0;
+  border-width: 5px 5px 0;
   border-style: solid;
   border-color: var(--parchment-light) transparent;
   display: block;
