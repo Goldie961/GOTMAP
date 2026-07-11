@@ -104,13 +104,13 @@ export class MapRenderer {
     });
     defs.appendChild(waves);
 
-    // ── MARKER GLOW FILTERS ────────────────────
+    // ── MARKER GLOW FILTERS (very subtle per Faza 6) ──
     ['markerGlowHover', 'markerGlowSelected'].forEach((id, i) => {
       const f = createSVGElement('filter', {
-        id, x: '-50%', y: '-50%', width: '200%', height: '200%'
+        id, x: '-30%', y: '-30%', width: '160%', height: '160%'
       });
       f.appendChild(createSVGElement('feGaussianBlur', {
-        stdDeviation: i === 0 ? '3' : '5', result: 'blur'
+        stdDeviation: i === 0 ? '1.5' : '2.5', result: 'blur'
       }));
       const m = createSVGElement('feMerge');
       m.appendChild(createSVGElement('feMergeNode', { in: 'blur' }));
@@ -178,9 +178,9 @@ export class MapRenderer {
     this.updateWorldState(worldState);
   }
 
-  updateWorldState(worldState) {
+  updateWorldState(worldState, animated = false) {
     if (!worldState) return;
-    this.geography.updateRegionColors(worldState);
+    this.geography.updateRegionColors(worldState, animated);
     this.renderLocationMarkers(worldState);
   }
 

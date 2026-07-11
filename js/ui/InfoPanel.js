@@ -92,6 +92,9 @@ export class InfoPanel {
 
   open(location, worldState) {
     this.container.innerHTML = ''; // Clear panel
+    if (window.atlasApp && window.atlasApp.audioManager) {
+      window.atlasApp.audioManager.playWood();
+    }
 
     // Close button
     const closeBtn = createElement('button', 'info-panel-close', '×');

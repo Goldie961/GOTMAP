@@ -83,6 +83,31 @@ export class Toolbar {
     });
     buttons.appendChild(distanceBtn);
 
+    // Reset View Button
+    const resetBtn = createElement('button', 'timeline-play-btn');
+    resetBtn.innerHTML = '⟲';
+    resetBtn.title = "Reset Map View";
+    resetBtn.addEventListener('click', () => {
+      if (window.atlasApp && window.atlasApp.mapInteraction) {
+        window.atlasApp.mapInteraction.resetView();
+      }
+    });
+    buttons.appendChild(resetBtn);
+
+    // Mute/Unmute Toggle
+    const muteBtn = createElement('button', 'timeline-play-btn');
+    muteBtn.innerHTML = '🔇';
+    muteBtn.title = "Unmute Sounds";
+    muteBtn.addEventListener('click', () => {
+      if (window.atlasApp && window.atlasApp.audioManager) {
+        const currentlyMuted = window.atlasApp.audioManager.isMuted;
+        window.atlasApp.audioManager.setMuted(!currentlyMuted);
+        muteBtn.innerHTML = currentlyMuted ? '🔊' : '🔇';
+        muteBtn.title = currentlyMuted ? "Mute Sounds" : "Unmute Sounds";
+      }
+    });
+    buttons.appendChild(muteBtn);
+
     this.container.appendChild(buttons);
   }
 }

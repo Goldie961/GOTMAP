@@ -253,9 +253,16 @@ export class MapGeography {
     this.svg.appendChild(group);
   }
 
-  updateRegionColors(worldState) {
+  updateRegionColors(worldState, animated = false) {
     const regionPaths = this.svg.querySelectorAll('.region-polygon');
     regionPaths.forEach(path => {
+      // Apply smooth transition when scrubbing timeline
+      if (animated) {
+        path.style.transition = 'fill 400ms ease';
+      } else {
+        path.style.transition = '';
+      }
+
       const regionId = path.getAttribute('data-region-id');
       if (worldState && worldState.regions && worldState.regions[regionId]) {
         const regionInfo = worldState.regions[regionId];

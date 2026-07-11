@@ -59,9 +59,11 @@ export class SearchBar {
 
     // Shortcut '/' to focus
     window.addEventListener('keydown', (e) => {
-      if (e.key === '/' && document.activeElement !== this.input) {
+      const isCtrlK = (e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k';
+      if ((e.key === '/' || isCtrlK) && document.activeElement !== this.input) {
         e.preventDefault();
         this.input.focus();
+        this.input.select();
       }
     });
   }

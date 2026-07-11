@@ -8,6 +8,7 @@ export class Timeline {
     this.kingNameDisplay = null;
     this.minimap = null;
     this.playBtn = null;
+    this.tooltip = null;
     
     this.years = [1, 37, 48, 60, 92, 101, 120, 129, 131, 136, 157, 209, 260, 282, 298, 300];
     this.currentYearIdx = 0;
@@ -37,7 +38,11 @@ export class Timeline {
 
     wrapper.appendChild(topRow);
 
-    // 3. Setup Slider Wrapper
+    // 3. Setup Minimap for events (placed ABOVE progress bar/slider)
+    this.minimap = createElement('div', 'timeline-minimap');
+    wrapper.appendChild(this.minimap);
+
+    // 4. Setup Slider Wrapper
     const sliderWrapper = createElement('div', 'timeline-slider-wrapper');
     this.slider = createElement('input', 'timeline-slider');
     this.slider.type = 'range';
@@ -49,14 +54,18 @@ export class Timeline {
       this.currentYearIdx = parseInt(this.slider.value);
       this.updateDisplay();
       this.notifyChange();
+      // Play a very subtle metallic tick sound on sliding
+      if (window.atlasApp && window.atlasApp.audioManager) {
+        window.atlasApp.audioManager.playTick();
+      }
     });
 
     sliderWrapper.appendChild(this.slider);
     wrapper.appendChild(sliderWrapper);
 
-    // 4. Setup Minimap for events
-    this.minimap = createElement('div', 'timeline-minimap');
-    wrapper.appendChild(this.minimap);
+    // 5. Setup Rich Tooltip
+    this.tooltip = createElement('div', 'timeline-tooltip');
+    wrapper.appendChild(this.tooltip);
 
     this.container.appendChild(wrapper);
     this.updateDisplay();
@@ -125,18 +134,42 @@ export class Timeline {
       const relative = (evt.year - startYear) / range;
       const left = Math.max(2, Math.min(98, relative * 100)); // Clamp between 2% and 98%
 
-      const marker = createElement('div', `timeline-marker ${evt.type}`);
-      marker.style.left = `${left}%`;
-      
-      // Icon mapping
+      // Determine the visual class type & illustrated symbol
       let icon = '●';
-      if (evt.type === 'battle') icon = '⚔';
-      if (evt.type === 'coronation') icon = '👑';
-      if (evt.type === 'dragon') icon = '🐉';
-      if (evt.type === 'death') icon = '💀';
+      let eventType = evt.type || 'political';
+      
+      const descLower = (evt.description || '').toLowerCase();
+      const nameLower = (evt.name || '').toLowerCase();
+      const isDragonRelated = eventType === 'dragon' || 
+                              nameLower.includes('dragon') || 
+                              descLower.includes('dragon') ||
+                              descLower.includes('balerion') ||
+                              descLower.includes('vhagar') ||
+                              descLower.includes('meraxes');
+                            
+      if (isDragonRelated) {
+        icon = '🐉';
+        eventType = 'dragon';
+      } else if (eventType === 'battle') {
+        icon = '⚔';
+      } else if (eventType === 'coronation' || eventType === 'political') {
+        icon = '👑';
+      } else if (eventType === 'conquest' || eventType === 'founding') {
+        icon = 'conquest';
+        icon = '🏰';
+      }
 
+      const marker = createElement('div', `timeline-marker ${eventType}`);
+      marker.style.left = `${left}%`;
       marker.textContent = icon;
-      marker.title = `${evt.name} (${formatYear(evt.year)})`;
+
+      // Event hover tooltip listeners
+      marker.addEventListener('mouseenter', () => {
+        this.showTooltip(evt.name, evt.year, left);
+      });
+      marker.addEventListener('mouseleave', () => {
+        this.hideTooltip();
+      });
 
       marker.addEventListener('click', () => {
         // Find nearest timeline year that contains this event or is just before/on it
@@ -144,6 +177,12 @@ export class Timeline {
           return (Math.abs(curr - evt.year) < Math.abs(prev - evt.year) ? curr : prev);
         });
         this.setYear(nearestYear);
+
+        // Play metal timeline click sound
+        if (window.atlasApp && window.atlasApp.audioManager) {
+          window.atlasApp.audioManager.playTimeline();
+        }
+
         // Dispatch location selection or focus if the event has location
         if (evt.location) {
           setTimeout(() => {
@@ -154,6 +193,18 @@ export class Timeline {
 
       this.minimap.appendChild(marker);
     });
+  }
+
+  showTooltip(text, year, pctLeft) {
+    this.tooltip.textContent = `${formatYear(year)} — ${text}`;
+    this.tooltip.style.left = `${pctLeft}%`;
+    this.tooltip.style.opacity = '1';
+    this.tooltip.style.transform = 'translate(-50%, -100%) translateY(-6px) scale(1)';
+  }
+
+  hideTooltip() {
+    this.tooltip.style.opacity = '0';
+    this.tooltip.style.transform = 'translate(-50%, -100%) translateY(0) scale(0.9)';
   }
 
   togglePlay() {
@@ -169,6 +220,10 @@ export class Timeline {
         this.currentYearIdx = nextIdx;
         this.updateDisplay();
         this.notifyChange();
+        // Play click sound
+        if (window.atlasApp && window.atlasApp.audioManager) {
+          window.atlasApp.audioManager.playTick();
+        }
       }, 3000);
     } else {
       this.playBtn.textContent = '▶';

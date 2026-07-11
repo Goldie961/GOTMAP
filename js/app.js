@@ -11,9 +11,11 @@ import { SearchBar } from './ui/SearchBar.js';
 import { FilterPanel } from './ui/FilterPanel.js';
 import { DistanceTool } from './ui/DistanceTool.js';
 import { Toolbar } from './ui/Toolbar.js';
+import { AudioManager } from './utils/AudioManager.js';
 
 class AtlasApp {
   constructor() {
+    this.audioManager = null;
     this.dataManager = null;
     this.timelineEngine = null;
     this.searchEngine = null;
@@ -33,6 +35,11 @@ class AtlasApp {
 
   async init() {
     window.atlasApp = this;
+
+    // 0. Initialize Audio Manager (muted by default)
+    this.audioManager = new AudioManager();
+    this.audioManager.init();
+
     // 1. Initialize data manager and load all JSONs
     this.dataManager = new DataManager();
     await this.dataManager.loadAll();
@@ -91,7 +98,8 @@ class AtlasApp {
     // Timeline year slide
     this.timeline.onYearChange(year => {
       this.currentWorldState = this.timelineEngine.getWorldState(year);
-      this.mapRenderer.updateWorldState(this.currentWorldState);
+      // Animated smooth transition for region colors (Faza 4 spec)
+      this.mapRenderer.updateWorldState(this.currentWorldState, true);
       
       // Update info panel if it's currently open
       const openPanel = document.querySelector('.info-panel.open');
@@ -180,11 +188,14 @@ class AtlasApp {
   }
 
   selectLocation(location) {
+    // Paper rustle sound on location selection
+    if (this.audioManager) this.audioManager.playPaper();
+
     this.infoPanel.open(location, this.currentWorldState);
     this.mapRenderer.highlightLocation(location.id);
     
     // Zoom and pan smoothly (cinematic zoom width = 350)
-    this.mapInteraction.flyTo(location.coordinates.x, location.coordinates.y, 350);
+    this.mapInteraction.flyTo(location.coordinates.x, location.coordinates.y, 350, 1500);
   }
 }
 

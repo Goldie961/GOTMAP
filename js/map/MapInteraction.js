@@ -119,13 +119,41 @@ export class MapInteraction {
     // Constrain width
     if (newWidth < this.minWidth || newWidth > this.maxWidth) return;
     
-    // Zoom toward point
-    this.viewBox.x = centerX - (centerX - this.viewBox.x) * factor;
-    this.viewBox.y = centerY - (centerY - this.viewBox.y) * factor;
-    this.viewBox.width = newWidth;
-    this.viewBox.height = newHeight;
-    
-    this.updateViewBox();
+    // Target viewBox after zoom
+    const targetX = centerX - (centerX - this.viewBox.x) * factor;
+    const targetY = centerY - (centerY - this.viewBox.y) * factor;
+    const targetW = newWidth;
+    const targetH = newHeight;
+
+    // Smooth animated zoom (200ms with easeOutQuad)
+    const startX = this.viewBox.x;
+    const startY = this.viewBox.y;
+    const startW = this.viewBox.width;
+    const startH = this.viewBox.height;
+    const duration = 200;
+    const startTime = performance.now();
+
+    if (this._zoomAnimId) cancelAnimationFrame(this._zoomAnimId);
+
+    const animateZoom = (now) => {
+      const elapsed = now - startTime;
+      const t = Math.min(elapsed / duration, 1);
+      const ease = t * (2 - t); // easeOutQuad
+
+      this.viewBox.x = startX + (targetX - startX) * ease;
+      this.viewBox.y = startY + (targetY - startY) * ease;
+      this.viewBox.width = startW + (targetW - startW) * ease;
+      this.viewBox.height = startH + (targetH - startH) * ease;
+      this.updateViewBox();
+
+      if (t < 1) {
+        this._zoomAnimId = requestAnimationFrame(animateZoom);
+      } else {
+        this._zoomAnimId = null;
+      }
+    };
+
+    this._zoomAnimId = requestAnimationFrame(animateZoom);
   }
 
   flyTo(targetX, targetY, zoomWidth, duration = 1500) {
