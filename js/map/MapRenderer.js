@@ -220,29 +220,162 @@ export class MapRenderer {
       });
 
       // ── Marker shapes ──
-      if (loc.type === 'castle' || loc.type === 'fortress') {
-        const sz = loc.type === 'fortress' ? 1.2 : 1;
-        const s = 5 * sz;
-        // Small square keep with crenellations
-        marker.appendChild(createSVGElement('rect', {
-          x: -s, y: -s * 1.8, width: s * 2, height: s * 2.2,
-          fill: houseColor, stroke: '#3C2820', 'stroke-width': '0.7', rx: '0.5'
+      const locId = loc.id;
+      if (locId === 'winterfell') {
+        // Winterfell -> heavy round drum towers, keep, timber roofs
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -10,5 L -10,-2 Q 0,-4 10,-2 L 10,5 Z',
+          fill: houseColor, stroke: '#3C2820', 'stroke-width': '0.85'
         }));
-        for (let i = -1; i <= 1; i++) {
-          marker.appendChild(createSVGElement('rect', {
-            x: -s + (i + 1) * s * 0.6, y: -s * 2.1, width: s * 0.4, height: s * 0.35,
-            fill: houseColor, stroke: '#3C2820', 'stroke-width': '0.4'
-          }));
-        }
-      } else if (loc.type === 'city') {
-        marker.appendChild(createSVGElement('circle', {
-          cx: '0', cy: '0', r: '5',
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -8,5 L -8,-9 C -8,-10.5 -5,-11.5 -5,-9 L -5,5 M 3,5 L 3,-7 C 3,-8.5 6,-9.5 6,-7 L 6,5',
+          fill: houseColor, stroke: '#3C2820', 'stroke-width': '0.85'
+        }));
+        // Conical roofs
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -8,-9 L -6.5,-13 L -5,-9 Z M 3,-7 L 4.5,-11 L 6,-7 Z',
+          fill: '#3C2820', stroke: '#3C2820', 'stroke-width': '0.7'
+        }));
+      } else if (locId === 'casterly_rock') {
+        // Casterly Rock -> massive rock with castle structure carved on top
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -13,5 L -11,-1 Q -9,-7 -4,-9 L 0,-11 L 4,-8 L 8,-3 L 11,5 Z',
+          fill: '#7A6B58', stroke: '#3C2820', 'stroke-width': '0.85'
+        }));
+        // Small towers on top
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -4,-9 L -4,-13 L -2,-13 L -2,-10 M 1,-9 L 1,-12 L 3,-12 L 3,-8',
+          fill: houseColor, stroke: '#3C2820', 'stroke-width': '0.75'
+        }));
+      } else if (locId === 'castle_black') {
+        // Castle Black -> giant ice wall background + wooden keep
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -15,5 L -15,-15 L 15,-15 L 15,5 Z',
+          fill: '#E2EEF4', stroke: '#7FA8B5', 'stroke-width': '0.6', 'fill-opacity': '0.8'
+        }));
+        marker.appendChild(createSVGElement('rect', {
+          x: '-7', y: '-3', width: '13', height: '8',
+          fill: '#5A4632', stroke: '#2A1A0C', 'stroke-width': '0.75'
+        }));
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -2,-15 L 8,-15 M 5,-15 L 5,3',
+          stroke: '#2A1A0C', 'stroke-width': '0.7'
+        }));
+      } else if (locId === 'dragonstone') {
+        // Dragonstone -> volcanic dark keep with spiky wing spires
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -8,5 L -5,-11 Q -3.5,-7 -2,5 M -3,5 L 0,-17 Q 1.5,-10 3,5 M 2,5 L 5,-11 Q 6.5,-7 8,5 M -8,5 L -8,0 Q 0,-3 8,0 L 8,5 Z',
+          fill: '#2F3538', stroke: '#1B1F21', 'stroke-width': '0.85'
+        }));
+      } else if (locId === 'hightower' || locId === 'oldtown_city') {
+        // Oldtown -> Hightower lighthouse beacon
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -7,5 L -5,-3 L 5,-3 L 7,5 Z',
+          fill: houseColor, stroke: '#3C2820', 'stroke-width': '0.85'
+        }));
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -4,-3 L -3,-11 L 3,-11 L 4,-3 Z',
+          fill: houseColor, stroke: '#3C2820', 'stroke-width': '0.75'
+        }));
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -2,-11 L -1.5,-17 L 1.5,-17 L 2,-11 Z',
+          fill: '#FFF8E7', stroke: '#3C2820', 'stroke-width': '0.6'
+        }));
+        // Fire beacon lines
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -1.5,-17 L 0,-21 L 1.5,-17 M -4,-19 L -1,-18 M 4,-19 L 1,-18',
+          stroke: '#E25822', 'stroke-width': '0.75', 'stroke-linecap': 'round'
+        }));
+      } else if (locId === 'kings_landing') {
+        // King's Landing -> Red Keep towers & dome
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -4,5 L -4,-1 C -4,-6 4,-6 4,-1 L 4,5 Z',
+          fill: houseColor, stroke: '#3C2820', 'stroke-width': '0.85'
+        }));
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -8,5 L -8,-7 L -6,-7 L -6,5 M 6,5 L 6,-7 L 8,-7 L 8,5',
+          fill: houseColor, stroke: '#3C2820', 'stroke-width': '0.8'
+        }));
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -8,-7 L -7,-11 L -6,-7 Z M 6,-7 L 7,-11 L 8,-7 Z',
+          fill: '#8B2500', stroke: '#3C2820', 'stroke-width': '0.7'
+        }));
+      } else if (locId === 'storm_end') {
+        // Storm's End -> giant round drum tower & shield wall
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -9,5 L -9,-6 C -9,-9 -5,-10 -4,-10 L 4,-10 C 5,-10 9,-9 9,-6 L 9,5 Z',
+          fill: houseColor, stroke: '#3C2820', 'stroke-width': '0.9'
+        }));
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -11,5 L -11,-1 Q 0,-3 11,-1 L 11,5 Z',
+          fill: houseColor, stroke: '#3C2820', 'stroke-width': '0.85'
+        }));
+      } else if (locId === 'the_eyrie') {
+        // The Eyrie -> towers hanging on jagged peaks
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -10,5 L -6,0 L 0,-6 L 6,0 L 10,5 Z',
+          fill: '#9AB2B7', stroke: '#3C2820', 'stroke-width': '0.85'
+        }));
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -4,0 L -3,-14 L -1,-14 L -2,0 Z M 1,-2 L 2,-19 L 4,-19 L 3,-2 Z',
+          fill: '#E8EFF1', stroke: '#3C2820', 'stroke-width': '0.7'
+        }));
+      } else if (locId === 'riverrun') {
+        // Riverrun -> triangular castle nestled in water arches
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -8,5 L 0,-5 L 8,5 Z',
+          fill: houseColor, stroke: '#3C2820', 'stroke-width': '0.85'
+        }));
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -9,5 L -9,2 L -6,2 L -6,5 M 6,5 L 6,2 L 9,2 L 9,5 M -1.5,-5 L -1.5,-9 L 1.5,-9 L 1.5,-5',
+          fill: houseColor, stroke: '#3C2820', 'stroke-width': '0.75'
+        }));
+      } else if (locId === 'pyke') {
+        // Pyke -> towers on sea stacks with rope bridge arches
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -9,5 L -9,-1 L -6,-1 L -6,5 M -2,5 L -2,-4 L 1,-4 L 1,5 M 5,5 L 5,-2 L 8,-2 L 8,5',
+          fill: '#5A5144', stroke: '#3C2820', 'stroke-width': '0.8'
+        }));
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -8,-1 L -8,-5 L -7,-5 L -7,-1 M -1,-4 L -1,-9 L 0,-9 L 0,-4 M 6,-2 L 6,-7 L 7,-7 L 7,-2',
           fill: houseColor, stroke: '#3C2820', 'stroke-width': '0.7'
         }));
-        marker.appendChild(createSVGElement('circle', {
-          cx: '0', cy: '0', r: '1.8', fill: '#3C2820'
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -6,1 Q -4,0 -2,1 M 1,0 Q 3,-1 5,0',
+          stroke: '#3C2820', 'stroke-width': '0.5', fill: 'none'
+        }));
+      } else if (locId === 'harrenhal') {
+        // Harrenhal -> 5 melted, broken, black towers
+        marker.appendChild(createSVGElement('path', {
+          d: `M -11,5 L -10,-3 L -8,0 L -7,5 Z
+              M -6,5 L -6,-9 L -4,-6 L -3,5 Z
+              M -2,5 L -2,-12 Q 0,-9 1,5 Z
+              M 2,5 L 2,-6 L 4,-4 L 5,5 Z
+              M 6,5 L 7,-2 L 9,-1 L 9,5 Z`,
+          fill: '#1E1E1E', stroke: '#0D0D0D', 'stroke-width': '0.8'
+        }));
+      } else if (loc.type === 'castle' || loc.type === 'fortress') {
+        // Standard keep (two towers + gate)
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -6,5 L -6,-1 Q 0,-3 6,-1 L 6,5 Z',
+          fill: houseColor, stroke: '#3C2820', 'stroke-width': '0.75'
+        }));
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -8,5 L -8,-6 L -5,-6 L -5,5 M 5,5 L 5,-6 L 8,-6 L 8,5',
+          fill: houseColor, stroke: '#3C2820', 'stroke-width': '0.7'
+        }));
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -8,-6 L -6.5,-9 L -5,-6 Z M 5,-6 L 6.5,-9 L 8,-6 Z',
+          fill: '#3C2820', stroke: '#3C2820', 'stroke-width': '0.6'
+        }));
+      } else if (loc.type === 'city') {
+        // City marker (cluster of 3 tiny roof/keep houses)
+        marker.appendChild(createSVGElement('path', {
+          d: 'M -7,5 L -7,0 L -3,-3 L 1,0 L 1,5 Z M 1,5 L 1,1 L 4,-1 L 7,1 L 7,5 Z M -3,5 L -3,-4 L 0,-6 L 3,-4 L 3,5 Z',
+          fill: houseColor, stroke: '#3C2820', 'stroke-width': '0.75'
         }));
       } else {
+        // Simple village/town circle
         const r = loc.type === 'landmark' ? 3 : 3.5;
         marker.appendChild(createSVGElement('circle', {
           cx: '0', cy: '0', r: r.toString(),

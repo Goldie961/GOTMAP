@@ -300,3 +300,9 @@
   font-size: 0.9rem;
   font-weight: bold;
 }
+
+@media (max-width: 768px) {
+  .info-panel {
+    width: 100vw;
+  }
+}
