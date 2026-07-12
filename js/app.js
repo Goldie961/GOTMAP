@@ -242,8 +242,8 @@ class AtlasApp {
 
     // Clicking out of details returns to the complete map as well as closing the panel.
     document.addEventListener('click', e => {
-      // If click was on map background (the sea)
-      if (e.target.classList.contains('sea-bg') || e.target.id === 'map-svg' || e.target.id === 'layer-terrain') {
+      // Clicking the SVG canvas or terrain returns to the complete map.
+      if (e.target.id === 'map-svg' || e.target.id === 'layer-terrain') {
         dismissDetailsAndResetMap();
       }
     });
