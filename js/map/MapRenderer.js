@@ -1,5 +1,4 @@
 import { createSVGElement } from '../utils/helpers.js';
-import { MapGeography } from './MapGeography.js';
 import { getHouseColor } from '../utils/colors.js';
 
 // Tier-1 locations: always visible, largest labels
@@ -15,7 +14,6 @@ export class MapRenderer {
   constructor(containerId) {
     this.container = document.getElementById(containerId);
     this.svg = null;
-    this.geography = null;
     this._markerCache = new Map();     // locationId -> { container, marker, fills[] }
     this._selectedLocationId = null;    // Bug B: persist selection across timeline updates
     this._rafPending = false;           // Bug A: rAF coalescing flag
@@ -46,9 +44,6 @@ export class MapRenderer {
     this.svg.classList.add('terrain-map');
     this.container.appendChild(this.svg);
     this.createDefs();
-    // Existing vector geography has no verified transform to the new terrain.
-    // Do not load it until its geometry is explicitly calibrated.
-    this.geography = new MapGeography(this.svg);
   }
 
   /* ─────────────────────────────────────────────
