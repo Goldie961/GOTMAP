@@ -88,6 +88,7 @@ export class Toolbar {
     const resetBtn = createElement('button', 'timeline-play-btn');
     resetBtn.innerHTML = '⟲';
     resetBtn.title = "Reset Map View";
+    resetBtn.setAttribute('aria-label', 'Reset Map View');
     resetBtn.addEventListener('click', () => {
       if (window.atlasApp && window.atlasApp.mapInteraction) {
         window.atlasApp.mapInteraction.resetView();

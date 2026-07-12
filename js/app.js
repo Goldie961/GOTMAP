@@ -102,23 +102,68 @@ class AtlasApp {
       this.mapRenderer.updateWorldState(this.currentWorldState, true);
       
       // Update info panel if it's currently open
-      const openPanel = document.querySelector('.info-panel.open');
-      if (openPanel) {
-        const lastSelectedId = this.mapRenderer.svg.querySelector('.location-marker.selected')?.getAttribute('data-location-id');
-        if (lastSelectedId) {
-          const loc = this.dataManager.getCastle(lastSelectedId) || 
-                      this.dataManager.getCity(lastSelectedId) || 
-                      this.dataManager.data.landmarks.find(l => l.id === lastSelectedId);
-          this.infoPanel.open(loc, this.currentWorldState);
-        }
+      if (this.infoPanel && this.infoPanel.currentEntity) {
+        this.infoPanel.open(this.infoPanel.currentEntity, this.currentWorldState);
       }
     });
 
     // Handle search selection clicks
     this.searchBar.onSelect(res => {
-      const loc = this.dataManager.getCastle(res.id) || this.dataManager.getCity(res.id) || this.dataManager.data.landmarks.find(l => l.id === res.id);
-      if (loc) {
-        this.selectLocation(loc);
+      let loc = this.dataManager.getCastle(res.id) || this.dataManager.getCity(res.id) || this.dataManager.data.landmarks.find(l => l.id === res.id);
+      let entity = loc;
+
+      if (!loc) {
+        if (res.type === 'house' || res.type === 'faction' || res.type === 'institution') {
+          entity = this.dataManager.getHouse(res.id);
+          if (entity) {
+            const seatId = entity.seat || entity.city || null;
+            if (seatId) {
+              loc = this.dataManager.getCastle(seatId) || this.dataManager.getCity(seatId) || this.dataManager.data.landmarks.find(l => l.id === seatId);
+            }
+          }
+        } else if (res.type === 'character') {
+          const char = this.dataManager.getCharacter(res.id);
+          entity = char;
+          let targetLocationId = null;
+          if (char && char.timeline && char.timeline.length > 0) {
+            const currentYear = this.currentWorldState ? this.currentWorldState.year : 1;
+            const matches = char.timeline.filter(t => t.year <= currentYear);
+            if (matches.length > 0) {
+              targetLocationId = matches[matches.length - 1].location;
+            } else {
+              targetLocationId = char.timeline[0].location;
+            }
+          }
+          if (!targetLocationId && res.house) {
+            const house = this.dataManager.getHouse(res.house);
+            if (house && house.seat) {
+              targetLocationId = house.seat;
+            }
+          }
+          if (targetLocationId) {
+            loc = this.dataManager.getCastle(targetLocationId) || this.dataManager.getCity(targetLocationId) || this.dataManager.data.landmarks.find(l => l.id === targetLocationId);
+          }
+        } else if (res.type === 'dragon') {
+          const dragon = this.dataManager.getDragon(res.id);
+          entity = dragon;
+          let targetLocationId = null;
+          if (dragon && dragon.timeline && dragon.timeline.length > 0) {
+            const currentYear = this.currentWorldState ? this.currentWorldState.year : 1;
+            const matches = dragon.timeline.filter(t => t.year <= currentYear);
+            if (matches.length > 0) {
+              targetLocationId = matches[matches.length - 1].location;
+            } else {
+              targetLocationId = dragon.timeline[0].location;
+            }
+          }
+          if (targetLocationId) {
+            loc = this.dataManager.getCastle(targetLocationId) || this.dataManager.getCity(targetLocationId) || this.dataManager.data.landmarks.find(l => l.id === targetLocationId);
+          }
+        }
+      }
+
+      if (entity) {
+        this.selectEntity(entity, loc);
       }
     });
 
@@ -132,9 +177,21 @@ class AtlasApp {
         if (this.distanceTool.isActive) {
           this.distanceTool.handleLocationClick(loc);
         } else {
-          this.selectLocation(loc);
+          this.selectEntity(loc, loc);
         }
       }
+    });
+
+    // Calibrated geometry is optional. When it exists, it provides zoom and
+    // a visual filter; `location.region` remains the authoritative assignment.
+    document.addEventListener('regionSelected', e => {
+      const regionId = e.detail.regionId;
+      const bounds = this.dataManager.getRegionBounds(regionId);
+      this.mapRenderer.setSelectedRegion(regionId);
+      if (!bounds) return;
+      const padding = 1.18;
+      const zoomWidth = Math.min(this.mapInteraction.mapWidth, Math.max(bounds.width * padding, bounds.height * (this.mapInteraction.mapWidth / this.mapInteraction.mapHeight) * padding, 120));
+      this.mapInteraction.flyTo(bounds.minX + bounds.width / 2, bounds.minY + bounds.height / 2, zoomWidth, 1200);
     });
 
     // SVG hover tooltips
@@ -177,25 +234,51 @@ class AtlasApp {
       this.mapAnimations.applySeason(e.detail.season);
     });
 
-    // Clicking out of details closes the sidebar details panel
+    const dismissDetailsAndResetMap = () => {
+      this.infoPanel.close();
+      this.mapRenderer.clearHighlight();
+      this.mapInteraction.resetView();
+    };
+
+    // Clicking out of details returns to the complete map as well as closing the panel.
     document.addEventListener('click', e => {
       // If click was on map background (the sea)
-      if (e.target.classList.contains('sea-bg') || e.target.id === 'map-svg') {
-        this.infoPanel.close();
-        this.mapRenderer.clearHighlight();
+      if (e.target.classList.contains('sea-bg') || e.target.id === 'map-svg' || e.target.id === 'layer-terrain') {
+        dismissDetailsAndResetMap();
       }
+    });
+
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') dismissDetailsAndResetMap();
     });
   }
 
   selectLocation(location) {
+    this.selectEntity(location, location);
+  }
+
+  selectEntity(entity, location) {
     // Paper rustle sound on location selection
     if (this.audioManager) this.audioManager.playPaper();
 
-    this.infoPanel.open(location, this.currentWorldState);
-    this.mapRenderer.highlightLocation(location.id);
-    
-    // Zoom and pan smoothly (cinematic zoom width = 350)
-    this.mapInteraction.flyTo(location.coordinates.x, location.coordinates.y, 350, 1500);
+    this.infoPanel.open(entity, this.currentWorldState);
+
+    if (location) {
+      this.mapRenderer.highlightLocation(location.id);
+      // Zoom and pan smoothly (cinematic zoom width = 350)
+      let targetX = location.coordinates.x;
+      let targetY = location.coordinates.y;
+      const renderedPos = this.mapRenderer.getRenderedPosition(location.id);
+      if (renderedPos) {
+        targetX = renderedPos.x;
+        targetY = renderedPos.y;
+      } else {
+        // This location has not yet been calibrated on the new terrain map.
+        // Keep the information panel open, but do not fly the camera to stale coordinates.
+        return;
+      }
+      this.mapInteraction.flyTo(targetX, targetY, 350, 1500);
+    }
   }
 }
 
