@@ -9,6 +9,8 @@ const CAPITAL_LOCATIONS = new Set([
   'harrenhal', 'the_wall', 'moat_cailin'
 ]);
 
+const DEFAULT_WORLD_CANVAS = { width: 1500, height: 1000 };
+
 export class MapRenderer {
   constructor(containerId) {
     this.container = document.getElementById(containerId);
@@ -18,18 +20,34 @@ export class MapRenderer {
     this._selectedLocationId = null;    // Bug B: persist selection across timeline updates
     this._rafPending = false;           // Bug A: rAF coalescing flag
     this._pendingWorldState = null;     // Bug A: latest world state waiting for rAF
+    this.renderedPositions = new Map(); // Store visual coordinates after decluttering
+    this.canvas = DEFAULT_WORLD_CANVAS;
+    this.mapDefinition = null;
+    this._lastWorldState = null;
+    this.selectedRegionId = null;
+    this._missingCoordinatesKey = null;
   }
 
   init() {
+    this.mapDefinition = window.atlasDataManager?.getMapDefinition?.('world') || null;
+    const coordinateSpace = window.atlasDataManager?.getMapCoordinateSpace?.('world');
+    if (coordinateSpace?.width && coordinateSpace?.height) {
+      this.canvas = { width: coordinateSpace.width, height: coordinateSpace.height };
+    }
     this.svg = createSVGElement('svg', {
       id: 'map-svg',
-      viewBox: '0 0 1000 1400',
+      viewBox: `0 0 ${this.canvas.width} ${this.canvas.height}`,
       preserveAspectRatio: 'xMidYMid meet',
       width: '100%',
       height: '100%'
     });
+    this.svg.dataset.mapWidth = this.canvas.width;
+    this.svg.dataset.mapHeight = this.canvas.height;
+    this.svg.classList.add('terrain-map');
     this.container.appendChild(this.svg);
     this.createDefs();
+    // Existing vector geography has no verified transform to the new terrain.
+    // Do not load it until its geometry is explicitly calibrated.
     this.geography = new MapGeography(this.svg);
   }
 
@@ -156,6 +174,19 @@ export class MapRenderer {
     compass.appendChild(nLabel);
     defs.appendChild(compass);
 
+    // ── UNEXPLORED HATCH PATTERN ──────────────
+    // Cross-hatching for Far Lands / 'Here be dragons' zones
+    const hatch = createSVGElement('pattern', {
+      id: 'unexploredHatch', width: '12', height: '12',
+      patternUnits: 'userSpaceOnUse', patternTransform: 'rotate(45)'
+    });
+    hatch.appendChild(createSVGElement('rect', { width: '12', height: '12', fill: 'none' }));
+    hatch.appendChild(createSVGElement('line', {
+      x1: '0', y1: '0', x2: '0', y2: '12',
+      stroke: 'rgba(92, 72, 48, 0.13)', 'stroke-width': '1.5'
+    }));
+    defs.appendChild(hatch);
+
     this.svg.appendChild(defs);
   }
 
@@ -169,8 +200,8 @@ export class MapRenderer {
      Map rendering pipeline
      ───────────────────────────────────────────── */
   async renderMap(worldState) {
-    await this.geography.loadData();
-    this.geography.renderAll();
+    this.renderTerrainBackground();
+    this.renderGeographicFeatures();
 
     // Locations layer (above terrain, below overlays)
     const locationsGroup = createSVGElement('g', { id: 'layer-locations' });
@@ -184,7 +215,7 @@ export class MapRenderer {
 
   updateWorldState(worldState, animated = false) {
     if (!worldState) return;
-    this.geography.updateRegionColors(worldState, animated);
+    this._lastWorldState = worldState;
 
     // Bug A: Coalesce rapid timeline scrubs into a single rAF render
     this._pendingWorldState = worldState;
@@ -209,28 +240,84 @@ export class MapRenderer {
       this.svg.appendChild(group);
     }
 
-    const locations = window.atlasDataManager ? window.atlasDataManager.getAllLocations() : [];
+    // A location is only rendered after it has been calibrated for the new terrain map.
+    // Legacy coordinates remain untouched in locations.json until the migration is complete.
+    const allLocations = window.atlasDataManager?.getAllLocations?.() || [];
+    const locations = allLocations.filter(loc => this.getLocationCoordinate(loc));
+    if (window.atlasDataManager) {
+      window.atlasDataManager.data.missingCoordinates = allLocations
+        .filter(loc => !this.getLocationCoordinate(loc))
+        .map(loc => loc.id);
+      const missingKey = window.atlasDataManager.data.missingCoordinates.join(',');
+      if (missingKey && missingKey !== this._missingCoordinatesKey) {
+        console.info('[atlas] Locations omitted until calibrated:', window.atlasDataManager.data.missingCoordinates);
+      }
+      this._missingCoordinatesKey = missingKey;
+    }
 
-    // If markers already exist, do an in-place color update (Bug A: avoid full rebuild)
+    // Run decluttering algorithm once if not already populated
+    if (this.renderedPositions.size === 0 && locations.length > 0) {
+      // Initialize with original coordinates
+      locations.forEach(loc => {
+        this.renderedPositions.set(loc.id, { ...this.getLocationCoordinate(loc) });
+      });
+
+      const threshold = 22;
+      const minDistance = 24;
+      const iterations = 3;
+
+      for (let iter = 0; iter < iterations; iter++) {
+        for (let i = 0; i < locations.length; i++) {
+          for (let j = i + 1; j < locations.length; j++) {
+            const loc1 = locations[i];
+            const loc2 = locations[j];
+            const pos1 = this.renderedPositions.get(loc1.id);
+            const pos2 = this.renderedPositions.get(loc2.id);
+
+            const dx = pos1.x - pos2.x;
+            const dy = pos1.y - pos2.y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+
+            if (dist < threshold) {
+              if (dist === 0) {
+                // If exactly identical coordinates, push apart on X axis
+                pos1.x += 12;
+                pos2.x -= 12;
+              } else {
+                // Push apart along the line joining them
+                const overlap = minDistance - dist;
+                const shiftX = (dx / dist) * (overlap / 2);
+                const shiftY = (dy / dist) * (overlap / 2);
+                pos1.x += shiftX;
+                pos1.y += shiftY;
+                pos2.x -= shiftX;
+                pos2.y -= shiftY;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    // The previous cache update only changed fills, leaving a stale crest when
+    // a timeline transition changed rulers. Keep the DOM, but update the cached
+    // crest image and its house-coloured frame as part of the same pass.
     if (this._markerCache.size > 0) {
       locations.forEach(loc => {
-        const cached = this._markerCache.get(loc.id);
-        if (!cached) return;
-
-        // Resolve ruling house at current year
-        let houseId = 'unknown';
-        if (loc.timeline) {
-          const matches = loc.timeline.filter(t => t.year <= worldState.year);
-          if (matches.length > 0) houseId = matches[matches.length - 1].house;
+        try {
+          const cached = this._markerCache.get(loc.id);
+          if (!cached) return;
+          const timeline = Array.isArray(loc.timeline) ? loc.timeline : [];
+          const active = timeline.filter(t => t?.year <= worldState.year).at(-1);
+          const houseId = loc.house || active?.house || active?.faction || 'unknown';
+          const houseColor = getHouseColor(houseId);
+          cached.fills.forEach(el => el.setAttribute('fill', houseColor));
+          const crest = window.atlasDataManager?.getHouse?.(houseId)?.crest;
+          if (cached.crestFrame) cached.crestFrame.setAttribute('stroke', houseColor);
+          if (cached.crestImage && crest) cached.crestImage.setAttribute('href', crest);
+        } catch (err) {
+          console.error('[map-editor] Eșec actualizare marker pentru', loc?.id, err);
         }
-        if (loc.house) houseId = loc.house;
-
-        const houseColor = getHouseColor(houseId);
-
-        // Update fill colors on cached SVG elements
-        cached.fills.forEach(el => {
-          el.setAttribute('fill', houseColor);
-        });
       });
 
       // Bug B: Re-apply selection after in-place update
@@ -247,11 +334,19 @@ export class MapRenderer {
     group.innerHTML = '';
 
     locations.forEach(loc => {
+      try {
+      // `house` must remain null when absent: an "unknown" fallback here would
+      // override the ruling house resolved from the location timeline.
+      loc = { ...loc, type: loc.type ?? 'unknown', region: loc.region ?? 'unknown', timeline: Array.isArray(loc.timeline) ? loc.timeline : [], house: loc.house ?? null, name: loc.name ?? loc.id ?? 'Unknown location' };
+      const renderedPos = this.renderedPositions.get(loc.id) || this.getLocationCoordinate(loc);
       // Resolve ruling house at current year
       let houseId = 'unknown';
       if (loc.timeline) {
-        const matches = loc.timeline.filter(t => t.year <= worldState.year);
-        if (matches.length > 0) houseId = matches[matches.length - 1].house;
+          const matches = loc.timeline.filter(t => t?.year <= worldState.year);
+        if (matches.length > 0) {
+          const active = matches[matches.length - 1];
+            houseId = active?.house || active?.faction || 'unknown';
+        }
       }
       if (loc.house) houseId = loc.house;
 
@@ -263,8 +358,8 @@ export class MapRenderer {
       else if (loc.type === 'castle' || loc.type === 'fortress' || loc.type === 'city') tier = '2';
 
       const markerContainer = createSVGElement('g', {
-        class: 'location-marker-position',
-        transform: `translate(${loc.coordinates.x}, ${loc.coordinates.y})`
+        class: `location-marker-position${this.selectedRegionId && loc.region !== this.selectedRegionId ? ' region-filtered-out' : ''}`,
+        transform: `translate(${renderedPos.x}, ${renderedPos.y})`
       });
 
       const marker = createSVGElement('g', {
@@ -281,8 +376,34 @@ export class MapRenderer {
 
       // Track elements whose fill should update with house color
       const fillElements = [];
+      let crestFrame = null;
+      let crestImage = null;
 
       // ── Marker shapes ──
+      // A house crest is the clearest visual identifier on a political map.
+      // Keep it inside the same compact, coloured frame so differently shaped
+      // heraldry remains legible at normal zoom.
+      const rulingHouse = window.atlasDataManager?.getHouse?.(houseId);
+      if (rulingHouse?.crest) {
+        crestFrame = createSVGElement('circle', {
+          cx: '0', cy: '-4', r: '11.5', fill: '#f5ead4', stroke: houseColor,
+          'stroke-width': '2', class: 'house-crest-frame'
+        });
+        crestImage = createSVGElement('image', {
+          x: '-9', y: '-13', width: '18', height: '18', href: rulingHouse.crest,
+          preserveAspectRatio: 'xMidYMid meet', class: 'house-crest'
+        });
+        const fallback = createSVGElement('g', { class: 'house-crest-fallback', visibility: 'hidden' });
+        if (loc.type === 'castle' || loc.type === 'fortress') {
+          fallback.appendChild(createSVGElement('path', { d: 'M -7,5 L -7,-5 L -4,-5 L -4,-8 L -1,-8 L -1,-5 L 4,-5 L 4,-8 L 7,-8 L 7,5 Z', fill: '#6b5940', stroke: '#3C2820', 'stroke-width': '.8' }));
+        } else if (loc.type === 'city') {
+          fallback.appendChild(createSVGElement('path', { d: 'M -8,5 L -8,-1 L -4,-4 L 0,-1 L 0,-7 L 4,-4 L 4,0 L 8,2 L 8,5 Z', fill: '#6b5940', stroke: '#3C2820', 'stroke-width': '.8' }));
+        } else {
+          fallback.appendChild(createSVGElement('circle', { cx: '0', cy: '-4', r: '3', fill: '#8b7340', stroke: '#3C2820', 'stroke-width': '.6' }));
+        }
+        crestImage.addEventListener('error', () => { crestImage.setAttribute('visibility', 'hidden'); fallback.setAttribute('visibility', 'visible'); });
+        marker.appendChild(crestFrame); marker.appendChild(crestImage); marker.appendChild(fallback);
+      } else {
       const locId = loc.id;
       if (locId === 'winterfell') {
         const p1 = createSVGElement('path', {
@@ -446,6 +567,7 @@ export class MapRenderer {
         marker.appendChild(circle);
         if (loc.type !== 'landmark') fillElements.push(circle);
       }
+      }
 
       // ── Label with tier ──
       const tierClass = tier === '1' ? 'capital' : tier === '2' ? 'castle' : 'minor';
@@ -454,8 +576,8 @@ export class MapRenderer {
         y: (loc.type === 'castle' || loc.type === 'fortress') ? '-16' : '-10',
         class: `map-label map-label-${tierClass}`,
         'data-label-tier': tier,
-        'data-x': loc.coordinates.x,
-        'data-y': loc.coordinates.y,
+        'data-x': renderedPos.x,
+        'data-y': renderedPos.y,
         'text-anchor': 'middle'
       });
       label.textContent = loc.name;
@@ -485,9 +607,16 @@ export class MapRenderer {
       this._markerCache.set(loc.id, {
         container: markerContainer,
         marker: marker,
-        fills: fillElements
+        fills: fillElements,
+        crestFrame,
+        crestImage
       });
+      } catch (err) {
+        console.error('[map-editor] Eșec randare marker pentru', loc?.id, err);
+      }
     });
+
+    this.updateLabelVisibility(this.canvas.width);
   }
 
   /* ─────────────────────────────────────────────
@@ -508,6 +637,8 @@ export class MapRenderer {
     const candidates = [];
     labels.forEach(label => {
       const tier = label.getAttribute('data-label-tier');
+      const minZoom = Number(label.getAttribute('data-min-zoom') || 0);
+      const currentZoom = this.canvas.width / viewBoxWidth;
       let isCandidate = false;
 
       if (viewBoxWidth > 700) {
@@ -520,6 +651,8 @@ export class MapRenderer {
         // Zoomed in: everything is a candidate
         isCandidate = true;
       }
+
+      if (currentZoom < minZoom) isCandidate = false;
 
       if (isCandidate) {
         label.style.opacity = '';
@@ -622,5 +755,97 @@ export class MapRenderer {
     this.svg.querySelectorAll('.location-marker.selected').forEach(el => {
       el.classList.remove('selected', 'glow-pulsing');
     });
+  }
+
+  getRenderedPosition(locationId) {
+    return this.renderedPositions.get(locationId) || null;
+  }
+
+  getLocationCoordinate(location) {
+    const overrides = window.atlasWorldCoordinateOverrides;
+    // A null override explicitly removes a saved coordinate while editing.
+    if (overrides && Object.hasOwn(overrides, location.id)) return overrides[location.id];
+
+    const saved = window.atlasDataManager?.getWorldCoordinate?.(location.id);
+    if (saved) return saved;
+    return null;
+  }
+
+  setSelectedRegion(regionId = null) {
+    this.selectedRegionId = regionId;
+    this.svg.querySelectorAll('.location-marker-position').forEach(marker => {
+      const locationId = marker.querySelector('.location-marker')?.dataset.locationId;
+      const location = window.atlasDataManager?.getAllLocations?.().find(item => item.id === locationId);
+      marker.classList.toggle('region-filtered-out', Boolean(regionId && location?.region !== regionId));
+    });
+    this.svg.querySelectorAll('.calibrated-region').forEach(region => {
+      region.classList.toggle('selected', region.dataset.regionId === regionId);
+    });
+  }
+
+  refreshLocationMarkers() {
+    this._markerCache.clear();
+    this.renderedPositions.clear();
+    const group = this.svg.getElementById('layer-locations');
+    if (group) group.innerHTML = '';
+    if (this._lastWorldState) this.renderLocationMarkers(this._lastWorldState);
+  }
+
+  renderTerrainBackground() {
+    const terrainSource = this.mapDefinition?.terrain?.src;
+    if (!terrainSource) return;
+    const terrain = createSVGElement('image', {
+      id: 'layer-terrain',
+      x: '0',
+      y: '0',
+      width: this.canvas.width,
+      height: this.canvas.height,
+      href: terrainSource,
+      preserveAspectRatio: 'none'
+    });
+    this.svg.appendChild(terrain);
+  }
+
+  renderCalibratedRegionPolygons() {
+    const regions = window.atlasDataManager?.data?.calibratedRegionPolygons || {};
+    const group = createSVGElement('g', { id: 'layer-calibrated-regions' });
+    Object.entries(regions).forEach(([id, region]) => {
+      if (typeof region?.path !== 'string') return;
+      const path = createSVGElement('path', {
+        d: region.path,
+        class: 'calibrated-region',
+        'data-region-id': id
+      });
+      path.addEventListener('click', event => {
+        event.stopPropagation();
+        document.dispatchEvent(new CustomEvent('regionSelected', { detail: { regionId: id } }));
+      });
+      group.appendChild(path);
+    });
+    this.svg.appendChild(group);
+  }
+
+  renderGeographicFeatures() {
+    const group = createSVGElement('g', { id: 'layer-labels' });
+    const features = window.atlasDataManager?.data?.worldFeatures || [];
+    features
+      .filter(feature => !feature.needsCalibration && Number.isFinite(feature.position?.x) && Number.isFinite(feature.position?.y))
+      .forEach(feature => {
+        const label = createSVGElement('text', {
+          x: feature.position.x,
+          y: feature.position.y,
+          class: `map-label map-feature-label map-feature-label--${feature.type || 'other'} ${feature.type === 'region' ? 'map-label-region' : 'map-label-sea'}`,
+          'data-label-tier': feature.type === 'region' ? 'region' : 'sea',
+          'data-min-zoom': Number.isFinite(feature.minZoom) ? feature.minZoom : '0',
+          'data-x': feature.position.x,
+          'data-y': feature.position.y,
+          'text-anchor': 'middle',
+          transform: feature.rotation ? `rotate(${feature.rotation} ${feature.position.x} ${feature.position.y})` : ''
+        });
+        label.textContent = feature.name;
+        group.appendChild(label);
+      });
+    this.svg.appendChild(group);
+    this.updateLabelVisibility(this.canvas.width);
   }
 }
