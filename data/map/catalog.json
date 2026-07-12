@@ -1,0 +1,582 @@
+{
+  "version": 1,
+  "coordinateSpaces": {
+    "world-terrain-1500x1000": {
+      "width": 1500,
+      "height": 1000,
+      "units": "map-units",
+      "milesPerUnit": null,
+      "scaleStatus": "needsCalibration"
+    }
+  },
+  "maps": {
+    "world": {
+      "id": "world",
+      "label": "World",
+      "coordinateSpace": "world-terrain-1500x1000",
+      "mapFeatures": "data/map/world_features.json",
+      "terrain": {
+        "src": "assets/Mapa/HARTALUMIIFINALA.jpg",
+        "kind": "raster",
+        "nativeWidth": 4096,
+        "nativeHeight": 2731,
+        "containsLabels": false,
+        "containsPoliticalBorders": false
+      },
+      "geometry": {
+        "status": "needsCalibration",
+        "layers": {
+          "regions": false,
+          "coastlines": false,
+          "rivers": false,
+          "roads": false,
+          "mountains": false,
+          "forests": false,
+          "routes": false
+        }
+      },
+      "verticalSlice": {
+        "winterfell": {
+          "sourceEntityId": "winterfell",
+          "status": "needsCalibration"
+        },
+        "kings_landing": {
+          "sourceEntityId": "kings_landing",
+          "status": "needsCalibration"
+        },
+        "braavos": {
+          "sourceEntityId": "braavos",
+          "status": "needsCalibration"
+        },
+        "meereen": {
+          "sourceEntityId": null,
+          "status": "missingSourceEntity"
+        }
+      },
+      "coordinates": {
+        "eastwatch": {
+          "x": 385,
+          "y": 138,
+          "source": "Poze harta completa/WESTEROS/westeros.png",
+          "method": "registered-reference-map"
+        },
+        "winterfell": {
+          "x": 263,
+          "y": 200,
+          "source": "Poze harta completa/WESTEROS/westeros.png",
+          "method": "registered-reference-map"
+        },
+        "last_hearth": {
+          "x": 374,
+          "y": 170,
+          "source": "Poze harta completa/WESTEROS/westeros.png",
+          "method": "registered-reference-map"
+        },
+        "the_dreadfort": {
+          "x": 401,
+          "y": 211,
+          "source": "Poze harta completa/WESTEROS/westeros.png",
+          "method": "registered-reference-map"
+        },
+        "riverrun": {
+          "x": 270,
+          "y": 390,
+          "source": "Poze harta completa/WESTEROS/westeros.png",
+          "method": "registered-reference-map"
+        },
+        "harrenhal": {
+          "x": 220.7,
+          "y": 444.3,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "the_eyrie": {
+          "x": 389,
+          "y": 360,
+          "source": "Poze harta completa/WESTEROS/westeros.png",
+          "method": "registered-reference-map"
+        },
+        "gulltown": {
+          "x": 430,
+          "y": 386,
+          "source": "Poze harta completa/WESTEROS/westeros.png",
+          "method": "registered-reference-map"
+        },
+        "pyke": {
+          "x": 333.5,
+          "y": 429.2,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "casterly_rock": {
+          "x": 74,
+          "y": 498,
+          "source": "Poze harta completa/WESTEROS/westeros.png",
+          "method": "registered-reference-map"
+        },
+        "dragonstone": {
+          "x": 445.4,
+          "y": 434.9,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "highgarden": {
+          "x": 126.8,
+          "y": 590.3,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "oldtown": {
+          "x": 76,
+          "y": 662,
+          "source": "Poze harta completa/WESTEROS/westeros.png",
+          "method": "registered-reference-map"
+        },
+        "sunspear": {
+          "x": 393,
+          "y": 763,
+          "source": "Poze harta completa/WESTEROS/westeros.png",
+          "method": "registered-reference-map"
+        },
+        "shadow_tower": {
+          "x": 256.7,
+          "y": 123.2,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "white_harbor": {
+          "x": 647.8,
+          "y": 267.6,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "moat_cailin": {
+          "x": 273.9,
+          "y": 287.9,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "the_twins": {
+          "x": 269.6,
+          "y": 366,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "karhold": {
+          "x": 427.5,
+          "y": 184.9,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "bear_island": {
+          "x": 217.7,
+          "y": 254.2,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "deepwood_motte": {
+          "x": 171,
+          "y": 171.2,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "greywater_watch": {
+          "x": 241.5,
+          "y": 307.4,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "seagard": {
+          "x": 184.3,
+          "y": 367.9,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "golden_tooth": {
+          "x": 181.6,
+          "y": 457.6,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "raventree_hall": {
+          "x": 242.7,
+          "y": 382.5,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "stone_hedge": {
+          "x": 272.2,
+          "y": 378.3,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "runestone": {
+          "x": 461.5,
+          "y": 375.7,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "hearts_home": {
+          "x": 411.8,
+          "y": 363.8,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "driftmark": {
+          "x": 352.6,
+          "y": 538,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "griffins_roost": {
+          "x": 992.8,
+          "y": 445.8,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "rain_house": {
+          "x": 967.7,
+          "y": 505.5,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "evenfall_hall": {
+          "x": 445.1,
+          "y": 708.2,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "yronwood": {
+          "x": 245.7,
+          "y": 744.9,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "starfall": {
+          "x": 157.5,
+          "y": 734,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "harvest_hall": {
+          "x": 266.5,
+          "y": 606.1,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "claw_isle": {
+          "x": 369.8,
+          "y": 522.6,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "lannisport_city": {
+          "x": 14,
+          "y": 520.8,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "white_harbor_city": {
+          "x": 505,
+          "y": 105.3,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "gulltown_city": {
+          "x": 430,
+          "y": 386,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "planky_town": {
+          "x": 402.2,
+          "y": 780.1,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "barrowton": {
+          "x": 304.8,
+          "y": 192.1,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "stoney_sept": {
+          "x": 709.4,
+          "y": 676.4,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "duskendale": {
+          "x": 392.2,
+          "y": 524.7,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "maidenpool": {
+          "x": 387,
+          "y": 455.4,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "saltpans": {
+          "x": 374.6,
+          "y": 430,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "harroway_town": {
+          "x": 299.2,
+          "y": 413.9,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "the_wall": {
+          "x": 314.9,
+          "y": 116.7,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "gods_eye": {
+          "x": 277.3,
+          "y": 471.7,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "isle_of_faces": {
+          "x": 281.5,
+          "y": 471.9,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "the_neck": {
+          "x": 259.3,
+          "y": 308.8,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "fist_of_first_men": {
+          "x": 241.5,
+          "y": 90.3,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "crasters_keep": {
+          "x": 263,
+          "y": 125.7,
+          "source": "assets/Mapa/referinte1.png",
+          "method": "local-anchor-registration"
+        },
+        "yi_ti_empire": {
+          "x": 782.5,
+          "y": 459.5,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "gogossos": {
+          "x": 161.8,
+          "y": 384.6,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "acorn_hall": {
+          "x": 573.9,
+          "y": 297.6,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "asshai": {
+          "x": 768.9,
+          "y": 517.4,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "braavos": {
+          "x": 734.8,
+          "y": 486.7,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "brightwater_keep": {
+          "x": 756.9,
+          "y": 513.5,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "castle_black": {
+          "x": 749.9,
+          "y": 483,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "crakehall": {
+          "x": 760.1,
+          "y": 509.9,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "godsgrace": {
+          "x": 758.5,
+          "y": 502,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "gorosh": {
+          "x": 764.8,
+          "y": 519.4,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "horn_hill": {
+          "x": 765.7,
+          "y": 490,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "jinqi": {
+          "x": 768.2,
+          "y": 505.4,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "kings_landing": {
+          "x": 758.4,
+          "y": 481.7,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "lorath": {
+          "x": 739.8,
+          "y": 500.8,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "lys": {
+          "x": 742,
+          "y": 512.9,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "myr": {
+          "x": 748.1,
+          "y": 507.7,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "norvos": {
+          "x": 766.3,
+          "y": 496,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "oldtown_city": {
+          "x": 732.6,
+          "y": 517.6,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "pentos": {
+          "x": 762,
+          "y": 488.6,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "qohor": {
+          "x": 748.2,
+          "y": 519.6,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "arbor": {
+          "x": 755.5,
+          "y": 487,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "saffron_straits": {
+          "x": 754.9,
+          "y": 519.4,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "sothoryos_continent": {
+          "x": 753.4,
+          "y": 509.5,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "storm_end": {
+          "x": 731.7,
+          "y": 501.4,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "five_forts": {
+          "x": 733.1,
+          "y": 480.2,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "shadow_lands": {
+          "x": 736.8,
+          "y": 512.6,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "tyrosh": {
+          "x": 764.3,
+          "y": 514,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "ulthos_continent": {
+          "x": 750.8,
+          "y": 496.1,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "volantis": {
+          "x": 731.6,
+          "y": 494.1,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "yeen": {
+          "x": 768.7,
+          "y": 514.5,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "yin": {
+          "x": 731.1,
+          "y": 494.7,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "zamettar": {
+          "x": 758.2,
+          "y": 493.8,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        }
+      }
+    },
+    "westeros": {
+      "id": "westeros",
+      "label": "Westeros",
+      "coordinateSpace": "world-terrain-1500x1000",
+      "status": "planned"
+    },
+    "western_essos": {
+      "id": "western_essos",
+      "label": "Western Essos",
+      "coordinateSpace": "world-terrain-1500x1000",
+      "status": "planned"
+    },
+    "eastern_essos_south": {
+      "id": "eastern_essos_south",
+      "label": "Eastern Essos & South",
+      "coordinateSpace": "world-terrain-1500x1000",
+      "status": "planned"
+    }
+  }
+}
