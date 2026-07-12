@@ -1,5 +1,5 @@
 import { createElement, formatYear } from '../utils/helpers.js';
-import { getHouseColor, HOUSE_COLORS } from '../utils/colors.js';
+import { getHouseColor, getHouseSecondaryColor, HOUSE_COLORS } from '../utils/colors.js';
 
 function getHouseSigilSVG(houseId, primaryColor, secondaryColor) {
   let innerPaths = '';
@@ -125,17 +125,42 @@ function getHouseSigilSVG(houseId, primaryColor, secondaryColor) {
   return `<svg viewBox="0 0 100 100" style="width: 100%; height: 100%; display: block;">${innerPaths}</svg>`;
 }
 
+function calculateDistance(pt1, pt2) {
+  const dx = pt2.x - pt1.x;
+  const dy = pt2.y - pt1.y;
+  return Math.sqrt(dx * dx + dy * dy);
+}
+
+function parsePathPoints(pathStr) {
+  const points = [];
+  const matches = pathStr.match(/-?\d+(?:\.\d+)?/g);
+  if (matches) {
+    for (let i = 0; i < matches.length - 1; i += 2) {
+      points.push({ x: parseFloat(matches[i]), y: parseFloat(matches[i+1]) });
+    }
+  }
+  return points;
+}
+
 export class InfoPanel {
   constructor(containerId) {
     this.container = document.getElementById(containerId);
+    this.currentEntity = null;
+    this.rivers = null;
   }
 
   init() {
     this.container.className = 'info-panel';
+    // Only catalog paths digitized in the 1500×1000 terrain coordinate space
+    // are eligible for distance calculations. Legacy vector rivers are not.
+    this.rivers = window.atlasDataManager?.data?.calibratedRivers || [];
   }
 
-  open(location, worldState) {
+  open(entity, worldState) {
+    if (!entity) return;
+    this.currentEntity = entity;
     this.container.innerHTML = ''; // Clear panel
+
     if (window.atlasApp && window.atlasApp.audioManager) {
       window.atlasApp.audioManager.playWood();
     }
@@ -145,56 +170,70 @@ export class InfoPanel {
     closeBtn.addEventListener('click', () => this.close());
     this.container.appendChild(closeBtn);
 
-    // Resolve ruling house at current year
+    // Identify entity type categories
+    const isLocation = ['castle', 'city', 'landmark'].includes(entity.type);
+    const isHouse = entity.type === 'house';
+    const isFaction = ['faction', 'institution'].includes(entity.type);
+
+    // Resolve ruling house ID and name
     let houseId = 'unknown';
     let lordName = 'Unknown Lord';
     let statusVal = 'Intact';
-    let locationCanon = location.canon || 'canon';
+    let entityCanon = entity.canon || entity.canon_status || 'canon';
 
     let lordConfidence = 'inferred';
     let statusConfidence = 'inferred';
     let regionConfidence = 'canon';
 
-    let locationTimelineHasLord = false;
+    let hasTimelineLord = false;
 
-    if (location.timeline) {
-      const stateMatches = location.timeline.filter(t => t.year <= worldState.year);
+    // Timeline array
+    const timeline = entity.timeline || [];
+
+    if (isLocation) {
+      const stateMatches = timeline.filter(t => t.year <= worldState.year);
       if (stateMatches.length > 0) {
         const activeState = stateMatches[stateMatches.length - 1];
-        houseId = activeState.house;
+        houseId = activeState.house || activeState.faction || 'unknown';
         if (activeState.lord) {
           lordName = activeState.lord;
-          locationTimelineHasLord = true;
+          hasTimelineLord = true;
         }
         statusVal = activeState.status || statusVal;
-        locationCanon = activeState.canon || locationCanon;
+        entityCanon = activeState.canon || entityCanon;
         lordConfidence = activeState.lord_canon || 'inferred';
         statusConfidence = activeState.status_canon || 'inferred';
+      } else if (entity.house || entity.faction) {
+        houseId = entity.house || entity.faction;
       }
-    }
-
-    if (location.house) {
-      houseId = location.house;
+    } else {
+      houseId = entity.id;
+      const stateMatches = timeline.filter(t => t.year <= worldState.year);
+      if (stateMatches.length > 0) {
+        const activeState = stateMatches[stateMatches.length - 1];
+        if (activeState.lord || activeState.leader) {
+          lordName = activeState.lord || activeState.leader;
+          hasTimelineLord = true;
+        }
+        lordConfidence = activeState.canon || 'canon';
+      }
     }
 
     // Load House details
     let house = null;
     if (window.atlasDataManager) {
       house = window.atlasDataManager.getHouse(houseId);
-      if (house && house.timeline) {
+      if (house && house.timeline && !hasTimelineLord) {
         const houseMatches = house.timeline.filter(t => t.year <= worldState.year);
         if (houseMatches.length > 0) {
-          // Only use house timeline lord if location timeline did not explicitly define one
-          if (!locationTimelineHasLord) {
-            lordName = houseMatches[houseMatches.length - 1].lord || lordName;
-            lordConfidence = houseMatches[houseMatches.length - 1].lord_canon || 'canon';
-          }
+          lordName = houseMatches[houseMatches.length - 1].lord || lordName;
+          lordConfidence = houseMatches[houseMatches.length - 1].lord_canon || 'canon';
         }
       }
     }
 
     const houseColor = getHouseColor(houseId);
-    const secondaryColor = (HOUSE_COLORS[houseId] && HOUSE_COLORS[houseId].secondary) ? HOUSE_COLORS[houseId].secondary : '#8B7340';
+    const secondaryColor = getHouseSecondaryColor(houseId);
 
     // House Banner color stripe
     const bannerStripe = createElement('div', 'house-banner-stripe');
@@ -204,7 +243,7 @@ export class InfoPanel {
     // ── 1. ORNATE HEADER ──
     const header = createElement('div', 'info-panel-header');
     
-    // Castle Name Header with clean canon status tag
+    // Castle/House Name Header with clean canon status tag
     const titleContainer = createElement('div');
     titleContainer.style.display = 'flex';
     titleContainer.style.alignItems = 'center';
@@ -212,11 +251,12 @@ export class InfoPanel {
     titleContainer.style.gap = '0.5rem';
     titleContainer.style.marginBottom = '0.5rem';
     
-    const title = createElement('h2', 'heading-secondary', location.name);
+    const title = createElement('h2', 'heading-secondary', entity.name);
     title.style.margin = '0';
     
-    const locationBadge = createElement('span', `canon-badge ${locationCanon}`, locationCanon === 'canon' ? '🟢' : locationCanon === 'inferred' ? '🟡' : '🔴');
-    locationBadge.title = `Castle Placement: ${locationCanon.toUpperCase()}`;
+    const badgeIcon = entityCanon === 'canon' ? '🟢' : entityCanon === 'inferred' ? '🟡' : '🔴';
+    const locationBadge = createElement('span', `canon-badge ${entityCanon}`, badgeIcon);
+    locationBadge.title = `Canon Status: ${entityCanon.toUpperCase()}`;
     
     titleContainer.appendChild(title);
     titleContainer.appendChild(locationBadge);
@@ -233,7 +273,20 @@ export class InfoPanel {
       sigilBox.style.margin = '1rem auto 0.5rem';
       sigilBox.style.backgroundColor = 'rgba(255, 248, 231, 0.9)';
       
-      sigilBox.innerHTML = getHouseSigilSVG(houseId, houseColor, secondaryColor);
+      if (house.crest) {
+        const img = createElement('img');
+        img.src = house.crest;
+        img.style.width = '100%';
+        img.style.height = '100%';
+        img.style.objectFit = 'contain';
+        img.onerror = () => {
+          img.onerror = null;
+          sigilBox.innerHTML = getHouseSigilSVG(houseId, houseColor, secondaryColor);
+        };
+        sigilBox.appendChild(img);
+      } else {
+        sigilBox.innerHTML = getHouseSigilSVG(houseId, houseColor, secondaryColor);
+      }
       header.appendChild(sigilBox);
 
       // House Name
@@ -260,11 +313,18 @@ export class InfoPanel {
     // ── 2. MAIN CONTENT ──
     const content = createElement('div', 'info-panel-content');
 
-    // Ornate Meta details with individual confidence badges
+    // Ornate Meta details
     const metaSection = createElement('div', 'info-section');
-    metaSection.appendChild(this.createMetaRowWithBadge("Ruling Lord", lordName, lordConfidence));
-    metaSection.appendChild(this.createMetaRowWithBadge("Region", this.formatRegionName(location.region), regionConfidence));
-    metaSection.appendChild(this.createMetaRowWithBadge("Status", this.formatStatus(statusVal), statusConfidence));
+    metaSection.appendChild(this.createMetaRowWithBadge("Ruler / Lord", lordName, lordConfidence));
+    metaSection.appendChild(this.createMetaRowWithBadge("Region", this.formatRegionName(entity.region), regionConfidence));
+    if (isLocation) {
+      metaSection.appendChild(this.createMetaRowWithBadge("Status", this.formatStatus(statusVal), statusConfidence));
+      metaSection.appendChild(this.createMetaRowWithBadge("Type", this.formatStatus(entity.type), 'canon'));
+    } else {
+      const seatName = entity.seat || entity.city || 'Unknown';
+      metaSection.appendChild(this.createMetaRowWithBadge("Seat / Capital", this.formatStatus(seatName), 'canon'));
+      metaSection.appendChild(this.createMetaRowWithBadge("Type", this.formatStatus(entity.type), 'canon'));
+    }
     
     // Combined Canon Summary Row
     const canonSummaryRow = createElement('div', 'info-row');
@@ -274,9 +334,9 @@ export class InfoPanel {
     canonSummaryRow.style.fontStyle = 'italic';
     
     let summaryText = "🟢 Verified canon history.";
-    if (locationCanon === 'inferred' || lordConfidence === 'inferred') {
+    if (entityCanon === 'inferred' || lordConfidence === 'inferred') {
       summaryText = "🟡 Some details inferred from chronicles.";
-    } else if (locationCanon === 'unknown') {
+    } else if (entityCanon === 'unknown') {
       summaryText = "🔴 Speculative reconstruction.";
     }
     canonSummaryRow.textContent = summaryText;
@@ -285,36 +345,102 @@ export class InfoPanel {
     content.appendChild(metaSection);
     content.appendChild(this.createDivider());
 
-    // Description text
+    // Description text (Chronicle Record)
     const descSection = createElement('div', 'info-section');
     const descTitle = createElement('h3', 'label', "Chronicle Record");
     descTitle.style.marginBottom = '0.4rem';
-    const descText = createElement('p', 'body-text chronicle-text', location.description);
-    descSection.appendChild(descTitle);
-    descSection.appendChild(descText);
+
+    const rootSource = entity.source || (entity.metadata && entity.metadata.source);
+    if (rootSource && entity.description) {
+      const descText = createElement('p', 'body-text chronicle-text', entity.description);
+      const sourceLink = createElement('a', 'source-link');
+      sourceLink.href = rootSource;
+      sourceLink.target = '_blank';
+      sourceLink.textContent = ' Read more on A Wiki of Ice and Fire ↗';
+      sourceLink.style.display = 'block';
+      sourceLink.style.marginTop = '0.5rem';
+      sourceLink.style.fontSize = '0.8rem';
+      sourceLink.style.color = '#C5A55A';
+      sourceLink.style.textDecoration = 'none';
+      sourceLink.style.fontWeight = 'bold';
+      descText.appendChild(sourceLink);
+      descSection.appendChild(descTitle);
+      descSection.appendChild(descText);
+    } else {
+      const gapText = createElement('p', 'body-text chronicle-text');
+      gapText.style.fontStyle = 'italic';
+      gapText.style.color = 'var(--ink-light)';
+      gapText.textContent = "⬜ Lipsă sursă descriere istorică";
+      descSection.appendChild(descTitle);
+      descSection.appendChild(gapText);
+    }
     content.appendChild(descSection);
 
-    // Lore details
-    if (location.narratorText) {
+    // Advisory notice for Far Lands
+    if (entity.region === 'far_lands') {
+      content.appendChild(this.createDivider());
+      const advisorySection = createElement('div', 'info-section');
+      const advisoryBox = createElement('div');
+      advisoryBox.style.cssText = `
+        background: linear-gradient(135deg, rgba(139,115,64,0.08), rgba(92,72,48,0.12));
+        border: 1px dashed rgba(139,115,64,0.4);
+        border-radius: 3px;
+        padding: 0.65rem 0.8rem;
+        font-family: 'Cormorant Garamond', serif;
+        font-style: italic;
+        font-size: 0.88rem;
+        color: var(--ink-light);
+        line-height: 1.5;
+      `;
+      advisoryBox.innerHTML = `<span style="font-size:1rem;">⚑</span> <strong style="font-family:'Cinzel',serif; font-size:0.75rem; letter-spacing:0.05em;">POORLY CHARTED TERRITORY</strong><br/>
+        <span style="font-size:0.82rem;">Information about this region is fragmentary, legendary in nature, or derived from travellers' accounts. Canon status: <strong>${entity.canon_status || 'inferred'}</strong>.</span>`;
+      advisorySection.appendChild(advisoryBox);
+      content.appendChild(advisorySection);
+    }
+
+    // Lore details (Historical Ledger)
+    if (entity.narratorText) {
       content.appendChild(this.createDivider());
       const loreSection = createElement('div', 'info-section');
       const loreTitle = createElement('h3', 'label', "Historical Ledger");
-      const loreText = createElement('p', 'body-text-small', location.narratorText);
-      loreText.style.textAlign = 'justify';
-      loreSection.appendChild(loreTitle);
-      loreSection.appendChild(loreText);
+      
+      if (rootSource) {
+        const loreText = createElement('p', 'body-text-small', entity.narratorText);
+        loreText.style.textAlign = 'justify';
+        const sourceLink = createElement('a', 'source-link');
+        sourceLink.href = rootSource;
+        sourceLink.target = '_blank';
+        sourceLink.textContent = ' Source: A Wiki of Ice and Fire ↗';
+        sourceLink.style.display = 'block';
+        sourceLink.style.marginTop = '0.5rem';
+        sourceLink.style.fontSize = '0.75rem';
+        sourceLink.style.color = '#C5A55A';
+        sourceLink.style.textDecoration = 'none';
+        loreText.appendChild(sourceLink);
+        loreSection.appendChild(loreTitle);
+        loreSection.appendChild(loreText);
+      } else {
+        const gapText = createElement('p', 'body-text-small');
+        gapText.style.fontStyle = 'italic';
+        gapText.style.color = 'var(--ink-light)';
+        gapText.textContent = "⬜ Lipsă sursă narrativă";
+        loreSection.appendChild(loreTitle);
+        loreSection.appendChild(gapText);
+      }
       content.appendChild(loreSection);
     }
 
-    // Location Events Timeline
-    if (location.timeline && location.timeline.length > 0) {
-      content.appendChild(this.createDivider());
-      const tlSection = createElement('div', 'info-section');
-      const tlTitle = createElement('h3', 'label', "Castle Chronology");
-      tlSection.appendChild(tlTitle);
+    // Chronology Timeline (Rule 2: Sourced events only)
+    content.appendChild(this.createDivider());
+    const tlSection = createElement('div', 'info-section');
+    const tlTitle = createElement('h3', 'label', "Chronology Timeline");
+    tlSection.appendChild(tlTitle);
 
+    const sourcedEvents = timeline.filter(entry => entry.source);
+
+    if (sourcedEvents.length > 0) {
       const list = createElement('div', 'timeline-list');
-      const sortedTimeline = [...location.timeline].sort((a,b) => a.year - b.year);
+      const sortedTimeline = [...sourcedEvents].sort((a,b) => a.year - b.year);
       sortedTimeline.forEach(entry => {
         const item = createElement('div', 'timeline-entry');
         if (entry.year === worldState.year) {
@@ -322,64 +448,189 @@ export class InfoPanel {
         }
         
         const year = createElement('div', 'timeline-entry-year', formatYear(entry.year));
-        const details = createElement('div', 'timeline-entry-event', entry.event || `${location.name} undergoes structural/political shifts.`);
+        const details = createElement('div', 'timeline-entry-event');
+        details.textContent = entry.event || `${entity.name} undergoes structural/political shifts.`;
+        
+        const srcLink = createElement('a', 'source-link');
+        srcLink.href = entry.source;
+        srcLink.target = '_blank';
+        srcLink.textContent = ' ↗ source';
+        srcLink.style.fontSize = '0.75rem';
+        srcLink.style.color = '#C5A55A';
+        srcLink.style.marginLeft = '0.5rem';
+        srcLink.style.textDecoration = 'none';
+        srcLink.style.opacity = '0.8';
+        details.appendChild(srcLink);
         
         item.appendChild(year);
         item.appendChild(details);
         list.appendChild(item);
       });
       tlSection.appendChild(list);
-      content.appendChild(tlSection);
+    } else {
+      const gapText = createElement('div');
+      gapText.style.fontStyle = 'italic';
+      gapText.style.color = 'var(--ink-light)';
+      gapText.style.fontSize = '0.9rem';
+      gapText.textContent = "⬜ Lipsă cronologie atestată prin surse";
+      tlSection.appendChild(gapText);
+    }
+    content.appendChild(tlSection);
+
+    // ── 3. MEMBERS / LORDS KNOWN ──
+    content.appendChild(this.createDivider());
+    const membersSection = createElement('div', 'info-section');
+    const membersTitle = createElement('h3', 'label', "Known Members & Lords");
+    membersSection.appendChild(membersTitle);
+
+    const uniqueMembers = new Map();
+
+    // A. Gather from timeline
+    timeline.forEach(t => {
+      if (t.lord || t.leader) {
+        const name = t.lord || t.leader;
+        const key = name.toLowerCase().trim();
+        if (!uniqueMembers.has(key)) {
+          uniqueMembers.set(key, {
+            name: name,
+            role: isFaction ? 'Leader' : 'Lord',
+            years: t.year
+          });
+        }
+      }
+    });
+
+    // B. Gather from characters.json
+    if (window.atlasDataManager && window.atlasDataManager.data.characters) {
+      window.atlasDataManager.data.characters.forEach(char => {
+        let isMember = false;
+        if (isHouse && char.house === entity.id) {
+          isMember = true;
+        } else if (isFaction && (char.house === entity.id || char.faction === entity.id)) {
+          isMember = true;
+        } else if (isLocation) {
+          if (char.timeline) {
+            const matches = char.timeline.filter(t => t.year <= worldState.year);
+            if (matches.length > 0 && matches[matches.length - 1].location === entity.id) {
+              isMember = true;
+            }
+          }
+        }
+
+        if (isMember) {
+          const key = char.name.toLowerCase().trim();
+          const role = char.titles && char.titles[0] ? char.titles[0] : (isFaction ? 'Member' : 'Noble');
+          uniqueMembers.set(key, {
+            name: char.name,
+            role: role,
+            description: char.description
+          });
+        }
+      });
     }
 
-    // Residents
-    if (window.atlasDataManager) {
-      const characters = window.atlasDataManager.data.characters;
-      if (characters) {
-        const localChars = characters.filter(char => {
-          if (!char.timeline) return false;
-          const matches = char.timeline.filter(t => t.year <= worldState.year);
-          if (matches.length > 0) {
-            const active = matches[matches.length - 1];
-            return active.location === location.id;
-          }
-          return false;
-        });
-
-        if (localChars.length > 0) {
-          content.appendChild(this.createDivider());
-          const charSection = createElement('div', 'info-section');
-          const charTitle = createElement('h3', 'label', "Notable Residents");
-          charSection.appendChild(charTitle);
-
-          localChars.forEach(char => {
-            const row = createElement('div', 'info-row');
-            row.style.fontSize = '0.92rem';
-            row.style.padding = '0.2rem 0';
-            row.innerHTML = `<span style="font-weight:bold; color:var(--ink-light);">⚔ ${char.name}</span> <span style="font-style:italic; color:var(--gold-dark);">${char.titles[0] || 'Noble'}</span>`;
-            charSection.appendChild(row);
+    // C. Gather notable_members
+    const metadata = entity.metadata || entity;
+    if (metadata.notable_members) {
+      metadata.notable_members.forEach(name => {
+        const key = name.toLowerCase().trim();
+        if (!uniqueMembers.has(key)) {
+          uniqueMembers.set(key, {
+            name: name,
+            role: 'Notable Figure'
           });
-          content.appendChild(charSection);
         }
+      });
+    }
+
+    if (uniqueMembers.size > 0) {
+      uniqueMembers.forEach(m => {
+        const row = createElement('div', 'info-row');
+        row.style.fontSize = '0.9rem';
+        row.style.padding = '0.25rem 0';
+        row.style.borderBottom = '1px dashed rgba(44, 24, 16, 0.05)';
+        
+        let descTooltip = m.description ? ` title="${m.description}"` : '';
+        row.innerHTML = `<span style="font-weight:bold; color:var(--ink-light); cursor:help;"${descTooltip}>⚔ ${m.name}</span> 
+                         <span style="font-style:italic; color:var(--gold-dark);">${m.role}</span>`;
+        membersSection.appendChild(row);
+      });
+    } else {
+      const gapText = createElement('div');
+      gapText.style.fontStyle = 'italic';
+      gapText.style.color = 'var(--ink-light)';
+      gapText.style.fontSize = '0.9rem';
+      gapText.textContent = "⬜ Lipsă date membri / lord";
+      membersSection.appendChild(gapText);
+    }
+    content.appendChild(membersSection);
+
+    // ── 4. RELATED HOUSES ──
+    content.appendChild(this.createDivider());
+    const relatedSection = createElement('div', 'info-section');
+    const relatedTitle = createElement('h3', 'label', "Related Houses");
+    relatedSection.appendChild(relatedTitle);
+
+    const relatedHouses = new Set();
+    const regionId = entity.region;
+
+    if (window.atlasDataManager) {
+      const allHouses = window.atlasDataManager.data.houses || [];
+      const allLocations = window.atlasDataManager.getAllLocations() || [];
+
+      // Vassal / Overlord logic
+      let overlordId = null;
+      let siblingVassalIds = [];
+
+      if (isHouse) {
+        allLocations.forEach(loc => {
+          if (loc.vassals && loc.vassals.includes(entity.id)) {
+            const rulingMatches = loc.timeline ? loc.timeline.filter(t => t.year <= worldState.year) : [];
+            if (rulingMatches.length > 0) {
+              overlordId = rulingMatches[rulingMatches.length - 1].house;
+            } else if (loc.house) {
+              overlordId = loc.house;
+            }
+            siblingVassalIds = loc.vassals;
+          }
+        });
+      }
+
+      if (overlordId && overlordId !== entity.id) {
+        relatedHouses.add(overlordId);
+      }
+      siblingVassalIds.forEach(id => {
+        if (id !== entity.id) {
+          relatedHouses.add(id);
+        }
+      });
+
+      if (isHouse && metadata.vassals) {
+        metadata.vassals.forEach(vId => relatedHouses.add(vId));
+      }
+      if (isLocation && entity.vassals) {
+        entity.vassals.forEach(vId => relatedHouses.add(vId));
+      }
+
+      if (regionId) {
+        allHouses.forEach(h => {
+          if (h.region === regionId && h.id !== entity.id) {
+            relatedHouses.add(h.id);
+          }
+        });
       }
     }
 
-    // Vassals
-    if (location.vassals && location.vassals.length > 0 && window.atlasDataManager) {
-      content.appendChild(this.createDivider());
-      const vassalSection = createElement('div', 'info-section');
-      const vassalTitle = createElement('h3', 'label', "Sworn Vassals");
-      vassalSection.appendChild(vassalTitle);
+    if (relatedHouses.size > 0) {
+      const relatedGrid = createElement('div');
+      relatedGrid.style.display = 'grid';
+      relatedGrid.style.gridTemplateColumns = 'repeat(2, 1fr)';
+      relatedGrid.style.gap = '0.5rem';
+      relatedGrid.style.marginTop = '0.5rem';
 
-      const vassalGrid = createElement('div');
-      vassalGrid.style.display = 'grid';
-      vassalGrid.style.gridTemplateColumns = 'repeat(2, 1fr)';
-      vassalGrid.style.gap = '0.5rem';
-      vassalGrid.style.marginTop = '0.5rem';
-
-      location.vassals.forEach(vId => {
-        const vHouse = window.atlasDataManager.getHouse(vId);
-        if (vHouse) {
+      relatedHouses.forEach(hId => {
+        const rHouse = window.atlasDataManager.getHouse(hId);
+        if (rHouse) {
           const card = createElement('div');
           card.style.background = 'rgba(44, 24, 16, 0.03)';
           card.style.border = '1px solid var(--parchment-dark)';
@@ -388,24 +639,197 @@ export class InfoPanel {
           card.style.fontSize = '0.82rem';
           card.style.textAlign = 'center';
           card.style.cursor = 'pointer';
-          card.style.borderLeft = `3px solid ${getHouseColor(vId)}`;
-          card.textContent = vHouse.name;
+          card.style.borderLeft = `3px solid ${getHouseColor(hId)}`;
+          card.textContent = rHouse.name;
           
           card.addEventListener('click', () => {
-            if (vHouse.seat) {
-              const seat = window.atlasDataManager.getCastle(vHouse.seat);
-              if (seat) {
-                document.dispatchEvent(new CustomEvent('locationSelected', { detail: { locationId: seat.id } }));
-              }
-            }
+            const seatId = rHouse.seat || rHouse.city;
+            const seatLoc = window.atlasDataManager.getCastle(seatId) || 
+                            window.atlasDataManager.getCity(seatId) || 
+                            window.atlasDataManager.data.landmarks.find(l => l.id === seatId);
+            window.atlasApp.selectEntity(rHouse, seatLoc);
           });
 
-          vassalGrid.appendChild(card);
+          relatedGrid.appendChild(card);
         }
       });
-      vassalSection.appendChild(vassalGrid);
-      content.appendChild(vassalSection);
+      relatedSection.appendChild(relatedGrid);
+    } else {
+      const gapText = createElement('div');
+      gapText.style.fontStyle = 'italic';
+      gapText.style.color = 'var(--ink-light)';
+      gapText.style.fontSize = '0.9rem';
+      gapText.textContent = "⬜ Lipsă date case înrudite";
+      relatedSection.appendChild(gapText);
     }
+    content.appendChild(relatedSection);
+
+    // ── 5. PROXIMITY CALCULATIONS ──
+    content.appendChild(this.createDivider());
+    const proxSection = createElement('div', 'info-section');
+    const proxTitle = createElement('h3', 'label', "Nearby Castles, Rivers & Events");
+    proxSection.appendChild(proxTitle);
+
+    // World distances must never fall back to legacy schematic coordinates.
+    // They remain disabled until the world scale and the relevant positions are calibrated.
+    const worldScale = window.atlasDataManager?.getWorldMilesPerUnit?.();
+    let startPt = worldScale ? window.atlasApp?.mapRenderer?.getLocationCoordinate(entity) : null;
+    if (!startPt && !isLocation && window.atlasDataManager) {
+      const seatId = entity.seat || entity.city;
+      if (seatId) {
+        const seatLoc = window.atlasDataManager.getCastle(seatId) || 
+                        window.atlasDataManager.getCity(seatId) || 
+                        window.atlasDataManager.data.landmarks.find(l => l.id === seatId);
+        if (seatLoc && worldScale) startPt = window.atlasApp?.mapRenderer?.getLocationCoordinate(seatLoc);
+      }
+    }
+
+    if (startPt && startPt.x != null && startPt.y != null) {
+      // A. Nearby Fortresses
+      if (window.atlasDataManager) {
+        const allLocs = window.atlasDataManager.getAllLocations();
+        const locDists = [];
+        allLocs.forEach(loc => {
+          const locationPoint = window.atlasApp?.mapRenderer?.getLocationCoordinate(loc);
+          if (loc.id !== entity.id && loc.id !== entity.seat && locationPoint) {
+            const dist = calculateDistance(startPt, locationPoint);
+            locDists.push({
+              location: loc,
+              distMiles: dist * worldScale
+            });
+          }
+        });
+        locDists.sort((a,b) => a.distMiles - b.distMiles);
+        const topLocs = locDists.slice(0, 3);
+        
+        const locLabel = createElement('div');
+        locLabel.style.fontWeight = 'bold';
+        locLabel.style.fontSize = '0.85rem';
+        locLabel.style.color = 'var(--gold-dark)';
+        locLabel.style.marginTop = '0.4rem';
+        locLabel.textContent = "Closest Fortresses & Settlements:";
+        proxSection.appendChild(locLabel);
+
+        topLocs.forEach(item => {
+          const row = createElement('div');
+          row.style.fontSize = '0.85rem';
+          row.style.padding = '0.2rem 0';
+          row.style.cursor = 'pointer';
+          row.style.color = 'var(--ink)';
+          row.style.textDecoration = 'underline';
+          row.style.textDecorationStyle = 'dotted';
+          row.textContent = `📍 ${item.location.name} (${Math.round(item.distMiles)} miles away)`;
+          row.addEventListener('click', () => {
+            window.atlasApp.selectEntity(item.location, item.location);
+          });
+          proxSection.appendChild(row);
+        });
+      }
+
+      // B. Nearby Rivers
+      const milesPerUnit = window.atlasDataManager?.getWorldMilesPerUnit?.();
+      if (milesPerUnit && this.rivers && this.rivers.length > 0) {
+        const riverDists = [];
+        this.rivers.forEach(river => {
+          let minDist = Infinity;
+          const checkPoints = (points) => {
+            points.forEach(pt => {
+              const d = calculateDistance(startPt, pt);
+              if (d < minDist) minDist = d;
+            });
+          };
+
+          if (river.path) checkPoints(parsePathPoints(river.path));
+          if (river.branches) {
+            river.branches.forEach(b => {
+              if (b.path) checkPoints(parsePathPoints(b.path));
+            });
+          }
+
+          riverDists.push({
+            name: river.name,
+            distMiles: minDist * milesPerUnit
+          });
+        });
+
+        riverDists.sort((a,b) => a.distMiles - b.distMiles);
+        const topRivers = riverDists.slice(0, 2);
+
+        const riverLabel = createElement('div');
+        riverLabel.style.fontWeight = 'bold';
+        riverLabel.style.fontSize = '0.85rem';
+        riverLabel.style.color = 'var(--gold-dark)';
+        riverLabel.style.marginTop = '0.6rem';
+        riverLabel.textContent = "Closest Rivers & Waterways:";
+        proxSection.appendChild(riverLabel);
+
+        topRivers.forEach(r => {
+          const row = createElement('div');
+          row.style.fontSize = '0.85rem';
+          row.style.padding = '0.15rem 0';
+          row.textContent = `💧 ${r.name} (${Math.round(r.distMiles)} miles away)`;
+          proxSection.appendChild(row);
+        });
+      }
+
+      // C. Nearby Events
+      if (window.atlasDataManager && window.atlasDataManager.data.events) {
+        const eventDists = [];
+        window.atlasDataManager.data.events.forEach(evt => {
+          if (evt.location) {
+            const evtLoc = window.atlasDataManager.getCastle(evt.location) || 
+                           window.atlasDataManager.getCity(evt.location) || 
+                           window.atlasDataManager.data.landmarks.find(l => l.id === evt.location);
+            const eventPoint = evtLoc && window.atlasApp?.mapRenderer?.getLocationCoordinate(evtLoc);
+            if (eventPoint) {
+              const dist = calculateDistance(startPt, eventPoint);
+              eventDists.push({
+                event: evt,
+                distMiles: dist * worldScale
+              });
+            }
+          }
+        });
+
+        eventDists.sort((a,b) => a.distMiles - b.distMiles);
+        const topEvents = eventDists.slice(0, 3);
+
+        if (topEvents.length > 0) {
+          const eventLabel = createElement('div');
+          eventLabel.style.fontWeight = 'bold';
+          eventLabel.style.fontSize = '0.85rem';
+          eventLabel.style.color = 'var(--gold-dark)';
+          eventLabel.style.marginTop = '0.6rem';
+          eventLabel.textContent = "Closest Historical Events:";
+          proxSection.appendChild(eventLabel);
+
+          topEvents.forEach(item => {
+            const row = createElement('div');
+            row.style.fontSize = '0.82rem';
+            row.style.padding = '0.2rem 0';
+            row.style.borderBottom = '1px dashed rgba(44, 24, 16, 0.04)';
+            
+            let sourceSuffix = '';
+            if (item.event.source) {
+              sourceSuffix = ` <a href="${item.event.source}" target="_blank" style="color:#C5A55A; text-decoration:none;">↗</a>`;
+            }
+            row.innerHTML = `<span style="font-weight:bold;">${formatYear(item.event.year)}</span>: ${item.event.name} (${Math.round(item.distMiles)} mi)${sourceSuffix}`;
+            proxSection.appendChild(row);
+          });
+        }
+      }
+
+    } else {
+      const gapText = createElement('div');
+      gapText.style.fontStyle = 'italic';
+      gapText.style.color = 'var(--ink-light)';
+      gapText.style.fontSize = '0.9rem';
+      gapText.textContent = worldScale
+        ? "⬜ Coordonate world lipsă - imposibil de calculat proximitatea"
+        : "⬜ Calibrarea scării hărții lipsește - distanțele și proximitatea rămân dezactivate";
+      proxSection.appendChild(gapText);
+    }
+    content.appendChild(proxSection);
 
     this.container.appendChild(content);
     this.container.classList.add('open');

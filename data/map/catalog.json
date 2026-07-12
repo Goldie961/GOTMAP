@@ -23,6 +23,7 @@
         "containsLabels": false,
         "containsPoliticalBorders": false
       },
+      "rivers": [],
       "geometry": {
         "status": "needsCalibration",
         "layers": {
