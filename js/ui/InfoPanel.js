@@ -667,7 +667,12 @@ export class InfoPanel {
     // ── 5. PROXIMITY CALCULATIONS ──
     content.appendChild(this.createDivider());
     const proxSection = createElement('div', 'info-section');
-    const proxTitle = createElement('h3', 'label', "Nearby Castles, Rivers & Events");
+    const hasCalibratedRivers = Array.isArray(this.rivers) && this.rivers.length > 0;
+    const proxTitle = createElement(
+      'h3',
+      'label',
+      hasCalibratedRivers ? 'Nearby Castles & Rivers' : 'Nearby Castles & Settlements'
+    );
     proxSection.appendChild(proxTitle);
 
     // World distances must never fall back to legacy schematic coordinates.
@@ -770,53 +775,6 @@ export class InfoPanel {
           row.textContent = `💧 ${r.name} (${Math.round(r.distMiles)} miles away)`;
           proxSection.appendChild(row);
         });
-      }
-
-      // C. Nearby Events
-      if (window.atlasDataManager && window.atlasDataManager.data.events) {
-        const eventDists = [];
-        window.atlasDataManager.data.events.forEach(evt => {
-          if (evt.location) {
-            const evtLoc = window.atlasDataManager.getCastle(evt.location) || 
-                           window.atlasDataManager.getCity(evt.location) || 
-                           window.atlasDataManager.data.landmarks.find(l => l.id === evt.location);
-            const eventPoint = evtLoc && window.atlasApp?.mapRenderer?.getLocationCoordinate(evtLoc);
-            if (eventPoint) {
-              const dist = calculateDistance(startPt, eventPoint);
-              eventDists.push({
-                event: evt,
-                distMiles: dist * worldScale
-              });
-            }
-          }
-        });
-
-        eventDists.sort((a,b) => a.distMiles - b.distMiles);
-        const topEvents = eventDists.slice(0, 3);
-
-        if (topEvents.length > 0) {
-          const eventLabel = createElement('div');
-          eventLabel.style.fontWeight = 'bold';
-          eventLabel.style.fontSize = '0.85rem';
-          eventLabel.style.color = 'var(--gold-dark)';
-          eventLabel.style.marginTop = '0.6rem';
-          eventLabel.textContent = "Closest Historical Events:";
-          proxSection.appendChild(eventLabel);
-
-          topEvents.forEach(item => {
-            const row = createElement('div');
-            row.style.fontSize = '0.82rem';
-            row.style.padding = '0.2rem 0';
-            row.style.borderBottom = '1px dashed rgba(44, 24, 16, 0.04)';
-            
-            let sourceSuffix = '';
-            if (item.event.source) {
-              sourceSuffix = ` <a href="${item.event.source}" target="_blank" style="color:#C5A55A; text-decoration:none;">↗</a>`;
-            }
-            row.innerHTML = `<span style="font-weight:bold;">${formatYear(item.event.year)}</span>: ${item.event.name} (${Math.round(item.distMiles)} mi)${sourceSuffix}`;
-            proxSection.appendChild(row);
-          });
-        }
       }
 
     } else {
