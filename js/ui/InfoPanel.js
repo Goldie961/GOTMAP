@@ -1,5 +1,7 @@
-import { createElement, formatYear } from '../utils/helpers.js';
+import { createElement, formatYear, stripEntityPrefix } from '../utils/helpers.js';
 import { getHouseColor, getHouseSecondaryColor, HOUSE_COLORS } from '../utils/colors.js';
+import { matchesInternId } from '../utils/entities.js';
+import { isCharacterEntity, isEventEntity } from '../utils/entityKind.js';
 
 function getHouseSigilSVG(houseId, primaryColor, secondaryColor) {
   let innerPaths = '';
@@ -174,6 +176,25 @@ export class InfoPanel {
     const isLocation = ['castle', 'city', 'landmark'].includes(entity.type);
     const isHouse = entity.type === 'house';
     const isFaction = ['faction', 'institution'].includes(entity.type);
+    const isCharacter = isCharacterEntity(entity, window.atlasDataManager?.data?.characters);
+    const isEvent = isEventEntity(entity, window.atlasDataManager?.data?.events);
+    const isObject = entity.type === 'object' || (entity.id && window.atlasDataManager?.data?.objects?.some(object => object.id === entity.id));
+    const isTitle = entity.type === 'title' || (entity.id && window.atlasDataManager?.data?.titles?.some(title => title.id === entity.id));
+
+    // Characters have their own facts and relationships; never fall through to
+    // the house/location template below.
+    if (isCharacter) {
+      this.renderCharacterPanel(entity, worldState);
+      return;
+    }
+    if (isEvent) {
+      this.renderEventPanel(entity, worldState);
+      return;
+    }
+    if (isObject || isTitle) {
+      this.renderCatalogEntryPanel(entity, isObject ? 'Object' : 'Title');
+      return;
+    }
 
     // Resolve ruling house ID and name
     let houseId = 'unknown';
@@ -343,6 +364,9 @@ export class InfoPanel {
     metaSection.appendChild(canonSummaryRow);
 
     content.appendChild(metaSection);
+    const fullPageButton = createElement('button', 'info-panel-full-page', 'Vezi pagina completă →');
+    fullPageButton.addEventListener('click', () => window.atlasApp?.wikiPage?.open(entity, { fromCompact: true }));
+    content.appendChild(fullPageButton);
     content.appendChild(this.createDivider());
 
     // Description text (Chronicle Record)
@@ -644,9 +668,7 @@ export class InfoPanel {
           
           card.addEventListener('click', () => {
             const seatId = rHouse.seat || rHouse.city;
-            const seatLoc = window.atlasDataManager.getCastle(seatId) || 
-                            window.atlasDataManager.getCity(seatId) || 
-                            window.atlasDataManager.data.landmarks.find(l => l.id === seatId);
+            const seatLoc = window.atlasDataManager.getLocation(seatId);
             window.atlasApp.selectEntity(rHouse, seatLoc);
           });
 
@@ -682,9 +704,7 @@ export class InfoPanel {
     if (!startPt && !isLocation && window.atlasDataManager) {
       const seatId = entity.seat || entity.city;
       if (seatId) {
-        const seatLoc = window.atlasDataManager.getCastle(seatId) || 
-                        window.atlasDataManager.getCity(seatId) || 
-                        window.atlasDataManager.data.landmarks.find(l => l.id === seatId);
+        const seatLoc = window.atlasDataManager.getLocation(seatId);
         if (seatLoc && worldScale) startPt = window.atlasApp?.mapRenderer?.getLocationCoordinate(seatLoc);
       }
     }
@@ -798,6 +818,127 @@ export class InfoPanel {
     document.dispatchEvent(new CustomEvent('locationDeselected'));
   }
 
+  renderCharacterPanel(entity, worldState) {
+    const canon = entity.confidence || entity.canon || entity.canon_status || 'unknown';
+    const header = createElement('div', 'info-panel-header');
+    const title = createElement('h2', 'heading-secondary', entity.name);
+    title.style.margin = '0';
+    header.appendChild(title);
+    header.appendChild(this.createConfidenceBadge(canon));
+    this.container.appendChild(header);
+    this.container.appendChild(this.createDivider());
+
+    const content = createElement('div', 'info-panel-content');
+    const facts = createElement('div', 'info-section');
+    const currentTitle = entity.titlu_curent;
+    if (currentTitle) facts.appendChild(this.createMetaRowWithBadge('Current title', currentTitle, canon));
+    const titlesArr = Array.isArray(entity.titles) && entity.titles.length
+      ? entity.titles
+      : (entity._afirmatii_pe_predicat?.titlu || entity._afirmatii_pe_predicat?.title);
+    if (Array.isArray(titlesArr) && titlesArr.length) {
+      const titleStr = titlesArr.map(t => typeof t === 'object' ? (t.titlu || t.valoare || t.name || JSON.stringify(t)) : t).join(' · ');
+      const titleConf = typeof titlesArr[0] === 'object' && titlesArr[0]?.confidence ? (titlesArr[0].confidence === 'confirmed' ? 'canon' : titlesArr[0].confidence) : canon;
+      facts.appendChild(this.createMetaRowWithBadge('Titles', titleStr, titleConf));
+    }
+    if (entity.membru_al || entity.house) {
+      facts.appendChild(this.createLinkedMetaRow('Member of', entity.membru_al || entity.house, canon));
+    }
+    if (entity.born !== undefined && entity.born !== null) facts.appendChild(this.createMetaRowWithBadge('Born', formatYear(entity.born), canon));
+    if (entity.died !== undefined && entity.died !== null) facts.appendChild(this.createMetaRowWithBadge('Died', formatYear(entity.died), canon));
+    if (entity.locatie_asociata) facts.appendChild(this.createLinkedMetaRow('Associated location', entity.locatie_asociata, canon));
+    if (entity.moarte?.descriere) {
+      facts.appendChild(this.createMetaRowWithBadge('Death', entity.moarte.descriere, entity.moarte.confidence || canon));
+    }
+    content.appendChild(facts);
+
+    const family = this.createCharacterFamilySection(entity, canon);
+    if (family) {
+      content.appendChild(this.createDivider());
+      content.appendChild(family);
+    }
+
+    if (entity.description) {
+      content.appendChild(this.createDivider());
+      const description = createElement('div', 'info-section');
+      description.appendChild(createElement('h3', 'label', 'Chronicle Record'));
+      description.appendChild(createElement('p', 'body-text chronicle-text', entity.description));
+      content.appendChild(description);
+    }
+
+    const fullPageButton = createElement('button', 'info-panel-full-page', 'Vezi pagina completă →');
+    fullPageButton.addEventListener('click', () => window.atlasApp?.wikiPage?.open(entity, { fromCompact: true }));
+    content.appendChild(fullPageButton);
+    this.container.appendChild(content);
+    this.container.classList.add('open');
+  }
+
+  createConfidenceBadge(confidence) {
+    const badge = createElement('span', `canon-badge ${confidence}`, confidence === 'canon' ? '✓' : confidence === 'inferred' ? '◇' : '?');
+    badge.title = `Confidence: ${confidence}`;
+    return badge;
+  }
+
+  createLinkedMetaRow(labelValue, entityId, confidence) {
+    const row = createElement('div', 'info-row');
+    row.style.borderBottom = '1px dashed rgba(44, 24, 16, 0.12)';
+    row.style.padding = '0.45rem 0';
+    row.style.alignItems = 'center';
+    row.appendChild(createElement('span', 'info-label', labelValue));
+    const target = this.getEntityById(entityId);
+    const link = createElement(target ? 'button' : 'span', target ? 'info-entity-link' : 'info-value', target?.name || String(entityId));
+    if (target) link.addEventListener('click', () => this.openLinkedEntity(target));
+    row.appendChild(link);
+    row.appendChild(this.createConfidenceBadge(confidence));
+    return row;
+  }
+
+  createCharacterFamilySection(entity, confidence) {
+    const labels = { parinti: 'Parents', copii: 'Children', frati: 'Siblings', casatorit_cu: 'Spouses', possible_parent_of: 'Possible children' };
+    const section = createElement('div', 'info-section');
+    let hasRelations = false;
+    Object.entries(labels).forEach(([key, label]) => {
+      let rawList = entity[key] || entity._afirmatii_pe_predicat?.[key] || [];
+      if (!Array.isArray(rawList) || !rawList.length) return;
+      hasRelations = true;
+      const row = createElement('div', 'info-row');
+      row.appendChild(createElement('span', 'info-label', label));
+      const values = createElement('span', 'info-value');
+      let rowConfidence = key === 'possible_parent_of' ? 'inferred' : null;
+
+      rawList.forEach((item, index) => {
+        if (index) values.append(', ');
+        const id = typeof item === 'object' ? (item.id || item.valoare) : item;
+        if (typeof item === 'object' && item.confidence && !rowConfidence) {
+          rowConfidence = item.confidence === 'confirmed' ? 'canon' : item.confidence === 'uncertain' ? 'inferred' : item.confidence;
+        }
+        const target = this.getEntityById(id);
+        const link = createElement(target ? 'button' : 'span', target ? 'info-entity-link' : '', target?.name || String(id));
+        if (target) link.addEventListener('click', () => this.openLinkedEntity(target));
+        values.appendChild(link);
+      });
+      row.appendChild(values);
+      row.appendChild(this.createConfidenceBadge(rowConfidence || confidence));
+      section.appendChild(row);
+    });
+    return hasRelations ? section : null;
+  }
+
+  getEntityById(id) {
+    if (!id) return null;
+    const cleanId = stripEntityPrefix(id);
+    const data = window.atlasDataManager?.data;
+    const matches = item => item.id === id || matchesInternId(item, id) || item.id === cleanId;
+    return window.atlasDataManager?.getAllLocations?.().find(matches)
+      || data?.houses?.find(matches)
+      || data?.characters?.find(matches)
+      || null;
+  }
+
+  openLinkedEntity(entity) {
+    const location = ['castle', 'city', 'landmark'].includes(entity.type) ? entity : null;
+    window.atlasApp?.selectEntity(entity, location);
+  }
+
   createDivider() {
     const div = createElement('div', 'decorative-divider');
     div.innerHTML = '<span>♦</span>';
@@ -849,5 +990,204 @@ export class InfoPanel {
   formatStatus(status) {
     if (!status) return 'Unknown';
     return status.replace(/_/g, ' ').toUpperCase();
+  }
+
+  renderCatalogEntryPanel(entity, kind) {
+    const header = createElement('div', 'info-panel-header');
+    const title = createElement('h2', 'heading-secondary', entity.name || entity.nume || entity.id);
+    title.style.margin = '0';
+    header.appendChild(title);
+    header.appendChild(createElement('div', 'label', kind));
+    this.container.appendChild(header);
+    this.container.appendChild(this.createDivider());
+
+    const content = createElement('div', 'info-panel-content');
+    const facts = createElement('div', 'info-section');
+    const category = entity.categorie || entity.category || entity.type;
+    if (category) facts.appendChild(this.createMetaRowWithBadge('Type', category, 'canon'));
+    content.appendChild(facts);
+
+    const descriptions = entity.descrieri || entity.descriptions || entity.description || entity.descriere;
+    const descriptionList = Array.isArray(descriptions) ? descriptions : descriptions ? [descriptions] : [];
+    if (descriptionList.length) {
+      content.appendChild(this.createDivider());
+      const section = createElement('div', 'info-section');
+      section.appendChild(createElement('h3', 'label', 'Description'));
+      descriptionList.forEach(description => section.appendChild(createElement('p', 'body-text chronicle-text', description)));
+      content.appendChild(section);
+    }
+
+    const sources = entity.sources || entity.surse || entity.sursa || entity.source;
+    const sourceList = Array.isArray(sources) ? sources : sources ? [sources] : [];
+    if (sourceList.length) {
+      content.appendChild(this.createDivider());
+      const section = createElement('div', 'info-section');
+      section.appendChild(createElement('h3', 'label', 'Sources'));
+      sourceList.forEach(source => {
+        const text = typeof source === 'string'
+          ? source
+          : source.source_book || source.source || source.sursa || source.name || JSON.stringify(source);
+        section.appendChild(createElement('p', 'body-text-small', text));
+      });
+      content.appendChild(section);
+    }
+
+    this.container.appendChild(content);
+    this.container.classList.add('open');
+  }
+
+  renderEventPanel(entity, worldState) {
+    const canon = entity.confidence || entity.canon || entity.canon_status || 'canon';
+    const header = createElement('div', 'info-panel-header');
+    
+    const titleContainer = createElement('div');
+    titleContainer.style.display = 'flex';
+    titleContainer.style.alignItems = 'center';
+    titleContainer.style.justifyContent = 'center';
+    titleContainer.style.gap = '0.5rem';
+    titleContainer.style.marginBottom = '0.5rem';
+    
+    const title = createElement('h2', 'heading-secondary', entity.name || entity.nume || entity.id);
+    title.style.margin = '0';
+    
+    titleContainer.appendChild(title);
+    titleContainer.appendChild(this.createConfidenceBadge(canon));
+    header.appendChild(titleContainer);
+
+    const typeLabel = createElement('div', 'label', `📜 Event • ${entity.type || 'historical'}`);
+    typeLabel.style.fontSize = '0.85rem';
+    typeLabel.style.marginTop = '0.2rem';
+    header.appendChild(typeLabel);
+
+    this.container.appendChild(header);
+    this.container.appendChild(this.createDivider());
+
+    const content = createElement('div', 'info-panel-content');
+    
+    const metaSection = createElement('div', 'info-section');
+    const yearVal = entity.year ?? entity.an ?? entity.an_aproximativ;
+    if (yearVal !== undefined && yearVal !== null) {
+      metaSection.appendChild(this.createMetaRowWithBadge("Year", formatYear(yearVal), canon));
+    }
+    const locId = entity.location || entity.locatie_id;
+    if (locId) {
+      metaSection.appendChild(this.createLinkedMetaRow("Location", locId, canon));
+    }
+    content.appendChild(metaSection);
+
+    const desc = entity.description || entity.descriere;
+    if (desc) {
+      content.appendChild(this.createDivider());
+      const descSection = createElement('div', 'info-section');
+      descSection.appendChild(createElement('h3', 'label', 'Chronicle Record'));
+      descSection.appendChild(createElement('p', 'body-text chronicle-text', desc));
+      content.appendChild(descSection);
+    }
+
+    content.appendChild(this.createDivider());
+    const participantsSection = createElement('div', 'info-section');
+    participantsSection.appendChild(createElement('h3', 'label', 'Participants'));
+
+    const rawParticipants = [...(entity.participanti || []), ...(entity.participants || [])];
+    
+    const seenIds = new Set();
+    const uniqueParticipants = [];
+    rawParticipants.forEach(p => {
+      const pid = typeof p === 'object' ? (p.id || p.valoare) : p;
+      const key = pid ? stripEntityPrefix(pid) : null;
+      if (key && !seenIds.has(key)) {
+        seenIds.add(key);
+        uniqueParticipants.push(p);
+      }
+    });
+
+    if (uniqueParticipants.length > 0) {
+      const list = createElement('div', 'participants-list');
+      list.style.display = 'flex';
+      list.style.flexDirection = 'column';
+      list.style.gap = '0.4rem';
+      list.style.marginTop = '0.4rem';
+
+      uniqueParticipants.forEach(p => {
+        const pId = typeof p === 'object' ? (p.id || p.valoare) : p;
+        const pRole = typeof p === 'object' ? (p.rol || p.role) : null;
+        
+        const row = this.createParticipantRow(pId, pRole);
+        list.appendChild(row);
+      });
+      participantsSection.appendChild(list);
+    } else {
+      const gapText = createElement('div');
+      gapText.style.fontStyle = 'italic';
+      gapText.style.color = 'var(--ink-light)';
+      gapText.style.fontSize = '0.9rem';
+      gapText.textContent = "⬜ Lipsă date participanți";
+      participantsSection.appendChild(gapText);
+    }
+    content.appendChild(participantsSection);
+
+    const fullPageButton = createElement('button', 'info-panel-full-page', 'Vezi pagina completă →');
+    fullPageButton.addEventListener('click', () => window.atlasApp?.wikiPage?.open(entity, { fromCompact: true }));
+    content.appendChild(fullPageButton);
+
+    this.container.appendChild(content);
+    this.container.classList.add('open');
+  }
+
+  createParticipantRow(pId, pRole) {
+    const row = createElement('div', 'participant-row');
+    row.style.display = 'flex';
+    row.style.alignItems = 'center';
+    row.style.justifyContent = 'space-between';
+    row.style.padding = '0.35rem 0.5rem';
+    row.style.borderRadius = '4px';
+    row.style.fontSize = '0.88rem';
+    
+    const target = this.getEntityById(pId);
+    const isHouse = (typeof pId === 'string' && (pId.startsWith('HOUSE_') || pId.startsWith('house_'))) || target?.type === 'house';
+    
+    if (isHouse) {
+      row.style.background = 'rgba(197, 165, 90, 0.15)';
+      row.style.border = '1px solid rgba(197, 165, 90, 0.4)';
+      row.style.borderLeft = '4px solid var(--gold-dark)';
+    } else {
+      row.style.background = 'rgba(44, 24, 16, 0.04)';
+      row.style.border = '1px solid rgba(44, 24, 16, 0.18)';
+      row.style.borderLeft = '4px solid var(--blood)';
+    }
+    
+    const leftCol = createElement('div');
+    leftCol.style.display = 'flex';
+    leftCol.style.alignItems = 'center';
+    leftCol.style.gap = '0.4rem';
+    
+    const icon = createElement('span', 'participant-icon', isHouse ? '🛡️' : '👤');
+    icon.style.fontSize = '0.95rem';
+    leftCol.appendChild(icon);
+    
+    const link = createElement(target ? 'button' : 'span', target ? 'info-entity-link' : 'info-value', target?.name || String(pId));
+    if (isHouse) {
+      link.style.fontWeight = 'bold';
+      link.style.color = 'var(--gold-dark)';
+    } else {
+      link.style.fontWeight = '600';
+    }
+    
+    if (target) {
+      link.addEventListener('click', () => this.openLinkedEntity(target));
+    }
+    leftCol.appendChild(link);
+    row.appendChild(leftCol);
+    
+    if (pRole) {
+      const roleSpan = createElement('span', 'participant-role', pRole);
+      roleSpan.style.fontStyle = 'italic';
+      roleSpan.style.fontSize = '0.8rem';
+      roleSpan.style.color = 'var(--ink-light)';
+      roleSpan.style.marginLeft = '0.5rem';
+      row.appendChild(roleSpan);
+    }
+    
+    return row;
   }
 }

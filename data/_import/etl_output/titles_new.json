@@ -1,0 +1,938 @@
+[
+  {
+    "id": "batranul_raului",
+    "nume": "Bătrânul Râului",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "zeu-țestoasă minor al rhoynarilor, fiu al Mamei-Râu, a luptat cu Regele-Crab pentru stăpânirea apelor curgătoare",
+      "Pagina: 283"
+    ],
+    "id_intern": "TITLE_BATRANUL_RAULUI"
+  },
+  {
+    "id": "bizonul",
+    "nume": "Bizonul",
+    "purtatori": [],
+    "categorie": "poreclă",
+    "descrieri": [
+      "Dată lui Grenn"
+    ],
+    "id_intern": "TITLE_BIZONUL"
+  },
+  {
+    "id": "broasca_raioasa",
+    "nume": "Broasca Râioasă",
+    "purtatori": [],
+    "categorie": "poreclă",
+    "descrieri": [
+      "Dată lui Todder"
+    ],
+    "id_intern": "TITLE_BROASCA_RAIOASA"
+  },
+  {
+    "id": "cavaler_ceapa",
+    "nume": "Cavaler Ceapă",
+    "purtatori": [],
+    "categorie": "titlu",
+    "id_intern": "TITLE_CAVALER_CEAPA"
+  },
+  {
+    "id": "cavalerul_celor_noua_stele",
+    "nume": "Cavalerul celor Nouă Stele",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "titlu/poreclă a unui cavaler cu care a apărut Lady Waynwood la nunta Lordului Corbray, spre uimirea tuturor"
+    ],
+    "id_intern": "TITLE_CAVALERUL_CELOR_NOUA_STELE"
+  },
+  {
+    "id": "cavalerul_inaripat",
+    "nume": "Cavalerul Înaripat",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "legenda lui Ser Artys Arryn, fondatorul mitic al Casei Arryn; a condus Primii Oameni afară din Vale şi a zburat pe un şoim imens pe Lancea Uriaşului pentru a-l ucide pe Regele Grifon",
+      "Poveste preferată a lui Robert Arryn"
+    ],
+    "id_intern": "TITLE_CAVALERUL_INARIPAT"
+  },
+  {
+    "id": "cavalerul_spanzuratorii",
+    "nume": "Cavalerul Spânzurătorii",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "Numele sub care Dunk se înscrie la turnirul de la Zidurile Albe (blazonul actual: un om spânzurat, cumpărat de la Septul de Piatră, blazonul fostului proprietar)"
+    ],
+    "id_intern": "TITLE_CAVALERUL_SPANZURATORII"
+  },
+  {
+    "id": "cei_doi_tradatori",
+    "nume": "Cei Doi Trădători",
+    "purtatori": [],
+    "categorie": "titlu / poreclă",
+    "descrieri": [
+      "„Cei Doi Trădători”** — numele dat în cronici lui Ulf cel Alb și Hugh Ciocanul"
+    ],
+    "id_intern": "TITLE_CEI_DOI_TRADATORI"
+  },
+  {
+    "id": "cei_sapte_calareti",
+    "nume": "Cei Șapte Călăreți",
+    "purtatori": [],
+    "categorie": "titlu / poreclă",
+    "descrieri": [
+      "„Cei Șapte Călăreți”** — numele dat celor șapte cavaleri trimiși să recupereze trupul prințului Joffrey"
+    ],
+    "id_intern": "TITLE_CEI_SAPTE_CALARETI"
+  },
+  {
+    "id": "ciorile_porecla_pentru_fratii_rondul",
+    "nume": "„Ciorile\" — poreclă pentru frații Rondul",
+    "purtatori": [],
+    "categorie": "titlu",
+    "id_intern": "TITLE_CIORILE_PORECLA_PENTRU_FRATII_RONDUL"
+  },
+  {
+    "id": "consiliul_restrans_al_regelui_tommen",
+    "nume": "Consiliul Restrâns al Regelui Tommen",
+    "purtatori": [],
+    "categorie": "titlu / instituție",
+    "descrieri": [
+      "Membri: Ser Kevan Lannister (Lord Regent), Lord Mace Tyrell (Mână a Regelui), Marele Maester Pycelle, Ser Jaime Lannister (Lord Comandant al Gărzii Regelui), Lord Paxter Redwyne (mare amiral), Qyburn (maestru al şoptitorilor)"
+    ],
+    "id_intern": "TITLE_CONSILIUL_RESTRANS_AL_REGELUI_TOMMEN"
+  },
+  {
+    "id": "coroana_de_lemn_plutitor",
+    "nume": "Coroana de lemn plutitor",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "obiect ritual pus pe capul regelui ales la plebiscit"
+    ],
+    "id_intern": "TITLE_COROANA_DE_LEMN_PLUTITOR"
+  },
+  {
+    "id": "degetelul",
+    "nume": "Degețelul",
+    "purtatori": [],
+    "categorie": "poreclă",
+    "descrieri": [
+      "Dată lui Petyr Baelish de Edmure Tully la Riverrun, referitoare la originea familiei sale de pe cel mai mic dintre Degete"
+    ],
+    "id_intern": "TITLE_DEGETELUL"
+  },
+  {
+    "id": "fratia_fara_steaguri",
+    "nume": "Frăţia fără Steaguri",
+    "purtatori": [],
+    "id_intern": "TITLE_FRATIA_FARA_STEAGURI"
+  },
+  {
+    "id": "fratia_padurii_regelui",
+    "nume": "Frăția Pădurii Regelui",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "proscriși din trecut, combătuți de Arthur Dayne și scutierul Jaime; conducătoarea lor, „Căprioara Albă” (Wenda), a marcat cu fierul înroșit fundul lui Merrett Frey"
+    ],
+    "id_intern": "TITLE_FRATIA_PADURII_REGELUI"
+  },
+  {
+    "id": "garda_regelui",
+    "nume": "Garda Regelui (Kingsguard / Frații Jurați / „Săbiile Albe\")",
+    "purtatori": [],
+    "id_intern": "TITLE_GARDA_REGELUI"
+  },
+  {
+    "id": "identitatea_falsa_alayne_stone",
+    "nume": "Identitatea falsă „Alayne Stone”",
+    "purtatori": [],
+    "id_intern": "TITLE_IDENTITATEA_FALSA_ALAYNE_STONE"
+  },
+  {
+    "id": "jumate_om",
+    "nume": "Jumate Om",
+    "purtatori": [],
+    "categorie": "poreclă",
+    "descrieri": [
+      "Poreclă dată lui Tyrion Lannister de clanurile montane aflate sub comanda sa"
+    ],
+    "id_intern": "TITLE_JUMATE_OM"
+  },
+  {
+    "id": "kingsmoot",
+    "nume": "Kingsmoot (implicit „plebiscitul de la Vechiul Wyk\")",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "obicei străvechi al oamenilor de fier de a-și alege regele prin vot/adunare pe dealul Naggăi, la Castelul Regelui Cenușiu; regi aleși astfel în trecut, menționați: Urras Picior-de-Fier, Sylas Flatnose, Harrag Hoare, „Bătrânul Kraken\""
+    ],
+    "id_intern": "TITLE_KINGSMOOT"
+  },
+  {
+    "id": "legea_dorneana",
+    "nume": "Legea dorneană",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "permite moștenirea prin copilul mai mare, indiferent de sex (primogenitură absolută); convenită la căsătoria Regelui Daeron cu Prințesa Myriah, condiție a aderării Dornului la regat"
+    ],
+    "id_intern": "TITLE_LEGEA_DORNEANA"
+  },
+  {
+    "id": "legile_regelui_maegor_cel_crud",
+    "nume": "Legile Regelui Maegor cel Crud",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "interziceau Credinței să porte arme; revocate de comun acord cu Cersei"
+    ],
+    "id_intern": "TITLE_LEGILE_REGELUI_MAEGOR_CEL_CRUD"
+  },
+  {
+    "id": "lighioana_cu_patru_capete",
+    "nume": "Lighioana cu Patru Capete",
+    "purtatori": [],
+    "categorie": "titlu / poreclă",
+    "descrieri": [
+      "grup select al reginei Rhaena (ea, Elissa, Alayne, Samantha)"
+    ],
+    "id_intern": "TITLE_LIGHIOANA_CU_PATRU_CAPETE"
+  },
+  {
+    "id": "locatia_b",
+    "nume": "Locația B",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "satele/mlaștinile locuite de „oamenii mlaștinilor”"
+    ],
+    "id_intern": "TITLE_LOCATIA_B"
+  },
+  {
+    "id": "lordul_aerului",
+    "nume": "Lordul Aerului",
+    "purtatori": [],
+    "categorie": "titlu / poreclă",
+    "descrieri": [
+      "[dat lui Rego Draz, lord fără domenii] — Fragment 2.1 [\"Lordul Aerului\"** — poreclă informală pentru Rego Draz, maestrul pentoshi al banilor.] — Fragment 2.2"
+    ],
+    "id_intern": "TITLE_LORDUL_AERULUI"
+  },
+  {
+    "id": "lordul_intarziat",
+    "nume": "Lordul Întârziat",
+    "purtatori": [],
+    "categorie": "poreclă",
+    "descrieri": [
+      "Dată de Hoster Tully lui Walder Frey, din cauza sosirii sale tardive la Trident cu armata"
+    ],
+    "id_intern": "TITLE_LORDUL_INTARZIAT"
+  },
+  {
+    "id": "lordul_peste_umflat",
+    "nume": "Lordul Pește Umflat",
+    "purtatori": [],
+    "categorie": "titlu (poreclă)",
+    "descrieri": [
+      "Porecla \"Lordul Pește Umflat\" dată lui Mace Tyrell de mama sa, Olenna; blazon batjocoritor propus: peștele umflat din Insulele Verii"
+    ],
+    "id_intern": "TITLE_LORDUL_PESTE_UMFLAT"
+  },
+  {
+    "id": "lumanari_parfumate_din_ceara_de_albine",
+    "nume": "Lumânări parfumate din ceară de albine",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "dar de la Lordul Waxley Lysei, cu ocazia curtării ei",
+      "Pagina: 307"
+    ],
+    "id_intern": "TITLE_LUMANARI_PARFUMATE_DIN_CEARA_DE_ALBINE"
+  },
+  {
+    "id": "mana_cu_capison",
+    "nume": "Mâna cu capișon",
+    "purtatori": [],
+    "categorie": "titlu / poreclă",
+    "descrieri": [
+      "poreclă dată lui Tyland Lannister, care își acoperea fața desfigurată cu un capișon de mătase"
+    ],
+    "id_intern": "TITLE_MANA_CU_CAPISON"
+  },
+  {
+    "id": "maresalii_hotarului_de_nord",
+    "nume": "Mareșalii Hotarului de Nord",
+    "purtatori": [
+      {
+        "persoana_id": "HOUSE_OSGREY",
+        "persoana_nume": "Casa Osgrey",
+        "an_start": null,
+        "an_sfarsit": null,
+        "sursa": "Cavalerul celor 7 Regate",
+        "confidence": "canon"
+      }
+    ],
+    "categorie": "titlu",
+    "id_intern": "TITLE_MARESALII_HOTARULUI_DE_NORD"
+  },
+  {
+    "id": "mastile_insangerate",
+    "nume": "Măştile Însângerate (Bloody Mummers)",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "companie de mercenari din care făceau parte Vargo Hoat, Pyg, Timeon, Shagwell, Rorge; menționați ca fiind vânați de oamenii Lordului Beric Dondarrion (Fulgerul)",
+      "Pagina: 271"
+    ],
+    "id_intern": "TITLE_MASTILE_INSANGERATE"
+  },
+  {
+    "id": "monstru",
+    "nume": "Monstru",
+    "purtatori": [
+      {
+        "persoana_id": "Fiul lui Mance Rayder",
+        "persoana_nume": "Fiul lui Mance Rayder (pruncul sălbatic)",
+        "an_start": 302,
+        "an_sfarsit": null,
+        "sursa": "Dansul Dragonilor",
+        "confidence": "canon"
+      }
+    ],
+    "atribuit_de": [
+      {
+        "donator_id": "PERSON_MANCE_RAYDER",
+        "donator_nume": "Mance Rayder",
+        "an_aproximativ": 302,
+        "sursa": "Dansul Dragonilor",
+        "confidence": "canon"
+      }
+    ],
+    "categorie": "poreclă",
+    "id_intern": "TITLE_MONSTRU"
+  },
+  {
+    "id": "neveste_de_sare",
+    "nume": "Neveste de sare",
+    "purtatori": [],
+    "categorie": "obicei/titlu",
+    "descrieri": [
+      "Statut acordat de oamenii de fier femeilor capturate care mulţumesc căpitanii; descris ca „poziţie onorabilă\""
+    ],
+    "id_intern": "TITLE_NEVESTE_DE_SARE"
+  },
+  {
+    "id": "oamenii_miei",
+    "nume": "Oamenii Miei",
+    "purtatori": [],
+    "categorie": "poreclă",
+    "descrieri": [
+      "Nume dat de dothraki locuitorilor din Lhazar"
+    ],
+    "id_intern": "TITLE_OAMENII_MIEI"
+  },
+  {
+    "id": "oasele_naggai",
+    "nume": "Oasele Naggăi",
+    "purtatori": [],
+    "id_intern": "TITLE_OASELE_NAGGAI"
+  },
+  {
+    "id": "ordinul_militar_rondul_de_noapte_structura_celor_trei_sedii",
+    "nume": "Ordinul militar Rondul de Noapte — structura celor trei sedii",
+    "purtatori": [],
+    "categorie": "titlu / instituție",
+    "descrieri": [
+      "Castelul Negru (comandat de Jon Snow), Turnul Umbrei (Ser Denys Mallister), Rondul de Est la Mare (Cotter Pyke)"
+    ],
+    "id_intern": "TITLE_ORDINUL_MILITAR_RONDUL_DE_NOAPTE_STRUCTURA_CELOR_TREI_SEDII"
+  },
+  {
+    "id": "porecla_lordul_mreana_porecla_data_d",
+    "nume": "Porecla „Lordul Mreană\" — poreclă dată d",
+    "purtatori": [],
+    "categorie": "titlu",
+    "id_intern": "TITLE_PORECLA_LORDUL_MREANA_PORECLA_DATA_D"
+  },
+  {
+    "id": "printul_zdrentaros",
+    "nume": "Prinţul Zdrenţăros",
+    "purtatori": [],
+    "id_intern": "TITLE_PRINTUL_ZDRENTAROS"
+  },
+  {
+    "id": "profetia_lui_maggy_broasca_pentru_cersei",
+    "nume": "Profeția lui Maggy Broasca pentru Cersei",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "(recapitulată retrospectiv): va fi regină până când va veni alta mai tânără și mai frumoasă, care o va detrona și-i va lua tot ce prețuiește",
+      "Pagina: 167"
+    ],
+    "id_intern": "TITLE_PROFETIA_LUI_MAGGY_BROASCA_PENTRU_CERSEI"
+  },
+  {
+    "id": "recompensa_lui_cersei",
+    "nume": "Recompensa lui Cersei",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "pentru capul lui Tyrion: titlu de lord, indiferent de obârșie"
+    ],
+    "id_intern": "TITLE_RECOMPENSA_LUI_CERSEI"
+  },
+  {
+    "id": "regele_maegor_cu_tate",
+    "nume": "Regele Maegor cu țâțe",
+    "purtatori": [],
+    "categorie": "titlu / poreclă",
+    "descrieri": [
+      "Menționat în text fără descriere suplimentară"
+    ],
+    "id_intern": "TITLE_REGELE_MAEGOR_CU_TATE"
+  },
+  {
+    "id": "regele_merlan",
+    "nume": "Regele Merlan",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "menţionat ca „reîntors la Gulltown\"; context neclar (posibil rege al cerşetorilor/mumerilor sau titlu regional)"
+    ],
+    "id_intern": "TITLE_REGELE_MERLAN"
+  },
+  {
+    "id": "regele_nebun",
+    "nume": "Regele Nebun (Aerys II Targaryen)",
+    "purtatori": [],
+    "id_intern": "TITLE_REGELE_NEBUN"
+  },
+  {
+    "id": "regele_sudului",
+    "nume": "Regele Sudului",
+    "purtatori": [],
+    "categorie": "titlu",
+    "id_intern": "TITLE_REGELE_SUDULUI"
+  },
+  {
+    "id": "regele_tridentului_si_al_nordului",
+    "nume": "„Regele Tridentului și al Nordului”",
+    "purtatori": [
+      {
+        "persoana_id": "PERSON_ROBB_STARK",
+        "persoana_nume": "Robb Stark",
+        "an_start": 298,
+        "an_sfarsit": 300,
+        "sursa": "Urzeala Tronurilor",
+        "confidence": "canon"
+      }
+    ],
+    "creat_de": [
+      {
+        "creator_id": "PERSON_SER_BRYNDEN_TULLY",
+        "creator_nume": "Ser Brynden Tully (Peştele Negru)",
+        "an_aproximativ": 300,
+        "sursa": "Iureșul Săbiilor",
+        "confidence": "canon"
+      }
+    ],
+    "categorie": "titlu",
+    "descrieri": [
+      "poreclă ironică propusă de Aurane Waters",
+      "poreclă dată de oamenii din Fundătura Puricilor pentru anturajul de lingușitori al lui Cersei",
+      "Titlu „Lord Protector al Winterfellului\" — discutat ca posibilă recompensă pentru Tyrion, dacă se căsătorește cu Sansa",
+      "Titlu „Păzitor al Estului\" — va fi redat Lordului Robert Arryn dacă Baelish reușește căsătoria cu Lysa",
+      "**Titlu:** „Bunii Stăpâni\" — modul în care se autointitulează negustorii de sclavi din Astapor",
+      "Titluri proclamate simultan de diverși lorzi pentru Robb Stark în cadrul consiliului de la Riverrun (Marele Jon spune „Regele Nordului\", Maege Mormont spune „Regele Iernii\"); vechile cuvinte de proclamare nu mai fuseseră rostite de peste trei sute de ani, de la unificarea celor Șapte Regate de către Aegon Dragonul"
+    ],
+    "id_intern": "TITLE_REGELE_TRIDENTULUI_SI_AL_NORDULUI"
+  },
+  {
+    "id": "regina_albastra",
+    "nume": "Regina Albastră",
+    "purtatori": [],
+    "categorie": "titlu / poreclă",
+    "descrieri": [
+      "„Regina Albastră”** — poreclă pentru dragonul Tessarion, al prințului Daeron"
+    ],
+    "id_intern": "TITLE_REGINA_ALBASTRA"
+  },
+  {
+    "id": "regina_din_vest",
+    "nume": "Regina din Vest",
+    "purtatori": [],
+    "categorie": "titlu / poreclă",
+    "descrieri": [
+      "poreclă dată Rhaenei Targaryen de locuitorii din Vest"
+    ],
+    "id_intern": "TITLE_REGINA_DIN_VEST"
+  },
+  {
+    "id": "sangele_vechi",
+    "nume": "Sângele Vechi (Vechiul sânge)",
+    "purtatori": [],
+    "categorie": "grup / titlu",
+    "descrieri": [
+      "Vlăstarele nobile din Volantis cu descendenţă din vechea Valyrie, singurii cu acces liber în Zidul Negru; locuiesc în spatele Zidului Negru, cu drept de vot"
+    ],
+    "id_intern": "TITLE_SANGELE_VECHI"
+  },
+  {
+    "id": "ser_bunic_barba_alba",
+    "nume": "Ser Bunic / Barbă-albă",
+    "purtatori": [],
+    "categorie": "poreclă",
+    "descrieri": [
+      "Porecle ironice date lui Ser Barristan Selmy de Skahaz Ţeastă-Rasă (Fragment 22); repetate în Fragmentul 23, unde apar și „Cavalerul Cuibarului Grifonului\" (Ronnet Connington) şi „Uriaşul tăcut\" (Ser Robert Strong)"
+    ],
+    "id_intern": "TITLE_SER_BUNIC_BARBA_ALBA"
+  },
+  {
+    "id": "stangul_si_dreptul",
+    "nume": "Stângul și Dreptul",
+    "purtatori": [],
+    "id_intern": "TITLE_STANGUL_SI_DREPTUL"
+  },
+  {
+    "id": "statut_de_cavaler_ratacitor",
+    "nume": "Statut de „cavaler rătăcitor\"",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "Cavaler fără stăpân fix, care călătorește din castel în castel, slujind diverși lorzi și luptând în bătăliile lor, participând ocazional la turniruri; unii devin tâlhari iarna, din lipsă de venituri (Ser Arlan nu a făcut niciodată asta)"
+    ],
+    "id_intern": "TITLE_STATUT_DE_CAVALER_RATACITOR"
+  },
+  {
+    "id": "statutul_de_sora_tacuta",
+    "nume": "Statutul de „soră tăcută\"",
+    "purtatori": [],
+    "categorie": "titlu / religie",
+    "descrieri": [
+      "Ordin religios/monastic în care a fost dată Alysanne Osgrey"
+    ],
+    "id_intern": "TITLE_STATUTUL_DE_SORA_TACUTA"
+  },
+  {
+    "id": "titlu",
+    "nume": "Titlu",
+    "purtatori": [],
+    "id_intern": "TITLE_TITLU"
+  },
+  {
+    "id": "titlu_informal_printul_negotului",
+    "nume": "Titlu informal „Prinţul negoţului\"",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "Titlu pentru membrii Celor Treisprezece din Qarth"
+    ],
+    "id_intern": "TITLE_TITLU_INFORMAL_PRINTUL_NEGOTULUI"
+  },
+  {
+    "id": "titlu_istoric",
+    "nume": "Titlu istoric",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "„Coroana Șoimului\" — purtată de regii Arryn când domneau independent în Vale, înainte de Cucerirea lui Aegon"
+    ],
+    "id_intern": "TITLE_TITLU_ISTORIC"
+  },
+  {
+    "id": "titlu_onorific",
+    "nume": "Titlu onorific",
+    "purtatori": [],
+    "id_intern": "TITLE_TITLU_ONORIFIC"
+  },
+  {
+    "id": "titlul_adevarat_pazitor_al_estului",
+    "nume": "Titlul „Adevărat Păzitor al Estului\"",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "Atribuit oficial lui Robert Arryn, deși contestat informal ca fiind doar o formulă protocolară"
+    ],
+    "id_intern": "TITLE_TITLUL_ADEVARAT_PAZITOR_AL_ESTULUI"
+  },
+  {
+    "id": "titlul_aparator_al_vaii",
+    "nume": "Titlul „Apărător al Văii\"",
+    "purtatori": [
+      {
+        "persoana_id": "PERSON_ROBERT_ARRYN",
+        "persoana_nume": "Robert Arryn",
+        "an_start": 298,
+        "an_sfarsit": null,
+        "sursa": "Urzeala Tronurilor",
+        "confidence": "canon"
+      }
+    ],
+    "categorie": "titlu",
+    "id_intern": "TITLE_TITLUL_APARATOR_AL_VAII"
+  },
+  {
+    "id": "titlul_cavaler_al_portii",
+    "nume": "Titlul „Cavaler al Porții\"",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "Titlul lui Ser Brynden Tully la Eyrie"
+    ],
+    "id_intern": "TITLE_TITLUL_CAVALER_AL_PORTII"
+  },
+  {
+    "id": "titlul_de_gonfalonier",
+    "nume": "Titlul de „Gonfalonier” (purtați-de-stindard)",
+    "purtatori": [],
+    "id_intern": "TITLE_TITLUL_DE_GONFALONIER"
+  },
+  {
+    "id": "titlul_de_lord_acordat_lui_hallyne_piromantul",
+    "nume": "Titlul de Lord acordat lui Hallyne Piromantul",
+    "purtatori": [],
+    "categorie": "titlu",
+    "id_intern": "TITLE_TITLUL_DE_LORD_ACORDAT_LUI_HALLYNE_PIROMANTUL"
+  },
+  {
+    "id": "titlul_de_printesa_atribuit_informal_lui_val",
+    "nume": "Titlul de Prinţesă atribuit informal lui Val",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "Ea însăşi glumeşte că nu este cu adevărat prinţesă"
+    ],
+    "id_intern": "TITLE_TITLUL_DE_PRINTESA_ATRIBUIT_INFORMAL_LUI_VAL"
+  },
+  {
+    "id": "titlul_dreptatea_regelui",
+    "nume": "Titlul „Dreptatea Regelui\"",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "Poreclă/funcție a lui Ser Ilyn Payne, executorul oficial al coroanei"
+    ],
+    "id_intern": "TITLE_TITLUL_DREPTATEA_REGELUI"
+  },
+  {
+    "id": "titlul_khaleesi",
+    "nume": "Titlul „khaleesi\"",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "Soția unui Khal dothraki; statutul ei e legat direct de viața soțului („numai atât timp cât sânge din sângele meu trăiește încă\")"
+    ],
+    "id_intern": "TITLE_TITLUL_KHALEESI"
+  },
+  {
+    "id": "titlul_lord_suprem_al_tridentului",
+    "nume": "Titlul „Lord Suprem al Tridentului\"",
+    "purtatori": [
+      {
+        "persoana_id": "PERSON_PETYR_BAELISH",
+        "persoana_nume": "Petyr Baelish (Degeţel)",
+        "an_start": 301,
+        "an_sfarsit": null,
+        "sursa": "Festinul Ciorilor",
+        "confidence": "canon"
+      }
+    ],
+    "categorie": "titlu",
+    "id_intern": "TITLE_TITLUL_LORD_SUPREM_AL_TRIDENTULUI"
+  },
+  {
+    "id": "titlul_lordul_marii",
+    "nume": "Titlul „Lordul Mării\" (Braavos)",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "Conducătorul ales al Braavosului; la moartea unuia, „se face o alegere şi cuţitele ies din teci\""
+    ],
+    "id_intern": "TITLE_TITLUL_LORDUL_MARII"
+  },
+  {
+    "id": "titlul_maestru_al_monedelor_detinut",
+    "nume": "Titlul „Maestru al Monedelor\" — deținut",
+    "purtatori": [],
+    "categorie": "titlu",
+    "id_intern": "TITLE_TITLUL_MAESTRU_AL_MONEDELOR_DETINUT"
+  },
+  {
+    "id": "titlul_magnarul_thennilor_termenul_magnar",
+    "nume": "Titlul „Magnarul Thennilor\" / termenul „Magnar\"",
+    "purtatori": [],
+    "categorie": "titlu / termen",
+    "descrieri": [
+      "„Magnar\" este cuvântul pentru „lord\" în Limba Veche a thennilor (Fragment 11); folosit ca titlu al conducătorului poporului Thenn"
+    ],
+    "id_intern": "TITLE_TITLUL_MAGNARUL_THENNILOR_TERMENUL_MAGNAR"
+  },
+  {
+    "id": "titlul_mana_regelui",
+    "nume": "Titlul „Mâna Regelui\"",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "Al doilea om ca putere din regat; poate comanda armatele regelui, aplica legile și, la nevoie, ține locul regelui pe Tronul de Fier — Fragment 1, pag",
+      "47",
+      "Are puteri mari — să afle adevărul asupra morții lui Jon Arryn, să aducă ucigașii în fața justiției regelui, să protejeze familia Arryn"
+    ],
+    "id_intern": "TITLE_TITLUL_MANA_REGELUI"
+  },
+  {
+    "id": "titlul_obiceiul_ko",
+    "nume": "Titlul/obiceiul „ko\"",
+    "purtatori": [],
+    "categorie": "titlu / obicei",
+    "descrieri": [
+      "Titlu conferit de un khal/khaleesi unui războinic ales, ca gardă personală/călăreț de sânge; conform tradiției, doar un bărbat poate numi un „ko\" sau conduce un khalasar — tensiune de gen relevată explicit în text, întrucât Dany (femeie) încalcă acest obicei"
+    ],
+    "id_intern": "TITLE_TITLUL_OBICEIUL_KO"
+  },
+  {
+    "id": "titlul_pazitor_al_estului_titlu_prop",
+    "nume": "Titlul „Păzitor al Estului\" — titlu prop",
+    "purtatori": [],
+    "id_intern": "TITLE_TITLUL_PAZITOR_AL_ESTULUI_TITLU_PROP"
+  },
+  {
+    "id": "titlul_pazitor_al_sudului",
+    "nume": "Titlul „Păzitor al Sudului\"",
+    "purtatori": [
+      {
+        "persoana_id": "PERSON_MACE_TYRELL",
+        "persoana_nume": "Mace Tyrell",
+        "an_start": 301,
+        "an_sfarsit": null,
+        "sursa": "Festinul Ciorilor",
+        "confidence": "canon"
+      }
+    ],
+    "categorie": "titlu",
+    "id_intern": "TITLE_TITLUL_PAZITOR_AL_SUDULUI"
+  },
+  {
+    "id": "titlul_pazitorul_nordului",
+    "nume": "Titlul „Păzitorul Nordului\" (Warden of the North)",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "Deținut de Roose Bolton"
+    ],
+    "id_intern": "TITLE_TITLUL_PAZITORUL_NORDULUI"
+  },
+  {
+    "id": "titlul_print_al_dornului_detinut_de",
+    "nume": "Titlul „Prinț al Dornului\" — deținut de",
+    "purtatori": [],
+    "categorie": "titlu",
+    "id_intern": "TITLE_TITLUL_PRINT_AL_DORNULUI_DETINUT_DE"
+  },
+  {
+    "id": "titlul_protector_al_citadelei",
+    "nume": "Titlul „Protector al Citadelei\"",
+    "purtatori": [
+      {
+        "persoana_id": "PERSON_LEYTON_HIGHTOWER",
+        "persoana_nume": "Leyton Hightower",
+        "an_start": 301,
+        "an_sfarsit": null,
+        "sursa": "Festinul Ciorilor",
+        "confidence": "canon"
+      }
+    ],
+    "categorie": "titlu",
+    "id_intern": "TITLE_TITLUL_PROTECTOR_AL_CITADELEI"
+  },
+  {
+    "id": "titlul_rang_mana_asumat_de_facto_de_ser_barristan_selmy",
+    "nume": "Titlul/rang „Mâna\" asumat de facto de Ser Barristan Selmy",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "Rol asumat la Meereen în absența reginei și cu regele întemnițat"
+    ],
+    "id_intern": "TITLE_TITLUL_RANG_MANA_ASUMAT_DE_FACTO_DE_SER_BARRISTAN_SELMY"
+  },
+  {
+    "id": "titlul_rege_al_celor_sapte_regate",
+    "nume": "Titlul „Rege al Celor Șapte Regate\"",
+    "purtatori": [],
+    "categorie": "titlu",
+    "id_intern": "TITLE_TITLUL_REGE_AL_CELOR_SAPTE_REGATE"
+  },
+  {
+    "id": "titlul_regele_nordului_regele_iernii",
+    "nume": "Titlul „Regele Nordului\" / „Regele Iernii\"",
+    "purtatori": [],
+    "id_intern": "TITLE_TITLUL_REGELE_NORDULUI_REGELE_IERNII"
+  },
+  {
+    "id": "titlul_regele_salbaticilor",
+    "nume": "Titlul „Regele Sălbaticilor\" (Gerrick Sânge-de-Rege)",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "Titlu conferit artificial de regina Selyse lui Gerrick Sânge-de-Rege, nerecunoscut de sălbaticii adevărați"
+    ],
+    "id_intern": "TITLE_TITLUL_REGELE_SALBATICILOR"
+  },
+  {
+    "id": "titlurile_complete_ale_lui_davos_seaworth",
+    "nume": "Titlurile complete ale lui Davos Seaworth",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "Lord de Rainwood, Amiral al Mării Înguste, Mână a Regelui"
+    ],
+    "id_intern": "TITLE_TITLURILE_COMPLETE_ALE_LUI_DAVOS_SEAWORTH"
+  },
+  {
+    "id": "titlurile_complete_ale_lui_godric_borrell",
+    "nume": "Titlurile complete ale lui Godric Borrell",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "Lord de Sora Dulce, Scut al Sistertonului, Stăpân al Castelului Breakwater, Păstrător al Felinarului Nopţii"
+    ],
+    "id_intern": "TITLE_TITLURILE_COMPLETE_ALE_LUI_GODRIC_BORRELL"
+  },
+  {
+    "id": "titlurile_complete_ale_lui_wyman_manderly",
+    "nume": "Titlurile complete ale lui Wyman Manderly",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "Lord al Portului Alb şi Păzitor al Cuţitului Alb, Scut al Credinţei, Apărător al celor Deposedaţi, Lord Mareşal al Manderului, Cavaler al Ordinului Mâinii Verzi"
+    ],
+    "id_intern": "TITLE_TITLURILE_COMPLETE_ALE_LUI_WYMAN_MANDERLY"
+  },
+  {
+    "id": "titlurile_complete_ale_regelui_hizdahr_zo_loraq",
+    "nume": "Titlurile complete ale regelui Hizdahr zo Loraq",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "„Al Paisprezecelea cu Acest Nobil Nume, Regele Meereenului, Moştenitorul Ghisului, Octarh al Vechiului Imperiu, Stăpân al Skahazadhanului, Consort al Dragonilor şi Sânge al Harpiei\""
+    ],
+    "id_intern": "TITLE_TITLURILE_COMPLETE_ALE_REGELUI_HIZDAHR_ZO_LORAQ"
+  },
+  {
+    "id": "titlurile_lui_tormund_napasta_uriasilor",
+    "nume": "Titlurile lui Tormund Năpasta Uriaşilor",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "Mare Orator, Suflătorul Cornului, Spărgătorul de Gheaţă, Pumn de Fier, Consortul Ursoaicelor, Vorbitorul cu Zeii şi Tatăl Oştirilor"
+    ],
+    "id_intern": "TITLE_TITLURILE_LUI_TORMUND_NAPASTA_URIASILOR"
+  },
+  {
+    "id": "titulatura_heraldica_completa_a_printului_aerion",
+    "nume": "Titulatura heraldică completă a Prințului Aerion",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "La intrarea în arenă: „Prințul Aerion Flacără Strălucitoare, din Fortăreața Roșie de la Debarcaderul Regelui, fiu al lui Maekar, prinț de Castelul Verii din Casa Targaryen, nepot al lui Daeron cel Bun, Al Doilea pe Numele său, Rege al Andalilor, al Rhoynarilor și al Primilor Oameni și Stăpân al Celor Șapte Regate.\""
+    ],
+    "id_intern": "TITLE_TITULATURA_HERALDICA_COMPLETA_A_PRINTULUI_AERION"
+  },
+  {
+    "id": "tokar",
+    "nume": "Tokar",
+    "purtatori": [],
+    "id_intern": "TITLE_TOKAR"
+  },
+  {
+    "id": "trei_regine",
+    "nume": "Trei regine",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "Expresie folosită de Petyr Baelish referitor la haosul de la Debarcaderul Regelui"
+    ],
+    "id_intern": "TITLE_TREI_REGINE"
+  },
+  {
+    "id": "triarhi",
+    "nume": "Triarhi",
+    "purtatori": [],
+    "categorie": "titlu / instituție",
+    "descrieri": [
+      "Cei trei conducători aleşi anual ai Volantisului; nu au voie să atingă pământul cu picioarele în anul mandatului, se deplasează pe elefanţi; alegerile durează 10 zile"
+    ],
+    "id_intern": "TITLE_TRIARHI"
+  },
+  {
+    "id": "tronul_de_fier",
+    "nume": "Tronul de Fier",
+    "purtatori": [],
+    "id_intern": "TITLE_TRONUL_DE_FIER"
+  },
+  {
+    "id": "ucigasul_de_nepoti",
+    "nume": "Ucigașul-de-Nepoți",
+    "purtatori": [],
+    "categorie": "titlu / poreclă",
+    "descrieri": [
+      "Menționat în text fără descriere suplimentară"
+    ],
+    "id_intern": "TITLE_UCIGASUL_DE_NEPOTI"
+  },
+  {
+    "id": "ucigasul_porecla_samwell_tarly",
+    "nume": "Ucigașul (poreclă Samwell Tarly)",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "porecla lui Samwell Tarly (pentru uciderea unui Alb-Umblător, aluzie externă fragmentului)"
+    ],
+    "id_intern": "TITLE_UCIGASUL_PORECLA_SAMWELL_TARLY"
+  },
+  {
+    "id": "umbra_stacojie",
+    "nume": "Umbra Stacojie",
+    "purtatori": [],
+    "categorie": "titlu / poreclă",
+    "descrieri": [
+      "Jonquil Darke / Umbra Stacojie** — poreclă de cavaler misterios din Războiul pentru Mantiile Albe"
+    ],
+    "id_intern": "TITLE_UMBRA_STACOJIE"
+  },
+  {
+    "id": "vulturii_animalele_din_menajeria_citadelei",
+    "nume": "Vulturii/animalele din menajeria Citadelei",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "menționate în trecere, printre care un mastif (poreclă folosită pentru Marwyn)"
+    ],
+    "id_intern": "TITLE_VULTURII_ANIMALELE_DIN_MENAJERIA_CITADELEI"
+  },
+  {
+    "id": "warden_i_pazitori_regionali",
+    "nume": "Warden-i / Păzitori regionali",
+    "purtatori": [],
+    "categorie": "titlu / organizație",
+    "descrieri": [
+      "Se menționează explicit funcțiile de Păzitor al Estului (vacant, disputat) și Păzitorul Vestului (Tywin Lannister)"
+    ],
+    "id_intern": "TITLE_WARDEN_I_PAZITORI_REGIONALI"
+  },
+  {
+    "id": "zeii_din_templul_casei_in_negru_si_alb_si_devotii_lor_tipici",
+    "nume": "Zeii din templul Casei în Negru şi Alb şi devoţii lor tipici",
+    "purtatori": [],
+    "categorie": "titlu",
+    "descrieri": [
+      "Femeia Înlăcrimată (bătrâne), Leul Nopții (bogați), Drumețul cu Glugă (săraci), Bakkalon \"Copilul Palid\" (soldați), Fecioara Palidă-ca-Luna și Regele Merlan (marinari), Străinul (aproape nimeni)",
+      "Pagina: 288"
+    ],
+    "id_intern": "TITLE_ZEII_DIN_TEMPLUL_CASEI_IN_NEGRU_SI_ALB_SI_DEVOTII_LOR_TIPICI"
+  }
+]

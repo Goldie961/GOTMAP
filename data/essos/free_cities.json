@@ -1,0 +1,773 @@
+[
+  {
+    "id": "braavos",
+    "name": "Braavos",
+    "type": "city",
+    "continent": "essos",
+    "region": "free_cities",
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Braavos",
+    "tags": [
+      "city",
+      "free_cities",
+      "essos"
+    ],
+    "crest": null,
+    "crest_is_custom": null,
+    "ownership_history": [
+      {
+        "year": -700,
+        "house": null,
+        "faction": "braavosi_founders",
+        "lord": "Unknown escaped slave navigator",
+        "status": "founded",
+        "event": "Braavos is founded in secret by escaped slaves fleeing Valyrian dragonlords; the city remains hidden, its sailors using false charts and purple-dyed sails to protect its location.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Braavos"
+      },
+      {
+        "year": -600,
+        "house": null,
+        "faction": "sealord_of_braavos",
+        "lord": "Sealord Uthero Zalyne",
+        "status": "revealed",
+        "event": "The Uncloaking of Uthero: Sealord Uthero Zalyne ends Braavos's secrecy and reveals the city to the world during its 111th founding festival. The Iron Bank pays settlements to former slave-owners but refuses payment for the slaves' value, affirming anti-slavery principles.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Uncloaking_of_Uthero"
+      },
+      {
+        "year": -102,
+        "house": null,
+        "faction": "sealord_of_braavos",
+        "lord": "Sealord (unknown)",
+        "status": "intact",
+        "event": "The Doom of Valyria destroys the Valyrian Freehold. Braavos, never a Valyrian colony, is unaffected and emerges as a major naval and financial power.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Doom_of_Valyria"
+      },
+      {
+        "year": -2,
+        "house": null,
+        "faction": "sealord_of_braavos",
+        "lord": "Sealord (unknown)",
+        "status": "intact",
+        "event": "Braavosi ships join an Arryn fleet against Targaryen forces at the Battle of Gulltown, though the Targaryen fleet is destroyed and Visenya Targaryen burns the combined fleet with Vhagar.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Battle_of_Gulltown"
+      },
+      {
+        "year": 298,
+        "house": null,
+        "faction": "sealord_of_braavos",
+        "lord": "Sealord (unnamed)",
+        "status": "intact",
+        "event": "Arya Stark arrives in Braavos, training with the Faceless Men at the House of Black and White.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Braavos"
+      },
+      {
+        "year": 300,
+        "house": null,
+        "faction": "iron_bank_of_braavos",
+        "lord": "Tycho Nestoris (Iron Bank representative)",
+        "status": "intact",
+        "event": "The Iron Bank of Braavos withdraws support from the Iron Throne and begins financing Stannis Baratheon's claim, exemplifying the bank's willingness to fund rivals of defaulting debtors.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Iron_Bank_of_Braavos"
+      }
+    ],
+    "metadata": {
+      "type": "city",
+      "government": "Sealord (elected for life by wealthy elite and Iron Bank keyholders)",
+      "description": "The youngest of the Free Cities and the most powerful, Braavos sits in a lagoon where the Narrow Sea meets the Shivering Sea. Founded by escaped slaves in secret, it is the only Free City not of Valyrian colonial origin.",
+      "notable_features": [
+        "Titan of Braavos",
+        "Iron Bank",
+        "House of Black and White",
+        "Arsenal of Braavos",
+        "Moon Pool",
+        "Purple Harbor"
+      ],
+      "narratorText": "Called the 'Secret City' and the 'bastard daughter of Valyria,' Braavos was built by escaped slaves who hid their city for over a century. The Titan stands sentinel at its harbor, and the Iron Bank holds debts of kings. 'The Iron Bank will have its due.'",
+      "timeline": [
+        {
+          "year": -700,
+          "event": "Founding of Braavos in secret by escaped slaves",
+          "canon": "canon",
+          "source": "https://awoiaf.westeros.org/index.php/Braavos"
+        },
+        {
+          "year": -600,
+          "event": "Uncloaking of Uthero — city revealed to the world",
+          "canon": "canon",
+          "source": "https://awoiaf.westeros.org/index.php/Uncloaking_of_Uthero"
+        },
+        {
+          "year": -102,
+          "event": "Doom of Valyria — Braavos unaffected, rises as major power",
+          "canon": "canon",
+          "source": "https://awoiaf.westeros.org/index.php/Doom_of_Valyria"
+        }
+      ]
+    }
+  },
+  {
+    "id": "pentos",
+    "name": "Pentos",
+    "type": "city",
+    "continent": "essos",
+    "region": "free_cities",
+    "coordinates": {
+      "x": 762,
+      "y": 488.6
+    },
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Pentos",
+    "tags": [
+      "city",
+      "free_cities",
+      "essos"
+    ],
+    "crest": null,
+    "crest_is_custom": null,
+    "ownership_history": [
+      {
+        "year": -200,
+        "house": null,
+        "faction": "pentoshi_magisters",
+        "lord": "Council of Magisters",
+        "status": "founded",
+        "event": "Pentos established as a Valyrian colony on the eastern shore of the Bay of Pentos.",
+        "canon": "inferred",
+        "source": "https://awoiaf.westeros.org/index.php/Pentos"
+      },
+      {
+        "year": -102,
+        "house": null,
+        "faction": "pentoshi_magisters",
+        "lord": "Council of Magisters",
+        "status": "intact",
+        "event": "The Doom of Valyria destroys the Freehold. Pentos gains independence; magisters continue to hold true power while electing a Prince as figurehead.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Doom_of_Valyria"
+      },
+      {
+        "year": 3,
+        "house": null,
+        "faction": "pentoshi_magisters",
+        "lord": "Council of Magisters",
+        "status": "intact",
+        "event": "Pentos signs a treaty with Braavos, ceding the right to keep eunuch slaves (though enforcement becomes lax over time).",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Pentos"
+      },
+      {
+        "year": 298,
+        "house": null,
+        "faction": "pentoshi_magisters",
+        "lord": "Illyrio Mopatis (Magister)",
+        "status": "intact",
+        "event": "Daenerys Targaryen and Viserys Targaryen are guests of Magister Illyrio Mopatis in Pentos. Daenerys is wed to Khal Drogo here.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Pentos"
+      }
+    ],
+    "metadata": {
+      "type": "city",
+      "government": "Prince (elected figurehead, executed if city fails) + Council of Magisters (true power)",
+      "description": "A large walled city on the eastern shore of the Bay of Pentos, one of the westernmost Free Cities and the geographically closest to King's Landing. The Prince of Pentos is an elected figurehead; the magisters hold real power.",
+      "notable_features": [
+        "Bay of Pentos",
+        "manse of Illyrio Mopatis",
+        "great bazaar"
+      ],
+      "narratorText": "Pentos stands on the bay that bears its name. The Prince of Pentos dances on a knife's edge — if the city suffers war or famine, the magisters may sacrifice him to the gods.",
+      "timeline": [
+        {
+          "year": -102,
+          "event": "Pentos gains independence after Doom of Valyria",
+          "canon": "canon",
+          "source": "https://awoiaf.westeros.org/index.php/Pentos"
+        },
+        {
+          "year": 3,
+          "event": "Pentos signs treaty with Braavos limiting eunuch slavery",
+          "canon": "canon",
+          "source": "https://awoiaf.westeros.org/index.php/Pentos"
+        },
+        {
+          "year": 298,
+          "event": "Daenerys Targaryen wed to Khal Drogo at Illyrio's manse",
+          "canon": "canon",
+          "source": "https://awoiaf.westeros.org/index.php/Pentos"
+        }
+      ]
+    }
+  },
+  {
+    "id": "myr",
+    "name": "Myr",
+    "type": "city",
+    "continent": "essos",
+    "region": "free_cities",
+    "coordinates": {
+      "x": 748.1,
+      "y": 507.7
+    },
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Myr",
+    "tags": [
+      "city",
+      "free_cities",
+      "essos"
+    ],
+    "crest": null,
+    "crest_is_custom": null,
+    "ownership_history": [
+      {
+        "year": -200,
+        "house": null,
+        "faction": "myrish_magisters",
+        "lord": "Council of Magisters",
+        "status": "founded",
+        "event": "Myr established as a Valyrian colony on the 'heel' of western Essos where a dragonroad meets the Sea of Myrth.",
+        "canon": "inferred",
+        "source": "https://awoiaf.westeros.org/index.php/Myr"
+      },
+      {
+        "year": -102,
+        "house": null,
+        "faction": "volantene_empire",
+        "lord": "Volantene Governor",
+        "status": "occupied",
+        "event": "After the Doom of Valyria, Volantis conquers Myr during the Century of Blood, occupying it for several generations as part of its attempt to claim the Valyrian legacy.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Century_of_Blood"
+      },
+      {
+        "year": -25,
+        "house": null,
+        "faction": "myrish_magisters",
+        "lord": "Council of Magisters",
+        "status": "liberated",
+        "event": "Myr rises up against Volantene occupation as part of the grand coalition of Free Cities (with Braavos, Pentos, and Lys) that defeats Volantis; Myr regains independence.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Century_of_Blood"
+      },
+      {
+        "year": 298,
+        "house": null,
+        "faction": "myrish_magisters",
+        "lord": "Council of Magisters",
+        "status": "intact",
+        "event": "Myr remains active in the Disputed Lands conflicts against Lys and Tyrosh, employing mercenary companies rather than its own citizens.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Myr"
+      }
+    ],
+    "metadata": {
+      "type": "city",
+      "government": "Council of Magisters",
+      "description": "A great trading city on the western coast of Essos, on the Sea of Myrth. Renowned for its exquisite lace and the finest glass and lenses in the known world. One of the three cities perpetually contesting the Disputed Lands.",
+      "notable_features": [
+        "Myrish lace",
+        "Myrish glass lenses",
+        "Disputed Lands border",
+        "Sea of Myrth"
+      ],
+      "narratorText": "Myr is famed for intricate lace and crystal-clear glass — Myrish eyes (lenses) can see across impossible distances. The magisters prefer to hire sellswords rather than risk their own citizens in the endless wars of the Disputed Lands.",
+      "timeline": [
+        {
+          "year": -102,
+          "event": "Conquered by Volantis during Century of Blood",
+          "canon": "canon",
+          "source": "https://awoiaf.westeros.org/index.php/Century_of_Blood"
+        },
+        {
+          "year": -25,
+          "event": "Liberated from Volantene rule by grand Free Cities coalition",
+          "canon": "canon",
+          "source": "https://awoiaf.westeros.org/index.php/Century_of_Blood"
+        }
+      ]
+    }
+  },
+  {
+    "id": "lys",
+    "name": "Lys",
+    "type": "city",
+    "continent": "essos",
+    "region": "free_cities",
+    "coordinates": {
+      "x": 742,
+      "y": 512.9
+    },
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Lys",
+    "tags": [
+      "city",
+      "free_cities",
+      "essos",
+      "island"
+    ],
+    "crest": null,
+    "crest_is_custom": null,
+    "ownership_history": [
+      {
+        "year": -200,
+        "house": null,
+        "faction": "lyseni_magisters",
+        "lord": "Conclave of Magisters",
+        "status": "founded",
+        "event": "Lys established as a Valyrian colony on a large island in the southern Narrow Sea; favored by dragonlords as a pleasure retreat. Strong Valyrian blood remains in the population (silver-gold hair, purple/lilac eyes).",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Lys"
+      },
+      {
+        "year": -102,
+        "house": null,
+        "faction": "volantene_empire",
+        "lord": "Volantene Governor",
+        "status": "occupied",
+        "event": "Volantis conquers Lys during the Century of Blood as part of its campaign to reunite the former Valyrian empire.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Century_of_Blood"
+      },
+      {
+        "year": -3,
+        "house": null,
+        "faction": "lyseni_magisters",
+        "lord": "Conclave of Magisters",
+        "status": "liberated",
+        "event": "Aegon Targaryen, riding Balerion, burns a Volantene fleet preparing to invade Lys. Lys is freed from Volantene occupation. Aegon subsequently turns his attention to Westeros.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Century_of_Blood"
+      },
+      {
+        "year": 298,
+        "house": null,
+        "faction": "lyseni_magisters",
+        "lord": "Conclave of Magisters",
+        "status": "intact",
+        "event": "Lys remains wealthy, known for pleasure houses, poisons, and Disputed Lands conflicts.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Lys"
+      }
+    ],
+    "metadata": {
+      "type": "city",
+      "government": "Conclave of Magisters",
+      "description": "Known as 'Lys the Lovely,' this Free City sits on a large fertile island in the southern Narrow Sea. It retains the strongest Valyrian bloodlines outside Dragonstone, and is famous for its pleasure houses, beautiful bed-slaves, and deadly poisons.",
+      "notable_features": [
+        "pleasure houses",
+        "Valyrian bloodlines (silver hair, purple eyes)",
+        "Lysene poisons",
+        "Disputed Lands"
+      ],
+      "narratorText": "Lys the Lovely — palm-lined and warm, its waters blue-green. The Valyrian blood runs true here in silver hair and purple eyes. Pleasure houses are legendary, as are its poisons. The Conclave of Magisters prefers the blade in the dark to the lance in the field.",
+      "timeline": [
+        {
+          "year": -102,
+          "event": "Conquered by Volantis during Century of Blood",
+          "canon": "canon",
+          "source": "https://awoiaf.westeros.org/index.php/Century_of_Blood"
+        },
+        {
+          "year": -3,
+          "event": "Freed when Aegon Targaryen burns the Volantene fleet with Balerion",
+          "canon": "canon",
+          "source": "https://awoiaf.westeros.org/index.php/Century_of_Blood"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tyrosh",
+    "name": "Tyrosh",
+    "type": "city",
+    "continent": "essos",
+    "region": "free_cities",
+    "coordinates": {
+      "x": 764.3,
+      "y": 514
+    },
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Tyrosh",
+    "tags": [
+      "city",
+      "free_cities",
+      "essos",
+      "stepstones"
+    ],
+    "crest": null,
+    "crest_is_custom": null,
+    "ownership_history": [
+      {
+        "year": -200,
+        "house": null,
+        "faction": "tyroshi_magisters",
+        "lord": "Archon of Tyrosh",
+        "status": "founded",
+        "event": "Tyrosh established as a Valyrian colony on an island in the Stepstones.",
+        "canon": "inferred",
+        "source": "https://awoiaf.westeros.org/index.php/Tyrosh"
+      },
+      {
+        "year": -102,
+        "house": null,
+        "faction": "tyroshi_magisters",
+        "lord": "Archon of Tyrosh",
+        "status": "intact",
+        "event": "After the Doom of Valyria, Tyrosh gains full independence. Volantis targets Tyrosh during its expansion, prompting Braavos, Pentos, Myr, and Lys to form a coalition against Volantis.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Century_of_Blood"
+      },
+      {
+        "year": 129,
+        "house": null,
+        "faction": "tyroshi_magisters",
+        "lord": "Archon of Tyrosh",
+        "status": "intact",
+        "event": "During the Dance of the Dragons, Prince Jacaerys Velaryon visits Tyrosh seeking allies for the Blacks.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Tyrosh"
+      }
+    ],
+    "metadata": {
+      "type": "city",
+      "government": "Archon (appointed by Council of Magisters)",
+      "description": "A Free City on an island in the Stepstones, the closest of the Free Cities to the coast of Dorne. Known for its sellsword companies and involvement in the Disputed Lands wars. Tyroshi men dye their beards in vivid colors.",
+      "notable_features": [
+        "Stepstones location",
+        "Disputed Lands",
+        "colored beards",
+        "sellsword companies"
+      ],
+      "narratorText": "Tyrosh guards the southern approach through the Stepstones. The Tyroshi dye their beards in gaudy colors and hire out their sellswords to any faction in the Disputed Lands — which is to say, whoever is currently winning.",
+      "timeline": [
+        {
+          "year": -102,
+          "event": "Gains independence; becomes focus of Volantene expansion, triggering grand coalition",
+          "canon": "canon",
+          "source": "https://awoiaf.westeros.org/index.php/Century_of_Blood"
+        },
+        {
+          "year": 129,
+          "event": "Prince Jacaerys Velaryon visits seeking allies during Dance of the Dragons",
+          "canon": "canon",
+          "source": "https://awoiaf.westeros.org/index.php/Tyrosh"
+        }
+      ]
+    }
+  },
+  {
+    "id": "volantis",
+    "name": "Volantis",
+    "type": "city",
+    "continent": "essos",
+    "region": "free_cities",
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Volantis",
+    "tags": [
+      "city",
+      "free_cities",
+      "essos",
+      "rhoyne"
+    ],
+    "crest": null,
+    "crest_is_custom": null,
+    "ownership_history": [
+      {
+        "year": -500,
+        "house": null,
+        "faction": "volantene_tigers",
+        "lord": "Triarchs (Tiger faction dominant)",
+        "status": "founded",
+        "event": "Volantis established as the first and oldest colony of the Valyrian Freehold, at the mouth of the River Rhoyne where it meets the Summer Sea. The city spans both banks, connected by the Long Bridge.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Volantis"
+      },
+      {
+        "year": -102,
+        "house": null,
+        "faction": "volantene_tigers",
+        "lord": "Triarchs (Tiger faction)",
+        "status": "empire",
+        "event": "After the Doom of Valyria, Volantis declares itself rightful heir of Valyria and launches the Century of Blood — conquering Myr, Lys, and other cities. The Tiger faction drives this expansionist policy.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Century_of_Blood"
+      },
+      {
+        "year": -3,
+        "house": null,
+        "faction": "volantene_elephants",
+        "lord": "Triarchs (Elephant faction rising)",
+        "status": "defeated",
+        "event": "The grand coalition of Free Cities defeats Volantis. Aegon Targaryen burns the Volantene fleet with Balerion before the walls of Lys. Volantis loses all occupied territories; the Elephant faction rises to dominance for the next three centuries.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Century_of_Blood"
+      },
+      {
+        "year": 298,
+        "house": null,
+        "faction": "volantene_elephants",
+        "lord": "Triarchs (Elephant majority)",
+        "status": "intact",
+        "event": "Volantis remains the oldest and proudest Free City. Three Triarchs govern annually. The Elephant faction (merchant/trade) has dominated elections for three centuries; the Tiger faction (military/conquest) agitates for renewed expansion.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Volantis"
+      }
+    ],
+    "metadata": {
+      "type": "city",
+      "government": "Three Triarchs (elected annually; only old-blood families with Valyrian ancestry may vote or stand)",
+      "description": "The oldest and proudest of the Free Cities, and the first colony of the Valyrian Freehold. Situated at the mouth of the Rhoyne where it meets the Summer Sea. The city is bisected by the river and joined by the Long Bridge. Two political factions — the Tigers (conquest) and Elephants (trade) — contest the annual election of the three Triarchs.",
+      "notable_features": [
+        "Long Bridge",
+        "Black Wall (old Valyrian quarter)",
+        "Tigers faction",
+        "Elephants faction",
+        "Temple of the Lord of Light (largest in the world)"
+      ],
+      "narratorText": "Volantis — old, proud, and vast. The Black Wall encloses the old city where only pure Valyrian blood may walk. Three Triarchs rule annually, chosen by the tattooed nobility. For three centuries the Elephants kept the peace while the Tigers sharpen their claws and remember old glories.",
+      "timeline": [
+        {
+          "year": -102,
+          "event": "Launches Century of Blood expansionist campaign after Doom of Valyria",
+          "canon": "canon",
+          "source": "https://awoiaf.westeros.org/index.php/Century_of_Blood"
+        },
+        {
+          "year": -3,
+          "event": "Defeated by grand coalition; Balerion burns Volantene fleet",
+          "canon": "canon",
+          "source": "https://awoiaf.westeros.org/index.php/Century_of_Blood"
+        },
+        {
+          "year": 298,
+          "event": "Elephant faction dominant for ~300 years; Tiger faction seeks renewed war",
+          "canon": "canon",
+          "source": "https://awoiaf.westeros.org/index.php/Volantis"
+        }
+      ]
+    }
+  },
+  {
+    "id": "lorath",
+    "name": "Lorath",
+    "type": "city",
+    "continent": "essos",
+    "region": "free_cities",
+    "coordinates": {
+      "x": 739.8,
+      "y": 500.8
+    },
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Lorath",
+    "tags": [
+      "city",
+      "free_cities",
+      "essos",
+      "island",
+      "shivering_sea"
+    ],
+    "crest": null,
+    "crest_is_custom": null,
+    "ownership_history": [
+      {
+        "year": -200,
+        "house": null,
+        "faction": "lorathi_magisters",
+        "lord": "Three Princes (landowners, shipowners, free men)",
+        "status": "founded",
+        "event": "Lorath established on a group of islands in the Shivering Sea; originally governed by a triad of three princes representing landowners, shipowners, and free men.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Lorath"
+      },
+      {
+        "year": -102,
+        "house": null,
+        "faction": "lorathi_magisters",
+        "lord": "Council of Magisters",
+        "status": "intact",
+        "event": "After the Doom of Valyria, Lorath transitions from the triad-princes system to rule by magisters. It is considered the poorest and least powerful of the nine Free Cities.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Lorath"
+      }
+    ],
+    "metadata": {
+      "type": "city",
+      "government": "Council of Magisters (formerly three princes: landowners, shipowners, free men)",
+      "description": "The second-northernmost Free City, on a group of islands in the Shivering Sea off the northern coast of Essos. Lorath is considered the poorest and least powerful of the nine Free Cities. Its population is small and trade is limited.",
+      "notable_features": [
+        "Shivering Sea islands",
+        "Lorathi mazes (ancient)",
+        "poorest Free City"
+      ],
+      "narratorText": "Lorath clings to its rocky islands in the cold Shivering Sea. Once ruled by three princes, now by magisters — a forgotten corner of the Free Cities, small and poor, far from the great trade routes.",
+      "timeline": [
+        {
+          "year": -102,
+          "event": "Transitions to magister rule after Doom of Valyria; remains poorest Free City",
+          "canon": "canon",
+          "source": "https://awoiaf.westeros.org/index.php/Lorath"
+        }
+      ]
+    }
+  },
+  {
+    "id": "norvos",
+    "name": "Norvos",
+    "type": "city",
+    "continent": "essos",
+    "region": "free_cities",
+    "coordinates": {
+      "x": 766.3,
+      "y": 496
+    },
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Norvos",
+    "tags": [
+      "city",
+      "free_cities",
+      "essos",
+      "interior",
+      "theocracy"
+    ],
+    "crest": null,
+    "crest_is_custom": null,
+    "ownership_history": [
+      {
+        "year": -200,
+        "house": null,
+        "faction": "bearded_priests_of_norvos",
+        "lord": "Bearded Priests",
+        "status": "founded",
+        "event": "Norvos established along the River Noyne as a Valyrian colony; religious authority of the Bearded Priests becomes dominant over the city's governance.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Norvos"
+      },
+      {
+        "year": -102,
+        "house": null,
+        "faction": "bearded_priests_of_norvos",
+        "lord": "Bearded Priests",
+        "status": "intact",
+        "event": "After the Doom of Valyria, Norvos continues under theocratic rule of the Bearded Priests, who select the city's council of magisters. Life in Norvos is governed by three great bells (Noom, Narrah, Nyel) whose ringing dictates all citizens' schedules.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Norvos"
+      }
+    ],
+    "metadata": {
+      "type": "city",
+      "government": "Theocracy — Bearded Priests select the council of magisters; priests are true rulers",
+      "description": "An interior Free City on the River Noyne in Essos. A theocracy ruled by the Bearded Priests, whose god's name is a secret known only to initiates. Life is governed by three great bells. The priests maintain slave soldiers branded with an axe as a holy guard.",
+      "notable_features": [
+        "three great bells (Noom, Narrah, Nyel)",
+        "Bearded Priests",
+        "axe-branded slave holy guard",
+        "River Noyne"
+      ],
+      "narratorText": "Norvos is a city of bells and piety. Three great bells ring out the rhythms of daily life — when to wake, when to pray, when to work, when to rest. The Bearded Priests see all. Their god's name is never spoken to outsiders.",
+      "timeline": [
+        {
+          "year": -102,
+          "event": "Gains independence; theocratic structure of Bearded Priests entrenched",
+          "canon": "canon",
+          "source": "https://awoiaf.westeros.org/index.php/Norvos"
+        }
+      ]
+    }
+  },
+  {
+    "id": "qohor",
+    "name": "Qohor",
+    "type": "city",
+    "continent": "essos",
+    "region": "free_cities",
+    "coordinates": {
+      "x": 748.2,
+      "y": 519.6
+    },
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Qohor",
+    "tags": [
+      "city",
+      "free_cities",
+      "essos",
+      "interior",
+      "dothraki_sea"
+    ],
+    "crest": null,
+    "crest_is_custom": null,
+    "ownership_history": [
+      {
+        "year": -200,
+        "house": null,
+        "faction": "qohorik_merchant_lords",
+        "lord": "Merchant lords / Black Goat priests",
+        "status": "founded",
+        "event": "Qohor established as a Valyrian colony on the banks of the River Qhoyne, between the Forest of Qohor and the Dothraki Sea. The city adopts worship of the Black Goat of Qohor, a god demanding daily blood sacrifice.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Qohor"
+      },
+      {
+        "year": -102,
+        "house": null,
+        "faction": "qohorik_merchant_lords",
+        "lord": "Merchant lords / Black Goat priests",
+        "status": "threatened",
+        "event": "After the Doom of Valyria, the Dothraki begin expanding westward. Qohor, on the edge of the Dothraki Sea, becomes a primary target for Dothraki raids.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Qohor"
+      },
+      {
+        "year": -100,
+        "house": null,
+        "faction": "qohorik_merchant_lords",
+        "lord": "Qohorik defenders with hired Unsullied garrison",
+        "status": "besieged",
+        "event": "Battle of Qohor: Khal Temmo leads approximately 50,000 Dothraki riders against Qohor. The city's own cavalry and mercenaries are destroyed on day one. On day two, 3,000 Unsullied hold the gates against eighteen consecutive Dothraki charges, killing 12,000 riders including Khal Temmo and all his sons. Only 600 Unsullied survive. The remaining Dothraki cut their braids and lay them at the feet of the surviving Unsullied — the first time Dothraki had been defeated by infantry. Qohor thereafter relies on Unsullied for defense.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Battle_of_Qohor"
+      },
+      {
+        "year": 298,
+        "house": null,
+        "faction": "qohorik_merchant_lords",
+        "lord": "Merchant lords / Black Goat priests",
+        "status": "intact",
+        "event": "Qohor remains a city of sorcerers and dark craftsmen, the only known smiths capable of re-tempering Valyrian steel. Daily blood sacrifices to the Black Goat continue.",
+        "canon": "canon",
+        "source": "https://awoiaf.westeros.org/index.php/Qohor"
+      }
+    ],
+    "metadata": {
+      "type": "city",
+      "government": "Merchant oligarchy with strong religious influence of the Black Goat cult",
+      "description": "An interior Free City on the River Qhoyne, between the dense Forest of Qohor and the Dothraki Sea. Qohor's craftsmen are the only known smiths capable of re-tempering Valyrian steel. The city worships the Black Goat, a god demanding daily blood sacrifice. Famous for the Battle of Qohor where 3,000 Unsullied held against 50,000 Dothraki.",
+      "notable_features": [
+        "Forest of Qohor",
+        "Black Goat of Qohor (deity)",
+        "Valyrian steel re-tempering",
+        "Battle of Qohor (Three Thousand)",
+        "River Qhoyne"
+      ],
+      "narratorText": "Qohor sits in the shadow of its ancient forest, the Dothraki Sea stretching to the east. Its smiths alone know how to re-temper the black metal of old Valyria. Each dawn, blood is offered to the Black Goat. The city remembers when three thousand Unsullied held its gates against the whole Dothraki world.",
+      "timeline": [
+        {
+          "year": -102,
+          "event": "Dothraki expansion threatens Qohor post-Doom of Valyria",
+          "canon": "canon",
+          "source": "https://awoiaf.westeros.org/index.php/Qohor"
+        },
+        {
+          "year": -100,
+          "event": "Battle of Qohor — Three Thousand Unsullied defeat 50,000 Dothraki under Khal Temmo",
+          "canon": "canon",
+          "source": "https://awoiaf.westeros.org/index.php/Battle_of_Qohor"
+        }
+      ]
+    }
+  }
+]

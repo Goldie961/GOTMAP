@@ -8,6 +8,16 @@ category's review output and preserves prior category results in the report and
 ID map.
 """
 
+import sys
+# ── Safety guard ──────────────────────────────────────────────────────────────
+# This script writes to data/_import/etl_output/.
+# Pass --i-know-what-im-doing to confirm intentional execution.
+if "--i-know-what-im-doing" not in sys.argv:
+    print("REFUSED: acest script scrie în data/_import/etl_output/.")
+    print("Dacă ești sigur, rulează cu:  python scripts/aggregate_import.py --i-know-what-im-doing")
+    sys.exit(1)
+# ──────────────────────────────────────────────────────────────────────────────
+
 from __future__ import annotations
 
 import argparse

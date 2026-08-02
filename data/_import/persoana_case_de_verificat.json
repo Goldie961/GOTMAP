@@ -1,0 +1,58 @@
+[
+  {
+    "nume_intalnit": "Casa Baratheon (linia Tommen)",
+    "carte": "Dansul Dragonilor",
+    "sectiune_sursa": "3.Arbore (câmp 'Persoană:')",
+    "motiv": "Numele începe cu 'Casa ' — conform regulii, nu poate fi creat ca tip:persoana.",
+    "casa_echivalenta_existenta": "HOUSE_BARATHEON",
+    "actiune_recomandata": "Ignorat — există deja entitatea HOUSE_BARATHEON"
+  },
+  {
+    "nume_intalnit": "Casa Frey (arbore extins)",
+    "carte": "Dansul Dragonilor",
+    "sectiune_sursa": "3.Arbore (câmp 'Persoană:')",
+    "motiv": "Numele începe cu 'Casa ' — conform regulii, nu poate fi creat ca tip:persoana.",
+    "casa_echivalenta_existenta": "HOUSE_FREY",
+    "actiune_recomandata": "Ignorat — există deja entitatea HOUSE_FREY"
+  },
+  {
+    "nume_intalnit": "Casa Greyjoy",
+    "carte": "Dansul Dragonilor",
+    "sectiune_sursa": "3.Arbore (câmp 'Persoană:')",
+    "motiv": "Numele începe cu 'Casa ' — conform regulii, nu poate fi creat ca tip:persoana.",
+    "casa_echivalenta_existenta": "HOUSE_GREYJOY",
+    "actiune_recomandata": "Ignorat — există deja entitatea HOUSE_GREYJOY"
+  },
+  {
+    "nume_intalnit": "Casa Lannister",
+    "carte": "Dansul Dragonilor",
+    "sectiune_sursa": "3.Arbore (câmp 'Persoană:')",
+    "motiv": "Numele începe cu 'Casa ' — conform regulii, nu poate fi creat ca tip:persoana.",
+    "casa_echivalenta_existenta": "HOUSE_LANNISTER",
+    "actiune_recomandata": "Ignorat — există deja entitatea HOUSE_LANNISTER"
+  },
+  {
+    "nume_intalnit": "Casa Martell",
+    "carte": "Dansul Dragonilor",
+    "sectiune_sursa": "3.Arbore (câmp 'Persoană:')",
+    "motiv": "Numele începe cu 'Casa ' — conform regulii, nu poate fi creat ca tip:persoana.",
+    "casa_echivalenta_existenta": "HOUSE_MARTELL",
+    "actiune_recomandata": "Ignorat — există deja entitatea HOUSE_MARTELL"
+  },
+  {
+    "nume_intalnit": "Casa Stark",
+    "carte": "Dansul Dragonilor",
+    "sectiune_sursa": "3.Arbore (câmp 'Persoană:')",
+    "motiv": "Numele începe cu 'Casa ' — conform regulii, nu poate fi creat ca tip:persoana.",
+    "casa_echivalenta_existenta": "HOUSE_STARK",
+    "actiune_recomandata": "Ignorat — există deja entitatea HOUSE_STARK"
+  },
+  {
+    "nume_intalnit": "Casa Tyrell",
+    "carte": "Dansul Dragonilor",
+    "sectiune_sursa": "3.Arbore (câmp 'Persoană:')",
+    "motiv": "Numele începe cu 'Casa ' — conform regulii, nu poate fi creat ca tip:persoana.",
+    "casa_echivalenta_existenta": "HOUSE_TYRELL",
+    "actiune_recomandata": "Ignorat — există deja entitatea HOUSE_TYRELL"
+  }
+]

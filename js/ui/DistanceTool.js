@@ -1,5 +1,5 @@
 import { createSVGElement, createElement } from '../utils/helpers.js';
-import { distanceInMiles, distanceInLeagues, travelTime } from '../utils/coordinates.js';
+import { distanceBetween, travelTime } from '../utils/coordinates.js';
 
 export class DistanceTool {
   constructor(svgElement) {
@@ -44,6 +44,7 @@ export class DistanceTool {
           <div class="speed-val" id="dist-dragon">-</div>
         </div>
       </div>
+      <div id="narrative-distance-section" class="narrative-distance-section" style="margin-top: 1rem; text-align: left; max-height: 220px; overflow-y: auto; padding-top: 0.5rem; border-top: 1px dashed var(--parchment-dark, #c2a677);"></div>
     `;
 
     document.body.appendChild(this.popup);
@@ -86,6 +87,9 @@ export class DistanceTool {
     this.popup.querySelector('#dist-horse').textContent = '-';
     this.popup.querySelector('#dist-ship').textContent = '-';
     this.popup.querySelector('#dist-dragon').textContent = '-';
+
+    const section = this.popup.querySelector('#narrative-distance-section');
+    if (section) section.innerHTML = '';
   }
 
   deactivate() {
@@ -94,6 +98,8 @@ export class DistanceTool {
     this.secondLocation = null;
     this.popup.classList.add('hidden');
     this.clearLine();
+    const section = this.popup.querySelector('#narrative-distance-section');
+    if (section) section.innerHTML = '';
   }
 
   handleLocationClick(location) {
@@ -116,12 +122,19 @@ export class DistanceTool {
     this.secondLocation = null;
     this.popup.querySelector('#distance-summary').textContent = `From ${location.name}. Click destination...`;
     this.clearLine();
+    const section = this.popup.querySelector('#narrative-distance-section');
+    if (section) section.innerHTML = '';
     return true;
   }
 
   calculateDistance() {
-    const p1 = this.firstLocation.coordinates;
-    const p2 = this.secondLocation.coordinates;
+    const p1 = window.atlasApp?.mapRenderer?.getLocationCoordinate(this.firstLocation);
+    const p2 = window.atlasApp?.mapRenderer?.getLocationCoordinate(this.secondLocation);
+
+    const narrativeStatements = window.atlasDataManager?.getNarrativeDistances?.(this.firstLocation, this.secondLocation) || [];
+    this.renderNarrativeDistances(narrativeStatements);
+
+    if (!p1 || !p2) return;
 
     // Draw line
     this.line.setAttribute('x1', p1.x);
@@ -130,8 +143,21 @@ export class DistanceTool {
     this.line.setAttribute('y2', p2.y);
     this.line.style.display = 'block';
 
-    const miles = distanceInMiles(p1, p2);
-    const leagues = distanceInLeagues(p1, p2);
+    const milesPerUnit = window.atlasDataManager?.getWorldMilesPerUnit?.();
+    if (!milesPerUnit) {
+      this.popup.querySelector('#distance-summary').innerHTML = `
+        <strong>${this.firstLocation.name}</strong> to <strong>${this.secondLocation.name}</strong><br/>
+        <span style="color:var(--gold-dark); font-weight:bold;">Map scale calibration pending.</span>
+      `;
+      this.popup.querySelector('#dist-walk').textContent = '—';
+      this.popup.querySelector('#dist-horse').textContent = '—';
+      this.popup.querySelector('#dist-ship').textContent = '—';
+      this.popup.querySelector('#dist-dragon').textContent = '—';
+      return;
+    }
+
+    const miles = distanceBetween(p1, p2) * milesPerUnit;
+    const leagues = miles / 3;
 
     this.popup.querySelector('#distance-summary').innerHTML = `
       <strong>${this.firstLocation.name}</strong> to <strong>${this.secondLocation.name}</strong><br/>
@@ -143,6 +169,53 @@ export class DistanceTool {
     this.popup.querySelector('#dist-horse').textContent = `${travelTime(miles, 'horse')} days`;
     this.popup.querySelector('#dist-ship').textContent = `${travelTime(miles, 'ship')} days`;
     this.popup.querySelector('#dist-dragon').textContent = `${travelTime(miles, 'dragon')} days`;
+  }
+
+  renderNarrativeDistances(statements) {
+    const container = this.popup.querySelector('#narrative-distance-section');
+    if (!container) return;
+
+    if (!statements || statements.length === 0) {
+      container.innerHTML = `
+        <div style="font-size: 0.82rem; color: var(--ink-light, #5c4d3c); font-style: italic; text-align: center; padding: 0.3rem 0;">
+          Fără mențiuni de distanță narativă extrasă din text pentru această pereche.
+        </div>
+      `;
+      return;
+    }
+
+    const hasUncertainty = statements.some(s => s.confidence === 'uncertain' || s.nota);
+
+    let html = `
+      <div style="font-family: 'Cinzel', serif; font-size: 0.88rem; font-weight: bold; margin-bottom: 0.4rem; color: var(--ink-dark, #2c1810); display: flex; align-items: center; justify-content: space-between;">
+        <span>Distanțe Narative din Text (${statements.length})</span>
+        ${hasUncertainty ? '<span class="narrative-badge-warning" style="background:#8b0000; color:#ffffff; font-size:0.72rem; padding:2px 6px; border-radius:3px; font-family:sans-serif; font-weight:bold;">⚠ Conflict / Incerte</span>' : ''}
+      </div>
+    `;
+
+    statements.forEach((stmt) => {
+      const isUncertain = stmt.confidence === 'uncertain' || stmt.nota;
+      const cardStyle = isUncertain 
+        ? 'background: rgba(139, 0, 0, 0.08); border-left: 3px solid #8b0000; padding: 0.5rem; margin-bottom: 0.5rem; border-radius: 3px;'
+        : 'background: rgba(44, 24, 16, 0.05); border-left: 3px solid var(--gold, #c2a677); padding: 0.5rem; margin-bottom: 0.5rem; border-radius: 3px;';
+
+      html += `
+        <div class="narrative-card" style="${cardStyle}">
+          ${stmt.nota ? `<div style="color: #8b0000; font-weight: bold; font-size: 0.78rem; margin-bottom: 0.2rem;">${stmt.nota}</div>` : ''}
+          <div style="font-weight: bold; font-size: 0.85rem; color: var(--ink-dark, #2c1810);">
+            ${stmt.distance_value || 'Distanță nespecificată numeric'}
+          </div>
+          ${stmt.travel_method ? `<div style="font-size: 0.78rem; color: var(--ink-light, #5c4d3c); margin-top:0.1rem;"><strong>Mijloc:</strong> ${stmt.travel_method}</div>` : ''}
+          ${stmt.direction ? `<div style="font-size: 0.78rem; color: var(--ink-light, #5c4d3c);"><strong>Direcție:</strong> ${stmt.direction}</div>` : ''}
+          ${stmt.context ? `<div style="font-size: 0.78rem; color: var(--ink-light, #5c4d3c); margin-top:0.2rem; font-style: italic;">"${stmt.context}"</div>` : ''}
+          <div style="font-size: 0.72rem; color: var(--gold-dark, #8b6d31); margin-top: 0.25rem; text-align: right;">
+            📖 ${stmt.source_book || ''} ${stmt.source_fragment ? `(Frag. ${stmt.source_fragment})` : ''} ${stmt.source_page ? `[p. ${stmt.source_page}]` : ''}
+          </div>
+        </div>
+      `;
+    });
+
+    container.innerHTML = html;
   }
 
   clearLine() {

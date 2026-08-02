@@ -1,0 +1,3950 @@
+[
+  {
+    "candidate_ids": [
+      "PERSON_AEMON_TARGARYEN",
+      "PERSON_PRINTUL_AEMOND_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aemon vs Aemond) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_AEMON_TARGARYEN",
+        "nume_canonic": "Aemon Targaryen (Prinț de Piatra Dragonului)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 32
+      },
+      {
+        "id": "PERSON_PRINTUL_AEMOND_TARGARYEN",
+        "nume_canonic": "Prințul Aemond Targaryen („cel Chior”)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 8
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_AENAR_TARGARYEN",
+      "PERSON_AENYS_I_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aenar vs Aenys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_AENAR_TARGARYEN",
+        "nume_canonic": "Aenar Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 3
+      },
+      {
+        "id": "PERSON_AENYS_I_TARGARYEN",
+        "nume_canonic": "Aenys I Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 21
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_AENAR_TARGARYEN",
+      "PERSON_AENYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aenar vs Aenys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_AENAR_TARGARYEN",
+        "nume_canonic": "Aenar Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 3
+      },
+      {
+        "id": "PERSON_AENYS_TARGARYEN",
+        "nume_canonic": "Aenys Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 5
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_AEREA_TARGARYEN",
+      "PERSON_AERION_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aerea vs Aerion) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_AEREA_TARGARYEN",
+        "nume_canonic": "Aerea Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 2
+      },
+      {
+        "id": "PERSON_AERION_TARGARYEN",
+        "nume_canonic": "Aerion Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 17
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_AEREA_TARGARYEN",
+      "PERSON_AERYS_AL_II_LEA_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aerea vs Aerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_AEREA_TARGARYEN",
+        "nume_canonic": "Aerea Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 2
+      },
+      {
+        "id": "PERSON_AERYS_AL_II_LEA_TARGARYEN",
+        "nume_canonic": "Aerys al II-lea Targaryen (Regele Nebun)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 12
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_AEREA_TARGARYEN",
+      "PERSON_AERYS_II_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aerea vs Aerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_AEREA_TARGARYEN",
+        "nume_canonic": "Aerea Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 2
+      },
+      {
+        "id": "PERSON_AERYS_II_TARGARYEN",
+        "nume_canonic": "Aerys II Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 21
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_AEREA_TARGARYEN",
+      "PERSON_AERYS_I_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aerea vs Aerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_AEREA_TARGARYEN",
+        "nume_canonic": "Aerea Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 2
+      },
+      {
+        "id": "PERSON_AERYS_I_TARGARYEN",
+        "nume_canonic": "Aerys I Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 1
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_AEREA_TARGARYEN",
+      "PERSON_AERYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aerea vs Aerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_AEREA_TARGARYEN",
+        "nume_canonic": "Aerea Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 2
+      },
+      {
+        "id": "PERSON_AERYS_TARGARYEN",
+        "nume_canonic": "Aerys Targaryen (străbunic, generație anterioară lui Aegon Cuceritorul)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 10
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_AEREA_TARGARYEN",
+      "PERSON_PRINTUL_AERION_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aerea vs Aerion) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_AEREA_TARGARYEN",
+        "nume_canonic": "Aerea Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 2
+      },
+      {
+        "id": "PERSON_PRINTUL_AERION_TARGARYEN",
+        "nume_canonic": "Prințul Aerion Targaryen („Flacără Strălucitoare\" / „Prințul Strălucitor\")",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 9
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_AEREA_TARGARYEN",
+      "PERSON_PRINTUL_AERYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aerea vs Aerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_AEREA_TARGARYEN",
+        "nume_canonic": "Aerea Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 2
+      },
+      {
+        "id": "PERSON_PRINTUL_AERYS_TARGARYEN",
+        "nume_canonic": "Prințul Aerys Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 1
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_AEREA_TARGARYEN",
+      "PERSON_REGELE_AERYS_AL_II_LEA_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aerea vs Aerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_AEREA_TARGARYEN",
+        "nume_canonic": "Aerea Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 2
+      },
+      {
+        "id": "PERSON_REGELE_AERYS_AL_II_LEA_TARGARYEN",
+        "nume_canonic": "Regele Aerys al II-lea Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 8
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_AEREA_TARGARYEN",
+      "PERSON_REGELE_AERYS_II_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aerea vs Aerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_AEREA_TARGARYEN",
+        "nume_canonic": "Aerea Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 2
+      },
+      {
+        "id": "PERSON_REGELE_AERYS_II_TARGARYEN",
+        "nume_canonic": "Regele Aerys II Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 16
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_AEREA_TARGARYEN",
+      "PERSON_REGELE_AERYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aerea vs Aerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_AEREA_TARGARYEN",
+        "nume_canonic": "Aerea Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 2
+      },
+      {
+        "id": "PERSON_REGELE_AERYS_TARGARYEN",
+        "nume_canonic": "Regele Aerys Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 12
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_AERION_TARGARYEN",
+      "PERSON_AERYS_AL_II_LEA_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aerion vs Aerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_AERION_TARGARYEN",
+        "nume_canonic": "Aerion Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 17
+      },
+      {
+        "id": "PERSON_AERYS_AL_II_LEA_TARGARYEN",
+        "nume_canonic": "Aerys al II-lea Targaryen (Regele Nebun)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 12
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_AERION_TARGARYEN",
+      "PERSON_AERYS_II_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aerion vs Aerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_AERION_TARGARYEN",
+        "nume_canonic": "Aerion Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 17
+      },
+      {
+        "id": "PERSON_AERYS_II_TARGARYEN",
+        "nume_canonic": "Aerys II Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 21
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_AERION_TARGARYEN",
+      "PERSON_AERYS_I_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aerion vs Aerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_AERION_TARGARYEN",
+        "nume_canonic": "Aerion Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 17
+      },
+      {
+        "id": "PERSON_AERYS_I_TARGARYEN",
+        "nume_canonic": "Aerys I Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 1
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_AERION_TARGARYEN",
+      "PERSON_AERYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aerion vs Aerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_AERION_TARGARYEN",
+        "nume_canonic": "Aerion Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 17
+      },
+      {
+        "id": "PERSON_AERYS_TARGARYEN",
+        "nume_canonic": "Aerys Targaryen (străbunic, generație anterioară lui Aegon Cuceritorul)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 10
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_AERION_TARGARYEN",
+      "PERSON_PRINTUL_AERYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aerion vs Aerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_AERION_TARGARYEN",
+        "nume_canonic": "Aerion Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 17
+      },
+      {
+        "id": "PERSON_PRINTUL_AERYS_TARGARYEN",
+        "nume_canonic": "Prințul Aerys Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 1
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_AERION_TARGARYEN",
+      "PERSON_REGELE_AERYS_AL_II_LEA_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aerion vs Aerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_AERION_TARGARYEN",
+        "nume_canonic": "Aerion Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 17
+      },
+      {
+        "id": "PERSON_REGELE_AERYS_AL_II_LEA_TARGARYEN",
+        "nume_canonic": "Regele Aerys al II-lea Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 8
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_AERION_TARGARYEN",
+      "PERSON_REGELE_AERYS_II_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aerion vs Aerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_AERION_TARGARYEN",
+        "nume_canonic": "Aerion Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 17
+      },
+      {
+        "id": "PERSON_REGELE_AERYS_II_TARGARYEN",
+        "nume_canonic": "Regele Aerys II Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 16
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_AERION_TARGARYEN",
+      "PERSON_REGELE_AERYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aerion vs Aerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_AERION_TARGARYEN",
+        "nume_canonic": "Aerion Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 17
+      },
+      {
+        "id": "PERSON_REGELE_AERYS_TARGARYEN",
+        "nume_canonic": "Regele Aerys Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 12
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_AERYS_AL_II_LEA_TARGARYEN",
+      "PERSON_PRINTUL_AERION_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aerys vs Aerion) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_AERYS_AL_II_LEA_TARGARYEN",
+        "nume_canonic": "Aerys al II-lea Targaryen (Regele Nebun)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 12
+      },
+      {
+        "id": "PERSON_PRINTUL_AERION_TARGARYEN",
+        "nume_canonic": "Prințul Aerion Targaryen („Flacără Strălucitoare\" / „Prințul Strălucitor\")",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 9
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_AERYS_II_TARGARYEN",
+      "PERSON_PRINTUL_AERION_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aerys vs Aerion) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_AERYS_II_TARGARYEN",
+        "nume_canonic": "Aerys II Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 21
+      },
+      {
+        "id": "PERSON_PRINTUL_AERION_TARGARYEN",
+        "nume_canonic": "Prințul Aerion Targaryen („Flacără Strălucitoare\" / „Prințul Strălucitor\")",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 9
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_AERYS_I_TARGARYEN",
+      "PERSON_PRINTUL_AERION_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aerys vs Aerion) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_AERYS_I_TARGARYEN",
+        "nume_canonic": "Aerys I Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 1
+      },
+      {
+        "id": "PERSON_PRINTUL_AERION_TARGARYEN",
+        "nume_canonic": "Prințul Aerion Targaryen („Flacără Strălucitoare\" / „Prințul Strălucitor\")",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 9
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_AERYS_TARGARYEN",
+      "PERSON_PRINTUL_AERION_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aerys vs Aerion) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_AERYS_TARGARYEN",
+        "nume_canonic": "Aerys Targaryen (străbunic, generație anterioară lui Aegon Cuceritorul)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 10
+      },
+      {
+        "id": "PERSON_PRINTUL_AERION_TARGARYEN",
+        "nume_canonic": "Prințul Aerion Targaryen („Flacără Strălucitoare\" / „Prințul Strălucitor\")",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 9
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_BAELA_TARGARYEN",
+      "PERSON_BAELON_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Baela vs Baelon) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_BAELA_TARGARYEN",
+        "nume_canonic": "Baela Targaryen (lady)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 10
+      },
+      {
+        "id": "PERSON_BAELON_TARGARYEN",
+        "nume_canonic": "Baelon Targaryen (\"cel Viteaz\", \"Prințul Primăverii\")",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 34
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_BAELA_TARGARYEN",
+      "PERSON_PRINTUL_BAELOR_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Baela vs Baelor) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_BAELA_TARGARYEN",
+        "nume_canonic": "Baela Targaryen (lady)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 10
+      },
+      {
+        "id": "PERSON_PRINTUL_BAELOR_TARGARYEN",
+        "nume_canonic": "Prințul Baelor Targaryen („Baelor Sfarmă-Lance\" / „Breakspear\")",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 17
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_BAELON_TARGARYEN",
+      "PERSON_PRINTUL_BAELOR_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Baelon vs Baelor) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_BAELON_TARGARYEN",
+        "nume_canonic": "Baelon Targaryen (\"cel Viteaz\", \"Prințul Primăverii\")",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 34
+      },
+      {
+        "id": "PERSON_PRINTUL_BAELOR_TARGARYEN",
+        "nume_canonic": "Prințul Baelor Targaryen („Baelor Sfarmă-Lance\" / „Breakspear\")",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 17
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_DAELLA_TARGARYEN",
+      "PERSON_DAEMION_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Daella vs Daemion) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_DAELLA_TARGARYEN",
+        "nume_canonic": "Daella Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 13
+      },
+      {
+        "id": "PERSON_DAEMION_TARGARYEN",
+        "nume_canonic": "Daemion Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 6
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_DAELLA_TARGARYEN",
+      "PERSON_DAEMON_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Daella vs Daemon) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_DAELLA_TARGARYEN",
+        "nume_canonic": "Daella Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 13
+      },
+      {
+        "id": "PERSON_DAEMON_TARGARYEN",
+        "nume_canonic": "Daemon Targaryen (fiul lui Baelon)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 25
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_DAELLA_TARGARYEN",
+      "PERSON_DAENERYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Daella vs Daenerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_DAELLA_TARGARYEN",
+        "nume_canonic": "Daella Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 13
+      },
+      {
+        "id": "PERSON_DAENERYS_TARGARYEN",
+        "nume_canonic": "Daenerys Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 167
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_DAELLA_TARGARYEN",
+      "PERSON_DAENYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Daella vs Daenys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_DAELLA_TARGARYEN",
+        "nume_canonic": "Daella Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 13
+      },
+      {
+        "id": "PERSON_DAENYS_TARGARYEN",
+        "nume_canonic": "Daenys Targaryen (Daenys Visătoarea)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 9
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_DAELLA_TARGARYEN",
+      "PERSON_PRINTUL_DAERON_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Daella vs Daeron) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_DAELLA_TARGARYEN",
+        "nume_canonic": "Daella Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 13
+      },
+      {
+        "id": "PERSON_PRINTUL_DAERON_TARGARYEN",
+        "nume_canonic": "Prințul Daeron Targaryen (fiul lui Maekar) („Daeron Bețivul\")",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 6
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_DAELLA_TARGARYEN",
+      "PERSON_REGELE_DAERON_AL_II_LEA_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Daella vs Daeron) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_DAELLA_TARGARYEN",
+        "nume_canonic": "Daella Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 13
+      },
+      {
+        "id": "PERSON_REGELE_DAERON_AL_II_LEA_TARGARYEN",
+        "nume_canonic": "Regele Daeron al II-lea Targaryen („Daeron cel Bun\" / „Bunul Rege Daeron\")",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 10
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_DAEMION_TARGARYEN",
+      "PERSON_DAEMON_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Daemion vs Daemon) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_DAEMION_TARGARYEN",
+        "nume_canonic": "Daemion Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 6
+      },
+      {
+        "id": "PERSON_DAEMON_TARGARYEN",
+        "nume_canonic": "Daemon Targaryen (fiul lui Baelon)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 25
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_DAEMION_TARGARYEN",
+      "PERSON_DAENERYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Daemion vs Daenerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_DAEMION_TARGARYEN",
+        "nume_canonic": "Daemion Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 6
+      },
+      {
+        "id": "PERSON_DAENERYS_TARGARYEN",
+        "nume_canonic": "Daenerys Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 167
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_DAEMION_TARGARYEN",
+      "PERSON_DAENYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Daemion vs Daenys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_DAEMION_TARGARYEN",
+        "nume_canonic": "Daemion Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 6
+      },
+      {
+        "id": "PERSON_DAENYS_TARGARYEN",
+        "nume_canonic": "Daenys Targaryen (Daenys Visătoarea)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 9
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_DAEMION_TARGARYEN",
+      "PERSON_PRINTUL_DAERON_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Daemion vs Daeron) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_DAEMION_TARGARYEN",
+        "nume_canonic": "Daemion Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 6
+      },
+      {
+        "id": "PERSON_PRINTUL_DAERON_TARGARYEN",
+        "nume_canonic": "Prințul Daeron Targaryen (fiul lui Maekar) („Daeron Bețivul\")",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 6
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_DAEMION_TARGARYEN",
+      "PERSON_REGELE_DAERON_AL_II_LEA_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Daemion vs Daeron) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_DAEMION_TARGARYEN",
+        "nume_canonic": "Daemion Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 6
+      },
+      {
+        "id": "PERSON_REGELE_DAERON_AL_II_LEA_TARGARYEN",
+        "nume_canonic": "Regele Daeron al II-lea Targaryen („Daeron cel Bun\" / „Bunul Rege Daeron\")",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 10
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_DAEMON_TARGARYEN",
+      "PERSON_DAENERYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Daemon vs Daenerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_DAEMON_TARGARYEN",
+        "nume_canonic": "Daemon Targaryen (fiul lui Baelon)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 25
+      },
+      {
+        "id": "PERSON_DAENERYS_TARGARYEN",
+        "nume_canonic": "Daenerys Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 167
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_DAEMON_TARGARYEN",
+      "PERSON_DAENYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Daemon vs Daenys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_DAEMON_TARGARYEN",
+        "nume_canonic": "Daemon Targaryen (fiul lui Baelon)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 25
+      },
+      {
+        "id": "PERSON_DAENYS_TARGARYEN",
+        "nume_canonic": "Daenys Targaryen (Daenys Visătoarea)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 9
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_DAEMON_TARGARYEN",
+      "PERSON_PRINTUL_DAERON_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Daemon vs Daeron) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_DAEMON_TARGARYEN",
+        "nume_canonic": "Daemon Targaryen (fiul lui Baelon)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 25
+      },
+      {
+        "id": "PERSON_PRINTUL_DAERON_TARGARYEN",
+        "nume_canonic": "Prințul Daeron Targaryen (fiul lui Maekar) („Daeron Bețivul\")",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 6
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_DAEMON_TARGARYEN",
+      "PERSON_REGELE_DAERON_AL_II_LEA_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Daemon vs Daeron) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_DAEMON_TARGARYEN",
+        "nume_canonic": "Daemon Targaryen (fiul lui Baelon)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 25
+      },
+      {
+        "id": "PERSON_REGELE_DAERON_AL_II_LEA_TARGARYEN",
+        "nume_canonic": "Regele Daeron al II-lea Targaryen („Daeron cel Bun\" / „Bunul Rege Daeron\")",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 10
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_DAENERYS_TARGARYEN",
+      "PERSON_DAENYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Daenerys vs Daenys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_DAENERYS_TARGARYEN",
+        "nume_canonic": "Daenerys Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 167
+      },
+      {
+        "id": "PERSON_DAENYS_TARGARYEN",
+        "nume_canonic": "Daenys Targaryen (Daenys Visătoarea)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 9
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_DAENERYS_TARGARYEN",
+      "PERSON_PRINTUL_DAERON_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Daenerys vs Daeron) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_DAENERYS_TARGARYEN",
+        "nume_canonic": "Daenerys Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 167
+      },
+      {
+        "id": "PERSON_PRINTUL_DAERON_TARGARYEN",
+        "nume_canonic": "Prințul Daeron Targaryen (fiul lui Maekar) („Daeron Bețivul\")",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 6
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_DAENERYS_TARGARYEN",
+      "PERSON_REGELE_DAERON_AL_II_LEA_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Daenerys vs Daeron) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_DAENERYS_TARGARYEN",
+        "nume_canonic": "Daenerys Targaryen",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 167
+      },
+      {
+        "id": "PERSON_REGELE_DAERON_AL_II_LEA_TARGARYEN",
+        "nume_canonic": "Regele Daeron al II-lea Targaryen („Daeron cel Bun\" / „Bunul Rege Daeron\")",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 10
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_DAENYS_TARGARYEN",
+      "PERSON_PRINTUL_DAERON_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Daenys vs Daeron) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_DAENYS_TARGARYEN",
+        "nume_canonic": "Daenys Targaryen (Daenys Visătoarea)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 9
+      },
+      {
+        "id": "PERSON_PRINTUL_DAERON_TARGARYEN",
+        "nume_canonic": "Prințul Daeron Targaryen (fiul lui Maekar) („Daeron Bețivul\")",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 6
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_DAENYS_TARGARYEN",
+      "PERSON_REGELE_DAERON_AL_II_LEA_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Daenys vs Daeron) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_DAENYS_TARGARYEN",
+        "nume_canonic": "Daenys Targaryen (Daenys Visătoarea)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 9
+      },
+      {
+        "id": "PERSON_REGELE_DAERON_AL_II_LEA_TARGARYEN",
+        "nume_canonic": "Regele Daeron al II-lea Targaryen („Daeron cel Bun\" / „Bunul Rege Daeron\")",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 10
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_GAEL_TARGARYEN",
+      "PERSON_GAEMON_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Gael vs Gaemon) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_GAEL_TARGARYEN",
+        "nume_canonic": "Gael Targaryen (Copila Iernii)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 6
+      },
+      {
+        "id": "PERSON_GAEMON_TARGARYEN",
+        "nume_canonic": "Gaemon Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 13
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_JAEHAERA_DIN_CASA_TARGARYEN",
+      "PERSON_JAEHAERYS_I_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Jaehaera vs Jaehaerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_JAEHAERA_DIN_CASA_TARGARYEN",
+        "nume_canonic": "Jaehaera din Casa Targaryen (regină)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 3
+      },
+      {
+        "id": "PERSON_JAEHAERYS_I_TARGARYEN",
+        "nume_canonic": "Jaehaerys I Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 44
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_JAEHAERA_DIN_CASA_TARGARYEN",
+      "PERSON_JAEHAERYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Jaehaera vs Jaehaerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_JAEHAERA_DIN_CASA_TARGARYEN",
+        "nume_canonic": "Jaehaera din Casa Targaryen (regină)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 3
+      },
+      {
+        "id": "PERSON_JAEHAERYS_TARGARYEN",
+        "nume_canonic": "Jaehaerys Targaryen (fiul lui Aenys)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 8
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_JAEHAERA_DIN_CASA_TARGARYEN",
+      "PERSON_REGELE_JAEHAERYS_I_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Jaehaera vs Jaehaerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_JAEHAERA_DIN_CASA_TARGARYEN",
+        "nume_canonic": "Jaehaera din Casa Targaryen (regină)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 3
+      },
+      {
+        "id": "PERSON_REGELE_JAEHAERYS_I_TARGARYEN",
+        "nume_canonic": "Regele Jaehaerys I Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 4
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_JAEHAERA_DIN_CASA_TARGARYEN",
+      "PERSON_REGELE_JAEHAERYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Jaehaera vs Jaehaerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_JAEHAERA_DIN_CASA_TARGARYEN",
+        "nume_canonic": "Jaehaera din Casa Targaryen (regină)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 3
+      },
+      {
+        "id": "PERSON_REGELE_JAEHAERYS_TARGARYEN",
+        "nume_canonic": "Regele Jaehaerys Targaryen (menționat istoric)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 1
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_JAEHAERA_TARGARYEN",
+      "PERSON_JAEHAERYS_I_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Jaehaera vs Jaehaerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_JAEHAERA_TARGARYEN",
+        "nume_canonic": "Jaehaera Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 21
+      },
+      {
+        "id": "PERSON_JAEHAERYS_I_TARGARYEN",
+        "nume_canonic": "Jaehaerys I Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 44
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_JAEHAERA_TARGARYEN",
+      "PERSON_JAEHAERYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Jaehaera vs Jaehaerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_JAEHAERA_TARGARYEN",
+        "nume_canonic": "Jaehaera Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 21
+      },
+      {
+        "id": "PERSON_JAEHAERYS_TARGARYEN",
+        "nume_canonic": "Jaehaerys Targaryen (fiul lui Aenys)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 8
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_JAEHAERA_TARGARYEN",
+      "PERSON_REGELE_JAEHAERYS_I_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Jaehaera vs Jaehaerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_JAEHAERA_TARGARYEN",
+        "nume_canonic": "Jaehaera Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 21
+      },
+      {
+        "id": "PERSON_REGELE_JAEHAERYS_I_TARGARYEN",
+        "nume_canonic": "Regele Jaehaerys I Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 4
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_JAEHAERA_TARGARYEN",
+      "PERSON_REGELE_JAEHAERYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Jaehaera vs Jaehaerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_JAEHAERA_TARGARYEN",
+        "nume_canonic": "Jaehaera Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 21
+      },
+      {
+        "id": "PERSON_REGELE_JAEHAERYS_TARGARYEN",
+        "nume_canonic": "Regele Jaehaerys Targaryen (menționat istoric)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 1
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_MAEGELLE_TARGARYEN",
+      "PERSON_MAEGON_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Maegelle vs Maegon) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_MAEGELLE_TARGARYEN",
+        "nume_canonic": "Maegelle Targaryen (septa Maegelle)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 6
+      },
+      {
+        "id": "PERSON_MAEGON_TARGARYEN",
+        "nume_canonic": "Maegon Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 4
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_MAEGELLE_TARGARYEN",
+      "PERSON_MAEGOR_I_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Maegelle vs Maegor) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_MAEGELLE_TARGARYEN",
+        "nume_canonic": "Maegelle Targaryen (septa Maegelle)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 6
+      },
+      {
+        "id": "PERSON_MAEGOR_I_TARGARYEN",
+        "nume_canonic": "Maegor I Targaryen (Maegor cel Crud)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 14
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_MAEGELLE_TARGARYEN",
+      "PERSON_MAEKAR_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Maegelle vs Maekar) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_MAEGELLE_TARGARYEN",
+        "nume_canonic": "Maegelle Targaryen (septa Maegelle)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 6
+      },
+      {
+        "id": "PERSON_MAEKAR_TARGARYEN",
+        "nume_canonic": "Maekar Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 2
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_MAEGELLE_TARGARYEN",
+      "PERSON_MAELOR_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Maegelle vs Maelor) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_MAEGELLE_TARGARYEN",
+        "nume_canonic": "Maegelle Targaryen (septa Maegelle)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 6
+      },
+      {
+        "id": "PERSON_MAELOR_TARGARYEN",
+        "nume_canonic": "Maelor Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 13
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_MAEGELLE_TARGARYEN",
+      "PERSON_PRINTUL_MAEKAR_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Maegelle vs Maekar) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_MAEGELLE_TARGARYEN",
+        "nume_canonic": "Maegelle Targaryen (septa Maegelle)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 6
+      },
+      {
+        "id": "PERSON_PRINTUL_MAEKAR_TARGARYEN",
+        "nume_canonic": "Prințul Maekar Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 38
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_MAEGON_TARGARYEN",
+      "PERSON_MAEGOR_I_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Maegon vs Maegor) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_MAEGON_TARGARYEN",
+        "nume_canonic": "Maegon Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 4
+      },
+      {
+        "id": "PERSON_MAEGOR_I_TARGARYEN",
+        "nume_canonic": "Maegor I Targaryen (Maegor cel Crud)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 14
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_MAEGON_TARGARYEN",
+      "PERSON_MAEKAR_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Maegon vs Maekar) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_MAEGON_TARGARYEN",
+        "nume_canonic": "Maegon Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 4
+      },
+      {
+        "id": "PERSON_MAEKAR_TARGARYEN",
+        "nume_canonic": "Maekar Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 2
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_MAEGON_TARGARYEN",
+      "PERSON_MAELOR_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Maegon vs Maelor) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_MAEGON_TARGARYEN",
+        "nume_canonic": "Maegon Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 4
+      },
+      {
+        "id": "PERSON_MAELOR_TARGARYEN",
+        "nume_canonic": "Maelor Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 13
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_MAEGON_TARGARYEN",
+      "PERSON_PRINTUL_MAEKAR_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Maegon vs Maekar) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_MAEGON_TARGARYEN",
+        "nume_canonic": "Maegon Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 4
+      },
+      {
+        "id": "PERSON_PRINTUL_MAEKAR_TARGARYEN",
+        "nume_canonic": "Prințul Maekar Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 38
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_MAEGOR_I_TARGARYEN",
+      "PERSON_MAEKAR_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Maegor vs Maekar) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_MAEGOR_I_TARGARYEN",
+        "nume_canonic": "Maegor I Targaryen (Maegor cel Crud)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 14
+      },
+      {
+        "id": "PERSON_MAEKAR_TARGARYEN",
+        "nume_canonic": "Maekar Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 2
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_MAEGOR_I_TARGARYEN",
+      "PERSON_MAELOR_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Maegor vs Maelor) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_MAEGOR_I_TARGARYEN",
+        "nume_canonic": "Maegor I Targaryen (Maegor cel Crud)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 14
+      },
+      {
+        "id": "PERSON_MAELOR_TARGARYEN",
+        "nume_canonic": "Maelor Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 13
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_MAEGOR_I_TARGARYEN",
+      "PERSON_PRINTUL_MAEKAR_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Maegor vs Maekar) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_MAEGOR_I_TARGARYEN",
+        "nume_canonic": "Maegor I Targaryen (Maegor cel Crud)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 14
+      },
+      {
+        "id": "PERSON_PRINTUL_MAEKAR_TARGARYEN",
+        "nume_canonic": "Prințul Maekar Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 38
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_MAEKAR_TARGARYEN",
+      "PERSON_MAELOR_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Maekar vs Maelor) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_MAEKAR_TARGARYEN",
+        "nume_canonic": "Maekar Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 2
+      },
+      {
+        "id": "PERSON_MAELOR_TARGARYEN",
+        "nume_canonic": "Maelor Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 13
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_MAELOR_TARGARYEN",
+      "PERSON_PRINTUL_MAEKAR_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Maelor vs Maekar) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_MAELOR_TARGARYEN",
+        "nume_canonic": "Maelor Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 13
+      },
+      {
+        "id": "PERSON_PRINTUL_MAEKAR_TARGARYEN",
+        "nume_canonic": "Prințul Maekar Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 38
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRIMA_DAENERYS_TARGARYEN",
+      "PERSON_PRINTESA_AEREA_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Prima vs Printesa) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRIMA_DAENERYS_TARGARYEN",
+        "nume_canonic": "Prima Daenerys Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 2
+      },
+      {
+        "id": "PERSON_PRINTESA_AEREA_TARGARYEN",
+        "nume_canonic": "Prințesa Aerea Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 8
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRIMA_DAENERYS_TARGARYEN",
+      "PERSON_PRINTESA_ALYSSA_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Prima vs Printesa) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRIMA_DAENERYS_TARGARYEN",
+        "nume_canonic": "Prima Daenerys Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 2
+      },
+      {
+        "id": "PERSON_PRINTESA_ALYSSA_TARGARYEN",
+        "nume_canonic": "Prințesa Alyssa Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 11
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRIMA_DAENERYS_TARGARYEN",
+      "PERSON_PRINTESA_RHAENYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Prima vs Printesa) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRIMA_DAENERYS_TARGARYEN",
+        "nume_canonic": "Prima Daenerys Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 2
+      },
+      {
+        "id": "PERSON_PRINTESA_RHAENYS_TARGARYEN",
+        "nume_canonic": "Prințesa Rhaenys Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 13
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRIMA_DAENERYS_TARGARYEN",
+      "PERSON_PRINTUL_VISERYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Prima vs Printul) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRIMA_DAENERYS_TARGARYEN",
+        "nume_canonic": "Prima Daenerys Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 2
+      },
+      {
+        "id": "PERSON_PRINTUL_VISERYS_TARGARYEN",
+        "nume_canonic": "Prinţul Viserys Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 8
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRINTESA_AEREA_TARGARYEN",
+      "PERSON_PRINTUL_VISERYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Printesa vs Printul) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRINTESA_AEREA_TARGARYEN",
+        "nume_canonic": "Prințesa Aerea Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 8
+      },
+      {
+        "id": "PERSON_PRINTUL_VISERYS_TARGARYEN",
+        "nume_canonic": "Prinţul Viserys Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 8
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRINTESA_ALYSSA_TARGARYEN",
+      "PERSON_PRINTUL_VISERYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Printesa vs Printul) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRINTESA_ALYSSA_TARGARYEN",
+        "nume_canonic": "Prințesa Alyssa Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 11
+      },
+      {
+        "id": "PERSON_PRINTUL_VISERYS_TARGARYEN",
+        "nume_canonic": "Prinţul Viserys Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 8
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRINTESA_RHAENYS_TARGARYEN",
+      "PERSON_PRINTUL_VISERYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Printesa vs Printul) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRINTESA_RHAENYS_TARGARYEN",
+        "nume_canonic": "Prințesa Rhaenys Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 13
+      },
+      {
+        "id": "PERSON_PRINTUL_VISERYS_TARGARYEN",
+        "nume_canonic": "Prinţul Viserys Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 8
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRINTUL_AEMOND_TARGARYEN",
+      "PERSON_PRINTUL_AEMON_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aemond vs Aemon) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRINTUL_AEMOND_TARGARYEN",
+        "nume_canonic": "Prințul Aemond Targaryen („cel Chior”)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 8
+      },
+      {
+        "id": "PERSON_PRINTUL_AEMON_TARGARYEN",
+        "nume_canonic": "Prințul Aemon Targaryen (fiul lui Maekar)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 5
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRINTUL_AERION_TARGARYEN",
+      "PERSON_PRINTUL_AERYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aerion vs Aerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRINTUL_AERION_TARGARYEN",
+        "nume_canonic": "Prințul Aerion Targaryen („Flacără Strălucitoare\" / „Prințul Strălucitor\")",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 9
+      },
+      {
+        "id": "PERSON_PRINTUL_AERYS_TARGARYEN",
+        "nume_canonic": "Prințul Aerys Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 1
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRINTUL_AERION_TARGARYEN",
+      "PERSON_REGELE_AERYS_AL_II_LEA_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aerion vs Aerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRINTUL_AERION_TARGARYEN",
+        "nume_canonic": "Prințul Aerion Targaryen („Flacără Strălucitoare\" / „Prințul Strălucitor\")",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 9
+      },
+      {
+        "id": "PERSON_REGELE_AERYS_AL_II_LEA_TARGARYEN",
+        "nume_canonic": "Regele Aerys al II-lea Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 8
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRINTUL_AERION_TARGARYEN",
+      "PERSON_REGELE_AERYS_II_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aerion vs Aerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRINTUL_AERION_TARGARYEN",
+        "nume_canonic": "Prințul Aerion Targaryen („Flacără Strălucitoare\" / „Prințul Strălucitor\")",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 9
+      },
+      {
+        "id": "PERSON_REGELE_AERYS_II_TARGARYEN",
+        "nume_canonic": "Regele Aerys II Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 16
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRINTUL_AERION_TARGARYEN",
+      "PERSON_REGELE_AERYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Aerion vs Aerys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRINTUL_AERION_TARGARYEN",
+        "nume_canonic": "Prințul Aerion Targaryen („Flacără Strălucitoare\" / „Prințul Strălucitor\")",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 9
+      },
+      {
+        "id": "PERSON_REGELE_AERYS_TARGARYEN",
+        "nume_canonic": "Regele Aerys Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 12
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRINTUL_RHAEGAR_TARGARYEN",
+      "PERSON_PRINTUL_RHAEGEL_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Rhaegar vs Rhaegel) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRINTUL_RHAEGAR_TARGARYEN",
+        "nume_canonic": "Prințul Rhaegar Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 10
+      },
+      {
+        "id": "PERSON_PRINTUL_RHAEGEL_TARGARYEN",
+        "nume_canonic": "Prințul Rhaegel Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 3
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRINTUL_RHAEGAR_TARGARYEN",
+      "PERSON_RHAELLA_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Rhaegar vs Rhaella) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRINTUL_RHAEGAR_TARGARYEN",
+        "nume_canonic": "Prințul Rhaegar Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 10
+      },
+      {
+        "id": "PERSON_RHAELLA_TARGARYEN",
+        "nume_canonic": "Rhaella Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 13
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRINTUL_RHAEGAR_TARGARYEN",
+      "PERSON_RHAENA_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Rhaegar vs Rhaena) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRINTUL_RHAEGAR_TARGARYEN",
+        "nume_canonic": "Prințul Rhaegar Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 10
+      },
+      {
+        "id": "PERSON_RHAENA_TARGARYEN",
+        "nume_canonic": "Rhaena Targaryen (lady, călăreața de dragoni)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 18
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRINTUL_RHAEGAR_TARGARYEN",
+      "PERSON_RHAENYRA_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Rhaegar vs Rhaenyra) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRINTUL_RHAEGAR_TARGARYEN",
+        "nume_canonic": "Prințul Rhaegar Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 10
+      },
+      {
+        "id": "PERSON_RHAENYRA_TARGARYEN",
+        "nume_canonic": "Rhaenyra Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 30
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRINTUL_RHAEGAR_TARGARYEN",
+      "PERSON_RHAENYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Rhaegar vs Rhaenys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRINTUL_RHAEGAR_TARGARYEN",
+        "nume_canonic": "Prințul Rhaegar Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 10
+      },
+      {
+        "id": "PERSON_RHAENYS_TARGARYEN",
+        "nume_canonic": "Rhaenys Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 38
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRINTUL_RHAEGAR_TARGARYEN",
+      "PERSON_RHAE_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Rhaegar vs Rhae) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRINTUL_RHAEGAR_TARGARYEN",
+        "nume_canonic": "Prințul Rhaegar Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 10
+      },
+      {
+        "id": "PERSON_RHAE_TARGARYEN",
+        "nume_canonic": "Rhae Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 4
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRINTUL_RHAEGEL_TARGARYEN",
+      "PERSON_RHAEGAR_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Rhaegel vs Rhaegar) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRINTUL_RHAEGEL_TARGARYEN",
+        "nume_canonic": "Prințul Rhaegel Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 3
+      },
+      {
+        "id": "PERSON_RHAEGAR_TARGARYEN",
+        "nume_canonic": "Rhaegar Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 94
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRINTUL_RHAEGEL_TARGARYEN",
+      "PERSON_RHAELLA_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Rhaegel vs Rhaella) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRINTUL_RHAEGEL_TARGARYEN",
+        "nume_canonic": "Prințul Rhaegel Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 3
+      },
+      {
+        "id": "PERSON_RHAELLA_TARGARYEN",
+        "nume_canonic": "Rhaella Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 13
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRINTUL_RHAEGEL_TARGARYEN",
+      "PERSON_RHAENA_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Rhaegel vs Rhaena) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRINTUL_RHAEGEL_TARGARYEN",
+        "nume_canonic": "Prințul Rhaegel Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 3
+      },
+      {
+        "id": "PERSON_RHAENA_TARGARYEN",
+        "nume_canonic": "Rhaena Targaryen (lady, călăreața de dragoni)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 18
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRINTUL_RHAEGEL_TARGARYEN",
+      "PERSON_RHAENYRA_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Rhaegel vs Rhaenyra) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRINTUL_RHAEGEL_TARGARYEN",
+        "nume_canonic": "Prințul Rhaegel Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 3
+      },
+      {
+        "id": "PERSON_RHAENYRA_TARGARYEN",
+        "nume_canonic": "Rhaenyra Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 30
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRINTUL_RHAEGEL_TARGARYEN",
+      "PERSON_RHAENYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Rhaegel vs Rhaenys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRINTUL_RHAEGEL_TARGARYEN",
+        "nume_canonic": "Prințul Rhaegel Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 3
+      },
+      {
+        "id": "PERSON_RHAENYS_TARGARYEN",
+        "nume_canonic": "Rhaenys Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 38
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRINTUL_RHAEGEL_TARGARYEN",
+      "PERSON_RHAE_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Rhaegel vs Rhae) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRINTUL_RHAEGEL_TARGARYEN",
+        "nume_canonic": "Prințul Rhaegel Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 3
+      },
+      {
+        "id": "PERSON_RHAE_TARGARYEN",
+        "nume_canonic": "Rhae Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 4
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRINTUL_VALARR_TARGARYEN",
+      "PERSON_VALERION_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Valarr vs Valerion) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRINTUL_VALARR_TARGARYEN",
+        "nume_canonic": "Prințul Valarr Targaryen („tânărul prinț\")",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 7
+      },
+      {
+        "id": "PERSON_VALERION_TARGARYEN",
+        "nume_canonic": "Valerion Targaryen",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 5
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_RHAEGAR_TARGARYEN",
+      "PERSON_RHAELLA_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Rhaegar vs Rhaella) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_RHAEGAR_TARGARYEN",
+        "nume_canonic": "Rhaegar Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 94
+      },
+      {
+        "id": "PERSON_RHAELLA_TARGARYEN",
+        "nume_canonic": "Rhaella Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 13
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_RHAEGAR_TARGARYEN",
+      "PERSON_RHAENA_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Rhaegar vs Rhaena) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_RHAEGAR_TARGARYEN",
+        "nume_canonic": "Rhaegar Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 94
+      },
+      {
+        "id": "PERSON_RHAENA_TARGARYEN",
+        "nume_canonic": "Rhaena Targaryen (lady, călăreața de dragoni)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 18
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_RHAEGAR_TARGARYEN",
+      "PERSON_RHAENYRA_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Rhaegar vs Rhaenyra) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_RHAEGAR_TARGARYEN",
+        "nume_canonic": "Rhaegar Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 94
+      },
+      {
+        "id": "PERSON_RHAENYRA_TARGARYEN",
+        "nume_canonic": "Rhaenyra Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 30
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_RHAEGAR_TARGARYEN",
+      "PERSON_RHAENYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Rhaegar vs Rhaenys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_RHAEGAR_TARGARYEN",
+        "nume_canonic": "Rhaegar Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 94
+      },
+      {
+        "id": "PERSON_RHAENYS_TARGARYEN",
+        "nume_canonic": "Rhaenys Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 38
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_RHAEGAR_TARGARYEN",
+      "PERSON_RHAE_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Rhaegar vs Rhae) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_RHAEGAR_TARGARYEN",
+        "nume_canonic": "Rhaegar Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 94
+      },
+      {
+        "id": "PERSON_RHAE_TARGARYEN",
+        "nume_canonic": "Rhae Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 4
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_RHAELLA_TARGARYEN",
+      "PERSON_RHAENA_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Rhaella vs Rhaena) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_RHAELLA_TARGARYEN",
+        "nume_canonic": "Rhaella Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 13
+      },
+      {
+        "id": "PERSON_RHAENA_TARGARYEN",
+        "nume_canonic": "Rhaena Targaryen (lady, călăreața de dragoni)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 18
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_RHAELLA_TARGARYEN",
+      "PERSON_RHAENYRA_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Rhaella vs Rhaenyra) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_RHAELLA_TARGARYEN",
+        "nume_canonic": "Rhaella Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 13
+      },
+      {
+        "id": "PERSON_RHAENYRA_TARGARYEN",
+        "nume_canonic": "Rhaenyra Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 30
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_RHAELLA_TARGARYEN",
+      "PERSON_RHAENYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Rhaella vs Rhaenys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_RHAELLA_TARGARYEN",
+        "nume_canonic": "Rhaella Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 13
+      },
+      {
+        "id": "PERSON_RHAENYS_TARGARYEN",
+        "nume_canonic": "Rhaenys Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 38
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_RHAELLA_TARGARYEN",
+      "PERSON_RHAE_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Rhaella vs Rhae) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_RHAELLA_TARGARYEN",
+        "nume_canonic": "Rhaella Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 13
+      },
+      {
+        "id": "PERSON_RHAE_TARGARYEN",
+        "nume_canonic": "Rhae Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 4
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_RHAENA_TARGARYEN",
+      "PERSON_RHAENYRA_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Rhaena vs Rhaenyra) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_RHAENA_TARGARYEN",
+        "nume_canonic": "Rhaena Targaryen (lady, călăreața de dragoni)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 18
+      },
+      {
+        "id": "PERSON_RHAENYRA_TARGARYEN",
+        "nume_canonic": "Rhaenyra Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 30
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_RHAENA_TARGARYEN",
+      "PERSON_RHAENYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Rhaena vs Rhaenys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_RHAENA_TARGARYEN",
+        "nume_canonic": "Rhaena Targaryen (lady, călăreața de dragoni)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 18
+      },
+      {
+        "id": "PERSON_RHAENYS_TARGARYEN",
+        "nume_canonic": "Rhaenys Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 38
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_RHAENA_TARGARYEN",
+      "PERSON_RHAE_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Rhaena vs Rhae) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_RHAENA_TARGARYEN",
+        "nume_canonic": "Rhaena Targaryen (lady, călăreața de dragoni)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 18
+      },
+      {
+        "id": "PERSON_RHAE_TARGARYEN",
+        "nume_canonic": "Rhae Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 4
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_RHAENYRA_TARGARYEN",
+      "PERSON_RHAENYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Rhaenyra vs Rhaenys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_RHAENYRA_TARGARYEN",
+        "nume_canonic": "Rhaenyra Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 30
+      },
+      {
+        "id": "PERSON_RHAENYS_TARGARYEN",
+        "nume_canonic": "Rhaenys Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 38
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_RHAENYRA_TARGARYEN",
+      "PERSON_RHAE_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Rhaenyra vs Rhae) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_RHAENYRA_TARGARYEN",
+        "nume_canonic": "Rhaenyra Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 30
+      },
+      {
+        "id": "PERSON_RHAE_TARGARYEN",
+        "nume_canonic": "Rhae Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 4
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_RHAENYS_TARGARYEN",
+      "PERSON_RHAE_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Rhaenys vs Rhae) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_RHAENYS_TARGARYEN",
+        "nume_canonic": "Rhaenys Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 38
+      },
+      {
+        "id": "PERSON_RHAE_TARGARYEN",
+        "nume_canonic": "Rhae Targaryen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 4
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_VAEGON_TARGARYEN",
+      "PERSON_VAELLA_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Vaegon vs Vaella) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_VAEGON_TARGARYEN",
+        "nume_canonic": "Vaegon Targaryen (\"cel Fără Dragon\")",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 13
+      },
+      {
+        "id": "PERSON_VAELLA_TARGARYEN",
+        "nume_canonic": "Vaella Targaryen",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 6
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_VISENYA_TARGARYEN",
+      "PERSON_VISERRA_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Visenya vs Viserra) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_VISENYA_TARGARYEN",
+        "nume_canonic": "Visenya Targaryen",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 21
+      },
+      {
+        "id": "PERSON_VISERRA_TARGARYEN",
+        "nume_canonic": "Viserra Targaryen",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 7
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_VISENYA_TARGARYEN",
+      "PERSON_VISERYS_I_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Visenya vs Viserys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_VISENYA_TARGARYEN",
+        "nume_canonic": "Visenya Targaryen",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 21
+      },
+      {
+        "id": "PERSON_VISERYS_I_TARGARYEN",
+        "nume_canonic": "Viserys I Targaryen",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 3
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_VISENYA_TARGARYEN",
+      "PERSON_VISERYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Visenya vs Viserys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_VISENYA_TARGARYEN",
+        "nume_canonic": "Visenya Targaryen",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 21
+      },
+      {
+        "id": "PERSON_VISERYS_TARGARYEN",
+        "nume_canonic": "Viserys Targaryen",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 78
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_VISERRA_TARGARYEN",
+      "PERSON_VISERYS_I_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Viserra vs Viserys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_VISERRA_TARGARYEN",
+        "nume_canonic": "Viserra Targaryen",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 7
+      },
+      {
+        "id": "PERSON_VISERYS_I_TARGARYEN",
+        "nume_canonic": "Viserys I Targaryen",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 3
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_VISERRA_TARGARYEN",
+      "PERSON_VISERYS_TARGARYEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Targaryen) și prenume similare (Viserra vs Viserys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_VISERRA_TARGARYEN",
+        "nume_canonic": "Viserra Targaryen",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 7
+      },
+      {
+        "id": "PERSON_VISERYS_TARGARYEN",
+        "nume_canonic": "Viserys Targaryen",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 78
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_ALYSSA_ARRYN",
+      "PERSON_ALYS_ARRYN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Arryn) și prenume similare (Alyssa vs Alys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_ALYSSA_ARRYN",
+        "nume_canonic": "Alyssa Arryn",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 1
+      },
+      {
+        "id": "PERSON_ALYS_ARRYN",
+        "nume_canonic": "Alys Arryn",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 9
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_JONOS_ARRYN",
+      "PERSON_JON_ARRYN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Arryn) și prenume similare (Jonos vs Jon) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_JONOS_ARRYN",
+        "nume_canonic": "Jonos Arryn",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 3
+      },
+      {
+        "id": "PERSON_JON_ARRYN",
+        "nume_canonic": "Jon Arryn",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 64
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_JONOS_ARRYN",
+      "PERSON_LORDUL_JON_ARRYN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Arryn) și prenume similare (Jonos vs Jon) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_JONOS_ARRYN",
+        "nume_canonic": "Jonos Arryn",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 3
+      },
+      {
+        "id": "PERSON_LORDUL_JON_ARRYN",
+        "nume_canonic": "Lordul Jon Arryn",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 8
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_LORDUL_WALDER_FREY",
+      "PERSON_WALDA_FREY"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Frey) și prenume similare (Walder vs Walda) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_LORDUL_WALDER_FREY",
+        "nume_canonic": "Lordul Walder Frey",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 36
+      },
+      {
+        "id": "PERSON_WALDA_FREY",
+        "nume_canonic": "Walda Frey (\"Grasa Walda\")",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 8
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_WALDA_FREY",
+      "PERSON_WALDER_CEL_NEGRU_FREY"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Frey) și prenume similare (Walda vs Walder) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_WALDA_FREY",
+        "nume_canonic": "Walda Frey (\"Grasa Walda\")",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 8
+      },
+      {
+        "id": "PERSON_WALDER_CEL_NEGRU_FREY",
+        "nume_canonic": "Walder cel Negru (Black Walder) Frey",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 4
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_WALDA_FREY",
+      "PERSON_WALDER_FREY"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Frey) și prenume similare (Walda vs Walder) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_WALDA_FREY",
+        "nume_canonic": "Walda Frey (\"Grasa Walda\")",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 8
+      },
+      {
+        "id": "PERSON_WALDER_FREY",
+        "nume_canonic": "Walder Frey",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 43
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_QUELLON_GREYJOY",
+      "PERSON_QUENTON_GREYJOY"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Greyjoy) și prenume similare (Quellon vs Quenton) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_QUELLON_GREYJOY",
+        "nume_canonic": "Quellon Greyjoy",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 13
+      },
+      {
+        "id": "PERSON_QUENTON_GREYJOY",
+        "nume_canonic": "Quenton Greyjoy",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 4
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_VICKON_GREYJOY",
+      "PERSON_VICTARION_GREYJOY"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Greyjoy) și prenume similare (Vickon vs Victarion) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_VICKON_GREYJOY",
+        "nume_canonic": "Vickon Greyjoy",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 5
+      },
+      {
+        "id": "PERSON_VICTARION_GREYJOY",
+        "nume_canonic": "Victarion Greyjoy",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 37
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_ALARIC_STARK",
+      "PERSON_ALARRA_STARK"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Stark) și prenume similare (Alaric vs Alarra) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_ALARIC_STARK",
+        "nume_canonic": "Alaric Stark",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 2
+      },
+      {
+        "id": "PERSON_ALARRA_STARK",
+        "nume_canonic": "Alarra Stark",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 1
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_BENJEN_STARK",
+      "PERSON_BEN_STARK"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Stark) și prenume similare (Benjen vs Ben) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_BENJEN_STARK",
+        "nume_canonic": "Benjen Stark",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 47
+      },
+      {
+        "id": "PERSON_BEN_STARK",
+        "nume_canonic": "Ben Stark",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 1
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_BRANDON_STARK",
+      "PERSON_BRAN_STARK"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Stark) și prenume similare (Brandon vs Bran) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_BRANDON_STARK",
+        "nume_canonic": "Brandon Stark",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 27
+      },
+      {
+        "id": "PERSON_BRAN_STARK",
+        "nume_canonic": "Bran Stark",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 190
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_LORDUL_RICKARD_STARK",
+      "PERSON_RICKON_STARK"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Stark) și prenume similare (Rickard vs Rickon) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_LORDUL_RICKARD_STARK",
+        "nume_canonic": "Lordul Rickard Stark",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 13
+      },
+      {
+        "id": "PERSON_RICKON_STARK",
+        "nume_canonic": "Rickon Stark",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 146
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_RICKARD_STARK",
+      "PERSON_RICKON_STARK"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Stark) și prenume similare (Rickard vs Rickon) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_RICKARD_STARK",
+        "nume_canonic": "Rickard Stark",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 15
+      },
+      {
+        "id": "PERSON_RICKON_STARK",
+        "nume_canonic": "Rickon Stark",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 146
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRINTESA_ELIA_MARTELL",
+      "PERSON_PRINTUL_DORAN_MARTELL"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Martell) și prenume similare (Printesa vs Printul) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRINTESA_ELIA_MARTELL",
+        "nume_canonic": "Prințesa Elia Martell",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 7
+      },
+      {
+        "id": "PERSON_PRINTUL_DORAN_MARTELL",
+        "nume_canonic": "Prinţul Doran Martell",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 23
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRINTESA_ELIA_MARTELL",
+      "PERSON_PRINTUL_LEWYN_MARTELL"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Martell) și prenume similare (Printesa vs Printul) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRINTESA_ELIA_MARTELL",
+        "nume_canonic": "Prințesa Elia Martell",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 7
+      },
+      {
+        "id": "PERSON_PRINTUL_LEWYN_MARTELL",
+        "nume_canonic": "Prinţul Lewyn Martell",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 4
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_PRINTESA_ELIA_MARTELL",
+      "PERSON_PRINTUL_QUENTYN_MARTELL"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Martell) și prenume similare (Printesa vs Printul) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_PRINTESA_ELIA_MARTELL",
+        "nume_canonic": "Prințesa Elia Martell",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 7
+      },
+      {
+        "id": "PERSON_PRINTUL_QUENTYN_MARTELL",
+        "nume_canonic": "Prinţul Quentyn Martell",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 5
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_RONALD_CONNINGTON",
+      "PERSON_RONNET_CONNINGTON"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Connington) și prenume similare (Ronald vs Ronnet) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_RONALD_CONNINGTON",
+        "nume_canonic": "Ronald Connington (Ser)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 2
+      },
+      {
+        "id": "PERSON_RONNET_CONNINGTON",
+        "nume_canonic": "Ronnet Connington (\"cel Roșu\")",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 5
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_ALYN_VELARYON",
+      "PERSON_ALYSSA_VELARYON"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Velaryon) și prenume similare (Alyn vs Alyssa) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_ALYN_VELARYON",
+        "nume_canonic": "Alyn Velaryon („Pumn de Stejar\" / Oakenfist)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 11
+      },
+      {
+        "id": "PERSON_ALYSSA_VELARYON",
+        "nume_canonic": "Alyssa Velaryon (regina Alyssa)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 13
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_DAEMON_VELARYON",
+      "PERSON_DAENAERA_DIN_CASA_VELARYON"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Velaryon) și prenume similare (Daemon vs Daenaera) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_DAEMON_VELARYON",
+        "nume_canonic": "Daemon Velaryon",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 8
+      },
+      {
+        "id": "PERSON_DAENAERA_DIN_CASA_VELARYON",
+        "nume_canonic": "Daenaera din Casa Velaryon (regină, a doua soție a lui Aegon al III-lea)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 32
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_DAEMON_VELARYON",
+      "PERSON_DAERON_VELARYON"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Velaryon) și prenume similare (Daemon vs Daeron) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_DAEMON_VELARYON",
+        "nume_canonic": "Daemon Velaryon",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 8
+      },
+      {
+        "id": "PERSON_DAERON_VELARYON",
+        "nume_canonic": "Daeron Velaryon",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 3
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_DAENAERA_DIN_CASA_VELARYON",
+      "PERSON_DAERON_VELARYON"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Velaryon) și prenume similare (Daenaera vs Daeron) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_DAENAERA_DIN_CASA_VELARYON",
+        "nume_canonic": "Daenaera din Casa Velaryon (regină, a doua soție a lui Aegon al III-lea)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 32
+      },
+      {
+        "id": "PERSON_DAERON_VELARYON",
+        "nume_canonic": "Daeron Velaryon",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 3
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_LAENA_VELARYON",
+      "PERSON_LAENOR_VELARYON"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Velaryon) și prenume similare (Laena vs Laenor) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_LAENA_VELARYON",
+        "nume_canonic": "Laena Velaryon",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 17
+      },
+      {
+        "id": "PERSON_LAENOR_VELARYON",
+        "nume_canonic": "Laenor Velaryon",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 20
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_ALYSANE_MORMONT",
+      "PERSON_ALY_MORMONT"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Mormont) și prenume similare (Alysane vs Aly) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_ALYSANE_MORMONT",
+        "nume_canonic": "Alysane Mormont (\"Ursoaica\")",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 2
+      },
+      {
+        "id": "PERSON_ALY_MORMONT",
+        "nume_canonic": "Aly Mormont („Ursoaica\")",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 0
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_BENJICOT_BLACKWOOD",
+      "PERSON_BEN_BLACKWOOD"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Blackwood) și prenume similare (Benjicot vs Ben) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_BENJICOT_BLACKWOOD",
+        "nume_canonic": "Benjicot Blackwood (Sângerosul Ben)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 4
+      },
+      {
+        "id": "PERSON_BEN_BLACKWOOD",
+        "nume_canonic": "Ben Blackwood",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 3
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_HARRION_KARSTARK",
+      "PERSON_HARRY_KARSTARK"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Karstark) și prenume similare (Harrion vs Harry) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_HARRION_KARSTARK",
+        "nume_canonic": "Harrion Karstark",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 12
+      },
+      {
+        "id": "PERSON_HARRY_KARSTARK",
+        "nume_canonic": "Harry Karstark",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 2
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_ANDREW_FARMAN",
+      "PERSON_ANDROW_FARMAN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Farman) și prenume similare (Andrew vs Androw) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_ANDREW_FARMAN",
+        "nume_canonic": "Andrew Farman",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 6
+      },
+      {
+        "id": "PERSON_ANDROW_FARMAN",
+        "nume_canonic": "Androw Farman",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 0
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_ROBERT_FLINT",
+      "PERSON_ROBIN_FLINT"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Flint) și prenume similare (Robert vs Robin) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_ROBERT_FLINT",
+        "nume_canonic": "Robert Flint",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 0
+      },
+      {
+        "id": "PERSON_ROBIN_FLINT",
+        "nume_canonic": "Robin Flint",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 4
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_LOREN_CEL_NEGRU",
+      "PERSON_LORREN_CEL_NEGRU"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Negru) și prenume similare (Loren vs Lorren) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_LOREN_CEL_NEGRU",
+        "nume_canonic": "Loren cel Negru",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 0
+      },
+      {
+        "id": "PERSON_LORREN_CEL_NEGRU",
+        "nume_canonic": "Lorren cel Negru",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 3
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_BALMAN_BYRCH",
+      "PERSON_BALON_BYRCH"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Byrch) și prenume similare (Balman vs Balon) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_BALMAN_BYRCH",
+        "nume_canonic": "Balman Byrch",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 2
+      },
+      {
+        "id": "PERSON_BALON_BYRCH",
+        "nume_canonic": "Balon Byrch",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 2
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_BARBAT_CU_MANTIE_VERDE",
+      "PERSON_BARBA_VERDE"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Verde) și prenume similare (Barbat vs Barba) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_BARBAT_CU_MANTIE_VERDE",
+        "nume_canonic": "Bărbat cu mantie verde",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 1
+      },
+      {
+        "id": "PERSON_BARBA_VERDE",
+        "nume_canonic": "Barbă-Verde (Greenbeard)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 0
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_BOREMUND_BARATHEON",
+      "PERSON_BORROS_BARATHEON"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Baratheon) și prenume similare (Boremund vs Borros) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_BOREMUND_BARATHEON",
+        "nume_canonic": "Boremund Baratheon",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 9
+      },
+      {
+        "id": "PERSON_BORROS_BARATHEON",
+        "nume_canonic": "Borros Baratheon",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 6
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_BOREMUND_BARATHEON",
+      "PERSON_BORYS_BARATHEON"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Baratheon) și prenume similare (Boremund vs Borys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_BOREMUND_BARATHEON",
+        "nume_canonic": "Boremund Baratheon",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 9
+      },
+      {
+        "id": "PERSON_BORYS_BARATHEON",
+        "nume_canonic": "Borys Baratheon",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 6
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_BORROS_BARATHEON",
+      "PERSON_BORYS_BARATHEON"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Baratheon) și prenume similare (Borros vs Borys) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_BORROS_BARATHEON",
+        "nume_canonic": "Borros Baratheon",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 6
+      },
+      {
+        "id": "PERSON_BORYS_BARATHEON",
+        "nume_canonic": "Borys Baratheon",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 6
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_EDMURE_TULLY",
+      "PERSON_EDMYN_TULLY"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Tully) și prenume similare (Edmure vs Edmyn) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_EDMURE_TULLY",
+        "nume_canonic": "Edmure Tully",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 76
+      },
+      {
+        "id": "PERSON_EDMYN_TULLY",
+        "nume_canonic": "Edmyn Tully",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 0
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_EDMYN_TULLY",
+      "PERSON_SER_EDMURE_TULLY"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Tully) și prenume similare (Edmyn vs Edmure) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_EDMYN_TULLY",
+        "nume_canonic": "Edmyn Tully",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 0
+      },
+      {
+        "id": "PERSON_SER_EDMURE_TULLY",
+        "nume_canonic": "Ser Edmure Tully",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 12
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_CERELLE_LANNISTER",
+      "PERSON_CERSEI_LANNISTER"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Lannister) și prenume similare (Cerelle vs Cersei) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_CERELLE_LANNISTER",
+        "nume_canonic": "Cerelle Lannister",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 2
+      },
+      {
+        "id": "PERSON_CERSEI_LANNISTER",
+        "nume_canonic": "Cersei Lannister",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 271
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_DAMION_LANNISTER",
+      "PERSON_SER_DAMON_LANNISTER"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Lannister) și prenume similare (Damion vs Damon) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_DAMION_LANNISTER",
+        "nume_canonic": "Damion Lannister",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 0
+      },
+      {
+        "id": "PERSON_SER_DAMON_LANNISTER",
+        "nume_canonic": "Ser Damon Lannister („Leul Cenușiu\")",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 2
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_GERION_LANNISTER",
+      "PERSON_GEROLD_LANNISTER"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Lannister) și prenume similare (Gerion vs Gerold) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_GERION_LANNISTER",
+        "nume_canonic": "Gerion Lannister",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 12
+      },
+      {
+        "id": "PERSON_GEROLD_LANNISTER",
+        "nume_canonic": "Gerold Lannister",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 1
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_TYREK_LANNISTER",
+      "PERSON_TYRION_LANNISTER"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Lannister) și prenume similare (Tyrek vs Tyrion) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_TYREK_LANNISTER",
+        "nume_canonic": "Tyrek Lannister",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 13
+      },
+      {
+        "id": "PERSON_TYRION_LANNISTER",
+        "nume_canonic": "Tyrion Lannister",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 212
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_CORWYN_CORBRAY",
+      "PERSON_LORDUL_CORBRAY"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Corbray) și prenume similare (Corwyn vs Corbray) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_CORWYN_CORBRAY",
+        "nume_canonic": "Corwyn Corbray (ser)",
+        "sursa": "entities_part1.json",
+        "numar_afirmatii": 8
+      },
+      {
+        "id": "PERSON_LORDUL_CORBRAY",
+        "nume_canonic": "Lordul Corbray",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 0
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_LORDUL_CORBRAY",
+      "PERSON_SER_CORWYN_CORBRAY"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Corbray) și prenume similare (Corbray vs Corwyn) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_LORDUL_CORBRAY",
+        "nume_canonic": "Lordul Corbray",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 0
+      },
+      {
+        "id": "PERSON_SER_CORWYN_CORBRAY",
+        "nume_canonic": "ser Corwyn Corbray",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 1
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_LADY_WYLLA_MANDERLY",
+      "PERSON_SER_WYLIS_MANDERLY"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Manderly) și prenume similare (Wylla vs Wylis) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_LADY_WYLLA_MANDERLY",
+        "nume_canonic": "Lady Wylla Manderly",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 2
+      },
+      {
+        "id": "PERSON_SER_WYLIS_MANDERLY",
+        "nume_canonic": "Ser Wylis Manderly",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 3
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_LADY_WYLLA_MANDERLY",
+      "PERSON_WYLIS_MANDERLY"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Manderly) și prenume similare (Wylla vs Wylis) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_LADY_WYLLA_MANDERLY",
+        "nume_canonic": "Lady Wylla Manderly",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 2
+      },
+      {
+        "id": "PERSON_WYLIS_MANDERLY",
+        "nume_canonic": "Wylis Manderly",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 11
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_SER_WYLIS_MANDERLY",
+      "PERSON_WYLLA_MANDERLY"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Manderly) și prenume similare (Wylis vs Wylla) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_SER_WYLIS_MANDERLY",
+        "nume_canonic": "Ser Wylis Manderly",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 3
+      },
+      {
+        "id": "PERSON_WYLLA_MANDERLY",
+        "nume_canonic": "Wylla Manderly",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 2
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_WYLIS_MANDERLY",
+      "PERSON_WYLLA_MANDERLY"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Manderly) și prenume similare (Wylis vs Wylla) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_WYLIS_MANDERLY",
+        "nume_canonic": "Wylis Manderly",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 11
+      },
+      {
+        "id": "PERSON_WYLLA_MANDERLY",
+        "nume_canonic": "Wylla Manderly",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 2
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_LORDUL_RANDYLL_TARLY",
+      "PERSON_LORDUL_RANDYL_TARLY"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Tarly) și prenume similare (Randyll vs Randyl) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_LORDUL_RANDYLL_TARLY",
+        "nume_canonic": "Lordul Randyll Tarly",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 4
+      },
+      {
+        "id": "PERSON_LORDUL_RANDYL_TARLY",
+        "nume_canonic": "Lordul Randyl Tarly",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 3
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_LORDUL_RANDYLL_TARLY",
+      "PERSON_RANDYL_TARLY"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Tarly) și prenume similare (Randyll vs Randyl) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_LORDUL_RANDYLL_TARLY",
+        "nume_canonic": "Lordul Randyll Tarly",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 4
+      },
+      {
+        "id": "PERSON_RANDYL_TARLY",
+        "nume_canonic": "Randyl Tarly",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 3
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_LORDUL_RANDYL_TARLY",
+      "PERSON_RANDYLL_TARLY"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Tarly) și prenume similare (Randyl vs Randyll) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_LORDUL_RANDYL_TARLY",
+        "nume_canonic": "Lordul Randyl Tarly",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 3
+      },
+      {
+        "id": "PERSON_RANDYLL_TARLY",
+        "nume_canonic": "Randyll Tarly",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 32
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_RANDYLL_TARLY",
+      "PERSON_RANDYL_TARLY"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Tarly) și prenume similare (Randyll vs Randyl) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_RANDYLL_TARLY",
+        "nume_canonic": "Randyll Tarly",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 32
+      },
+      {
+        "id": "PERSON_RANDYL_TARLY",
+        "nume_canonic": "Randyl Tarly",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 3
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_DONAI_NOYE",
+      "PERSON_DONAL_NOYE"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Noye) și prenume similare (Donai vs Donal) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_DONAI_NOYE",
+        "nume_canonic": "Donai Noye",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 8
+      },
+      {
+        "id": "PERSON_DONAL_NOYE",
+        "nume_canonic": "Donal Noye",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 15
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_RAFFORD_ZIS_CEL_DULCE",
+      "PERSON_RAFF_CEL_DULCE"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Dulce) și prenume similare (Rafford vs Raff) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_RAFFORD_ZIS_CEL_DULCE",
+        "nume_canonic": "Rafford, zis „Cel Dulce\"",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 1
+      },
+      {
+        "id": "PERSON_RAFF_CEL_DULCE",
+        "nume_canonic": "Raff cel Dulce",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 1
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_DRAKO_ROGARE",
+      "PERSON_DRAZENKO_ROGARE"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Rogare) și prenume similare (Drako vs Drazenko) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_DRAKO_ROGARE",
+        "nume_canonic": "Drako Rogare",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 4
+      },
+      {
+        "id": "PERSON_DRAZENKO_ROGARE",
+        "nume_canonic": "Drazenko Rogare",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 4
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_LYSANDRO_ROGARE",
+      "PERSON_LYSARA_ROGARE"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Rogare) și prenume similare (Lysandro vs Lysara) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_LYSANDRO_ROGARE",
+        "nume_canonic": "Lysandro Rogare",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 3
+      },
+      {
+        "id": "PERSON_LYSARA_ROGARE",
+        "nume_canonic": "Lysara Rogare",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 4
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_LYSANDRO_ROGARE",
+      "PERSON_LYSARO_ROGARE"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Rogare) și prenume similare (Lysandro vs Lysaro) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_LYSANDRO_ROGARE",
+        "nume_canonic": "Lysandro Rogare",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 3
+      },
+      {
+        "id": "PERSON_LYSARO_ROGARE",
+        "nume_canonic": "Lysaro Rogare",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 4
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_LYSARA_ROGARE",
+      "PERSON_LYSARO_ROGARE"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Rogare) și prenume similare (Lysara vs Lysaro) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_LYSARA_ROGARE",
+        "nume_canonic": "Lysara Rogare",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 4
+      },
+      {
+        "id": "PERSON_LYSARO_ROGARE",
+        "nume_canonic": "Lysaro Rogare",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 4
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_EDDISON_TOLLETT",
+      "PERSON_EDD_CEL_TRIST_TOLLETT"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Tollett) și prenume similare (Eddison vs Edd) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_EDDISON_TOLLETT",
+        "nume_canonic": "Eddison Tollett",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 2
+      },
+      {
+        "id": "PERSON_EDD_CEL_TRIST_TOLLETT",
+        "nume_canonic": "Edd cel Trist Tollett",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 0
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_EDDISON_TOLLETT",
+      "PERSON_EDD_TOLLETT"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Tollett) și prenume similare (Eddison vs Edd) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_EDDISON_TOLLETT",
+        "nume_canonic": "Eddison Tollett",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 2
+      },
+      {
+        "id": "PERSON_EDD_TOLLETT",
+        "nume_canonic": "Edd Tollett",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 8
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_ROLAND_WESTERLING",
+      "PERSON_ROLLAM_WESTERLING"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Westerling) și prenume similare (Roland vs Rollam) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_ROLAND_WESTERLING",
+        "nume_canonic": "Roland Westerling",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 3
+      },
+      {
+        "id": "PERSON_ROLLAM_WESTERLING",
+        "nume_canonic": "Rollam Westerling",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 17
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_GALBART_GLOVER",
+      "PERSON_GALHART_GLOVER"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Glover) și prenume similare (Galbart vs Galhart) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_GALBART_GLOVER",
+        "nume_canonic": "Galbart Glover",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 5
+      },
+      {
+        "id": "PERSON_GALHART_GLOVER",
+        "nume_canonic": "Galhart Glover",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 3
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_ROBERT_GLOVER",
+      "PERSON_ROBETT_GLOVER"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Glover) și prenume similare (Robert vs Robett) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_ROBERT_GLOVER",
+        "nume_canonic": "Robert Glover",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 15
+      },
+      {
+        "id": "PERSON_ROBETT_GLOVER",
+        "nume_canonic": "Robett Glover",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 2
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_FALENA_STOKEWORTH",
+      "PERSON_FALYSE_DE_STOKEWORTH"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Stokeworth) și prenume similare (Falena vs Falyse) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_FALENA_STOKEWORTH",
+        "nume_canonic": "Falena Stokeworth",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 0
+      },
+      {
+        "id": "PERSON_FALYSE_DE_STOKEWORTH",
+        "nume_canonic": "Falyse de Stokeworth",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 0
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_TRISTIFER_BOTLEY",
+      "PERSON_TRIS_BOTLEY"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Botley) și prenume similare (Tristifer vs Tris) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_TRISTIFER_BOTLEY",
+        "nume_canonic": "Tristifer (Tris) Botley",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 6
+      },
+      {
+        "id": "PERSON_TRIS_BOTLEY",
+        "nume_canonic": "Tris Botley (Tristifer Botley)",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 0
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_GUNCER_SUNGLASS",
+      "PERSON_LORDUL_GUNCES_SUNGLASS"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Sunglass) și prenume similare (Guncer vs Gunces) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_GUNCER_SUNGLASS",
+        "nume_canonic": "Guncer Sunglass",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 4
+      },
+      {
+        "id": "PERSON_LORDUL_GUNCES_SUNGLASS",
+        "nume_canonic": "Lordul Gunces Sunglass (menționat, mort — ars în focurile Melisandrei)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 0
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_HALLIS_HAL_MOLLEN",
+      "PERSON_HAL_MOLLEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Mollen) și prenume similare (Hallis vs Hal) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_HALLIS_HAL_MOLLEN",
+        "nume_canonic": "Hallis „Hal\" Mollen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 1
+      },
+      {
+        "id": "PERSON_HAL_MOLLEN",
+        "nume_canonic": "Hal Mollen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 0
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_HALLIS_MOLLEN",
+      "PERSON_HAL_MOLLEN"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Mollen) și prenume similare (Hallis vs Hal) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_HALLIS_MOLLEN",
+        "nume_canonic": "Hallis Mollen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 3
+      },
+      {
+        "id": "PERSON_HAL_MOLLEN",
+        "nume_canonic": "Hal Mollen",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 0
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_MARELEJON_UMBER",
+      "PERSON_MARELE_JON_UMBER"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Umber) și prenume similare (Marelejon vs Marele) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_MARELEJON_UMBER",
+        "nume_canonic": "Marelejon Umber",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 6
+      },
+      {
+        "id": "PERSON_MARELE_JON_UMBER",
+        "nume_canonic": "Marele Jon Umber (Greatjon)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 3
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_MICULJON_UMBER",
+      "PERSON_MICUL_JON_UMBER"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Umber) și prenume similare (Miculjon vs Micul) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_MICULJON_UMBER",
+        "nume_canonic": "Miculjon Umber (Smalljon)",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 1
+      },
+      {
+        "id": "PERSON_MICUL_JON_UMBER",
+        "nume_canonic": "Micul Jon Umber",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 1
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_JALABBAR_XHO",
+      "PERSON_JALABHAR_XHO"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Xho) și prenume similare (Jalabbar vs Jalabhar) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_JALABBAR_XHO",
+        "nume_canonic": "Jalabbar Xho",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 1
+      },
+      {
+        "id": "PERSON_JALABHAR_XHO",
+        "nume_canonic": "Jalabhar Xho",
+        "sursa": "entities_part2.json",
+        "numar_afirmatii": 7
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_SER_WILLAM_VIESPEA",
+      "PERSON_SER_WILLIAM_VIESPEA"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Viespea) și prenume similare (Willam vs William) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_SER_WILLAM_VIESPEA",
+        "nume_canonic": "Ser Willam Viespea (Wispe)",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 2
+      },
+      {
+        "id": "PERSON_SER_WILLIAM_VIESPEA",
+        "nume_canonic": "Ser William Viespea",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 3
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_WYL",
+      "PERSON_WYLAND_WYL"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Wyl) și prenume similare (Wyl vs Wyland) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_WYL",
+        "nume_canonic": "Wyl",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 0
+      },
+      {
+        "id": "PERSON_WYLAND_WYL",
+        "nume_canonic": "Wyland Wyl",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 2
+      }
+    ]
+  },
+  {
+    "candidate_ids": [
+      "PERSON_WYLAND_WYL",
+      "PERSON_WYL_DE_WYL"
+    ],
+    "motiv_suspiciune": "Nume de familie comun (Wyl) și prenume similare (Wyland vs Wyl) dar neidentice",
+    "entitati": [
+      {
+        "id": "PERSON_WYLAND_WYL",
+        "nume_canonic": "Wyland Wyl",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 2
+      },
+      {
+        "id": "PERSON_WYL_DE_WYL",
+        "nume_canonic": "Wyl de Wyl („Iubărețul-văduvelor\")",
+        "sursa": "entities_part3.json",
+        "numar_afirmatii": 3
+      }
+    ]
+  }
+]

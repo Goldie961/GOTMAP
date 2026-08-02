@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "mapId": "world",
+  "coordinateSpace": "world-terrain-1500x1000",
+  "features": [
+    { "id": "beyond_the_wall", "name": "BEYOND THE WALL", "type": "region", "position": { "x": 326, "y": 70 }, "minZoom": 0 },
+    { "id": "the_north", "name": "THE NORTH", "type": "region", "position": { "x": 324, "y": 246 }, "minZoom": 0 },
+    { "id": "the_iron_islands", "name": "IRON ISLANDS", "type": "region", "position": { "x": 145, "y": 425 }, "minZoom": 0 },
+    { "id": "the_riverlands", "name": "RIVERLANDS", "type": "region", "position": { "x": 318, "y": 429 }, "minZoom": 0 },
+    { "id": "the_vale", "name": "THE VALE", "type": "region", "position": { "x": 445, "y": 354 }, "minZoom": 0 },
+    { "id": "the_westerlands", "name": "WESTERLANDS", "type": "region", "position": { "x": 224, "y": 494 }, "minZoom": 0 },
+    { "id": "the_crownlands", "name": "CROWNLANDS", "type": "region", "position": { "x": 395, "y": 554 }, "minZoom": 0 },
+    { "id": "the_reach", "name": "THE REACH", "type": "region", "position": { "x": 270, "y": 632 }, "minZoom": 0 },
+    { "id": "the_stormlands", "name": "STORMLANDS", "type": "region", "position": { "x": 399, "y": 629 }, "minZoom": 0 },
+    { "id": "dorne", "name": "DORNE", "type": "region", "position": { "x": 331, "y": 753 }, "minZoom": 0 }
+  ]
+}

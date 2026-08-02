@@ -1,0 +1,487 @@
+{
+  "westeros": {
+    "the_north": {
+      "castles_seats": [
+        "Winterfell",
+        "White Harbor (New Castle)",
+        "The Dreadfort",
+        "Karhold",
+        "Last Hearth",
+        "Deepwood Motte",
+        "Bear Island (Mormont Keep)",
+        "Torrhen's Square",
+        "Barrowton (Barrow Hall)",
+        "Greywater Watch",
+        "Moat Cailin",
+        "Oldcastle",
+        "Widow's Watch",
+        "Flint's Finger",
+        "Castle Cerwyn",
+        "Hornwood",
+        "Ramsgate",
+        "Highpoint"
+      ],
+      "geography": [
+        "Bay of Ice",
+        "Bay of Seals",
+        "Bite",
+        "Blazewater Bay",
+        "Broken Branch",
+        "Cape Kraken",
+        "Fever River",
+        "Flint Cliffs",
+        "Gorge",
+        "Ironman's Bay",
+        "Kingsroad",
+        "Last River",
+        "Lonely Hills",
+        "Long Lake",
+        "Neck",
+        "Causeway",
+        "Northern mountains",
+        "Rills",
+        "Saltspear",
+        "Sea Dragon Point",
+        "Sheepshead Hills",
+        "Skagos",
+        "Skane",
+        "Stony Shore",
+        "Sunset Sea",
+        "Weeping Water",
+        "White Knife",
+        "Wolf's Den",
+        "Wolfswood",
+        "The Gift",
+        "Barrowlands",
+        "Great Barrow",
+        "Grey Cliffs",
+        "Frozen Ford",
+        "Hornwood (forest)"
+      ],
+      "towns": [
+        "Winter town",
+        "Crofters' village",
+        "Deepdown",
+        "Driftwood Hall",
+        "Kingshouse",
+        "Tumbledown Tower",
+        "Ironrath",
+        "Goldgrass",
+        "Holdfast in the hills",
+        "Acorn Water",
+        "Mill by the Acorn Water",
+        "Mill by the Weeping Water",
+        "Blackpool"
+      ]
+    },
+    "the_riverlands": {
+      "castles_seats": [
+        "Riverrun",
+        "Harrenhal",
+        "The Twins (the Crossing)",
+        "Seagard",
+        "Darry",
+        "Raventree Hall",
+        "Stone Hedge",
+        "Acorn Hall",
+        "Whitewalls",
+        "Lord Harroway's Town"
+      ],
+      "towns": [
+        "Maidenpool",
+        "Saltpans",
+        "Stoney Sept",
+        "Fairmarket",
+        "Atranta",
+        "Pennytree",
+        "Sherrer",
+        "Wendish Town",
+        "Mummer's Ford",
+        "Ruby Ford",
+        "Oldstones"
+      ],
+      "geography": [
+        "Trident",
+        "Red Fork",
+        "Blue Fork",
+        "Green Fork",
+        "Blackwater Rush",
+        "Bay of Crabs",
+        "Gods Eye",
+        "Isle of Faces",
+        "High Heart",
+        "Battle Valley",
+        "Blackwood Vale",
+        "Cairns",
+        "Cape of Eagles"
+      ]
+    },
+    "the_vale": {
+      "castles_seats": [
+        "The Eyrie",
+        "Gates of the Moon",
+        "Runestone",
+        "Ironoaks",
+        "Old Anchor",
+        "Redfort",
+        "Gulltown",
+        "Wickenden",
+        "Coldwater Burn",
+        "Heart's Home",
+        "Snakewood",
+        "Strongsong",
+        "Longbow Hall",
+        "Newkeep",
+        "Grey Glen",
+        "Ninestars"
+      ],
+      "geography": [
+        "Bloody Gate",
+        "Mountains of the Moon",
+        "The Bite",
+        "Bay of Crabs",
+        "Giant's Lance",
+        "Alyssa's Tears",
+        "The Fingers",
+        "Three Sisters (Sisterton/Sweetsister, Littlesister, Longsister)",
+        "Witch Isle",
+        "Pebble",
+        "The Paps"
+      ]
+    },
+    "the_westerlands": {
+      "castles_seats": [
+        "Casterly Rock",
+        "Golden Tooth",
+        "Crakehall",
+        "Ashemark",
+        "Sarsfield",
+        "Deep Den",
+        "Silverhill",
+        "Hornvale",
+        "Banefort",
+        "The Crag",
+        "Faircastle",
+        "Feastfires",
+        "Kayce",
+        "Cornfield",
+        "Clegane's Keep",
+        "Wyndhall"
+      ],
+      "ruins": [
+        "Castamere",
+        "Tarbeck Hall"
+      ],
+      "towns": [
+        "Lannisport",
+        "Oxcross"
+      ],
+      "geography": [
+        "Ironman's Bay",
+        "Fair Isle",
+        "Nunn's Deep",
+        "Pendric Hills",
+        "Tumblestone",
+        "Red Fork",
+        "Goldroad",
+        "Ocean Road",
+        "River road",
+        "Sunset Sea"
+      ]
+    },
+    "the_reach": {
+      "castles_seats": [
+        "Highgarden",
+        "Oldtown (the Hightower)",
+        "The Arbor",
+        "Horn Hill",
+        "Brightwater Keep",
+        "Ashford Castle",
+        "Bandallon",
+        "Bitterbridge",
+        "Blackcrown",
+        "Cider Hall",
+        "Coldmoat",
+        "Dunstonbury",
+        "Goldengrove",
+        "Grassfield Keep",
+        "Grassy Vale",
+        "Grimston",
+        "Honeyholt",
+        "Longtable",
+        "New Barrel",
+        "Oakenshield Castle",
+        "Old Oak",
+        "Red Lake",
+        "Stackhouse",
+        "Standfast",
+        "Starpike",
+        "Sunhouse",
+        "Three Towers",
+        "Tumbleton",
+        "Uplands",
+        "Whitegrove"
+      ],
+      "towns": [
+        "Cuy",
+        "Appleton"
+      ],
+      "geography": [
+        "Mander",
+        "Blueburn",
+        "Cockleswhent",
+        "Honeywine",
+        "Whispering Sound",
+        "Redwyne Straits",
+        "Shield Islands"
+      ]
+    },
+    "dorne": {
+      "castles_seats": [
+        "Sunspear",
+        "Starfall",
+        "Yronwood",
+        "Godsgrace",
+        "Hellholt",
+        "Skyreach",
+        "Blackmont",
+        "Ghost Hill",
+        "Kingsgrave",
+        "Lemonwood",
+        "Salt Shore",
+        "Sandstone",
+        "Spottswood",
+        "The Tor",
+        "Vaith",
+        "Wyl",
+        "Ghaston Grey",
+        "High Hermitage",
+        "Vulture's Roost",
+        "Hellgate Hall",
+        "Shandystone"
+      ],
+      "towns": [
+        "Planky Town"
+      ],
+      "geography": [
+        "Boneway",
+        "Prince's Pass",
+        "Red Mountains",
+        "Sea of Dorne",
+        "Brimstone",
+        "Greenblood",
+        "Scourge",
+        "Torentine",
+        "Vaith (river)",
+        "Wyl (river)",
+        "Broken Arm",
+        "Water Gardens",
+        "Tower of Joy"
+      ]
+    },
+    "the_stormlands": {
+      "castles_seats": [
+        "Storm's End",
+        "Griffin's Roost",
+        "Rain House",
+        "Evenfall Hall",
+        "Harvest Hall",
+        "Nightsong",
+        "Blackhaven",
+        "Bronzegate",
+        "Crow's Nest",
+        "Felwood",
+        "Grandview",
+        "Greenstone",
+        "Haystack Hall",
+        "Mistwood",
+        "Stonehelm",
+        "Broad Arch",
+        "Gallowsgrey",
+        "Parchments",
+        "Poddingfield"
+      ],
+      "towns": [
+        "Fawnton",
+        "Weeping Town"
+      ],
+      "geography": [
+        "Shipbreaker Bay",
+        "Cape Wrath",
+        "Dornish Marches",
+        "Kingswood",
+        "Rainwood",
+        "Sea of Dorne",
+        "Wendwater",
+        "Slayne",
+        "Tarth",
+        "Estermont",
+        "Straits of Tarth",
+        "Red Watch"
+      ]
+    },
+    "the_crownlands": {
+      "castles_seats": [
+        "King's Landing (Red Keep)",
+        "Dragonstone",
+        "Driftmark",
+        "Claw Isle",
+        "Duskendale",
+        "Rosby",
+        "Stokeworth",
+        "Antlers",
+        "Rook's Rest",
+        "Hayford",
+        "Sharp Point",
+        "Stonedance",
+        "Sweetport Sound",
+        "Dyre Den",
+        "Brownhollow",
+        "The Whispers",
+        "Sow's Horn",
+        "Hollard castle (ruins)"
+      ],
+      "geography": [
+        "Blackwater Bay",
+        "Blackwater Rush",
+        "Massey's Hook",
+        "Crackclaw Point",
+        "Gullet",
+        "Kingswood",
+        "Narrow sea",
+        "Sunset Sea (Dragonstone island)"
+      ]
+    },
+    "the_iron_islands": {
+      "castles_seats": [
+        "Pyke",
+        "Ten Towers",
+        "Lordsport",
+        "Hammerhorn",
+        "Iron Holt",
+        "Harridan Hill",
+        "Tower of Glimmering",
+        "Hoare Castle",
+        "Grey King's Hall",
+        "Crow Spike Keep",
+        "Volmark"
+      ],
+      "islands": [
+        "Great Wyk",
+        "Old Wyk",
+        "Harlaw",
+        "Orkmont",
+        "Saltcliffe",
+        "Blacktyde",
+        "Lonely Light"
+      ],
+      "geography": [
+        "Ironman's Bay",
+        "Nagga's Cradle",
+        "Nagga's Hill",
+        "Red Harbor"
+      ]
+    },
+    "beyond_the_wall_and_wall": {
+      "wall_castles_19": [
+        "Castle Black",
+        "Eastwatch-by-the-Sea",
+        "Shadow Tower",
+        "Nightfort",
+        "Deep Lake",
+        "Queensgate",
+        "Greyguard",
+        "Stonedoor",
+        "Hoarfrost Hill",
+        "Icemark",
+        "Torches",
+        "Long Barrow",
+        "Sable Hall",
+        "Rimegate",
+        "Woodswatch-by-the-Pool",
+        "Oakenshield (Wall)",
+        "Sentinel Stand",
+        "Westwatch-by-the-Bridge",
+        "Greenguard"
+      ],
+      "beyond": [
+        "Hardhome",
+        "Craster's Keep",
+        "Fist of the First Men",
+        "Haunted Forest",
+        "Frostfangs",
+        "Land of Always Winter",
+        "Whitetree",
+        "Milkwater",
+        "Thenn"
+      ]
+    }
+  },
+  "essos": {
+    "free_cities": [
+      "Braavos",
+      "Pentos",
+      "Volantis",
+      "Lys",
+      "Myr",
+      "Tyrosh",
+      "Qohor",
+      "Norvos",
+      "Lorath"
+    ],
+    "free_cities_lost": [
+      "Essaria (ruins, now Vaes Khadokh)"
+    ],
+    "slavers_bay": [
+      "Astapor",
+      "Yunkai",
+      "Meereen",
+      "New Ghis",
+      "Tolos",
+      "Elyria",
+      "Old Ghis (ruins)",
+      "Mantarys",
+      "Isle of Cedars (Ghozai, Velos)",
+      "Bhorash (ruins)"
+    ],
+    "dothraki_sea_and_lhazar": [
+      "Vaes Dothrak",
+      "Womb of the World",
+      "Mother of Mountains",
+      "Lhazar (Hesh, Kosrak, Lhazosh)",
+      "Vaes Khadokh (ruins of Essaria)",
+      "Vaes Khewo (ruins of Sarnath)",
+      "Vaes Diaf (ruins of Hazdahn Mo)",
+      "Vaes Leqse (ruins of Gornath)",
+      "Vojjor Samvi (ruins of Kasath)",
+      "Vaes Athjikhari (ruins of Sallosh)"
+    ],
+    "far_east": [
+      "Qarth",
+      "Vaes Tolorro (ruins)",
+      "Yi Ti (Golden Empire)",
+      "Leng (island)",
+      "Asshai-by-the-Shadow",
+      "Shadow Lands",
+      "Great Moraq"
+    ],
+    "valyria_and_sothoryos": [
+      "Valyria (ruins)",
+      "Sothoryos",
+      "Yeen",
+      "Zamettar",
+      "Naath",
+      "Ulthos"
+    ],
+    "summer_isles_and_other_islands": [
+      "Walano",
+      "Omboru",
+      "Jhala",
+      "Lotus Port",
+      "Tall Trees Town",
+      "Ebonhead",
+      "Stepstones",
+      "Ib (Ibben, Port of Ibben)"
+    ]
+  }
+}

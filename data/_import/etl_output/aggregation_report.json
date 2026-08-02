@@ -1,0 +1,116 @@
+{
+  "categories": {
+    "houses": {
+      "processed": 216,
+      "enrichment": 110,
+      "new": 106,
+      "score_distribution": {
+        "gte_0_7": 0,
+        "0_4_to_0_69": 113,
+        "lt_0_4": 103
+      }
+    },
+    "locations": {
+      "processed": 960,
+      "enrichment": 222,
+      "new": 738,
+      "average_completitudine": 0.39,
+      "min_completitudine": 0.0,
+      "max_completitudine": 0.86,
+      "score_distribution": {
+        "gte_0_7": 59,
+        "0_4_to_0_69": 482,
+        "lt_0_4": 419
+      }
+    },
+    "events": {
+      "processed": 1662,
+      "enrichment": 0,
+      "new": 1662,
+      "average_completitudine": 0.87,
+      "min_completitudine": 0.0,
+      "max_completitudine": 1.0,
+      "score_distribution": {
+        "gte_0_7": 1443,
+        "0_4_to_0_69": 190,
+        "lt_0_4": 29
+      }
+    },
+    "characters": {
+      "processed": 2458,
+      "enrichment": 2249,
+      "new": 209,
+      "average_completitudine": 0.27,
+      "min_completitudine": 0.0,
+      "max_completitudine": 1.0,
+      "score_distribution": {
+        "gte_0_7": 111,
+        "0_4_to_0_69": 332,
+        "lt_0_4": 2015
+      }
+    }
+  },
+  "ambiguous_mappings": [
+    {
+      "id_intern": "HOUSE_CHARLTON",
+      "candidates": [
+        "frey",
+        "westerling"
+      ]
+    },
+    {
+      "id_intern": "HOUSE_PAEGE",
+      "candidates": [
+        "frey",
+        "westerling"
+      ]
+    },
+    {
+      "id_intern": "HOUSE_PARREN",
+      "candidates": [
+        "frey",
+        "westerling"
+      ]
+    },
+    {
+      "id_intern": "LOCATION_GARDA_APEI_CENUSII",
+      "candidates": [
+        "greywater_watch",
+        "greyguard",
+        "stonedoor"
+      ]
+    },
+    {
+      "id_intern": "LOCATION_GATUL",
+      "candidates": [
+        "the_neck",
+        "neck"
+      ]
+    },
+    {
+      "id_intern": "LOCATION_MUSCATURA",
+      "candidates": [
+        "bite",
+        "the_bite"
+      ]
+    },
+    {
+      "id_intern": "LOCATION_PADUREA_ZEILOR",
+      "candidates": [
+        "winterfell",
+        "riverrun"
+      ]
+    },
+    {
+      "id_intern": "LOCATION_ZECE_TURNURI",
+      "candidates": [
+        "ten_towers",
+        "harlaw"
+      ]
+    }
+  ],
+  "skipped_invalid_entities": [
+    "EVENT_",
+    "EVENT_"
+  ]
+}

@@ -1,0 +1,254 @@
+[
+  {
+    "collection": "houses",
+    "id": "stark",
+    "id_intern": "HOUSE_STARK",
+    "nume": "House Stark",
+    "relatie": "vassal_of",
+    "target_id": "HOUSE_LANNISTER",
+    "alias_redirectionat": null,
+    "evidence": {
+      "directie": "subject",
+      "predicat_original": "vassal_of",
+      "predicate": "vassal_of",
+      "valoare": "HOUSE_LANNISTER",
+      "confidence": "canon",
+      "source_book": "Iureșul Săbiilor",
+      "source_fragment": 4,
+      "source_page": "174, 185, 209–229"
+    },
+    "motiv": "Afirmație de vasalitate fără citat/context explicit de subordonare; neafirmată automat.",
+    "resolution": "rejected_manual_decision"
+  },
+  {
+    "collection": "houses",
+    "id": "stark",
+    "id_intern": "HOUSE_STARK",
+    "nume": "House Stark",
+    "relatie": "vassal_of",
+    "target_id": "HOUSE_LANNISTER",
+    "alias_redirectionat": null,
+    "evidence": {
+      "directie": "subject",
+      "predicat_original": "vassal_of",
+      "predicate": "vassal_of",
+      "valoare": "HOUSE_LANNISTER",
+      "confidence": "canon",
+      "source_book": "Iureșul Săbiilor",
+      "source_fragment": 6,
+      "source_page": "5–35 (menţionată frecvent)"
+    },
+    "motiv": "Afirmație de vasalitate fără citat/context explicit de subordonare; neafirmată automat.",
+    "resolution": "rejected_manual_decision"
+  },
+  {
+    "collection": "houses",
+    "id": "stark",
+    "id_intern": "HOUSE_STARK",
+    "nume": "House Stark",
+    "relatie": "vassal_of",
+    "target_id": "HOUSE_MANDERLY",
+    "alias_redirectionat": null,
+    "evidence": {
+      "directie": "subject",
+      "predicat_original": "vassal_of",
+      "predicate": "vassal_of",
+      "valoare": "HOUSE_MANDERLY",
+      "confidence": "canon",
+      "source_book": "Foc și Sânge",
+      "source_fragment": "2.3",
+      "source_page": "292–294, 298–299"
+    },
+    "motiv": "Afirmație de vasalitate fără citat/context explicit de subordonare; neafirmată automat.",
+    "resolution": "rejected_manual_decision"
+  },
+  {
+    "collection": "houses",
+    "id": "lannister",
+    "id_intern": "HOUSE_LANNISTER",
+    "nume": "House Lannister",
+    "relatie": "liege_of",
+    "target_id": "HOUSE_TULLY",
+    "alias_redirectionat": null,
+    "evidence": {
+      "directie": "object",
+      "predicat_original": "vassal_of",
+      "predicate": "liege_of",
+      "valoare": "HOUSE_TULLY",
+      "confidence": "canon",
+      "source_book": "Urzeala Tronurilor",
+      "source_fragment": 9,
+      "source_page": "456, 485–486"
+    },
+    "motiv": "Afirmație de vasalitate fără citat/context explicit de subordonare; neafirmată automat.",
+    "resolution": "rejected_manual_decision"
+  },
+  {
+    "collection": "houses",
+    "id": "lannister",
+    "id_intern": "HOUSE_LANNISTER",
+    "nume": "House Lannister",
+    "relatie": "liege_of",
+    "target_id": "HOUSE_STARK",
+    "alias_redirectionat": null,
+    "evidence": {
+      "directie": "object",
+      "predicat_original": "vassal_of",
+      "predicate": "liege_of",
+      "valoare": "HOUSE_STARK",
+      "confidence": "canon",
+      "source_book": "Iureșul Săbiilor",
+      "source_fragment": 4,
+      "source_page": "174, 185, 209–229"
+    },
+    "motiv": "Afirmație de vasalitate fără citat/context explicit de subordonare; neafirmată automat.",
+    "resolution": "rejected_manual_decision"
+  },
+  {
+    "collection": "houses",
+    "id": "lannister",
+    "id_intern": "HOUSE_LANNISTER",
+    "nume": "House Lannister",
+    "relatie": "liege_of",
+    "target_id": "HOUSE_STARK",
+    "alias_redirectionat": null,
+    "evidence": {
+      "directie": "object",
+      "predicat_original": "vassal_of",
+      "predicate": "liege_of",
+      "valoare": "HOUSE_STARK",
+      "confidence": "canon",
+      "source_book": "Iureșul Săbiilor",
+      "source_fragment": 6,
+      "source_page": "5–35 (menţionată frecvent)"
+    },
+    "motiv": "Afirmație de vasalitate fără citat/context explicit de subordonare; neafirmată automat.",
+    "resolution": "rejected_manual_decision"
+  },
+  {
+    "collection": "houses",
+    "id": "tully",
+    "id_intern": "HOUSE_TULLY",
+    "nume": "House Tully",
+    "relatie": "vassal_of",
+    "target_id": "HOUSE_BLACKWOOD",
+    "alias_redirectionat": null,
+    "evidence": {
+      "directie": "subject",
+      "predicat_original": "vassal_of",
+      "predicate": "vassal_of",
+      "valoare": "HOUSE_BLACKWOOD",
+      "confidence": "canon",
+      "source_book": "Urzeala Tronurilor",
+      "source_fragment": 6,
+      "source_page": "295–296"
+    },
+    "motiv": "Afirmație de vasalitate fără citat/context explicit de subordonare; neafirmată automat.",
+    "resolution": "rejected_manual_decision"
+  },
+  {
+    "collection": "houses",
+    "id": "tully",
+    "id_intern": "HOUSE_TULLY",
+    "nume": "House Tully",
+    "relatie": "vassal_of",
+    "target_id": "HOUSE_LANNISTER",
+    "alias_redirectionat": null,
+    "evidence": {
+      "directie": "subject",
+      "predicat_original": "vassal_of",
+      "predicate": "vassal_of",
+      "valoare": "HOUSE_LANNISTER",
+      "confidence": "canon",
+      "source_book": "Urzeala Tronurilor",
+      "source_fragment": 9,
+      "source_page": "456, 485–486"
+    },
+    "motiv": "Afirmație de vasalitate fără citat/context explicit de subordonare; neafirmată automat.",
+    "resolution": "rejected_manual_decision"
+  },
+  {
+    "collection": "houses",
+    "id": "manderly",
+    "id_intern": "HOUSE_MANDERLY",
+    "nume": "House Manderly",
+    "relatie": "liege_of",
+    "target_id": "HOUSE_STARK",
+    "alias_redirectionat": null,
+    "evidence": {
+      "directie": "object",
+      "predicat_original": "vassal_of",
+      "predicate": "liege_of",
+      "valoare": "HOUSE_STARK",
+      "confidence": "canon",
+      "source_book": "Foc și Sânge",
+      "source_fragment": "2.3",
+      "source_page": "292–294, 298–299"
+    },
+    "motiv": "Afirmație de vasalitate fără citat/context explicit de subordonare; neafirmată automat.",
+    "resolution": "rejected_manual_decision"
+  },
+  {
+    "collection": "houses",
+    "id": "blackwood",
+    "id_intern": "HOUSE_BLACKWOOD",
+    "nume": "House Blackwood",
+    "relatie": "liege_of",
+    "target_id": "HOUSE_BRACKEN",
+    "alias_redirectionat": null,
+    "evidence": {
+      "directie": "object",
+      "predicat_original": "vassal_of",
+      "predicate": "liege_of",
+      "valoare": "HOUSE_BRACKEN",
+      "confidence": "canon",
+      "source_book": "Urzeala Tronurilor",
+      "source_fragment": 6,
+      "source_page": "295–296, 301, 341"
+    },
+    "motiv": "Afirmație de vasalitate fără citat/context explicit de subordonare; neafirmată automat.",
+    "resolution": "rejected_manual_decision"
+  },
+  {
+    "collection": "houses",
+    "id": "blackwood",
+    "id_intern": "HOUSE_BLACKWOOD",
+    "nume": "House Blackwood",
+    "relatie": "liege_of",
+    "target_id": "HOUSE_TULLY",
+    "alias_redirectionat": null,
+    "evidence": {
+      "directie": "object",
+      "predicat_original": "vassal_of",
+      "predicate": "liege_of",
+      "valoare": "HOUSE_TULLY",
+      "confidence": "canon",
+      "source_book": "Urzeala Tronurilor",
+      "source_fragment": 6,
+      "source_page": "295–296"
+    },
+    "motiv": "Afirmație de vasalitate fără citat/context explicit de subordonare; neafirmată automat.",
+    "resolution": "rejected_manual_decision"
+  },
+  {
+    "collection": "houses",
+    "id": "bracken",
+    "id_intern": "HOUSE_BRACKEN",
+    "nume": "House Bracken",
+    "relatie": "vassal_of",
+    "target_id": "HOUSE_BLACKWOOD",
+    "alias_redirectionat": null,
+    "evidence": {
+      "directie": "subject",
+      "predicat_original": "vassal_of",
+      "predicate": "vassal_of",
+      "valoare": "HOUSE_BLACKWOOD",
+      "confidence": "canon",
+      "source_book": "Urzeala Tronurilor",
+      "source_fragment": 6,
+      "source_page": "295–296, 301, 341"
+    },
+    "motiv": "Afirmație de vasalitate fără citat/context explicit de subordonare; neafirmată automat.",
+    "resolution": "rejected_manual_decision"
+  }
+]

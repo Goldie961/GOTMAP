@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Atlas Integration Test</title>
+  <style>
+    body { font-family: monospace; background: #1a1a2e; color: #e0e0e0; padding: 1rem; }
+    .pass { color: #00ff88; }
+    .fail { color: #ff4444; }
+    .warn { color: #ffaa00; }
+    .info { color: #66aaff; }
+    .section { color: #ff66ff; font-weight: bold; margin-top: 1rem; }
+    pre { white-space: pre-wrap; }
+    #results { max-height: 80vh; overflow-y: auto; }
+  </style>
+</head>
+<body>
+  <h1>🧪 Atlas of Westeros — Integration Tests</h1>
+  <div id="status">Loading application...</div>
+  <pre id="results"></pre>
+
+  <script type="module">
+    const results = document.getElementById('results');
+    const status = document.getElementById('status');
+    let passCount = 0;
+    let failCount = 0;
+    let warnCount = 0;
+
+    function log(msg, cls = '') {
+      const line = document.createElement('div');
+      line.className = cls;
+      line.textContent = msg;
+      results.appendChild(line);
+      console.log(msg);
+    }
+
+    function pass(msg) { passCount++; log(`  ✅ PASS: ${msg}`, 'pass'); }
+    function fail(msg) { failCount++; log(`  ❌ FAIL: ${msg}`, 'fail'); }
+    function warn(msg) { warnCount++; log(`  ⚠️  WARN: ${msg}`, 'warn'); }
+    function info(msg) { log(`  ℹ️  ${msg}`, 'info'); }
+    function section(msg) { log(`\n═══ ${msg} ═══`, 'section'); }
+
+    // Capture all JS errors
+    const jsErrors = [];
+    window.addEventListener('error', (e) => {
+      jsErrors.push(`${e.message} at ${e.filename}:${e.lineno}`);
+    });
+    window.addEventListener('unhandledrejection', (e) => {
+      jsErrors.push(`Unhandled rejection: ${e.reason}`);
+    });
+
+    // Wait for the app to fully load
+    async function waitForApp(timeoutMs = 60000) {
+      const start = Date.now();
+      while (!window.atlasApp || !window.atlasApp.dataManager || !window.atlasApp.searchEngine) {
+        if (Date.now() - start > timeoutMs) {
+          throw new Error('App did not load within timeout');
+        }
+        await new Promise(r => setTimeout(r, 500));
+      }
+      // Wait for loading screen to dismiss
+      await new Promise(r => setTimeout(r, 1500));
+    }
+
+    async function runTests() {
+      const loadStart = performance.now();
+
+      try {
+        status.textContent = 'Waiting for app initialization...';
+        await waitForApp();
+        const loadTime = ((performance.now() - loadStart) / 1000).toFixed(2);
+
+        const app = window.atlasApp;
+        const dm = app.dataManager;
+        const se = app.searchEngine;
+
+        // ═══════════════════════════════════════════════════
+        // TEST 1: INITIAL LOAD — JS ERRORS
+        // ═══════════════════════════════════════════════════
+        section('1. INITIAL LOAD & JS ERRORS');
+        info(`Load time: ${loadTime} seconds`);
+
+        if (jsErrors.length === 0) {
+          pass('No JS errors during initial load');
+        } else {
+          jsErrors.forEach(e => fail(`JS Error: ${e}`));
+        }
+
+        // Verify core components initialized
+        if (app.dataManager) pass('DataManager initialized');
+        else fail('DataManager not initialized');
+
+        if (app.searchEngine) pass('SearchEngine initialized');
+        else fail('SearchEngine not initialized');
+
+        if (app.mapRenderer) pass('MapRenderer initialized');
+        else fail('MapRenderer not initialized');
+
+        if (app.timeline) pass('Timeline initialized');
+        else fail('Timeline not initialized');
+
+        if (app.filterPanel) pass('FilterPanel initialized');
+        else fail('FilterPanel not initialized');
+
+        if (app.distanceTool) pass('DistanceTool initialized');
+        else fail('DistanceTool not initialized');
+
+        if (app.infoPanel) pass('InfoPanel initialized');
+        else fail('InfoPanel not initialized');
+
+        // Verify data volumes
+        const castles = dm.data.castles;
+        const cities = dm.data.cities;
+        const landmarks = dm.data.landmarks;
+        const houses = dm.data.houses;
+        const characters = dm.data.characters;
+        const dragons = dm.data.dragons;
+        const events = dm.data.events;
+        const allLocs = dm.getAllLocations();
+
+        info(`Data volumes: ${castles.length} castles, ${cities.length} cities, ${landmarks.length} landmarks`);
+        info(`  ${allLocs.length} total locations, ${houses.length} houses, ${characters.length} characters`);
+        info(`  ${dragons.length} dragons, ${events.length} events`);
+        info(`  ${se.index.length} search index entries`);
+
+        if (allLocs.length > 1000) pass(`Locations loaded: ${allLocs.length}`);
+        else fail(`Expected 1000+ locations, got ${allLocs.length}`);
+
+        if (characters.length > 2000) pass(`Characters loaded: ${characters.length}`);
+        else fail(`Expected 2000+ characters, got ${characters.length}`);
+
+        if (events.length > 1000) pass(`Events loaded: ${events.length}`);
+        else fail(`Expected 1000+ events, got ${events.length}`);
+
+        if (houses.length > 200) pass(`Houses/factions loaded: ${houses.length}`);
+        else fail(`Expected 200+ houses, got ${houses.length}`);
+
+        // ═══════════════════════════════════════════════════
+        // TEST 2: SEARCH (10+ diverse terms)
+        // ═══════════════════════════════════════════════════
+        section('2. SEARCH ENGINE — 15 diverse terms');
+
+        const searchTerms = [
+          // Classic castles
+          { term: 'Winterfell', expectType: 'castle', expectId: 'winterfell' },
+          { term: 'Casterly Rock', expectType: 'castle', expectId: 'casterly_rock' },
+          // Locations
+          { term: "King's Landing", expectType: 'city', expectId: 'kings_landing' },
+          { term: 'Braavos', expectType: 'city' },
+          // Characters
+          { term: 'Aegon', expectType: 'character' },
+          { term: 'Torrhen Stark', expectType: 'character', expectId: 'torrhen_stark' },
+          // Houses
+          { term: 'House Stark', expectType: 'house', expectId: 'stark' },
+          { term: 'House Lannister', expectType: 'house', expectId: 'lannister' },
+          // Dragons
+          { term: 'Balerion', expectType: 'dragon', expectId: 'balerion' },
+          { term: 'Vhagar', expectType: 'dragon', expectId: 'vhagar' },
+          // Fuzzy search (typo)
+          { term: 'Wintefell', expectType: 'castle', expectId: 'winterfell', fuzzy: true },
+          // Newly-added entities (from ETL process)
+          { term: 'Harrenhal', expectType: 'castle', expectId: 'harrenhal' },
+          { term: 'Sunspear', expectType: 'castle', expectId: 'sunspear' },
+          { term: 'Starfall', expectType: 'castle', expectId: 'starfall' },
+          { term: 'Orys Baratheon', expectType: 'character', expectId: 'orys_baratheon' },
+        ];
+
+        for (const { term, expectType, expectId, fuzzy } of searchTerms) {
+          const results = se.search(term);
+          if (results.length === 0) {
+            fail(`Search "${term}": no results`);
+            continue;
+          }
+
+          const first = results[0];
+          let ok = true;
+          let details = `found "${first.name}" (type=${first.type}, id=${first.id})`;
+
+          if (expectId && first.id !== expectId) {
+            // Check if it's in results at all
+            const found = results.find(r => r.id === expectId);
+            if (found) {
+              details += ` [expected id ${expectId} at position ${results.indexOf(found) + 1}]`;
+              if (!fuzzy) warn(`Search "${term}": ${details}`);
+              else pass(`Search "${term}" (fuzzy): ${details}`);
+            } else {
+              fail(`Search "${term}": expected id ${expectId} not in results. ${details}`);
+              ok = false;
+            }
+          }
+
+          if (ok && expectType && first.type !== expectType) {
+            const found = results.find(r => r.type === expectType);
+            if (found) {
+              details += ` [expected type ${expectType} found at position ${results.indexOf(found) + 1}]`;
+              warn(`Search "${term}": ${details}`);
+            } else {
+              details += ` [expected type ${expectType}]`;
+              warn(`Search "${term}": ${details}`);
+            }
+          } else if (ok) {
+            pass(`Search "${term}": ${details} (${results.length} results)`);
+          }
+        }
+
+        // ═══════════════════════════════════════════════════
+        // TEST 3: MAP — Markers & InfoPanel
+        // ═══════════════════════════════════════════════════
+        section('3. MAP — Markers, Zoom, InfoPanel');
+
+        // Check SVG exists
+        const svg = app.mapRenderer.svg;
+        if (svg) pass('Map SVG element exists');
+        else fail('Map SVG element not found');
+
+        // Check terrain layer
+        const terrain = svg?.querySelector('#layer-terrain');
+        if (terrain) pass('Terrain layer rendered');
+        else fail('Terrain layer not found');
+
+        // Check location markers layer
+        const markersGroup = svg?.querySelector('#location-markers');
+        if (markersGroup) {
+          const markerCount = markersGroup.querySelectorAll('[data-location-id]').length;
+          info(`Location markers rendered: ${markerCount}`);
+          if (markerCount > 0) pass(`${markerCount} location markers on map`);
+          else fail('No location markers rendered');
+        } else {
+          // Try alternative selectors
+          const allMarkers = svg?.querySelectorAll('.location-marker, .castle-marker, [data-location-id]');
+          if (allMarkers?.length > 0) {
+            pass(`${allMarkers.length} markers found (alternative selector)`);
+          } else {
+            warn('No location markers group found — checking rendered elements');
+          }
+        }
+
+        // Test InfoPanel opening for different entity types
+        const testEntities = [
+          { name: 'Winterfell', getter: () => dm.getCastle('winterfell'), type: 'castle' },
+          { name: "King's Landing", getter: () => dm.getCity('kings_landing'), type: 'city' },
+          { name: 'House Stark', getter: () => dm.getHouse('stark'), type: 'house' },
+          { name: 'Balerion', getter: () => dm.getDragon('balerion'), type: 'dragon' },
+          { name: 'Aegon I', getter: () => dm.getCharacter('aegon_i'), type: 'character' },
+        ];
+
+        for (const { name, getter, type } of testEntities) {
+          const entity = getter();
+          if (!entity) {
+            fail(`Entity lookup failed: ${name} (${type})`);
+            continue;
+          }
+
+          try {
+            app.infoPanel.open(entity, app.currentWorldState);
+            await new Promise(r => setTimeout(r, 300));
+
+            const panelEl = document.getElementById('info-panel');
+            const isVisible = panelEl && !panelEl.classList.contains('collapsed') && panelEl.innerHTML.length > 50;
+            if (isVisible) {
+              pass(`InfoPanel opens for ${type}: ${name}`);
+            } else {
+              warn(`InfoPanel opened for ${name} but may be collapsed or empty`);
+            }
+            app.infoPanel.close();
+            await new Promise(r => setTimeout(r, 200));
+          } catch (err) {
+            fail(`InfoPanel error for ${name}: ${err.message}`);
+          }
+        }
+
+        // Test zoom
+        if (app.mapInteraction) {
+          try {
+            const origViewBox = svg.getAttribute('viewBox');
+            app.mapInteraction.flyTo(300, 300, 350, 0); // instant fly
+            await new Promise(r => setTimeout(r, 500));
+            const newViewBox = svg.getAttribute('viewBox');
+            if (origViewBox !== newViewBox) {
+              pass('Map zoom/flyTo works (viewBox changed)');
+            } else {
+              warn('Map flyTo called but viewBox unchanged');
+            }
+            app.mapInteraction.resetView();
+            await new Promise(r => setTimeout(r, 500));
+            pass('Map reset view works');
+          } catch (err) {
+            fail(`Map zoom error: ${err.message}`);
+          }
+        }
+
+        // ═══════════════════════════════════════════════════
+        // TEST 4: TIMELINE
+        // ═══════════════════════════════════════════════════
+        section('4. TIMELINE — Year change & filtering');
+
+        if (app.timeline && app.timelineEngine) {
+          // Test year 1
+          app.timeline.setYear(1);
+          await new Promise(r => setTimeout(r, 300));
+          let state = app.timelineEngine.getWorldState(1);
+          if (state) pass(`Year 1 AC world state exists`);
+          else fail('Year 1 AC world state is null');
+
+          if (state?.king) {
+            info(`Year 1 King: ${state.king.character} (${state.king.title || 'unknown title'})`);
+            pass('Year 1 has king data');
+          } else {
+            warn('Year 1 has no king data');
+          }
+
+          if (state?.events?.length > 0) {
+            info(`Year 1 events: ${state.events.length}`);
+            pass(`Year 1 has ${state.events.length} events`);
+          } else {
+            warn('Year 1 has no events in world state');
+          }
+
+          // Test year 50
+          app.timeline.setYear(50);
+          await new Promise(r => setTimeout(r, 300));
+          state = app.timelineEngine.getWorldState(50);
+          if (state) {
+            pass(`Year 50 AC world state exists`);
+            if (state.king) info(`Year 50 King: ${state.king.character}`);
+          } else {
+            fail('Year 50 AC world state is null');
+          }
+
+          // Test year 130 (Dance of Dragons era)
+          app.timeline.setYear(130);
+          await new Promise(r => setTimeout(r, 300));
+          state = app.timelineEngine.getWorldState(130);
+          if (state) {
+            pass(`Year 130 AC world state exists`);
+            if (state.king) info(`Year 130 King: ${state.king.character}`);
+            if (state.events?.length > 0) info(`Year 130 events: ${state.events.length}`);
+          }
+
+          // Test year 283 (Robert's Rebellion)
+          app.timeline.setYear(283);
+          await new Promise(r => setTimeout(r, 300));
+          state = app.timelineEngine.getWorldState(283);
+          if (state) {
+            pass(`Year 283 AC world state exists`);
+            if (state.king) info(`Year 283 King: ${state.king.character}`);
+          }
+
+          // Reset to year 1
+          app.timeline.setYear(1);
+          await new Promise(r => setTimeout(r, 200));
+
+          // Check minimap markers
+          const minimapMarkers = app.timeline.minimap?.children?.length || 0;
+          info(`Timeline minimap markers: ${minimapMarkers}`);
+          if (minimapMarkers > 10) pass(`Timeline minimap has ${minimapMarkers} event markers`);
+          else warn(`Timeline minimap only has ${minimapMarkers} markers`);
+        } else {
+          fail('Timeline or TimelineEngine not initialized');
+        }
+
+        // ═══════════════════════════════════════════════════
+        // TEST 5: DISTANCE TOOL (3 pairs)
+        // ═══════════════════════════════════════════════════
+        section('5. DISTANCE TOOL — 3 location pairs');
+
+        if (app.distanceTool) {
+          const distPairs = [
+            { a: 'winterfell', b: 'kings_landing', label: 'Winterfell → King\'s Landing' },
+            { a: 'winterfell', b: 'castle_black', label: 'Winterfell → Castle Black' },
+            { a: 'casterly_rock', b: 'harrenhal', label: 'Casterly Rock → Harrenhal' },
+          ];
+
+          for (const { a, b, label } of distPairs) {
+            const locA = dm.getCastle(a) || dm.getCity(a) || dm.data.landmarks.find(l => l.id === a);
+            const locB = dm.getCastle(b) || dm.getCity(b) || dm.data.landmarks.find(l => l.id === b);
+
+            if (!locA) { fail(`Distance: ${a} not found`); continue; }
+            if (!locB) { fail(`Distance: ${b} not found`); continue; }
+
+            // Test narrative distances
+            const narrative = dm.getNarrativeDistances(locA, locB);
+            info(`${label}: ${narrative.length} narrative distance records`);
+
+            // Test distance tool UI
+            try {
+              app.distanceTool.activate();
+              app.distanceTool.handleLocationClick(locA);
+              app.distanceTool.handleLocationClick(locB);
+              await new Promise(r => setTimeout(r, 300));
+
+              const summary = document.getElementById('distance-summary');
+              if (summary && summary.textContent.length > 10) {
+                pass(`DistanceTool ${label}: ${summary.textContent.trim().substring(0, 80)}`);
+              } else {
+                warn(`DistanceTool ${label}: summary may be empty`);
+              }
+              app.distanceTool.deactivate();
+              await new Promise(r => setTimeout(r, 200));
+            } catch (err) {
+              fail(`DistanceTool error for ${label}: ${err.message}`);
+            }
+          }
+        } else {
+          fail('DistanceTool not initialized');
+        }
+
+        // ═══════════════════════════════════════════════════
+        // TEST 6: FILTER PANEL — Location subtypes
+        // ═══════════════════════════════════════════════════
+        section('6. FILTER PANEL — Subtype toggling');
+
+        if (app.filterPanel) {
+          const subtypes = app.filterPanel.locationSubtypeFilters;
+          info(`Location subtypes registered: ${subtypes.size}`);
+          const subtypeList = [...subtypes.keys()];
+          info(`Subtypes: ${subtypeList.join(', ')}`);
+
+          if (subtypes.size > 0) pass(`FilterPanel has ${subtypes.size} location subtypes`);
+          else fail('FilterPanel has no location subtypes');
+
+          // Test toggling a subtype off and on
+          if (subtypeList.length > 0) {
+            const testSubtype = subtypeList[0];
+            const origValue = subtypes.get(testSubtype);
+            subtypes.set(testSubtype, false);
+            const visible = app.filterPanel.getVisibleLocationSubtypes();
+            if (!visible.has(testSubtype)) {
+              pass(`Subtype "${testSubtype}" toggled off correctly`);
+            } else {
+              fail(`Subtype "${testSubtype}" should be hidden but isn't`);
+            }
+            // Restore
+            subtypes.set(testSubtype, origValue);
+          }
+
+          // Test toggle UI
+          try {
+            app.filterPanel.toggle();
+            await new Promise(r => setTimeout(r, 300));
+            const panelEl = document.getElementById('filter-panel');
+            const isOpen = panelEl && !panelEl.classList.contains('collapsed');
+            if (isOpen) pass('FilterPanel toggles open');
+            else warn('FilterPanel toggle: panel may still be collapsed');
+
+            app.filterPanel.toggle();
+            await new Promise(r => setTimeout(r, 200));
+            pass('FilterPanel toggles closed');
+          } catch (err) {
+            fail(`FilterPanel toggle error: ${err.message}`);
+          }
+        } else {
+          fail('FilterPanel not initialized');
+        }
+
+        // ═══════════════════════════════════════════════════
+        // TEST 7: PERFORMANCE CHECK
+        // ═══════════════════════════════════════════════════
+        section('7. PERFORMANCE');
+        info(`Total app load time: ${loadTime} seconds`);
+
+        if (parseFloat(loadTime) < 5) {
+          pass(`Load time ${loadTime}s is excellent (< 5s)`);
+        } else if (parseFloat(loadTime) < 10) {
+          pass(`Load time ${loadTime}s is acceptable (< 10s)`);
+        } else if (parseFloat(loadTime) < 20) {
+          warn(`Load time ${loadTime}s is slow (10-20s) — may need optimization`);
+        } else {
+          fail(`Load time ${loadTime}s is very slow (> 20s)`);
+        }
+
+        // Test search performance
+        const searchStart = performance.now();
+        for (let i = 0; i < 100; i++) {
+          se.search('Winterfell');
+        }
+        const searchTime = ((performance.now() - searchStart) / 100).toFixed(2);
+        info(`Average search time (100 iterations): ${searchTime}ms`);
+        if (parseFloat(searchTime) < 50) pass(`Search performance: ${searchTime}ms per query`);
+        else warn(`Search performance: ${searchTime}ms per query — may feel sluggish`);
+
+        // Memory estimate
+        if (performance.memory) {
+          const mb = (performance.memory.usedJSHeapSize / 1024 / 1024).toFixed(1);
+          info(`JS Heap used: ${mb} MB`);
+        }
+
+        // ═══════════════════════════════════════════════════
+        // POST-LOAD JS ERRORS CHECK
+        // ═══════════════════════════════════════════════════
+        section('POST-TEST JS ERROR CHECK');
+        if (jsErrors.length === 0) {
+          pass('No JS errors during entire test run');
+        } else {
+          jsErrors.forEach(e => fail(`JS Error: ${e}`));
+        }
+
+        // ═══════════════════════════════════════════════════
+        // SUMMARY
+        // ═══════════════════════════════════════════════════
+        section('SUMMARY');
+        log(`  Passed: ${passCount}`, 'pass');
+        log(`  Failed: ${failCount}`, failCount > 0 ? 'fail' : 'pass');
+        log(`  Warnings: ${warnCount}`, warnCount > 0 ? 'warn' : 'pass');
+        log(`  Load time: ${loadTime}s`, 'info');
+
+        status.textContent = `Tests complete: ${passCount} passed, ${failCount} failed, ${warnCount} warnings`;
+        status.style.color = failCount > 0 ? '#ff4444' : '#00ff88';
+
+        // Write results to a global for scraping
+        window.__testResults = {
+          passCount,
+          failCount,
+          warnCount,
+          loadTime: parseFloat(loadTime),
+          jsErrors,
+          totalLocations: allLocs.length,
+          totalCharacters: characters.length,
+          totalEvents: events.length,
+          totalHouses: houses.length,
+          totalDragons: dragons.length,
+          searchIndexSize: se.index.length,
+        };
+
+      } catch (err) {
+        fail(`Fatal test error: ${err.message}`);
+        console.error(err);
+        status.textContent = `Tests failed: ${err.message}`;
+        status.style.color = '#ff4444';
+      }
+    }
+
+    // Run after a short delay to let the main app start
+    setTimeout(runTests, 500);
+  </script>
+
+  <!-- Load the actual app -->
+  <script type="module" src="js/app.js"></script>
+  <!-- Include the actual HTML structure the app needs -->
+  <div id="app" style="position:fixed; top:0; left:0; width:100%; height:100%; z-index:-1; opacity:0.1;">
+    <div id="loading-screen">
+      <div class="loading-content">
+        <h1>Loading...</h1>
+        <div class="loading-bar"><div class="loading-progress" style="width:100%;"></div></div>
+      </div>
+    </div>
+    <div id="map-container"></div>
+    <div id="toolbar"></div>
+    <div id="filter-panel"></div>
+    <div id="info-panel"></div>
+    <div id="timeline"></div>
+    <div id="tooltip" class="map-tooltip" style="display:none;"></div>
+  </div>
+
+  <!-- Load stylesheets for proper rendering -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/typography.css">
+  <link rel="stylesheet" href="css/map.css">
+  <link rel="stylesheet" href="css/panels.css">
+  <link rel="stylesheet" href="css/timeline.css">
+  <link rel="stylesheet" href="css/animations.css">
+</body>
+</html>

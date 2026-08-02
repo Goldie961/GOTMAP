@@ -1,0 +1,1009 @@
+[
+  {
+    "id": "sothoryos_continent",
+    "name": "Sothoryos",
+    "type": "landmark",
+    "continent": "sothoryos",
+    "region": "far_lands",
+    "canon_status": "inferred",
+    "source": "https://awoiaf.westeros.org/index.php/Sothoryos",
+    "tags": [
+      "continent",
+      "landmark",
+      "sothoryos",
+      "unknown_zone"
+    ],
+    "ownership_history": [],
+    "metadata": {
+      "type": "landmark",
+      "description": "A massive, mysterious continent covered in dense jungle, infested with deadly diseases like green fever and red death, and home to hostile wildlife. Westerosi maesters have only mapped its northern shorelines.",
+      "narratorText": "Sothoryos — a green hell of plague, monsters, and wild brindled men. The Valyrian dragonlord Jaenara Belaerys flew her dragon Terrax south over the continent for three years and found only endless jungle, declaring Sothoryos to be as large as Essos, a land without end."
+    },
+    "coordinates": {
+      "x": 801.8,
+      "y": 911.3
+    }
+  },
+  {
+    "id": "zamettar",
+    "name": "Zamettar",
+    "type": "city",
+    "continent": "sothoryos",
+    "region": "far_lands",
+    "canon_status": "inferred",
+    "source": "https://awoiaf.westeros.org/index.php/Zamettar",
+    "tags": [
+      "city",
+      "ruins",
+      "sothoryos"
+    ],
+    "ownership_history": [
+      {
+        "year": -3000,
+        "house": null,
+        "faction": "ghiscari_empire",
+        "lord": "Unknown Ghiscari Governor",
+        "status": "ruined",
+        "event": "Established by the Old Ghiscari Empire at the mouth of the Zamoyos. It is the only colony that lasted more than a generation before being consumed by plague and reclaimed by the jungle.",
+        "canon": "inferred",
+        "source": "https://awoiaf.westeros.org/index.php/Zamettar"
+      }
+    ],
+    "metadata": {
+      "type": "city",
+      "description": "A grand walled city established by the Old Ghiscari Empire. Once a thriving trading port at the mouth of the Zamoyos, it was abandoned to the jungle and is now a haunted ruin of crumbling stone.",
+      "narratorText": "Zamettar once flew the banners of the Harpy of Ghis, but the jungle always reclaims its own. Its walls are now choked with vines, and its harbor lies empty, a monument to the folly of men who tried to tame Sothoryos."
+    }
+  },
+  {
+    "id": "yeen",
+    "name": "Yeen",
+    "type": "city",
+    "continent": "sothoryos",
+    "region": "far_lands",
+    "canon_status": "unknown",
+    "source": "https://awoiaf.westeros.org/index.php/Yeen",
+    "tags": [
+      "city",
+      "ruins",
+      "prehistoric",
+      "sothoryos"
+    ],
+    "ownership_history": [
+      {
+        "year": -10000,
+        "house": null,
+        "faction": "unknown_builders",
+        "lord": "Unknown prehistoric entity",
+        "status": "ruined",
+        "event": "A city built of massive blocks of oily black stone, older than history. The Rhoynar under Princess Nymeria attempted to settle here, but every settler mysteriously vanished in a single night.",
+        "canon": "unknown",
+        "source": "https://awoiaf.westeros.org/index.php/Yeen"
+      }
+    ],
+    "metadata": {
+      "type": "city",
+      "description": "An ancient, prehistoric city built of massive blocks of oily black stone that seems to swallow light. Described in legends as a place of horror where nothing grows and no birds sing.",
+      "narratorText": "Even the jungle will not touch Yeen. Built of black stone that remains dry in the wettest monsoon, its origin is forgotten. Princess Nymeria left a colony of Rhoynar here; when she returned, she found only empty streets. The city had devoured them."
+    }
+  },
+  {
+    "id": "gogossos",
+    "name": "Gogossos",
+    "type": "city",
+    "continent": "sothoryos",
+    "region": "far_lands",
+    "canon_status": "inferred",
+    "source": "https://awoiaf.westeros.org/index.php/Gogossos",
+    "tags": [
+      "city",
+      "ruins",
+      "prison",
+      "valyrian"
+    ],
+    "ownership_history": [
+      {
+        "year": -500,
+        "house": null,
+        "faction": "valyrian_freehold",
+        "lord": "Valyrian Governor",
+        "status": "intact",
+        "event": "Founded by the Valyrian Freehold as a penal colony named Gorgai. It became a center of horrific blood magic, flesh-shaping, and beast-breeding experiments.",
+        "canon": "inferred",
+        "source": "https://awoiaf.westeros.org/index.php/Gogossos"
+      },
+      {
+        "year": -102,
+        "house": null,
+        "faction": "corsairs",
+        "lord": "Corsair Kings",
+        "status": "intact",
+        "event": "Following the Doom of Valyria, the prisoners and guards seize control, renaming the city Gogossos. It becomes a wealthy, brutal slave port known as the Tenth Free City.",
+        "canon": "inferred",
+        "source": "https://awoiaf.westeros.org/index.php/Gogossos"
+      },
+      {
+        "year": -25,
+        "house": null,
+        "faction": "red_death",
+        "lord": "None",
+        "status": "ruined",
+        "event": "The Red Death — a catastrophic hemorrhagic plague — sweeps out of the slave pens of Gogossos. It wipes out 90% of the population, leaving the city a silent, cursed graveyard.",
+        "canon": "inferred",
+        "source": "https://awoiaf.westeros.org/index.php/Gogossos"
+      }
+    ],
+    "metadata": {
+      "type": "city",
+      "description": "Originally Gorgai under Valyria, this penal colony became Gogossos. It was notorious for flesh-shaping magic and beast-hybrid breeding. The city was completely depopulated by the horrific Red Death plague.",
+      "narratorText": "Gogossos is a cursed name. Here, Valyrian sorcerers mated human slave women with beasts to shape chimeras. When the Red Death came, the screams of the dying could be heard across the seas. Now, only basilisks crawl through its black slave pits."
+    }
+  },
+  {
+    "id": "gorosh",
+    "name": "Gorosh",
+    "type": "landmark",
+    "continent": "sothoryos",
+    "region": "far_lands",
+    "canon_status": "inferred",
+    "source": "https://awoiaf.westeros.org/index.php/Gorosh",
+    "tags": [
+      "landmark",
+      "ruins",
+      "ghiscari",
+      "sothoryos"
+    ],
+    "ownership_history": [
+      {
+        "year": -3000,
+        "house": null,
+        "faction": "ghiscari_empire",
+        "lord": "Unknown Ghiscari Governor",
+        "status": "ruined",
+        "event": "Established by the Old Ghiscari as a penal colony on Wyvern Point. It eventually failed due to disease and wyvern attacks.",
+        "canon": "inferred",
+        "source": "https://awoiaf.westeros.org/index.php/Gorosh"
+      }
+    ],
+    "metadata": {
+      "type": "landmark",
+      "description": "A ruined penal colony established by the Old Ghiscari on the rocky shores of Wyvern Point. It was eventually abandoned to the wildlife and elements.",
+      "narratorText": "Gorosh was built of cold stone on the cliffs of Wyvern Point. The prisoners sent here did not have to worry about execution — the yellow plagues and the wyverns that hunt the skies did the work for their masters."
+    }
+  },
+  {
+    "id": "yi_ti_empire",
+    "name": "Golden Empire of Yi Ti",
+    "type": "landmark",
+    "continent": "essos",
+    "region": "far_lands",
+    "canon_status": "inferred",
+    "source": "https://awoiaf.westeros.org/index.php/Yi_Ti",
+    "tags": [
+      "empire",
+      "landmark",
+      "essos",
+      "unknown_zone"
+    ],
+    "ownership_history": [],
+    "metadata": {
+      "type": "landmark",
+      "description": "An ancient, vast, and wealthy empire in the far east of Essos, ruled by the God-Emperor. Renowned for its silk, jade, and massive cities. In Westeros, it is seen as a land of legends.",
+      "narratorText": "Yi Ti is an empire of ten thousand gods and a hundred dynasties. While Westerosi kings fought in mud and timber, the God-Emperors of Yin built palaces of jade and gold that cover entire hillsides. Yet behind its splendor lies the shadow of the Grey Waste."
+    }
+  },
+  {
+    "id": "yin",
+    "name": "Yin",
+    "type": "city",
+    "continent": "essos",
+    "region": "far_lands",
+    "canon_status": "inferred",
+    "source": "https://awoiaf.westeros.org/index.php/Yin",
+    "tags": [
+      "city",
+      "capital",
+      "yi_ti"
+    ],
+    "ownership_history": [
+      {
+        "year": 1,
+        "house": null,
+        "faction": "god_emperor_of_yi_ti",
+        "lord": "Bu Gai (God-Emperor)",
+        "status": "intact",
+        "event": "Yin remains the ancient capital and primary seat of the God-Emperor Bu Gai of the Golden Empire of Yi Ti.",
+        "canon": "inferred",
+        "source": "https://awoiaf.westeros.org/index.php/Yin"
+      }
+    ],
+    "metadata": {
+      "type": "city",
+      "description": "The ancient and sprawling capital city of the Golden Empire of Yi Ti. A massive port on the Jade Sea, housing the immense palace complex of the God-Emperor.",
+      "narratorText": "Yin is a city of gold and jade, larger than King's Landing and Oldtown combined. The palace of the God-Emperor is so grand that a horseman could ride through its corridors for a day and never see the same hall twice."
+    },
+    "coordinates": {
+      "x": 1144.3,
+      "y": 786.6
+    }
+  },
+  {
+    "id": "jinqi",
+    "name": "Jinqi",
+    "type": "city",
+    "continent": "essos",
+    "region": "far_lands",
+    "canon_status": "inferred",
+    "source": "https://awoiaf.westeros.org/index.php/Jinqi",
+    "tags": [
+      "city",
+      "yi_ti"
+    ],
+    "ownership_history": [
+      {
+        "year": 1,
+        "house": null,
+        "faction": "god_emperor_of_yi_ti",
+        "lord": "Unknown Local Governor",
+        "status": "intact",
+        "event": "Jinqi serves as a key inland trade hub and regional capital under the authority of the God-Emperor.",
+        "canon": "inferred",
+        "source": "https://awoiaf.westeros.org/index.php/Jinqi"
+      }
+    ],
+    "metadata": {
+      "type": "city",
+      "description": "A major inland city in the Golden Empire of Yi Ti. It serves as a regional capital and trade center, surrounded by fertile plains and terraced hills.",
+      "narratorText": "Jinqi is a city of high walls and terraced gardens, situated far from the coast. Here, the local lords hold court in pavilions of lacquered wood, their wealth drawn from the vast trade roads that bisect the empire."
+    },
+    "coordinates": {
+      "x": 1296.4,
+      "y": 770.7
+    }
+  },
+  {
+    "id": "five_forts",
+    "name": "The Five Forts",
+    "type": "landmark",
+    "continent": "essos",
+    "region": "far_lands",
+    "canon_status": "inferred",
+    "source": "https://awoiaf.westeros.org/index.php/Five_Forts",
+    "tags": [
+      "landmark",
+      "fortress",
+      "prehistoric",
+      "yi_ti"
+    ],
+    "ownership_history": [
+      {
+        "year": -8000,
+        "house": null,
+        "faction": "pearl_emperor_era",
+        "lord": "Unknown Garrison Commander",
+        "status": "intact",
+        "event": "According to legends, the Five Forts were built by the Pearl Emperor of the Great Empire of the Dawn to guard against demons emerging from the Grey Waste.",
+        "canon": "unknown",
+        "source": "https://awoiaf.westeros.org/index.php/Five_Forts"
+      }
+    ],
+    "metadata": {
+      "type": "landmark",
+      "description": "A line of five colossal forts built of single blocks of fused black stone, situated between the Bleeding Sea and the Mountains of the Morn. Each fort is capable of housing ten thousand men.",
+      "narratorText": "Older than the Golden Empire itself, the Five Forts tower a thousand feet high. They are built of fused black stone, a craft lost to the ages. Scribes say they were built to keep out the demons of the cold wastes — and whatever was feared back then was vast indeed."
+    }
+  },
+  {
+    "id": "asshai",
+    "name": "Asshai-by-the-Shadow",
+    "type": "city",
+    "continent": "essos",
+    "region": "far_lands",
+    "canon_status": "inferred",
+    "source": "https://awoiaf.westeros.org/index.php/Asshai",
+    "tags": [
+      "city",
+      "magic",
+      "shadow_lands"
+    ],
+    "ownership_history": [
+      {
+        "year": -5000,
+        "house": null,
+        "faction": "shadowbinders",
+        "lord": "None (Anarchy/Mages)",
+        "status": "intact",
+        "event": "Asshai stands at the end of the known world, built of oily black stone. No one knows who built it. No children live here, and no animals can survive its waters.",
+        "canon": "unknown",
+        "source": "https://awoiaf.westeros.org/index.php/Asshai"
+      }
+    ],
+    "metadata": {
+      "type": "city",
+      "description": "A vast, dark city built entirely of oily black stone that absorbs light. Situated at the mouth of the Ash River in the Shadow Lands, it is the center of the world's dark magical arts.",
+      "notable_features": [
+        "Ash River",
+        "Shadowbinders",
+        "Oily black stone",
+        "Jade Sea gate"
+      ],
+      "narratorText": "Asshai-by-the-Shadow is a city of silence. Its streets are vast, yet people walk them masked and alone. No child is ever born in Asshai, and no beast will drink the oily waters of the Ash. It is a city that belongs to the dead and those who speak to them."
+    }
+  },
+  {
+    "id": "shadow_lands",
+    "name": "The Shadow Lands",
+    "type": "landmark",
+    "continent": "essos",
+    "region": "far_lands",
+    "canon_status": "unknown",
+    "source": "https://awoiaf.westeros.org/index.php/Shadow_Lands",
+    "tags": [
+      "landmark",
+      "mountain",
+      "magic",
+      "unknown_zone"
+    ],
+    "ownership_history": [],
+    "metadata": {
+      "type": "landmark",
+      "description": "A mountainous, dark region beyond Asshai. It is believed to be the home of shadowbinders, demons, and ghost grass. Westerosi maesters have never mapped its interior.",
+      "narratorText": "The Shadow Lands are a realm of perpetual twilight, choked by ghost grass that glows with a pale light and kills all other plants. It is said that dragons first came from the Shadow, hatched from a moon that cracked, and that they will one day return."
+    }
+  },
+  {
+    "id": "ulthos_continent",
+    "name": "Ulthos",
+    "type": "landmark",
+    "continent": "ulthos",
+    "region": "far_lands",
+    "canon_status": "unknown",
+    "source": "https://awoiaf.westeros.org/index.php/Ulthos",
+    "tags": [
+      "continent",
+      "landmark",
+      "ulthos",
+      "unknown_zone"
+    ],
+    "ownership_history": [],
+    "metadata": {
+      "type": "landmark",
+      "description": "A vast, densely forested landmass at the very edge of the known world. Separated from the Shadow Lands by the Saffron Straits. Its size, population, and geography remain completely unknown.",
+      "narratorText": "Ulthos is a shadow on the edge of maps. Westerosi sailors only see its dark, jungle-choked coastlines across the Saffron Straits. None have traveled inland and returned, and the maesters debate whether it is a continent or a massive island."
+    },
+    "coordinates": {
+      "x": 1443,
+      "y": 965.1
+    }
+  },
+  {
+    "id": "saffron_straits",
+    "name": "Saffron Straits",
+    "type": "landmark",
+    "continent": "essos",
+    "region": "far_lands",
+    "canon_status": "inferred",
+    "source": "https://awoiaf.westeros.org/index.php/Saffron_Straits",
+    "tags": [
+      "strait",
+      "landmark",
+      "waterway"
+    ],
+    "ownership_history": [],
+    "metadata": {
+      "type": "landmark",
+      "description": "The passage of water separating the Shadow Lands from the northern coast of Ulthos. It is considered the easternmost boundary of the known world.",
+      "narratorText": "The Saffron Straits connect the Jade Sea to the unknown waters of the far east. To cross the straits is to leave the known world behind. Only the most daring spice merchants sail these dark passages, seeking the secrets of Asshai."
+    }
+  },
+  {
+    "id": "essaria",
+    "name": "Essaria",
+    "type": "ruins",
+    "continent": "essos",
+    "region": "far_lands",
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Essaria",
+    "tags": [
+      "ruins",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "astapor",
+    "name": "Astapor",
+    "type": "city",
+    "continent": "essos",
+    "region": "far_lands",
+    "coordinates": null,
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Astapor",
+    "tags": [
+      "city",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "yunkai",
+    "name": "Yunkai",
+    "type": "city",
+    "continent": "essos",
+    "region": "far_lands",
+    "coordinates": null,
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Yunkai",
+    "tags": [
+      "city",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "meereen",
+    "name": "Meereen",
+    "type": "city",
+    "continent": "essos",
+    "region": "far_lands",
+    "coordinates": null,
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Meereen",
+    "tags": [
+      "city",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "new_ghis",
+    "name": "New Ghis",
+    "type": "castle",
+    "continent": "essos",
+    "region": "far_lands",
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/New_Ghis",
+    "tags": [
+      "castle",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null,
+    "coordinates": {
+      "x": 826.3,
+      "y": 755.1
+    }
+  },
+  {
+    "id": "tolos",
+    "name": "Tolos",
+    "type": "castle",
+    "continent": "essos",
+    "region": "far_lands",
+    "coordinates": null,
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Tolos",
+    "tags": [
+      "castle",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "elyria",
+    "name": "Elyria",
+    "type": "castle",
+    "continent": "essos",
+    "region": "far_lands",
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Elyria",
+    "tags": [
+      "castle",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null,
+    "coordinates": {
+      "x": 708.3,
+      "y": 660.5
+    }
+  },
+  {
+    "id": "old_ghis",
+    "name": "Old Ghis",
+    "type": "ruins",
+    "continent": "essos",
+    "region": "far_lands",
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Old_Ghis",
+    "tags": [
+      "ruins",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "mantarys",
+    "name": "Mantarys",
+    "type": "castle",
+    "continent": "essos",
+    "region": "far_lands",
+    "coordinates": null,
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Mantarys",
+    "tags": [
+      "castle",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "isle_of_cedars",
+    "name": "Isle of Cedars",
+    "type": "castle",
+    "continent": "essos",
+    "region": "far_lands",
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Isle_of_Cedars",
+    "tags": [
+      "castle",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "bhorash",
+    "name": "Bhorash",
+    "type": "ruins",
+    "continent": "essos",
+    "region": "far_lands",
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Bhorash",
+    "tags": [
+      "ruins",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "vaes_dothrak",
+    "name": "Vaes Dothrak",
+    "type": "castle",
+    "continent": "essos",
+    "region": "far_lands",
+    "coordinates": null,
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Vaes_Dothrak",
+    "tags": [
+      "castle",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "womb_of_the_world",
+    "name": "Womb of the World",
+    "type": "castle",
+    "continent": "essos",
+    "region": "far_lands",
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Womb_of_the_World",
+    "tags": [
+      "castle",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "mother_of_mountains",
+    "name": "Mother of Mountains",
+    "type": "castle",
+    "continent": "essos",
+    "region": "far_lands",
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Mother_of_Mountains",
+    "tags": [
+      "castle",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "lhazar",
+    "name": "Lhazar",
+    "type": "landmark",
+    "continent": "essos",
+    "region": "far_lands",
+    "coordinates": null,
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Lhazar",
+    "tags": [
+      "landmark",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "vaes_khadokh",
+    "name": "Vaes Khadokh",
+    "type": "ruins",
+    "continent": "essos",
+    "region": "far_lands",
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Vaes_Khadokh",
+    "tags": [
+      "ruins",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "vaes_khewo",
+    "name": "Vaes Khewo",
+    "type": "ruins",
+    "continent": "essos",
+    "region": "far_lands",
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Vaes_Khewo",
+    "tags": [
+      "ruins",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "vaes_diaf",
+    "name": "Vaes Diaf",
+    "type": "ruins",
+    "continent": "essos",
+    "region": "far_lands",
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Vaes_Diaf",
+    "tags": [
+      "ruins",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "vaes_leqse",
+    "name": "Vaes Leqse",
+    "type": "ruins",
+    "continent": "essos",
+    "region": "far_lands",
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Vaes_Leqse",
+    "tags": [
+      "ruins",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "vojjor_samvi",
+    "name": "Vojjor Samvi",
+    "type": "ruins",
+    "continent": "essos",
+    "region": "far_lands",
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Vojjor_Samvi",
+    "tags": [
+      "ruins",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "vaes_athjikhari",
+    "name": "Vaes Athjikhari",
+    "type": "ruins",
+    "continent": "essos",
+    "region": "far_lands",
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Vaes_Athjikhari",
+    "tags": [
+      "ruins",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "qarth",
+    "name": "Qarth",
+    "type": "city",
+    "continent": "essos",
+    "region": "far_lands",
+    "coordinates": null,
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Qarth",
+    "tags": [
+      "city",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "vaes_tolorro",
+    "name": "Vaes Tolorro",
+    "type": "ruins",
+    "continent": "essos",
+    "region": "far_lands",
+    "coordinates": null,
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Vaes_Tolorro",
+    "tags": [
+      "ruins",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "yi_ti",
+    "name": "Yi Ti",
+    "type": "castle",
+    "continent": "essos",
+    "region": "far_lands",
+    "coordinates": null,
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Yi_Ti",
+    "tags": [
+      "castle",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "leng",
+    "name": "Leng",
+    "type": "castle",
+    "continent": "essos",
+    "region": "far_lands",
+    "coordinates": null,
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Leng",
+    "tags": [
+      "castle",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "great_moraq",
+    "name": "Great Moraq",
+    "type": "castle",
+    "continent": "essos",
+    "region": "far_lands",
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Great_Moraq",
+    "tags": [
+      "castle",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "valyria",
+    "name": "Valyria",
+    "type": "ruins",
+    "continent": "essos",
+    "region": "far_lands",
+    "coordinates": null,
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Valyria",
+    "tags": [
+      "ruins",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "naath",
+    "name": "Naath",
+    "type": "castle",
+    "continent": "essos",
+    "region": "far_lands",
+    "coordinates": null,
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Naath",
+    "tags": [
+      "castle",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "walano",
+    "name": "Walano",
+    "type": "castle",
+    "continent": "essos",
+    "region": "far_lands",
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Walano",
+    "tags": [
+      "castle",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "omboru",
+    "name": "Omboru",
+    "type": "castle",
+    "continent": "essos",
+    "region": "far_lands",
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Omboru",
+    "tags": [
+      "castle",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "jhala",
+    "name": "Jhala",
+    "type": "castle",
+    "continent": "essos",
+    "region": "far_lands",
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Jhala",
+    "tags": [
+      "castle",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "lotus_port",
+    "name": "Lotus Port",
+    "type": "castle",
+    "continent": "essos",
+    "region": "far_lands",
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Lotus_Port",
+    "tags": [
+      "castle",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null,
+    "coordinates": {
+      "x": 435.5,
+      "y": 851.3
+    }
+  },
+  {
+    "id": "tall_trees_town",
+    "name": "Tall Trees Town",
+    "type": "castle",
+    "continent": "essos",
+    "region": "far_lands",
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Tall_Trees_Town",
+    "tags": [
+      "castle",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null,
+    "coordinates": {
+      "x": 472.2,
+      "y": 862.8
+    }
+  },
+  {
+    "id": "ebonhead",
+    "name": "Ebonhead",
+    "type": "castle",
+    "continent": "essos",
+    "region": "far_lands",
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Ebonhead",
+    "tags": [
+      "castle",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  },
+  {
+    "id": "stepstones",
+    "name": "Stepstones",
+    "type": "landmark",
+    "continent": "essos",
+    "region": "far_lands",
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Stepstones",
+    "tags": [
+      "landmark",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null,
+    "coordinates": {
+      "x": 447.8,
+      "y": 748.5
+    }
+  },
+  {
+    "id": "ib",
+    "name": "Ib",
+    "type": "landmark",
+    "continent": "essos",
+    "region": "far_lands",
+    "coordinates": null,
+    "ownership_history": [],
+    "canon_status": "canon",
+    "source": "https://awoiaf.westeros.org/index.php/Ib",
+    "tags": [
+      "landmark",
+      "far_lands"
+    ],
+    "crest": null,
+    "crest_is_custom": null
+  }
+]

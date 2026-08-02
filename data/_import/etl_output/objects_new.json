@@ -1,0 +1,5640 @@
+[
+  {
+    "id": "acul",
+    "nume": "Acul",
+    "categorie": "obiect (armă)",
+    "material": null,
+    "owned_by": [],
+    "given_by": [
+      {
+        "donator": "Eddard",
+        "donator_nume": "Eddard",
+        "an_aproximativ": 298,
+        "sursa": {
+          "source_book": "Urzeala Tronurilor",
+          "source_fragment": null,
+          "source_page": "463,558–559,748,756–757"
+        },
+        "confidence": "unknown"
+      }
+    ],
+    "made_by": [
+      {
+        "creator": "PERSON_MIKKEN",
+        "creator_nume": "Mikken",
+        "sursa": {
+          "source_book": "Urzeala Tronurilor",
+          "source_fragment": null,
+          "source_page": "463,558–559,748,756–757"
+        },
+        "confidence": "canon"
+      }
+    ],
+    "descrieri": [
+      "Sabie mică făcută de fierarul Mikken pentru Arya Stark, la cererea lui Jon",
+      "Menționată retrospectiv de Jon ca sfat pentru autoapărare",
+      "sabia Aryei",
+      "Ascunsă într-un cufăr cu haine, recuperată de Arya în timpul fugii din Debarcaderul Regelui — Fragment 10, pag",
+      "558–559",
+      "Descrisă ulterior ca sabie „braavosiană\", purtată ascunsă la cingătoare sub mantie — Fragment 14, pag",
+      "748, 756–757"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": 17,
+        "source_page": "959"
+      },
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "85,92–94"
+      },
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": null
+      },
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "4"
+      },
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": "463,558–559,748,756–757"
+      }
+    ],
+    "id_intern": "OBJECT_ACUL"
+  },
+  {
+    "id": "aducatoarea_de_lumina",
+    "nume": "Aducătoarea de Lumină",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": null
+      },
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "11"
+      }
+    ],
+    "id_intern": "OBJECT_ADUCATOAREA_DE_LUMINA"
+  },
+  {
+    "id": "aducatoarea_luminii",
+    "nume": "Aducătoarea Luminii (Lightbringer)",
+    "categorie": "obiect (armă magică)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Sabia magică a lui Stannis Baratheon",
+      "Fragment 2: sclipește în culori (roșu, galben, portocaliu)",
+      "Fragment 4: lumină foarte puternică, dar rece la atingere (spre deosebire de legenda originală — vezi „Legenda Azor Ahai/Nissa Nissa\")",
+      "Fragment 14: strălucirea ei luminează noaptea",
+      "Fragment 22 (scrisoarea lui Ramsay Bolton): menționată ca fiind luată de Ramsay Bolton, conform revendicărilor din scrisoare"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "85,196,203–204,743,1229,1231"
+      }
+    ],
+    "id_intern": "OBJECT_ADUCATOAREA_LUMINII"
+  },
+  {
+    "id": "analele_centaurului_negru",
+    "nume": "Analele Centaurului Negru",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "carte a Septonului Jorquen, despre Lord Comandantul Orbert Caswell"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "71"
+      }
+    ],
+    "id_intern": "OBJECT_ANALELE_CENTAURULUI_NEGRU"
+  },
+  {
+    "id": "apusul",
+    "nume": "Apusul",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "sabia lui Ser Harras Harlaw"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "253"
+      }
+    ],
+    "id_intern": "OBJECT_APUSUL"
+  },
+  {
+    "id": "arakh",
+    "nume": "Arakh",
+    "categorie": "obiect (armă) —  mai multe săbii distincte de acest tip, nu se unifică automat",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Sabie curbată dothraki, jumătate sabie jumătate seceră",
+      "Toate armele — inclusiv ale lui Khal Drogo — sunt predate sclavilor la intrarea în Vaes Dothrak, unde e interzisă purtarea lor — Fragment 8, pag",
+      "404",
+      "Folosită de războinicii dothraki în luptă — Fragment 14, pag",
+      "741–742"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "421–422,1198,1211"
+      },
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 16,
+        "source_page": null
+      },
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": "404,741–742"
+      }
+    ],
+    "id_intern": "OBJECT_ARAKH"
+  },
+  {
+    "id": "armura_comandata_de_jon_arryn",
+    "nume": "Armura comandată de Jon Arryn",
+    "categorie": "obiect",
+    "material": "Din argint alb, cu un șoim de jasp și o lună din sidef",
+    "owned_by": [],
+    "descrieri": [
+      "Lordul Stannis l-a ajutat pe Jon Arryn să aleagă designul"
+    ],
+    "sursa": "Urzeala Tronurilor",
+    "surse": [
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": 5,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_ARMURA_COMANDATA_DE_JON_ARRYN"
+  },
+  {
+    "id": "armura_daruita_lui_ser_barristan_de_regina_daenerys",
+    "nume": "Armura dăruită lui Ser Barristan de regina Daenerys",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Cămaşă de zale aurită, cu platoşă gravată, „tare precum gheaţa şi strălucitoare ca zăpada tocmai ninsă\"; include coif cu aripi de dragon ornamentate (nepurtat în această noapte); centură din piele albă cu catarame aurite; mantie albă lungă"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "1191–1192"
+      }
+    ],
+    "id_intern": "OBJECT_ARMURA_DARUITA_LUI_SER_BARRISTAN_DE_REGINA_DAENERYS"
+  },
+  {
+    "id": "armura_de_lemn_vopsit",
+    "nume": "Armura de lemn vopsit (Tyrion și Penny)",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [
+      {
+        "proprietar": "PERSON_PENNY",
+        "proprietar_nume": "Penny",
+        "an_aproximativ": 302,
+        "sursa": {
+          "source_book": "Dansul Dragonilor",
+          "source_fragment": null,
+          "source_page": "703,707"
+        },
+        "confidence": "canon"
+      }
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "703,707"
+      }
+    ],
+    "id_intern": "OBJECT_ARMURA_DE_LEMN_VOPSIT"
+  },
+  {
+    "id": "armura_lui_roose_bolton",
+    "nume": "Armura lui Roose Bolton",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Discuri în formă de capete de om ţipând, mantie roz brodată cu picături de sânge, panglici roşii de mătase la coif"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": 7,
+        "source_page": "7"
+      }
+    ],
+    "id_intern": "OBJECT_ARMURA_LUI_ROOSE_BOLTON"
+  },
+  {
+    "id": "armura_noua_a_lui_dunk",
+    "nume": "Armura nouă a lui Dunk (de la Cap de Oțel)",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Cămașă de zale cu împletitură dublată (fiecare za legată de alte două — protecție superioară față de împletitura simplă); coif cu calotă rotunjită (nu plată — pentru a face lama unei arme să alunece), fără vizor (doar găuri pentru aer; vizorul considerat un punct vulnerabil), fără panaș — descris ca „modest\""
+    ],
+    "sursa": "Cavalerul celor 7 Regate",
+    "surse": [
+      {
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": 1,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_ARMURA_NOUA_A_LUI_DUNK"
+  },
+  {
+    "id": "armura_verde_a_lui_renly",
+    "nume": "Armura verde a lui Renly",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Armură cu cerbi aurii, confecționată de Tobho Mott, care deține secretul imprimării culorii verde-închis direct în oțel"
+    ],
+    "sursa": "Urzeala Tronurilor",
+    "surse": [
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": 6,
+        "source_page": "288"
+      }
+    ],
+    "id_intern": "OBJECT_ARMURA_VERDE_A_LUI_RENLY"
+  },
+  {
+    "id": "averea_lui_dunk_si_egg",
+    "nume": "Averea lui Dunk și Egg",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "22 de gologani, 3 stele, un cerb și un granat vechi ciobit (la momentul din"
+    ],
+    "sursa": "Cavalerul celor 7 Regate",
+    "surse": [
+      {
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": 6,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_AVEREA_LUI_DUNK_SI_EGG"
+  },
+  {
+    "id": "balerion",
+    "nume": "Balerion",
+    "categorie": "obiect / ființă (dragon)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "[dragonul lui Aegon, cel mai mare dintre cei trei, unul dintre cei cinci dragoni originari care au zburat din Valyria cu Aenar Surghiunitul, singurul supraviețuitor din acel grup până în vremea lui Aegon.] — Fragment 1.1 [Balerion (Teroarea Neagră)** — dragonul lui Maegor cel Crud, cel mai mare și bătrân dragon existent; luat de Aerea la fuga ei.] — Fragment 2.2 [cel mai mare și mai bătrân dintre cei trei dragoni călăriți de Aegon Cuceritorul și surorile lui; singurul care venise pe Piatra Dragonului odată cu Aenar Surghiunitul și Daenys Visătoarea (cel mai tânăr dintre cei cinci dragoni aduși atunci); probabil singura creatură vie care a văzut Valyria înainte de Urgie.] — Fragment 2.3 [Balerion Spaima Neagră** — menționat ca fostul cel mai mare dragon al Casei Targaryen, mort înaintea lui Vhagar (care i-a urmat ca cel mai masiv dragon rămas).] — Fragment 4.2"
+    ],
+    "sursa": "Foc și Sânge",
+    "surse": [
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "12,16,227,262–263"
+      }
+    ],
+    "id_intern": "OBJECT_BALERION"
+  },
+  {
+    "id": "barda_executarii_lui_karstark",
+    "nume": "Barda executării lui Karstark",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "**Obiect:** barda folosită la execuția lui Karstark — grea și tăioasă, dar a necesitat trei lovituri pentru decapitare completă"
+    ],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "5"
+      }
+    ],
+    "id_intern": "OBJECT_BARDA_EXECUTARII_LUI_KARSTARK"
+  },
+  {
+    "id": "batalia_de_la_tumbleton_dragonii_seasmoke_si_vermithor",
+    "nume": "Bătălia de la Tumbleton — Dragonii Seasmoke și Vermithor",
+    "categorie": "obiect / ființă (dragon)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "dragoni morți, ale căror capete au fost curățate și expuse public în piața din Tumbleton de lady Sharis Footly, ca atracție turistică (taxă de vizionare)"
+    ],
+    "sursa": "Foc și Sânge",
+    "surse": [
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_BATALIA_DE_LA_TUMBLETON_DRAGONII_SEASMOKE_SI_VERMITHOR"
+  },
+  {
+    "id": "batul_folosit_de_beth_oarba",
+    "nume": "Bățul folosit de Beth Oarba",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Lung de un metru, subţire, flexibil, piele înfăşurată în jurul mânerului la 30 cm de vârf"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "801–802"
+      }
+    ],
+    "id_intern": "OBJECT_BATUL_FOLOSIT_DE_BETH_OARBA"
+  },
+  {
+    "id": "biciul_arcul_si_marele_arakh_daruri_de_nunta_ale_lui_drogo_catre_daenerys",
+    "nume": "Biciul, arcul și marele arakh — daruri de nuntă ale lui Drogo către Daenerys",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Bici cu mâner de argint, arc din os de dragon (menționate deja generic într-o listă de arme — Fragment 2) și marele arakh cu mâner și lamă din aur — cele trei daruri de nuntă primite de Daenerys de la Khal Drogo; redistribuite ulterior ca daruri către Jhogo, Aggo și Rakharo"
+    ],
+    "sursa": "Urzeala Tronurilor",
+    "surse": [
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": "827–829"
+      }
+    ],
+    "id_intern": "OBJECT_BICIUL_ARCUL_SI_MARELE_ARAKH_DARURI_DE_NUNTA_ALE_LUI_DROGO_CATRE_DAENERYS"
+  },
+  {
+    "id": "biciul_folosit_pentru_domolirea_dragonului_drogon",
+    "nume": "Biciul folosit pentru domolirea dragonului Drogon",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [
+      {
+        "proprietar": "PERSON_DAEMON_BLACKFYRE",
+        "proprietar_nume": "Daemon Blackfyre",
+        "an_aproximativ": 302,
+        "sursa": {
+          "source_book": "Dansul Dragonilor",
+          "source_fragment": null,
+          "source_page": "1207,1215"
+        },
+        "confidence": "canon"
+      }
+    ],
+    "descrieri": [
+      "Quentyn îl ia cu el pentru a încerca să domine dragonii",
+      "Fragmentul 23 precizează: metodă de control diferită de cea a „stăpânilor dragonilor din Valyria\", care foloseau farmece şi coarne vrăjite"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "1207,1215"
+      }
+    ],
+    "id_intern": "OBJECT_BICIUL_FOLOSIT_PENTRU_DOMOLIREA_DRAGONULUI_DROGON"
+  },
+  {
+    "id": "blazoane_vazute_incidental_pe_armuri_pradate_la_duskendale",
+    "nume": "Blazoane văzute incidental pe armuri prădate la Duskendale (case nordice neidentificate explicit în text)",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "pumn înmănușat în zale, un elan, un soare alb, o secure cu două tăișuri — precum și blazonul Casei Leygood (fulgere) și al Casei Ambrose (furnici)"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "124"
+      }
+    ],
+    "id_intern": "OBJECT_BLAZOANE_VAZUTE_INCIDENTAL_PE_ARMURI_PRADATE_LA_DUSKENDALE"
+  },
+  {
+    "id": "blazonul_casei_greyjoy",
+    "nume": "Blazonul Casei Greyjoy",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "kraken auriu pe fond negru; deviza „Noi nu secerăm\" (Anexă"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "250"
+      }
+    ],
+    "id_intern": "OBJECT_BLAZONUL_CASEI_GREYJOY"
+  },
+  {
+    "id": "blazonul_casei_lannister_pe_armura_lui_tywin",
+    "nume": "Blazonul Casei Lannister pe armura lui Tywin",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Trei lei turnați în aur cu ochi de rubin (pereche de leoaice pe umeri, un mascul pe coif); armura emailată stacojiu-închis cu gravuri aurii"
+    ],
+    "sursa": "Urzeala Tronurilor",
+    "surse": [
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": 13,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_BLAZONUL_CASEI_LANNISTER_PE_ARMURA_LUI_TYWIN"
+  },
+  {
+    "id": "blazonul_casei_piper",
+    "nume": "Blazonul Casei Piper",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "o fecioară dansând, goală"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "59"
+      }
+    ],
+    "id_intern": "OBJECT_BLAZONUL_CASEI_PIPER"
+  },
+  {
+    "id": "blazonul_casei_velaryon",
+    "nume": "Blazonul Casei Velaryon (Calul de Mare)",
+    "categorie": "obiect / blazon",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "calul de mare"
+    ],
+    "sursa": "Foc și Sânge",
+    "surse": [
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_BLAZONUL_CASEI_VELARYON"
+  },
+  {
+    "id": "blazonul_combinat_al_castelului_darry",
+    "nume": "Blazonul combinat al Castelului Darry",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "leul Lannisterilor alături de plugarul Casei Darry, decizie atribuită lui Ser Kevan Lannister"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_BLAZONUL_COMBINAT_AL_CASTELULUI_DARRY"
+  },
+  {
+    "id": "brasardele_de_aur_ale_lui_tormund",
+    "nume": "Brasardele de aur ale lui Tormund",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Moștenire de familie (de la tatăl său, care le-a primit de la bunicul lui Tormund), gravate cu rune vechi ale Primilor Oameni; date lui Jon ca semn al înțelegerii"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "947"
+      }
+    ],
+    "id_intern": "OBJECT_BRASARDELE_DE_AUR_ALE_LUI_TORMUND"
+  },
+  {
+    "id": "brosa_lui_bran_stark",
+    "nume": "Broșa lui Bran Stark",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 6,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_BROSA_LUI_BRAN_STARK"
+  },
+  {
+    "id": "brosa_lui_loras_tyrell",
+    "nume": "Broșa lui Loras Tyrell",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Broșa lui Loras — trandafir din aur moale pe frunze de jad"
+    ],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "2"
+      }
+    ],
+    "id_intern": "OBJECT_BROSA_LUI_LORAS_TYRELL"
+  },
+  {
+    "id": "brosa_lui_ser_balon_swann",
+    "nume": "Broșa lui Ser Balon Swann",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Două lebede (una din fildeş, una din onix), poziționate ca și cum s-ar lupta"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": 12,
+        "source_page": "12"
+      }
+    ],
+    "id_intern": "OBJECT_BROSA_LUI_SER_BALON_SWANN"
+  },
+  {
+    "id": "cannibal",
+    "nume": "Cannibal (Canibalul)",
+    "categorie": "obiect / ființă (dragon)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "numele dragonului sălbatic asociat cu Corlys Velaryon (zboară deasupra înmormântării lui, posibil doar legendă ulterioară)"
+    ],
+    "sursa": "Foc și Sânge",
+    "surse": [
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_CANNIBAL"
+  },
+  {
+    "id": "carte_artefact",
+    "nume": "Carte/artefact",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "„Cartea cărților pierdute\", scrisă de Arhimaesterul Marwyn — pretinde a fi găsit trei pagini din „Semne și prevestiri\", viziuni scrise de fiica fecioară a lui Aenar Targaryen, dinainte de Urgia Valyriei"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "152"
+      }
+    ],
+    "id_intern": "OBJECT_CARTE_ARTEFACT"
+  },
+  {
+    "id": "carte_istorica",
+    "nume": "Carte istorică",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "„Istoria oamenilor de fier\" de Haereg — sursă pentru istoricul plebiscitelor, citată de Rodrik Harlaw"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 3,
+        "source_page": "154,154–155"
+      }
+    ],
+    "id_intern": "OBJECT_CARTE_ISTORICA"
+  },
+  {
+    "id": "carte_simbol_steaua_in_sapte_colturi",
+    "nume": "Carte / Simbol „Steaua în Șapte Colțuri”",
+    "categorie": "carte",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Text religios al Credinței celor Șapte; conține povestea lui Hugor al Colinelor",
+      "Adusă lui Davos pentru exersarea cititului",
+      "Mama lui Tyene (septă) i-o citea în leagăn (Fragment 13-2)",
+      "Citită uneori lui Cersei de Septa Scolera, împreună cu „Cartea sfintelor rugăciuni\"",
+      "cartea sacră a Credinței celor Șapte",
+      "Septonul Meribald o recită din memorie, nu știe să scrie/citească",
+      "cartea sfântă a Credinței celor Șapte, citată în discuții despre supunere",
+      "[text sacru al Credinței celor Șapte, citat de propovăduitori și oponenți] — Fragment 2.1 [carte religioasă a Credinței celor Șapte, citată de rege și de Septonul Barth în contextul dreptului primei nopți.] — Fragment 2.3"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "516,688,969"
+      },
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 7,
+        "source_page": "41,151,157,208,213"
+      },
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": null
+      },
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": 2,
+        "source_page": "189,213–214"
+      }
+    ],
+    "id_intern": "OBJECT_CARTE_SIMBOL_STEAUA_IN_SAPTE_COLTURI"
+  },
+  {
+    "id": "cartea_alba",
+    "nume": "Cartea Albă",
+    "categorie": "carte",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Registrul faptelor Gărzii Regelui",
+      "Barristan Selmy o citește/răsfoiește; conține fapte ale predecesorilor, unii eroi, alții „molâi, pungași sau laşi\"",
+      "Fragmentul 23 adaugă că Barristan citește acolo despre predecesorii care au slujit ca Mână",
+      "registrul faptelor Gărzii Regale (trădarea lui Toyne, minciunile lui Lucamore consemnate; nimic despre Prințul Lewyn)",
+      "Pagina: 179–180",
+      "**Cartea Albă:** registrul Gărzii Regale în care fiecare Lord Comandant/cavaler își consemnează faptele",
+      "Jaime scrie propria biografie la finalul fragmentului"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "992"
+      },
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 4,
+        "source_page": "217–218,97,224"
+      },
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "14"
+      }
+    ],
+    "id_intern": "OBJECT_CARTEA_ALBA"
+  },
+  {
+    "id": "cartea_alba_a_garzii_regelui",
+    "nume": "Cartea Albă a Gărzii Regelui",
+    "categorie": "obiect / cronică",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "registru în care sunt înscrise faptele/soarta cavalerilor Gărzii Regelui"
+    ],
+    "sursa": "Foc și Sânge",
+    "surse": [
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_CARTEA_ALBA_A_GARZII_REGELUI"
+  },
+  {
+    "id": "cartea_obscena_pentru_tinerele_fete_spre_luare_aminte",
+    "nume": "Cartea obscenă „Pentru tinerele fete, spre luare aminte”",
+    "categorie": "obiect / carte",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "„Păcatele trupești”, „Nobili și grăjdari”, „Povestea unei stricate”, „Nemernicia bărbaților”): presupusă mărturie a lui Coryanne Wylde, apărută la ~40 de ani după evenimente, circulă în bordeluri și biblioteci private"
+    ],
+    "sursa": "Foc și Sânge",
+    "surse": [
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "176–180,189–191,196"
+      }
+    ],
+    "id_intern": "OBJECT_CARTEA_OBSCENA_PENTRU_TINERELE_FETE_SPRE_LUARE_AMINTE"
+  },
+  {
+    "id": "cartea_veche_legata_in_piele",
+    "nume": "Cartea veche legată în piele (arsă de Roose Bolton)",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 16,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_CARTEA_VECHE_LEGATA_IN_PIELE"
+  },
+  {
+    "id": "cartea_vietile_celor_patru_regi",
+    "nume": "Cartea „Viețile celor patru regi”",
+    "categorie": "obiect (carte)",
+    "material": null,
+    "owned_by": [],
+    "given_by": [
+      {
+        "donator": "HOUSE_BARATHEON",
+        "donator_nume": "Casa Baratheon",
+        "an_aproximativ": 300,
+        "sursa": {
+          "source_book": "Iureșul Săbiilor",
+          "source_fragment": null,
+          "source_page": "12"
+        },
+        "confidence": "canon"
+      }
+    ],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "12"
+      }
+    ],
+    "id_intern": "OBJECT_CARTEA_VIETILE_CELOR_PATRU_REGI"
+  },
+  {
+    "id": "castana",
+    "nume": "Castană",
+    "categorie": "obiect (cal)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Alt cal al lui Dunk, oferit apoi lui Egg",
+      "Ulterior, mort în Dorne (pe drumul prin Trecătoarea Prințului spre Vaith)"
+    ],
+    "sursa": "Cavalerul celor 7 Regate",
+    "surse": [
+      {
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_CASTANA"
+  },
+  {
+    "id": "ceai_al_lunii",
+    "nume": "Ceai al lunii",
+    "categorie": "obicei/obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Contraceptiv/abortiv menţionat de Asha Greyjoy"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "453"
+      }
+    ],
+    "id_intern": "OBJECT_CEAI_AL_LUNII"
+  },
+  {
+    "id": "ceai_de_luna",
+    "nume": "Ceai de lună",
+    "categorie": "obiect (remediu medicinal)",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "3"
+      }
+    ],
+    "id_intern": "OBJECT_CEAI_DE_LUNA"
+  },
+  {
+    "id": "ceaslovul_fiilor_secunzi",
+    "nume": "Ceaslovul Fiilor Secunzi",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Registru legat în piele cu balamale de fier, al patrulea volum, conţinând nume şi date de peste un secol; tradiţia semnării cu sânge pentru noii recruţi"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": 21,
+        "source_page": "21"
+      }
+    ],
+    "id_intern": "OBJECT_CEASLOVUL_FIILOR_SECUNZI"
+  },
+  {
+    "id": "cele_trei_oua_de_dragon_furate_de_elissa_farman",
+    "nume": "Cele trei ouă de dragon furate de Elissa Farman",
+    "categorie": "obiect / artefact",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "[Ouăle de dragon furate** — trei ouă depuse de Dreamfyre pe Insula Frumoasă, eclozate ulterior la Piatra Dragonului; furate de Elissa Farman; obiect central al unei rețele extinse de spionaj în Orașele Libere.] — Fragment 2.2 [subiect central al negocierii Barth–Sealord; niciodată recuperate; probabil vândute Lordului Mării al Braavosului.] — Fragment 2.3"
+    ],
+    "sursa": "Foc și Sânge",
+    "surse": [
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": 2,
+        "source_page": "227,232–236"
+      }
+    ],
+    "id_intern": "OBJECT_CELE_TREI_OUA_DE_DRAGON_FURATE_DE_ELISSA_FARMAN"
+  },
+  {
+    "id": "celulele_ceresti",
+    "nume": "„Celulele cerești\"",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Temnițele Eyriei — celule fără un perete complet, podeaua înclinată ușor spre marginea deschisă spre cer; renumite pentru a-i înnebuni pe prizonieri"
+    ],
+    "sursa": "Urzeala Tronurilor",
+    "surse": [
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": 8,
+        "source_page": "424–425"
+      }
+    ],
+    "id_intern": "OBJECT_CELULELE_CERESTI"
+  },
+  {
+    "id": "celulele_de_gheata_de_la_castelul_negru",
+    "nume": "Celulele de gheață de la Castelul Negru",
+    "categorie": "obiect / loc",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Săpate la baza Zidului, variază de la mici la foarte mici; unele atât de strâmte încât prizonierii nu se pot nici aşeza"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_CELULELE_DE_GHEATA_DE_LA_CASTELUL_NEGRU"
+  },
+  {
+    "id": "cerbul_de_argint",
+    "nume": "Cerbul de argint",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Unitate monetară; oferit ca „preț al sângelui\" pentru rana lui Wolmer"
+    ],
+    "sursa": "Cavalerul celor 7 Regate",
+    "surse": [
+      {
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": 5,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_CERBUL_DE_ARGINT"
+  },
+  {
+    "id": "ciocanul_de_lupta_al_lui_hugh_ciocanul",
+    "nume": "Ciocanul de luptă al lui Hugh Ciocanul",
+    "categorie": "obiect (armă)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Ciocanul de luptă** — arma preferată a lui Hugh Ciocanul, ucidea cu lovituri zdrobitoare"
+    ],
+    "sursa": "Foc și Sânge",
+    "surse": [
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_CIOCANUL_DE_LUPTA_AL_LUI_HUGH_CIOCANUL"
+  },
+  {
+    "id": "ciocanul_regelui_robert",
+    "nume": "Ciocanul Regelui Robert",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "cea mai puternică navă de război din Westeros (dromon)",
+      "reper de comparație pentru nava-comandant nouă"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "46"
+      },
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_CIOCANUL_REGELUI_ROBERT"
+  },
+  {
+    "id": "clopotelul_de_argint_al_lui_daenerys",
+    "nume": "Clopoțelul de argint al lui Daenerys",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "**Clopoţelul de argint din părul lui Dany:** clinchetul lui evocă povestea Celor Nemuritori de la Qarth"
+    ],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "6"
+      }
+    ],
+    "id_intern": "OBJECT_CLOPOTELUL_DE_ARGINT_AL_LUI_DAENERYS"
+  },
+  {
+    "id": "coiful_cap_de_caine",
+    "nume": "Coiful \"cap de câine\"",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "al lui Sandor Clegane, purtat de un tâlhar necunoscut la hanul de la răscruce"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "120-123"
+      }
+    ],
+    "id_intern": "OBJECT_COIFUL_CAP_DE_CAINE"
+  },
+  {
+    "id": "coiful_cu_cap_de_taur_al_lui_gendry",
+    "nume": "Coiful cu cap de taur al lui Gendry",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Confecționat de Gendry însuși, din oțel neprelucrat dar bine modelat, cu două coarne mari și curbate",
+      "Gendry refuză să-l vândă lui Ned (\"L-am făcut pentru mine\")"
+    ],
+    "sursa": "Urzeala Tronurilor",
+    "surse": [
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": 6,
+        "source_page": "289–290"
+      }
+    ],
+    "id_intern": "OBJECT_COIFUL_CU_CAP_DE_TAUR_AL_LUI_GENDRY"
+  },
+  {
+    "id": "coiful_vechi_al_lui_bran_obiect_adus",
+    "nume": "Coiful vechi al lui Bran — obiect, adus",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 5,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_COIFUL_VECHI_AL_LUI_BRAN_OBIECT_ADUS"
+  },
+  {
+    "id": "coifurile_fiilor_razboinicului",
+    "nume": "Coifurile Fiilor Războinicului",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Mari, cu cristale, mantii ca de curcubeu pe spate, platoşă de argint lustruit"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": 21,
+        "source_page": "21"
+      }
+    ],
+    "id_intern": "OBJECT_COIFURILE_FIILOR_RAZBOINICULUI"
+  },
+  {
+    "id": "colanul_colierul_de_maester",
+    "nume": "Colanul / colierul de Maester",
+    "categorie": "obicei / obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Lanț greu purtat strâns în jurul gâtului, fiecare verigă confecționată dintr-un metal diferit, simbolizând un tip de învățătură — aur pentru bani/socoteli, argint pentru vindecări, fier pentru război etc",
+      "Cel al lui Pycelle are două rânduri, foarte elaborat, cu pietre prețioase",
+      "Pycelle menționează că încă își „făurea colanul\" pe vremea tinereții, adăugând verigi pentru fiecare specializare învățată la Citadelă"
+    ],
+    "sursa": "Urzeala Tronurilor",
+    "surse": [
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": "467"
+      }
+    ],
+    "id_intern": "OBJECT_COLANUL_COLIERUL_DE_MAESTER"
+  },
+  {
+    "id": "colanul_de_maester",
+    "nume": "Colanul de maester",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Lanț din multe metale, purtat la gât, semn al pregătirii unui maester",
+      "Simbolul statutului de maester la Citadelă",
+      "Sam se teme să nu fie nevoit să „taie cadavre\" pentru a-l obține",
+      "**Colan de maester:** maesterii renunţă la numele Caselor lor la făurirea colanului"
+    ],
+    "sursa": "Cavalerul celor 7 Regate",
+    "surse": [
+      {
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": 6,
+        "source_page": null
+      },
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": 3,
+        "source_page": "3"
+      },
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 1,
+        "source_page": null
+      },
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "15"
+      }
+    ],
+    "id_intern": "OBJECT_COLANUL_DE_MAESTER"
+  },
+  {
+    "id": "colanul_de_maester_al_lui_aemon",
+    "nume": "Colanul de maester al lui Aemon",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "lanț purtat la gât, cu zale din diferite metale (fier, oțel, aramă, argint, aur, plumb, cositor etc.), fiecare reprezentând o disciplină de studiu stăpânită"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 1,
+        "source_page": "79–82,89,241"
+      }
+    ],
+    "id_intern": "OBJECT_COLANUL_DE_MAESTER_AL_LUI_AEMON"
+  },
+  {
+    "id": "colanul_de_sclavie_al_maesterilor",
+    "nume": "Colanul de sclavie al maesterilor",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "perceput de Aeron Greyjoy ca un simbol de robie, disprețuit de oamenii de fier"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_COLANUL_DE_SCLAVIE_AL_MAESTERILOR"
+  },
+  {
+    "id": "colierul_cheliei",
+    "nume": "Colierul Cheliei",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 2,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_COLIERUL_CHELIEI"
+  },
+  {
+    "id": "coltul_leului",
+    "nume": "Colțul Leului",
+    "categorie": "obiect (sabie)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "**Colțul Leului** — sabie pe care Arya i-a aruncat-o Sansei în Trident (amintire)",
+      "Sabia Prințului Joffrey, din oțel albastru cu două tăișuri, mâner înfășurat în piele și un cap de leu din aur la capăt; forjată la castel special pentru un băiat de 12 ani; aruncată de Arya în râul Trident"
+    ],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "12"
+      },
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": 3,
+        "source_page": "151–155"
+      }
+    ],
+    "id_intern": "OBJECT_COLTUL_LEULUI"
+  },
+  {
+    "id": "compendiul_jadului",
+    "nume": "Compendiul jadului",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "carte scrisă de Colloquo Votar din Volantis, despre Marea de Jad"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "75,82–83"
+      }
+    ],
+    "id_intern": "OBJECT_COMPENDIUL_JADULUI"
+  },
+  {
+    "id": "context",
+    "nume": "Context",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Brienne observă că, deși aproape de Iazul Fecioarelor, acești oameni au fost neatinși de război"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 7,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_CONTEXT"
+  },
+  {
+    "id": "copacul_inima_din_winterfell",
+    "nume": "Copacul-inimă din Winterfell",
+    "categorie": "religie / obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Chip sculptat, ochi roșii, considerat sacru"
+    ],
+    "sursa": "Urzeala Tronurilor",
+    "surse": [
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": 11,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_COPACUL_INIMA_DIN_WINTERFELL"
+  },
+  {
+    "id": "corabia_ciocanul_regelui_robert",
+    "nume": "Corabia „Ciocanul Regelui Robert”",
+    "categorie": null,
+    "material": null,
+    "owned_by": [],
+    "sursa": null,
+    "surse": [],
+    "id_intern": "OBJECT_CORABIA_CIOCANUL_REGELUI_ROBERT"
+  },
+  {
+    "id": "corabia_tacerea",
+    "nume": "Corabia Tăcerea",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "nava personală a lui Euron, cu galion-fecioară fără gură"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_CORABIA_TACEREA"
+  },
+  {
+    "id": "corabii_mentionate_in_portul_alb",
+    "nume": "Corăbii menționate în Portul Alb",
+    "categorie": "obiect (corăbii, multiple)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Moaşa Veselă (a lui Davos — galion cu femeie zâmbitoare ținând un prunc, mâncat de cari), Steaua Leului (corabie de război regală, coca neagră cu auriu, galion leu cu laba ridicată, cu Freyii la bord — implicit), Dansatoarea Furtunii, Bravul Magister, Cornul Abundenţei, o galeră braavosiană cu pânze violet"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": 5,
+        "source_page": "5"
+      }
+    ],
+    "id_intern": "OBJECT_CORABII_MENTIONATE_IN_PORTUL_ALB"
+  },
+  {
+    "id": "corabii_regale_si_de_razboi_mentionate",
+    "nume": "Corăbii regale și de război menționate",
+    "categorie": "obiect (corabie)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Căpitănia lui Euron Greyjoy",
+      "corabia lui Euron; galeră cu un catarg, proră cu fecioară de fier fără gură, echipaj de muți și corcituri, pânze negre",
+      "dragonul Rhaenysei, cu ochi aurii și solzi argintii, mai tânăr, clocit pe Piatra Dragonului; a murit la Hellholt în anul 10 D.C",
+      "[dragonul Visenyei, mai tânăr, clocit pe Piatra Dragonului.] — Fragment 1.1 [Vhagar** — menționat printre cei mai mari și bătrâni dragoni de la Piatra Dragonului.] — Fragment 2.2 [181 de ani; ultima creatură rămasă din vremea lui Aegon Cuceritorul.] — Fragment 4.2"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "1307"
+      },
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "236–237"
+      },
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "12,18,44"
+      },
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "12,227"
+      },
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "3"
+      }
+    ],
+    "id_intern": "OBJECT_CORABII_REGALE_SI_DE_RAZBOI_MENTIONATE"
+  },
+  {
+    "id": "corabii_si_flote_mentionate",
+    "nume": "Corăbii și flote menționate",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "nava de război a Lordului Balon Greyjoy"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "47"
+      },
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_CORABII_SI_FLOTE_MENTIONATE"
+  },
+  {
+    "id": "corbul_lui_mormont",
+    "nume": "Corbul lui Mormont",
+    "categorie": "obiect/animal (detaliu)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Corb vorbitor moştenit de Jon Snow de la fostul Lord Comandant Jeor Mormont",
+      "Cuvintele repetate variază pe parcursul fragmentelor, adaptate la context: „Snow\", „Boabe\", „Tai\", „Omorâm\"",
+      "„Mor\", „Snow\", „Oase\"",
+      "„Porumb\", „Snow\", „Hoţ\", „Morţi\" (Fragment 13-2)",
+      "„Porumb\" şi „Snow\"",
+      "Vorbește cuvinte („Porumb\", „Negru\", „Arzi\")"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "949"
+      },
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": 11,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_CORBUL_LUI_MORMONT"
+  },
+  {
+    "id": "corn_de_razboi_din_corn_de_zimbru",
+    "nume": "Corn de război din corn de zimbru",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 9,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_CORN_DE_RAZBOI_DIN_CORN_DE_ZIMBRU"
+  },
+  {
+    "id": "cornul_crapat",
+    "nume": "Cornul crăpat",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "găsit de Jon Snow la Pumnul Primilor Oameni, păstrat de Sam"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "89"
+      }
+    ],
+    "id_intern": "OBJECT_CORNUL_CRAPAT"
+  },
+  {
+    "id": "cornul_de_dragon",
+    "nume": "Cornul de dragon",
+    "categorie": "obiect/artefact",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Obiect valyrian găsit de Euron Greyjoy în ruinele Valyriei; lung de 2 metri, negru, legat cu fâşii de aur roşu şi oţel valyrian negru; inscripţii runice valyriene, printre care: „Niciun muritor nu va sufla în mine şi va supravieţui\" şi „Sânge pentru foc, foc pentru sânge\" — sugerează că trebuie revendicat cu sânge, nu neapărat suflat de cel care-l foloseşte"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": 20,
+        "source_page": "20"
+      }
+    ],
+    "id_intern": "OBJECT_CORNUL_DE_DRAGON"
+  },
+  {
+    "id": "cornul_de_dragon_al_lui_euron",
+    "nume": "Cornul de dragon al lui Euron",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "corn negru găsit în ruinele Valyriei, legat cu aur roșu și oțel valyrian, gravat cu hieroglife; pretins a putea „stăpâni dragonii”; sunarea lui rănește grav cornistul"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 5,
+        "source_page": "255–256"
+      }
+    ],
+    "id_intern": "OBJECT_CORNUL_DE_DRAGON_AL_LUI_EURON"
+  },
+  {
+    "id": "cornul_de_vanatoare_de_pe_pumnul_primilor_oameni",
+    "nume": "Cornul de vânătoare de pe Pumnul Primilor Oameni",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 11,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_CORNUL_DE_VANATOARE_DE_PE_PUMNUL_PRIMILOR_OAMENI"
+  },
+  {
+    "id": "cornul_iernii",
+    "nume": "Cornul Iernii",
+    "categorie": "obiect/artefact legendar",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Conform legendei, putea dărâma Zidul şi l-ar fi trezit pe uriaşi din pământ",
+      "Ars public ca simbol al înfrângerii lui Mance",
+      "Fragmentul 19 adaugă: ars de Melisandre — posibil fals, conform lui Tormund"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "188–189"
+      },
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 7,
+        "source_page": null
+      },
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "3"
+      }
+    ],
+    "id_intern": "OBJECT_CORNUL_IERNII"
+  },
+  {
+    "id": "cornul_lui_joramun",
+    "nume": "Cornul lui Joramun",
+    "categorie": null,
+    "material": null,
+    "owned_by": [],
+    "sursa": null,
+    "surse": [],
+    "id_intern": "OBJECT_CORNUL_LUI_JORAMUN"
+  },
+  {
+    "id": "cornul_pietrei",
+    "nume": "Cornul Pietrei",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [
+      {
+        "proprietar": "PERSON_SER_KENNOS",
+        "proprietar_nume": "Ser Kennos",
+        "an_aproximativ": 302,
+        "sursa": {
+          "source_book": "Dansul Dragonilor",
+          "source_fragment": 16,
+          "source_page": "16"
+        },
+        "confidence": "canon"
+      }
+    ],
+    "descrieri": [
+      "corn negru, răsucit, bandat cu aur vechi, folosit la porțile Harrenhal pentru a semnala sosirea; sunat de trei ori de Ser Kennos de Kayce"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": 16,
+        "source_page": "16"
+      },
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 7,
+        "source_page": "66"
+      }
+    ],
+    "id_intern": "OBJECT_CORNUL_PIETREI"
+  },
+  {
+    "id": "coroana_cersei_aurie",
+    "nume": "Coroana Cersei — aurie",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 5,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_COROANA_CERSEI_AURIE"
+  },
+  {
+    "id": "coroana_daenerysei_targaryen",
+    "nume": "Coroana Daenerysei Targaryen",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_COROANA_DAENERYSEI_TARGARYEN"
+  },
+  {
+    "id": "coroana_de_cristal",
+    "nume": "Coroana de cristal (a Înalților Septoni)",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Purtată de înalţii Septoni; descrisă ca făcându-i mai înalţi cu două palme"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": 3,
+        "source_page": "3"
+      }
+    ],
+    "id_intern": "OBJECT_COROANA_DE_CRISTAL"
+  },
+  {
+    "id": "coroana_de_cristal_a_inaltului_septon",
+    "nume": "Coroana de cristal a Înaltului Septon",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 11,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_COROANA_DE_CRISTAL_A_INALTULUI_SEPTON"
+  },
+  {
+    "id": "coroana_de_lemn",
+    "nume": "Coroana de lemn",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Simbolul regalității Insulelor de Fier"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": 9,
+        "source_page": "9"
+      }
+    ],
+    "id_intern": "OBJECT_COROANA_DE_LEMN"
+  },
+  {
+    "id": "coroana_iubirii_si_frumusetii",
+    "nume": "Coroana iubirii și frumuseții",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [
+      {
+        "proprietar": "PERSON_LYANNA_STARK",
+        "proprietar_nume": "Lyanna Stark",
+        "an_aproximativ": 300,
+        "sursa": {
+          "source_book": "Iureșul Săbiilor",
+          "source_fragment": null,
+          "source_page": "9"
+        },
+        "confidence": "canon"
+      }
+    ],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "9"
+      }
+    ],
+    "id_intern": "OBJECT_COROANA_IUBIRII_SI_FRUMUSETII"
+  },
+  {
+    "id": "coroana_lui_daenerys",
+    "nume": "Coroana lui Daenerys",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Făurită în forma dragonului cu trei capete al Casei Targaryen — trup din aur, aripi din argint, cele trei capete din fildeş, onix şi jais",
+      "din aur, cu aripi de argint, trei capete din fildeș, onix și jais — în forma dragonului cu trei capete al Casei Targaryen"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": 1,
+        "source_page": "1"
+      },
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "294"
+      }
+    ],
+    "id_intern": "OBJECT_COROANA_LUI_DAENERYS"
+  },
+  {
+    "id": "coroana_lui_daenerys_targaryen",
+    "nume": "Coroana lui Daenerys Targaryen",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "2"
+      }
+    ],
+    "id_intern": "OBJECT_COROANA_LUI_DAENERYS_TARGARYEN"
+  },
+  {
+    "id": "coroana_lui_renly_baratheon",
+    "nume": "Coroana lui Renly Baratheon",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 9,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_COROANA_LUI_RENLY_BARATHEON"
+  },
+  {
+    "id": "coroana_lui_robb_stark",
+    "nume": "Coroana lui Robb Stark",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "3"
+      }
+    ],
+    "id_intern": "OBJECT_COROANA_LUI_ROBB_STARK"
+  },
+  {
+    "id": "coroana_lui_stannis_baratheon",
+    "nume": "Coroana lui Stannis Baratheon",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 9,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_COROANA_LUI_STANNIS_BARATHEON"
+  },
+  {
+    "id": "coroana_lui_theon_greyjoy",
+    "nume": "Coroana lui Theon Greyjoy",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 14,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_COROANA_LUI_THEON_GREYJOY"
+  },
+  {
+    "id": "coroana_regilor_iernii",
+    "nume": "Coroana Regilor Iernii",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 2,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_COROANA_REGILOR_IERNII"
+  },
+  {
+    "id": "coroana_soimului_de_munte_si_vale",
+    "nume": "Coroana Șoimului de Munte și Vale",
+    "categorie": "obiect / coroană",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "obiect purtat de regii Arryn de o mie de ani, predată reginei Visenya odată cu supunerea Văii"
+    ],
+    "sursa": "Foc și Sânge",
+    "surse": [
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "30"
+      }
+    ],
+    "id_intern": "OBJECT_COROANA_SOIMULUI_DE_MUNTE_SI_VALE"
+  },
+  {
+    "id": "costume_de_fiare_de_bronz_pentru_deghizare",
+    "nume": "Costume de „Fiare de Bronz\" pentru deghizare",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Măști, mantii, ciomege, săbii scurte, obținute de la Prinţul Zdrenţăros, folosite de dornișeni pentru deghizare (măști de taur, leu, maimuță)"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "1206–1207"
+      }
+    ],
+    "id_intern": "OBJECT_COSTUME_DE_FIARE_DE_BRONZ_PENTRU_DEGHIZARE"
+  },
+  {
+    "id": "craniile_de_dragon_din_fortareata_rosie",
+    "nume": "Craniile de dragon din Fortăreața Roșie",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "19 cranii depozitate într-o pivniță umedă (anterior atârnate pe pereții sălii tronului, înlocuite de Robert cu flamuri și tapiserii); trei mari — Balerion (Oroarea Neagră, cel mai mare, ar fi putut înghiți un bizon sau un mamut lânos), Meraxes, Vhagar (numite de trubaduri „nume de zei\")"
+    ],
+    "sursa": "Urzeala Tronurilor",
+    "surse": [
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": 3,
+        "source_page": "122–124"
+      }
+    ],
+    "id_intern": "OBJECT_CRANIILE_DE_DRAGON_DIN_FORTAREATA_ROSIE"
+  },
+  {
+    "id": "craniul_dragonului_meraxes",
+    "nume": "Craniul dragonului Meraxes",
+    "categorie": "obiect / relicvă",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "trimis de principele Nymor ca dar/gest de pace către Aegon, în anul 13 D.C"
+    ],
+    "sursa": "Foc și Sânge",
+    "surse": [
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "47"
+      }
+    ],
+    "id_intern": "OBJECT_CRANIUL_DRAGONULUI_MERAXES"
+  },
+  {
+    "id": "craniul_lui_gregor_clegane",
+    "nume": "Craniul lui Gregor Clegane",
+    "categorie": "obiect / trofeu",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Folosit ca obiect simbolic/trofeu de către Ellaria și Șerpoaicele Nisipului — sărutat batjocoritor, ținut ca simbol al răzbunării"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "682–685"
+      }
+    ],
+    "id_intern": "OBJECT_CRANIUL_LUI_GREGOR_CLEGANE"
+  },
+  {
+    "id": "cronica_marturia_lui_ciuperca_si_cronicile_maesterilor",
+    "nume": "Cronică / Mărturia lui Ciupercă (Mushroom) și cronicile maesterilor",
+    "categorie": "obiect / cronică istorică",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "[cronicile Marelui Maester Runciter; *Domnia regelui Viserys, Primul pe Numele Său, și Dansul Dragonilor care a urmat*, de septonul Eustace; *Mărturia lui Ciupercă* (bufonul pitic al Curții) — regele Baelor cel Binecuvântat a poruncit arderea majorității exemplarelor acesteia.] — Fragment 3.2 [Mărturia lui Ciupercă** — cronica bufonului de curte, sursă principală pentru multe dintre detaliile relatate în acest fragment (viață la Portul Alb, călătorii, etc.).] — Fragment 5.3"
+    ],
+    "sursa": "Foc și Sânge",
+    "surse": [
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "767,796–797"
+      }
+    ],
+    "id_intern": "OBJECT_CRONICA_MARTURIA_LUI_CIUPERCA_SI_CRONICILE_MAESTERILOR"
+  },
+  {
+    "id": "cutitele_de_piatra",
+    "nume": "Cuțitele de piatră",
+    "categorie": "obicei / obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Folosite de călăreții de sânge ai lui Drogo pentru a tăia inima armăsarului; nu e permis metalul/oțelul în cadrul sacru din Vaes Dothrak"
+    ],
+    "sursa": "Urzeala Tronurilor",
+    "surse": [
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": 9,
+        "source_page": "509"
+      }
+    ],
+    "id_intern": "OBJECT_CUTITELE_DE_PIATRA"
+  },
+  {
+    "id": "cyvasse",
+    "nume": "Cyvasse",
+    "categorie": "obicei/joc",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Joc de societate/strategie foarte răspândit în Essos",
+      "Piese menționate de-a lungul fragmentelor: sculptate în fildeş şi jad (Fragment 3); dragon, cai (uşor şi greu), munţi, elefant, suliţi, trebuşet, sculptate din lemn (Fragment 5, jucat de Tyrion şi Haldon); dragon, elefanţi, cal de război, suliţaşi, arbaletişti, catapultă",
+      "Jucat de Tyrion cu bucătarul navei și, ulterior, cu Ben Plumm (Fragmentele 11, 13-2, 19)",
+      "Tyrion încearcă să o învețe pe Penny",
+      "joc de societate cu 10 piese diferite, tablă variabilă; adus din Volantis prin oraşul din umbră, răspândit de orfani de-a lungul Sângelui Verde; foarte popular la curtea dorneană",
+      "Pagina: 174"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "587,592,612,707"
+      },
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 4,
+        "source_page": "151,159–160,165"
+      }
+    ],
+    "id_intern": "OBJECT_CYVASSE"
+  },
+  {
+    "id": "dansul_degetelor",
+    "nume": "„Dansul degetelor”",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "joc/tradiție periculoasă a oamenilor de fier, sursă a mutilării lui Urrigon Greyjoy"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 1,
+        "source_page": "238"
+      }
+    ],
+    "id_intern": "OBJECT_DANSUL_DEGETELOR"
+  },
+  {
+    "id": "decretul_regal",
+    "nume": "Decretul regal (pergament)",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "semnat de Tommen, numindu-l pe Emmon Frey Lord de Riverrun, dar sub autoritatea Lordului Suprem al Tridentului (Petyr Baelish)"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "68–69"
+      }
+    ],
+    "id_intern": "OBJECT_DECRETUL_REGAL"
+  },
+  {
+    "id": "detaliu",
+    "nume": "Detaliu",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Mord, temnicerul de la Eyrie, are dinți din aur"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "144"
+      }
+    ],
+    "id_intern": "OBJECT_DETALIU"
+  },
+  {
+    "id": "devotata_tradatoarea_prietena_prefacuta",
+    "nume": "Devotata / Trădătoarea / Prietena Prefăcută",
+    "categorie": "obiect (armă)",
+    "material": null,
+    "owned_by": [],
+    "given_by": [
+      {
+        "donator": "Jaime Briennei",
+        "donator_nume": "Jaime Briennei",
+        "an_aproximativ": 301,
+        "sursa": {
+          "source_book": "Festinul Ciorilor",
+          "source_fragment": 2,
+          "source_page": "69,78,268,45,63,122-123,190,198–199,200"
+        },
+        "confidence": "canon"
+      }
+    ],
+    "descrieri": [
+      "Dăruită de Jaime Lannister lui Brienne de Tarth",
+      "**Sabia Devotata (Oathkeeper):** una dintre cele două săbii din oțel valyrian refăcute din Gheață (sabia Casei Stark), cu model unduitor roșu-negru; cealaltă sabie rămâne la Jaime"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": 16,
+        "source_page": "16"
+      },
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 2,
+        "source_page": "69,78,268,45,63,122-123,190,198–199,200"
+      },
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "14"
+      }
+    ],
+    "id_intern": "OBJECT_DEVOTATA_TRADATOAREA_PRIETENA_PREFACUTA"
+  },
+  {
+    "id": "diadema_de_incoronare_a_lui_aegon_iii",
+    "nume": "Diadema de încoronare a lui Aegon III",
+    "categorie": "obiect / coroană",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "aur galben simplu, fără ornamente"
+    ],
+    "sursa": "Foc și Sânge",
+    "surse": [
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_DIADEMA_DE_INCORONARE_A_LUI_AEGON_III"
+  },
+  {
+    "id": "dintele_leului",
+    "nume": "Dintele Leului",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 14,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_DINTELE_LEULUI"
+  },
+  {
+    "id": "directie",
+    "nume": "Direcție",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "nespecificată exact (spre nord-vest, conform traseului descris pentru grup)"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 7,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_DIRECTIE"
+  },
+  {
+    "id": "distanta_mentionata",
+    "nume": "Distanță menționată",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "„mai puţin de o zi călare”"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 7,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_DISTANTA_MENTIONATA"
+  },
+  {
+    "id": "doamna_deznadejdii",
+    "nume": "Doamna Deznădejdii",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [
+      {
+        "proprietar": "PERSON_WAYN",
+        "proprietar_nume": "Wayn",
+        "an_aproximativ": null,
+        "sursa": {
+          "source_book": "Cavalerul celor 7 Regate",
+          "source_fragment": 4,
+          "source_page": null
+        },
+        "confidence": "canon"
+      }
+    ],
+    "descrieri": [
+      "Mânuită de Ser Lyn Corbray",
+      "numele sabiei de familie a Casei Corbray, mânuită de Lyn Corbray",
+      "Pagina: 303, 313",
+      "mânuită de Ser Lyn Corbray, frate al Lordului Lyonel Corbray din Valea Arryn"
+    ],
+    "sursa": "Cavalerul celor 7 Regate",
+    "surse": [
+      {
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": 4,
+        "source_page": null
+      },
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "1314"
+      },
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": null
+      },
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "255"
+      }
+    ],
+    "id_intern": "OBJECT_DOAMNA_DEZNADEJDII"
+  },
+  {
+    "id": "document",
+    "nume": "Document",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "actul de numire a Lordului Nestor ca Păzitor ereditar al Castelului Lunii — poartă pecetea Arryn, dar semnat de Petyr Baelish (nu de Robert Arryn), pe motiv că Lysa ar fi murit înainte să-l semneze"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "145"
+      }
+    ],
+    "id_intern": "OBJECT_DOCUMENT"
+  },
+  {
+    "id": "dragon_de_aur",
+    "nume": "Dragon de aur",
+    "categorie": "obiect (monedă)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "**Monedă:** „dragon de aur\" — unitate monetară de aur menţionată repetat (preţ de cai, plată pentru provizii)"
+    ],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "3"
+      }
+    ],
+    "id_intern": "OBJECT_DRAGON_DE_AUR"
+  },
+  {
+    "id": "dragonii_vermithor_si_silverwing_imblanzirea_pe_piatra_dragonului",
+    "nume": "Dragonii Vermithor și Silverwing — îmblânzirea pe Piatra Dragonului",
+    "categorie": "obiect / ființă (dragon)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Vermithor și Silverwing** — dragonii regelui Jaehaerys, respectiv ai reginei Alysanne"
+    ],
+    "sursa": "Foc și Sânge",
+    "surse": [
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "221,227,236–240"
+      }
+    ],
+    "id_intern": "OBJECT_DRAGONII_VERMITHOR_SI_SILVERWING_IMBLANZIREA_PE_PIATRA_DRAGONULUI"
+  },
+  {
+    "id": "dragonul_de_aur",
+    "nume": "Dragonul de aur",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "monedă de aur din Westeros; pe o parte dragon cu trei capete, pe cealaltă capul unui rege mort"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_DRAGONUL_DE_AUR"
+  },
+  {
+    "id": "dreamfyre",
+    "nume": "Dreamfyre",
+    "categorie": "obiect / ființă (dragon)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "[dragonul reginei Rhaena, cu cuibar pe Insula Frumoasă] — Fragment 2.1 [Dreamfyre** — dragonul Rhaenei Targaryen.] — Fragment 2.2"
+    ],
+    "sursa": "Foc și Sânge",
+    "surse": [
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": 2,
+        "source_page": "182–186,227,233,244,262"
+      }
+    ],
+    "id_intern": "OBJECT_DREAMFYRE"
+  },
+  {
+    "id": "dreapta_fecioara",
+    "nume": "Dreapta Fecioară",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "sabie legendară fermecată a lui Ser Galladon de Morne, poveste narată de Brienne"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "258–259"
+      }
+    ],
+    "id_intern": "OBJECT_DREAPTA_FECIOARA"
+  },
+  {
+    "id": "drumurile_valyriene",
+    "nume": "Drumurile valyriene",
+    "categorie": null,
+    "material": null,
+    "owned_by": [],
+    "sursa": null,
+    "surse": [],
+    "id_intern": "OBJECT_DRUMURILE_VALYRIENE"
+  },
+  {
+    "id": "dulcea_cersei",
+    "nume": "Dulcea Cersei",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "nou dromon (navă de război) construit pentru Coroană, folosit pentru a-l duce pe Loras Tyrell la Piatra Dragonului"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "46,50"
+      }
+    ],
+    "id_intern": "OBJECT_DULCEA_CERSEI"
+  },
+  {
+    "id": "echipament_casa_manderly",
+    "nume": "Echipament Casa Manderly",
+    "categorie": "obicei/obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Gărzile poartă mantii de lână albastru-verzuie şi tridente în loc de suliţe obişnuite"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "332"
+      }
+    ],
+    "id_intern": "OBJECT_ECHIPAMENT_CASA_MANDERLY"
+  },
+  {
+    "id": "fiicele_bastardului",
+    "nume": "„Fiicele Bastardului\" (câinii lui Ramsay)",
+    "categorie": "grup / obiect (haită)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Câinii de vânătoare ai Lordului Ramsay, folosiţi la vânătoare de oameni",
+      "Fragmentul 10 adaugă: numele câinilor ar proveni, potrivit lui Ben Oase, de la numele fetelor pe care Ramsay le-a vânat şi ucis pe vremea când era bastard",
+      "Fragmentul 13-2 confirmă: haită de căţele, fiecare purtând numele câte unei fete vânate şi ucise (menţionate: Jeyne Roşcata, Helicent)"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "567,729"
+      }
+    ],
+    "id_intern": "OBJECT_FIICELE_BASTARDULUI"
+  },
+  {
+    "id": "fiii_razboinicului",
+    "nume": "Fiii Războinicului",
+    "categorie": "ordin cavaleresc religios",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Ordin reînfiinţat; membri menţionaţi: Ser Lancel Lannister, Ser Theodan Wells („Theodan cel Onest\"), comandant",
+      "Include foștii țărani numiți „Săbiile\" (vezi „Sabia de cristal\")",
+      "ordin de cavaleri de dinainte de Aegon Cuceritorul; mantii-curcubeu, armuri argintii peste cămăși de păr de cal, cristale în formă de stea pe mânerele săbiilor; poreclă: „Săbiile”"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "1301,1303"
+      },
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 8,
+        "source_page": "102"
+      }
+    ],
+    "id_intern": "OBJECT_FIII_RAZBOINICULUI"
+  },
+  {
+    "id": "flacara",
+    "nume": "Flacăra",
+    "categorie": "obiect (cal)",
+    "material": null,
+    "owned_by": [],
+    "given_by": [
+      {
+        "donator": "Lady Rohanne lui Dunk",
+        "donator_nume": "Lady Rohanne lui Dunk",
+        "an_aproximativ": null,
+        "sursa": {
+          "source_book": "Cavalerul celor 7 Regate",
+          "source_fragment": 6,
+          "source_page": null
+        },
+        "confidence": "canon"
+      }
+    ],
+    "sursa": "Cavalerul celor 7 Regate",
+    "surse": [
+      {
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": 6,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_FLACARA"
+  },
+  {
+    "id": "foc_salbatic",
+    "nume": "Foc sălbatic",
+    "categorie": null,
+    "material": null,
+    "owned_by": [],
+    "sursa": null,
+    "surse": [],
+    "id_intern": "OBJECT_FOC_SALBATIC"
+  },
+  {
+    "id": "focul_salbatic",
+    "nume": "Focul sălbatic (wildfire)",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "armă chimică verde, mai fierbinte decât orice, cu excepția flăcării de dragon, focurilor de sub pământ și soarelui verii; produsă de Ghilda Alchimiștilor (piromanți)",
+      "Pagina: 163, 171"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": null
+      },
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": null
+      },
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "2"
+      }
+    ],
+    "id_intern": "OBJECT_FOCUL_SALBATIC"
+  },
+  {
+    "id": "fratii_sarmani",
+    "nume": "Frații Sărmani",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "ordin de frați cerșetori înarmați cu securi, blazon stea în șapte colțuri roșie pe fond alb; poreclă: „Stelele”"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_FRATII_SARMANI"
+  },
+  {
+    "id": "galera_doamna_alba",
+    "nume": "Galera „Doamna Albă\"",
+    "categorie": null,
+    "material": null,
+    "owned_by": [],
+    "sursa": null,
+    "surse": [],
+    "id_intern": "OBJECT_GALERA_DOAMNA_ALBA"
+  },
+  {
+    "id": "garda_curcubeului",
+    "nume": "Garda Curcubeului",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "made_by": [
+      {
+        "creator": "PERSON_RENLY_BARATHEON",
+        "creator_nume": "Renly Baratheon",
+        "sursa": {
+          "source_book": "Iureșul Săbiilor",
+          "source_fragment": null,
+          "source_page": "1"
+        },
+        "confidence": "canon"
+      }
+    ],
+    "descrieri": [
+      "Brienne de Tarth a fost una dintre cele şapte alese, învestită personal de Renly"
+    ],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": null
+      },
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "1"
+      }
+    ],
+    "id_intern": "OBJECT_GARDA_CURCUBEULUI"
+  },
+  {
+    "id": "gheara_lunga",
+    "nume": "Gheara Lungă (Longclaw)",
+    "categorie": "obiect (armă)",
+    "material": "Sabie din oțel valyrian a lui Jon Snow, moștenită ca Lord Comandant",
+    "owned_by": [],
+    "descrieri": [
+      "Fragment 2: descrisă simplu ca sabie valyriană a lui Jon",
+      "Fragment 3 (\"Sabia Lungă\"): folosită la execuția lui Janos Slynt",
+      "Fragment 9: absentă în duelul cu Rattleshirt (Jon folosește o sabie obișnuită, mai grea)",
+      "Fragment 11: scoasă la apropierea de dumbravă",
+      "Fragment 17: menționată din nou fără detalii noi",
+      "Fragment 19: călită cu vrăji şi flăcări de dragon; menţionată explicit ca „oţel de dragon\"",
+      "**Sabia Lungă:** sabia lui Jon Snow, din oțel valyrian",
+      "Sabie din oțel valyrian, moștenită de Casa Mormont timp de cinci veacuri; măciulia originală era un cap de urs din argint, tocită; remodelată de un cioplitor în piatră de la Castelul Negru cu granate în loc de ochi, în formă de cap de lup, special pentru Jon Snow; lama e cu jumătate de cot mai lungă decât săbiile obișnuite, cu trei șanțuri săpate în metal, tăiș de „sabie bastardă\"",
+      "Jon o lasă în urmă pe pat când dezertează, considerând că nu are dreptul moral s-o ia, apoi o reia la sfârșitul capitolului, la ordinul lui Mormont"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "87,625"
+      },
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "4"
+      },
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "8"
+      },
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": "802,813"
+      }
+    ],
+    "id_intern": "OBJECT_GHEARA_LUNGA"
+  },
+  {
+    "id": "ghearalunga",
+    "nume": "Ghearalungă",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "sabia lui Jon Snow, oțel valyrian"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "74"
+      },
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_GHEARALUNGA"
+  },
+  {
+    "id": "gheata",
+    "nume": "Gheața",
+    "categorie": "obiect (armă)",
+    "material": null,
+    "owned_by": [
+      {
+        "proprietar": "PERSON_CREGAN_STARK",
+        "proprietar_nume": "Cregan Stark",
+        "an_aproximativ": null,
+        "sursa": {
+          "source_book": "Foc și Sânge",
+          "source_fragment": null,
+          "source_page": null
+        },
+        "confidence": "canon"
+      }
+    ],
+    "descrieri": [
+      "Sabia lui Ned Stark; apare în viziunea lui Bran — tatăl o curăța cu o cârpă uleiată",
+      "Sabie mare a Casei Stark, din oțel valyrian, veche de 400 de ani, forjată în Valyria înainte de „Pieirea Valyriei\"; folosită pentru execuții oficiale — Fragment 1, pag",
+      "13, 23",
+      "Ned o folosește personal pentru a ucide lupoaica Lady, ca gest de respect — Fragment 3, pag",
+      "162",
+      "Menționată doar prin amintire (Ned obișnuia să-l lase pe Jon s-o mânuiască), nu apare fizic",
+      "Folosită de Ser Ilyn Payne pentru execuția lui Ned Stark — Fragment 14, pag",
+      "756, 771"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "613–615"
+      },
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": null
+      },
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": null
+      },
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "8"
+      },
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": "13,23,162,756,771"
+      }
+    ],
+    "id_intern": "OBJECT_GHEATA"
+  },
+  {
+    "id": "ghioaga_de_razboi_a_regelui_robert",
+    "nume": "Ghioaga de război a Regelui Robert",
+    "categorie": "obiect (armă)",
+    "material": null,
+    "owned_by": [],
+    "made_by": [
+      {
+        "creator": "PERSON_DONAL_NOYE",
+        "creator_nume": "Donal Noye",
+        "sursa": {
+          "source_book": "Urzeala Tronurilor",
+          "source_fragment": 4,
+          "source_page": null
+        },
+        "confidence": "canon"
+      }
+    ],
+    "sursa": "Urzeala Tronurilor",
+    "surse": [
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": 4,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_GHIOAGA_DE_RAZBOI_A_REGELUI_ROBERT"
+  },
+  {
+    "id": "harpa_de_argint_a_lui_rhaegar_targaryen",
+    "nume": "Harpa de argint a lui Rhaegar Targaryen",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "**Obiect:** harpa cu coarde de argint a lui Rhaegar Targaryen — cânta cântece despre amurgul regilor, lacrimi și moarte"
+    ],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "9"
+      }
+    ],
+    "id_intern": "OBJECT_HARPA_DE_ARGINT_A_LUI_RHAEGAR_TARGARYEN"
+  },
+  {
+    "id": "harta_nordului",
+    "nume": "Harta Nordului (Wyman Manderly)",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Pictată pe piele de oaie, atârnată pe peretele lui Wyman Manderly"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "521,530"
+      }
+    ],
+    "id_intern": "OBJECT_HARTA_NORDULUI"
+  },
+  {
+    "id": "harta_veche",
+    "nume": "Harta veche (dar de la Xaro)",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Acoperă jumătate din podea; mări albastre, câmpii verzi, munţi negri/maro, oraşe reprezentate prin stele cusute cu fir de aur/argint; datează dinainte de Urgia Valyriei (Marea Fumegândă nu exista încă, Valyria nu era insulă)"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "296"
+      }
+    ],
+    "id_intern": "OBJECT_HARTA_VECHE"
+  },
+  {
+    "id": "hathay",
+    "nume": "Hathay",
+    "categorie": "obiect / vehicul",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Vehicul de transport tras de elefanţi pitici, folosit în Volantis"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_HATHAY"
+  },
+  {
+    "id": "inelul_sigiliu_al_lui_egg",
+    "nume": "Inelul-sigiliu al lui Egg (Inelul Prințului Maekar)",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Din aur și onix, gravat cu patru dragoni cu trei capete (blazonul oștirii Prințului Maekar)",
+      "Dunk îl folosește ca dovadă/amenințare implicită a legăturii scutierului său cu Casa Targaryen, fără a dezvălui direct identitatea lui Egg",
+      "Folosit de Egg ca dovadă de identitate în fața Maesterului și a Lordului Butterwell; purtat pe deget, nu ascuns în cizmă, spre finalul fragmentului 8"
+    ],
+    "sursa": "Cavalerul celor 7 Regate",
+    "surse": [
+      {
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_INELUL_SIGILIU_AL_LUI_EGG"
+  },
+  {
+    "id": "inima_franta",
+    "nume": "Inima Frântă (Heartsbane)",
+    "categorie": "obiect (sabie)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Sabia legendară de oțel valyrian a Casei Tarly, transmisă din tată în fiu de aproape cinci sute de ani, foarte ascuțită; urma să-i revină lui Dickon Tarly, nu lui Samwell, care a fost cândva moștenitorul ei"
+    ],
+    "sursa": "Urzeala Tronurilor",
+    "surse": [
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_INIMA_FRANTA"
+  },
+  {
+    "id": "jiltul_de_piatra",
+    "nume": "Jilţul de Piatră (Seastone Chair)",
+    "categorie": "obiect / tron",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Tronul stăpânilor Insulelor de Fier, la Pyke"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "744"
+      }
+    ],
+    "id_intern": "OBJECT_JILTUL_DE_PIATRA"
+  },
+  {
+    "id": "labe_de_urs",
+    "nume": "Labe-de-urs",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Încălțări de zăpadă (tip rachetă), din bețe îndoite și fâșii de piele, folosite de oamenii Nordului și caii lor mici"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "750"
+      }
+    ],
+    "id_intern": "OBJECT_LABE_DE_URS"
+  },
+  {
+    "id": "lady_lu",
+    "nume": "Lady Lu",
+    "categorie": "obiect (armă/instrument de execuție)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Secure mare folosită de temnicerul Garth ca instrument de execuție"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "515–517"
+      }
+    ],
+    "id_intern": "OBJECT_LADY_LU"
+  },
+  {
+    "id": "lantul_capcana_de_pe_apa_neagra",
+    "nume": "Lanțul-capcană de pe Apa Neagră",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_LANTUL_CAPCANA_DE_PE_APA_NEAGRA"
+  },
+  {
+    "id": "laptele_macului_vinul_viselor",
+    "nume": "Laptele macului / Vinul viselor (sedative)",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": null
+      },
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "1"
+      }
+    ],
+    "id_intern": "OBJECT_LAPTELE_MACULUI_VINUL_VISELOR"
+  },
+  {
+    "id": "locatia_a",
+    "nume": "Locația A",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Hammerhorn"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 1,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_LOCATIA_A"
+  },
+  {
+    "id": "lordul_tywin",
+    "nume": "Lordul Tywin",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "alt dromon nou, menționat ca fiind „de două ori cât fiecare\" corabie obișnuită"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "46"
+      }
+    ],
+    "id_intern": "OBJECT_LORDUL_TYWIN"
+  },
+  {
+    "id": "lucrarile_istorice_ale_arhimaestrului_abelon",
+    "nume": "Lucrările istorice ale arhimaestrului Abelon",
+    "categorie": "obiect / cronică",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "autorul lucrării „Când au cârmuit femeile: Nobilele doamne de după război\" (menționată ca sursă)"
+    ],
+    "sursa": "Foc și Sânge",
+    "surse": [
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_LUCRARILE_ISTORICE_ALE_ARHIMAESTRULUI_ABELON"
+  },
+  {
+    "id": "lucrarile_istorice_ale_arhimaestrului_lyman",
+    "nume": "Lucrările istorice ale arhimaestrului Lyman",
+    "categorie": "obiect / cronică",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "autorul lucrării „Regatele Cerului\" (menționată ca lectură oferită lui Aegon III, fără interes din partea regelui)"
+    ],
+    "sursa": "Foc și Sânge",
+    "surse": [
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_LUCRARILE_ISTORICE_ALE_ARHIMAESTRULUI_LYMAN"
+  },
+  {
+    "id": "lucrarile_istorice_ale_arhimaestrului_mancaster",
+    "nume": "Lucrările istorice ale arhimaestrului Mancaster",
+    "categorie": "obiect / cronică",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "autorul lucrării „Demonii Mării: O cronică a Copiilor Zeului Înecat al Insulelor\" (menționată ca sursă suplimentară, nu extrasă în detaliu)"
+    ],
+    "sursa": "Foc și Sânge",
+    "surse": [
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_LUCRARILE_ISTORICE_ALE_ARHIMAESTRULUI_MANCASTER"
+  },
+  {
+    "id": "maester",
+    "nume": "Maester (catârul)",
+    "categorie": "obiect (animal)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Catârul lui Egg / catârul lor de povară"
+    ],
+    "sursa": "Cavalerul celor 7 Regate",
+    "surse": [
+      {
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_MAESTER"
+  },
+  {
+    "id": "mana_de_aur_a_lui_jaime",
+    "nume": "Mâna de aur a lui Jaime",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "proteză din aur, cu unghii din perle, degete pe jumătate închise (se poate mula pe un pocal)",
+      "Jaime refuză s-o poarte în luptă/în fața oamenilor, preferă să arate cioata"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 7,
+        "source_page": "123-136"
+      }
+    ],
+    "id_intern": "OBJECT_MANA_DE_AUR_A_LUI_JAIME"
+  },
+  {
+    "id": "mana_de_aur_a_lui_jaime_lannister",
+    "nume": "Mâna de aur a lui Jaime Lannister",
+    "categorie": "obiect —  obiect distinct de proteza lui Tywin, ambele numite generic „mâna de aur\"; nu se unifică",
+    "material": null,
+    "owned_by": [
+      {
+        "proprietar": "Jaime după pierderea mâinii",
+        "proprietar_nume": "Jaime după pierderea mâinii",
+        "an_aproximativ": 302,
+        "sursa": {
+          "source_book": "Dansul Dragonilor",
+          "source_fragment": 16,
+          "source_page": "16"
+        },
+        "confidence": "canon"
+      }
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": 16,
+        "source_page": "16"
+      }
+    ],
+    "id_intern": "OBJECT_MANA_DE_AUR_A_LUI_JAIME_LANNISTER"
+  },
+  {
+    "id": "mana_de_aur_a_lui_tywin_lannister",
+    "nume": "Mâna de aur a lui Tywin Lannister",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [
+      {
+        "proprietar": "PERSON_SHAE",
+        "proprietar_nume": "Shae",
+        "an_aproximativ": 302,
+        "sursa": {
+          "source_book": "Dansul Dragonilor",
+          "source_fragment": 3,
+          "source_page": "3"
+        },
+        "confidence": "canon"
+      }
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": 3,
+        "source_page": "3"
+      }
+    ],
+    "id_intern": "OBJECT_MANA_DE_AUR_A_LUI_TYWIN_LANNISTER"
+  },
+  {
+    "id": "mancatoarea_de_inimi",
+    "nume": "Mâncătoarea de Inimi",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "**Mâncătoarea de Inimi** — altă sabie, pe care Sansa fusese obligată s-o sărute înainte de o bătălie"
+    ],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 14,
+        "source_page": null
+      },
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "12"
+      }
+    ],
+    "id_intern": "OBJECT_MANCATOAREA_DE_INIMI"
+  },
+  {
+    "id": "mantia_alba_de_lana",
+    "nume": "Mantia albă de lână (dar de la Ser Eustace)",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Cu tiv verde-auriu, oferită lui Dunk de Ser Eustace Osgrey ca dar de despărțire; prinsă cu o broșă în formă de păianjen de fildeș, cu picioare de argint și picățele de granat — simbol al Casei Webber"
+    ],
+    "sursa": "Cavalerul celor 7 Regate",
+    "surse": [
+      {
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": 6,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_MANTIA_ALBA_DE_LANA"
+  },
+  {
+    "id": "mantia_de_blana_tarcata_de_pisica_umbra",
+    "nume": "Mantia de blană tărcată de pisică-umbră",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Purtată inițial de conducătorul clanurilor de munte (ucis în ambuscadă), apoi câștigată de Marillion, menestrelul, la zaruri, de la unul dintre călăreții liberi"
+    ],
+    "sursa": "Urzeala Tronurilor",
+    "surse": [
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": 7,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_MANTIA_DE_BLANA_TARCATA_DE_PISICA_UMBRA"
+  },
+  {
+    "id": "mantia_din_matase_purpurie_a_lui_tyrion",
+    "nume": "Mantia din mătase purpurie a lui Tyrion",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 5,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_MANTIA_DIN_MATASE_PURPURIE_A_LUI_TYRION"
+  },
+  {
+    "id": "mantia_neagra_gasita_ingropata_sub_pumnul_primilor_oameni",
+    "nume": "Mantia neagră găsită îngropată sub Pumnul Primilor Oameni",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 11,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_MANTIA_NEAGRA_GASITA_INGROPATA_SUB_PUMNUL_PRIMILOR_OAMENI"
+  },
+  {
+    "id": "manticora",
+    "nume": "Manticora",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_MANTICORA"
+  },
+  {
+    "id": "marele_kraken",
+    "nume": "Marele Kraken",
+    "categorie": null,
+    "material": null,
+    "owned_by": [],
+    "sursa": null,
+    "surse": [],
+    "id_intern": "OBJECT_MARELE_KRAKEN"
+  },
+  {
+    "id": "masa_pictata",
+    "nume": "Masa Pictată",
+    "categorie": "obiect / artefact",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "tăblie masivă din lemn, lungă de cincisprezece metri, sculptată la porunca lui Aegon cu ani înainte de expediție, tăiată după conturul Westerosului și pictată să înfățișeze toate pădurile, râurile, orașele și castelele din cele Șapte Regate — dovadă a planificării îndelungate a Cuceririi"
+    ],
+    "sursa": "Foc și Sânge",
+    "surse": [
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "13"
+      }
+    ],
+    "id_intern": "OBJECT_MASA_PICTATA"
+  },
+  {
+    "id": "masa_pictata_de_la_piatra_dragonului",
+    "nume": "Masa Pictată de la Piatra Dragonului",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 1,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_MASA_PICTATA_DE_LA_PIATRA_DRAGONULUI"
+  },
+  {
+    "id": "meraxes",
+    "nume": "Meraxes",
+    "categorie": null,
+    "material": null,
+    "owned_by": [],
+    "sursa": null,
+    "surse": [],
+    "id_intern": "OBJECT_MERAXES"
+  },
+  {
+    "id": "mijloc_de_deplasare_implicat",
+    "nume": "Mijloc de deplasare implicat",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "călare"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 7,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_MIJLOC_DE_DEPLASARE_IMPLICAT"
+  },
+  {
+    "id": "mirodenii_rare_la_godric_borrell",
+    "nume": "Mirodenii rare la Godric Borrell",
+    "categorie": "detaliu / obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Şofran din Qarth (mai preţios ca aurul), piper negru fin din Volantis (40 de lăzi), cuişoare, nucşoară — luate de la o corabie naufragiată ce mergea spre Braavos"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "182"
+      }
+    ],
+    "id_intern": "OBJECT_MIRODENII_RARE_LA_GODRIC_BORRELL"
+  },
+  {
+    "id": "moneda_de_aur_veche_de_la_highgarden",
+    "nume": "Moneda de aur veche de la Highgarden",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "obiect misterios găsit la temnicerul Rugen, cu o mână pe o față și capul unui rege pe cealaltă; sursă de suspiciune pentru Cersei"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_MONEDA_DE_AUR_VECHE_DE_LA_HIGHGARDEN"
+  },
+  {
+    "id": "moneda_de_fier",
+    "nume": "Moneda de fier",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "dată Aryei de Jaqen H'ghar; cuvinte asociate: „Valar Morghulis” (orice om trebuie să moară) / „Valar Dohaeris” (orice om trebuie să slujească)"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "85–94"
+      }
+    ],
+    "id_intern": "OBJECT_MONEDA_DE_FIER"
+  },
+  {
+    "id": "moneda_de_fier_din_braavos",
+    "nume": "Moneda de fier din Braavos",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "1"
+      }
+    ],
+    "id_intern": "OBJECT_MONEDA_DE_FIER_DIN_BRAAVOS"
+  },
+  {
+    "id": "moneda_din_fier_a_lui_jaqen_hghar",
+    "nume": "Moneda din fier a lui Jaqen H'ghar",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 16,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_MONEDA_DIN_FIER_A_LUI_JAQEN_HGHAR"
+  },
+  {
+    "id": "moneda_dragon",
+    "nume": "Moneda „dragon\"",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Monedă de aur cu dragonul cu trei capete al Casei Targaryen pe o față și efigia regelui pe cealaltă; existau monede mai vechi, cu chipul altor regi anteriori lui Daeron, roase și cu marginile răzuite de aur",
+      "Moneda oficială a regatului, poartă chipul regelui pe o parte; monedele bătute de Daemon Blackfyre în timpul rebeliunii poartă inscripția „DAEMON\" (modificare subtilă a literei față de „DAERON\"); deținerea lor e considerată trădare"
+    ],
+    "sursa": "Cavalerul celor 7 Regate",
+    "surse": [
+      {
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_MONEDA_DRAGON"
+  },
+  {
+    "id": "moneda_veche_descoperita_de_qyburn",
+    "nume": "Moneda veche descoperită de Qyburn",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Regele Garth al XII-lea (Casa Gardener), dinaintea Cuceririi"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "105"
+      }
+    ],
+    "id_intern": "OBJECT_MONEDA_VECHE_DESCOPERITA_DE_QYBURN"
+  },
+  {
+    "id": "monede_diverse",
+    "nume": "Monede diverse",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Creițari volanteni (coroană/țeastă), bani lyseni (ovali, femeie goală), bani din Westeros (cap de rege / dragon)",
+      "Monede folosite de Arya pentru a lăsa „plată” în locul monedelor furate",
+      "Monedele pătrate din fier — monedă specifică Braavosului"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "805"
+      }
+    ],
+    "id_intern": "OBJECT_MONEDE_DIVERSE"
+  },
+  {
+    "id": "nave_ale_noii_flote_regale",
+    "nume": "Nave ale noii flote regale (dromoane)",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "nava-comandant „Lordul Tywin”",
+      "„Dulcea Cersei” (galion sculptat după chipul reginei)",
+      "„Bravul Joffrey”, „Lady Joanna”, „Leoaica”, „Regina Margaery”, „Trandafirul de Aur”, „Lordul Renly”, „Lady Olenna”, „Prințesa Myrcella”; propunerea respinsă „Băiatul Lunii”"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_NAVE_ALE_NOII_FLOTE_REGALE"
+  },
+  {
+    "id": "neamul_dragonilor",
+    "nume": "Neamul dragonilor",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "carte a Maesterului Thomax, istoria Casei Targaryen, cu ilustrație a lui Balerion Teroarea"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "75"
+      }
+    ],
+    "id_intern": "OBJECT_NEAMUL_DRAGONILOR"
+  },
+  {
+    "id": "nenorocirea_inimii",
+    "nume": "Nenorocirea Inimii",
+    "categorie": "obiect (sabie)",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "4"
+      }
+    ],
+    "id_intern": "OBJECT_NENOROCIREA_INIMII"
+  },
+  {
+    "id": "obiect",
+    "nume": "Obiect",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Cartea Albă — registrul Gărzii Regale unde Jaime trebuie să-și consemneze faptele; se gândește s-o distrugă mai degrabă decât s-o umple de minciuni"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "118"
+      }
+    ],
+    "id_intern": "OBJECT_OBIECT"
+  },
+  {
+    "id": "obsidianul",
+    "nume": "Obsidianul (sticla dragonului)",
+    "categorie": "obiect/material",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Eficient împotriva Celorlalţi",
+      "Copiii Pădurii dădeau Rondului 100 de pumnale de obsidian pe an în Epoca Eroilor (vezi și entry „Copiii Pădurii\")"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_OBSIDIANUL"
+  },
+  {
+    "id": "obsidianul_sticla_dragonilor",
+    "nume": "Obsidianul / sticla dragonilor",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Material folosit de copiii pădurii pentru vârfuri de săgeți; topit „în focurile zeilor, adânc sub pământ\"; păzit într-un borcan verde în turnul lui Luwin"
+    ],
+    "sursa": "Urzeala Tronurilor",
+    "surse": [
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": 14,
+        "source_page": "765–767"
+      }
+    ],
+    "id_intern": "OBJECT_OBSIDIANUL_STICLA_DRAGONILOR"
+  },
+  {
+    "id": "ochean_myrishez_din_bronz",
+    "nume": "Ochean myrishez din bronz",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "**Ochean myrishez din bronz:** instrument optic folosit cândva de Maester Aemon pentru astronomie, refolosit de Jon pentru recunoaștere militară"
+    ],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "14"
+      }
+    ],
+    "id_intern": "OBJECT_OCHEAN_MYRISHEZ_DIN_BRONZ"
+  },
+  {
+    "id": "ochiul_myrishean",
+    "nume": "Ochiul-myrishean",
+    "categorie": "obiect (instrument optic)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Instrument optic (două lentile în tuburi de alamă glisante) folosit pentru a vedea obiecte îndepărtate ca apropiate; capturat de Victarion de pe „Porumbiţa\""
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": 20,
+        "source_page": "20"
+      }
+    ],
+    "id_intern": "OBJECT_OCHIUL_MYRISHEAN"
+  },
+  {
+    "id": "oglinjoara_de_argint_a_lui_tyrion",
+    "nume": "Oglinjoara de argint a lui Tyrion",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 17,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_OGLINJOARA_DE_ARGINT_A_LUI_TYRION"
+  },
+  {
+    "id": "otelul_valyrian",
+    "nume": "Oțelul valyrian",
+    "categorie": "obiect (material)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "**Oțelul valyrian** — foarte rar (posibil doar ~200 de săbii în toate cele Șapte Regate); secretele făuririi pierdute odată cu Apocalipsa Valyriei; culorile neobișnuite (gri și roșu, ca „valuri de noapte și sânge\") ale noilor săbii, rezultat al unei încercări eșuate de a le vopsi în purpuriu Lannister",
+      "Metal legendar, extrem de ascuțit și durabil, realizat cu ajutorul unor farmece de fierari din vechea Valyrie, distrusă într-un eveniment numit „Pieirea Valyriei\"/„Apocalipsa\""
+    ],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "7"
+      },
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": 1,
+        "source_page": "23,35"
+      }
+    ],
+    "id_intern": "OBJECT_OTELUL_VALYRIAN"
+  },
+  {
+    "id": "otrava_strangulatorul",
+    "nume": "Otrava „Strangulatorul” (The Strangler)",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 1,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_OTRAVA_STRANGULATORUL"
+  },
+  {
+    "id": "otravurile_marelui_maester_pycelle",
+    "nume": "Otrăvurile Marelui Maester Pycelle",
+    "categorie": "obiect (otrăvuri)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "**Otrăvurile lui Pycelle:** listă de substanțe menționate la proces — „Pălărie-gri” (din ciupercă otrăvitoare), Umbra-nopții, Somnul-dulce, Dansul-demonilor, Ochi-orb, Sângele văduvei, Năpasta-lupilor, venin de basilisc, Lacrimi-din-Lys, și o otravă rară numită „strangulatorul”, singura capabilă să sufoce o victimă"
+    ],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "13"
+      }
+    ],
+    "id_intern": "OBJECT_OTRAVURILE_MARELUI_MAESTER_PYCELLE"
+  },
+  {
+    "id": "ouale_de_dragon_ale_copiilor_lui_maekar",
+    "nume": "Ouăle de dragon ale copiilor lui Maekar",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Aerion deține unul auriu-argintiu cu vinișoare de foc",
+      "Egg (Aegon) are unul alb cu verde, primit în leagăn la naștere, păstrat la Castelul Verii; se presupune că mai multe ouă vechi există la Piatra Dragonului"
+    ],
+    "sursa": "Cavalerul celor 7 Regate",
+    "surse": [
+      {
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": 6,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_OUALE_DE_DRAGON_ALE_COPIILOR_LUI_MAEKAR"
+  },
+  {
+    "id": "ouale_de_dragon_ale_lui_daenerys",
+    "nume": "Ouăle de dragon ale lui Daenerys",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Trei ouă provenite de pe „Tărâmul Umbrelor, dincolo de Asshai\"; transformate în piatră de-a lungul eonilor, dar păstrează strălucire; dar de nuntă din partea lui Magister Illyrio",
+      "Descrise inițial: unul verde-închis cu pete de bronz; unul crem-deschis dungat cu aur; unul negru cu vârtejuri stacojii",
+      "Comparate valoric cu rubine, diamante și opal de foc",
+      "Viserys plănuia să le vândă/fure pentru a-și cumpăra mercenari — Fragment 9, pag",
+      "515–516",
+      "Dany le ține aproape de corp pentru a se simți mai puternică; unul descris verde-închis cu picături de bronz printre solzi — Fragment 8, pag",
+      "408",
+      "Puse pe foc fără efect vizibil — Fragment 11.  descrierile culorilor variază ușor între fragmente — posibil aceleași trei ouă redate diferit: un ou e descris și ca „albicios cu solzi culoare de unt, striat cu vinișoare aurii și arămii\", altul „negru cu spirale purpurii\" — Fragment 14, pag",
+      "783–784 — Dany simte căldură/mișcare în ele",
+      "Puse pe rugul funerar al lui Drogo (cel negru lângă inimă, cel verde lângă cap, cel auriu între picioare); din ele eclozează cei trei pui de dragon — Fragment 15, pag",
+      "831, 839"
+    ],
+    "sursa": "Urzeala Tronurilor",
+    "surse": [
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": "408,515–516,783–784,831,839"
+      }
+    ],
+    "id_intern": "OBJECT_OUALE_DE_DRAGON_ALE_LUI_DAENERYS"
+  },
+  {
+    "id": "ouale_de_dragon_false_de_la_qarth",
+    "nume": "Ouăle de dragon false de la Qarth",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 15,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_OUALE_DE_DRAGON_FALSE_DE_LA_QARTH"
+  },
+  {
+    "id": "oul_de_dragon",
+    "nume": "Oul de dragon (premiu de turnir la Zidurile Albe)",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Deținut de Lordul Butterwell, dăruit bunicului său de Regele Aegon, după o noapte în care acesta l-a găzduit; povestea spune că trei fiice fecioare ale bunicului au rămas însărcinate cu bastarzi regali în acea noapte",
+      "Așezat pe o pernă de catifea neagră, pe un soclu de marmură, în dormitorul Lordului Butterwell; mai mare decât un ou de găină; solzi roșii, delicați, netezi la atingere, cu pete aurii și arabescuri negre; foarte greu („ai putea zdrobi cu el capul unui om, fără să-i crăpi măcar coaja\")",
+      "Oferit ca premiu principal al turnirului",
+      "Sugerată o ipoteză a furtului: cineva ar fi putut urca prin puțul privatei, lucru posibil doar pentru un copil sau, sugerează Dunk, un pitic"
+    ],
+    "sursa": "Cavalerul celor 7 Regate",
+    "surse": [
+      {
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_OUL_DE_DRAGON"
+  },
+  {
+    "id": "palosul_pumnalul_lung_si_cutitasul_curbat_de_jupuit_ale_lui_ramsay_bolton",
+    "nume": "Paloşul, pumnalul lung şi cuţitaşul curbat de jupuit ale lui Ramsay Bolton",
+    "categorie": "obiect (armă)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Toate cu mânere din os galben"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "564"
+      }
+    ],
+    "id_intern": "OBJECT_PALOSUL_PUMNALUL_LUNG_SI_CUTITASUL_CURBAT_DE_JUPUIT_ALE_LUI_RAMSAY_BOLTON"
+  },
+  {
+    "id": "papucii_de_matase_albastra_din_qarth",
+    "nume": "Papucii de mătase albastră din Qarth",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 10,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_PAPUCII_DE_MATASE_ALBASTRA_DIN_QARTH"
+  },
+  {
+    "id": "pasajul_secret_al_lui_maegor_i",
+    "nume": "Pasajul secret al lui Maegor I",
+    "categorie": "obiect / altul",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "**Detaliu despre Regele Maegor I („cel Crud\"):** a cerut construirea unei ieşiri secrete în camerele ce aveau să devină ale lui Varys, fără legătură cu alte pasaje; a executat prin decapitare trei Mari Maesteri"
+    ],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "3"
+      }
+    ],
+    "id_intern": "OBJECT_PASAJUL_SECRET_AL_LUI_MAEGOR_I"
+  },
+  {
+    "id": "pielea_degetului_mic_al_lui_theon_greyjoy",
+    "nume": "Pielea degetului mic al lui Theon Greyjoy",
+    "categorie": "obiect / altul",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "**Pielea degetului mic al lui Theon Greyjoy:** trimisă de Ramsay Bolton ca trofeu/dovadă a răzbunării, oferită Catelynei de Roose Bolton"
+    ],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "10"
+      }
+    ],
+    "id_intern": "OBJECT_PIELEA_DEGETULUI_MIC_AL_LUI_THEON_GREYJOY"
+  },
+  {
+    "id": "piese_de_teatru_mentionate",
+    "nume": "Piese de teatru menționate (trupa „Corabie\", Braavos)",
+    "categorie": null,
+    "material": null,
+    "owned_by": [],
+    "sursa": null,
+    "surse": [],
+    "id_intern": "OBJECT_PIESE_DE_TEATRU_MENTIONATE"
+  },
+  {
+    "id": "plasa_de_par_cu_ametiste_a_sansei",
+    "nume": "Plasa de păr cu ametiste a Sansei",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "12"
+      }
+    ],
+    "id_intern": "OBJECT_PLASA_DE_PAR_CU_AMETISTE_A_SANSEI"
+  },
+  {
+    "id": "ploaia_rosie",
+    "nume": "Ploaia Roșie",
+    "categorie": "obiect",
+    "material": "sabia de oțel valyrian a Casei Drumm",
+    "owned_by": [],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "251"
+      }
+    ],
+    "id_intern": "OBJECT_PLOAIA_ROSIE"
+  },
+  {
+    "id": "podul_plutitor_din_orasul_harroway",
+    "nume": "Podul plutitor din Orașul Harroway",
+    "categorie": "obiect (structură)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "**Calul cu două capete al Bătrânului Rege Andahar:** poreclă dată podului plutitor din Oraşul Harroway, cu capete de cai sculptate la proră şi pupă"
+    ],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "10"
+      }
+    ],
+    "id_intern": "OBJECT_PODUL_PLUTITOR_DIN_ORASUL_HARROWAY"
+  },
+  {
+    "id": "potecile_viermilor",
+    "nume": "„Potecile viermilor\"",
+    "categorie": "obicei/obiect (loc)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Numele dat de fraţii Rondului de Noapte tunelurilor subterane ale Castelului Negru, folosite iarna pentru a scurta timpul de deplasare între clădiri"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_POTECILE_VIERMILOR"
+  },
+  {
+    "id": "potirul_de_nunta_al_lui_joffrey",
+    "nume": "Potirul de nuntă al lui Joffrey",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "**Potirul de nuntă** — cupă de aur, înaltă de un metru, cu șapte chipuri reprezentând marile case (leu-rubin, trandafir-smarald, cerb-onix, păstrăv-argint, șoim-jad albastru, soare-opal, lup străvechi-sidef); dar de Mace Tyrell"
+    ],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "12"
+      }
+    ],
+    "id_intern": "OBJECT_POTIRUL_DE_NUNTA_AL_LUI_JOFFREY"
+  },
+  {
+    "id": "potop",
+    "nume": "Potop",
+    "categorie": "obiect (cal)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Buiestrașul tânăr al lui Egg"
+    ],
+    "sursa": "Cavalerul celor 7 Regate",
+    "surse": [
+      {
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": 6,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_POTOP"
+  },
+  {
+    "id": "proteza_blazonul_piper",
+    "nume": "Proteza/blazonul Piper",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "cei doi cai de luptă ai lui Jaime sunt numiți „Onoare” și „Glorie” de scutierul Piper"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_PROTEZA_BLAZONUL_PIPER"
+  },
+  {
+    "id": "pumnalul_daruit_lui_davos_de_khorane",
+    "nume": "Pumnalul dăruit lui Davos de Khorane",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "**Obiect:** pumnalul dăruit lui Davos de căpitanul Khorane — intenţionat, în mintea lui Davos, pentru a o ucide pe Melisandre"
+    ],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "3"
+      }
+    ],
+    "id_intern": "OBJECT_PUMNALUL_DARUIT_LUI_DAVOS_DE_KHORANE"
+  },
+  {
+    "id": "pumnalul_de_obsidian",
+    "nume": "Pumnalul de obsidian (sticlă neagră)",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 11,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_PUMNALUL_DE_OBSIDIAN"
+  },
+  {
+    "id": "pumnalul_valyrian",
+    "nume": "Pumnalul valyrian (arma atentatului asupra lui Bran)",
+    "categorie": "obiect (armă)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Lamă din oțel valyrian care nu-și pierde ascuțimea, cu mâner lustruit din os de dragon și echilibru remarcabil; considerat o armă „mult prea fină\" pentru un atacator obișnuit, sugerând că a fost dat de altcineva — Fragment 3, pag",
+      "136, 170",
+      "A aparținut lui Petyr Baelish; conform unei relatări, câștigat de Tyrion Lannister la pariu la turnirul de onomastica Prințului Joffrey — Fragment 4, pag",
+      "329, 341–342",
+      "Conform altei relatări, Petyr Baelish l-a câștigat la un rămășag de turnir, iar de acolo a ajuns „cumva\" la asasin — Tyrion neagă că ar fi al său — Fragment 6.  conflict: cele două relatări (Fragment 4 vs. Fragment 6) diferă asupra lanțului exact de proprietate al pumnalului",
+      "Purtat ulterior de Eddard Stark la brâu — Fragment 10, pag",
+      "521, 533–534"
+    ],
+    "sursa": "Urzeala Tronurilor",
+    "surse": [
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": "136,170,329,341–342,521,533–534"
+      }
+    ],
+    "id_intern": "OBJECT_PUMNALUL_VALYRIAN"
+  },
+  {
+    "id": "pumnalul_valyrian_cu_maner_in_forma_de_os_de_dragon",
+    "nume": "Pumnalul valyrian cu mâner în formă de os de dragon",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 14,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_PUMNALUL_VALYRIAN_CU_MANER_IN_FORMA_DE_OS_DE_DRAGON"
+  },
+  {
+    "id": "punguta_cu_oasele_degetelor_lui_davos",
+    "nume": "Punguța cu oasele degetelor lui Davos",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "**Obicei/obiect:** punga cu oasele degetelor tăiate, pe care Davos o purta de obicei — pierdută în râu"
+    ],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "3"
+      }
+    ],
+    "id_intern": "OBJECT_PUNGUTA_CU_OASELE_DEGETELOR_LUI_DAVOS"
+  },
+  {
+    "id": "rhllor",
+    "nume": "R'hllor",
+    "categorie": null,
+    "material": null,
+    "owned_by": [],
+    "sursa": null,
+    "surse": [],
+    "id_intern": "OBJECT_RHLLOR"
+  },
+  {
+    "id": "rubinul_cel_mare_purtat_de_melisandre",
+    "nume": "Rubinul cel mare purtat de Melisandre",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 11,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_RUBINUL_CEL_MARE_PURTAT_DE_MELISANDRE"
+  },
+  {
+    "id": "rubinul_lui_melisandre",
+    "nume": "Rubinul lui Melisandre",
+    "categorie": "obiect magic",
+    "material": null,
+    "owned_by": [
+      {
+        "proprietar": "PERSON_RATTLESHIRT",
+        "proprietar_nume": "Rattleshirt",
+        "an_aproximativ": 302,
+        "sursa": {
+          "source_book": "Dansul Dragonilor",
+          "source_fragment": 6,
+          "source_page": "304"
+        },
+        "confidence": "canon"
+      }
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": 6,
+        "source_page": "304"
+      }
+    ],
+    "id_intern": "OBJECT_RUBINUL_LUI_MELISANDRE"
+  },
+  {
+    "id": "sabia_apusul",
+    "nume": "Sabia Apusul",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [
+      {
+        "proprietar": "PERSON_HARRAS_HARLAW",
+        "proprietar_nume": "Harras Harlaw",
+        "an_aproximativ": 301,
+        "sursa": {
+          "source_book": "Festinul Ciorilor",
+          "source_fragment": null,
+          "source_page": null
+        },
+        "confidence": "canon"
+      }
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_SABIA_APUSUL"
+  },
+  {
+    "id": "sabia_blackfyre",
+    "nume": "Sabia Blackfyre",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Sabie valyriană purtată de fiecare rege Targaryen de la Cucerire încoace",
+      "Dată de bătrânul rege lui Daemon Blackfyre la ceremonia de învestire cavalerească a acestuia, la 12 ani — act citat ca simbol al favoritismului regelui față de Daemon",
+      "Folosită de Daemon Blackfyre în duelul de la Câmpul Ierbii Roșii, unde zăngănitul ei (și al sabiei „Doamna Deznădejdii\") putea fi auzit de la doi kilometri, conform relatării",
+      "Artefact simbolic al Casei Blackfyre; absența ei la Glendon Ball e folosită ca argument că nu ar fi fiul autentic al lui Daemon Blackfyre (tatăl), pentru că, dacă ar fi fost, Oțelul Înverșunat l-ar fi înarmat cu ea"
+    ],
+    "sursa": "Cavalerul celor 7 Regate",
+    "surse": [
+      {
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_SABIA_BLACKFYRE"
+  },
+  {
+    "id": "sabia_bocetul_vaduvei",
+    "nume": "Sabia „Bocetul Văduvei”",
+    "categorie": "obiect (sabie)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "**Sabia „Bocetul Văduvei”** — sabie nouă din oțel valyrian, dar de Tywin Lannister lui Joffrey la nuntă; teacă din lemn de cireș, aur și piele roșie, cu capete de leu din aur, ochi de rubin"
+    ],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "12"
+      }
+    ],
+    "id_intern": "OBJECT_SABIA_BOCETUL_VADUVEI"
+  },
+  {
+    "id": "sabia_brightroar",
+    "nume": "Sabia Brightroar",
+    "categorie": "obiect (sabie)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "**Sabia Brightroar** — sabie mare din oțel valyrian, pierdută de Casa Lannister când Regele Tommen al Doilea a dus-o în Valyria (expediție eșuată)",
+      "Unchiul Gery a plecat s-o caute și a dispărut"
+    ],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "7"
+      }
+    ],
+    "id_intern": "OBJECT_SABIA_BRIGHTROAR"
+  },
+  {
+    "id": "sabia_celuilalt",
+    "nume": "Sabia „Celuilalt\" (Alb Rătăcitor)",
+    "categorie": "obiect (armă)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Lamă transparentă, ca un ciob de cristal, cu licărire albăstruie; descrisă ca mai ascuțită decât orice armă făcută de om"
+    ],
+    "sursa": "Urzeala Tronurilor",
+    "surse": [
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": 1,
+        "source_page": "9–10"
+      }
+    ],
+    "id_intern": "OBJECT_SABIA_CELUILALT"
+  },
+  {
+    "id": "sabia_de_cristal",
+    "nume": "Sabia de cristal (blazon)",
+    "categorie": "obiect / blazon",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Vechiul blazon al ţăranilor numiţi „Săbiile\", integraţi acum în Fiii Războinicului"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": 21,
+        "source_page": "21"
+      }
+    ],
+    "id_intern": "OBJECT_SABIA_DE_CRISTAL"
+  },
+  {
+    "id": "sabia_de_imprumut_a_lui_viserys",
+    "nume": "Sabia de împrumut a lui Viserys",
+    "categorie": "obiect (sabie)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Dată de Magister Illyrio lui Viserys „pentru a-i conferi o postură regească\""
+    ],
+    "sursa": "Urzeala Tronurilor",
+    "surse": [
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": 10,
+        "source_page": "518"
+      }
+    ],
+    "id_intern": "OBJECT_SABIA_DE_IMPRUMUT_A_LUI_VISERYS"
+  },
+  {
+    "id": "sabia_devotata",
+    "nume": "Sabia Devotată",
+    "categorie": null,
+    "material": null,
+    "owned_by": [],
+    "sursa": null,
+    "surse": [],
+    "id_intern": "OBJECT_SABIA_DEVOTATA"
+  },
+  {
+    "id": "sabia_diminetii",
+    "nume": "Sabia Dimineții (Dawn)",
+    "categorie": "obiect (armă ancestrală)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Sabie ancestrală asociată istoric cu un membru al Casei Dayne, numit „Sabia Dimineții\"; menționată ca fiind „mort de mult\" — nu este Gerold Dayne",
+      "a lui Ser Arthur Dayne; a ucis pe Cavalerul Zâmbitor (nu Jaime, contrar unei credințe populare)"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "984"
+      },
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": null
+      },
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 6,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_SABIA_DIMINETII"
+  },
+  {
+    "id": "sabia_din_otel_valyrian_a_lui_sandoq_umbra",
+    "nume": "Sabia din oțel valyrian a lui Sandoq Umbra",
+    "categorie": "obiect (sabie din oțel valyrian)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Sabia lui Sandoq Umbra** — sabie curbată imensă cu mâner din os de dragon, cu ape valyriene pe lamă; folosită alături de un scut din lemnul nopții și piele fiartă"
+    ],
+    "sursa": "Foc și Sânge",
+    "surse": [
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "772"
+      }
+    ],
+    "id_intern": "OBJECT_SABIA_DIN_OTEL_VALYRIAN_A_LUI_SANDOQ_UMBRA"
+  },
+  {
+    "id": "sabia_doamna_deznadejdii",
+    "nume": "Sabia „Doamna Deznădejdii\"",
+    "categorie": null,
+    "material": null,
+    "owned_by": [],
+    "sursa": null,
+    "surse": [],
+    "id_intern": "OBJECT_SABIA_DOAMNA_DEZNADEJDII"
+  },
+  {
+    "id": "sabia_facatoarea_de_orfani",
+    "nume": "Sabia Făcătoarea de Orfani (Orphan-Maker)",
+    "categorie": "obiect (sabie din oțel valyrian)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Sabia Făcătoarea de Orfani** — sabie neagră din oțel valyrian, purtată de ser Jon Roxton"
+    ],
+    "sursa": "Foc și Sânge",
+    "surse": [
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_SABIA_FACATOAREA_DE_ORFANI"
+  },
+  {
+    "id": "sabia_focul_negru",
+    "nume": "Sabia Focul Negru (Blackfyre)",
+    "categorie": "obiect (sabie din oțel valyrian)",
+    "material": null,
+    "owned_by": [
+      {
+        "proprietar": "PERSON_AEGON",
+        "proprietar_nume": "Aegon",
+        "an_aproximativ": null,
+        "sursa": {
+          "source_book": "Foc și Sânge",
+          "source_fragment": null,
+          "source_page": "17,37,199"
+        },
+        "confidence": "canon"
+      }
+    ],
+    "sursa": "Foc și Sânge",
+    "surse": [
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "17,37,199"
+      }
+    ],
+    "id_intern": "OBJECT_SABIA_FOCUL_NEGRU"
+  },
+  {
+    "id": "sabia_gheata",
+    "nume": "Sabia Gheața (Ice)",
+    "categorie": null,
+    "material": null,
+    "owned_by": [],
+    "sursa": null,
+    "surse": [],
+    "id_intern": "OBJECT_SABIA_GHEATA"
+  },
+  {
+    "id": "sabia_gravata_a_lui_jon_arryn_fara_nume_propriu",
+    "nume": "[Sabia gravată a lui Jon Arryn — fără nume propriu]",
+    "categorie": "obiect (sabie)",
+    "material": null,
+    "owned_by": [
+      {
+        "proprietar": "PERSON_SER_VARDIS_EGEN",
+        "proprietar_nume": "Ser Vardis Egen",
+        "an_aproximativ": 298,
+        "sursa": {
+          "source_book": "Urzeala Tronurilor",
+          "source_fragment": null,
+          "source_page": "454–455,459"
+        },
+        "confidence": "canon"
+      }
+    ],
+    "descrieri": [
+      "454–455",
+      "Se frânge la o treime spre vârf după ce ricoșează dintr-o statuie — Fragment 9, pag",
+      "459"
+    ],
+    "sursa": "Urzeala Tronurilor",
+    "surse": [
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": "454–455,459"
+      }
+    ],
+    "id_intern": "OBJECT_SABIA_GRAVATA_A_LUI_JON_ARRYN_FARA_NUME_PROPRIU"
+  },
+  {
+    "id": "sabia_lady_forlorn",
+    "nume": "Sabia Lady Forlorn",
+    "categorie": "obiect (sabie din oțel valyrian)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "[oțel valyrian, mândria Casei Corbray, purtată de lordul Corbray] — Fragment 2.1 [sabia valyriană a Casei Corbray.] — Fragment 5.1 [Lady Forlorn** — sabia lungă a lui ser Corwyn Corbray, scoasă din teacă chiar înainte de moartea lui la Runestone.] — Fragment 5.3"
+    ],
+    "sursa": "Foc și Sânge",
+    "surse": [
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "193,764"
+      }
+    ],
+    "id_intern": "OBJECT_SABIA_LADY_FORLORN"
+  },
+  {
+    "id": "sabia_lui_ser_waymar_royce",
+    "nume": "Sabia lui Ser Waymar Royce",
+    "categorie": "obiect (sabie)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Sabie lungă nouă, cu pietre prețioase pe mâner, făcută la castel; distrusă complet în lupta cu Celălalt"
+    ],
+    "sursa": "Urzeala Tronurilor",
+    "surse": [
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": 1,
+        "source_page": "7,11"
+      }
+    ],
+    "id_intern": "OBJECT_SABIA_LUI_SER_WAYMAR_ROYCE"
+  },
+  {
+    "id": "sabia_lunga_a_lui_ser_arlan",
+    "nume": "Sabia lungă a lui Ser Arlan",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Lamă dreaptă, oțel bine forjat în fierăriile unui castel; plăsea din lemn înfășurată în piele fină; ornament din piatră neagră lucioasă la capul mânerului; folosită pentru a-l „învesti\" cavaler pe Dunk"
+    ],
+    "sursa": "Cavalerul celor 7 Regate",
+    "surse": [
+      {
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": 1,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_SABIA_LUNGA_A_LUI_SER_ARLAN"
+  },
+  {
+    "id": "sabia_lunga_a_lui_ser_barristan_selmy",
+    "nume": "Sabia lungă a lui Ser Barristan Selmy",
+    "categorie": "obiect (armă)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Armă de cavaler, folosită pentru a-l învinge pe Khrazz"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "1198–1200"
+      }
+    ],
+    "id_intern": "OBJECT_SABIA_LUNGA_A_LUI_SER_BARRISTAN_SELMY"
+  },
+  {
+    "id": "sabia_lunga_a_lui_ser_jorah_mormont",
+    "nume": "Sabia lungă a lui Ser Jorah Mormont",
+    "categorie": "obiect (armă)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Lustruită zilnic ca rutină/disciplină pe corabie"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "717"
+      }
+    ],
+    "id_intern": "OBJECT_SABIA_LUNGA_A_LUI_SER_JORAH_MORMONT"
+  },
+  {
+    "id": "sabia_napasta_inimii",
+    "nume": "Sabia Năpasta Inimii (Heartsbane)",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "a Lordului Tarly, oțel valyrian"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_SABIA_NAPASTA_INIMII"
+  },
+  {
+    "id": "sabia_ploaia_rosie",
+    "nume": "Sabia Ploaia Roșie",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [
+      {
+        "proprietar": "PERSON_DUNSTAN_DRUMM",
+        "proprietar_nume": "Dunstan Drumm",
+        "an_aproximativ": 301,
+        "sursa": {
+          "source_book": "Festinul Ciorilor",
+          "source_fragment": null,
+          "source_page": null
+        },
+        "confidence": "canon"
+      }
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_SABIA_PLOAIA_ROSIE"
+  },
+  {
+    "id": "sabia_rasarit_sabia_diminetii",
+    "nume": "Sabia „Răsărit” / „Sabia Dimineții”",
+    "categorie": null,
+    "material": null,
+    "owned_by": [],
+    "sursa": null,
+    "surse": [],
+    "id_intern": "OBJECT_SABIA_RASARIT_SABIA_DIMINETII"
+  },
+  {
+    "id": "sabia_sora_intunecata",
+    "nume": "Sabia Sora Întunecată (Dark Sister)",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [
+      {
+        "proprietar": "PERSON_BEN_BEESBURY",
+        "proprietar_nume": "Ben Beesbury (\"Orbul\")",
+        "an_aproximativ": null,
+        "sursa": {
+          "source_book": "Cavalerul celor 7 Regate",
+          "source_fragment": null,
+          "source_page": null
+        },
+        "confidence": "canon"
+      },
+      {
+        "proprietar": "PERSON_VISENYA_TARGARYEN",
+        "proprietar_nume": "Visenya Targaryen",
+        "an_aproximativ": null,
+        "sursa": {
+          "source_book": "Foc și Sânge",
+          "source_fragment": null,
+          "source_page": "16-17,45,172"
+        },
+        "confidence": "canon"
+      }
+    ],
+    "descrieri": [
+      "Menționată și comparativ, ca artefact de rang similar cu Blackfyre, asociată istoric cu Regele Dragon"
+    ],
+    "sursa": "Cavalerul celor 7 Regate",
+    "surse": [
+      {
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": null,
+        "source_page": null
+      },
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "16-17,45,172"
+      }
+    ],
+    "id_intern": "OBJECT_SABIA_SORA_INTUNECATA"
+  },
+  {
+    "id": "sabia_tanguirea",
+    "nume": "Sabia Tânguirea (Lamentation)",
+    "categorie": "obiect (sabie din oțel valyrian)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Sabia Tânguirea** — sabie valyriană purtată de ser William Royce, furată după moartea lui, nemaifiind găsită"
+    ],
+    "sursa": "Foc și Sânge",
+    "surse": [
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_SABIA_TANGUIREA"
+  },
+  {
+    "id": "sabia_vigilenta",
+    "nume": "Sabia Vigilența (Vigilance)",
+    "categorie": "obiect (sabie din oțel valyrian)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Menționat în text fără descriere suplimentară"
+    ],
+    "sursa": "Foc și Sânge",
+    "surse": [
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "508"
+      }
+    ],
+    "id_intern": "OBJECT_SABIA_VIGILENTA"
+  },
+  {
+    "id": "sabia_zorii",
+    "nume": "Sabia Zorii (Dawn)",
+    "categorie": "obiect (sabie)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Marea sabie a lui Ser Arthur Dayne, cu lamă alburie, translucidă"
+    ],
+    "sursa": "Urzeala Tronurilor",
+    "surse": [
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": 8,
+        "source_page": "439"
+      }
+    ],
+    "id_intern": "OBJECT_SABIA_ZORII"
+  },
+  {
+    "id": "sabia_zorilor",
+    "nume": "Sabia Zorilor",
+    "categorie": "obiect (sabie legendară) / altul",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "2"
+      }
+    ],
+    "id_intern": "OBJECT_SABIA_ZORILOR"
+  },
+  {
+    "id": "scrisoarea_lui_ramsay_bolton_catre_jon_snow",
+    "nume": "Scrisoarea lui Ramsay Bolton către Jon Snow",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Sigilată cu ceară trandafirie dură; adresată doar „Bastardule\"; conţine ameninţări, revendicări şi cerinţe (predarea reginei Selyse, a lui Shireen, a Melisandrei, a lui „prinţesei sălbatice\" şi a „prinţişorului\"/bebeluşului)",
+      "Conform ei, Ramsay ar deține și Aducătoarea Luminii (vezi entry separată)"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "1229–1230"
+      }
+    ],
+    "id_intern": "OBJECT_SCRISOAREA_LUI_RAMSAY_BOLTON_CATRE_JON_SNOW"
+  },
+  {
+    "id": "scutul_lui_dunk",
+    "nume": "Scutul lui Dunk (blazonul personal)",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Noul însemn ales de Dunk: un ulm cu trunchi maro și ramuri verzi (idee a lui Egg), cu o stea căzătoare deasupra, pe fundal culoarea apusului — pictat de Tanselle Lungana la Pajiștea Ashford",
+      "Scutul actual (cumpărat la Septul de Piatră) poartă însă blazonul fostului proprietar — o spânzurătoare cu un om spânzurat",
+      "La turnir, Dunk se înscrie sub numele „Cavalerul Spânzurătorii\" din cauza acestui blazon"
+    ],
+    "sursa": "Cavalerul celor 7 Regate",
+    "surse": [
+      {
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_SCUTUL_LUI_DUNK"
+  },
+  {
+    "id": "scutul_lui_ser_arlan_scutul_initial_al_lui_dunk",
+    "nume": "Scutul lui Ser Arlan / Scutul inițial al lui Dunk",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Scut folosit de Dunk ca dovadă vizuală a statutului său de cavaler",
+      "Simbolul inițial pe scutul lui Dunk: pocalul înaripat, moștenit de la Ser Arlan de Pennytree; prin lege, doar un fiu legitim poate moșteni armele unui cavaler, deci Dunk trebuie să-și aleagă propriul însemn"
+    ],
+    "sursa": "Cavalerul celor 7 Regate",
+    "surse": [
+      {
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_SCUTUL_LUI_SER_ARLAN_SCUTUL_INITIAL_AL_LUI_DUNK"
+  },
+  {
+    "id": "scutul_lui_ser_bennis",
+    "nume": "Scutul lui Ser Bennis",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Lemn nevopsit, înnegrit de straturi de lac, fără blazon, cu o proeminență centrală descrisă ca un ochi închis"
+    ],
+    "sursa": "Cavalerul celor 7 Regate",
+    "surse": [
+      {
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": 5,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_SCUTUL_LUI_SER_BENNIS"
+  },
+  {
+    "id": "scutul_micului_leu",
+    "nume": "Scutul Micului Leu",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Scut vechi, deteriorat (lipsă aproape jumătate, lemn crăpat, margine de fier ruginită), aparținând istoric lui Ser Wilbert Osgrey, găsit de Ser Eustace pe fundul unui cufăr la Standfast; purta blazonul Casei Osgrey (leul bălțat), acum imposibil de identificat vizual din cauza deteriorării",
+      "Prețuit de Ser Eustace, legat de balada „Micul Leu\""
+    ],
+    "sursa": "Cavalerul celor 7 Regate",
+    "surse": [
+      {
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_SCUTUL_MICULUI_LEU"
+  },
+  {
+    "id": "scuturile_salbaticilor",
+    "nume": "Scuturile sălbaticilor",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Înclestarea Regilor",
+    "surse": [
+      {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 17,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_SCUTURILE_SALBATICILOR"
+  },
+  {
+    "id": "selaesori_qhoran",
+    "nume": "Selaesori Qhoran",
+    "categorie": null,
+    "material": null,
+    "owned_by": [],
+    "sursa": null,
+    "surse": [],
+    "id_intern": "OBJECT_SELAESORI_QHORAN"
+  },
+  {
+    "id": "sfioasa_fecioara",
+    "nume": "Sfioasa Fecioară (Shy Maid)",
+    "categorie": "obiect (corabie)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Barca lui Griff — pescaj mic, poate naviga pe afluenți mai puțin adânci, velă triunghiulară; are patru cabine (Yandry+Ysilla, Griff+Tânărul Griff, Septa Lemore, Haldon)",
+      "Fragmentul 8 adaugă: folosită pentru a transporta discret Prinţul Aegon pe Rhoyn"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "413–417"
+      }
+    ],
+    "id_intern": "OBJECT_SFIOASA_FECIOARA"
+  },
+  {
+    "id": "sigiliul_regelui_baietan",
+    "nume": "Sigiliul regelui-băietan",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [
+      {
+        "proprietar": "Brienne",
+        "proprietar_nume": "Brienne",
+        "an_aproximativ": 301,
+        "sursa": {
+          "source_book": "Festinul Ciorilor",
+          "source_fragment": null,
+          "source_page": "199"
+        },
+        "confidence": "canon"
+      }
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "199"
+      }
+    ],
+    "id_intern": "OBJECT_SIGILIUL_REGELUI_BAIETAN"
+  },
+  {
+    "id": "silverwing",
+    "nume": "Silverwing",
+    "categorie": "obiect / ființă (dragon)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "dragonul reginei Alysanne"
+    ],
+    "sursa": "Foc și Sânge",
+    "surse": [
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "208"
+      }
+    ],
+    "id_intern": "OBJECT_SILVERWING"
+  },
+  {
+    "id": "sora_intunecata",
+    "nume": "Sora Întunecată (Dark Sister)",
+    "categorie": null,
+    "material": null,
+    "owned_by": [],
+    "sursa": null,
+    "surse": [],
+    "id_intern": "OBJECT_SORA_INTUNECATA"
+  },
+  {
+    "id": "statuia_alyssei_arryn",
+    "nume": "Statuia Alyssei Arryn (\"femeia plângândă\")",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Statuie de marmură albă în grădina Eyrie, folosită ca obstacol în duelul Bronn–Ser Vardis; se sparge/cade în timpul luptei"
+    ],
+    "sursa": "Urzeala Tronurilor",
+    "surse": [
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": 9,
+        "source_page": "457–459"
+      }
+    ],
+    "id_intern": "OBJECT_STATUIA_ALYSSEI_ARRYN"
+  },
+  {
+    "id": "steaua_in_sapte_colturi",
+    "nume": "Steaua în Şapte Colţuri",
+    "categorie": null,
+    "material": null,
+    "owned_by": [],
+    "sursa": null,
+    "surse": [],
+    "id_intern": "OBJECT_STEAUA_IN_SAPTE_COLTURI"
+  },
+  {
+    "id": "sticla_dragonilor",
+    "nume": "Sticla dragonilor",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "4"
+      }
+    ],
+    "id_intern": "OBJECT_STICLA_DRAGONILOR"
+  },
+  {
+    "id": "stindardul_lui_stannis_baratheon",
+    "nume": "Stindardul lui Stannis Baratheon",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "inimă înflăcărată a lui R'hllor (roșie, cu flăcări portocalii pe fond galben), cu cerbul încoronat Baratheon (negru) în interior (Anexă"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "249"
+      }
+    ],
+    "id_intern": "OBJECT_STINDARDUL_LUI_STANNIS_BARATHEON"
+  },
+  {
+    "id": "stindardul_regelui_tommen",
+    "nume": "Stindardul regelui Tommen",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "cerbul încoronat Baratheon (negru pe auriu) și leul Lannister (auriu pe fond purpuriu), gata de luptă (Anexă"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "246"
+      }
+    ],
+    "id_intern": "OBJECT_STINDARDUL_REGELUI_TOMMEN"
+  },
+  {
+    "id": "tacerea",
+    "nume": "Tăcerea",
+    "categorie": null,
+    "material": null,
+    "owned_by": [],
+    "sursa": null,
+    "surse": [],
+    "id_intern": "OBJECT_TACEREA"
+  },
+  {
+    "id": "tarfa_de_sare",
+    "nume": "Târfa de Sare",
+    "categorie": "obiect (corabie)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Corabia comandată de Quenton Greyjoy"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "450"
+      }
+    ],
+    "id_intern": "OBJECT_TARFA_DE_SARE"
+  },
+  {
+    "id": "temnitele_lui_maegor_cel_crud",
+    "nume": "Temnițele lui Maegor cel Crud",
+    "categorie": "obiect (arhitectură)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "**Temniţele lui Maegor cel Crud:** patru niveluri sub Fortăreaţa Roşie (detaliate la secţiunea Locaţii)"
+    ],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "15"
+      }
+    ],
+    "id_intern": "OBJECT_TEMNITELE_LUI_MAEGOR_CEL_CRUD"
+  },
+  {
+    "id": "titanul_din_braavos",
+    "nume": "Titanul din Braavos",
+    "categorie": null,
+    "material": null,
+    "owned_by": [],
+    "sursa": null,
+    "surse": [],
+    "id_intern": "OBJECT_TITANUL_DIN_BRAAVOS"
+  },
+  {
+    "id": "toga_qartheeana_purtata_de_daenerys",
+    "nume": "Toga qartheeană purtată de Daenerys",
+    "categorie": "obiect (veșmânt)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Veșmânt violet diafan, croit să lase sânul stâng dezgolit, purtat la un banchet"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": 5,
+        "source_page": "5"
+      }
+    ],
+    "id_intern": "OBJECT_TOGA_QARTHEEANA_PURTATA_DE_DAENERYS"
+  },
+  {
+    "id": "toiagul_de_fier_al_lui_moqorro",
+    "nume": "Toiagul de fier al lui Moqorro",
+    "categorie": "obiect magic",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Cu un cap de dragon ce scuipă flăcări verzi la impact cu puntea"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "581"
+      }
+    ],
+    "id_intern": "OBJECT_TOIAGUL_DE_FIER_AL_LUI_MOQORRO"
+  },
+  {
+    "id": "tokar",
+    "nume": "Tokar",
+    "categorie": "obicei/obiect (veșmânt)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Veșmânt tradițional ghiscari (Yunkai, Meereen) — o fâşie lungă purtată înfăşurată peste umăr şi şold, semn al statutului de stăpân, dificil de purtat corect",
+      "Materialul şi franjurile indică rangul social: mătase castanie cu franjuri de aur (Reznak), purpuriu tivit cu ametiste şi perle (Hizdahr), roșu-închis tivit cu cranii miniaturale de aur (Zahrina), mătase colorată galbenă/vaporoasă (descriere generală)",
+      "Culorile variază pe familii: Loraq (purpuriu şi indigo), Pahl (roz şi alb), Yunkai (galben)",
+      "Mireasa poartă tokar alb cu franjuri din perle mici (vezi „Ritual ghiscari de nuntă\")",
+      "Incomod pentru călărie",
+      "veșmânt ghiscari tradițional (fâșie lungă înfășurată peste umăr), simbol al statutului de stăpân la Meereen; incomod de purtat, necesită pași mici",
+      "Daenerys este sfătuită să-l poarte pentru a fi acceptată ca regină legitimă"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "58,63,400,436,774–775,935"
+      },
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "293–294"
+      },
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "6"
+      }
+    ],
+    "id_intern": "OBJECT_TOKAR"
+  },
+  {
+    "id": "trandafirul_rosu_al_lui_loras_tyrell",
+    "nume": "Trandafirul roșu al lui Loras Tyrell",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "given_by": [
+      {
+        "donator": "PERSON_SANSA_STARK",
+        "donator_nume": "Sansa Stark",
+        "an_aproximativ": 300,
+        "sursa": {
+          "source_book": "Iureșul Săbiilor",
+          "source_fragment": null,
+          "source_page": "2"
+        },
+        "confidence": "canon"
+      }
+    ],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "2"
+      }
+    ],
+    "id_intern": "OBJECT_TRANDAFIRUL_ROSU_AL_LUI_LORAS_TYRELL"
+  },
+  {
+    "id": "trei_rubine_pe_lant_de_fier_negru",
+    "nume": "Trei rubine pe lanț de fier negru",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Dar de la Magister Illyrio pentru Aegon, simbolizând culorile dragonului (roşu şi negru)"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "418"
+      }
+    ],
+    "id_intern": "OBJECT_TREI_RUBINE_PE_LANT_DE_FIER_NEGRU"
+  },
+  {
+    "id": "tronul_de_fier",
+    "nume": "Tronul de Fier",
+    "categorie": "titlu",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "descris cu țepi și lame care aruncă umbre; doar regele și Mâna pot sta pe el",
+      "Cersei stă la picioarele lui, pe un jilț de lemn aurit cu perne stacojii",
+      "Pagina: 317",
+      "tron uriaș făcut din spadele topite, răsucite, bătute și frânte ale tuturor dușmanilor căzuți ai lui Aegon; instalat inițial la Aegonfort, descris ca „un loc periculos\"",
+      "Făcut din o mie de săbii ale dușmanilor înfrânți de Aegon Cuceritorul, topite cu suflarea dragonului Balerion Spaima Neagră; modelarea a durat 59 de zile; are lame ascuțite care pot tăia; extrem de inconfortabil — Fragment 9, pag",
+      "479–483",
+      "Descris cu țepi și colți de oțel, pe el șezând Joffrey după încoronare — Fragment 10, pag",
+      "547"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": null
+      },
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "35"
+      },
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": "479–483,547"
+      }
+    ],
+    "id_intern": "OBJECT_TRONUL_DE_FIER"
+  },
+  {
+    "id": "tronul_de_lemn_plutitor_al_casei_velaryon",
+    "nume": "Tronul de Lemn Plutitor al Casei Velaryon",
+    "categorie": "obiect / tron legendar",
+    "material": "Tronul de Lemn Plutitor al Casei Velaryon (dar legendar de la Regele Merlan)",
+    "owned_by": [],
+    "sursa": "Foc și Sânge",
+    "surse": [
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_TRONUL_DE_LEMN_PLUTITOR_AL_CASEI_VELARYON"
+  },
+  {
+    "id": "tronul_grifonului",
+    "nume": "Tronul Grifonului",
+    "categorie": "obiect / tron",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Tronul Casei Connington de la Cuibul Grifonului, folosit de cincizeci de generaţii de Conningtoni"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_TRONUL_GRIFONULUI"
+  },
+  {
+    "id": "tunelul_secret_sub_turnul_mainii",
+    "nume": "Tunelul secret sub Turnul Mâinii",
+    "categorie": "obiect (arhitectură)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "**Tunelul secret sub Turnul Mâinii:** 230 de trepte; cameră circulară cu mozaic al unui dragon cu trei capete şi mangal în formă de cap de dragon; ieşire prin şemineul fostului dormitor al lui Tyrion"
+    ],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "15"
+      }
+    ],
+    "id_intern": "OBJECT_TUNELUL_SECRET_SUB_TURNUL_MAINII"
+  },
+  {
+    "id": "tunet",
+    "nume": "Tunet",
+    "categorie": "obiect (cal)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Calul de luptă al lui Dunk; descris ca bătrân"
+    ],
+    "sursa": "Cavalerul celor 7 Regate",
+    "surse": [
+      {
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_TUNET"
+  },
+  {
+    "id": "turnul_coroana_reginei",
+    "nume": "Turnul „Coroana Reginei”",
+    "categorie": "obiect (structură)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "**Coroana Reginei (numele local al turnului):** crenelurile pictate auriu în cinstea vizitei Reginei Alysanne, care a poposit acolo o noapte în timpul călătoriei sale spre Zid pe dragonul Aripă-de-Argint"
+    ],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "8"
+      }
+    ],
+    "id_intern": "OBJECT_TURNUL_COROANA_REGINEI"
+  },
+  {
+    "id": "usa_lunii",
+    "nume": "Ușa Lunii",
+    "categorie": "obiect / obicei juridic",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Ușă din lemn cu semilună sculptată, la Eyrie, prin care sunt aruncați condamnații în gol (~200 metri); considerată „dreptatea regelui\" la Eyrie"
+    ],
+    "sursa": "Urzeala Tronurilor",
+    "surse": [
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": 8,
+        "source_page": "425,435"
+      }
+    ],
+    "id_intern": "OBJECT_USA_LUNII"
+  },
+  {
+    "id": "vantul_negru",
+    "nume": "Vântul Negru",
+    "categorie": "obiect (corabie)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Corabia lungă a Ashei Greyjoy",
+      "corabia Ashei"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "452,456"
+      },
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "240,243"
+      }
+    ],
+    "id_intern": "OBJECT_VANTUL_NEGRU"
+  },
+  {
+    "id": "vas_ritualic_din_lemn_de_copac_al_inimii",
+    "nume": "Vas ritualic din lemn de copac al inimii",
+    "categorie": "obiect ritualic",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Sculptat, cu 12 chipuri, conţinând pastă din semințe de copac al inimii, folosit pentru iniţierea clarvăzătorilor verzi"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "611"
+      }
+    ],
+    "id_intern": "OBJECT_VAS_RITUALIC_DIN_LEMN_DE_COPAC_AL_INIMII"
+  },
+  {
+    "id": "vermithor",
+    "nume": "Vermithor",
+    "categorie": "obiect / ființă (dragon)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "dragonul regelui Jaehaerys, solzi aramii, hrănit cu bou în curtea Fortăreței Roșii"
+    ],
+    "sursa": "Foc și Sânge",
+    "surse": [
+      {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "198,205–206"
+      }
+    ],
+    "id_intern": "OBJECT_VERMITHOR"
+  },
+  {
+    "id": "vhagar",
+    "nume": "Vhagar",
+    "categorie": null,
+    "material": null,
+    "owned_by": [],
+    "sursa": null,
+    "surse": [],
+    "id_intern": "OBJECT_VHAGAR"
+  },
+  {
+    "id": "victoria_de_fier",
+    "nume": "Victoria de Fier",
+    "categorie": "obiect (corabie)",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Căpitănia lui Victarion Greyjoy"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "1307,1347"
+      }
+    ],
+    "id_intern": "OBJECT_VICTORIA_DE_FIER"
+  },
+  {
+    "id": "victoria_fierului",
+    "nume": "Victoria Fierului",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "nava amiral a lui Victarion"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "235–237"
+      }
+    ],
+    "id_intern": "OBJECT_VICTORIA_FIERULUI"
+  },
+  {
+    "id": "vietile_inaltilor_septoni",
+    "nume": "Vieţile Înalţilor Septoni",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "carte, printre lecturile Ariannei"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "151"
+      }
+    ],
+    "id_intern": "OBJECT_VIETILE_INALTILOR_SEPTONI"
+  },
+  {
+    "id": "vin_al_curajului",
+    "nume": "Vin al curajului",
+    "categorie": "obiect (remediu/licoare)",
+    "material": null,
+    "owned_by": [],
+    "sursa": "Iureșul Săbiilor",
+    "surse": [
+      {
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": null,
+        "source_page": "5"
+      }
+    ],
+    "id_intern": "OBJECT_VIN_AL_CURAJULUI"
+  },
+  {
+    "id": "vin_de_arbor",
+    "nume": "Vin de Arbor (butoi din pivnița lui Illyrio)",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Butoi de vin tare, marcat ca rezervă privată a Lordului Runceford Redwyne (bunicul actualului Lord de Arbor), găsit de Tyrion în pivniţa lui Illyrio"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": 1,
+        "source_page": "1"
+      }
+    ],
+    "id_intern": "OBJECT_VIN_DE_ARBOR"
+  },
+  {
+    "id": "vinciurile_eyrie",
+    "nume": "Vinciurile Eyrie",
+    "categorie": "obiect / obicei",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "Șase vinciuri mari cu lanțuri lungi de fier, folosite pentru a aduce proviziile (și, opțional, oamenii) de jos, prin pivnițe"
+    ],
+    "sursa": "Urzeala Tronurilor",
+    "surse": [
+      {
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": 7,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_VINCIURILE_EYRIE"
+  },
+  {
+    "id": "vinul_viselor",
+    "nume": "Vinul viselor",
+    "categorie": null,
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "poțiune calmantă/pentru muribunzi, dată lui Maester Aemon de un tămăduitor din Casa Mâinilor Roșii"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_VINUL_VISELOR"
+  },
+  {
+    "id": "zgarda_de_sclav",
+    "nume": "Zgardă de sclav",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [
+      {
+        "proprietar": "„odoarele\" (comorile) lui Yezzan",
+        "proprietar_nume": "„odoarele\" (comorile) lui Yezzan",
+        "an_aproximativ": 302,
+        "sursa": {
+          "source_book": "Dansul Dragonilor",
+          "source_fragment": null,
+          "source_page": "844"
+        },
+        "confidence": "canon"
+      }
+    ],
+    "descrieri": [
+      "Fier ușor aurit, nume gravat în hieroglife valyriene, clopoței mici sub urechi"
+    ],
+    "sursa": "Dansul Dragonilor",
+    "surse": [
+      {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "844"
+      }
+    ],
+    "id_intern": "OBJECT_ZGARDA_DE_SCLAV"
+  },
+  {
+    "id": "ziua_fecioarei",
+    "nume": "Ziua Fecioarei",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [],
+    "descrieri": [
+      "sărbătoare religioasă dedicată Fecioarei; în această zi, văduvelor, mamelor şi târfelor le este interzis accesul în septuri, la fel şi bărbaţilor; doar fecioarele pot participa, aprinzând lumânări albe şi agăţând ghirlande din pergament"
+    ],
+    "sursa": "Festinul Ciorilor",
+    "surse": [
+      {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "148"
+      }
+    ],
+    "id_intern": "OBJECT_ZIUA_FECIOAREI"
+  },
+  {
+    "id": "zorile",
+    "nume": "Zorile (Dawn)",
+    "categorie": "obiect",
+    "material": null,
+    "owned_by": [
+      {
+        "proprietar": "Ulrick Dayne",
+        "proprietar_nume": "Ulrick Dayne",
+        "an_aproximativ": null,
+        "sursa": {
+          "source_book": "Cavalerul celor 7 Regate",
+          "source_fragment": 5,
+          "source_page": null
+        },
+        "confidence": "canon"
+      }
+    ],
+    "sursa": "Cavalerul celor 7 Regate",
+    "surse": [
+      {
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": 5,
+        "source_page": null
+      }
+    ],
+    "id_intern": "OBJECT_ZORILE"
+  }
+]

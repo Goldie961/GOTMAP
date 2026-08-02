@@ -1,0 +1,475 @@
+[
+  {
+    "id": "landing_blackwater",
+    "name": "Landing at the Blackwater",
+    "year": 1,
+    "sequence": 1,
+    "type": "conquest",
+    "location": "kings_landing",
+    "region": "the_crownlands",
+    "description": "Aegon Targaryen lands at the mouth of the Blackwater Rush with his sister-wives, three dragons, and a small host of soldiers, claiming the land and erecting a crude fort of timber and earth.",
+    "canon": "canon",
+    "book": "Fire & Blood",
+    "chapter": "Aegon's Conquest",
+    "participants": [
+      "aegon_i",
+      "visenya_targaryen",
+      "rhaenys_targaryen"
+    ],
+    "factions": [
+      "targaryen",
+      "velaryon"
+    ],
+    "outcome": "Establishment of the Aegonfort; beginning of the campaign.",
+    "source": "https://awoiaf.westeros.org/index.php/Aegon%27s_Conquest",
+    "participanti": [],
+    "locatie_id": null,
+    "an_aproximativ": null,
+    "nume_generat": false
+  },
+  {
+    "id": "battle_gulltown",
+    "name": "Battle of Gulltown",
+    "year": 1,
+    "sequence": 2,
+    "type": "battle",
+    "location": "gulltown_city",
+    "region": "the_vale",
+    "description": "A Targaryen fleet led by Daemon Velaryon fights a Vale fleet assisted by Braavosi ships. While the Targaryen fleet is destroyed and Daemon slain, Visenya Targaryen burns the Arryn fleet with Vhagar.",
+    "canon": "canon",
+    "book": "Fire & Blood",
+    "chapter": "Aegon's Conquest",
+    "participants": [
+      "visenya_targaryen",
+      "daemon_velaryon",
+      "sharra_arryn"
+    ],
+    "factions": [
+      "targaryen",
+      "arryn"
+    ],
+    "outcome": "Tactical Vale victory, but the Arryn fleet is destroyed.",
+    "source": "https://awoiaf.westeros.org/index.php/Battle_of_Gulltown",
+    "participanti": [],
+    "locatie_id": null,
+    "an_aproximativ": null,
+    "nume_generat": false
+  },
+  {
+    "id": "burning_harrenhal",
+    "name": "Burning of Harrenhal",
+    "year": 1,
+    "sequence": 3,
+    "type": "battle",
+    "location": "harrenhal",
+    "region": "the_riverlands",
+    "description": "Aegon I Targaryen demands the surrender of King Harren the Black. Upon refusal, Aegon mounts Balerion and flies over the massive walls, bathing the castle in dragonfire and melting its towers, destroying House Hoare.",
+    "canon": "canon",
+    "book": "Fire & Blood",
+    "chapter": "Aegon's Conquest",
+    "participants": [
+      "aegon_i"
+    ],
+    "factions": [
+      "targaryen",
+      "hoare"
+    ],
+    "outcome": "House Hoare extinguished; Edmyn Tully elevated as ruler of Riverlands.",
+    "source": "https://awoiaf.westeros.org/index.php/Burning_of_Harrenhal",
+    "participanti": [],
+    "locatie_id": null,
+    "an_aproximativ": null,
+    "nume_generat": false
+  },
+  {
+    "id": "battle_last_storm",
+    "name": "The Last Storm",
+    "year": 1,
+    "sequence": 4,
+    "type": "battle",
+    "location": "storm_end",
+    "region": "the_stormlands",
+    "description": "Orys Baratheon leads a host against Argilac the Arrogant. Despite a fierce storm blinding the Targaryen archers, Queen Rhaenys on Meraxes turns the tide, and Orys slays Argilac in single combat.",
+    "canon": "canon",
+    "book": "Fire & Blood",
+    "chapter": "Aegon's Conquest",
+    "participants": [
+      "orys_baratheon",
+      "rhaenys_targaryen"
+    ],
+    "factions": [
+      "targaryen",
+      "durrandon"
+    ],
+    "outcome": "House Durrandon falls; House Baratheon founded.",
+    "source": "https://awoiaf.westeros.org/index.php/Last_Storm",
+    "participanti": [],
+    "locatie_id": null,
+    "an_aproximativ": null,
+    "nume_generat": false
+  },
+  {
+    "id": "field_of_fire",
+    "name": "The Field of Fire",
+    "year": 1,
+    "sequence": 5,
+    "type": "battle",
+    "location": "highgarden",
+    "region": "the_reach",
+    "description": "The only battle during the Conquest where all three Targaryen dragons—Balerion, Vhagar, and Meraxes—were unleashed together. They incinerated the combined host of King Mern IX Gardener and King Loren Lannister.",
+    "canon": "canon",
+    "book": "Fire & Blood",
+    "chapter": "Aegon's Conquest",
+    "participants": [
+      "aegon_i",
+      "visenya_targaryen",
+      "rhaenys_targaryen",
+      "loren_lannister"
+    ],
+    "factions": [
+      "targaryen",
+      "gardener",
+      "lannister"
+    ],
+    "outcome": "House Gardener extinguished; House Tyrell takes Highgarden; Loren Lannister yields.",
+    "source": "https://awoiaf.westeros.org/index.php/Field_of_Fire",
+    "participanti": [],
+    "locatie_id": null,
+    "an_aproximativ": null,
+    "nume_generat": false
+  },
+  {
+    "id": "submission_north",
+    "name": "Submission of the North",
+    "year": 1,
+    "sequence": 6,
+    "type": "political",
+    "location": "moat_cailin",
+    "description": "King Torrhen Stark marches 30,000 northmen south. Upon seeing the charred bones from the Field of Fire and the three dragons across the Trident, Torrhen decides to save his people by bending the knee to Aegon.",
+    "canon": "canon",
+    "book": "Fire & Blood",
+    "chapter": "Aegon's Conquest",
+    "participants": [
+      "aegon_i",
+      "torrhen_stark"
+    ],
+    "outcome": "Torrhen Stark is named Warden of the North; the North is integrated peacefully.",
+    "participanti": [],
+    "locatie_id": null,
+    "an_aproximativ": null,
+    "nume_generat": false
+  },
+  {
+    "id": "submission_vale",
+    "name": "Submission of the Vale",
+    "year": 1,
+    "sequence": 7,
+    "type": "political",
+    "location": "the_eyrie",
+    "description": "Queen Regent Sharra Arryn gathers Vale armies at the Bloody Gate. Visenya Targaryen bypasses them on Vhagar and lands in the Eyrie courtyard. Sharra yields upon finding her son Ronnel sitting on Visenya's knee.",
+    "canon": "canon",
+    "book": "Fire & Blood",
+    "chapter": "Aegon's Conquest",
+    "participants": [
+      "visenya_targaryen",
+      "ronnel_arryn",
+      "sharra_arryn"
+    ],
+    "outcome": "Vale yields; Ronnel Arryn named Warden of the East.",
+    "participanti": [],
+    "locatie_id": null,
+    "an_aproximativ": null,
+    "nume_generat": false
+  },
+  {
+    "id": "dorne_resistance",
+    "name": "Resistance of Dorne",
+    "year": 1,
+    "sequence": 8,
+    "type": "conquest",
+    "location": "sunspear",
+    "region": "dorne",
+    "description": "Rhaenys Targaryen flies Meraxes to Dorne, finding cities empty. At Sunspear, Princess Meria Martell refuses to yield, stating: 'Unbowed, Unbent, Unbroken.' Rhaenys leaves, planning a future war.",
+    "canon": "canon",
+    "book": "Fire & Blood",
+    "chapter": "Aegon's Conquest",
+    "participants": [
+      "rhaenys_targaryen",
+      "meria_martell"
+    ],
+    "factions": [
+      "targaryen",
+      "martell"
+    ],
+    "outcome": "Dorne remains independent, launching a decade of resistance.",
+    "source": "https://awoiaf.westeros.org/index.php/Aegon%27s_Conquest",
+    "participanti": [],
+    "locatie_id": null,
+    "an_aproximativ": null,
+    "nume_generat": false
+  },
+  {
+    "id": "coronation_oldtown",
+    "name": "Coronation at Oldtown",
+    "year": 1,
+    "sequence": 9,
+    "type": "coronation",
+    "location": "oldtown_city",
+    "description": "Aegon I Targaryen marches to Oldtown, where Lord Manfred Hightower welcomes him. The High Septon crowns Aegon with a crown of Valyrian steel and rubies, declaring him King of the Seven Kingdoms.",
+    "canon": "canon",
+    "book": "Fire & Blood",
+    "chapter": "Aegon's Conquest",
+    "participants": [
+      "aegon_i"
+    ],
+    "outcome": "Aegon's rule is spiritually and politically validated by the Faith.",
+    "participanti": [],
+    "locatie_id": null,
+    "an_aproximativ": null,
+    "nume_generat": false
+  },
+  {
+    "id": "founding_kl",
+    "name": "Founding of King's Landing",
+    "year": 1,
+    "sequence": 10,
+    "type": "founding",
+    "location": "kings_landing",
+    "description": "Aegon I establishes his permanent throne at the Aegonfort, and the town of King's Landing begins to grow around it. Work starts on roads, walls, and the Red Keep.",
+    "canon": "canon",
+    "book": "Fire & Blood",
+    "chapter": "Aegon's Conquest",
+    "participants": [
+      "aegon_i",
+      "visenya_targaryen",
+      "crispian_celtigar"
+    ],
+    "outcome": "A new royal capital is established for the unified kingdom.",
+    "participanti": [],
+    "locatie_id": null,
+    "an_aproximativ": null,
+    "nume_generat": false
+  },
+  {
+    "id": "great_council_101",
+    "name": "Great Council of 101",
+    "year": 101,
+    "sequence": 1,
+    "type": "political",
+    "location": "harrenhal",
+    "description": "King Jaehaerys I Targaryen calls a Great Council at Harrenhal to choose his successor. The Council chooses Viserys Targaryen over Laenor Velaryon, establishing male-preference primogeniture.",
+    "canon": "canon",
+    "book": "Fire & Blood",
+    "chapter": "Heirs of the Dragon",
+    "participants": [
+      "jaehaerys_i",
+      "viserys_i"
+    ],
+    "outcome": "Viserys Targaryen is named heir; male-preference precedent set.",
+    "source": "https://awoiaf.westeros.org/index.php/Great_Council_of_101_AC",
+    "participanti": [],
+    "locatie_id": null,
+    "an_aproximativ": null,
+    "nume_generat": false
+  },
+  {
+    "id": "coronation_aegon_ii",
+    "name": "Crowning of Aegon II",
+    "year": 129,
+    "sequence": 1,
+    "type": "coronation",
+    "location": "kings_landing",
+    "description": "King Viserys I Targaryen dies. Queen Alicent and the Greens crown Aegon II, ignoring Viserys's named heir Rhaenyra, starting the Dance of the Dragons.",
+    "canon": "canon",
+    "book": "Fire & Blood",
+    "chapter": "The Death of the Dragon",
+    "participants": [
+      "aegon_ii"
+    ],
+    "outcome": "The Dance of the Dragons begins.",
+    "source": "https://awoiaf.westeros.org/index.php/Dance_of_the_Dragons",
+    "participanti": [],
+    "locatie_id": null,
+    "an_aproximativ": null,
+    "nume_generat": false
+  },
+  {
+    "id": "capture_kl_rhaenyra",
+    "name": "Capture of King's Landing",
+    "year": 130,
+    "sequence": 1,
+    "type": "conquest",
+    "location": "kings_landing",
+    "region": "the_crownlands",
+    "description": "Rhaenyra Targaryen flies Syrax to King's Landing and captures the capital, sitting on the Iron Throne.",
+    "canon": "canon",
+    "book": "Fire & Blood",
+    "chapter": "Rhaenyra the Queen",
+    "participants": [
+      "rhaenyra_targaryen"
+    ],
+    "factions": [
+      "targaryen_blacks",
+      "targaryen_greens"
+    ],
+    "outcome": "Rhaenyra takes control of the Iron Throne.",
+    "source": "https://awoiaf.westeros.org/index.php/Rhaenyra_Targaryen",
+    "participanti": [],
+    "locatie_id": null,
+    "an_aproximativ": null,
+    "nume_generat": false
+  },
+  {
+    "id": "hour_of_the_wolf",
+    "name": "Hour of the Wolf",
+    "year": 131,
+    "sequence": 1,
+    "type": "political",
+    "location": "kings_landing",
+    "description": "Lord Cregan Stark arrives with his northern host. He serves as Hand of the King for six days, executing or sending to the Wall those responsible for poisoning Aegon II.",
+    "canon": "canon",
+    "book": "Fire & Blood",
+    "chapter": "Aftermath of the Dance",
+    "participants": [
+      "cregan_stark"
+    ],
+    "outcome": "Peace is restored; Aegon III Targaryen begins his reign.",
+    "source": "https://awoiaf.westeros.org/index.php/Hour_of_the_Wolf",
+    "participanti": [],
+    "locatie_id": null,
+    "an_aproximativ": null,
+    "nume_generat": false
+  },
+  {
+    "id": "conquest_dorne",
+    "name": "Conquest of Dorne",
+    "year": 157,
+    "sequence": 1,
+    "type": "conquest",
+    "location": "sunspear",
+    "region": "dorne",
+    "description": "King Daeron I Targaryen, the Young Dragon, invades Dorne. Sunspear yields and bends the knee.",
+    "canon": "canon",
+    "book": "The World of Ice and Fire",
+    "chapter": "The Targaryen Kings: Daeron I",
+    "participants": [
+      "daeron_i"
+    ],
+    "factions": [
+      "targaryen",
+      "martell"
+    ],
+    "outcome": "Dorne submits temporarily.",
+    "source": "https://awoiaf.westeros.org/index.php/Conquest_of_Dorne",
+    "participanti": [],
+    "locatie_id": null,
+    "an_aproximativ": null,
+    "nume_generat": false
+  },
+  {
+    "id": "great_spring_sickness",
+    "name": "Great Spring Sickness",
+    "year": 209,
+    "sequence": 1,
+    "type": "death",
+    "location": "kings_landing",
+    "description": "A devastating plague sweeps Westeros, killing King Daeron II, Hand Valarr, and tens of thousands across the realm.",
+    "canon": "canon",
+    "book": "The World of Ice and Fire",
+    "chapter": "The Targaryen Kings: Aerys I",
+    "outcome": "King Aerys I Targaryen ascends the Iron Throne.",
+    "source": "https://awoiaf.westeros.org/index.php/Great_Spring_Sickness",
+    "participanti": [],
+    "locatie_id": null,
+    "an_aproximativ": null,
+    "nume_generat": false
+  },
+  {
+    "id": "tourney_harrenhal",
+    "name": "Tourney of Harrenhal",
+    "year": 282,
+    "sequence": 1,
+    "type": "political",
+    "location": "harrenhal",
+    "description": "Lord Walter Whent hosts the greatest tourney in Westeros. Prince Rhaegar Targaryen wins and crowns Lyanna Stark the Queen of Love and Beauty.",
+    "canon": "canon",
+    "book": "The World of Ice and Fire",
+    "chapter": "The Fall of the Dragons",
+    "outcome": "Seeds of Robert's Rebellion are sown.",
+    "source": "https://awoiaf.westeros.org/index.php/Tourney_at_Harrenhal",
+    "participanti": [],
+    "locatie_id": null,
+    "an_aproximativ": null,
+    "nume_generat": false
+  },
+  {
+    "id": "sack_kings_landing",
+    "name": "Sack of King's Landing",
+    "year": 283,
+    "sequence": 1,
+    "type": "conquest",
+    "location": "kings_landing",
+    "region": "the_crownlands",
+    "description": "Tywin Lannister's host enters King's Landing under guise of friendship and sacks the city. Jaime Lannister slays Aerys II. Robert Baratheon ascends the Iron Throne.",
+    "canon": "canon",
+    "book": "The World of Ice and Fire",
+    "chapter": "The Fall of the Dragons",
+    "factions": [
+      "baratheon",
+      "lannister",
+      "targaryen"
+    ],
+    "outcome": "Targaryen dynasty overthrown; Robert Baratheon crowned.",
+    "source": "https://awoiaf.westeros.org/index.php/Sack_of_King%27s_Landing",
+    "participanti": [],
+    "locatie_id": null,
+    "an_aproximativ": null,
+    "nume_generat": false
+  },
+  {
+    "id": "siege_pyke",
+    "name": "Siege of Pyke",
+    "year": 289,
+    "sequence": 1,
+    "type": "battle",
+    "location": "pyke",
+    "region": "the_iron_islands",
+    "description": "King Robert Baratheon and Eddard Stark lead a combined host to Pyke, breaching the walls and forcing Balon Greyjoy's submission, ending the Greyjoy Rebellion.",
+    "canon": "canon",
+    "book": "The World of Ice and Fire",
+    "chapter": "The Fall of the Dragons",
+    "factions": [
+      "baratheon",
+      "greyjoy"
+    ],
+    "outcome": "Balon Greyjoy yields; Theon Greyjoy taken as hostage.",
+    "source": "https://awoiaf.westeros.org/index.php/Greyjoy_Rebellion",
+    "participanti": [],
+    "locatie_id": null,
+    "an_aproximativ": null,
+    "nume_generat": false
+  },
+  {
+    "id": "red_wedding",
+    "name": "The Red Wedding",
+    "year": 299,
+    "sequence": 1,
+    "type": "battle",
+    "location": "the_twins",
+    "region": "the_riverlands",
+    "description": "During the wedding of Edmure Tully and Roslin Frey, Lord Walder Frey and Lord Roose Bolton betray and murder King Robb Stark, Catelyn Stark, and their host.",
+    "canon": "canon",
+    "book": "A Storm of Swords",
+    "factions": [
+      "stark",
+      "frey",
+      "bolton"
+    ],
+    "outcome": "House Stark falls; Boltons become Wardens of the North.",
+    "source": "https://awoiaf.westeros.org/index.php/Red_Wedding",
+    "participanti": [],
+    "locatie_id": null,
+    "an_aproximativ": null,
+    "nume_generat": false
+  }
+]

@@ -1,0 +1,2231 @@
+[
+  {
+    "id_original": "PERSON_AEGON_TARGARYEN_AEGON_STAPANUL_DRAGONILOR",
+    "nume_canonic": "Aegon Targaryen (Cuceritorul) / Aegon, Stăpânul Dragonilor",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Aegon Targaryen (Cuceritorul)",
+      "Aegon",
+      "Stăpânul Dragonilor"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Aegon Targaryen (Cuceritorul) / Aegon' + 'Stăpânul Dragonilor'"
+    ],
+    "sursa": "entities_part1.json",
+    "numar_afirmatii": 1,
+    "afirmatii": [
+      {
+        "subject": "PERSON_AEGON_TARGARYEN_AEGON_STAPANUL_DRAGONILOR",
+        "predicate": "member_of",
+        "object": "HOUSE_TARGARYEN",
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": "",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_AGGO_RAKHARO",
+    "nume_canonic": "Aggo, Rakharo",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Aggo",
+      "Rakharo"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Aggo' + 'Rakharo'"
+    ],
+    "sursa": "entities_part1.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_ALAYNE_ROYCE_SI_SAMANTHA_STOKEWORTH",
+    "nume_canonic": "Alayne Royce și Samantha Stokeworth",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Alayne Royce",
+      "Samantha Stokeworth"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part1.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_ALLISER_THORNE_JANOS_SLYNT",
+    "nume_canonic": "Alliser Thorne, Janos Slynt",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Alliser Thorne",
+      "Janos Slynt"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Alliser Thorne' + 'Janos Slynt'"
+    ],
+    "sursa": "entities_part1.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_ALTI_VERI_AI_LUI_VALARR_SI_MATARYS",
+    "nume_canonic": "Alți veri ai lui Valarr și Matarys (nenumiți)",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Alți veri ai lui Valarr",
+      "Matarys (nenumiți)"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part1.json",
+    "numar_afirmatii": 1,
+    "afirmatii": [
+      {
+        "subject": "PERSON_ALTI_VERI_AI_LUI_VALARR_SI_MATARYS",
+        "predicate": "member_of",
+        "object": "HOUSE_TARGARYEN",
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": null,
+        "source_page": "nespecificat\n---",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_ARON_SANTAGAR_JALABHAR_XHO_GEMENII_REDWYNE_LORDUL_GYLES_SER_DONTOS_SER_BALON_SWANN",
+    "nume_canonic": "Aron Santagar, Jalabhar Xho, gemenii Redwyne (Oroare și Bălosul), Lordul Gyles, Ser Dontos, Ser Balon Swann",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Aron Santagar",
+      "Jalabhar Xho",
+      "gemenii Redwyne (Oroare și Bălosul)",
+      "Lordul Gyles",
+      "Ser Dontos",
+      "Ser Balon Swann"
+    ],
+    "motiv_detectie": [
+      "Name contains 6+ comma-separated person names (multi-person concatenated entity)"
+    ],
+    "sursa": "entities_part1.json",
+    "numar_afirmatii": 1,
+    "afirmatii": [
+      {
+        "subject": "PERSON_ARON_SANTAGAR_JALABHAR_XHO_GEMENII_REDWYNE_LORDUL_GYLES_SER_DONTOS_SER_BALON_SWANN",
+        "predicate": "title_at",
+        "object": "evită să o salute pe Sansa",
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": "42, 64, 641–642",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_ARYA_STARK_GENDRY",
+    "nume_canonic": "Arya Stark, Gendry",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Arya Stark",
+      "Gendry"
+    ],
+    "motiv_detectie": [
+      "Known concatenated ID"
+    ],
+    "sursa": "entities_part1.json",
+    "numar_afirmatii": 4,
+    "afirmatii": [
+      {
+        "subject": "PERSON_ARYA_STARK_GENDRY",
+        "predicate": "title_at",
+        "object": "(Arya deja listată la 3a)",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 7,
+        "source_page": "65–74",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_ARYA_STARK_GENDRY",
+        "predicate": "title_at",
+        "object": "Gendry — ucenic fierar",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 7,
+        "source_page": "65–74",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_ARYA_STARK_GENDRY",
+        "predicate": "title_at",
+        "object": "companion al Aryei",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 7,
+        "source_page": "65–74",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_ARYA_STARK_GENDRY",
+        "predicate": "title_at",
+        "object": "fiu bastard nedeclarat al lui Robert Baratheon (nemenționat explicit în fragment)",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 7,
+        "source_page": "65–74",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_BAELA_SI_RHAENA_TARGARYEN",
+    "nume_canonic": "Baela și Rhaena Targaryen (gemene)",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Baela",
+      "Rhaena Targaryen (gemene)"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part1.json",
+    "numar_afirmatii": 2,
+    "afirmatii": [
+      {
+        "subject": "PERSON_BAELA_SI_RHAENA_TARGARYEN",
+        "predicate": "child_of",
+        "object": "PERSON_DAEMON_TARGARYEN",
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "426",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_BAELA_SI_RHAENA_TARGARYEN",
+        "predicate": "child_of",
+        "object": "PERSON_LAENA_VELARYON",
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "426",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_BANNEN_DYWEN",
+    "nume_canonic": "Bannen, Dywen",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Bannen",
+      "Dywen"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Bannen' + 'Dywen'"
+    ],
+    "sursa": "entities_part1.json",
+    "numar_afirmatii": 1,
+    "afirmatii": [
+      {
+        "subject": "PERSON_BANNEN_DYWEN",
+        "predicate": "died",
+        "object": "Bannen — mort",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 9,
+        "source_page": "203",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_BATRANUL_FLINT_NORREY",
+    "nume_canonic": "Bătrânul Flint, Norrey",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Bătrânul Flint",
+      "Norrey"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Bătrânul Flint' + 'Norrey'"
+    ],
+    "sursa": "entities_part1.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_BOWEN_MARSH_OTHELL_YARWYCK",
+    "nume_canonic": "Bowen Marsh, Othell Yarwyck",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Bowen Marsh",
+      "Othell Yarwyck"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Bowen Marsh' + 'Othell Yarwyck'"
+    ],
+    "sursa": "entities_part1.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_BRANDON_STARK_MENTIONAT_CA_STRANGULANDU_SE_INCERCAND_SA_SI_SALVEZE_TATAL",
+    "nume_canonic": "Brandon Stark (unchiul lui Ned, mort înainte de acţiunea seriei — nu confundat cu Bran, fiul lui Ned) — menţionat ca strangulându-se încercând să-şi salveze tatăl",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Brandon Stark (unchiul lui Ned",
+      "mort înainte de acţiunea seriei — nu confundat cu Bran",
+      "fiul lui Ned) — menţionat ca strangulându-se încercând să-şi salveze tatăl"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part1.json",
+    "numar_afirmatii": 1,
+    "afirmatii": [
+      {
+        "subject": "PERSON_BRANDON_STARK_MENTIONAT_CA_STRANGULANDU_SE_INCERCAND_SA_SI_SALVEZE_TATAL",
+        "predicate": "member_of",
+        "object": "HOUSE_STARK",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 6,
+        "source_page": "29\n---",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_BRAN_STARK_RICKON_STARK",
+    "nume_canonic": "Bran Stark, Rickon Stark",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Bran Stark",
+      "Rickon Stark"
+    ],
+    "motiv_detectie": [
+      "Known concatenated ID"
+    ],
+    "sursa": "entities_part1.json",
+    "numar_afirmatii": 10,
+    "afirmatii": [
+      {
+        "subject": "PERSON_BRAN_STARK_RICKON_STARK",
+        "predicate": "member_of",
+        "object": "HOUSE_STARK",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 1,
+        "source_page": "37",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_BRAN_STARK_RICKON_STARK",
+        "predicate": "child_of",
+        "object": "PERSON_NED_STARK",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 1,
+        "source_page": "37",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_BRAN_STARK_RICKON_STARK",
+        "predicate": "child_of",
+        "object": "PERSON_CATELYN_TULLY",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 1,
+        "source_page": "37",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_BRAN_STARK_RICKON_STARK",
+        "predicate": "member_of",
+        "object": "HOUSE_STARK",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 7,
+        "source_page": "78–83",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_BRAN_STARK_RICKON_STARK",
+        "predicate": "child_of",
+        "object": "PERSON_NED_STARK",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 7,
+        "source_page": "78–83",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_BRAN_STARK_RICKON_STARK",
+        "predicate": "child_of",
+        "object": "PERSON_CATELYN_STARK",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 7,
+        "source_page": "78–83",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_BRAN_STARK_RICKON_STARK",
+        "predicate": "sibling_of",
+        "object": "PERSON_ROBB_STARK",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 7,
+        "source_page": "78–83",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_BRAN_STARK_RICKON_STARK",
+        "predicate": "sibling_of",
+        "object": "PERSON_SANSA_STARK",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 7,
+        "source_page": "78–83",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_BRAN_STARK_RICKON_STARK",
+        "predicate": "sibling_of",
+        "object": "PERSON_ARYA_STARK",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 7,
+        "source_page": "78–83",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_BRAN_STARK_RICKON_STARK",
+        "predicate": "member_of",
+        "object": "HOUSE_STARK",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "829",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_BRAN_STARK_SI_RICKON_STARK",
+    "nume_canonic": "Bran Stark și Rickon Stark",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Bran Stark",
+      "Rickon Stark"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part1.json",
+    "numar_afirmatii": 7,
+    "afirmatii": [
+      {
+        "subject": "PERSON_BRAN_STARK_SI_RICKON_STARK",
+        "predicate": "member_of",
+        "object": "HOUSE_STARK",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "660",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_BRAN_STARK_SI_RICKON_STARK",
+        "predicate": "child_of",
+        "object": "PERSON_EDDARD_STARK",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "660",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_BRAN_STARK_SI_RICKON_STARK",
+        "predicate": "child_of",
+        "object": "PERSON_CATELYN_STARK",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "660",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_BRAN_STARK_SI_RICKON_STARK",
+        "predicate": "sibling_of",
+        "object": "PERSON_JON_STARK",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "660",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_BRAN_STARK_SI_RICKON_STARK",
+        "predicate": "sibling_of",
+        "object": "PERSON_ROBB_STARK",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "660",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_BRAN_STARK_SI_RICKON_STARK",
+        "predicate": "sibling_of",
+        "object": "PERSON_SANSA_STARK",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "660",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_BRAN_STARK_SI_RICKON_STARK",
+        "predicate": "sibling_of",
+        "object": "PERSON_ARYA_STARK",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "660",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_BRUSCO_SI_FIICELE_SALE",
+    "nume_canonic": "Brusco şi fiicele sale (Brea, Talea)",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Brusco şi fiicele sale (Brea",
+      "Talea)"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part1.json",
+    "numar_afirmatii": 2,
+    "afirmatii": [
+      {
+        "subject": "PERSON_BRUSCO_SI_FIICELE_SALE",
+        "predicate": "title_at",
+        "object": "a învăţat-o pe Arya să folosească stiletul",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "1133, 1143 **Jaqen H'ghar** (menţionat retrospectiv), 1141 **Roggo cel Roşu** (menţionat retrospectiv), 1137, 1145",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_BRUSCO_SI_FIICELE_SALE",
+        "predicate": "title_at",
+        "object": "tehnica de a spinteca pungi",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "1133, 1143 **Jaqen H'ghar** (menţionat retrospectiv), 1141 **Roggo cel Roşu** (menţionat retrospectiv), 1137, 1145",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_BUTTERBUMPS_SI_BAIATUL_LUNII",
+    "nume_canonic": "Butterbumps și Băiatul Lunii",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Butterbumps",
+      "Băiatul Lunii"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part1.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_CALUL_RORY",
+    "nume_canonic": "Calul, Rory",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Calul",
+      "Rory"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Calul' + 'Rory'"
+    ],
+    "sursa": "entities_part1.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_CALUL_SI_ROBIN_HOP",
+    "nume_canonic": "Calul și Robin-Hop",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Calul",
+      "Robin-Hop"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part1.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_CIOCAN_SI_UNGHIE",
+    "nume_canonic": "Ciocan şi Unghie",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Ciocan şi Unghie"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part1.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_CLEON_SI_CLEON_AL_DOILEA",
+    "nume_canonic": "Cleon şi Cleon al Doilea",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Cleon şi Cleon al Doilea"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part1.json",
+    "numar_afirmatii": 2,
+    "afirmatii": [
+      {
+        "subject": "PERSON_CLEON_SI_CLEON_AL_DOILEA",
+        "predicate": "title_at",
+        "object": "foşti conducători ai Astaporului",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "399",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_CLEON_SI_CLEON_AL_DOILEA",
+        "predicate": "title_at",
+        "object": "uciși pe rând",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "399",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_DAEMION_SI_DAERON_VELARYON",
+    "nume_canonic": "Daemion și Daeron Velaryon",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Daemion",
+      "Daeron Velaryon"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part1.json",
+    "numar_afirmatii": 1,
+    "afirmatii": [
+      {
+        "subject": "PERSON_DAEMION_SI_DAERON_VELARYON",
+        "predicate": "member_of",
+        "object": "HOUSE_VELARYON",
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "682-683, --",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_DAKE_SI_ROLDER",
+    "nume_canonic": "Dake şi Rolder",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Dake şi Rolder"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part1.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_DALIA_SI_MATRICE",
+    "nume_canonic": "Dalia și Matrice",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Dalia",
+      "Matrice"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part1.json",
+    "numar_afirmatii": 1,
+    "afirmatii": [
+      {
+        "subject": "PERSON_DALIA_SI_MATRICE",
+        "predicate": "title_at",
+        "object": "servitoare la Piatra Dragonului",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": "17",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_DAMON_DANSEAZA_PENTRU_MINE_JUPUITORUL_ALYN_URSUZUL_DICK_GALBEJITUL_LUTON_MARAITUL_BAIETII_BASTARDULUI_AI_LUI_RAMSAY_BOLTON_DICK_GALBEJITUL_GASIT_MORT_SI_MUTILAT_PAGINA_815_823",
+    "nume_canonic": "Damon Dansează-pentru-Mine, Jupuitorul, Alyn Ursuzul, Dick Gălbejitul, Luton, Mârâitul — „Băieții Bastardului\" ai lui Ramsay Bolton; Dick Gălbejitul găsit mort și mutilat. Pagina 815–823.",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Damon Dansează-pentru-Mine",
+      "Jupuitorul",
+      "Alyn Ursuzul",
+      "Dick Gălbejitul",
+      "Luton",
+      "Mârâitul — „Băieții Bastardului\" ai lui Ramsay Bolton; Dick Gălbejitul găsit mort",
+      "mutilat. Pagina 815–823."
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part1.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_DORCAS_SI_JOCELYN",
+    "nume_canonic": "Dorcas şi Jocelyn",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Dorcas şi Jocelyn"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_DYWEN_HAKE",
+    "nume_canonic": "Dywen, Hake",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Dywen",
+      "Hake"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Dywen' + 'Hake'"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 1,
+    "afirmatii": [
+      {
+        "subject": "PERSON_DYWEN_HAKE",
+        "predicate": "title_at",
+        "object": "s-au întors fără urme ale lui Benjen Stark (unchiul lui Jon, aflat în lipsă)",
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": "676",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_ELADON_PAR_AURIU_SULITA_CREDINCIOASA",
+    "nume_canonic": "Eladon Păr Auriu, Suliţa Credincioasă",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Eladon Păr Auriu",
+      "Suliţa Credincioasă"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Eladon Păr Auriu' + 'Suliţa Credincioasă'"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 2,
+    "afirmatii": [
+      {
+        "subject": "PERSON_ELADON_PAR_AURIU_SULITA_CREDINCIOASA",
+        "predicate": "title_at",
+        "object": "Nepătați",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "206",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_ELADON_PAR_AURIU_SULITA_CREDINCIOASA",
+        "predicate": "title_at",
+        "object": "otrăviți la o cramă",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "206",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_ERRYK_SI_ARRYK",
+    "nume_canonic": "Erryk și Arryk (\"Stângul și Dreptul\")",
+    "aliasuri": [
+      "Stângul și Dreptul"
+    ],
+    "nume_concatenate_presupuse": [
+      "Erryk",
+      "Arryk (\"Stângul",
+      "Dreptul\")"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_GALHART_GLOVER_SI_ROBERT_GLOVER",
+    "nume_canonic": "Galhart Glover și Robert Glover",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Galhart Glover",
+      "Robert Glover"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 1,
+    "afirmatii": [
+      {
+        "subject": "PERSON_GALHART_GLOVER_SI_ROBERT_GLOVER",
+        "predicate": "member_of",
+        "object": "HOUSE_GLOVER",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": "nespecificată",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_GRENN_EDD_CEL_TRIST",
+    "nume_canonic": "Grenn, Edd cel Trist",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Grenn",
+      "Edd cel Trist"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Grenn' + 'Edd cel Trist'"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 1,
+    "afirmatii": [
+      {
+        "subject": "PERSON_GRENN_EDD_CEL_TRIST",
+        "predicate": "title_at",
+        "object": "plecați cu Dywen (căutare separată)",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 9,
+        "source_page": "203",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_GRIGG_TAPUL_ERROK",
+    "nume_canonic": "Grigg Ţapul, Errok",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Grigg Ţapul",
+      "Errok"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Grigg Ţapul' + 'Errok'"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_GRUP_DE_PERSOANE_DAGMER_FALCA_DESPICATA",
+    "nume_canonic": "⚠ Grup de persoane: Dagmer, Falcă Despicată (mențiune colectivă în fragment)",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "⚠ Grup de persoane: Dagmer",
+      "Falcă Despicată (mențiune colectivă în fragment)"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: '⚠ Grup de persoane: Dagmer' + 'Falcă Despicată (mențiune colectivă în fragment)'"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 3,
+    "afirmatii": [
+      {
+        "subject": "PERSON_GRUP_DE_PERSOANE_DAGMER_FALCA_DESPICATA",
+        "predicate": "title_at",
+        "object": "om de încredere al lui Balon Greyjoy",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": "nespecificată",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_GRUP_DE_PERSOANE_DAGMER_FALCA_DESPICATA",
+        "predicate": "title_at",
+        "object": "trimis la Vechiul Wyk",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": "nespecificată",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_GRUP_DE_PERSOANE_DAGMER_FALCA_DESPICATA",
+        "predicate": "title_at",
+        "object": "slujnica lui Daenerys",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": "nespecificată",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_GRUP_DE_PERSOANE_GARISS_MURCH",
+    "nume_canonic": "⚠ Grup de persoane: Gariss, Murch (mențiune colectivă în fragment)",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "⚠ Grup de persoane: Gariss",
+      "Murch (mențiune colectivă în fragment)"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: '⚠ Grup de persoane: Gariss' + 'Murch (mențiune colectivă în fragment)'"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 1,
+    "afirmatii": [
+      {
+        "subject": "PERSON_GRUP_DE_PERSOANE_GARISS_MURCH",
+        "predicate": "title_at",
+        "object": "participă la căutarea copiilor Stark",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": "nespecificată",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_GRUP_DE_PERSOANE_IRRI_JHIQUI",
+    "nume_canonic": "⚠ Grup de persoane: Irri, Jhiqui (mențiune colectivă în fragment)",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "⚠ Grup de persoane: Irri",
+      "Jhiqui (mențiune colectivă în fragment)"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: '⚠ Grup de persoane: Irri' + 'Jhiqui (mențiune colectivă în fragment)'"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 1,
+    "afirmatii": [
+      {
+        "subject": "PERSON_GRUP_DE_PERSOANE_IRRI_JHIQUI",
+        "predicate": "title_at",
+        "object": "slujnicele lui Daenerys",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": "nespecificată",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_GRUP_DE_PERSOANE_LADY_TANDA_LOLLYS_SI_FALYSE",
+    "nume_canonic": "⚠ Grup de persoane: Lady Tanda, Lollys și Falyse (mențiune colectivă în fragment)",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "⚠ Grup de persoane: Lady Tanda",
+      "Lollys",
+      "Falyse (mențiune colectivă în fragment)"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 2,
+    "afirmatii": [
+      {
+        "subject": "PERSON_GRUP_DE_PERSOANE_LADY_TANDA_LOLLYS_SI_FALYSE",
+        "predicate": "title_at",
+        "object": "nobile la curte",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": "39, 46",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_GRUP_DE_PERSOANE_LADY_TANDA_LOLLYS_SI_FALYSE",
+        "predicate": "title_at",
+        "object": "spectatoare la turnir",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": "39, 46",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_GRUP_DE_PERSOANE_MIKKEN_BENFRED",
+    "nume_canonic": "⚠ Grup de persoane: Mikken, Benfred (mențiune colectivă în fragment)",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "⚠ Grup de persoane: Mikken",
+      "Benfred (mențiune colectivă în fragment)"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: '⚠ Grup de persoane: Mikken' + 'Benfred (mențiune colectivă în fragment)'"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 1,
+    "afirmatii": [
+      {
+        "subject": "PERSON_GRUP_DE_PERSOANE_MIKKEN_BENFRED",
+        "predicate": "died",
+        "object": "moarte (menționată retrospectiv, „și-au căutat singuri moartea, cu gura lor\")",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": "nespecificată",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_HALDER_BROSCOIUL",
+    "nume_canonic": "Halder, Broscoiul (Todder)",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Halder",
+      "Broscoiul (Todder)"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Halder' + 'Broscoiul (Todder)'"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 1,
+    "afirmatii": [
+      {
+        "subject": "PERSON_HALDER_BROSCOIUL",
+        "predicate": "title_at",
+        "object": "cântăreți (Broscoiul are voce urâtă)",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 9,
+        "source_page": "204",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_HARLE_VANATORUL_HARLE_FRUMUSELUL",
+    "nume_canonic": "Harle Vânătorul, Harle Frumușelul",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Harle Vânătorul",
+      "Harle Frumușelul"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Harle Vânătorul' + 'Harle Frumușelul'"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_HEWARD_SI_WYL",
+    "nume_canonic": "Heward şi Wyl",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Heward şi Wyl"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_HOLLY_ROWAN",
+    "nume_canonic": "Holly, Rowan",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Holly",
+      "Rowan"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Holly' + 'Rowan'"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_HORAS_REDWYNE_HOBBER_REDWYNE",
+    "nume_canonic": "Horas Redwyne, Hobber Redwyne",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Horas Redwyne",
+      "Hobber Redwyne"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Horas Redwyne' + 'Hobber Redwyne'"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_IRRI_JHIQUI",
+    "nume_canonic": "Irri, Jhiqui",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Irri",
+      "Jhiqui"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Irri' + 'Jhiqui'"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 3,
+    "afirmatii": [
+      {
+        "subject": "PERSON_IRRI_JHIQUI",
+        "predicate": "title_at",
+        "object": "slujitoare",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 9,
+        "source_page": "152, 158",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_IRRI_JHIQUI",
+        "predicate": "title_at",
+        "object": "slujesc",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "640–642, 763, 774, 989",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_IRRI_JHIQUI",
+        "predicate": "title_at",
+        "object": "se ceartă pentru Rakharo",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "640–642, 763, 774, 989",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_JENNIS_DIN_CASA_TEMPLETON_ROSAMUND_DIN_CASA_BALL",
+    "nume_canonic": "Jennis din Casa Templeton, Rosamund din Casa Ball",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Jennis din Casa Templeton",
+      "Rosamund din Casa Ball"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Jennis din Casa Templeton' + 'Rosamund din Casa Ball'"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_JYCK_SI_MORREC",
+    "nume_canonic": "Jyck și Morrec",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Jyck",
+      "Morrec"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 1,
+    "afirmatii": [
+      {
+        "subject": "PERSON_JYCK_SI_MORREC",
+        "predicate": "title_at",
+        "object": "în serviciul lui Tyrion Lannister",
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": "33–34, 37, 41, 336–337, 340–341",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_KHRAZZ_SI_PIELE_DE_OTEL",
+    "nume_canonic": "Khrazz şi Piele-de-Oţel",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Khrazz şi Piele-de-Oţel"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_LEATHERS_SI_JAX",
+    "nume_canonic": "Leathers și Jax",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Leathers",
+      "Jax"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_LEW_MANA_STANGA_ALF_RUNNYMUDD",
+    "nume_canonic": "Lew Mână-Stângă, Alf Runnymudd",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Lew Mână-Stângă",
+      "Alf Runnymudd"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Lew Mână-Stângă' + 'Alf Runnymudd'"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_LHARYS_SI_MOHOR",
+    "nume_canonic": "Lharys și Mohor",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Lharys",
+      "Mohor"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 1,
+    "afirmatii": [
+      {
+        "subject": "PERSON_LHARYS_SI_MOHOR",
+        "predicate": "title_at",
+        "object": "nemenționat explicit",
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": "34, 41, 340–341",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_LIDDLE_CEL_MARE_SI_LUKE_DIN_ORASUL_LUNG",
+    "nume_canonic": "Liddle cel Mare și Luke din Orașul Lung",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Liddle cel Mare",
+      "Luke din Orașul Lung"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_LORDUL_BRYNDEMERE_EVENSTARUL",
+    "nume_canonic": "lordul Bryndemere, Evenstarul",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "lordul Bryndemere",
+      "Evenstarul"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'lordul Bryndemere' + 'Evenstarul'"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 1,
+    "afirmatii": [
+      {
+        "subject": "PERSON_LORDUL_BRYNDEMERE_EVENSTARUL",
+        "predicate": "title_at",
+        "object": "aduce o duzină de corăbii lungi să întărească flota regală",
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "711, 713",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_LORDUL_SI_LADY_SMALLWOOD",
+    "nume_canonic": "Lordul și Lady Smallwood",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Lordul",
+      "Lady Smallwood"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 1,
+    "afirmatii": [
+      {
+        "subject": "PERSON_LORDUL_SI_LADY_SMALLWOOD",
+        "predicate": "member_of",
+        "object": "HOUSE_SMALLWOOD",
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": null,
+        "source_page": "nespecificat\n---\n---",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_LORDUL_WILLUM_SI_FIII_SAI_JOSIA_SI_ELYAS",
+    "nume_canonic": "Lordul Willum și fiii săi Josia și Elyas",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Lordul Willum",
+      "fiii săi Josia",
+      "Elyas"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_LYN_CORBRAY_SI_LORDUL_LYONEL_CORBRAY",
+    "nume_canonic": "Lyn Corbray și Lordul Lyonel Corbray",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Lyn Corbray",
+      "Lordul Lyonel Corbray"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 3,
+    "afirmatii": [
+      {
+        "subject": "PERSON_LYN_CORBRAY_SI_LORDUL_LYONEL_CORBRAY",
+        "predicate": "member_of",
+        "object": "HOUSE_CORBRAY",
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "—",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_LYN_CORBRAY_SI_LORDUL_LYONEL_CORBRAY",
+        "predicate": "title_at",
+        "object": "Ser Lyn — cavaler",
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 3,
+        "source_page": "—",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_LYN_CORBRAY_SI_LORDUL_LYONEL_CORBRAY",
+        "predicate": "title_at",
+        "object": "Lyonel — lord",
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 3,
+        "source_page": "—",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_LYRA_EDYTH",
+    "nume_canonic": "Lyra, Edyth",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Lyra",
+      "Edyth"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Lyra' + 'Edyth'"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_MAESTER_BALLABAR_MAESTER_FRENKEN",
+    "nume_canonic": "Maester Ballabar, Maester Frenken",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Maester Ballabar",
+      "Maester Frenken"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Maester Ballabar' + 'Maester Frenken'"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 2,
+    "afirmatii": [
+      {
+        "subject": "PERSON_MAESTER_BALLABAR_MAESTER_FRENKEN",
+        "predicate": "title_at",
+        "object": "martori la autopsia lui Joffrey",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 13,
+        "source_page": "103",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_MAESTER_BALLABAR_MAESTER_FRENKEN",
+        "predicate": "title_at",
+        "object": "confirmă moartea prin otravă",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 13,
+        "source_page": "103",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_MAESTER_TURQUIN_MAESTER_ERRECK",
+    "nume_canonic": "Maester Turquin, Maester Erreck",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Maester Turquin",
+      "Maester Erreck"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Maester Turquin' + 'Maester Erreck'"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 1,
+    "afirmatii": [
+      {
+        "subject": "PERSON_MAESTER_TURQUIN_MAESTER_ERRECK",
+        "predicate": "title_at",
+        "object": "candidaţi luaţi în calcul de Conclav pentru poziţia de Mare Maester",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 3,
+        "source_page": "136",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_MARQ_PIPER_PATREK_MALLISTER",
+    "nume_canonic": "Marq Piper, Patrek Mallister",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Marq Piper",
+      "Patrek Mallister"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Marq Piper' + 'Patrek Mallister'"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 1,
+    "afirmatii": [
+      {
+        "subject": "PERSON_MARQ_PIPER_PATREK_MALLISTER",
+        "predicate": "title_at",
+        "object": "companionii lui Edmure",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 3,
+        "source_page": "157",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_MEDRICK_MANDERLY_SI_TORRHEN_MANDERLY",
+    "nume_canonic": "Medrick Manderly și Torrhen Manderly",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Medrick Manderly",
+      "Torrhen Manderly"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_MORRA_SI_MELLEI",
+    "nume_canonic": "Morra şi Mellei",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Morra şi Mellei"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 1,
+    "afirmatii": [
+      {
+        "subject": "PERSON_MORRA_SI_MELLEI",
+        "predicate": "title_at",
+        "object": "slujnice ale Ariannei",
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 11,
+        "source_page": "—",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_MREANA_TERCI",
+    "nume_canonic": "Mreană, Terci (temniceri)",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Mreană",
+      "Terci (temniceri)"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Mreană' + 'Terci (temniceri)'"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_MULLY_SI_KEGS",
+    "nume_canonic": "Mully și Kegs",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Mully",
+      "Kegs"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_OSNEY_SI_OSFRYD_KETTLEBLACK",
+    "nume_canonic": "Osney şi Osfryd Kettleblack",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Osney şi Osfryd Kettleblack"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 5,
+    "afirmatii": [
+      {
+        "subject": "PERSON_OSNEY_SI_OSFRYD_KETTLEBLACK",
+        "predicate": "title_at",
+        "object": "fraţii lui Ser Osmund",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": "nespecificată",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_OSNEY_SI_OSFRYD_KETTLEBLACK",
+        "predicate": "title_at",
+        "object": "angajaţi similar",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": "nespecificată",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_OSNEY_SI_OSFRYD_KETTLEBLACK",
+        "predicate": "title_at",
+        "object": "agenţi ai reginei Cersei",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 1,
+        "source_page": "54–55",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_OSNEY_SI_OSFRYD_KETTLEBLACK",
+        "predicate": "title_at",
+        "object": "făcuţi cavaleri",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 1,
+        "source_page": "54–55",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_OSNEY_SI_OSFRYD_KETTLEBLACK",
+        "predicate": "title_at",
+        "object": "au preluat controlul asupra lui Tommen",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 1,
+        "source_page": "54–55",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_PRENTYS_TULLY_SI_LADY_LUCINDA",
+    "nume_canonic": "Prentys Tully și lady Lucinda",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Prentys Tully",
+      "lady Lucinda"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_PUMN_NEGRU_CETHERYS",
+    "nume_canonic": "Pumn Negru, Cetherys",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Pumn Negru",
+      "Cetherys"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Pumn Negru' + 'Cetherys'"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 2,
+    "afirmatii": [
+      {
+        "subject": "PERSON_PUMN_NEGRU_CETHERYS",
+        "predicate": "title_at",
+        "object": "Nepătați",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "206",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_PUMN_NEGRU_CETHERYS",
+        "predicate": "title_at",
+        "object": "uciși cu săgeți de arbaletă în Labirintul lui Mazdhan",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "206",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_QEZZA_SI_GRAZHAR",
+    "nume_canonic": "Qezza și Grazhar",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Qezza",
+      "Grazhar"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 1,
+    "afirmatii": [
+      {
+        "subject": "PERSON_QEZZA_SI_GRAZHAR",
+        "predicate": "title_at",
+        "object": "menționați la cina din Meereen",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "401–402",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_QUENTYN_MARTELL_TRYSTANE_MARTELL",
+    "nume_canonic": "Quentyn Martell, Trystane Martell",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Quentyn Martell",
+      "Trystane Martell"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Quentyn Martell' + 'Trystane Martell'"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 1,
+    "afirmatii": [
+      {
+        "subject": "PERSON_QUENTYN_MARTELL_TRYSTANE_MARTELL",
+        "predicate": "member_of",
+        "object": "HOUSE_MARTELL",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 4,
+        "source_page": "213, 220",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_ROBERT_GLOVER_SI_LADY_GLOVER",
+    "nume_canonic": "Robert Glover și Lady Glover",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Robert Glover",
+      "Lady Glover"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 1,
+    "afirmatii": [
+      {
+        "subject": "PERSON_ROBERT_GLOVER_SI_LADY_GLOVER",
+        "predicate": "member_of",
+        "object": "HOUSE_GLOVER",
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "—",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_RORGE_SI_MUSCATORUL",
+    "nume_canonic": "Rorge și Mușcătorul",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Rorge",
+      "Mușcătorul"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 3,
+    "afirmatii": [
+      {
+        "subject": "PERSON_RORGE_SI_MUSCATORUL",
+        "predicate": "title_at",
+        "object": "foști prizonieri",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": "nespecificată",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_RORGE_SI_MUSCATORUL",
+        "predicate": "title_at",
+        "object": "acum mercenari",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": "nespecificată",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_RORGE_SI_MUSCATORUL",
+        "predicate": "title_at",
+        "object": "Mușcătorul mănâncă oameni",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": "nespecificată",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_RORY_SI_PATE",
+    "nume_canonic": "Rory și Pate",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Rory",
+      "Pate"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_SER_JOFFREY_DOGGETT_SI_SER_LORENCE_ROXTON",
+    "nume_canonic": "Ser Joffrey Doggett și ser Lorence Roxton",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Ser Joffrey Doggett",
+      "ser Lorence Roxton"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_SER_OLYVER_BRACKEN_SI_SER_RAYMUND_MALLERY",
+    "nume_canonic": "Ser Olyver Bracken și ser Raymund Mallery",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Ser Olyver Bracken",
+      "ser Raymund Mallery"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part2.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_SHAGGA_SI_TIMETT",
+    "nume_canonic": "Shagga și Timett",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Shagga",
+      "Timett"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part3.json",
+    "numar_afirmatii": 2,
+    "afirmatii": [
+      {
+        "subject": "PERSON_SHAGGA_SI_TIMETT",
+        "predicate": "title_at",
+        "object": "în solda",
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": "799",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_SHAGGA_SI_TIMETT",
+        "predicate": "title_at",
+        "object": "urmarea lui Tyrion Lannister",
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": "799",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_STYR_MAGNARUL_DIN_THENN",
+    "nume_canonic": "Styr, Magnarul din Thenn",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Styr",
+      "Magnarul din Thenn"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Styr' + 'Magnarul din Thenn'"
+    ],
+    "sursa": "entities_part3.json",
+    "numar_afirmatii": 1,
+    "afirmatii": [
+      {
+        "subject": "PERSON_STYR_MAGNARUL_DIN_THENN",
+        "predicate": "died",
+        "object": "mort, cap zdrobit de o piatră la poarta Zidului",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 14,
+        "source_page": "186",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_STYR_MAGNARUL_THENNILOR",
+    "nume_canonic": "Styr, Magnarul Thennilor",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Styr",
+      "Magnarul Thennilor"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Styr' + 'Magnarul Thennilor'"
+    ],
+    "sursa": "entities_part3.json",
+    "numar_afirmatii": 1,
+    "afirmatii": [
+      {
+        "subject": "PERSON_STYR_MAGNARUL_THENNILOR",
+        "predicate": "title_at",
+        "object": "conduce atacul asupra Castelului Negru",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 11,
+        "source_page": "280–288\n---",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_STYR_MAGNAR_AL_THENNEI",
+    "nume_canonic": "Styr, Magnar al Thennei",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Styr",
+      "Magnar al Thennei"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Styr' + 'Magnar al Thennei'"
+    ],
+    "sursa": "entities_part3.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_TAGGANARO_SI_CASSO",
+    "nume_canonic": "Tagganaro şi Casso (Regele Focilor)",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Tagganaro şi Casso (Regele Focilor)"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part3.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_TATAL_LUI_PENNY_SI_OPPO",
+    "nume_canonic": "Tatăl lui Penny și Oppo („Bobul-Săltăreț”)",
+    "aliasuri": [
+      "Bobul-Săltăreț"
+    ],
+    "nume_concatenate_presupuse": [
+      "Tatăl lui Penny",
+      "Oppo („Bobul-Săltăreț”)"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part3.json",
+    "numar_afirmatii": 2,
+    "afirmatii": [
+      {
+        "subject": "PERSON_TATAL_LUI_PENNY_SI_OPPO",
+        "predicate": "child_of",
+        "object": "PERSON_OPPO",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "594–595",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_TATAL_LUI_PENNY_SI_OPPO",
+        "predicate": "died",
+        "object": "mort",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "594–595",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_TORREK_JAGGOT",
+    "nume_canonic": "Torrek, Jaggot",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Torrek",
+      "Jaggot"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Torrek' + 'Jaggot'"
+    ],
+    "sursa": "entities_part3.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_TORR_KARSTARK_EDD_KARSTARK",
+    "nume_canonic": "Torr Karstark, Edd Karstark",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Torr Karstark",
+      "Edd Karstark"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Torr Karstark' + 'Edd Karstark'"
+    ],
+    "sursa": "entities_part3.json",
+    "numar_afirmatii": 1,
+    "afirmatii": [
+      {
+        "subject": "PERSON_TORR_KARSTARK_EDD_KARSTARK",
+        "predicate": "member_of",
+        "object": "HOUSE_KARSTARK",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "797",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_TY_SI_DANNEL",
+    "nume_canonic": "Ty și Dannel",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Ty",
+      "Dannel"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part3.json",
+    "numar_afirmatii": 3,
+    "afirmatii": [
+      {
+        "subject": "PERSON_TY_SI_DANNEL",
+        "predicate": "title_at",
+        "object": "frați ai Rondului de Noapte",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "792–793",
+        "confidence": "probable"
+      },
+      {
+        "subject": "PERSON_TY_SI_DANNEL",
+        "predicate": "title_at",
+        "object": "au găsit fata (posibil Arya) lângă Oraşul Cârtiţei",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "792–793",
+        "confidence": "probable"
+      },
+      {
+        "subject": "PERSON_TY_SI_DANNEL",
+        "predicate": "title_at",
+        "object": "hăituind sălbatici fugari",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "792–793",
+        "confidence": "probable"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_WALDER_CEL_MIC_WALDER_CEL_MARE",
+    "nume_canonic": "Walder cel Mic, Walder cel Mare",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Walder cel Mic",
+      "Walder cel Mare"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Walder cel Mic' + 'Walder cel Mare'"
+    ],
+    "sursa": "entities_part3.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_WALDER_SI_WALDER",
+    "nume_canonic": "Walder și Walder (cei doi nepoți Frey, ostatici/pupili)",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Walder",
+      "Walder (cei doi nepoți Frey",
+      "ostatici/pupili)"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part3.json",
+    "numar_afirmatii": 3,
+    "afirmatii": [
+      {
+        "subject": "PERSON_WALDER_SI_WALDER",
+        "predicate": "member_of",
+        "object": "HOUSE_FREY",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 7,
+        "source_page": "83–84",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_WALDER_SI_WALDER",
+        "predicate": "title_at",
+        "object": "pupili ținuți la Winterfell",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 7,
+        "source_page": "83–84",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_WALDER_SI_WALDER",
+        "predicate": "title_at",
+        "object": "apoi mutați la Dreadfort după incendiere",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 7,
+        "source_page": "83–84",
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  {
+    "id_original": "PERSON_WALTON_AMABEL",
+    "nume_canonic": "Walton, Amabel",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Walton",
+      "Amabel"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Walton' + 'Amabel'"
+    ],
+    "sursa": "entities_part3.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_WEESE_CHISWYCK",
+    "nume_canonic": "Weese, Chiswyck",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Weese",
+      "Chiswyck"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Weese' + 'Chiswyck'"
+    ],
+    "sursa": "entities_part3.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_WYL_HEWARD",
+    "nume_canonic": "Wyl, Heward",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Wyl",
+      "Heward"
+    ],
+    "motiv_detectie": [
+      "Name contains multiple person names: 'Wyl' + 'Heward'"
+    ],
+    "sursa": "entities_part3.json",
+    "numar_afirmatii": 0,
+    "afirmatii": []
+  },
+  {
+    "id_original": "PERSON_YANDRY_SI_YSILLA",
+    "nume_canonic": "Yandry și Ysilla",
+    "aliasuri": [],
+    "nume_concatenate_presupuse": [
+      "Yandry",
+      "Ysilla"
+    ],
+    "motiv_detectie": [
+      "ID contains _SI_ or _AND_"
+    ],
+    "sursa": "entities_part3.json",
+    "numar_afirmatii": 9,
+    "afirmatii": [
+      {
+        "subject": "PERSON_YANDRY_SI_YSILLA",
+        "predicate": "title_at",
+        "object": "proprietarii",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "376–385",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_YANDRY_SI_YSILLA",
+        "predicate": "title_at",
+        "object": "căpitanii corabiei Sfioasa Fecioară",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "376–385",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_YANDRY_SI_YSILLA",
+        "predicate": "title_at",
+        "object": "proprietarii bărcii Sfioasa Fecioară",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "317–330, 415, 431",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_YANDRY_SI_YSILLA",
+        "predicate": "title_at",
+        "object": "ghizi pe Rhoyne — Fragment 6",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "317–330, 415, 431",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_YANDRY_SI_YSILLA",
+        "predicate": "title_at",
+        "object": "pag. 317–330",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "317–330, 415, 431",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_YANDRY_SI_YSILLA",
+        "predicate": "title_at",
+        "object": "deținători ai bărcii Sfioasa Fecioară",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "317–330, 415, 431",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_YANDRY_SI_YSILLA",
+        "predicate": "title_at",
+        "object": "misiunea lor s-a încheiat — Fragment 8",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "317–330, 415, 431",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_YANDRY_SI_YSILLA",
+        "predicate": "title_at",
+        "object": "pag. 415",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "317–330, 415, 431",
+        "confidence": "confirmed"
+      },
+      {
+        "subject": "PERSON_YANDRY_SI_YSILLA",
+        "predicate": "title_at",
+        "object": "431",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "317–330, 415, 431",
+        "confidence": "confirmed"
+      }
+    ]
+  }
+]

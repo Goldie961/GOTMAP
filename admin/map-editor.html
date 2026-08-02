@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atlas of Westeros — Map Editor</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/typography.css">
+  <link rel="stylesheet" href="../css/map.css">
+  <link rel="stylesheet" href="map-editor.css">
+</head>
+<body class="map-editor-page">
+  <aside id="editor-sidebar" aria-label="Map editor locations"></aside>
+  <main id="editor-map-wrap">
+    <div id="map-container"></div>
+    <section id="editor-admin-panel" hidden aria-live="polite"></section>
+    <div id="editor-placement-hint" role="status" aria-live="polite" hidden></div>
+    <div id="editor-save-warning" role="alert" hidden></div>
+    <div id="editor-toast" role="status" aria-live="polite"></div>
+  </main>
+  <script type="module" src="map-editor.js"></script>
+</body>
+</html>

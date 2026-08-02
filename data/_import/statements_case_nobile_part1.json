@@ -1,0 +1,3296 @@
+[
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "seat",
+    "object": "LOCATION_EYRIE",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "region",
+    "object": "LOCATION_VALEA_ARRYN",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "region",
+    "object": "LOCATION_VALEA_LUI_ARRYN",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "words",
+    "object": "citată ironic de Tyrion ca „La fel de Preţios precum Onoarea\"",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "words",
+    "object": "„La înălțimea onoarei\"",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "sigil",
+    "object": "lună și șoim",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "sigil",
+    "object": "sigiliu cu luna și șoimul, ceară albastră",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "sigil",
+    "object": "șoim (menționat: armură comandată cu șoim de jasp)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "sigil",
+    "object": "șoim (aluzie: Ned întreabă de „un coif cu șoim pentru Lordul Arryn\")",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "sigil",
+    "object": "luna și șoimul, pe fond azuriu și alb",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "sigil",
+    "object": "luna și șoimul (menționat prin „rondela cu luna și șoimul\" de pe armura lui Ser Vardis)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "sigil",
+    "object": "luna-și-șoimul pe fond azuriu",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "mare casă, tradițional deține titlul de Paznic al Estului",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 1,
+    "source_page": "25",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 2,
+    "source_page": "62",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 3,
+    "source_page": "115–116",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 4,
+    "source_page": "176, 198",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "mare casă; recent orfană de lord (Jon Arryn a murit)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 5,
+    "source_page": "256–266",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "289–290, 296",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "mare Casă; titlul „Adevărat Păzitor al Estului” deținut de Casa Arryn de aproape trei sute de ani",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 7,
+    "source_page": "373, 378",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "mare casă; regentă Lysa Arryn pentru fiul minor Robert Arryn (Lord de Eyrie și Apărător al Văii)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 8,
+    "source_page": "425–456",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 9,
+    "source_page": "456–460",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "a chemat steagurile, dar refuză implicarea activă",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 11,
+    "source_page": "573, 624–625",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "mare casă, în prezent condusă de un copil bolnăvicios (Robert Arryn) sub regența Lysei; nu s-a alăturat încă niciunei tabere",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 15,
+    "source_page": "817–818, 840–841 (Anexă)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "ally_of",
+    "object": "PERSON_ROBERT_BARATHEON",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 3,
+    "source_page": "115–116",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "ally_of",
+    "object": "PERSON_LADY_LYSA_ARRYN",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 5,
+    "source_page": "256–266",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "ally_of",
+    "object": "PERSON_CATELYN_TULLY",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "289–290, 296",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "ally_of",
+    "object": "PERSON_JAIME_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 7,
+    "source_page": "373, 378",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 8,
+    "source_page": "425–456",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "enemy_of",
+    "object": "PERSON_TYRION_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 9,
+    "source_page": "456–460",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "ally_of",
+    "object": "PERSON_MARQ_PIPER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 15,
+    "source_page": "817–818, 840–841 (Anexă)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BAELISH",
+    "predicate": "region",
+    "object": "LOCATION_DEGETELE",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BAELISH",
+    "predicate": "status_at",
+    "object": "casă de origine modestă, în ascensiune (Petyr Baelish este acum Lord și membru al consiliului mic)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BAELISH",
+    "predicate": "ally_of",
+    "object": "PERSON_BRANDON_STARK",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 3,
+    "source_page": "170",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "seat",
+    "object": "LOCATION_CAPATUL_FURTUNII",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "seat",
+    "object": "LOCATION_FORTAREATA_ROSIE",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "seat",
+    "object": "LOCATION_SFARSITUL_FURTUNII",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "seat",
+    "object": "LOCATION_PIATRA_DRAGONULUI",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "region",
+    "object": "LOCATION_DEBARCADERUL_REGELUI",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "words",
+    "object": "„A noastră este furia\"",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "sigil",
+    "object": "cerb încoronat, în fir de aur pe fond negru",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "sigil",
+    "object": "cerbul încoronat al Casei regale",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "sigil",
+    "object": "cerbul încoronat (menționat explicit — „cerbul este blazonul Casei regale\")",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "sigil",
+    "object": "cerbul încoronat, auriu",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "sigil",
+    "object": "mantie aurie cu carouri negre",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "sigil",
+    "object": "cerb (menționat \"cerbi în goană\" pe capa lui Joffrey)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "sigil",
+    "object": "un cerb încoronat, negru pe fond auriu",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "casă regală (Robert e regele celor Șapte Regate)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 1,
+    "source_page": "13, 39",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "Casă regală",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 2,
+    "source_page": "74",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "casă regală (Robert este regele)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 3,
+    "source_page": "general",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "casă regală",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 4,
+    "source_page": "172",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "mare casă, dinastie regală (Robert e rege)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 5,
+    "source_page": "261, 280–285",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "casă regală (mare casă)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "316",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "Casă domnitoare (regele Robert)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 7,
+    "source_page": "362–371, 391–398",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "casă regală",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 8,
+    "source_page": "442–446",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "casă regală",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 9,
+    "source_page": "493",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "casă domnitoare; conflict de succesiune între frați (Stannis, Renly) și presupușii moștenitori nelegitimi",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 10,
+    "source_page": "521–550",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "mare casă, dar divizată — trei pretendenți la coroană (Joffrey, Stannis, Renly)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 15,
+    "source_page": "797–799, 836–837 (Anexă)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 3,
+    "source_page": "general",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 4,
+    "source_page": "172",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "316",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 8,
+    "source_page": "442–446",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "enemy_of",
+    "object": "PERSON_NED",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 10,
+    "source_page": "521–550",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 15,
+    "source_page": "797–799, 836–837 (Anexă)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "seat",
+    "object": "LOCATION_RAVENTREE",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "status_at",
+    "object": "vasală (stegar al Tully)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "295–296",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "status_at",
+    "object": "vasală Tully, înfrântă (Raventree căzută, Lordul Blackwood refugiat la Riverrun)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 12,
+    "source_page": "635, 643",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "status_at",
+    "object": "aliată cu Robb Stark",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 14,
+    "source_page": "795",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "enemy_of",
+    "object": "HOUSE_BRACKEN",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "295–296",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "seat",
+    "object": "LOCATION_DREADFORT",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "sigil",
+    "object": "bărbat jupuit",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "status_at",
+    "object": "vasal, reputație sinistră",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "sigil",
+    "object": "armăsarul roșu",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "status_at",
+    "object": "vasală (stegar al Tully), rivali tradiționali ai Blackwoodzilor",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "295–296, 301, 341",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "status_at",
+    "object": "Casă vasală (aliată/în serviciul lui Catelyn în acest episod)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 7,
+    "source_page": "347",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "status_at",
+    "object": "vasală Tully, pârjolită de Ser Gregor Clegane",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 12,
+    "source_page": "635",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "vassal_of",
+    "object": "HOUSE_BLACKWOOD",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "295–296, 301, 341",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CARON",
+    "predicate": "sigil",
+    "object": "stolul de privighetori",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CARON",
+    "predicate": "status_at",
+    "object": "casă reprezentată de Lordul Bryce Caron",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CASTERLY",
+    "predicate": "seat",
+    "object": "LOCATION_CASTERLY_ROCK",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CASTERLY",
+    "predicate": "status_at",
+    "object": "stinsă / înlocuită de Casa Lannister",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CASTERLY",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 5,
+    "source_page": "284",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CERWYN",
+    "predicate": "sigil",
+    "object": "secure de luptă",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CLEGANE",
+    "predicate": "sigil",
+    "object": "cap de câine (Sandor)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CLEGANE",
+    "predicate": "status_at",
+    "object": "casă vasală, în ascensiune prin Gregor",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "322–325",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CLEGANE",
+    "predicate": "status_at",
+    "object": "casă vasală (stegari ai Lannisterilor)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 9,
+    "source_page": "483–484, 500–501",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CLEGANE",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "322–325",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CLEGANE",
+    "predicate": "vassal_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 9,
+    "source_page": "483–484, 500–501",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CRAKEHALL",
+    "predicate": "sigil",
+    "object": "vier bălțat",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CRAKEHALL",
+    "predicate": "sigil",
+    "object": "- **Alte detalii:** mesagerul care aduce vestea despre Riverrun poartă acest blazon pe tunica sfâșiată",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CRAKEHALL",
+    "predicate": "status_at",
+    "object": "aliată/vasală Lannister; menționată și genealogic (a treia soție a lui Walder Frey era o Crakehall)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DARRY",
+    "predicate": "status_at",
+    "object": "casă vasală, mică",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 3,
+    "source_page": "156–157",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DARRY",
+    "predicate": "status_at",
+    "object": "casă (nespecificat rangul exact)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 9,
+    "source_page": "480–485",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DAYNE",
+    "predicate": "seat",
+    "object": "LOCATION_STARFALL",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DONDARRION",
+    "predicate": "sigil",
+    "object": "cer de noapte cu fulgere purpurii, scut negru străbătut de fulger",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DONDARRION",
+    "predicate": "sigil",
+    "object": "fulgerul întretăiat",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DONDARRION",
+    "predicate": "status_at",
+    "object": "casă mai mică, reprezentată de Lordul Beric Dondarrion",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "286–287, 303",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DONDARRION",
+    "predicate": "status_at",
+    "object": "casă de lord",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 9,
+    "source_page": "488, 492–493",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "seat",
+    "object": "LOCATION_GEMENII",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "sigil",
+    "object": "turnurile gemene",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "sigil",
+    "object": "două turnuri gemene legate printr-un pod, de un albastru-închis pe fond argintiu-cenușiu",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "sigil",
+    "object": "turnuri gemene, albastru pe cenușiu",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "vasală (stegar al Tully), cu mulți membri",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "296, 301, 303, 338",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "casă vasală (a Casei Tully), numeroasă (mulți fii, nepoți, strănepoți); ambiguă politic — se joacă pe ambele tabere",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 12,
+    "source_page": "628, 636, 662–675",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "vasală/aliată cu Stark, condusă de Lordul Walder Frey; are mulți fii (cinci dintre progeniturile lui Walder Frey călăresc cu Robb)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 13,
+    "source_page": "701, 720, 722, 724",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "vassal_of",
+    "object": "PERSON_LORDUL_WALDER_FREY",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "296, 301, 303, 338",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "vassal_of",
+    "object": "PERSON_HOSTER_TULLY",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 12,
+    "source_page": "628, 636, 662–675",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "ally_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 13,
+    "source_page": "701, 720, 722, 724",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 13,
+    "source_page": "701, 720, 722, 724",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GLOVER",
+    "predicate": "sigil",
+    "object": "pumn înzăuat argintiu pe stacojiu",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "seat",
+    "object": "LOCATION_PYKE",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "region",
+    "object": "LOCATION_INSULELE_DE_FIER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "words",
+    "object": "„Noi nu semănăm\"",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "sigil",
+    "object": "kraken auriu pe pieptar negru",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "sigil",
+    "object": "un kraken aurit pe fond negru",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "casă înfrântă recent într-o răscoală condusă de Balon Greyjoy; fiul Theon e pupil la Winterfell",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 1,
+    "source_page": "39",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 3,
+    "source_page": "136, 139",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "mare casă, deține o flotă",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 4,
+    "source_page": "207",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "menționată doar în context de rebeliune trecută (Balon Greyjoy)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 10,
+    "source_page": "532",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "mare casă, recent înfrântă în Rebeliunea Greyjoy (menționată ca eveniment trecut); Theon Greyjoy, moștenitorul supraviețuitor, este pupilul lui Eddard Stark și acum luptă alături de Robb",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 15,
+    "source_page": "814–815, 819, 823, 844–845 (Anexă)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "ally_of",
+    "object": "PERSON_THEON_GREYJOY",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 3,
+    "source_page": "136, 139",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "ally_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 15,
+    "source_page": "814–815, 819, 823, 844–845 (Anexă)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HORNWOOD",
+    "predicate": "sigil",
+    "object": "elan, maro pe portocaliu-închis",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "branch_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "seat",
+    "object": "LOCATION_KARHOLD",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "sigil",
+    "object": "raze albe pe negru",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "sigil",
+    "object": "raze de soare",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "status_at",
+    "object": "vasală, pretinde sânge de Stark",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 11,
+    "source_page": "590–591",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "status_at",
+    "object": "vasală casei Stark; Lordul Karstark își pierde doi fii (Torrhen și Eddard Karstark) uciși de Jaime Lannister în bătălie",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 13,
+    "source_page": "714, 720, 723–728",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "ally_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 13,
+    "source_page": "714, 720, 723–728",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "seat",
+    "object": "LOCATION_STANCA_CASTERLY",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "words",
+    "object": "„Ascultați-mi Răgetul\" (citat de Tyrion)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "words",
+    "object": "„Ascultă-mi răgetul!\"",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "sigil",
+    "object": "leul Casei Lannister",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "sigil",
+    "object": "sabia Colțul Leului a lui Joffrey are cap de leu din aur la mâner)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "sigil",
+    "object": "cap de leu (menționat prin coiful lui Jaime și pieptarul lui Joffrey cu „capete de leu aurite\")",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "sigil",
+    "object": "armură de aur menționată pentru Jaime (de fapt placată cu oțel)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "sigil",
+    "object": "leul („Leii Stâncii\")",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "sigil",
+    "object": "leu (menționat repetat: coifuri cu lei, broșă cu leu)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "sigil",
+    "object": "leu aurit pe flamuri",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "sigil",
+    "object": "trei lei de aur cu ochi de rubin, folosiți ca ornamente pe armura Lordului Tywin",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "sigil",
+    "object": "flamură stacojie cu auriu",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "sigil",
+    "object": "un leu de aur pe fond purpuriu",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, foarte bogată; aliată cu tronul prin căsătoria Cersei-Robert",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 1,
+    "source_page": "26, 39, 51",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, extrem de bogată și mândră",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 2,
+    "source_page": "74, 88–93",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, foarte puternică și influentă (Cersei e regină, Tyrion e fratele reginei, Jaime e Frate Jurat al Gărzii Regelui)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 3,
+    "source_page": "general, pe tot fragmentul",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, foarte bogată; cel mai mare creditor al Coroanei",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 4,
+    "source_page": "199, 210",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, foarte bogată",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 5,
+    "source_page": "249–252, 261, 284–285",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "288, 309, 319–320",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare Casă, foarte bogată și puternică",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 7,
+    "source_page": "343–398 (recurent)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, bogată, adună trupe la Casterly Rock",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 8,
+    "source_page": "425–434, 441–447",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, foarte bogată și puternică",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 9,
+    "source_page": "469–478, 499–508",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, la putere prin căsătoria Cersei cu regele; conflict incestuos dezvăluit (copiii reginei sunt ai lui Jaime)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 10,
+    "source_page": "521–570",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, în conflict cu Stark/Tully",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 11,
+    "source_page": "571–573, 598, 624–627",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, dominantă politic (Tywin numit Mână a Regelui, Cersei regentă)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 12,
+    "source_page": "630–639, 642–643",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, în război împotriva Casei Stark",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 13,
+    "source_page": "701–720, 727–729",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, cea mai bogată; controlează efectiv Tronul de Fier prin Cersei/Joffrey; armată aflată în dificultate militară în ținuturile riverane",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 15,
+    "source_page": "797–800, 839–840 (Anexă)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "enemy_of",
+    "object": "PERSON_NED_STARK",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 1,
+    "source_page": "26, 39, 51",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "ally_of",
+    "object": "HOUSE_BARATHEON",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 2,
+    "source_page": "74, 88–93",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "enemy_of",
+    "object": "PERSON_NED_STARK",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 3,
+    "source_page": "general, pe tot fragmentul",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "ally_of",
+    "object": "HOUSE_BARATHEON",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 4,
+    "source_page": "199, 210",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "ally_of",
+    "object": "HOUSE_BARATHEON",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 5,
+    "source_page": "249–252, 261, 284–285",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "ally_of",
+    "object": "HOUSE_BARATHEON",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "288, 309, 319–320",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "enemy_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 7,
+    "source_page": "343–398 (recurent)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "enemy_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 8,
+    "source_page": "425–434, 441–447",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "enemy_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 9,
+    "source_page": "469–478, 499–508",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "ally_of",
+    "object": "PERSON_SER_ILYN_PAYNE",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 10,
+    "source_page": "521–570",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "liege_of",
+    "object": "PERSON_JANOS_SLYNT",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 12,
+    "source_page": "630–639, 642–643",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "liege_of",
+    "object": "HOUSE_CRAKEHALL",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 13,
+    "source_page": "701–720, 727–729",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "ally_of",
+    "object": "PERSON_SER_GREGOR_CLEGANE",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 15,
+    "source_page": "797–800, 839–840 (Anexă)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "branch_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "vasale Lannister; capturați de Stark la Whispering Wood",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LYDDEN",
+    "predicate": "sigil",
+    "object": "viezure",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LYDDEN",
+    "predicate": "status_at",
+    "object": "aliată/vasală Lannister",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MALLISTER",
+    "predicate": "seat",
+    "object": "LOCATION_SEAGARD",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MALLISTER",
+    "predicate": "sigil",
+    "object": "vulturul de argint",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MALLISTER",
+    "predicate": "status_at",
+    "object": "vasală (stegar al Tully)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "294, 303, 315",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MALLISTER",
+    "predicate": "status_at",
+    "object": "vasală Tully, încă rezistă dar slăbită („îi lipsește forța de a lupta singur\")",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 12,
+    "source_page": "636",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MALLISTER",
+    "predicate": "status_at",
+    "object": "aliată cu Robb Stark / Riverrun",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 14,
+    "source_page": "794",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MALLISTER",
+    "predicate": "vassal_of",
+    "object": "HOUSE_TULLY",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "294, 303, 315",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "seat",
+    "object": "LOCATION_PORTUL_ALB",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "sigil",
+    "object": "bărbat-sirenă alb cu trident, mare verde-albastră",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "status_at",
+    "object": "casă vasală a Nordului",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 4,
+    "source_page": "207",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "status_at",
+    "object": "vasal loial",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 11,
+    "source_page": "618–622",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARBRAND",
+    "predicate": "sigil",
+    "object": "copac arzând",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARBRAND",
+    "predicate": "status_at",
+    "object": "aliată/vasală Lannister",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "seat",
+    "object": "LOCATION_SUNSPEAR",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "region",
+    "object": "LOCATION_DORNE",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "words",
+    "object": "„Neplecat, Neînfrânt, Nesfărâmat\"",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "sigil",
+    "object": "un soare roșu străpuns de o suliță aurie",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "status_at",
+    "object": "mare casă, neutră deocamdată; conducătorii se numesc „Prinț\", nu „Rege\"; menționată ca posibil aliat viitor al lui Renly (\"Dornishienii nu se vor codi nici ei\")",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "ally_of",
+    "object": "PERSON_ELIA_MARTELL",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 15,
+    "source_page": "827, 845–847 (Anexă)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORMONT",
+    "predicate": "seat",
+    "object": "LOCATION_INSULA_URSULUI",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORMONT",
+    "predicate": "sigil",
+    "object": "urs negru",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORMONT",
+    "predicate": "sigil",
+    "object": "original — cap de urs din argint (pe mânerul sabiei Gheară Lungă, înainte de a fi înlocuit cu un cap de lup)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORMONT",
+    "predicate": "status_at",
+    "object": "vasală a Casei Stark; casă veche, mândră și onorabilă, dar cu pământuri sărace",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 2,
+    "source_page": "113",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORMONT",
+    "predicate": "status_at",
+    "object": "casă vasală a Nordului",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 4,
+    "source_page": "212",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORMONT",
+    "predicate": "status_at",
+    "object": "membri: Jeor Mormont (Bătrânul Urs, Lord Comandant al Rondului de Noapte) și Ser Jorah Mormont (cavaler exilat, în slujba lui Viserys/Daenerys)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 5,
+    "source_page": "236–239, 275",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORMONT",
+    "predicate": "status_at",
+    "object": "casă mică nordică; fiul lordului, Jorah Mormont, a adus dezonoare casei (a fugit, motiv nespecificat în fragment) și a lăsat sabia de familie în urmă",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 12,
+    "source_page": "678–679",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORMONT",
+    "predicate": "status_at",
+    "object": "vasală casei Stark; Lady Maege Mormont conduce trupe, fiica ei Dacey luptă alături de Robb",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 13,
+    "source_page": "724, 725",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORMONT",
+    "predicate": "ally_of",
+    "object": "PERSON_VISERYS",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 5,
+    "source_page": "236–239, 275",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORMONT",
+    "predicate": "ally_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 13,
+    "source_page": "724, 725",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PAYNE",
+    "predicate": "status_at",
+    "object": "casă vasală a Lannisterilor",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 9,
+    "source_page": "489",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PAYNE",
+    "predicate": "status_at",
+    "object": "familie mai mică; Podrick Payne (scutierul lui Tyrion) e văr îndepărtat al lui Ser Ilyn Payne, călăul regelui",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 13,
+    "source_page": "705",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PAYNE",
+    "predicate": "vassal_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 9,
+    "source_page": "489",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PAYNE",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 13,
+    "source_page": "705",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PIPER",
+    "predicate": "status_at",
+    "object": "casă (nespecificat rangul exact)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 9,
+    "source_page": "483–486",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PIPER",
+    "predicate": "status_at",
+    "object": "vasală Tully, înfrântă de Jaime la Dintele Aurit; teritorii pârjolite de Ser Gregor Clegane",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 12,
+    "source_page": "635–636",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PRESTER",
+    "predicate": "sigil",
+    "object": "bou roșu",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PRESTER",
+    "predicate": "status_at",
+    "object": "aliată/vasală Lannister, prezentă în tabăra lui Tywin",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDFORT",
+    "predicate": "region",
+    "object": "LOCATION_VALE",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDFORT",
+    "predicate": "status_at",
+    "object": "Casă veche în Vale, descendentă din Primii Oameni",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDWYNE",
+    "predicate": "seat",
+    "object": "LOCATION_ARBOR",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDWYNE",
+    "predicate": "sigil",
+    "object": "ciorchine de struguri, purpuriu pe albastru",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDWYNE",
+    "predicate": "sigil",
+    "object": "mantii cadrilate, albastru cu rubiniu",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDWYNE",
+    "predicate": "status_at",
+    "object": "mare casă/vasală (participă la turnir prin gemenii Ser Horas și Ser Hobber)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "303–304, 315",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDWYNE",
+    "predicate": "status_at",
+    "object": "casă prezentă la curte prin \"gemenii Redwyne\"; menționată ca fostă adversară a lui Stannis la Capătul Furtunii",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 10,
+    "source_page": "532–533",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDWYNE",
+    "predicate": "status_at",
+    "object": "casă vasală, prezentă la curte",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 14,
+    "source_page": "752",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDWYNE",
+    "predicate": "ally_of",
+    "object": "HOUSE_BARATHEON",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 10,
+    "source_page": "532–533",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REED",
+    "predicate": "seat",
+    "object": "LOCATION_RONDUL_GREYWATER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REED",
+    "predicate": "status_at",
+    "object": "vasal, \"oamenii lacurilor\"",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROWAN",
+    "predicate": "seat",
+    "object": "LOCATION_GOLDENGROVE",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROWAN",
+    "predicate": "status_at",
+    "object": "mare casă / nobilă (nivel nespecificat exact)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROWAN",
+    "predicate": "ally_of",
+    "object": "PERSON_DAREON",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 5,
+    "source_page": "278",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROYCE",
+    "predicate": "region",
+    "object": "LOCATION_VALEA_ARRYN",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROYCE",
+    "predicate": "sigil",
+    "object": "armură de bronz cu rune magice",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROYCE",
+    "predicate": "status_at",
+    "object": "vasali ai Casei Arryn",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 4,
+    "source_page": "191, 212",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROYCE",
+    "predicate": "status_at",
+    "object": "vasală/importantă în Vale",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "303–304",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROYCE",
+    "predicate": "status_at",
+    "object": "mare Casă cu ramuri; Nestor Royce este descris ca provenind dintr-o ramură mai neînsemnată, văr al lui Yohn Bronze (probabil corupt din „Yohn Royce”, poreclit „Bronze/Bronz”)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 7,
+    "source_page": "381",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROYCE",
+    "predicate": "status_at",
+    "object": "reprezentată la curte prin Bronze Yohn Royce",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 10,
+    "source_page": "533",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROYCE",
+    "predicate": "ally_of",
+    "object": "HOUSE_BARATHEON",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 10,
+    "source_page": "533",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SLYNT",
+    "predicate": "sigil",
+    "object": "suliță însângerată, aurie pe fond negru",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SLYNT",
+    "predicate": "status_at",
+    "object": "casă de rând, în ascensiune bruscă — Janos Slynt ridicat la rang de lord de către Joffrey, primește Harrenhal și loc la consiliul mic",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "seat",
+    "object": "LOCATION_WINTERFELL",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "words",
+    "object": "„Vine iarna\" (menționat explicit)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "sigil",
+    "object": "lup străvechi (direwolf) gonind pe câmp albit de gheață",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "sigil",
+    "object": "lupul străvechi (menționat explicit: „Lupul străvechi este blazonul Casei Stark\")",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "sigil",
+    "object": "lup străvechi (menționat ca blazon purtat de pieptarul cenușiu al lui Ned)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "sigil",
+    "object": "lup străvechi (menționat prin sigiliul de ceară al lui Ned)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "sigil",
+    "object": "lup străvechi cenușiu pe alb",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "sigil",
+    "object": "lup străvechi (menționat: „scutul cu blazonul lupului străvechi al Casei Winterfell\")",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "sigil",
+    "object": "lup străvechi, cenușiu, „aleargă și sare\"",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "sigil",
+    "object": "menționate parțial (elanul Casei Hornwood, pumnul înzăuat al Gloverilor)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "sigil",
+    "object": "un lup străvechi, cenușiu, pe fond alb de gheață",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "mare casă, Warden din Nord",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 1,
+    "source_page": "13, 23",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 2,
+    "source_page": "58–99 (recurent)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 3,
+    "source_page": "general, pe tot fragmentul",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 4,
+    "source_page": "195, 228",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 5,
+    "source_page": "249–252, 284–285",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "289, 337",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "mare Casă",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 7,
+    "source_page": "343–398 (recurent)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "mare casă, cap de familie (Ned) rănit și captiv politic la Debarcaderul Regelui; Robb administrează Winterfell",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 8,
+    "source_page": "409–423, 439–456",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 9,
+    "source_page": "multiple (456–508)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "mare casă; șeful casei (Eddard) numit Mână a Regelui, apoi Protector al Domeniului",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 10,
+    "source_page": "521–570",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "mare casă, în conflict cu Coroana",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 11,
+    "source_page": "590, 618–627",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "mare casă, în război (Robb condus în campanie)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 12,
+    "source_page": "628–629, 665",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "mare casă, în război împotriva Casei Lannister; scor victorie la Whispering Wood",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 13,
+    "source_page": "701–729",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "vasale Stark; Lordul Hornwood moare în luptă; Ser Wylis Manderly, Harrion Karstark, Lordul Cerwyn și patru Frey sunt luați captivi de Lannisteri",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 13,
+    "source_page": "711, 720, 724, 728",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "mare casă, în război cu Lannisterii; Robb proclamat „Regele Nordului\" în acest fragment",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 15,
+    "source_page": "802, 814–826, 837–839 (Anexă)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "ally_of",
+    "object": "HOUSE_BARATHEON",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 1,
+    "source_page": "13, 23",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "liege_of",
+    "object": "HOUSE_MORMONT",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 2,
+    "source_page": "58–99 (recurent)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "ally_of",
+    "object": "PERSON_ROBERT_BARATHEON",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 3,
+    "source_page": "general, pe tot fragmentul",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 4,
+    "source_page": "195, 228",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 5,
+    "source_page": "249–252, 284–285",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "289, 337",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 7,
+    "source_page": "343–398 (recurent)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 8,
+    "source_page": "409–423, 439–456",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 9,
+    "source_page": "multiple (456–508)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 10,
+    "source_page": "521–570",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "ally_of",
+    "object": "HOUSE_KARSTARK",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 11,
+    "source_page": "590, 618–627",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 12,
+    "source_page": "628–629, 665",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 13,
+    "source_page": "701–729",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 13,
+    "source_page": "711, 720, 724, 728",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 15,
+    "source_page": "802, 814–826, 837–839 (Anexă)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SWANN",
+    "predicate": "status_at",
+    "object": "casă reprezentată la turnir de Ser Balon Swann",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "303–304, 326",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SWANN",
+    "predicate": "status_at",
+    "object": "reprezentată la curte prin Ser Balon Swann",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 10,
+    "source_page": "533",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SWANN",
+    "predicate": "ally_of",
+    "object": "HOUSE_BARATHEON",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 10,
+    "source_page": "533",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TALLHART",
+    "predicate": "sigil",
+    "object": "trei molizi",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "seat",
+    "object": "LOCATION_DOMENIUL_REGELUI",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "seat",
+    "object": "LOCATION_FORTAREATA_ROSIE",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "seat",
+    "object": "LOCATION_PIATRA_DRAGONULUI",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "words",
+    "object": "„Foc și Sânge\"",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "sigil",
+    "object": "un dragon cu trei capete, roșu pe fond negru",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "sigil",
+    "object": "dragon stacojiu, brodat pe tunica lui Viserys",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "sigil",
+    "object": "dragonul cu trei capete",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "fostă dinastie regală, în prezent exilată/aproape stinsă (doar Viserys și Daenerys rămași)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 1,
+    "source_page": "28–38",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "stinsă ca putere politică, în exil",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 2,
+    "source_page": "100–114",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "casă în declin/exil (rămășițe: „fratele ei și ea\" — exilați, sub protecția „regelui cerșetor\"; posibil referire la Viserys și Daenerys Targaryen, dar numele nu sunt menționate explicit în text)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 3,
+    "source_page": "114–116",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "detronată, în declin/exil",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 4,
+    "source_page": "172, 195, 204, 207",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "stinsă ca dinastie conducătoare (în exil, Viserys și Daenerys sunt ultimii reprezentanți cunoscuți)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 5,
+    "source_page": "232–243",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "detronată — Viserys se autointitulează „Lordul celor Șapte Regate” și pretinde coroana",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 8,
+    "source_page": "400–409, 439",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "dinastie în exil / stinsă la putere",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 9,
+    "source_page": "501–502, 509–513",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "dinastie detronată; ultimii doi urmași cunoscuți (Viserys și Daenerys) — Viserys ucis în acest fragment",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 10,
+    "source_page": "514–520",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "casă în exil",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 11,
+    "source_page": "606–608, 611–617, 625",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "în declin/exilată (Daenerys și fostul Aemon Targaryen sunt ultimii supraviețuitori cunoscuți menționați aici)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 13,
+    "source_page": "688–689, 691, 738",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "dinastie detronată; singura supraviețuitoare cunoscută este Daenerys Targaryen, care în acest fragment devine „mama dragonilor\" (nasc trei pui de dragon din ouă)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 15,
+    "source_page": "827–839, 847–849 (Anexă, inclusiv succesiunea targaryeană completă)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "ally_of",
+    "object": "PERSON_ROBERT_BARATHEON",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 2,
+    "source_page": "100–114",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "ally_of",
+    "object": "PERSON_ROBERT_BARATHEON",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 3,
+    "source_page": "114–116",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "ally_of",
+    "object": "PERSON_MAGISTER_ILLYRIO",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 5,
+    "source_page": "232–243",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "enemy_of",
+    "object": "PERSON_ROBERT_BARATHEON",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 8,
+    "source_page": "400–409, 439",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "ally_of",
+    "object": "HOUSE_BARATHEON",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 9,
+    "source_page": "501–502, 509–513",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "enemy_of",
+    "object": "PERSON_ROBERT_BARATHEON",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 10,
+    "source_page": "514–520",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "ally_of",
+    "object": "PERSON_SER_JORAH_MORMONT",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 15,
+    "source_page": "827–839, 847–849 (Anexă, inclusiv succesiunea targaryeană completă)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "seat",
+    "object": "LOCATION_HORN_HILL",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "seat",
+    "object": "LOCATION_DEALUL_CORNULUI",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "sigil",
+    "object": "vânător în mișcare, pe fond stacojiu",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "status_at",
+    "object": "casă veche și onorabilă, vasală (stegară) a lui Mace Tyrell",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 5,
+    "source_page": "276–278",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "status_at",
+    "object": "casă nobilă minoră; Samwell Tarly a renunțat la moștenire, s-a alăturat Rondului de Noapte",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 10,
+    "source_page": "536–539",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "status_at",
+    "object": "mare familie nobiliară; Lordul Randyll Tarly l-a dezmoștenit pe Sam în favoarea fratelui mai mic, Dickon, inclusiv sabia din oțel Valyrian numită Inimă Frântă",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 13,
+    "source_page": "685",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "vassal_of",
+    "object": "HOUSE_TYRELL",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 5,
+    "source_page": "276–278",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "seat",
+    "object": "LOCATION_RIVERRUN",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "region",
+    "object": "LOCATION_TRIDENT",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "words",
+    "object": "„Familie, Datorie, Onoare\"",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "sigil",
+    "object": "un păstrăv avântându-se în aer",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "sigil",
+    "object": "Brynden Tully și-a adoptat propriul simbol, un „peşte negru”, spre deosebire de porecla „capra neagră” dată de fratele său Hoster",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "sigil",
+    "object": "păstrăv săltăreț (menționat brodat pe o eșarfă)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "sigil",
+    "object": "un păstrăv săltând, argintiu, pe fond unduit albastru-cu-roșu",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "mare casă, practică Credința celor Șapte",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 1,
+    "source_page": "22, 25",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 2,
+    "source_page": "70, 111",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 3,
+    "source_page": "170",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 4,
+    "source_page": "176",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "295–296",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "mare Casă",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 7,
+    "source_page": "372, 379",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "mare casă; Lord Hoster Tully posibil bolnav, Edmure conduce apărarea, Brynden pleacă să ajute",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 8,
+    "source_page": "447–451, 456",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 9,
+    "source_page": "456, 485–486",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "mare casă, în declin militar (Riverrun asediată, Edmure capturat, Hoster bolnav)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 12,
+    "source_page": "628–629, 662, 664",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "mare casă, aliată cu Stark; sub asediu (Riverrun); Edmure Tully deja înfrânt sub ziduri",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 13,
+    "source_page": "721–729",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "casă majoră, aliată cu Casa Stark, asediată și eliberată în acest fragment",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 14,
+    "source_page": "791–795",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "mare casă; Lordul Hoster Tully pe moarte; aliată cu Casa Stark prin căsătoria lui Catelyn cu Eddard",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 15,
+    "source_page": "814–826, 841–842 (Anexă)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "ally_of",
+    "object": "PERSON_EDMURE_TULLY",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 3,
+    "source_page": "170",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "vassal_of",
+    "object": "HOUSE_BLACKWOOD",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "295–296",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 8,
+    "source_page": "447–451, 456",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "vassal_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 9,
+    "source_page": "456, 485–486",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "ally_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 11,
+    "source_page": "573, 618–627",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 12,
+    "source_page": "628–629, 662, 664",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "ally_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 13,
+    "source_page": "721–729",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 13,
+    "source_page": "721–729",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "ally_of",
+    "object": "HOUSE_BLACKWOOD",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 15,
+    "source_page": "814–826, 841–842 (Anexă)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "words",
+    "object": "„Devenind puternic\"",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "sigil",
+    "object": "trandafiri (aluzie prin porecla „Cavalerul Florilor\" și armura lui Loras cu flori)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "sigil",
+    "object": "centură de trandafiri de aur",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "sigil",
+    "object": "un trandafir de aur pe fond de iarbă verde",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "mare casă; creditor al Coroanei",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 4,
+    "source_page": "199",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 5,
+    "source_page": "276",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "mare casă, în ascensiune (favoare la curte)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "285–286, 305–306",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 9,
+    "source_page": "486–489",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "mare casă; Ser Loras Tyrell prezent la curte, pleacă împreună cu Renly",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 10,
+    "source_page": "532–533, 546",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "în ascensiune; se aliază cu Renly Baratheon prin căsătorie",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 14,
+    "source_page": "796",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "mare casă, susține pretenția lui Renly la coroană",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 15,
+    "source_page": "799, 822, 827, 842–844 (Anexă)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "ally_of",
+    "object": "PERSON_MACE_TYRELL",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 5,
+    "source_page": "276",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "ally_of",
+    "object": "PERSON_RENLY_BARATHEON",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "285–286, 305–306",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "ally_of",
+    "object": "PERSON_RENLY_BARATHEON",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 10,
+    "source_page": "532–533, 546",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "ally_of",
+    "object": "PERSON_RENLY_BARATHEON",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 15,
+    "source_page": "799, 822, 827, 842–844 (Anexă)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_UMBER",
+    "predicate": "sigil",
+    "object": "uriaș urlând în lanțuri spulberate",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_UMBER",
+    "predicate": "sigil",
+    "object": "uriaș în lanțuri",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_UMBER",
+    "predicate": "status_at",
+    "object": "vasal aprig, loial după confruntarea cu Robb",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 11,
+    "source_page": "592, 596–598",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_UMBER",
+    "predicate": "status_at",
+    "object": "aliată cu Robb Stark",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 14,
+    "source_page": "794, 795",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VANCE",
+    "predicate": "status_at",
+    "object": "casă (nespecificat rangul exact)",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 9,
+    "source_page": "480–485",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VANCE",
+    "predicate": "status_at",
+    "object": "vasală Tully, înfrântă de Jaime la Dintele Aurit",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 12,
+    "source_page": "635",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WAYNWOOD",
+    "predicate": "region",
+    "object": "LOCATION_VALE",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WAYNWOOD",
+    "predicate": "status_at",
+    "object": "Casă vasală a Arrynilor, respectă ceremonialul strict",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WHENT",
+    "predicate": "seat",
+    "object": "LOCATION_HARRENHAL",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WHENT",
+    "predicate": "sigil",
+    "object": "liliac negru",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WHENT",
+    "predicate": "status_at",
+    "object": "în declin/stinsă (Lady Whent este „ultima din neam\")",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "296, 300–301, 336",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WHENT",
+    "predicate": "status_at",
+    "object": "în declin sever — Lady Shella Whent predă Harrenhal din lipsă de oameni; casa pierde practic sediul",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 12,
+    "source_page": "635, 643",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WHENT",
+    "predicate": "vassal_of",
+    "object": "PERSON_HOSTER_TULLY",
+    "source_book": "Urzeala Tronurilor",
+    "source_fragment": 6,
+    "source_page": "296, 300–301, 336",
+    "confidence": "confirmed"
+  }
+]

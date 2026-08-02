@@ -1,0 +1,866 @@
+[
+  {
+    "nume": "Cătunul de iarnă (sat lângă Winterfell)",
+    "tipuri_gasite": [
+      "altele",
+      "locatie"
+    ],
+    "entitati": [
+      {
+        "id": "LOCATION_CATUNUL_DE_IARNA",
+        "tip": "locatie",
+        "carte": "Urzeala Tronurilor"
+      },
+      {
+        "id": "OTHER_CATUNUL_DE_IARNA",
+        "tip": "altele",
+        "carte": "Urzeala Tronurilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Marea de Jad",
+    "tipuri_gasite": [
+      "altele",
+      "locatie"
+    ],
+    "entitati": [
+      {
+        "id": "LOCATION_MAREA_DE_JAD",
+        "tip": "locatie",
+        "carte": "Urzeala Tronurilor"
+      },
+      {
+        "id": "OTHER_MAREA_DE_JAD",
+        "tip": "altele",
+        "carte": "Dansul Dragonilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Oraşul Cârtiţei",
+    "tipuri_gasite": [
+      "altele",
+      "locatie"
+    ],
+    "entitati": [
+      {
+        "id": "LOCATION_ORASUL_CARTITEI",
+        "tip": "locatie",
+        "carte": "Urzeala Tronurilor"
+      },
+      {
+        "id": "OTHER_ORASUL_CARTITEI",
+        "tip": "altele",
+        "carte": "Urzeala Tronurilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Turnul Bucuriei (numit așa de Rhaegar Targaryen)",
+    "tipuri_gasite": [
+      "altele",
+      "locatie"
+    ],
+    "entitati": [
+      {
+        "id": "LOCATION_TURNUL_BUCURIEI",
+        "tip": "locatie",
+        "carte": "Urzeala Tronurilor"
+      },
+      {
+        "id": "OTHER_TURNUL_BUCURIEI",
+        "tip": "altele",
+        "carte": "Urzeala Tronurilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "drumurile Valyriene",
+    "tipuri_gasite": [
+      "locatie",
+      "obiect"
+    ],
+    "entitati": [
+      {
+        "id": "LOCATION_DRUMURILE_VALYRIENE",
+        "tip": "locatie",
+        "carte": "Urzeala Tronurilor"
+      },
+      {
+        "id": "OBJECT_DRUMURILE_VALYRIENE",
+        "tip": "obiect",
+        "carte": "Dansul Dragonilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "„Palatul” (Marea Sală din Vaes Dothrak)",
+    "tipuri_gasite": [
+      "altele",
+      "locatie",
+      "obiect",
+      "persoana",
+      "titlu"
+    ],
+    "entitati": [
+      {
+        "id": "LOCATION_PALATUL",
+        "tip": "locatie",
+        "carte": "Urzeala Tronurilor"
+      },
+      {
+        "id": "PERSON_BROSCOIUL",
+        "tip": "persoana",
+        "carte": "Urzeala Tronurilor"
+      },
+      {
+        "id": "OTHER_PIATRA_TREBUIE_SA_FIU_DE_PIATRA_TREBUIE_SA_FIU_CASTELUL_DE_PIATRA",
+        "tip": "altele",
+        "carte": "Înclestarea Regilor"
+      },
+      {
+        "id": "TITLE_REGELE_TRIDENTULUI_SI_AL_NORDULUI",
+        "tip": "titlu",
+        "carte": "Iureșul Săbiilor"
+      },
+      {
+        "id": "OBJECT_DANSUL_DEGETELOR",
+        "tip": "obiect",
+        "carte": "Festinul Ciorilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Hornwood",
+    "tipuri_gasite": [
+      "locatie",
+      "persoana"
+    ],
+    "entitati": [
+      {
+        "id": "LOCATION_HORNWOOD",
+        "tip": "locatie",
+        "carte": "Înclestarea Regilor"
+      },
+      {
+        "id": "PERSON_HORNWOOD",
+        "tip": "persoana",
+        "carte": "Urzeala Tronurilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Marele Sept al lui Baelor",
+    "tipuri_gasite": [
+      "altele",
+      "locatie"
+    ],
+    "entitati": [
+      {
+        "id": "LOCATION_MARELE_SEPT_AL_LUI_BAELOR",
+        "tip": "locatie",
+        "carte": "Înclestarea Regilor"
+      },
+      {
+        "id": "OTHER_MARELE_SEPT_AL_LUI_BAELOR",
+        "tip": "altele",
+        "carte": "Înclestarea Regilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Cele Paisprezece Flăcări",
+    "tipuri_gasite": [
+      "altele",
+      "locatie"
+    ],
+    "entitati": [
+      {
+        "id": "LOCATION_CELE_PAISPREZECE_FLACARI",
+        "tip": "locatie",
+        "carte": "Festinul Ciorilor"
+      },
+      {
+        "id": "OTHER_CELE_PAISPREZECE_FLACARI",
+        "tip": "altele",
+        "carte": "Dansul Dragonilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Titanul din Braavos",
+    "tipuri_gasite": [
+      "locatie",
+      "obiect"
+    ],
+    "entitati": [
+      {
+        "id": "LOCATION_TITANUL_DIN_BRAAVOS",
+        "tip": "locatie",
+        "carte": "Festinul Ciorilor"
+      },
+      {
+        "id": "OBJECT_TITANUL_DIN_BRAAVOS",
+        "tip": "obiect",
+        "carte": "Festinul Ciorilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Compania de Aur",
+    "tipuri_gasite": [
+      "altele",
+      "locatie"
+    ],
+    "entitati": [
+      {
+        "id": "LOCATION_COMPANIA_DE_AUR",
+        "tip": "locatie",
+        "carte": "Dansul Dragonilor"
+      },
+      {
+        "id": "OTHER_COMPANIA_DE_AUR",
+        "tip": "altele",
+        "carte": "Festinul Ciorilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Selaesori Qhoran",
+    "tipuri_gasite": [
+      "locatie",
+      "obiect"
+    ],
+    "entitati": [
+      {
+        "id": "LOCATION_SELAESORI_QHORAN",
+        "tip": "locatie",
+        "carte": "Dansul Dragonilor"
+      },
+      {
+        "id": "OBJECT_SELAESORI_QHORAN",
+        "tip": "obiect",
+        "carte": "Dansul Dragonilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Casa Bracken",
+    "tipuri_gasite": [
+      "casa",
+      "locatie"
+    ],
+    "entitati": [
+      {
+        "id": "LOCATION_CASA_BRACKEN",
+        "tip": "locatie",
+        "carte": "Foc și Sânge"
+      },
+      {
+        "id": "HOUSE_BRACKEN",
+        "tip": "casa",
+        "carte": "Urzeala Tronurilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Corbul lui Mormont",
+    "tipuri_gasite": [
+      "altele",
+      "obiect",
+      "persoana"
+    ],
+    "entitati": [
+      {
+        "id": "PERSON_CORBUL_LUI_MORMONT",
+        "tip": "persoana",
+        "carte": "Urzeala Tronurilor"
+      },
+      {
+        "id": "OTHER_CORBUL_LUI_MORMONT",
+        "tip": "altele",
+        "carte": "Urzeala Tronurilor"
+      },
+      {
+        "id": "OBJECT_CORBUL_LUI_MORMONT",
+        "tip": "obiect",
+        "carte": "Dansul Dragonilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Gâdilătorul",
+    "tipuri_gasite": [
+      "altele",
+      "persoana"
+    ],
+    "entitati": [
+      {
+        "id": "PERSON_GADILATORUL",
+        "tip": "persoana",
+        "carte": "Înclestarea Regilor"
+      },
+      {
+        "id": "OTHER_GADILATORUL",
+        "tip": "altele",
+        "carte": "Iureșul Săbiilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Nevăstuică",
+    "tipuri_gasite": [
+      "altele",
+      "persoana"
+    ],
+    "entitati": [
+      {
+        "id": "PERSON_NEVASTUICA",
+        "tip": "persoana",
+        "carte": "Înclestarea Regilor"
+      },
+      {
+        "id": "OTHER_NEVASTUICA",
+        "tip": "altele",
+        "carte": "Înclestarea Regilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Cioara cu trei ochi",
+    "tipuri_gasite": [
+      "altele",
+      "persoana"
+    ],
+    "entitati": [
+      {
+        "id": "PERSON_CIOARA_CU_TREI_OCHI",
+        "tip": "persoana",
+        "carte": "Dansul Dragonilor"
+      },
+      {
+        "id": "OTHER_CIOARA_CU_TREI_OCHI",
+        "tip": "altele",
+        "carte": "Înclestarea Regilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Prinţul Zdrenţăros",
+    "tipuri_gasite": [
+      "persoana",
+      "titlu"
+    ],
+    "entitati": [
+      {
+        "id": "PERSON_PRINTUL_ZDRENTAROS",
+        "tip": "persoana",
+        "carte": "Dansul Dragonilor"
+      },
+      {
+        "id": "TITLE_PRINTUL_ZDRENTAROS",
+        "tip": "titlu",
+        "carte": "Dansul Dragonilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Vânt Cenușiu",
+    "tipuri_gasite": [
+      "altele",
+      "persoana"
+    ],
+    "entitati": [
+      {
+        "id": "PERSON_VANT_CENUSIU",
+        "tip": "persoana",
+        "carte": "Dansul Dragonilor"
+      },
+      {
+        "id": "OTHER_VANT_CENUSIU",
+        "tip": "altele",
+        "carte": "Înclestarea Regilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Tronul de Fier",
+    "tipuri_gasite": [
+      "obiect",
+      "titlu"
+    ],
+    "entitati": [
+      {
+        "id": "OBJECT_TRONUL_DE_FIER",
+        "tip": "obiect",
+        "carte": "Urzeala Tronurilor"
+      },
+      {
+        "id": "TITLE_TRONUL_DE_FIER",
+        "tip": "titlu",
+        "carte": "Festinul Ciorilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Garda Regelui (Kingsguard)",
+    "tipuri_gasite": [
+      "altele",
+      "titlu"
+    ],
+    "entitati": [
+      {
+        "id": "OTHER_GARDA_REGELUI",
+        "tip": "altele",
+        "carte": "Urzeala Tronurilor"
+      },
+      {
+        "id": "TITLE_GARDA_REGELUI",
+        "tip": "titlu",
+        "carte": "Cavalerul celor 7 Regate"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Oțelul valyrian",
+    "tipuri_gasite": [
+      "altele",
+      "obiect"
+    ],
+    "entitati": [
+      {
+        "id": "OTHER_OTELUL_VALYRIAN",
+        "tip": "altele",
+        "carte": "Urzeala Tronurilor"
+      },
+      {
+        "id": "OBJECT_OTELUL_VALYRIAN",
+        "tip": "obiect",
+        "carte": "Iureșul Săbiilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Garda Curcubeului",
+    "tipuri_gasite": [
+      "obiect",
+      "titlu"
+    ],
+    "entitati": [
+      {
+        "id": "OBJECT_GARDA_CURCUBEULUI",
+        "tip": "obiect",
+        "carte": "Înclestarea Regilor"
+      },
+      {
+        "id": "TITLE_GARDA_CURCUBEULUI",
+        "tip": "titlu",
+        "carte": "Iureșul Săbiilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Otrava „Strangulatorul” (The Strangler)",
+    "tipuri_gasite": [
+      "altele",
+      "obiect"
+    ],
+    "entitati": [
+      {
+        "id": "OBJECT_OTRAVA_STRANGULATORUL",
+        "tip": "obiect",
+        "carte": "Înclestarea Regilor"
+      },
+      {
+        "id": "OTHER_OTRAVA_DE_MANTICOR_DE_LA_APUS",
+        "tip": "altele",
+        "carte": "Festinul Ciorilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Titlu onorific",
+    "tipuri_gasite": [
+      "altele",
+      "titlu"
+    ],
+    "entitati": [
+      {
+        "id": "TITLE_TITLU_ONORIFIC",
+        "tip": "titlu",
+        "carte": "Înclestarea Regilor"
+      },
+      {
+        "id": "OTHER_TITLU_ONORIFIC",
+        "tip": "altele",
+        "carte": "Foc și Sânge"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Titlul „Dreptatea Regelui” ( călăul regesc - Ser Ilyn Payne)",
+    "tipuri_gasite": [
+      "altele",
+      "titlu"
+    ],
+    "entitati": [
+      {
+        "id": "TITLE_TITLUL_DREPTATEA_REGELUI",
+        "tip": "titlu",
+        "carte": "Înclestarea Regilor"
+      },
+      {
+        "id": "OTHER_TITLUL_LORD_DE_PODUL_AMAR",
+        "tip": "altele",
+        "carte": "Foc și Sânge"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "R'hllor",
+    "tipuri_gasite": [
+      "altele",
+      "obiect"
+    ],
+    "entitati": [
+      {
+        "id": "OTHER_RHLLOR",
+        "tip": "altele",
+        "carte": "Înclestarea Regilor"
+      },
+      {
+        "id": "OBJECT_RHLLOR",
+        "tip": "obiect",
+        "carte": "Festinul Ciorilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Corabia „Vântul Negru”",
+    "tipuri_gasite": [
+      "altele",
+      "obiect"
+    ],
+    "entitati": [
+      {
+        "id": "OTHER_CORABIA_VANTUL_NEGRU",
+        "tip": "altele",
+        "carte": "Înclestarea Regilor"
+      },
+      {
+        "id": "OBJECT_CORABIA_CIOCANUL_REGELUI_ROBERT",
+        "tip": "obiect",
+        "carte": "Festinul Ciorilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Jilțul de Piatră",
+    "tipuri_gasite": [
+      "altele",
+      "obiect"
+    ],
+    "entitati": [
+      {
+        "id": "OTHER_JILTUL_DE_PIATRA",
+        "tip": "altele",
+        "carte": "Înclestarea Regilor"
+      },
+      {
+        "id": "OBJECT_JILTUL_DE_PIATRA",
+        "tip": "obiect",
+        "carte": "Dansul Dragonilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Obiect",
+    "tipuri_gasite": [
+      "altele",
+      "obiect"
+    ],
+    "entitati": [
+      {
+        "id": "OTHER_OBIECT",
+        "tip": "altele",
+        "carte": "Înclestarea Regilor"
+      },
+      {
+        "id": "OBJECT_OBIECT",
+        "tip": "obiect",
+        "carte": "Festinul Ciorilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Potecile viermilor",
+    "tipuri_gasite": [
+      "altele",
+      "obiect"
+    ],
+    "entitati": [
+      {
+        "id": "OTHER_POTECILE_VIERMILOR",
+        "tip": "altele",
+        "carte": "Înclestarea Regilor"
+      },
+      {
+        "id": "OBJECT_POTECILE_VIERMILOR",
+        "tip": "obiect",
+        "carte": "Dansul Dragonilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Foc sălbatic",
+    "tipuri_gasite": [
+      "altele",
+      "obiect"
+    ],
+    "entitati": [
+      {
+        "id": "OBJECT_FOC_SALBATIC",
+        "tip": "obiect",
+        "carte": "Iureșul Săbiilor"
+      },
+      {
+        "id": "OTHER_FOC_SALBATIC",
+        "tip": "altele",
+        "carte": "Festinul Ciorilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Tokar",
+    "tipuri_gasite": [
+      "obiect",
+      "titlu"
+    ],
+    "entitati": [
+      {
+        "id": "OBJECT_TOKAR",
+        "tip": "obiect",
+        "carte": "Iureșul Săbiilor"
+      },
+      {
+        "id": "TITLE_TOKAR",
+        "tip": "titlu",
+        "carte": "Festinul Ciorilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Cartea Albă",
+    "tipuri_gasite": [
+      "altele",
+      "obiect"
+    ],
+    "entitati": [
+      {
+        "id": "OBJECT_CARTEA_ALBA",
+        "tip": "obiect",
+        "carte": "Iureșul Săbiilor"
+      },
+      {
+        "id": "OTHER_CARTEA_ALBA",
+        "tip": "altele",
+        "carte": "Dansul Dragonilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Coroana lui Daenerys",
+    "tipuri_gasite": [
+      "altele",
+      "obiect"
+    ],
+    "entitati": [
+      {
+        "id": "OTHER_COROANA_LUI_DAENERYS",
+        "tip": "altele",
+        "carte": "Festinul Ciorilor"
+      },
+      {
+        "id": "OBJECT_COROANA_LUI_DAENERYS",
+        "tip": "obiect",
+        "carte": "Dansul Dragonilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Cyvasse",
+    "tipuri_gasite": [
+      "altele",
+      "obiect"
+    ],
+    "entitati": [
+      {
+        "id": "OBJECT_CYVASSE",
+        "tip": "obiect",
+        "carte": "Festinul Ciorilor"
+      },
+      {
+        "id": "OTHER_CYVASSE",
+        "tip": "altele",
+        "carte": "Dansul Dragonilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Fiii Războinicului",
+    "tipuri_gasite": [
+      "altele",
+      "obiect"
+    ],
+    "entitati": [
+      {
+        "id": "OBJECT_FIII_RAZBOINICULUI",
+        "tip": "obiect",
+        "carte": "Festinul Ciorilor"
+      },
+      {
+        "id": "OTHER_FIII_RAZBOINICULUI",
+        "tip": "altele",
+        "carte": "Dansul Dragonilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Steaua în Şapte Colţuri",
+    "tipuri_gasite": [
+      "altele",
+      "obiect"
+    ],
+    "entitati": [
+      {
+        "id": "OBJECT_STEAUA_IN_SAPTE_COLTURI",
+        "tip": "obiect",
+        "carte": "Festinul Ciorilor"
+      },
+      {
+        "id": "OTHER_STEAUA_IN_SAPTE_COLTURI",
+        "tip": "altele",
+        "carte": "Dansul Dragonilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Titlu",
+    "tipuri_gasite": [
+      "altele",
+      "titlu"
+    ],
+    "entitati": [
+      {
+        "id": "TITLE_TITLU",
+        "tip": "titlu",
+        "carte": "Festinul Ciorilor"
+      },
+      {
+        "id": "OTHER_TITLU",
+        "tip": "altele",
+        "carte": "Foc și Sânge"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Tăcerea",
+    "tipuri_gasite": [
+      "altele",
+      "obiect"
+    ],
+    "entitati": [
+      {
+        "id": "OTHER_TACEREA",
+        "tip": "altele",
+        "carte": "Festinul Ciorilor"
+      },
+      {
+        "id": "OBJECT_TACEREA",
+        "tip": "obiect",
+        "carte": "Dansul Dragonilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Vântul Negru",
+    "tipuri_gasite": [
+      "altele",
+      "obiect"
+    ],
+    "entitati": [
+      {
+        "id": "OTHER_VANTUL_NEGRU",
+        "tip": "altele",
+        "carte": "Festinul Ciorilor"
+      },
+      {
+        "id": "OBJECT_VANTUL_NEGRU",
+        "tip": "obiect",
+        "carte": "Dansul Dragonilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  },
+  {
+    "nume": "Bătălia de la Apa Neagră (Blackwater)",
+    "tipuri_gasite": [
+      "altele",
+      "eveniment"
+    ],
+    "entitati": [
+      {
+        "id": "OTHER_BATALIA_DE_LA_APA_NEAGRA",
+        "tip": "altele",
+        "carte": "Dansul Dragonilor"
+      },
+      {
+        "id": "EVENT_BATALIA_DE_LA_APA_NEAGRA_2",
+        "tip": "eveniment",
+        "carte": "Dansul Dragonilor"
+      }
+    ],
+    "motiv": "Aceeași denumire (normalizată) apare clasificată sub tipuri diferite în surse distincte; necesită confirmare manuală înainte de unificare sau păstrare separată."
+  }
+]

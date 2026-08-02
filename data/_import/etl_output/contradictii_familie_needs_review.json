@@ -1,0 +1,304 @@
+{
+  "contradictii_familie": [
+    {
+      "subiect": "PERSON_CATELYN_STARK",
+      "subiect_nume": "Catelyn Stark",
+      "obiect": "PERSON_SANSA_STARK",
+      "obiect_nume": "Sansa Stark",
+      "surse": {
+        "parent_of_sources": [
+          {
+            "source_book": "Urzeala Tronurilor",
+            "source_fragment": 1,
+            "source_page": "2, 7, 21–27, 29–30, 33–34, 37, 42, 45, 49, 60, 62, 66, 75, 81, 91, 244–245, 265, 279, 293–302, 336–349, 372–391, 456–460, 628–629, 660–675, 814–830, 837",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": 2,
+            "source_page": "nespecificată",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": 3,
+            "source_page": "nespecificată",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": 5,
+            "source_page": "nespecificată",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": 6,
+            "source_page": "nespecificată",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": 8,
+            "source_page": "nespecificată",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": null,
+            "source_page": "nespecificată",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": 10,
+            "source_page": "nespecificată",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": 12,
+            "source_page": "nespecificată",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": 14,
+            "source_page": "nespecificată",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": 17,
+            "source_page": "nespecificată",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Festinul Ciorilor",
+            "source_fragment": 3,
+            "source_page": "—",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Festinul Ciorilor",
+            "source_fragment": 5,
+            "source_page": "—",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Festinul Ciorilor",
+            "source_fragment": 10,
+            "source_page": "—",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Dansul Dragonilor",
+            "source_fragment": null,
+            "source_page": "651",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 4,
+            "source_page": "182–187, 217–222",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 7,
+            "source_page": "37–46",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 8,
+            "source_page": "108, 119",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 9,
+            "source_page": "195–196",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 12,
+            "source_page": "22 și pe tot parcursul",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 13,
+            "source_page": "118–132",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Dansul Dragonilor",
+            "source_fragment": null,
+            "source_page": "650, 662, 868, 1160, 1325, 1312",
+            "confidence": "confirmed"
+          }
+        ],
+        "child_of_sources": [
+          {
+            "source_book": "Festinul Ciorilor",
+            "source_fragment": null,
+            "source_page": "—",
+            "confidence": "confirmed"
+          }
+        ]
+      }
+    },
+    {
+      "subiect": "PERSON_DAVOS_SEAWORTH",
+      "subiect_nume": "Davos Seaworth",
+      "obiect": "PERSON_DEVAN",
+      "obiect_nume": "Devan",
+      "surse": {
+        "parent_of_sources": [
+          {
+            "source_book": "Dansul Dragonilor",
+            "source_fragment": null,
+            "source_page": "173, 175–176, 178–179, 264–277, 331–342, 515–530, 548–549",
+            "confidence": "confirmed"
+          }
+        ],
+        "child_of_sources": [
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 3,
+            "source_page": "116–123",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 8,
+            "source_page": "93–97",
+            "confidence": "confirmed"
+          }
+        ]
+      }
+    },
+    {
+      "subiect": "PERSON_ELLARIA_SAND",
+      "subiect_nume": "Ellaria Sand",
+      "obiect": "PERSON_HARMEN_ULLER",
+      "obiect_nume": "Harmen Uller",
+      "surse": {
+        "parent_of_sources": [
+          {
+            "source_book": "Festinul Ciorilor",
+            "source_fragment": null,
+            "source_page": "—",
+            "confidence": "confirmed"
+          }
+        ],
+        "child_of_sources": [
+          {
+            "source_book": "Festinul Ciorilor",
+            "source_fragment": null,
+            "source_page": "—",
+            "confidence": "confirmed"
+          }
+        ]
+      }
+    },
+    {
+      "subiect": "PERSON_LADY_TANDA",
+      "subiect_nume": "Lady Tanda",
+      "obiect": "PERSON_LOLLYS",
+      "obiect_nume": "Lollys",
+      "surse": {
+        "parent_of_sources": [
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 12,
+            "source_page": "21",
+            "confidence": "confirmed"
+          }
+        ],
+        "child_of_sources": [
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": null,
+            "source_page": "nespecificată",
+            "confidence": "confirmed"
+          }
+        ]
+      }
+    },
+    {
+      "subiect": "PERSON_LOLLYS",
+      "subiect_nume": "Lollys",
+      "obiect": "PERSON_TANDA_STOKEWORTH",
+      "obiect_nume": "Tanda Stokeworth",
+      "surse": {
+        "parent_of_sources": [
+          {
+            "source_book": "Festinul Ciorilor",
+            "source_fragment": null,
+            "source_page": "—",
+            "confidence": "confirmed"
+          }
+        ],
+        "child_of_sources": [
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": 5,
+            "source_page": "nespecificată",
+            "confidence": "confirmed"
+          }
+        ]
+      }
+    },
+    {
+      "subiect": "PERSON_TOREGG_CEL_INALT",
+      "subiect_nume": "Toregg cel Înalt",
+      "obiect": "PERSON_TORMUND",
+      "obiect_nume": "Tormund",
+      "surse": {
+        "parent_of_sources": [
+          {
+            "source_book": "Festinul Ciorilor",
+            "source_fragment": null,
+            "source_page": "—",
+            "confidence": "confirmed"
+          }
+        ],
+        "child_of_sources": [
+          {
+            "source_book": "Dansul Dragonilor",
+            "source_fragment": null,
+            "source_page": "1222–1223, 1234",
+            "confidence": "confirmed"
+          }
+        ]
+      }
+    },
+    {
+      "subiect": "PERSON_TOREGG_CEL_INALT",
+      "subiect_nume": "Toregg cel Înalt",
+      "obiect": "PERSON_TORMUND_NAPASTA_URIASILOR",
+      "obiect_nume": "Tormund Năpasta Uriașilor",
+      "surse": {
+        "parent_of_sources": [
+          {
+            "source_book": "Dansul Dragonilor",
+            "source_fragment": null,
+            "source_page": "1218, 1221–1223, 1227–1235",
+            "confidence": "confirmed"
+          }
+        ],
+        "child_of_sources": [
+          {
+            "source_book": "Dansul Dragonilor",
+            "source_fragment": null,
+            "source_page": "945–952, 960–961",
+            "confidence": "confirmed"
+          }
+        ]
+      }
+    }
+  ]
+}

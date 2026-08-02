@@ -7,6 +7,7 @@ import { MapLayers } from './map/MapLayers.js';
 import { MapAnimations } from './map/MapAnimations.js';
 import { Timeline } from './ui/Timeline.js';
 import { InfoPanel } from './ui/InfoPanel.js';
+import { WikiPage } from './ui/WikiPage.js';
 import { SearchBar } from './ui/SearchBar.js';
 import { FilterPanel } from './ui/FilterPanel.js';
 import { DistanceTool } from './ui/DistanceTool.js';
@@ -25,6 +26,7 @@ class AtlasApp {
     this.mapAnimations = null;
     this.timeline = null;
     this.infoPanel = null;
+    this.wikiPage = null;
     this.searchBar = null;
     this.filterPanel = null;
     this.distanceTool = null;
@@ -74,7 +76,11 @@ class AtlasApp {
     this.infoPanel = new InfoPanel('info-panel');
     this.infoPanel.init();
 
+    this.wikiPage = new WikiPage();
+    this.wikiPage.init();
+
     this.filterPanel = new FilterPanel('filter-panel');
+    this.filterPanel.setLocationSubtypes(this.dataManager.getAllLocations());
     this.filterPanel.init();
 
     this.timeline = new Timeline('timeline');
@@ -109,7 +115,7 @@ class AtlasApp {
 
     // Handle search selection clicks
     this.searchBar.onSelect(res => {
-      let loc = this.dataManager.getCastle(res.id) || this.dataManager.getCity(res.id) || this.dataManager.data.landmarks.find(l => l.id === res.id);
+      let loc = this.dataManager.getLocation(res.id);
       let entity = loc;
 
       if (!loc) {
@@ -118,7 +124,7 @@ class AtlasApp {
           if (entity) {
             const seatId = entity.seat || entity.city || null;
             if (seatId) {
-              loc = this.dataManager.getCastle(seatId) || this.dataManager.getCity(seatId) || this.dataManager.data.landmarks.find(l => l.id === seatId);
+              loc = this.dataManager.getLocation(seatId);
             }
           }
         } else if (res.type === 'character') {
@@ -141,7 +147,7 @@ class AtlasApp {
             }
           }
           if (targetLocationId) {
-            loc = this.dataManager.getCastle(targetLocationId) || this.dataManager.getCity(targetLocationId) || this.dataManager.data.landmarks.find(l => l.id === targetLocationId);
+            loc = this.dataManager.getLocation(targetLocationId);
           }
         } else if (res.type === 'dragon') {
           const dragon = this.dataManager.getDragon(res.id);
@@ -157,8 +163,21 @@ class AtlasApp {
             }
           }
           if (targetLocationId) {
-            loc = this.dataManager.getCastle(targetLocationId) || this.dataManager.getCity(targetLocationId) || this.dataManager.data.landmarks.find(l => l.id === targetLocationId);
+            loc = this.dataManager.getLocation(targetLocationId);
           }
+        } else if (res.type === 'event') {
+          entity = this.dataManager.getEvent(res.id);
+          // Events have no map position of their own; opening the panel must
+          // not zoom to a linked location.
+          loc = null;
+        } else if (res.type === 'object') {
+          entity = this.dataManager.getObject(res.id);
+          // Objects are not map entities.
+          loc = null;
+        } else if (res.type === 'title') {
+          entity = this.dataManager.getTitle(res.id);
+          // Titles are not map entities.
+          loc = null;
         }
       }
 
@@ -170,7 +189,7 @@ class AtlasApp {
     // SVG location clicking
     document.addEventListener('locationSelected', e => {
       const locId = e.detail.locationId;
-      const loc = this.dataManager.getCastle(locId) || this.dataManager.getCity(locId) || this.dataManager.data.landmarks.find(l => l.id === locId);
+      const loc = this.dataManager.getLocation(locId);
       
       if (loc) {
         // If distance tool is active, handle path routing
@@ -215,6 +234,11 @@ class AtlasApp {
       Object.entries(filters).forEach(([layer, isVisible]) => {
         this.mapLayers.toggleLayer(layer, isVisible);
       });
+    });
+
+    // Kept separate from layer toggles: subtype filtering only changes location pins.
+    this.filterPanel.onLocationSubtypeChange(subtypes => {
+      this.mapRenderer.setVisibleLocationSubtypes(subtypes);
     });
 
     // Toolbar event dispatchers
@@ -265,18 +289,20 @@ class AtlasApp {
 
     if (location) {
       this.mapRenderer.highlightLocation(location.id);
-      // Zoom and pan smoothly (cinematic zoom width = 350)
-      let targetX = location.coordinates.x;
-      let targetY = location.coordinates.y;
+
+      // The rendered position comes from the calibrated catalog and is the only
+      // authority for where a marker actually sits. Most locations (327 of 391)
+      // carry no root-level `coordinates` at all, so that field is a fallback and
+      // must be read with optional chaining, never before the calibrated lookup.
       const renderedPos = this.mapRenderer.getRenderedPosition(location.id);
-      if (renderedPos) {
-        targetX = renderedPos.x;
-        targetY = renderedPos.y;
-      } else {
-        // This location has not yet been calibrated on the new terrain map.
-        // Keep the information panel open, but do not fly the camera to stale coordinates.
-        return;
-      }
+      const targetX = renderedPos?.x ?? location.coordinates?.x;
+      const targetY = renderedPos?.y ?? location.coordinates?.y;
+
+      // Uncalibrated and uncoordinated: keep the panel open, leave the camera put
+      // rather than flying to NaN.
+      if (!Number.isFinite(targetX) || !Number.isFinite(targetY)) return;
+
+      // Zoom and pan smoothly (cinematic zoom width = 350)
       this.mapInteraction.flyTo(targetX, targetY, 350, 1500);
     }
   }
@@ -285,5 +311,19 @@ class AtlasApp {
 // Bootstrap
 window.addEventListener('DOMContentLoaded', () => {
   const app = new AtlasApp();
-  app.init().catch(console.error);
+  app.init().catch(err => {
+    console.error('Initialization failed:', err);
+    const loader = document.getElementById('loading-screen');
+    if (loader) {
+      const content = loader.querySelector('.loading-content') || loader;
+      const errDiv = document.createElement('div');
+      errDiv.className = 'loading-error-message';
+      errDiv.style.color = '#ff4d4d';
+      errDiv.style.marginTop = '1.5rem';
+      errDiv.style.fontWeight = 'bold';
+      errDiv.style.fontSize = '1.1rem';
+      errDiv.textContent = `Eroare la încărcare: ${err.message}`;
+      content.appendChild(errDiv);
+    }
+  });
 });

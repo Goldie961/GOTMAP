@@ -16,10 +16,10 @@
       "coordinateSpace": "world-terrain-1500x1000",
       "mapFeatures": "data/map/world_features.json",
       "terrain": {
-        "src": "assets/Mapa/HARTALUMIIFINALA.jpg",
+        "src": "assets/Mapa/HARTA LUMII.png",
         "kind": "raster",
-        "nativeWidth": 4096,
-        "nativeHeight": 2731,
+        "nativeWidth": 7685,
+        "nativeHeight": 5115,
         "containsLabels": false,
         "containsPoliticalBorders": false
       },
@@ -55,507 +55,465 @@
         }
       },
       "coordinates": {
-        "eastwatch": {
-          "x": 385,
-          "y": 138,
-          "source": "Poze harta completa/WESTEROS/westeros.png",
-          "method": "registered-reference-map"
-        },
         "winterfell": {
-          "x": 263,
-          "y": 200,
-          "source": "Poze harta completa/WESTEROS/westeros.png",
-          "method": "registered-reference-map"
-        },
-        "last_hearth": {
-          "x": 374,
-          "y": 170,
-          "source": "Poze harta completa/WESTEROS/westeros.png",
-          "method": "registered-reference-map"
-        },
-        "the_dreadfort": {
-          "x": 401,
-          "y": 211,
-          "source": "Poze harta completa/WESTEROS/westeros.png",
-          "method": "registered-reference-map"
-        },
-        "riverrun": {
-          "x": 270,
-          "y": 390,
-          "source": "Poze harta completa/WESTEROS/westeros.png",
-          "method": "registered-reference-map"
-        },
-        "harrenhal": {
-          "x": 220.7,
-          "y": 444.3,
-          "source": "admin/map-editor.html",
-          "method": "admin-editor"
-        },
-        "the_eyrie": {
-          "x": 389,
-          "y": 360,
-          "source": "Poze harta completa/WESTEROS/westeros.png",
-          "method": "registered-reference-map"
-        },
-        "gulltown": {
-          "x": 430,
-          "y": 386,
-          "source": "Poze harta completa/WESTEROS/westeros.png",
-          "method": "registered-reference-map"
-        },
-        "pyke": {
-          "x": 333.5,
-          "y": 429.2,
-          "source": "admin/map-editor.html",
-          "method": "admin-editor"
-        },
-        "casterly_rock": {
-          "x": 74,
-          "y": 498,
-          "source": "Poze harta completa/WESTEROS/westeros.png",
-          "method": "registered-reference-map"
-        },
-        "dragonstone": {
-          "x": 445.4,
-          "y": 434.9,
-          "source": "admin/map-editor.html",
-          "method": "admin-editor"
-        },
-        "highgarden": {
-          "x": 126.8,
-          "y": 590.3,
-          "source": "admin/map-editor.html",
-          "method": "admin-editor"
-        },
-        "oldtown": {
-          "x": 76,
-          "y": 662,
-          "source": "Poze harta completa/WESTEROS/westeros.png",
-          "method": "registered-reference-map"
-        },
-        "sunspear": {
-          "x": 393,
-          "y": 763,
-          "source": "Poze harta completa/WESTEROS/westeros.png",
-          "method": "registered-reference-map"
-        },
-        "shadow_tower": {
-          "x": 256.7,
-          "y": 123.2,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "white_harbor": {
-          "x": 647.8,
-          "y": 267.6,
-          "source": "admin/map-editor.html",
-          "method": "admin-editor"
-        },
-        "moat_cailin": {
-          "x": 273.9,
-          "y": 287.9,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "the_twins": {
-          "x": 269.6,
-          "y": 366,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "karhold": {
-          "x": 427.5,
-          "y": 184.9,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "bear_island": {
-          "x": 217.7,
-          "y": 254.2,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "deepwood_motte": {
-          "x": 171,
-          "y": 171.2,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "greywater_watch": {
-          "x": 241.5,
-          "y": 307.4,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "seagard": {
-          "x": 184.3,
-          "y": 367.9,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "golden_tooth": {
-          "x": 181.6,
-          "y": 457.6,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "raventree_hall": {
-          "x": 242.7,
-          "y": 382.5,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "stone_hedge": {
-          "x": 272.2,
-          "y": 378.3,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "runestone": {
-          "x": 461.5,
-          "y": 375.7,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "hearts_home": {
-          "x": 411.8,
-          "y": 363.8,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "driftmark": {
-          "x": 352.6,
-          "y": 538,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "griffins_roost": {
-          "x": 992.8,
-          "y": 445.8,
-          "source": "admin/map-editor.html",
-          "method": "admin-editor"
-        },
-        "rain_house": {
-          "x": 967.7,
-          "y": 505.5,
-          "source": "admin/map-editor.html",
-          "method": "admin-editor"
-        },
-        "evenfall_hall": {
-          "x": 445.1,
-          "y": 708.2,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "yronwood": {
-          "x": 245.7,
-          "y": 744.9,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "starfall": {
-          "x": 157.5,
-          "y": 734,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "harvest_hall": {
-          "x": 266.5,
-          "y": 606.1,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "claw_isle": {
-          "x": 369.8,
-          "y": 522.6,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "lannisport_city": {
-          "x": 14,
-          "y": 520.8,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "white_harbor_city": {
-          "x": 505,
-          "y": 105.3,
-          "source": "admin/map-editor.html",
-          "method": "admin-editor"
-        },
-        "gulltown_city": {
-          "x": 430,
-          "y": 386,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "planky_town": {
-          "x": 402.2,
-          "y": 780.1,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "barrowton": {
-          "x": 304.8,
-          "y": 192.1,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "stoney_sept": {
-          "x": 709.4,
-          "y": 676.4,
-          "source": "admin/map-editor.html",
-          "method": "admin-editor"
-        },
-        "duskendale": {
-          "x": 392.2,
-          "y": 524.7,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "maidenpool": {
-          "x": 387,
-          "y": 455.4,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "saltpans": {
-          "x": 374.6,
-          "y": 430,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "harroway_town": {
-          "x": 299.2,
-          "y": 413.9,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "the_wall": {
-          "x": 314.9,
-          "y": 116.7,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "gods_eye": {
-          "x": 277.3,
-          "y": 471.7,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "isle_of_faces": {
-          "x": 281.5,
-          "y": 471.9,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "the_neck": {
-          "x": 259.3,
-          "y": 308.8,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "fist_of_first_men": {
-          "x": 241.5,
-          "y": 90.3,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "crasters_keep": {
-          "x": 263,
-          "y": 125.7,
-          "source": "assets/Mapa/referinte1.png",
-          "method": "local-anchor-registration"
-        },
-        "yi_ti_empire": {
-          "x": 782.5,
-          "y": 459.5,
-          "source": "admin/map-editor.html",
-          "method": "admin-editor"
-        },
-        "gogossos": {
-          "x": 161.8,
-          "y": 384.6,
-          "source": "admin/map-editor.html",
-          "method": "admin-editor"
-        },
-        "acorn_hall": {
-          "x": 573.9,
-          "y": 297.6,
-          "source": "admin/map-editor.html",
-          "method": "admin-editor"
-        },
-        "asshai": {
-          "x": 768.9,
-          "y": 517.4,
+          "x": 341.6,
+          "y": 291.2,
           "source": "admin/map-editor.html",
           "method": "admin-editor"
         },
         "braavos": {
-          "x": 734.8,
-          "y": 486.7,
+          "x": 519.3,
+          "y": 314.7,
           "source": "admin/map-editor.html",
           "method": "admin-editor"
         },
-        "brightwater_keep": {
-          "x": 756.9,
-          "y": 513.5,
+        "the_wall": {
+          "x": 357.8,
+          "y": 158.1,
           "source": "admin/map-editor.html",
           "method": "admin-editor"
         },
-        "castle_black": {
-          "x": 749.9,
-          "y": 483,
+        "dragonstone": {
+          "x": 423.6,
+          "y": 566.1,
           "source": "admin/map-editor.html",
           "method": "admin-editor"
         },
-        "crakehall": {
-          "x": 760.1,
-          "y": 509.9,
+        "sea_of_dorne": {
+          "x": 346.7,
+          "y": 766.7,
           "source": "admin/map-editor.html",
           "method": "admin-editor"
         },
-        "godsgrace": {
-          "x": 758.5,
-          "y": 502,
+        "sunspear": {
+          "x": 406.5,
+          "y": 811.3,
           "source": "admin/map-editor.html",
           "method": "admin-editor"
         },
-        "gorosh": {
-          "x": 764.8,
-          "y": 519.4,
+        "oldtown": {
+          "x": 120,
+          "y": 691.9,
           "source": "admin/map-editor.html",
           "method": "admin-editor"
         },
-        "horn_hill": {
-          "x": 765.7,
-          "y": 490,
-          "source": "admin/map-editor.html",
-          "method": "admin-editor"
-        },
-        "jinqi": {
-          "x": 768.2,
-          "y": 505.4,
-          "source": "admin/map-editor.html",
-          "method": "admin-editor"
-        },
-        "kings_landing": {
-          "x": 758.4,
-          "y": 481.7,
-          "source": "admin/map-editor.html",
-          "method": "admin-editor"
-        },
-        "lorath": {
-          "x": 739.8,
-          "y": 500.8,
-          "source": "admin/map-editor.html",
-          "method": "admin-editor"
-        },
-        "lys": {
-          "x": 742,
-          "y": 512.9,
-          "source": "admin/map-editor.html",
-          "method": "admin-editor"
-        },
-        "myr": {
-          "x": 748.1,
-          "y": 507.7,
-          "source": "admin/map-editor.html",
-          "method": "admin-editor"
-        },
-        "norvos": {
-          "x": 766.3,
-          "y": 496,
+        "starfall": {
+          "x": 173.9,
+          "y": 771.3,
           "source": "admin/map-editor.html",
           "method": "admin-editor"
         },
         "oldtown_city": {
-          "x": 732.6,
-          "y": 517.6,
+          "x": 136.9,
+          "y": 713,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "blackmont": {
+          "x": 177.3,
+          "y": 722.7,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "barrowton": {
+          "x": 262.8,
+          "y": 372,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "the_bite": {
+          "x": 334.2,
+          "y": 381.7,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "stonehelm": {
+          "x": 270.4,
+          "y": 714.4,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "fawnton": {
+          "x": 325.9,
+          "y": 740.1,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "weeping_town": {
+          "x": 399,
+          "y": 730.8,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "rainwood": {
+          "x": 361.7,
+          "y": 716.9,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "tarth": {
+          "x": 419.7,
+          "y": 692.2,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "red_watch": {
+          "x": 297.5,
+          "y": 687.3,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "blackwater_bay": {
+          "x": 368.2,
+          "y": 598.2,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "stepstones": {
+          "x": 447.8,
+          "y": 748.5,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "casterly_rock": {
+          "x": 101.4,
+          "y": 558.3,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "kings_landing": {
+          "x": 304.4,
+          "y": 580.2,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "stone_hedge": {
+          "x": 241,
+          "y": 484.4,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "driftmark": {
+          "x": 398.4,
+          "y": 581.7,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "claw_isle": {
+          "x": 440.3,
+          "y": 527.6,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "lannisport_city": {
+          "x": 85.1,
+          "y": 580.4,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "rills": {
+          "x": 199.7,
+          "y": 359.6,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "wolfswood": {
+          "x": 217.8,
+          "y": 261.3,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "mountains_of_the_moon": {
+          "x": 317.9,
+          "y": 486.5,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "ashford_castle": {
+          "x": 210.7,
+          "y": 677.9,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "bitterbridge": {
+          "x": 216.2,
+          "y": 635,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "tumbleton": {
+          "x": 271.7,
+          "y": 595,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "kingswood": {
+          "x": 318.6,
+          "y": 642.2,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "lorath": {
+          "x": 566.4,
+          "y": 303.7,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "yi_ti": {
+          "x": 1183.3,
+          "y": 738.7,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "white_harbor_city": {
+          "x": 393.7,
+          "y": 339.4,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "gulltown_city": {
+          "x": 438.9,
+          "y": 476.9,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "stoney_sept": {
+          "x": 213.1,
+          "y": 554.6,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "gods_eye": {
+          "x": 254,
+          "y": 532.1,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "bay_of_ice": {
+          "x": 143.5,
+          "y": 165.5,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "ironman_s_bay": {
+          "x": 92.4,
+          "y": 409.8,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "skagos": {
+          "x": 612.2,
+          "y": 131.1,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "lys": {
+          "x": 520.4,
+          "y": 700.6,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "norvos": {
+          "x": 564.3,
+          "y": 400.8,
           "source": "admin/map-editor.html",
           "method": "admin-editor"
         },
         "pentos": {
-          "x": 762,
-          "y": 488.6,
+          "x": 538.8,
+          "y": 558.3,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "myr": {
+          "x": 552.4,
+          "y": 595.8,
           "source": "admin/map-editor.html",
           "method": "admin-editor"
         },
         "qohor": {
-          "x": 748.2,
-          "y": 519.6,
-          "source": "admin/map-editor.html",
-          "method": "admin-editor"
-        },
-        "arbor": {
-          "x": 755.5,
-          "y": 487,
-          "source": "admin/map-editor.html",
-          "method": "admin-editor"
-        },
-        "saffron_straits": {
-          "x": 754.9,
-          "y": 519.4,
-          "source": "admin/map-editor.html",
-          "method": "admin-editor"
-        },
-        "sothoryos_continent": {
-          "x": 753.4,
-          "y": 509.5,
-          "source": "admin/map-editor.html",
-          "method": "admin-editor"
-        },
-        "storm_end": {
-          "x": 731.7,
-          "y": 501.4,
-          "source": "admin/map-editor.html",
-          "method": "admin-editor"
-        },
-        "five_forts": {
-          "x": 733.1,
-          "y": 480.2,
-          "source": "admin/map-editor.html",
-          "method": "admin-editor"
-        },
-        "shadow_lands": {
-          "x": 736.8,
-          "y": 512.6,
+          "x": 631.5,
+          "y": 417.8,
           "source": "admin/map-editor.html",
           "method": "admin-editor"
         },
         "tyrosh": {
-          "x": 764.3,
-          "y": 514,
+          "x": 485.1,
+          "y": 593.3,
           "source": "admin/map-editor.html",
           "method": "admin-editor"
         },
-        "ulthos_continent": {
-          "x": 750.8,
-          "y": 496.1,
+        "valyria": {
+          "x": 675.1,
+          "y": 775.5,
           "source": "admin/map-editor.html",
           "method": "admin-editor"
         },
         "volantis": {
-          "x": 731.6,
-          "y": 494.1,
+          "x": 617.1,
+          "y": 659.7,
           "source": "admin/map-editor.html",
           "method": "admin-editor"
         },
-        "yeen": {
-          "x": 768.7,
-          "y": 514.5,
+        "mantarys": {
+          "x": 672.5,
+          "y": 661.4,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "meereen": {
+          "x": 825.6,
+          "y": 580,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "tolos": {
+          "x": 739.8,
+          "y": 628.2,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "yunkai": {
+          "x": 823.6,
+          "y": 615.4,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "elyria": {
+          "x": 708.3,
+          "y": 660.5,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "astapor": {
+          "x": 819.5,
+          "y": 657.6,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "leng": {
+          "x": 1265.1,
+          "y": 815,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "qarth": {
+          "x": 1019.8,
+          "y": 702.6,
           "source": "admin/map-editor.html",
           "method": "admin-editor"
         },
         "yin": {
-          "x": 731.1,
-          "y": 494.7,
+          "x": 1144.3,
+          "y": 786.6,
           "source": "admin/map-editor.html",
           "method": "admin-editor"
         },
-        "zamettar": {
-          "x": 758.2,
-          "y": 493.8,
+        "jinqi": {
+          "x": 1296.4,
+          "y": 770.7,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "new_ghis": {
+          "x": 826.3,
+          "y": 755.1,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "the_eyrie": {
+          "x": 361.2,
+          "y": 434,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "harrenhal": {
+          "x": 260.8,
+          "y": 498.8,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "pyke": {
+          "x": 94.6,
+          "y": 453.2,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "runestone": {
+          "x": 440.6,
+          "y": 448,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "bay_of_crabs": {
+          "x": 434,
+          "y": 493.3,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "three_sisters": {
+          "x": 333.3,
+          "y": 406,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "riverrun": {
+          "x": 219.9,
+          "y": 466.8,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "moat_cailin": {
+          "x": 311.5,
+          "y": 357.2,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "the_dreadfort": {
+          "x": 449.1,
+          "y": 292.9,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "torrhen_s_square": {
+          "x": 239.1,
+          "y": 307.2,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "naath": {
+          "x": 610.7,
+          "y": 902.1,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "sothoryos_continent": {
+          "x": 801.8,
+          "y": 911.3,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "ulthos_continent": {
+          "x": 1443,
+          "y": 965.1,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "lotus_port": {
+          "x": 435.5,
+          "y": 851.3,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "tall_trees_town": {
+          "x": 472.2,
+          "y": 862.8,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "lhazar": {
+          "x": 861.5,
+          "y": 593.2,
           "source": "admin/map-editor.html",
           "method": "admin-editor"
         }

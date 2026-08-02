@@ -1,0 +1,3314 @@
+[
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "sigil",
+    "object": "Coroana Șoimului de Munte și Vale (purtată de regii Arryn de o mie de ani)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "sigil",
+    "object": "adăugat de Rhaenyra la propriul herb, în onoarea mamei sale",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "mare casă, se supune pașnic prin regenta Sharra",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.1",
+    "source_page": "18–19, 24, 30",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "mare casă a Văii",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.2",
+    "source_page": "73–75",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "mare casă, întoarsă împotriva lui Maegor; a reprezentat Valea la Nunta de Aur",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.3",
+    "source_page": "118, 122, 148, 154",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "mare casă; Rodrik Arryn, lord de 10 ani, considerat prea tânăr pentru funcție de Mână",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.2",
+    "source_page": "254",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "mare casă (Rodrik Arryn — lord jude, membru al consiliului restrâns, Protector al Văii)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.1",
+    "source_page": "344–348",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "condusă de o femeie, lady Jeyne Arryn (35 ani), fără moștenitor direct clar",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.3",
+    "source_page": "452, 466, 471-472, 484",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "aliată Rhaenyrei; lady Arryn tutore al Rhaenei",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "495, 531",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "condusă de lady Jeyne Arryn; adună o mie cinci sute de cavaleri și opt mii de osteni",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.3",
+    "source_page": "610, 630",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "condusă de lady Jeyne Arryn („Fecioara din Vale\"), membră a consiliului de regență, se retrage din Debarcaderul Regelui din cauza incursiunilor sălbaticilor din Munții Lunii",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.1",
+    "source_page": "654, 660, 682",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "mare casă, aflată în criză de succesiune după moartea lui Jeyne Arryn — divizată între ramurile Joffrey Arryn (moștenitor desemnat), Arnold/Eldric Arryn („Moștenitorul Nebun\") și Isembard Arryn din Gulltown („Șoimul Aurit\")",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.3",
+    "source_page": "756–757, 763–767",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "ally_of",
+    "object": "HOUSE_BARATHEON",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "495, 531",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "ally_of",
+    "object": "PERSON_JOFFREY_ARRYN",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.3",
+    "source_page": "756–757, 763–767",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "sigil",
+    "object": "cerbul încoronat (preluat de la Durrandon)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "sigil",
+    "object": "coif cu coarne de cerb (menționat la nunta lui Rogar)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "casă nouă, în ascensiune (Orys Baratheon, frate vitreg al lui Aegon, devine prima Mână a Regelui)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.1",
+    "source_page": "14, 17, 24–25",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "mare casă a Ținuturilor Furtunii",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.2",
+    "source_page": "56, 70, 75–76, 78",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "mare casă în ascensiune puternică (Rogar Baratheon devine Mâna Regelui și consort al reginei-văduve)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.3",
+    "source_page": "119–120, 145–161",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "mare casă, deținând funcția de Mână a Regelui (Rogar)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.1",
+    "source_page": "163–206",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "mare casă, Rogar Baratheon fost Mână a Regelui",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.2",
+    "source_page": "223, 242–245",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "mare casă, aliată puternic cu Coroana (Rogar Baratheon fusese Mână a Regelui; fiul său Boremund pretendent la mâna prințesei Daella; Jocelyn Baratheon devenită soția prințului Aemon)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.1",
+    "source_page": "324–328, 345",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "lordul Borros, fiu al răposatului Boremund; casa susținuse tradițional-o pe prințesa Rhaenys, dar Aemond negociază o alianță matrimonială cu Aegon II",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.3",
+    "source_page": "467-468, 474-477",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "ambiguă/ezitantă — lordul Borros adună oaste dar nu se alătură niciunei tabere clar",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "509, 523",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "dușman al reginei Rhaenyra (lordul Borros Baratheon)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.2",
+    "source_page": "541, 543-544",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "mare casă, condusă de lordul Borros; la final, lordul Borros moare, îi urmează un fiu nou-născut (Oliver)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.3",
+    "source_page": "596, 623–625, 630, 637–639, 643–644",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "condusă de o văduvă (lady Elenda) în numele fiului sugar Olyver, slăbită militar",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.1",
+    "source_page": "656-657, 672, 691",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "lady Elenda Baratheon, văduvă de două ori; fiicele Cassandra și Ellyn candidate la mâna regelui",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.2",
+    "source_page": "719, 721, 725",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "ally_of",
+    "object": "HOUSE_TARGARYEN",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.1",
+    "source_page": "14, 17, 24–25",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "enemy_of",
+    "object": "HOUSE_VELARYON",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.3",
+    "source_page": "119–120, 145–161",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BEESBURY",
+    "predicate": "seat",
+    "object": "LOCATION_HONEYHOLT",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BEESBURY",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BEESBURY",
+    "predicate": "status_at",
+    "object": "vasală (Braxton Beesbury, „Înțepătorul\")",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKBAR",
+    "predicate": "seat",
+    "object": "LOCATION_BANDALLON",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "seat",
+    "object": "LOCATION_RAVENTREE",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "status_at",
+    "object": "casă care nu a acceptat niciodată Credința celor Șapte",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.3",
+    "source_page": "295",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "status_at",
+    "object": "casă cu credință în vechii zei",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.1",
+    "source_page": "344",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "status_at",
+    "object": "de partea Rhaenyrei; una dintre ultimele case din sudul Gâtului care mai venerează zeii vechi",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.3",
+    "source_page": "484-485",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "status_at",
+    "object": "aliați cu Daemon/Rhaenyra",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "486, 522",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "status_at",
+    "object": "mare vasală, în ascensiune prin faptele de arme ale lordului Benjicot",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.3",
+    "source_page": "600, 606, 630, 637, 645–647",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "status_at",
+    "object": "mare casă riverană, aliată prin căsătorie cu Casa Stark (Alysanne Blackwood - Cregan Stark)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.1",
+    "source_page": "663-664, 671, 690-691",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "status_at",
+    "object": "casă vasală, contribuie cu o mie de oameni în campania din Vale, condusă de lordul Benjicot Blackwood; fiul său, „Sângerosul\" Ben Blackwood, preia comanda după moartea lui Robert Rowan",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.3",
+    "source_page": "764–766",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "ally_of",
+    "object": "PERSON_BENJICOT_BLACKWOOD",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "486, 522",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLANETREE",
+    "predicate": "status_at",
+    "object": "vasală rebelă în Ținuturile Riverane",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "seat",
+    "object": "LOCATION_STONE_HEDGE",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "status_at",
+    "object": "de partea lui Aegon II; suferă atac de la Raventree (Blackwood), apoi câștigă la Moara Arsă, dar pierde Stone Hedge în absența lor",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BROOME",
+    "predicate": "status_at",
+    "object": "vasală rebelă în Ținuturile de Vest",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BUTTERWELL",
+    "predicate": "seat",
+    "object": "LOCATION_ORASUL_LORDULUI_HARROWAY",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BUTTERWELL",
+    "predicate": "status_at",
+    "object": "în ascensiune (Alton Butterwell, maestrul banilor, primește pământuri de la Maegor)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BUTTERWELL",
+    "predicate": "ally_of",
+    "object": "PERSON_MAEGOR",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.3",
+    "source_page": "111, 113",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CARGYLL",
+    "predicate": "status_at",
+    "object": "familie de cavaleri gemeni în Garda Regelui (unul de fiecare parte a conflictului)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CARON",
+    "predicate": "status_at",
+    "object": "vasală (Ținuturile Furtunii/Marches)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CASWELL",
+    "predicate": "status_at",
+    "object": "loială Coroanei, luptă împotriva lui Aegon Neîncoronatul",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CELTIGAR",
+    "predicate": "status_at",
+    "object": "casă valyriană aliată, fidelă Targaryenilor",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.1",
+    "source_page": "12, 15, 17",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CELTIGAR",
+    "predicate": "status_at",
+    "object": "vasală",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.2",
+    "source_page": "56",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CELTIGAR",
+    "predicate": "status_at",
+    "object": "Mână a Regelui sub Maegor, demisionată; revine ca lord vistiernic sub Jaehaerys",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.3",
+    "source_page": "113, 120, 144, 154–156",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CELTIGAR",
+    "predicate": "status_at",
+    "object": "în declin (mazilit din funcția de maestru al banilor)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.1",
+    "source_page": "173, 186–187, 199–200",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CELTIGAR",
+    "predicate": "status_at",
+    "object": "aliată Rhaenyrei; Bartimos Celtigar devine maestru al banilor",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "511, 528–530",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CELTIGAR",
+    "predicate": "status_at",
+    "object": "membru al consiliului negru; lordul Bartimos Celtigar ucis de gloată, fiul Arthor ucis",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.2",
+    "source_page": "555-556, 575-577",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CELTIGAR",
+    "predicate": "ally_of",
+    "object": "PERSON_CRISPIAN_CELTIGAR",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.1",
+    "source_page": "12, 15, 17",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CHARLTON",
+    "predicate": "status_at",
+    "object": "susținătoare ale lui Aegon Neîncoronatul",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CHESTER",
+    "predicate": "seat",
+    "object": "LOCATION_SCUTUL_VERDE",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CONNINGTON",
+    "predicate": "seat",
+    "object": "LOCATION_CUIBARUL_GRIFONULUI",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CONNINGTON",
+    "predicate": "status_at",
+    "object": "vasală (Roy Connington Roșcatul, lord)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CORBRAY",
+    "predicate": "region",
+    "object": "LOCATION_VALEA_ARRYN",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CORBRAY",
+    "predicate": "status_at",
+    "object": "vasală a Văii",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.2",
+    "source_page": "62, 102–103",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CORBRAY",
+    "predicate": "status_at",
+    "object": "casă veche și onorabilă, posedă sabia valyriană Lady Forlorn",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.1",
+    "source_page": "654, 660, 675-676, 690",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_COSTAYNE",
+    "predicate": "status_at",
+    "object": "legată prin căsătorie de Casa Targaryen (Elinor Costayne, una dintre Miresele Negre)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DARKE",
+    "predicate": "branch_of",
+    "object": "HOUSE_DARKLYN",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DARKE",
+    "predicate": "status_at",
+    "object": "vasală/înrudită cu Casa Darklyn",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DARKLYN",
+    "predicate": "status_at",
+    "object": "membru al Gărzii Regelui",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.2",
+    "source_page": "59, 73, 78, 90, 101–103, 107",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DARKLYN",
+    "predicate": "status_at",
+    "object": "casă vasală, cu docuri pentru corăbii",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.2",
+    "source_page": "222–223",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DARKLYN",
+    "predicate": "status_at",
+    "object": "lordul Darklyn decapitat de forțele lui Criston Cole; ser Steffon Darklyn (Lord Comandant al Gărzii Reginei) moare încercând să încalece dragonul Seasmoke",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "490, 498",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DARKLYN",
+    "predicate": "status_at",
+    "object": "loială Rhaenyrei, plătise scump loialitatea (lordul Gunthor și unchiul său Steffon morți)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.3",
+    "source_page": "610",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DARKLYN",
+    "predicate": "ally_of",
+    "object": "HOUSE_DARKE",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.3",
+    "source_page": "610",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DARRY",
+    "predicate": "status_at",
+    "object": "în ascensiune (primește domenii)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DEDDINGS",
+    "predicate": "status_at",
+    "object": "vasală rebelă",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DOGGETT",
+    "predicate": "status_at",
+    "object": "vasală, membri ai Fiilor Războinicului",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DOGGETT",
+    "predicate": "ally_of",
+    "object": "PERSON_MAEGOR",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.2",
+    "source_page": "95–97, 107",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DONDARRION",
+    "predicate": "seat",
+    "object": "LOCATION_BLACKHAVEN",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DONDARRION",
+    "predicate": "status_at",
+    "object": "vasală",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.2",
+    "source_page": "73–74, 76, 78",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DONDARRION",
+    "predicate": "status_at",
+    "object": "casă vasală, mică",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.2",
+    "source_page": "242",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DONDARRION",
+    "predicate": "status_at",
+    "object": "vasală, cavaleri de la hotare",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.1",
+    "source_page": "325",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DURRANDON",
+    "predicate": "seat",
+    "object": "LOCATION_CAPATUL_FURTUNII",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DURRANDON",
+    "predicate": "sigil",
+    "object": "blazon și deviză preluate ulterior de Orys Baratheon („cerbul încoronat\")",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DURRANDON",
+    "predicate": "status_at",
+    "object": "stinsă (Argilac ultimul rege, mort în luptă; fiica Argella devine soția lui Orys Baratheon)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DUSTIN",
+    "predicate": "status_at",
+    "object": "aliată Rhaenyrei; lordul Roderick Dustin (Roddy Ruină) conduce „Lupii Iernii\"",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DUSTIN",
+    "predicate": "ally_of",
+    "object": "HOUSE_RIVERS",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "520–523",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ESTERMONT",
+    "predicate": "seat",
+    "object": "LOCATION_GREENSTONE",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ESTERMONT",
+    "predicate": "region",
+    "object": "LOCATION_CAPUL_MANIEI",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ESTERMONT",
+    "predicate": "status_at",
+    "object": "casă vasală",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FALWELL",
+    "predicate": "status_at",
+    "object": "vasală rebelă",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FARMAN",
+    "predicate": "words",
+    "object": "„Vântul, armăsarul nostru”",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FARMAN",
+    "predicate": "status_at",
+    "object": "vasală",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.2",
+    "source_page": "102, 104",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FARMAN",
+    "predicate": "status_at",
+    "object": "casă vasală, mare aliat al Rhaenei Targaryen",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.3",
+    "source_page": "115, 143–144",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FARMAN",
+    "predicate": "status_at",
+    "object": "casă mică/vasală",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.1",
+    "source_page": "180–185",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FARMAN",
+    "predicate": "status_at",
+    "object": "casă vasală, în declin de reputație (după furtul ouălor și scandalul lui Andrew Farman)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.2",
+    "source_page": "227, 233–234, 261",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FARMAN",
+    "predicate": "status_at",
+    "object": "în declin, atacată de Greyjoy",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "511, 523, 537",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FOOTLY",
+    "predicate": "seat",
+    "object": "LOCATION_TUMBLETON",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FOOTLY",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FOOTLY",
+    "predicate": "status_at",
+    "object": "distrusă practic (orașul șters de pe hartă); lordul de Tumbleton mort/soarta nespecificată; soția, lady Sharis Footly, capturată de ser Jon Roxton",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FRANKLYN",
+    "predicate": "seat",
+    "object": "LOCATION_INSULA_FRUMOASA",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FRANKLYN",
+    "predicate": "status_at",
+    "object": "stinsă/fost lord decedat, „disprețuit\"",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "susținătoare ale lui Aegon Neîncoronatul",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.2",
+    "source_page": "102",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "ser Forrest Frey se alătură Rhaenyrei",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.3",
+    "source_page": "482, 485",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "aliată cu Rhaenyra (Forrest Frey, lord de Crossing); lady Sabitha Frey iese în întâmpinarea Lupilor Iernii",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "521–523",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "Lady Sabitha Frey (membră) a scăpat de la Harrenhal cu viață",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.2",
+    "source_page": "542",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "vasală, „proaspăt îmbogățiți\"",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.3",
+    "source_page": "600, 630, 647",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "casă vasală, contribuie cu șase sute de oameni în campania din Vale",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.3",
+    "source_page": "764",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "ally_of",
+    "object": "PERSON_LORDUL_RODERICK_DUSTIN",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "521–523",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GARDENER",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GARDENER",
+    "predicate": "sigil",
+    "object": "stindard cu o mână verde deasupra unui câmp alb",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GARDENER",
+    "predicate": "status_at",
+    "object": "stinsă (regele Mern al IX-lea și toți urmașii lui direcți mor la Câmpia de Foc)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GARDENER",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.1",
+    "source_page": "18, 25–28",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "region",
+    "object": "LOCATION_INSULELE_DE_FIER",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "în ascensiune (Vickon Greyjoy ales Lord Suprem al Insulelor de Fier de către oamenii de fier, cu aprobarea lui Aegon)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.1",
+    "source_page": "37–38",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "mare casă a Insulelor de Fier",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.2",
+    "source_page": "75, 78",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "condusă de Dalton Greyjoy „Krakenul Roșu” (16 ani), recrutat de Otto Hightower ca amiral pentru flotă",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.3",
+    "source_page": "463",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "neutră inițial, apoi acțiuni proprii de jaf (Dalton Greyjoy, „Krakenul Roșu\")",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "487, 511, 523, 537",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "condusă de facto de Dalton Greyjoy, care a renunțat la titlul de Rege al Insulelor de Fier dar continuă raidurile",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.1",
+    "source_page": "656, 677-678, 692",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "putere agresivă sub Dalton Greyjoy („Krakenul Roșu\"); după moartea lui (asasinat de soția de sare Tess, 133 D.C.), succesiune neclară — fiu moștenitor (Toron) sub 6 ani, fără soție de piatră",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.2",
+    "source_page": "716–717, 740–743",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "în criză de succesiune după moartea Krakenului Roșu (Dalton Greyjoy); Toron Greyjoy rămâne pe Jilțul din Piatra Mării, dar puterea familiei e slăbită de război și de represaliile Casei Lannister",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.3",
+    "source_page": "755–756",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.1",
+    "source_page": "656, 677-678, 692",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_VELARYON",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.2",
+    "source_page": "716–717, 740–743",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.3",
+    "source_page": "755–756",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HARROWAY",
+    "predicate": "status_at",
+    "object": "în ascensiune (nou lord de Harrenhal, prin regina Alys)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.2",
+    "source_page": "65, 80, 83, 94, 107–108",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HARROWAY",
+    "predicate": "status_at",
+    "object": "stinsă / exterminată (Maegor a ucis toată garnizoana și pe toți cei cu sânge Harroway)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.3",
+    "source_page": "111",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "words",
+    "object": "nemenționate în fragment",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "sigil",
+    "object": "nemenționat în fragment",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.2",
+    "source_page": "63–65, 80–81, 84, 89, 96–99, 101, 107",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "status_at",
+    "object": "mare casă, întors împotriva lui Maegor; lordul Donnel Hightower poreclit „Pregetătorul\" pentru ezitarea de a lupta împotriva septonului Moon",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.3",
+    "source_page": "122, 133–136, 148, 154",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "status_at",
+    "object": "mare casă, veche, bogată, numeroasă; mulți membri în Credință",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.2",
+    "source_page": "238",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "status_at",
+    "object": "mare casă, foarte bogată",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.3",
+    "source_page": "274–275, 307–312, 315",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "status_at",
+    "object": "familie nobilă străveche, \"de o obârșie fără cusur\"",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.2",
+    "source_page": "406",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "status_at",
+    "object": "aliată puternic cu regina Alicent și Aegon II („verzii”); ser Otto Hightower e Mână a Regelui",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.3",
+    "source_page": "434, 445-467 pasim",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "status_at",
+    "object": "mare casă, principal sprijin al regelui Aegon al II-lea",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "486, 494, 508, 523, 537",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "status_at",
+    "object": "mare casă, condusă temporar de ser Hobert Hightower (după moartea lordului Ormund); dușman al reginei Rhaenyra",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.2",
+    "source_page": "541-543, 548-550, 560-562",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "status_at",
+    "object": "mare casă, în declin militar (lordul Ormund mort, pierderi mari de oameni)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.3",
+    "source_page": "599, 601, 605, 630, 638",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "status_at",
+    "object": "cea mai bogată dintre casele care au susținut regimul lui Aegon al II-lea, în declin al influenței politice imediate dar cu resurse considerabile",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.1",
+    "source_page": "650, 657-660, 669, 672",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "status_at",
+    "object": "puternică, ospitalieră; lordul Lyonel Hightower devine prieten apropiat cu Alyn Velaryon, ajutând la stingerea dușmăniei dintre negri și verzi",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.2",
+    "source_page": "738–739, 744",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "ally_of",
+    "object": "PERSON_MAEGOR",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.2",
+    "source_page": "63–65, 80–81, 84, 89, 96–99, 101, 107",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "enemy_of",
+    "object": "HOUSE_COSTAYNE",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "486, 494, 508, 523, 537",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "enemy_of",
+    "object": "HOUSE_TARLY",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "486, 494, 508, 523, 537",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "enemy_of",
+    "object": "HOUSE_BEESBURY",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "486, 494, 508, 523, 537",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "ally_of",
+    "object": "PERSON_AEGON",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.2",
+    "source_page": "541-543, 548-550, 560-562",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "vassal_of",
+    "object": "HOUSE_TYRELL",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.1",
+    "source_page": "650, 657-660, 669, 672",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HOARE",
+    "predicate": "seat",
+    "object": "LOCATION_HARRENHAL",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HOARE",
+    "predicate": "region",
+    "object": "LOCATION_INSULELE_DE_FIER",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HOARE",
+    "predicate": "status_at",
+    "object": "stinsă (Harren cel Negru și fiii lui au murit; casa a pierit odată cu el)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HOARE",
+    "predicate": "enemy_of",
+    "object": "HOUSE_BLACKWOOD",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.1",
+    "source_page": "19–22",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, se supune după Câmpia de Foc; Loren I confirmat lord de Casterly Rock și Păzitor al Apusului",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.1",
+    "source_page": "18, 25–29",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă a Ținuturilor de Vest",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.2",
+    "source_page": "89, 93, 95, 102",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, participantă la evenimente regale (nuntă, adopții)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.3",
+    "source_page": "113, 118, 143, 148",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, foarte bogată",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.1",
+    "source_page": "183–186, 199–200",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă; Lyman Lannister, lord, nu se bucură de încrederea deplină a regelui",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.2",
+    "source_page": "254",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, foarte bogată (ser Tymond Lannister, moștenitor, pretendent la mâna Daellei)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.1",
+    "source_page": "345",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "aliată cu Aegon II; ser Tyland Lannister devine maestru al banilor și amiral al flotei",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.3",
+    "source_page": "445, 447, 452, 463",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, aliată Coroanei (Aegon II); lordul Jason Lannister comandant al oastei vestice",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "509–511, 519, 522–523",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "în declin/debandadă (lordul Jason mort, cavaleria măcelărită sau împrăștiată la Ospățul Peștilor)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.2",
+    "source_page": "541, 543-544, 548",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "prinsă în război cu „Krakenul Roșu\"",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.3",
+    "source_page": "632, 638",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, condusă de o văduvă (lady Johanna) în numele fiului minor, ocupată cu apărarea vestului împotriva raidurilor oamenilor de fier",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.1",
+    "source_page": "656, 677-678, 692-693",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "aflată în război cu oamenii de fier; lady Johanna Lannister conduce apărarea în lipsa unui lord bărbat activ menționat",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.2",
+    "source_page": "719–720, 743",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, condusă de lady Johanna Lannister; a intervenit militar în Insulele de Fier",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.3",
+    "source_page": "756",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "ally_of",
+    "object": "HOUSE_GARDENER",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.1",
+    "source_page": "18, 25–29",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "enemy_of",
+    "object": "HOUSE_GREYJOY",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "509–511, 519, 522–523",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "enemy_of",
+    "object": "PERSON_DALTON_GREYJOY",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.1",
+    "source_page": "656, 677-678, 692-693",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "enemy_of",
+    "object": "HOUSE_GREYJOY",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.2",
+    "source_page": "719–720, 743",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "enemy_of",
+    "object": "PERSON_ALYN_VELARYON",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.3",
+    "source_page": "756",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LORCHE",
+    "predicate": "status_at",
+    "object": "vasală rebelă",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LYCHESTER",
+    "predicate": "status_at",
+    "object": "vasală rebelă",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "seat",
+    "object": "LOCATION_PORTUL_ALB",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "status_at",
+    "object": "casă vasală a Casei Stark, unică prin dimensiune și venerarea celor Șapte",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.3",
+    "source_page": "291–293",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "status_at",
+    "object": "mare casă (Theomore Manderly, logodit cu prințesa Viserra în 86 D.C.)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.1",
+    "source_page": "333, 366",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "status_at",
+    "object": "mare casă vasală, loială reginei Rhaenyra",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.2",
+    "source_page": "543, 555, 578",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "status_at",
+    "object": "vasală a Casei Stark, lovită de epidemie (moartea a doi lorzi succesivi)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.1",
+    "source_page": "649, 675, 692, 695-696",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "status_at",
+    "object": "casă nordică în ascensiune de influență — lordul Torrhen Manderly devine Mâna Regelui",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.3",
+    "source_page": "783–784, 789–796",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "ally_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.2",
+    "source_page": "543, 555, 578",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "ally_of",
+    "object": "PERSON_DAENAERA",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.3",
+    "source_page": "783–784, 789–796",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARBRAND",
+    "predicate": "seat",
+    "object": "LOCATION_ASHEMARK",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "seat",
+    "object": "LOCATION_SUNSPEAR",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "region",
+    "object": "LOCATION_DORNE",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "words",
+    "object": "„Neplecați, Neînfrânți, Nesfărâmați\"",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "sigil",
+    "object": "nemenționat explicit (se menționează un tron cu motive de soare și suliță în ilustrație, nedescris în text)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "status_at",
+    "object": "mare casă, condusă de principesa Meria Martell; supraviețuiește neînvinsă militar prin negocieri de pace",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.1",
+    "source_page": "30, 37, 46–48",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "status_at",
+    "object": "mare casă, condusă de prințul Morion Martell (80 D.C., cel de-Al Patrulea Război Dornishean / „Nebunia prințului Morion\" / „Războiul celor o Sută de Lumânări\"), înfrântă; Mara Martell devine prințesă de Dorne după.",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.1",
+    "source_page": "348–350",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "status_at",
+    "object": "prințesa Aliandra Martell („Noua Nymeria\") conduce; Dorne intră în Războiul Fiicelor de partea Tyrosh și Lys, împotriva lui Racallio Ryndoon",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.2",
+    "source_page": "738, 744",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "ally_of",
+    "object": "HOUSE_FOWLER",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.1",
+    "source_page": "30, 37, 46–48",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "ally_of",
+    "object": "HOUSE_QORGYLE",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.1",
+    "source_page": "30, 37, 46–48",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "ally_of",
+    "object": "HOUSE_TOLAND",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.1",
+    "source_page": "30, 37, 46–48",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MASSEY",
+    "predicate": "seat",
+    "object": "LOCATION_STONEDANCE",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MEADOWS",
+    "predicate": "seat",
+    "object": "LOCATION_GRASSY_VALE",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MERRYWEATHER",
+    "predicate": "status_at",
+    "object": "loială Coroanei",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MOOTON",
+    "predicate": "seat",
+    "object": "LOCATION_IAZUL_FECIOARELOR",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MOOTON",
+    "predicate": "status_at",
+    "object": "casă vasală",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.2",
+    "source_page": "222–223",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MOOTON",
+    "predicate": "status_at",
+    "object": "vasală (Jonah Mooton, moștenitor)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.1",
+    "source_page": "355, 361–362",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MOOTON",
+    "predicate": "status_at",
+    "object": "aliată Rhaenyrei; lordul Walys Mooton ucis atacând dragonul Sunfyre",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "511–512",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MOOTON",
+    "predicate": "status_at",
+    "object": "vasală/aliată a reginei Rhaenyra; căzută în dizgrație (regina i-a retras drepturile și proprietățile pentru trădare — a lăsat-o pe Nettles să scape)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.2",
+    "source_page": "550-551, 562-567, 578",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORMONT",
+    "predicate": "seat",
+    "object": "LOCATION_INSULA_URSULUI",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORRIGEN",
+    "predicate": "status_at",
+    "object": "membru în Garda Regelui (ser Gyles Morrigen)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_OAKHEART",
+    "predicate": "seat",
+    "object": "LOCATION_OLD_OAK",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_OAKHEART",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PAEGE",
+    "predicate": "status_at",
+    "object": "susținătoare ale lui Aegon Neîncoronatul",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PARREN",
+    "predicate": "status_at",
+    "object": "susținătoare ale lui Aegon Neîncoronatul",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PEAKE",
+    "predicate": "status_at",
+    "object": "loială Coroanei",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.2",
+    "source_page": "78, 90, 102, 107",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PEAKE",
+    "predicate": "status_at",
+    "object": "mare casă cu descendență lungă din războinici; lordul Unwin Peake încearcă să preia comanda oștii sudice la Tumbleton",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.2",
+    "source_page": "561-562",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PEAKE",
+    "predicate": "status_at",
+    "object": "casă veche, cândva printre cele mai puternice din Reach (sfetnici la Highgarden), în declin de secole după Câmpia de Foc; Unwin Peake (Lord Regent, Protector al Ținutului, Mâna Regelui) încearcă să-i refacă măreția",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.2",
+    "source_page": "702–706, 723–726, 745",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PEAKE",
+    "predicate": "status_at",
+    "object": "mare casă, dar în declin de influență la Curte după demisia lui Unwin Peake din funcția de Mână",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.3",
+    "source_page": "754, 781–782, 786",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PEAKE",
+    "predicate": "ally_of",
+    "object": "PERSON_AEGON",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.2",
+    "source_page": "561-562",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PEAKE",
+    "predicate": "enemy_of",
+    "object": "HOUSE_MANDERLY",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.2",
+    "source_page": "702–706, 723–726, 745",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PEAKE",
+    "predicate": "enemy_of",
+    "object": "PERSON_MERVYN_FLOWERS",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.3",
+    "source_page": "754, 781–782, 786",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PIPER",
+    "predicate": "seat",
+    "object": "LOCATION_PINKMAIDEN",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PIPER",
+    "predicate": "status_at",
+    "object": "vasală",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.2",
+    "source_page": "70, 82, 93, 101–103",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PIPER",
+    "predicate": "status_at",
+    "object": "aliată cu lorzii riverani; lordul Petyr Piper (bătrânul) moare la Castelul Ghindei",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "510, 520",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PIPER",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "510, 520",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PRYOR",
+    "predicate": "seat",
+    "object": "LOCATION_PIETRICICA",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_QOHERYS",
+    "predicate": "seat",
+    "object": "LOCATION_HARRENHAL",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_QOHERYS",
+    "predicate": "status_at",
+    "object": "stinsă / uzurpată",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDWYNE",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDWYNE",
+    "predicate": "status_at",
+    "object": "mare casă, întoarsă împotriva lui Maegor",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.3",
+    "source_page": "122",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDWYNE",
+    "predicate": "status_at",
+    "object": "în ascensiune (lord numit amiral al Coroanei)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.1",
+    "source_page": "200",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDWYNE",
+    "predicate": "status_at",
+    "object": "mare casă; lordul Manfryd Redwyne, lord amiral, propune turnirul din 55 D.C.",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.2",
+    "source_page": "256, 268",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDWYNE",
+    "predicate": "status_at",
+    "object": "apropiată de Coroană (ser Ryam Redwyne, comandant al Gărzii Orașului apoi campion la turniruri; lordul Redwyne moare în 89 D.C.)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.1",
+    "source_page": "356, 374",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDWYNE",
+    "predicate": "status_at",
+    "object": "aliată/prietenă cu Hightower și cu Alyn Velaryon; trimite 30 de galere promise (ajung cu întârziere)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.2",
+    "source_page": "723, 738–739, 744",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REED",
+    "predicate": "status_at",
+    "object": "ser Harmon din Casa Reed, zis Bate-Fierul, unul dintre Cei Șapte Călăreți, executat",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROGARE",
+    "predicate": "status_at",
+    "object": "dinastie bogată și puternică de bancheri, genealogie urmărită până în Valyria dinainte de Urgie; deține Grădina Înmiresmată; căpătă titluri de lord de la Coroana Fierului ca parte a răscumpărării lui Viserys Targaryen",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.2",
+    "source_page": "751–752",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROGARE",
+    "predicate": "status_at",
+    "object": "casă în ascensiune fulminantă („Ascensiunea Rogare\" / „Primăvara Lyseană\"), apoi prăbușire totală și ruinare completă",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.3",
+    "source_page": "757–759, 766–769, 786–789",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROGARE",
+    "predicate": "enemy_of",
+    "object": "PERSON_RACALLIO_RYNDOON",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.3",
+    "source_page": "757–759, 766–769, 786–789",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROOTE",
+    "predicate": "status_at",
+    "object": "susținătoare a lui Aegon Neîncoronatul",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROSBY",
+    "predicate": "status_at",
+    "object": "jură inițial credință lui Aegon II (\"verzi\"), apoi execuție de către Rhaenyra pentru trădare",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROSBY",
+    "predicate": "enemy_of",
+    "object": "PERSON_HUGH_CIOCANUL",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "487, 527",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROWAN",
+    "predicate": "seat",
+    "object": "LOCATION_CRANGUL_DE_AUR",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROWAN",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROWAN",
+    "predicate": "status_at",
+    "object": "mare casă, lordul Thaddeus Rowan văduv, în căutare de nouă soție",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.1",
+    "source_page": "657, 688-689",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROWAN",
+    "predicate": "status_at",
+    "object": "mare casă, deținând funcția de Mână a Regelui (Thaddeus Rowan) și apoi regent",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.3",
+    "source_page": "754, 764–766, 777–782",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROWAN",
+    "predicate": "ally_of",
+    "object": "PERSON_ROBERT_ROWAN",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.3",
+    "source_page": "754, 764–766, 777–782",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROYCE",
+    "predicate": "seat",
+    "object": "LOCATION_RUNESTONE",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROYCE",
+    "predicate": "sigil",
+    "object": "armură de bronz cu rune (obicei al lorzilor Royce)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROYCE",
+    "predicate": "status_at",
+    "object": "vasală loială",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.2",
+    "source_page": "74–75, 82, 88",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROYCE",
+    "predicate": "status_at",
+    "object": "mare casă, întoarsă împotriva lui Maegor",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.3",
+    "source_page": "122, 143, 148, 153",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROYCE",
+    "predicate": "status_at",
+    "object": "casă vasală importantă în Vale",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.2",
+    "source_page": "396",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROYCE",
+    "predicate": "status_at",
+    "object": "casă vasală puternică, condusă de lordul Gunthor Royce, „Uriașul de Bronz\"",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.3",
+    "source_page": "763–764",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROYCE",
+    "predicate": "ally_of",
+    "object": "PERSON_ARNOLD_ARRYN",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.3",
+    "source_page": "763–764",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SMALLWOOD",
+    "predicate": "seat",
+    "object": "LOCATION_CASTELUL_GHINDEI",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SMALLWOOD",
+    "predicate": "status_at",
+    "object": "casă vasală Tully; lordul Myles Smallwood devine Mână a Regelui (54 D.C.)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "seat",
+    "object": "LOCATION_WINTERFELL",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "words",
+    "object": "nemenționat în fragment",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "sigil",
+    "object": "străvechea coroană a Regilor Iernii (menționată ca obiect predat)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "sigil",
+    "object": "nemenționat explicit (sabia valyriană a familiei se numește Gheața)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "mare casă, se supune pașnic; Torrhen Stark devine „Regele Îngenuncheat\", apoi lord de Winterfell și Păzitor al Nordului",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.1",
+    "source_page": "12, 29–30",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "mare casă din Nord; a călătorit lung pentru Nunta de Aur",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.3",
+    "source_page": "148–149",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.1",
+    "source_page": "187–188",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "mare casă; Alaric Stark descris ca aspru, rigid, neiertător",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.2",
+    "source_page": "254",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "mare casă, cetate de scaun a Regilor Nordului",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.3",
+    "source_page": "292–294, 298–299",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.1",
+    "source_page": "333–334",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "condusă de Cregan Stark (21 ani în 129 D.C.); Winterfell vorbise în trecut în favoarea Rhaenysei la Harrenhal; Cregan încheie „Pactul de Gheață și Foc” cu Rhaenyra",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.3",
+    "source_page": "452, 473-474, 484",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "condusă de lordul Cregan Stark, promite ajutor Rhaenyrei",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.3",
+    "source_page": "610, 636",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "mare casă, condusă de Cregan Stark, cu putere militară semnificativă (a doua oaste ca mărime, „armie... de două ori mai mare\" decât cea a susținătorilor riverani)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.1",
+    "source_page": "649-668, 671, 690-691",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "lordul Cregan Stark conduce apărarea împotriva sălbaticilor lui Sylas cel Cumplit; trimite mesaj de nemulțumire cu privire la logodna regelui cu Myrielle Peake",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.2",
+    "source_page": "719, 724",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "vassal_of",
+    "object": "HOUSE_MANDERLY",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.3",
+    "source_page": "292–294, 298–299",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "ally_of",
+    "object": "HOUSE_BLACKWOOD",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.1",
+    "source_page": "649-668, 671, 690-691",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STAUNTON",
+    "predicate": "seat",
+    "object": "LOCATION_POPASUL_CORBILOR",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STOKEWORTH",
+    "predicate": "status_at",
+    "object": "similar cu Rosby — jură credință lui Aegon II, apoi executat de Rhaenyra",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STRONG",
+    "predicate": "status_at",
+    "object": "vasală",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.2",
+    "source_page": "56, 67",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STRONG",
+    "predicate": "status_at",
+    "object": "în declin/dezonorată — ser Lucamore Strong, cavaler din Garda Regelui, descoperit ca fiind căsătorit fraudulos cu trei femei; copiii lui pierd numele Strong, devenind Rivers, Waters, Storm.",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.1",
+    "source_page": "335–337",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STRONG",
+    "predicate": "status_at",
+    "object": "casă în ascensiune (Lyonel Strong: maestru al legilor, apoi Mână a Regelui)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.2",
+    "source_page": "402–403",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STRONG",
+    "predicate": "status_at",
+    "object": "casă vasală, în declin/ruinare — lordul Lyonel și fiul Harwin mor în incendiu (120 D.C.), Larys devine lord de Harrenhal, apoi castelul e cucerit de Daemon (129 D.C.)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.3",
+    "source_page": "433, 469, 477-479",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STRONG",
+    "predicate": "status_at",
+    "object": "neam vechi de războinici, pretinde descendență din Primii Oameni; exterminată aproape complet la Harrenhal",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "490, 515, 520–522, 536–537",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STRONG",
+    "predicate": "status_at",
+    "object": "lordul Larys Strong (Picior-Strâmb) revine la Fortăreața Roșie; joacă un rol dublu, ambiguu, în consiliul lui Aegon al II-lea",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.3",
+    "source_page": "595, 612–613, 624, 634–635",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STRONG",
+    "predicate": "status_at",
+    "object": "stinsă — ultimul membru, Larys Strong, executat pentru rol în asasinarea lui Aegon al II-lea",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.1",
+    "source_page": "662-663, 668",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SWANN",
+    "predicate": "seat",
+    "object": "LOCATION_STONEHELM",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SWANN",
+    "predicate": "status_at",
+    "object": "vasală",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARBECK",
+    "predicate": "seat",
+    "object": "LOCATION_CASTELUL_TARBECK",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARBECK",
+    "predicate": "status_at",
+    "object": "susținătoare a lui Aegon Neîncoronatul",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.2",
+    "source_page": "102–103",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARBECK",
+    "predicate": "status_at",
+    "object": "legată prin descendență (fiul reginei Jeyne, confirmat lord de Tarbeck Hall)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.3",
+    "source_page": "118",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "seat",
+    "object": "LOCATION_FORTAREATA_ROSIE_DEBARCADERUL_REGELUI",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "words",
+    "object": "nemenționate în fragment; nemenționate în acest fragment",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "sigil",
+    "object": "stindard de bătălie din mătase cu un dragon roșu, cu trei capete, suflând foc peste un câmp negru",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "sigil",
+    "object": "dragonul tricefal, culorile roșu și negru",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "sigil",
+    "object": "dragonul tricefal descris pe mantia miresei Alyssa la nunta cu Rogar",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "sigil",
+    "object": "dragon roșu pe negru (inițial, comun ambelor tabere)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "sigil",
+    "object": "Aegon II schimbă culoarea în auriu (pentru Sunfyre)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "sigil",
+    "object": "Rhaenyra adaugă blazoanele Arryn și Velaryon",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "casă în ascensiune → devine dinastia regală a întregului Westeros",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.1",
+    "source_page": "11–17",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "casă domnitoare",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.2",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "casă regală, în criză sub Maegor, consolidată sub Jaehaerys",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.3",
+    "source_page": "116–123, 152",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "mare casă regală",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.1",
+    "source_page": "162–215",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "casă regală",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.2",
+    "source_page": "217–218",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "casă conducătoare",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.3",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "casă domnitoare",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.1",
+    "source_page": "peste tot în fragment",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "casă regală, ruptă în două tabere rivale (Rhaenyra „negrii” vs. Aegon II „verzii”) — Dansul Dragonilor",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.3",
+    "source_page": "443 și pasim",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "casă regală, divizată în două tabere (Aegon II / Rhaenyra) — Dansul Dragonilor",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "519 (schimbarea blazoanelor), pe tot parcursul fragmentului",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "dinastie regală, sever decimată; conflict de succesiune neclar (fără moștenitor bărbătesc direct)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.1",
+    "source_page": "peste tot în fragment",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "dinastie regală, regele fiind Aegon al III-lea; fratele său Viserys căsătorit cu Larra din Lys",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.3",
+    "source_page": "întreg fragmentul",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "ally_of",
+    "object": "HOUSE_VELARYON",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.1",
+    "source_page": "11–17",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "ally_of",
+    "object": "HOUSE_CELTIGAR",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.1",
+    "source_page": "11–17",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "enemy_of",
+    "object": "HOUSE_HOARE",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.1",
+    "source_page": "11–17",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "enemy_of",
+    "object": "HOUSE_DURRANDON",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.1",
+    "source_page": "11–17",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "enemy_of",
+    "object": "HOUSE_GARDENER",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.1",
+    "source_page": "11–17",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "enemy_of",
+    "object": "HOUSE_VELARYON",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.2",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "enemy_of",
+    "object": "PERSON_JAEHAERYS",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.1",
+    "source_page": "162–215",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "ally_of",
+    "object": "PERSON_JAEHAERYS",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.2",
+    "source_page": "217–218",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "ally_of",
+    "object": "HOUSE_ESTERMONT",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.3",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "ally_of",
+    "object": "HOUSE_HIGHTOWER",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.3",
+    "source_page": "443 și pasim",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "seat",
+    "object": "LOCATION_HORN_HILL",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "status_at",
+    "object": "vasală",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.2",
+    "source_page": "75–76, 78",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "status_at",
+    "object": "casă care a luptat de partea reginei (Alicent/Aegon II) în timpul Dansului",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.1",
+    "source_page": "657",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TERRICK",
+    "predicate": "status_at",
+    "object": "vasală rebelă",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TOWERS",
+    "predicate": "status_at",
+    "object": "în ascensiune, apoi cu domenii reduse; loială lui Maegor și apoi lui Jaehaerys",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.3",
+    "source_page": "111, 122, 128",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TOWERS",
+    "predicate": "status_at",
+    "object": "stinsă (după moartea lui Maegor Towers, 61 D.C.)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.3",
+    "source_page": "285–286",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TOWERS",
+    "predicate": "ally_of",
+    "object": "PERSON_JAEHAERYS",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.3",
+    "source_page": "111, 122, 128",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "seat",
+    "object": "LOCATION_RIVERRUN",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "mare casă a Ținuturilor Riverane",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.2",
+    "source_page": "56, 67, 73, 102",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "legată de Curte prin poziția de maestru al legilor (lordul Prentys Tully)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.3",
+    "source_page": "145",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "mare casă, lorzi suzerani ai lui Smallwood",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.2",
+    "source_page": "254",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "condusă de bătrânul lord Grover Tully (favorabil lui Aegon, dar fără sprijin efectiv); nepotul Elmo Tully preferă neutralitatea",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.3",
+    "source_page": "483-484",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "mare casă / lorzi suzerani ai Tridentului; intrată în război de partea reginei",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.3",
+    "source_page": "601, 630, 637, 645–646",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "mare casă riverană, printre susținătorii Flăcăilor",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.1",
+    "source_page": "649-650, 660-661, 671, 675",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "ally_of",
+    "object": "PERSON_MAEGOR",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.2",
+    "source_page": "56, 67, 73, 102",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "ally_of",
+    "object": "HOUSE_BLACKWOOD",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.3",
+    "source_page": "601, 630, 637, 645–646",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "în ascensiune (din administratori ai Casei Gardener, devin lorzi de Highgarden)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.1",
+    "source_page": "29, 44",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "mare casă, s-a întors împotriva lui Maegor, apoi loială lui Jaehaerys",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.3",
+    "source_page": "122, 154",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "mare casă; Bertrand Tyrell descris ca bețiv, cu fii bastarzi turbulenți",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.2",
+    "source_page": "254",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "descinde dintr-o familie de majordomi (menționat de Septonul Barth)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.3",
+    "source_page": "314, 320–321",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "regență (castelan, administrator, mama tânărului lord, toți regenți până la majoratul băiatului); decide neutralitate",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "486",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "neutră în Dansul Dragonilor (nu a participat)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.2",
+    "source_page": "562",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "ally_of",
+    "object": "HOUSE_TARGARYEN",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.1",
+    "source_page": "29, 44",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "liege_of",
+    "object": "HOUSE_BEESBURY",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "486",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "ally_of",
+    "object": "PERSON_HUGH_CIOCANUL",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.2",
+    "source_page": "562",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VANCE",
+    "predicate": "seat",
+    "object": "LOCATION_POPASUL_CALATORULUI",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VANCE",
+    "predicate": "status_at",
+    "object": "susținătoare a lui Aegon Neîncoronatul",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.2",
+    "source_page": "102–103",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VANCE",
+    "predicate": "status_at",
+    "object": "aliată cu lorzii riverani anti-Lannister; lordul Tristan Vance ucis la Furca Roșie",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "510",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VANCE",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "510",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VELARYON",
+    "predicate": "sigil",
+    "object": "calul de mare",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VELARYON",
+    "predicate": "sigil",
+    "object": "stindard/culori adăugate de Rhaenyra la herbul Targaryen (în onoarea mamei sale și a primului soț)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VELARYON",
+    "predicate": "sigil",
+    "object": "calul de mare (menționat pe pieptare la arestarea reginei Alicent)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VELARYON",
+    "predicate": "status_at",
+    "object": "casă minoră de descendență valyriană, aliată apropiată a Targaryenilor",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.1",
+    "source_page": "12, 17, 19",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VELARYON",
+    "predicate": "status_at",
+    "object": "mare casă, aliată caselor Targaryen",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.2",
+    "source_page": "59, 64–66, 86, 89, 93, 101–102",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VELARYON",
+    "predicate": "status_at",
+    "object": "a doua Casă din Ținut ca putere navală (amirali tradiționali); printre primii care s-au declarat de partea lui Jaehaerys",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.3",
+    "source_page": "113, 122, 145, 156",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VELARYON",
+    "predicate": "status_at",
+    "object": "mare casă, comandă flota Coroanei",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.1",
+    "source_page": "172, 188–189, 193",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VELARYON",
+    "predicate": "status_at",
+    "object": "mare casă, Daemon Velaryon Mână a Regelui până la retragerea sa (54 D.C.)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.2",
+    "source_page": "230, 251–253",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VELARYON",
+    "predicate": "status_at",
+    "object": "mare casă, foarte bogată",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "2.3",
+    "source_page": "270, 305, 312, 314",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VELARYON",
+    "predicate": "status_at",
+    "object": "mare casă maritimă (Daemon Velaryon — Stăpânul Valurilor; fiul/nepotul Corlys Velaryon — „Șarpele Mărilor\")",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.1",
+    "source_page": "336, 344, 370–372",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VELARYON",
+    "predicate": "status_at",
+    "object": "mare casă, extrem de bogată — pentru o vreme cea mai bogată din cele Șapte Regate (datorită călătoriilor lui Corlys), depășind Hightowerii și Lannisterii",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.2",
+    "source_page": "389–391",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VELARYON",
+    "predicate": "status_at",
+    "object": "mare casă, aliată puternic cu Rhaenyra; deține flota Șarpelui Mărilor",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.3",
+    "source_page": "437, 458-459, 476",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VELARYON",
+    "predicate": "status_at",
+    "object": "mare casă, aliată Rhaenyrei; lordul Corlys Velaryon Mână a reginei",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "486–487, 493, 496–507, 511, 519",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VELARYON",
+    "predicate": "status_at",
+    "object": "mare casă, loială reginei Rhaenyra; Mâna Reginei (Corlys Velaryon) arestată pentru trădare; jumătate din oastea reginei (formată din oameni loiali Casei Velaryon) o părăsește",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.2",
+    "source_page": "543, 555-557, 572",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VELARYON",
+    "predicate": "status_at",
+    "object": "mare casă, cu flotă de război puternică; lordul Corlys eliberat din temniță, revine în consiliul restrâns",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.3",
+    "source_page": "600, 606, 623, 627, 638–639, 643",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VELARYON",
+    "predicate": "status_at",
+    "object": "mare casă, în tranziție de la Corlys Velaryon (mort) la Alyn Velaryon (bastard legitimat, moștenitor ales)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.1",
+    "source_page": "656, 662-664, 681-683, 690",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VELARYON",
+    "predicate": "status_at",
+    "object": "în ascensiune — Alyn Pumn de Stejar devine erou popular, Lord Amiral, membru al micului consiliu (maestru al corăbiilor)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.2",
+    "source_page": "710–718, 735–753",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VELARYON",
+    "predicate": "status_at",
+    "object": "mare casă, condusă de lordul Alyn Pumn de Stejar; și-a pierdut mai mult de jumătate din avere prin colapsul Băncii Rogare",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.3",
+    "source_page": "761, 791–792",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VELARYON",
+    "predicate": "ally_of",
+    "object": "PERSON_DAEMON_VELARYON",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.1",
+    "source_page": "12, 17, 19",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VELARYON",
+    "predicate": "enemy_of",
+    "object": "HOUSE_BARATHEON",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.3",
+    "source_page": "113, 122, 145, 156",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VELARYON",
+    "predicate": "ally_of",
+    "object": "PERSON_RHAENYS",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.2",
+    "source_page": "389–391",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VELARYON",
+    "predicate": "ally_of",
+    "object": "PERSON_ALYN_VELARYON",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.2",
+    "source_page": "543, 555-557, 572",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VELARYON",
+    "predicate": "enemy_of",
+    "object": "PERSON_AEGON",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.3",
+    "source_page": "600, 606, 623, 627, 638–639, 643",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VELARYON",
+    "predicate": "ally_of",
+    "object": "PERSON_VAEMOND_VELARYON",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.1",
+    "source_page": "656, 662-664, 681-683, 690",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VELARYON",
+    "predicate": "enemy_of",
+    "object": "PERSON_BAELA_TARGARYEN",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.2",
+    "source_page": "710–718, 735–753",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VELARYON",
+    "predicate": "ally_of",
+    "object": "PERSON_BAELA_TARGARYEN",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.3",
+    "source_page": "761, 791–792",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VYPREN",
+    "predicate": "status_at",
+    "object": "vasală, aliată cu văduva Sabitha Frey (tatăl și frații ei din această casă)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WAYN",
+    "predicate": "status_at",
+    "object": "vasală rebelă",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WESTERLING",
+    "predicate": "status_at",
+    "object": "susținătoare ale lui Aegon Neîncoronatul",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.2",
+    "source_page": "102",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WESTERLING",
+    "predicate": "status_at",
+    "object": "legată prin căsătorie de Casa Targaryen (Jeyne Westerling, una dintre Miresele Negre)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.3",
+    "source_page": "115–116",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WESTERLING",
+    "predicate": "status_at",
+    "object": "legată prin descendență de Casa Lannister (Roland Westerling, tatăl lady-ei Johanna Lannister), membru al consiliului de regență",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "5.1",
+    "source_page": "656, 674, 696",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_RIVERS",
+    "predicate": "status_at",
+    "object": "nume purtat de bastarzi (Robb Rivers cel Roșu, Alys Rivers)",
+    "source_book": "Foc și Sânge",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_RIVERS",
+    "predicate": "ally_of",
+    "object": "PERSON_ROBB_RIVERS",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "522, 524, 538",
+    "confidence": "confirmed"
+  }
+]

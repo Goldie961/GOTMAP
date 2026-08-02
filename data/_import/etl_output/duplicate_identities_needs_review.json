@@ -1,0 +1,1052 @@
+{
+  "metadate": {
+    "total_personaje_analizate": 2470,
+    "total_perechi_duplicate_detectate": 68,
+    "total_clustere_duplicate_detectate": 33
+  },
+  "clustere_duplicate": [
+    {
+      "cluster_id": "cluster_001",
+      "nume_reprezentativ": "Aegon cel Nesigur (Aegon the Unlikely)",
+      "id_uri": [
+        "aegon_cel_nesigur",
+        "aegon_ii_targaryen"
+      ],
+      "id_intern_uri": [
+        "PERSON_AEGON_CEL_NESIGUR",
+        "PERSON_AEGON_II_TARGARYEN"
+      ],
+      "numar_variante": 2,
+      "semnal": {
+        "tip_semnal": [
+          "copii_comuni"
+        ],
+        "copii_comune": [
+          "PERSON_JAEHAERYS",
+          "PERSON_JAEHAERYS_TARGARYEN",
+          "jaehaerys",
+          "jaehaerys targaryen"
+        ],
+        "parinti_comuni": [],
+        "casatorit_cu_comuni": []
+      },
+      "scor_incredere": 0.92
+    },
+    {
+      "cluster_id": "cluster_002",
+      "nume_reprezentativ": "Aerys al II-lea Targaryen (Regele Nebun)",
+      "id_uri": [
+        "aerys_al_ii_lea",
+        "aerys_al_ii_lea_targaryen",
+        "aerys_fiul_lui_jaehaerys",
+        "aerys_ii",
+        "regele_aerys",
+        "regele_aerys_al_ii_lea_targaryen",
+        "regele_aerys_ii_targaryen",
+        "regele_aerys_targaryen"
+      ],
+      "id_intern_uri": [
+        "PERSON_AERYS_AL_II_LEA",
+        "PERSON_AERYS_AL_II_LEA_TARGARYEN",
+        "PERSON_AERYS_FIUL_LUI_JAEHAERYS",
+        "PERSON_AERYS_II_TARGARYEN",
+        "PERSON_REGELE_AERYS",
+        "PERSON_REGELE_AERYS_AL_II_LEA_TARGARYEN",
+        "PERSON_REGELE_AERYS_II_TARGARYEN",
+        "PERSON_REGELE_AERYS_TARGARYEN"
+      ],
+      "numar_variante": 8,
+      "semnal": {
+        "tip_semnal": [
+          "copii_comuni"
+        ],
+        "copii_comune": [
+          "PERSON_DAENERYS_TARGARYEN",
+          "PERSON_RHAEGAR",
+          "PERSON_RHAEGAR_TARGARYEN",
+          "PERSON_VISERYS",
+          "daenerys targaryen",
+          "rhaegar",
+          "rhaegar targaryen",
+          "viserys",
+          "viserys targaryen"
+        ],
+        "parinti_comuni": [],
+        "casatorit_cu_comuni": []
+      },
+      "scor_incredere": 0.92
+    },
+    {
+      "cluster_id": "cluster_003",
+      "nume_reprezentativ": "Lady Alerie Tyrell",
+      "id_uri": [
+        "alerie_tyrell",
+        "lady_alerie_tyrell"
+      ],
+      "id_intern_uri": [
+        "PERSON_ALERIE_TYRELL",
+        "PERSON_LADY_ALERIE_TYRELL"
+      ],
+      "numar_variante": 2,
+      "semnal": {
+        "tip_semnal": [
+          "copii_plus_alta_relatie_comuna"
+        ],
+        "copii_comune": [
+          "PERSON_SER_LORAS_TYRELL",
+          "loras tyrell"
+        ],
+        "parinti_comuni": [],
+        "casatorit_cu_comuni": [
+          "PERSON_MACE_TYRELL",
+          "mace tyrell"
+        ]
+      },
+      "scor_incredere": 0.95
+    },
+    {
+      "cluster_id": "cluster_004",
+      "nume_reprezentativ": "Alyssa (regina Alyssa, din Casa Velaryon)",
+      "id_uri": [
+        "alyssa",
+        "alyssa_velaryon",
+        "printesa_alyssa_targaryen"
+      ],
+      "id_intern_uri": [
+        "PERSON_ALYSSA",
+        "PERSON_ALYSSA_VELARYON",
+        "PERSON_PRINTESA_ALYSSA_TARGARYEN"
+      ],
+      "numar_variante": 3,
+      "semnal": {
+        "tip_semnal": [
+          "copii_comuni"
+        ],
+        "copii_comune": [
+          "PERSON_AEGON",
+          "PERSON_ALYSANNE",
+          "PERSON_JAEHAERYS",
+          "PERSON_VISERYS",
+          "aegon",
+          "alysanne",
+          "jaehaerys",
+          "viserys"
+        ],
+        "parinti_comuni": [],
+        "casatorit_cu_comuni": []
+      },
+      "scor_incredere": 0.92
+    },
+    {
+      "cluster_id": "cluster_005",
+      "nume_reprezentativ": "Lordul Balon Greyjoy",
+      "id_uri": [
+        "balon_greyjoy",
+        "lordul_balon_greyjoy"
+      ],
+      "id_intern_uri": [
+        "PERSON_BALON_GREYJOY",
+        "PERSON_LORDUL_BALON_GREYJOY"
+      ],
+      "numar_variante": 2,
+      "semnal": {
+        "tip_semnal": [
+          "copii_plus_alta_relatie_comuna"
+        ],
+        "copii_comune": [
+          "PERSON_ASHA_GREYJOY",
+          "PERSON_MARON_GREYJOY",
+          "PERSON_RODRIK_GREYJOY",
+          "PERSON_THEON_GREYJOY",
+          "asha greyjoy",
+          "maron greyjoy",
+          "rodrik greyjoy",
+          "theon greyjoy"
+        ],
+        "parinti_comuni": [],
+        "casatorit_cu_comuni": [
+          "PERSON_LADY_ALANNYS_GREYJOY",
+          "alannys greyjoy"
+        ]
+      },
+      "scor_incredere": 0.95
+    },
+    {
+      "cluster_id": "cluster_006",
+      "nume_reprezentativ": "Lady Catelyn Stark (Tully)",
+      "id_uri": [
+        "catelyn_stark",
+        "catelyn_tully",
+        "lady_catelyn_stark"
+      ],
+      "id_intern_uri": [
+        "PERSON_CATELYN_STARK",
+        "PERSON_CATELYN_TULLY",
+        "PERSON_LADY_CATELYN_STARK"
+      ],
+      "numar_variante": 3,
+      "semnal": {
+        "tip_semnal": [
+          "copii_parinti_casatorit_comuni"
+        ],
+        "copii_comune": [
+          "PERSON_ARYA_STARK",
+          "PERSON_BRAN_STARK",
+          "PERSON_BRAN_STARK_RICKON_STARK",
+          "PERSON_RICKON_STARK",
+          "PERSON_ROBB_STARK",
+          "arya stark",
+          "bran stark",
+          "bran stark rickon stark",
+          "rickon stark",
+          "robb stark"
+        ],
+        "parinti_comuni": [
+          "PERSON_HOSTER_TULLY",
+          "PERSON_LORDUL_HOSTER_TULLY",
+          "hoster tully"
+        ],
+        "casatorit_cu_comuni": [
+          "PERSON_EDDARD_STARK",
+          "eddard stark"
+        ]
+      },
+      "scor_incredere": 0.99
+    },
+    {
+      "cluster_id": "cluster_007",
+      "nume_reprezentativ": "Cersei Lannister",
+      "id_uri": [
+        "cersei",
+        "cersei_lannister"
+      ],
+      "id_intern_uri": [
+        "PERSON_CERSEI",
+        "PERSON_CERSEI_LANNISTER"
+      ],
+      "numar_variante": 2,
+      "semnal": {
+        "tip_semnal": [
+          "copii_parinti_casatorit_comuni"
+        ],
+        "copii_comune": [
+          "PERSON_JOFFREY",
+          "PERSON_JOFFREY_BARATHEON",
+          "PERSON_MYRCELLA",
+          "PERSON_MYRCELLA_BARATHEON",
+          "PERSON_TOMMEN",
+          "PERSON_TOMMEN_BARATHEON",
+          "joffrey",
+          "joffrey baratheon",
+          "myrcella",
+          "myrcella baratheon",
+          "tommen",
+          "tommen baratheon"
+        ],
+        "parinti_comuni": [
+          "PERSON_JOANNA_LANNISTER",
+          "PERSON_LORDUL_TYWIN_LANNISTER",
+          "PERSON_TYWIN_LANNISTER",
+          "joanna lannister",
+          "tywin lannister"
+        ],
+        "casatorit_cu_comuni": [
+          "PERSON_ROBERT_BARATHEON",
+          "robert baratheon"
+        ]
+      },
+      "scor_incredere": 0.99
+    },
+    {
+      "cluster_id": "cluster_008",
+      "nume_reprezentativ": "Doran Nymeros Martell",
+      "id_uri": [
+        "doran_martell",
+        "doran_nymeros_martell",
+        "lordul_doran_martell",
+        "printul_doran_martell"
+      ],
+      "id_intern_uri": [
+        "PERSON_DORAN_MARTELL",
+        "PERSON_DORAN_NYMEROS_MARTELL",
+        "PERSON_LORDUL_DORAN_MARTELL",
+        "PERSON_PRINTUL_DORAN_MARTELL"
+      ],
+      "numar_variante": 4,
+      "semnal": {
+        "tip_semnal": [
+          "copii_comuni"
+        ],
+        "copii_comune": [
+          "PERSON_ARIANNE_MARTELL",
+          "PERSON_PRINTUL_QUENTYN_MARTELL",
+          "PERSON_QUENTYN_MARTELL",
+          "PERSON_TRYSTANE",
+          "PERSON_TRYSTANE_MARTELL",
+          "arianne martell",
+          "quentyn martell",
+          "trystane",
+          "trystane martell"
+        ],
+        "parinti_comuni": [],
+        "casatorit_cu_comuni": []
+      },
+      "scor_incredere": 0.92
+    },
+    {
+      "cluster_id": "cluster_009",
+      "nume_reprezentativ": "Prințesa Elia Martell",
+      "id_uri": [
+        "elia_din_dorne",
+        "elia_martell",
+        "printesa_elia",
+        "printesa_elia_martell"
+      ],
+      "id_intern_uri": [
+        "PERSON_ELIA_DIN_DORNE",
+        "PERSON_ELIA_MARTELL",
+        "PERSON_PRINTESA_ELIA",
+        "PERSON_PRINTESA_ELIA_MARTELL"
+      ],
+      "numar_variante": 4,
+      "semnal": {
+        "tip_semnal": [
+          "copii_comuni",
+          "copii_plus_alta_relatie_comuna"
+        ],
+        "copii_comune": [
+          "PERSON_AEGON",
+          "PERSON_RHAENYS",
+          "PERSON_RHAENYS_TARGARYEN",
+          "aegon",
+          "rhaenys",
+          "rhaenys targaryen"
+        ],
+        "parinti_comuni": [],
+        "casatorit_cu_comuni": [
+          "PERSON_RHAEGAR_TARGARYEN",
+          "rhaegar targaryen"
+        ]
+      },
+      "scor_incredere": 0.95
+    },
+    {
+      "cluster_id": "cluster_010",
+      "nume_reprezentativ": "Lordul Gawen Westerling",
+      "id_uri": [
+        "gawen_westerling",
+        "lordul_gawen_westerling"
+      ],
+      "id_intern_uri": [
+        "PERSON_GAWEN_WESTERLING",
+        "PERSON_LORDUL_GAWEN_WESTERLING"
+      ],
+      "numar_variante": 2,
+      "semnal": {
+        "tip_semnal": [
+          "copii_comuni"
+        ],
+        "copii_comune": [
+          "PERSON_JEYNE_WESTERLING",
+          "jeyne westerling"
+        ],
+        "parinti_comuni": [],
+        "casatorit_cu_comuni": []
+      },
+      "scor_incredere": 0.92
+    },
+    {
+      "cluster_id": "cluster_011",
+      "nume_reprezentativ": "Ser Helman Tallhart",
+      "id_uri": [
+        "helman_tallhart",
+        "ser_helman_tallhart"
+      ],
+      "id_intern_uri": [
+        "PERSON_HELMAN_TALLHART",
+        "PERSON_SER_HELMAN_TALLHART"
+      ],
+      "numar_variante": 2,
+      "semnal": {
+        "tip_semnal": [
+          "copii_comuni"
+        ],
+        "copii_comune": [
+          "PERSON_BENFRED_TALLHART",
+          "benfred tallhart"
+        ],
+        "parinti_comuni": [],
+        "casatorit_cu_comuni": []
+      },
+      "scor_incredere": 0.92
+    },
+    {
+      "cluster_id": "cluster_012",
+      "nume_reprezentativ": "Lordul Hoster Tully",
+      "id_uri": [
+        "hoster_tully",
+        "lordul_hoster_tully"
+      ],
+      "id_intern_uri": [
+        "PERSON_HOSTER_TULLY",
+        "PERSON_LORDUL_HOSTER_TULLY"
+      ],
+      "numar_variante": 2,
+      "semnal": {
+        "tip_semnal": [
+          "copii_comuni"
+        ],
+        "copii_comune": [
+          "PERSON_CATELYN_STARK",
+          "PERSON_CATELYN_TULLY",
+          "PERSON_EDMURE_TULLY",
+          "PERSON_LYSA_ARRYN",
+          "PERSON_SER_EDMURE_TULLY",
+          "catelyn stark",
+          "catelyn tully",
+          "edmure tully",
+          "lysa arryn"
+        ],
+        "parinti_comuni": [],
+        "casatorit_cu_comuni": []
+      },
+      "scor_incredere": 0.92
+    },
+    {
+      "cluster_id": "cluster_013",
+      "nume_reprezentativ": "Jaehaerys (fiul lui Aegon cel Nesigur)",
+      "id_uri": [
+        "jaehaerys",
+        "jaehaerys_i"
+      ],
+      "id_intern_uri": [
+        "PERSON_JAEHAERYS",
+        "PERSON_JAEHAERYS_I_TARGARYEN"
+      ],
+      "numar_variante": 2,
+      "semnal": {
+        "tip_semnal": [
+          "copii_plus_alta_relatie_comuna"
+        ],
+        "copii_comune": [
+          "PERSON_DAELLA_TARGARYEN",
+          "PERSON_GAEL_TARGARYEN",
+          "PERSON_GAEMON_TARGARYEN",
+          "PERSON_MAEGELLE_TARGARYEN",
+          "PERSON_SAERA_TARGARYEN",
+          "PERSON_VALERION_TARGARYEN",
+          "PERSON_VISERRA_TARGARYEN",
+          "daella targaryen",
+          "gael targaryen",
+          "gaemon targaryen",
+          "maegelle targaryen",
+          "saera targaryen",
+          "valerion targaryen",
+          "viserra targaryen"
+        ],
+        "parinti_comuni": [
+          "PERSON_AEGON_II_TARGARYEN",
+          "PERSON_HELAENA_TARGARYEN",
+          "aegon ii targaryen",
+          "helaena targaryen"
+        ],
+        "casatorit_cu_comuni": []
+      },
+      "scor_incredere": 0.95
+    },
+    {
+      "cluster_id": "cluster_014",
+      "nume_reprezentativ": "Lady Joanna Lannister",
+      "id_uri": [
+        "joanna_lannister",
+        "lady_joanna_lannister"
+      ],
+      "id_intern_uri": [
+        "PERSON_JOANNA_LANNISTER",
+        "PERSON_LADY_JOANNA_LANNISTER"
+      ],
+      "numar_variante": 2,
+      "semnal": {
+        "tip_semnal": [
+          "copii_plus_alta_relatie_comuna"
+        ],
+        "copii_comune": [
+          "PERSON_CERSEI_LANNISTER",
+          "cersei lannister"
+        ],
+        "parinti_comuni": [],
+        "casatorit_cu_comuni": [
+          "PERSON_TYWIN_LANNISTER",
+          "tywin lannister"
+        ]
+      },
+      "scor_incredere": 0.95
+    },
+    {
+      "cluster_id": "cluster_015",
+      "nume_reprezentativ": "Ser Kevan Lannister",
+      "id_uri": [
+        "kevan_lannister",
+        "ser_kevan_lannister"
+      ],
+      "id_intern_uri": [
+        "PERSON_KEVAN_LANNISTER",
+        "PERSON_SER_KEVAN_LANNISTER"
+      ],
+      "numar_variante": 2,
+      "semnal": {
+        "tip_semnal": [
+          "copii_comuni"
+        ],
+        "copii_comune": [
+          "PERSON_LANCEL",
+          "PERSON_LANCEL_LANNISTER",
+          "PERSON_MARTYN_LANNISTER",
+          "lancel",
+          "lancel lannister",
+          "martyn lannister"
+        ],
+        "parinti_comuni": [],
+        "casatorit_cu_comuni": []
+      },
+      "scor_incredere": 0.92
+    },
+    {
+      "cluster_id": "cluster_016",
+      "nume_reprezentativ": "Lady Lysa Arryn (născută Tully)",
+      "id_uri": [
+        "lady_lysa_arryn",
+        "lysa_arryn"
+      ],
+      "id_intern_uri": [
+        "PERSON_LADY_LYSA_ARRYN",
+        "PERSON_LYSA_ARRYN"
+      ],
+      "numar_variante": 2,
+      "semnal": {
+        "tip_semnal": [
+          "copii_plus_alta_relatie_comuna"
+        ],
+        "copii_comune": [
+          "PERSON_ROBERT_ARRYN",
+          "robert arryn"
+        ],
+        "parinti_comuni": [],
+        "casatorit_cu_comuni": [
+          "PERSON_JON_ARRYN",
+          "jon arryn"
+        ]
+      },
+      "scor_incredere": 0.95
+    },
+    {
+      "cluster_id": "cluster_017",
+      "nume_reprezentativ": "Sybell Westerling (n. Spicer)",
+      "id_uri": [
+        "lady_sybell_westerling",
+        "sybell_spicer",
+        "sybell_westerling"
+      ],
+      "id_intern_uri": [
+        "PERSON_LADY_SYBELL_WESTERLING",
+        "PERSON_SYBELL_SPICER",
+        "PERSON_SYBELL_WESTERLING"
+      ],
+      "numar_variante": 3,
+      "semnal": {
+        "tip_semnal": [
+          "copii_comuni"
+        ],
+        "copii_comune": [
+          "PERSON_JEYNE_WESTERLING",
+          "PERSON_ROLLAM_WESTERLING",
+          "PERSON_SER_RAYNALD_WESTERLING",
+          "jeyne westerling",
+          "raynald westerling",
+          "rollam westerling"
+        ],
+        "parinti_comuni": [],
+        "casatorit_cu_comuni": []
+      },
+      "scor_incredere": 0.92
+    },
+    {
+      "cluster_id": "cluster_018",
+      "nume_reprezentativ": "Lordul Mace Tyrell",
+      "id_uri": [
+        "lordul_mace_tyrell",
+        "mace_tyrell"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_MACE_TYRELL",
+        "PERSON_MACE_TYRELL"
+      ],
+      "numar_variante": 2,
+      "semnal": {
+        "tip_semnal": [
+          "copii_comuni"
+        ],
+        "copii_comune": [
+          "PERSON_LORAS_TYRELL",
+          "PERSON_MARGAERY",
+          "PERSON_SER_GARLAN_TYRELL",
+          "PERSON_SER_LORAS_TYRELL",
+          "PERSON_WILLAS_TYRELL",
+          "garlan tyrell",
+          "loras tyrell",
+          "margaery",
+          "willas tyrell"
+        ],
+        "parinti_comuni": [],
+        "casatorit_cu_comuni": []
+      },
+      "scor_incredere": 0.92
+    },
+    {
+      "cluster_id": "cluster_019",
+      "nume_reprezentativ": "Lordul Randyll Tarly",
+      "id_uri": [
+        "lordul_randyll_tarly",
+        "randyll_tarly"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_RANDYLL_TARLY",
+        "PERSON_RANDYLL_TARLY"
+      ],
+      "numar_variante": 2,
+      "semnal": {
+        "tip_semnal": [
+          "copii_comuni"
+        ],
+        "copii_comune": [
+          "PERSON_SAMWELL_TARLY",
+          "samwell tarly"
+        ],
+        "parinti_comuni": [],
+        "casatorit_cu_comuni": []
+      },
+      "scor_incredere": 0.92
+    },
+    {
+      "cluster_id": "cluster_020",
+      "nume_reprezentativ": "Lordul Rickard Karstark",
+      "id_uri": [
+        "lordul_rickard_karstark",
+        "rickard_karstark"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_RICKARD_KARSTARK",
+        "PERSON_RICKARD_KARSTARK"
+      ],
+      "numar_variante": 2,
+      "semnal": {
+        "tip_semnal": [
+          "copii_comuni"
+        ],
+        "copii_comune": [
+          "PERSON_ALYS_KARSTARK",
+          "PERSON_HARRION_KARSTARK",
+          "alys karstark",
+          "harrion karstark"
+        ],
+        "parinti_comuni": [],
+        "casatorit_cu_comuni": []
+      },
+      "scor_incredere": 0.92
+    },
+    {
+      "cluster_id": "cluster_021",
+      "nume_reprezentativ": "Lordul Rickard Stark",
+      "id_uri": [
+        "lordul_rickard_stark",
+        "rickard_stark"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_RICKARD_STARK",
+        "PERSON_RICKARD_STARK"
+      ],
+      "numar_variante": 2,
+      "semnal": {
+        "tip_semnal": [
+          "copii_comuni"
+        ],
+        "copii_comune": [
+          "PERSON_BENJEN_STARK",
+          "PERSON_BRANDON_STARK",
+          "PERSON_BRANDON_STARK_BRANDON",
+          "PERSON_EDDARD_STARK",
+          "PERSON_LYANNA_STARK",
+          "benjen stark",
+          "brandon stark",
+          "brandon stark brandon",
+          "eddard stark",
+          "lyanna stark"
+        ],
+        "parinti_comuni": [],
+        "casatorit_cu_comuni": []
+      },
+      "scor_incredere": 0.92
+    },
+    {
+      "cluster_id": "cluster_022",
+      "nume_reprezentativ": "Lordul Roose Bolton",
+      "id_uri": [
+        "lordul_roose_bolton",
+        "roose_bolton"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_ROOSE_BOLTON",
+        "PERSON_ROOSE_BOLTON"
+      ],
+      "numar_variante": 2,
+      "semnal": {
+        "tip_semnal": [
+          "copii_comuni"
+        ],
+        "copii_comune": [
+          "PERSON_DOMERIC_BOLTON",
+          "PERSON_RAMSAY_BOLTON",
+          "domeric bolton",
+          "ramsay bolton"
+        ],
+        "parinti_comuni": [],
+        "casatorit_cu_comuni": []
+      },
+      "scor_incredere": 0.92
+    },
+    {
+      "cluster_id": "cluster_023",
+      "nume_reprezentativ": "Lordul Selwyn Tarth",
+      "id_uri": [
+        "lordul_selwyn_tarth",
+        "selwyn_tarth"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_SELWYN_TARTH",
+        "PERSON_SELWYN_TARTH"
+      ],
+      "numar_variante": 2,
+      "semnal": {
+        "tip_semnal": [
+          "copii_comuni"
+        ],
+        "copii_comune": [
+          "PERSON_BRIENNE_DE_TARTH",
+          "brienne de tarth"
+        ],
+        "parinti_comuni": [],
+        "casatorit_cu_comuni": []
+      },
+      "scor_incredere": 0.92
+    },
+    {
+      "cluster_id": "cluster_024",
+      "nume_reprezentativ": "Lordul Tytos Lannister",
+      "id_uri": [
+        "lordul_tytos_lannister",
+        "tytos_lannister"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_TYTOS_LANNISTER",
+        "PERSON_TYTOS_LANNISTER"
+      ],
+      "numar_variante": 2,
+      "semnal": {
+        "tip_semnal": [
+          "copii_comuni"
+        ],
+        "copii_comune": [
+          "PERSON_TYWIN_LANNISTER",
+          "tywin lannister"
+        ],
+        "parinti_comuni": [],
+        "casatorit_cu_comuni": []
+      },
+      "scor_incredere": 0.92
+    },
+    {
+      "cluster_id": "cluster_025",
+      "nume_reprezentativ": "Lordul Tywin Lannister",
+      "id_uri": [
+        "lordul_tywin_lannister",
+        "tywin_lannister"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_TYWIN_LANNISTER",
+        "PERSON_TYWIN_LANNISTER"
+      ],
+      "numar_variante": 2,
+      "semnal": {
+        "tip_semnal": [
+          "copii_comuni"
+        ],
+        "copii_comune": [
+          "PERSON_CERSEI",
+          "PERSON_CERSEI_LANNISTER",
+          "PERSON_JAIME_LANNISTER",
+          "PERSON_TYRION_LANNISTER",
+          "cersei",
+          "cersei lannister",
+          "jaime lannister",
+          "tyrion lannister"
+        ],
+        "parinti_comuni": [],
+        "casatorit_cu_comuni": []
+      },
+      "scor_incredere": 0.92
+    },
+    {
+      "cluster_id": "cluster_026",
+      "nume_reprezentativ": "Walder Frey cel Mare",
+      "id_uri": [
+        "lordul_walder_frey",
+        "walder_frey",
+        "walder_frey_cel_mare"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_WALDER_FREY",
+        "PERSON_WALDER_FREY",
+        "PERSON_WALDER_FREY_CEL_MARE"
+      ],
+      "numar_variante": 3,
+      "semnal": {
+        "tip_semnal": [
+          "copii_comuni"
+        ],
+        "copii_comune": [
+          "PERSON_ELMAR_FREY",
+          "PERSON_OLYVAR_FREY",
+          "PERSON_SER_PERWYN_FREY",
+          "PERSON_SER_STEVRON_FREY",
+          "elmar frey",
+          "hosteen frey",
+          "olyvar frey",
+          "perwyn frey",
+          "stevron frey"
+        ],
+        "parinti_comuni": [],
+        "casatorit_cu_comuni": []
+      },
+      "scor_incredere": 0.92
+    },
+    {
+      "cluster_id": "cluster_027",
+      "nume_reprezentativ": "Prințesa Rhaenys Targaryen",
+      "id_uri": [
+        "printesa_rhaenys_targaryen",
+        "rhaenys_targaryen"
+      ],
+      "id_intern_uri": [
+        "PERSON_PRINTESA_RHAENYS_TARGARYEN",
+        "PERSON_RHAENYS_TARGARYEN"
+      ],
+      "numar_variante": 2,
+      "semnal": {
+        "tip_semnal": [
+          "copii_plus_alta_relatie_comuna"
+        ],
+        "copii_comune": [
+          "PERSON_LAENA_VELARYON",
+          "PERSON_LAENOR_VELARYON",
+          "laena velaryon",
+          "laenor velaryon"
+        ],
+        "parinti_comuni": [
+          "PERSON_RHAEGAR_TARGARYEN",
+          "rhaegar targaryen"
+        ],
+        "casatorit_cu_comuni": []
+      },
+      "scor_incredere": 0.95
+    },
+    {
+      "cluster_id": "cluster_028",
+      "nume_reprezentativ": "Regele Robert I Baratheon",
+      "id_uri": [
+        "regele_robert_i_baratheon",
+        "robert_baratheon"
+      ],
+      "id_intern_uri": [
+        "PERSON_REGELE_ROBERT_I_BARATHEON",
+        "PERSON_ROBERT_BARATHEON"
+      ],
+      "numar_variante": 2,
+      "semnal": {
+        "tip_semnal": [
+          "copii_plus_alta_relatie_comuna"
+        ],
+        "copii_comune": [
+          "PERSON_EDRIC_STORM",
+          "PERSON_JOFFREY",
+          "PERSON_MYRCELLA",
+          "PERSON_TOMMEN",
+          "edric storm",
+          "joffrey",
+          "myrcella",
+          "tommen"
+        ],
+        "parinti_comuni": [],
+        "casatorit_cu_comuni": [
+          "PERSON_CERSEI_LANNISTER",
+          "cersei lannister"
+        ]
+      },
+      "scor_incredere": 0.95
+    },
+    {
+      "cluster_id": "cluster_029",
+      "nume_reprezentativ": "Selyse Baratheon",
+      "id_uri": [
+        "regina_selyse",
+        "selyse",
+        "selyse_baratheon",
+        "selyse_florent"
+      ],
+      "id_intern_uri": [
+        "PERSON_REGINA_SELYSE",
+        "PERSON_SELYSE",
+        "PERSON_SELYSE_BARATHEON",
+        "PERSON_SELYSE_FLORENT"
+      ],
+      "numar_variante": 4,
+      "semnal": {
+        "tip_semnal": [
+          "copii_comuni",
+          "copii_plus_alta_relatie_comuna"
+        ],
+        "copii_comune": [
+          "PERSON_PRINTESA_SHIREEN_BARATHEON",
+          "PERSON_SHIREEN_BARATHEON",
+          "shireen baratheon"
+        ],
+        "parinti_comuni": [],
+        "casatorit_cu_comuni": [
+          "PERSON_STANNIS_BARATHEON",
+          "stannis baratheon"
+        ]
+      },
+      "scor_incredere": 0.95
+    },
+    {
+      "cluster_id": "cluster_030",
+      "nume_reprezentativ": "Rhaegar Targaryen",
+      "id_uri": [
+        "rhaegar",
+        "rhaegar_targaryen"
+      ],
+      "id_intern_uri": [
+        "PERSON_RHAEGAR",
+        "PERSON_RHAEGAR_TARGARYEN"
+      ],
+      "numar_variante": 2,
+      "semnal": {
+        "tip_semnal": [
+          "copii_plus_alta_relatie_comuna"
+        ],
+        "copii_comune": [
+          "PERSON_AEGON",
+          "PERSON_RHAENYS",
+          "PERSON_RHAENYS_TARGARYEN",
+          "aegon",
+          "rhaenys",
+          "rhaenys targaryen"
+        ],
+        "parinti_comuni": [
+          "PERSON_REGELE_AERYS_II_TARGARYEN",
+          "aerys ii targaryen"
+        ],
+        "casatorit_cu_comuni": []
+      },
+      "scor_incredere": 0.95
+    },
+    {
+      "cluster_id": "cluster_031",
+      "nume_reprezentativ": "Ser Ryman Frey",
+      "id_uri": [
+        "ryman_frey",
+        "ser_ryman_frey"
+      ],
+      "id_intern_uri": [
+        "PERSON_RYMAN_FREY",
+        "PERSON_SER_RYMAN_FREY"
+      ],
+      "numar_variante": 2,
+      "semnal": {
+        "tip_semnal": [
+          "copii_comuni"
+        ],
+        "copii_comune": [
+          "PERSON_EDWYN_FREY",
+          "edwyn frey"
+        ],
+        "parinti_comuni": [],
+        "casatorit_cu_comuni": []
+      },
+      "scor_incredere": 0.92
+    },
+    {
+      "cluster_id": "cluster_032",
+      "nume_reprezentativ": "Tommen Baratheon, Primul pe Numele Său",
+      "id_uri": [
+        "tommen",
+        "tommen_baratheon",
+        "tommen_baratheon_primul_pe_numele_sau"
+      ],
+      "id_intern_uri": [
+        "PERSON_TOMMEN",
+        "PERSON_TOMMEN_BARATHEON",
+        "PERSON_TOMMEN_BARATHEON_PRIMUL_PE_NUMELE_SAU"
+      ],
+      "numar_variante": 3,
+      "semnal": {
+        "tip_semnal": [
+          "parinti_si_casatorit_cu_comuni"
+        ],
+        "copii_comune": [],
+        "parinti_comuni": [
+          "PERSON_CERSEI",
+          "PERSON_CERSEI_LANNISTER",
+          "PERSON_JAIME_LANNISTER",
+          "PERSON_ROBERT_BARATHEON",
+          "cersei",
+          "cersei lannister",
+          "jaime lannister",
+          "robert baratheon"
+        ],
+        "casatorit_cu_comuni": [
+          "PERSON_MARGAERY_TYRELL",
+          "margaery tyrell"
+        ]
+      },
+      "scor_incredere": 0.88
+    },
+    {
+      "cluster_id": "cluster_033",
+      "nume_reprezentativ": "Visenya (regina Visenya)",
+      "id_uri": [
+        "visenya",
+        "visenya_targaryen"
+      ],
+      "id_intern_uri": [
+        "PERSON_VISENYA",
+        "PERSON_VISENYA_TARGARYEN"
+      ],
+      "numar_variante": 2,
+      "semnal": {
+        "tip_semnal": [
+          "copii_plus_alta_relatie_comuna"
+        ],
+        "copii_comune": [
+          "PERSON_MAEGOR_I_TARGARYEN",
+          "maegor i targaryen"
+        ],
+        "parinti_comuni": [
+          "PERSON_AERION_TARGARYEN",
+          "aerion targaryen"
+        ],
+        "casatorit_cu_comuni": []
+      },
+      "scor_incredere": 0.95
+    }
+  ]
+}

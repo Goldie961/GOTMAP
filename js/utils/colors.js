@@ -16,11 +16,35 @@ export const HOUSE_COLORS = {
 };
 
 export function getHouseColor(houseId) {
+  // 1. Check hardcoded overrides first (houses with custom-drawn sigils)
   if (HOUSE_COLORS[houseId]) {
     return HOUSE_COLORS[houseId].primary;
   }
-  // Default fallback (gold/brown ink)
+  // 2. Check houses.json data via DataManager
+  if (window.atlasDataManager) {
+    const house = window.atlasDataManager.getHouse(houseId);
+    if (house && house.colors && house.colors.primary) {
+      return house.colors.primary;
+    }
+  }
+  // 3. Default fallback (gold/brown ink)
   return '#C5A55A';
+}
+
+export function getHouseSecondaryColor(houseId) {
+  // 1. Check hardcoded overrides first (houses with custom-drawn sigils)
+  if (HOUSE_COLORS[houseId]) {
+    return HOUSE_COLORS[houseId].secondary;
+  }
+  // 2. Check houses.json data via DataManager
+  if (window.atlasDataManager) {
+    const house = window.atlasDataManager.getHouse(houseId);
+    if (house && house.colors && house.colors.secondary) {
+      return house.colors.secondary;
+    }
+  }
+  // 3. Default fallback
+  return '#8B7340';
 }
 
 export function getHouseColorWithAlpha(houseId, alpha) {

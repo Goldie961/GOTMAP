@@ -1,0 +1,3836 @@
+Total characters in characters_new.json: 100
+
+--- DAENERYS ---
+{
+  "id": "daenerys_targaryen",
+  "name": "Daenerys Targaryen",
+  "titles": [
+    {
+      "titlu": "regina dragostei",
+      "surse": [
+        {
+          "source_book": "Foc și Sânge",
+          "source_fragment": "2.2",
+          "source_page": "230–231, 245–246, 268, 287, 305, 317–319, 321–322",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Dansul Dragonilor",
+          "source_fragment": null,
+          "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 130,
+        "carte": "Foc și Sânge",
+        "fragment": "2.2"
+      }
+    },
+    {
+      "titlu": "a frumuseții (turnir, 55 D.C.)",
+      "surse": [
+        {
+          "source_book": "Foc și Sânge",
+          "source_fragment": "2.2",
+          "source_page": "230–231, 245–246, 268, 287, 305, 317–319, 321–322",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 130,
+        "carte": "Foc și Sânge",
+        "fragment": "2.2"
+      }
+    },
+    {
+      "titlu": "prima în linia succesiunii (menționat de mama ei)",
+      "surse": [
+        {
+          "source_book": "Foc și Sânge",
+          "source_fragment": "2.3",
+          "source_page": "230–231, 245–246, 268, 287, 305, 317–319, 321–322",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 130,
+        "carte": "Foc și Sânge",
+        "fragment": "2.3"
+      }
+    },
+    {
+      "titlu": "Prințesa Pietrei Dragonului",
+      "surse": [
+        {
+          "source_book": "Urzeala Tronurilor",
+          "source_fragment": 1,
+          "source_page": "2, 8, 13–14, 23, 27–39, 43, 50, 66, 82, 99, 231–243, 356, 363–366, 398–399, 509–513, 827–839, 849",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 298,
+        "carte": "Urzeala Tronurilor",
+        "fragment": 1
+      }
+    },
+    {
+      "titlu": "Khaleesi",
+      "surse": [
+        {
+          "source_book": "Urzeala Tronurilor",
+          "source_fragment": 5,
+          "source_page": "2, 8, 13–14, 23, 27–39, 43, 50, 66, 82, 99, 231–243, 356, 363–366, 398–399, 509–513, 827–839, 849",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Înclestarea Regilor",
+          "source_fragment": 8,
+          "source_page": "nespecificată (Anexă)",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Înclestarea Regilor",
+          "source_fragment": 15,
+          "source_page": "nespecificată (Anexă)",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Iureșul Săbiilor",
+          "source_fragment": 9,
+          "source_page": "150–164, 181",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 298,
+        "carte": "Urzeala Tronurilor",
+        "fragment": 5
+      }
+    },
+    {
+      "titlu": "Mama Dragonilor",
+      "surse": [
+        {
+          "source_book": "Urzeala Tronurilor",
+          "source_fragment": 15,
+          "source_page": "2, 8, 13–14, 23, 27–39, 43, 50, 66, 82, 99, 231–243, 356, 363–366, 398–399, 509–513, 827–839, 849",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Înclestarea Regilor",
+          "source_fragment": 8,
+          "source_page": "nespecificată (Anexă)",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Înclestarea Regilor",
+          "source_fragment": 10,
+          "source_page": "nespecificată (Anexă)",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Înclestarea Regilor",
+          "source_fragment": 13,
+          "source_page": "nespecificată (Anexă)",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Înclestarea Regilor",
+          "source_fragment": 15,
+          "source_page": "nespecificată (Anexă)",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Înclestarea Regilor",
+          "source_fragment": null,
+          "source_page": "nespecificată (Anexă)",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Iureșul Săbiilor",
+          "source_fragment": 5,
+          "source_page": "252–268",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Iureșul Săbiilor",
+          "source_fragment": 6,
+          "source_page": "296–307\n---",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Iureșul Săbiilor",
+          "source_fragment": 9,
+          "source_page": "150–164, 181",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Iureșul Săbiilor",
+          "source_fragment": 14,
+          "source_page": "157–170",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Festinul Ciorilor",
+          "source_fragment": 13,
+          "source_page": "—",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Dansul Dragonilor",
+          "source_fragment": null,
+          "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 298,
+        "carte": "Urzeala Tronurilor",
+        "fragment": 15
+      }
+    },
+    {
+      "titlu": "Regină",
+      "surse": [
+        {
+          "source_book": "Înclestarea Regilor",
+          "source_fragment": 12,
+          "source_page": "nespecificată (Anexă)",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Dansul Dragonilor",
+          "source_fragment": null,
+          "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 299,
+        "carte": "Înclestarea Regilor",
+        "fragment": 12
+      }
+    },
+    {
+      "titlu": "intră singură în Palatul de Pulbere",
+      "surse": [
+        {
+          "source_book": "Înclestarea Regilor",
+          "source_fragment": 12,
+          "source_page": "nespecificată (Anexă)",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 299,
+        "carte": "Înclestarea Regilor",
+        "fragment": 12
+      }
+    },
+    {
+      "titlu": "numită Daenerys Stormborn",
+      "surse": [
+        {
+          "source_book": "Înclestarea Regilor",
+          "source_fragment": 13,
+          "source_page": "nespecificată (Anexă)",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Înclestarea Regilor",
+          "source_fragment": null,
+          "source_page": "nespecificată (Anexă)",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 299,
+        "carte": "Înclestarea Regilor",
+        "fragment": 13
+      }
+    },
+    {
+      "titlu": "Regină a celor Șapte Regate ale Westerosului",
+      "surse": [
+        {
+          "source_book": "Înclestarea Regilor",
+          "source_fragment": 13,
+          "source_page": "nespecificată (Anexă)",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Iureșul Săbiilor",
+          "source_fragment": 9,
+          "source_page": "150–164, 181",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 299,
+        "carte": "Înclestarea Regilor",
+        "fragment": 13
+      }
+    },
+    {
+      "titlu": "Regina Celor Șapte Regate (auto-proclamată)",
+      "surse": [
+        {
+          "source_book": "Înclestarea Regilor",
+          "source_fragment": 15,
+          "source_page": "nespecificată (Anexă)",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Iureșul Săbiilor",
+          "source_fragment": 5,
+          "source_page": "252–268",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Festinul Ciorilor",
+          "source_fragment": 13,
+          "source_page": "—",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 299,
+        "carte": "Înclestarea Regilor",
+        "fragment": 15
+      }
+    },
+    {
+      "titlu": "Daenerys Născută din Furtună",
+      "surse": [
+        {
+          "source_book": "Iureșul Săbiilor",
+          "source_fragment": 5,
+          "source_page": "252–268",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Iureșul Săbiilor",
+          "source_fragment": 9,
+          "source_page": "150–164, 181",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Iureșul Săbiilor",
+          "source_fragment": 14,
+          "source_page": "157–170",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Festinul Ciorilor",
+          "source_fragment": 1,
+          "source_page": "—",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Festinul Ciorilor",
+          "source_fragment": 13,
+          "source_page": "—",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Dansul Dragonilor",
+          "source_fragment": null,
+          "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 300,
+        "carte": "Iureșul Săbiilor",
+        "fragment": 5
+      }
+    },
+    {
+      "titlu": "„Cea Nearsă”",
+      "surse": [
+        {
+          "source_book": "Iureșul Săbiilor",
+          "source_fragment": 5,
+          "source_page": "252–268",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Iureșul Săbiilor",
+          "source_fragment": 9,
+          "source_page": "150–164, 181",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Festinul Ciorilor",
+          "source_fragment": 13,
+          "source_page": "—",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Dansul Dragonilor",
+          "source_fragment": null,
+          "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 300,
+        "carte": "Iureșul Săbiilor",
+        "fragment": 5
+      }
+    },
+    {
+      "titlu": "regină fără tron",
+      "surse": [
+        {
+          "source_book": "Iureșul Săbiilor",
+          "source_fragment": 6,
+          "source_page": "296–307\n---",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 300,
+        "carte": "Iureșul Săbiilor",
+        "fragment": 6
+      }
+    },
+    {
+      "titlu": "ucigașa vrăjitorilor",
+      "surse": [
+        {
+          "source_book": "Iureșul Săbiilor",
+          "source_fragment": 14,
+          "source_page": "157–170",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 300,
+        "carte": "Iureșul Săbiilor",
+        "fragment": 14
+      }
+    },
+    {
+      "titlu": "eliberatoarea",
+      "surse": [
+        {
+          "source_book": "Iureșul Săbiilor",
+          "source_fragment": 14,
+          "source_page": "157–170",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 300,
+        "carte": "Iureșul Săbiilor",
+        "fragment": 14
+      }
+    },
+    {
+      "titlu": "Prima pe Numele Ei",
+      "surse": [
+        {
+          "source_book": "Festinul Ciorilor",
+          "source_fragment": 13,
+          "source_page": "—",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 301,
+        "carte": "Festinul Ciorilor",
+        "fragment": 13
+      }
+    },
+    {
+      "titlu": "regină a Meereenului",
+      "surse": [
+        {
+          "source_book": "Festinul Ciorilor",
+          "source_fragment": 13,
+          "source_page": "—",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Dansul Dragonilor",
+          "source_fragment": null,
+          "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 301,
+        "carte": "Festinul Ciorilor",
+        "fragment": 13
+      }
+    },
+    {
+      "titlu": "Regină a Andalilor",
+      "surse": [
+        {
+          "source_book": "Festinul Ciorilor",
+          "source_fragment": 13,
+          "source_page": "—",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Dansul Dragonilor",
+          "source_fragment": null,
+          "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 301,
+        "carte": "Festinul Ciorilor",
+        "fragment": 13
+      }
+    },
+    {
+      "titlu": "a Rhoynarilor",
+      "surse": [
+        {
+          "source_book": "Festinul Ciorilor",
+          "source_fragment": 13,
+          "source_page": "—",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Dansul Dragonilor",
+          "source_fragment": null,
+          "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 301,
+        "carte": "Festinul Ciorilor",
+        "fragment": 13
+      }
+    },
+    {
+      "titlu": "a Primilor Oameni",
+      "surse": [
+        {
+          "source_book": "Festinul Ciorilor",
+          "source_fragment": 13,
+          "source_page": "—",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Dansul Dragonilor",
+          "source_fragment": null,
+          "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 301,
+        "carte": "Festinul Ciorilor",
+        "fragment": 13
+      }
+    },
+    {
+      "titlu": "Khaleesi a întinsei Mări de Iarbă",
+      "surse": [
+        {
+          "source_book": "Festinul Ciorilor",
+          "source_fragment": 13,
+          "source_page": "—",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Dansul Dragonilor",
+          "source_fragment": null,
+          "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 301,
+        "carte": "Festinul Ciorilor",
+        "fragment": 13
+      }
+    },
+    {
+      "titlu": "a Rhoynarilor şi a Primilor Oameni",
+      "surse": [
+        {
+          "source_book": "Dansul Dragonilor",
+          "source_fragment": null,
+          "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 302,
+        "carte": "Dansul Dragonilor",
+        "fragment": "necunoscut"
+      }
+    },
+    {
+      "titlu": "Cea Care a Sfărâmat Lanţurile",
+      "surse": [
+        {
+          "source_book": "Dansul Dragonilor",
+          "source_fragment": null,
+          "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 302,
+        "carte": "Dansul Dragonilor",
+        "fragment": "necunoscut"
+      }
+    },
+    {
+      "titlu": "regina argintie",
+      "surse": [
+        {
+          "source_book": "Dansul Dragonilor",
+          "source_fragment": null,
+          "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 302,
+        "carte": "Dansul Dragonilor",
+        "fragment": "necunoscut"
+      }
+    },
+    {
+      "titlu": "Dezrobitoarea",
+      "surse": [
+        {
+          "source_book": "Dansul Dragonilor",
+          "source_fragment": null,
+          "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 302,
+        "carte": "Dansul Dragonilor",
+        "fragment": "necunoscut"
+      }
+    },
+    {
+      "titlu": "„Luminăţia Ta”",
+      "surse": [
+        {
+          "source_book": "Dansul Dragonilor",
+          "source_fragment": null,
+          "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 302,
+        "carte": "Dansul Dragonilor",
+        "fragment": "necunoscut"
+      }
+    },
+    {
+      "titlu": "„Măreţia Ta”",
+      "surse": [
+        {
+          "source_book": "Dansul Dragonilor",
+          "source_fragment": null,
+          "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 302,
+        "carte": "Dansul Dragonilor",
+        "fragment": "necunoscut"
+      }
+    },
+    {
+      "titlu": "„salvatoarea lumii”",
+      "surse": [
+        {
+          "source_book": "Dansul Dragonilor",
+          "source_fragment": null,
+          "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 302,
+        "carte": "Dansul Dragonilor",
+        "fragment": "necunoscut"
+      }
+    },
+    {
+      "titlu": "Regina Golfului Sclavilor",
+      "surse": [
+        {
+          "source_book": "Dansul Dragonilor",
+          "source_fragment": null,
+          "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 302,
+        "carte": "Dansul Dragonilor",
+        "fragment": "necunoscut"
+      }
+    }
+  ],
+  "born": [
+    "împlinește paisprezece ani în acest fragment (de ziua ei onomastică); născută la Piatra Dragonului",
+    "Stormborn (poreclă legată de naștere, nu an) (notat și: cincisprezece ani (menționat explicit)) (notat și: pe malurile Tridentului)"
+  ],
+  "died": null,
+  "description": "",
+  "timeline": [],
+  "house": null,
+  "canon": "canon",
+  "locatie_asociata": "piatra_dragonului",
+  "titlu_curent": "Regina Golfului Sclavilor",
+  "membru_al": "HOUSE_TARGARYEN",
+  "parinti": [
+    "PERSON_AERYS_AL_II_LEA_TARGARYEN",
+    "PERSON_ALYSANNE",
+    "PERSON_JAEHAERYS_I_TARGARYEN",
+    "PERSON_REGELE_AERYS",
+    "PERSON_REGELE_AERYS_AL_II_LEA_TARGARYEN",
+    "PERSON_REGELE_AERYS_TARGARYEN",
+    "PERSON_REGINA_RHAELLA"
+  ],
+  "copii": [
+    "PERSON_RHAEGO"
+  ],
+  "frati": [
+    "PERSON_AEMON_TARGARYEN",
+    "PERSON_ALYSSA",
+    "PERSON_BAELON_TARGARYEN",
+    "PERSON_PRINTESA_ALYSSA_TARGARYEN",
+    "PERSON_RHAEGAR",
+    "PERSON_RHAEGAR_TARGARYEN",
+    "PERSON_VISERYS",
+    "PERSON_VISERYS_TARGARYEN"
+  ],
+  "casatorit_cu": [
+    "PERSON_HIZDAHR_ZO_LORAQ",
+    "PERSON_KHAL_DROGO"
+  ],
+  "possible_parent_of": [],
+  "age_at": [
+    "13 ani",
+    "14 ani (menționat explicit)"
+  ],
+  "moarte": {
+    "descriere": "nu apar; în viață; dispărută, presupusă posibil moartă (necunfirmat); stare necunoscută — presupusă moartă de unii, în viață (fugită pe dragon) în realitate",
+    "confidence": "confirmed",
+    "variante": null
+  },
+  "id_intern": "PERSON_DAENERYS_TARGARYEN",
+  "aliasuri": [
+    "Dany"
+  ],
+  "_afirmatii_pe_predicat": {
+    "age_at": [
+      {
+        "directie": "subject",
+        "predicat_original": "age_at",
+        "predicate": "age_at",
+        "valoare": "13 ani",
+        "confidence": "confirmed",
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": "2, 8, 13–14, 23, 27–39, 43, 50, 66, 82, 99, 231–243, 356, 363–366, 398–399, 509–513, 827–839, 849"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "age_at",
+        "predicate": "age_at",
+        "valoare": "14 ani (menționat explicit)",
+        "confidence": "confirmed",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": "nespecificată (Anexă)"
+      }
+    ],
+    "ally_of": [
+      {
+        "directie": "object",
+        "predicat_original": "ally_of",
+        "predicate": "ally_of",
+        "valoare": "HOUSE_LORAQ",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": 17,
+        "source_page": "935"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "ally_of",
+        "predicate": "ally_of",
+        "valoare": "HOUSE_LORAQ",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": 19,
+        "source_page": "1058–1069"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "ally_of",
+        "predicate": "ally_of",
+        "valoare": "HOUSE_MARTELL",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": 3,
+        "source_page": "119–135"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "ally_of",
+        "predicate": "ally_of",
+        "valoare": "HOUSE_MARTELL",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": "13-1",
+        "source_page": "682–689"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "ally_of",
+        "predicate": "ally_of",
+        "valoare": "HOUSE_MARTELL",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": 14,
+        "source_page": "766"
+      }
+    ],
+    "born": [
+      {
+        "directie": "subject",
+        "predicat_original": "born",
+        "predicate": "born",
+        "valoare": "împlinește paisprezece ani în acest fragment (de ziua ei onomastică); născută la Piatra Dragonului",
+        "confidence": "uncertain",
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": 5,
+        "source_page": "2, 8, 13–14, 23, 27–39, 43, 50, 66, 82, 99, 231–243, 356, 363–366, 398–399, 509–513, 827–839, 849"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "born",
+        "predicate": "born",
+        "valoare": "Stormborn (poreclă legată de naștere, nu an) (notat și: cincisprezece ani (menționat explicit)) (notat și: pe malurile Tridentului)",
+        "confidence": "confirmed",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": "nespecificată (Anexă)"
+      }
+    ],
+    "child_of": [
+      {
+        "directie": "subject",
+        "predicat_original": "child_of",
+        "predicate": "child_of",
+        "valoare": "PERSON_AERYS_AL_II_LEA_TARGARYEN",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+        "surse_combinate": [
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": 8,
+            "source_page": "7, 40",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": null,
+            "source_page": "7, 40",
+            "confidence": "confirmed"
+          }
+        ]
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "child_of",
+        "predicate": "child_of",
+        "valoare": "PERSON_ALYSANNE",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+        "surse_combinate": [
+          {
+            "source_book": "Foc și Sânge",
+            "source_fragment": null,
+            "source_page": "230–231, 245–246, 268, 287, 305, 317–319, 321–322",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Foc și Sânge",
+            "source_fragment": null,
+            "source_page": "224, 285",
+            "confidence": "confirmed"
+          }
+        ]
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "child_of",
+        "predicate": "child_of",
+        "valoare": "PERSON_JAEHAERYS_I_TARGARYEN",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+        "surse_combinate": [
+          {
+            "source_book": "Foc și Sânge",
+            "source_fragment": null,
+            "source_page": "230–231, 245–246, 268, 287, 305, 317–319, 321–322",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Foc și Sânge",
+            "source_fragment": "2.3",
+            "source_page": "119–161 (prezent pe tot parcursul fragmentului), 218–221, 230–231, general (Fragment 2.3), peste tot (Fragment 3.1), 379–381, 393, 436, 482",
+            "confidence": "confirmed"
+          }
+        ]
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "child_of",
+        "predicate": "child_of",
+        "valoare": "PERSON_REGELE_AERYS",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+        "surse_combinate": [
+          {
+            "source_book": "Dansul Dragonilor",
+            "source_fragment": null,
+            "source_page": "777",
+            "confidence": "confirmed"
+          }
+        ]
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "child_of",
+        "predicate": "child_of",
+        "valoare": "PERSON_REGELE_AERYS_AL_II_LEA_TARGARYEN",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+        "surse_combinate": [
+          {
+            "source_book": "Dansul Dragonilor",
+            "source_fragment": null,
+            "source_page": "407, 434",
+            "confidence": "confirmed"
+          }
+        ]
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "child_of",
+        "predicate": "child_of",
+        "valoare": "PERSON_REGELE_AERYS_TARGARYEN",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+        "surse_combinate": [
+          {
+            "source_book": "Dansul Dragonilor",
+            "source_fragment": null,
+            "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+            "confidence": "confirmed"
+          }
+        ]
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "child_of",
+        "predicate": "child_of",
+        "valoare": "PERSON_REGINA_RHAELLA",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+        "surse_combinate": [
+          {
+            "source_book": "Dansul Dragonilor",
+            "source_fragment": null,
+            "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Dansul Dragonilor",
+            "source_fragment": null,
+            "source_page": "777",
+            "confidence": "confirmed"
+          }
+        ]
+      }
+    ],
+    "died": [
+      {
+        "directie": "subject",
+        "predicat_original": "died",
+        "predicate": "died",
+        "valoare": "nu apar; în viață; dispărută, presupusă posibil moartă (necunfirmat); stare necunoscută — presupusă moartă de unii, în viață (fugită pe dragon) în realitate",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      }
+    ],
+    "enemy_of": [
+      {
+        "directie": "object",
+        "predicat_original": "enemy_of",
+        "predicate": "enemy_of",
+        "valoare": "HOUSE_LANNISTER",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": 8,
+        "source_page": "354"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "enemy_of",
+        "predicate": "enemy_of",
+        "valoare": "HOUSE_PAHL",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": 2,
+        "source_page": "214"
+      }
+    ],
+    "married_to": [
+      {
+        "directie": "subject",
+        "predicat_original": "married_to",
+        "predicate": "married_to",
+        "valoare": "PERSON_HIZDAHR_ZO_LORAQ",
+        "confidence": "confirmed",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 4,
+        "source_page": "nespecificată (Anexă)",
+        "surse_combinate": [
+          {
+            "source_book": "Dansul Dragonilor",
+            "source_fragment": null,
+            "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+            "confidence": "confirmed"
+          }
+        ]
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "married_to",
+        "predicate": "married_to",
+        "valoare": "PERSON_KHAL_DROGO",
+        "confidence": "confirmed",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 4,
+        "source_page": "nespecificată (Anexă)",
+        "surse_combinate": [
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": 4,
+            "source_page": "nespecificată (Anexă)",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": 8,
+            "source_page": "nespecificată (Anexă)",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": 12,
+            "source_page": "nespecificată (Anexă)",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": 15,
+            "source_page": "nespecificată (Anexă)",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Dansul Dragonilor",
+            "source_fragment": null,
+            "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+            "confidence": "confirmed"
+          }
+        ]
+      }
+    ],
+    "member_of": [
+      {
+        "directie": "subject",
+        "predicat_original": "member_of",
+        "predicate": "member_of",
+        "valoare": "HOUSE_TARGARYEN",
+        "confidence": "confirmed",
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": "2, 8, 13–14, 23, 27–39, 43, 50, 66, 82, 99, 231–243, 356, 363–366, 398–399, 509–513, 827–839, 849"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "member_of",
+        "predicate": "member_of",
+        "valoare": "HOUSE_TARGARYEN",
+        "confidence": "confirmed",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": "nespecificată (Anexă)"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "member_of",
+        "predicate": "member_of",
+        "valoare": "HOUSE_TARGARYEN",
+        "confidence": "confirmed",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 5,
+        "source_page": "252–268"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "member_of",
+        "predicate": "member_of",
+        "valoare": "HOUSE_TARGARYEN",
+        "confidence": "confirmed",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 6,
+        "source_page": "296–307\n---"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "member_of",
+        "predicate": "member_of",
+        "valoare": "HOUSE_TARGARYEN",
+        "confidence": "confirmed",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 9,
+        "source_page": "150–164, 181"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "member_of",
+        "predicate": "member_of",
+        "valoare": "HOUSE_TARGARYEN",
+        "confidence": "confirmed",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 14,
+        "source_page": "157–170"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "member_of",
+        "predicate": "member_of",
+        "valoare": "HOUSE_TARGARYEN",
+        "confidence": "confirmed",
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "—"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "member_of",
+        "predicate": "member_of",
+        "valoare": "HOUSE_TARGARYEN",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "member_of",
+        "predicate": "member_of",
+        "valoare": "HOUSE_TARGARYEN",
+        "confidence": "confirmed",
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "230–231, 245–246, 268, 287, 305, 317–319, 321–322"
+      }
+    ],
+    "owner_at": [
+      {
+        "directie": "object",
+        "predicat_original": "owner_at",
+        "predicate": "owner_at",
+        "valoare": "LOCATION_MEEREEN",
+        "confidence": "confirmed",
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": null
+      },
+      {
+        "directie": "object",
+        "predicat_original": "owner_at",
+        "predicate": "owner_at",
+        "valoare": "LOCATION_MAREA_PIRAMIDA",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": "7",
+        "source_page": "397–399"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "owner_at",
+        "predicate": "owner_at",
+        "valoare": "LOCATION_MAREA_PIRAMIDA",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": "14",
+        "source_page": "775–776"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "owner_at",
+        "predicate": "owner_at",
+        "valoare": "LOCATION_MAREA_PIRAMIDA",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": "17",
+        "source_page": "926–929"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "owner_at",
+        "predicate": "owner_at",
+        "valoare": "LOCATION_MAREA_PIRAMIDA",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": "19",
+        "source_page": "1067–1071"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "owner_at",
+        "predicate": "owner_at",
+        "valoare": "LOCATION_MAREA_PIRAMIDA_A_MEEREENULUI",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": "4",
+        "source_page": "205, 218–222"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "owner_at",
+        "predicate": "owner_at",
+        "valoare": "LOCATION_MEEREEN",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": "1",
+        "source_page": null
+      },
+      {
+        "directie": "object",
+        "predicat_original": "owner_at",
+        "predicate": "owner_at",
+        "valoare": "LOCATION_MEEREEN",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": "2",
+        "source_page": "58–70"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "owner_at",
+        "predicate": "owner_at",
+        "valoare": "LOCATION_MEEREEN",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": "3",
+        "source_page": "121–122"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "owner_at",
+        "predicate": "owner_at",
+        "valoare": "LOCATION_MEEREEN",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": "4",
+        "source_page": "205–222"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "owner_at",
+        "predicate": "owner_at",
+        "valoare": "LOCATION_MEEREEN",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": "5",
+        "source_page": "278–285"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "owner_at",
+        "predicate": "owner_at",
+        "valoare": "LOCATION_MEEREEN",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": "6",
+        "source_page": "286–297"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "owner_at",
+        "predicate": "owner_at",
+        "valoare": "LOCATION_MEEREEN",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": "7",
+        "source_page": "397–399"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "owner_at",
+        "predicate": "owner_at",
+        "valoare": "LOCATION_MEEREEN",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": "8",
+        "source_page": "400–413"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "owner_at",
+        "predicate": "owner_at",
+        "valoare": "LOCATION_MEEREEN",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": "11",
+        "source_page": "584, 594–596"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "owner_at",
+        "predicate": "owner_at",
+        "valoare": "LOCATION_MEEREEN",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": "12",
+        "source_page": "634–648"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "owner_at",
+        "predicate": "owner_at",
+        "valoare": "LOCATION_MEEREEN",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": "14",
+        "source_page": "758–779"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "owner_at",
+        "predicate": "owner_at",
+        "valoare": "LOCATION_MEEREEN",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": "15",
+        "source_page": "831–843"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "owner_at",
+        "predicate": "owner_at",
+        "valoare": "LOCATION_MEEREEN",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": "16",
+        "source_page": "890–905"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "owner_at",
+        "predicate": "owner_at",
+        "valoare": "LOCATION_MEEREEN",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": "17",
+        "source_page": "925–943"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "owner_at",
+        "predicate": "owner_at",
+        "valoare": "LOCATION_MEEREEN",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": "20",
+        "source_page": "1074–1081"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "owner_at",
+        "predicate": "owner_at",
+        "valoare": "LOCATION_MEEREEN",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": "24",
+        "source_page": "1344–1345"
+      }
+    ],
+    "parent_of": [
+      {
+        "directie": "subject",
+        "predicat_original": "parent_of",
+        "predicate": "parent_of",
+        "valoare": "PERSON_RHAEGO",
+        "confidence": "confirmed",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 4,
+        "source_page": "nespecificată (Anexă)",
+        "surse_combinate": [
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": 4,
+            "source_page": "nespecificată (Anexă)",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Festinul Ciorilor",
+            "source_fragment": 13,
+            "source_page": "—",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Dansul Dragonilor",
+            "source_fragment": null,
+            "source_page": "935, 1261–1262",
+            "confidence": "confirmed"
+          }
+        ]
+      }
+    ],
+    "participant": [
+      {
+        "directie": "object",
+        "predicat_original": "participant",
+        "predicate": "participant",
+        "valoare": "EVENT_DAENERYS_SARE_IN_ARENA_IL_CONTROLEAZA_PE_DROGON_CU_BICIUL_MAESTRULUI_DE_ARENA_MO",
+        "confidence": "confirmed",
+        "source_book": "Dansul dragonilor",
+        "source_fragment": null,
+        "source_page": "942–944"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "participant",
+        "predicate": "participant",
+        "valoare": "EVENT_DAENERYS_A_FUGIT_CALARE_PE_DROGON_DIN_ARENA",
+        "confidence": "confirmed",
+        "source_book": "Dansul dragonilor",
+        "source_fragment": null,
+        "source_page": "990–991"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "participant",
+        "predicate": "participant",
+        "valoare": "EVENT_GASESC_ORASUL_COMPLET_ABANDONAT_CU_FRUCTE_APA_SI_ADAPOST",
+        "confidence": "confirmed",
+        "source_book": "Încleștarea regilor",
+        "source_fragment": null,
+        "source_page": "nespecificată"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "participant",
+        "predicate": "participant",
+        "valoare": "EVENT_DANY_A_CERUT_AJUTOR_DE_LA_CEI_PURI_IN_SALA_CELOR_O_MIE_DE_TRONURI",
+        "confidence": "confirmed",
+        "source_book": "Încleștarea regilor",
+        "source_fragment": null,
+        "source_page": "nespecificată"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "participant",
+        "predicate": "participant",
+        "valoare": "EVENT_QUAITHE_O_AVERTIZEAZA_PE_DANY_SA_PARASEASCA_URGENT_QARTH_SUGERANDU_I_SA_MEARGA_L",
+        "confidence": "confirmed",
+        "source_book": "Încleștarea regilor",
+        "source_fragment": null,
+        "source_page": "nespecificată"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "participant",
+        "predicate": "participant",
+        "valoare": "EVENT_DAENERYS_INTRA_IN_PALATUL_DE_PULBERE_URMAND_REGULA_MEREU_USA_DIN_DREAPTA_VEDE_VE",
+        "confidence": "confirmed",
+        "source_book": "Încleștarea regilor",
+        "source_fragment": null,
+        "source_page": "nespecificată"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "participant",
+        "predicate": "participant",
+        "valoare": "EVENT_FLOTA_NAVIGHEAZA_DE_LA_QARTH_SPRE_PENTOS",
+        "confidence": "confirmed",
+        "source_book": "Iureșul săbiilor",
+        "source_fragment": null,
+        "source_page": "91-104"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "participant",
+        "predicate": "participant",
+        "valoare": "EVENT_MEEREENUL_CUCERIT_PRIN_BERBECI_NAVALI_TRANSFORMATI_DIN_CORABII_DE_SCLAVI_SI_UN_G",
+        "confidence": "confirmed",
+        "source_book": "Iureșul săbiilor",
+        "source_fragment": null,
+        "source_page": "158–159, 166"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "participant",
+        "predicate": "participant",
+        "valoare": "EVENT_CLEON_A_DECAPITAT_CONSILIUL_ACUZANDU_L_DE_COMPLOT_PENTRU_RESTAURAREA_SCLAVIEI_SI",
+        "confidence": "confirmed",
+        "source_book": "Iureșul săbiilor",
+        "source_fragment": null,
+        "source_page": "160–161"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "participant",
+        "predicate": "participant",
+        "valoare": "EVENT_MERO_DEGHIZAT_O_TRAGE_PE_DANY_DE_PE_CAL_O_AMENINTA_CU_SABIA",
+        "confidence": "confirmed",
+        "source_book": "Iureșul săbiilor",
+        "source_fragment": null,
+        "source_page": "14–17"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "participant",
+        "predicate": "participant",
+        "valoare": "EVENT_SER_JORAH_IL_RECUNOASTE_PE_ARSTAN_DREPT_SER_BARRISTAN_SELMY_FOST_LORD_COMANDANT_",
+        "confidence": "confirmed",
+        "source_book": "Iureșul săbiilor",
+        "source_fragment": null,
+        "source_page": "17–18"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "participant",
+        "predicate": "participant",
+        "valoare": "EVENT_DANY_INSPECTEAZA_1000_DIN_CEI_8000_DE_NEPATATI_DISPONIBILI_PENTRU_CUMPARARE_LA_A",
+        "confidence": "confirmed",
+        "source_book": "Iureșul săbiilor",
+        "source_fragment": null,
+        "source_page": "252–261"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "participant",
+        "predicate": "participant",
+        "valoare": "EVENT_DANY_CUMPARA_INTREAGA_ARMATA_DE_NEPATATI_PLATIND_CU_TOATE",
+        "confidence": "confirmed",
+        "source_book": "Iureșul săbiilor",
+        "source_fragment": null,
+        "source_page": "296–301"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "participant",
+        "predicate": "participant",
+        "valoare": "EVENT_DAENERYS_SE_NASTE_PE_PIATRA_DRAGONULUI_IN_TIMPUL_UNEI_FURTUNI_CUMPLITE",
+        "confidence": "confirmed",
+        "source_book": "Urzeala tronurilor",
+        "source_fragment": null,
+        "source_page": "29–30, 439"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "participant",
+        "predicate": "participant",
+        "valoare": "EVENT_CEREMONIA_DE_CASATORIE_A_DAENERYSEI_CU_KHAL_DROGO_IN_AFARA_PENTOSULUI_MARCATA_DE",
+        "confidence": "confirmed",
+        "source_book": "Urzeala tronurilor",
+        "source_fragment": null,
+        "source_page": "100–110"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "participant",
+        "predicate": "participant",
+        "valoare": "EVENT_KHALASARUL_MARSALUIESTE_SPRE_VAES_DOTHRAK",
+        "confidence": "confirmed",
+        "source_book": "Urzeala tronurilor",
+        "source_fragment": null,
+        "source_page": "233–239"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "participant",
+        "predicate": "participant",
+        "valoare": "EVENT_DUPA_O_SERIE_DE_VISE_INTENSE_CU_DRAGONI_SI_APROPIERE_DE_OUALE_FOSILIZATE_DANY_RE",
+        "confidence": "confirmed",
+        "source_book": "Urzeala tronurilor",
+        "source_fragment": null,
+        "source_page": "232–243"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "participant",
+        "predicate": "participant",
+        "valoare": "EVENT_DANY_MANANCA_INTREAGA_INIMA_CRUDA_A_UNUI_ARMASAR_ARMASAR_FARA_SA_SE_INECE_INDEPL",
+        "confidence": "confirmed",
+        "source_book": "Urzeala tronurilor",
+        "source_fragment": null,
+        "source_page": "508–513"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "participant",
+        "predicate": "participant",
+        "valoare": "EVENT_VISERYS_APARE_BEAT_LA_OSPATUL_SACRU_CU_SABIA_SCOASA_SI",
+        "confidence": "confirmed",
+        "source_book": "Urzeala tronurilor",
+        "source_fragment": null,
+        "source_page": "514–520"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "participant",
+        "predicate": "participant",
+        "valoare": "EVENT_IN_PIATA_DIN_VAES_DOTHRAK_UN_NEGUSTOR_INCEARCA_SA_O_OTRAVEASCA_PE_DANY_CU_UN_BUT",
+        "confidence": "confirmed",
+        "source_book": "Urzeala tronurilor",
+        "source_fragment": null,
+        "source_page": "610–617"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "participant",
+        "predicate": "participant",
+        "valoare": "EVENT_KHALASARUL_ATACA_UN_ORAS_LHAZAREEN",
+        "confidence": "confirmed",
+        "source_book": "Urzeala tronurilor",
+        "source_fragment": null,
+        "source_page": "690–700"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "participant",
+        "predicate": "participant",
+        "valoare": "EVENT_RANA_LUI_DROGO_SE_INFECTEAZA_GRAV_DUPA_CE_EL_SMULGE_PANSAMENTUL_DE_PLANTE",
+        "confidence": "confirmed",
+        "source_book": "Urzeala tronurilor",
+        "source_fragment": null,
+        "source_page": "730–744"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "participant",
+        "predicate": "participant",
+        "valoare": "EVENT_DANY_SE_TREZESTE_DIN_FEBRA_SI_AFLA_CA_PRUNCUL_EI_RHAEGO_S_A_NASCUT_MORT_DESCRIS_",
+        "confidence": "confirmed",
+        "source_book": "Urzeala tronurilor",
+        "source_fragment": null,
+        "source_page": "784–790"
+      },
+      {
+        "directie": "object",
+        "predicat_original": "participant",
+        "predicate": "participant",
+        "valoare": "EVENT_DANY_CONSTRUIESTE_UN_RUG_FUNERAR_URIAS_PENTRU_DROGO",
+        "confidence": "confirmed",
+        "source_book": "Urzeala tronurilor",
+        "source_fragment": null,
+        "source_page": "827–839"
+      }
+    ],
+    "sibling_of": [
+      {
+        "directie": "subject",
+        "predicat_original": "sibling_of",
+        "predicate": "sibling_of",
+        "valoare": "PERSON_AEMON_TARGARYEN",
+        "confidence": "confirmed",
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": "2, 8, 13–14, 23, 27–39, 43, 50, 66, 82, 99, 231–243, 356, 363–366, 398–399, 509–513, 827–839, 849",
+        "surse_combinate": [
+          {
+            "source_book": "Foc și Sânge",
+            "source_fragment": null,
+            "source_page": "230–231, 245–246, 268, 287, 305, 317–319, 321–322",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Foc și Sânge",
+            "source_fragment": null,
+            "source_page": "270, 287–288, 327, 332–334, 339–340, 346, 371–373, 379–380",
+            "confidence": "confirmed"
+          }
+        ]
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "sibling_of",
+        "predicate": "sibling_of",
+        "valoare": "PERSON_ALYSSA",
+        "confidence": "confirmed",
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": "2, 8, 13–14, 23, 27–39, 43, 50, 66, 82, 99, 231–243, 356, 363–366, 398–399, 509–513, 827–839, 849",
+        "surse_combinate": [
+          {
+            "source_book": "Foc și Sânge",
+            "source_fragment": null,
+            "source_page": "230–231, 245–246, 268, 287, 305, 317–319, 321–322",
+            "confidence": "confirmed"
+          }
+        ]
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "sibling_of",
+        "predicate": "sibling_of",
+        "valoare": "PERSON_BAELON_TARGARYEN",
+        "confidence": "confirmed",
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": "2, 8, 13–14, 23, 27–39, 43, 50, 66, 82, 99, 231–243, 356, 363–366, 398–399, 509–513, 827–839, 849",
+        "surse_combinate": [
+          {
+            "source_book": "Foc și Sânge",
+            "source_fragment": null,
+            "source_page": "230–231, 245–246, 268, 287, 305, 317–319, 321–322",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Foc și Sânge",
+            "source_fragment": null,
+            "source_page": "286–288, 322, 327, 333, 339–340, 346, 352, 366–367, 373, 375, 380, 383–384",
+            "confidence": "confirmed"
+          }
+        ]
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "sibling_of",
+        "predicate": "sibling_of",
+        "valoare": "PERSON_PRINTESA_ALYSSA_TARGARYEN",
+        "confidence": "confirmed",
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": "2, 8, 13–14, 23, 27–39, 43, 50, 66, 82, 99, 231–243, 356, 363–366, 398–399, 509–513, 827–839, 849",
+        "surse_combinate": [
+          {
+            "source_book": "Foc și Sânge",
+            "source_fragment": null,
+            "source_page": "321–322, 337–340, 352, 367",
+            "confidence": "confirmed"
+          }
+        ]
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "sibling_of",
+        "predicate": "sibling_of",
+        "valoare": "PERSON_RHAEGAR",
+        "confidence": "confirmed",
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": "2, 8, 13–14, 23, 27–39, 43, 50, 66, 82, 99, 231–243, 356, 363–366, 398–399, 509–513, 827–839, 849",
+        "surse_combinate": [
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 6,
+            "source_page": "296–307\n---",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Festinul Ciorilor",
+            "source_fragment": null,
+            "source_page": "—",
+            "confidence": "confirmed"
+          }
+        ]
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "sibling_of",
+        "predicate": "sibling_of",
+        "valoare": "PERSON_RHAEGAR_TARGARYEN",
+        "confidence": "confirmed",
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": "2, 8, 13–14, 23, 27–39, 43, 50, 66, 82, 99, 231–243, 356, 363–366, 398–399, 509–513, 827–839, 849",
+        "surse_combinate": [
+          {
+            "source_book": "Urzeala Tronurilor",
+            "source_fragment": null,
+            "source_page": "2, 8, 13–14, 23, 27–39, 43, 50, 66, 82, 99, 231–243, 356, 363–366, 398–399, 509–513, 827–839, 849",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 5,
+            "source_page": "252–268",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 9,
+            "source_page": "150–164, 181",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 14,
+            "source_page": "157–170",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Dansul Dragonilor",
+            "source_fragment": null,
+            "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Urzeala Tronurilor",
+            "source_fragment": null,
+            "source_page": "2, 30, 44, 50, 54, 65, 238, 364, 368, 395, 501–502, 510, 653–654, 798, 849",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": null,
+            "source_page": "7, nespecificată (Anexă)",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 5,
+            "source_page": "267–268, 277–278",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 6,
+            "source_page": "302, 304\n---",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 9,
+            "source_page": "161–163, 181–182",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Festinul Ciorilor",
+            "source_fragment": null,
+            "source_page": "—",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Dansul Dragonilor",
+            "source_fragment": null,
+            "source_page": "295–296, 327 (posibil tată al „Tânărului Griff\"), 406–407, 416, 423, 535, 868, 1085, 1092–1093, 1186, 1187, 1190–1191, 1278, 1281–1282",
+            "confidence": "confirmed"
+          }
+        ]
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "sibling_of",
+        "predicate": "sibling_of",
+        "valoare": "PERSON_VISERYS",
+        "confidence": "confirmed",
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": "2, 8, 13–14, 23, 27–39, 43, 50, 66, 82, 99, 231–243, 356, 363–366, 398–399, 509–513, 827–839, 849",
+        "surse_combinate": [
+          {
+            "source_book": "Urzeala Tronurilor",
+            "source_fragment": null,
+            "source_page": "2, 8, 13–14, 23, 27–39, 43, 50, 66, 82, 99, 231–243, 356, 363–366, 398–399, 509–513, 827–839, 849",
+            "confidence": "confirmed"
+          }
+        ]
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "sibling_of",
+        "predicate": "sibling_of",
+        "valoare": "PERSON_VISERYS_TARGARYEN",
+        "confidence": "confirmed",
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": null,
+        "source_page": "2, 8, 13–14, 23, 27–39, 43, 50, 66, 82, 99, 231–243, 356, 363–366, 398–399, 509–513, 827–839, 849",
+        "surse_combinate": [
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": null,
+            "source_page": "nespecificată (Anexă)",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 6,
+            "source_page": "296–307\n---",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 9,
+            "source_page": "150–164, 181",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 14,
+            "source_page": "157–170",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Dansul Dragonilor",
+            "source_fragment": null,
+            "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Urzeala Tronurilor",
+            "source_fragment": null,
+            "source_page": "2, 8, 23, 27–39, 99, 232–239, 363, 398–399, 511, 849",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": null,
+            "source_page": "40, nespecificată (Anexă)",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 6,
+            "source_page": "297, 302\n---",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 9,
+            "source_page": "161–163",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Dansul Dragonilor",
+            "source_fragment": null,
+            "source_page": "Daenerys I, 106–107, 216, 219, 288, 381, 412, 426, 533, 634, 768, 1263, 1267, 1269–1270",
+            "confidence": "confirmed"
+          }
+        ]
+      }
+    ],
+    "title_at": [
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Prințesa Pietrei Dragonului",
+        "confidence": "confirmed",
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": 1,
+        "source_page": "2, 8, 13–14, 23, 27–39, 43, 50, 66, 82, 99, 231–243, 356, 363–366, 398–399, 509–513, 827–839, 849"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "khaleesi",
+        "confidence": "confirmed",
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": 5,
+        "source_page": "2, 8, 13–14, 23, 27–39, 43, 50, 66, 82, 99, 231–243, 356, 363–366, 398–399, 509–513, 827–839, 849"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "„mireasa dragonilor\"",
+        "confidence": "confirmed",
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": 15,
+        "source_page": "2, 8, 13–14, 23, 27–39, 43, 50, 66, 82, 99, 231–243, 356, 363–366, 398–399, 509–513, 827–839, 849"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "„mama dragonilor\" (autointitulare simbolică la finalul capitolului)",
+        "confidence": "confirmed",
+        "source_book": "Urzeala Tronurilor",
+        "source_fragment": 15,
+        "source_page": "2, 8, 13–14, 23, 27–39, 43, 50, 66, 82, 99, 231–243, 356, 363–366, 398–399, 509–513, 827–839, 849"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "„Mama Dragonilor\"",
+        "confidence": "confirmed",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 8,
+        "source_page": "nespecificată (Anexă)"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Khaleesi",
+        "confidence": "confirmed",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 8,
+        "source_page": "nespecificată (Anexă)"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "„Mama Dragonilor\"",
+        "confidence": "confirmed",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 10,
+        "source_page": "nespecificată (Anexă)"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Regină",
+        "confidence": "confirmed",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 12,
+        "source_page": "nespecificată (Anexă)"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "intră singură în Palatul de Pulbere",
+        "confidence": "confirmed",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 12,
+        "source_page": "nespecificată (Anexă)"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Daenerys Stormborn",
+        "confidence": "confirmed",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 13,
+        "source_page": "nespecificată (Anexă)"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Regină a celor Șapte Regate ale Westerosului",
+        "confidence": "confirmed",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 13,
+        "source_page": "nespecificată (Anexă)"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "„mamă a dragonilor\" (poreclă din profeție)",
+        "confidence": "confirmed",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 13,
+        "source_page": "nespecificată (Anexă)"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Regina Celor Șapte Regate (auto-proclamată)",
+        "confidence": "confirmed",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 15,
+        "source_page": "nespecificată (Anexă)"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Mama Dragonilor",
+        "confidence": "confirmed",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 15,
+        "source_page": "nespecificată (Anexă)"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Khaleesi",
+        "confidence": "confirmed",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": 15,
+        "source_page": "nespecificată (Anexă)"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "numită Daenerys Stormborn",
+        "confidence": "confirmed",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": "nespecificată (Anexă)"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Mamă a Dragonilor",
+        "confidence": "confirmed",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": "nespecificată (Anexă)"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Khaleesi — Fragment 17",
+        "confidence": "confirmed",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": "nespecificată (Anexă)"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "pag. nespecificată (Anexă)",
+        "confidence": "confirmed",
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": "nespecificată (Anexă)"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Dany Născută din Furtună",
+        "confidence": "confirmed",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 5,
+        "source_page": "252–268"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Mama Dragonilor",
+        "confidence": "confirmed",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 5,
+        "source_page": "252–268"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "cea Nearsă",
+        "confidence": "confirmed",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 5,
+        "source_page": "252–268"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "regina de drept a Celor Șapte Regate",
+        "confidence": "confirmed",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 5,
+        "source_page": "252–268"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "„Mama Dragonilor\"",
+        "confidence": "confirmed",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 6,
+        "source_page": "296–307\n---"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "regină fără tron",
+        "confidence": "confirmed",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 6,
+        "source_page": "296–307\n---"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Născută din Furtună",
+        "confidence": "confirmed",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 9,
+        "source_page": "150–164, 181"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Cea Neagră",
+        "confidence": "confirmed",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 9,
+        "source_page": "150–164, 181"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Mamă a Dragonilor",
+        "confidence": "confirmed",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 9,
+        "source_page": "150–164, 181"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "khaleesi",
+        "confidence": "confirmed",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 9,
+        "source_page": "150–164, 181"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Regina Celor Șapte Regate ale Westerosului",
+        "confidence": "confirmed",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 9,
+        "source_page": "150–164, 181"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Mama Dragonilor",
+        "confidence": "confirmed",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 14,
+        "source_page": "157–170"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "ucigașa vrăjitorilor",
+        "confidence": "confirmed",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 14,
+        "source_page": "157–170"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "eliberatoarea",
+        "confidence": "confirmed",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 14,
+        "source_page": "157–170"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Daenerys Născută din Furtună",
+        "confidence": "confirmed",
+        "source_book": "Iureșul Săbiilor",
+        "source_fragment": 14,
+        "source_page": "157–170"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "„Născută din Furtună\"",
+        "confidence": "confirmed",
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 1,
+        "source_page": "—"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Prima pe Numele Ei",
+        "confidence": "confirmed",
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 13,
+        "source_page": "—"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Regină a Meereenului",
+        "confidence": "confirmed",
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 13,
+        "source_page": "—"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Regină a Andalilor",
+        "confidence": "confirmed",
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 13,
+        "source_page": "—"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "a Rhoynarilor",
+        "confidence": "confirmed",
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 13,
+        "source_page": "—"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "a Primilor Oameni",
+        "confidence": "confirmed",
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 13,
+        "source_page": "—"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Stăpâna Celor Șapte Regate",
+        "confidence": "confirmed",
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 13,
+        "source_page": "—"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Khaleesi a Imensei Mări de Iarbă",
+        "confidence": "confirmed",
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 13,
+        "source_page": "—"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "supranumită „Născută din Furtună”",
+        "confidence": "confirmed",
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 13,
+        "source_page": "—"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "„Cea Nearsă”",
+        "confidence": "confirmed",
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 13,
+        "source_page": "—"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "„Mama Dragonilor”",
+        "confidence": "confirmed",
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": 13,
+        "source_page": "—"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Regina Meereenului",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Mama Dragonilor",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "poartă coroana Casei Targaryen — Fragment 1",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "pag. Daenerys I",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Regina Andalilor",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "a Rhoynarilor şi a Primilor Oameni",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Khaleesi a Mării de Iarbă",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Cea Care a Sfărâmat Lanţurile",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Mama Dragonilor — Fragment 2",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "pag. 60",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "106–107",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "regina argintie",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "regina-dragon",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Alteţa Sa — Fragment 3",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "pag. 121–122",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "130–131",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "170–171",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "a Rhoynarilor",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "a Primilor Oameni",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Khaleesi a întinsei Mări de Iarbă",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Cea Care a Zdrobit Lanțurile",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Mama Dragonilor — Fragment 4",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "pag. 205–222",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Regină",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Regina-dragon — Fragment 6",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "pag. 286–297",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Dezrobitoarea",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "regina Meereenului — Fragment 7",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "pag. 380–383",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "397–399",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "regină a Meereenului",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "„Luminăţia Ta”",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "„Măreţia Ta”",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "„Înălţimea Ta” — Fragment 8",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "pag. 400–413",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "„salvatoarea lumii”",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "regină la Meereen — Fragment 11",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "pag. 584–585",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "594–596",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Regină la Meereen",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "\"Mamă\" (poreclă dată de refugiați) — Fragment 12",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "pag. 634–648",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Daenerys Născută din Furtună",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Cea Nearsă",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Mamă a Dragonilor — Fragment 14",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "pag. 758–779",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "„Mhysa\" (Mamă, poreclă dată de sclavii eliberați) — Fragment 18",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "pag. 985–999 (extensiv)",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "„Mama Dragonilor\" — Fragment 19",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "pag. 1019",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "1058–1069",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Regina Golfului Sclavilor",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "„Născută din Furtună” — Fragment 23",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "pag. 1257–1275",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "1280–1282",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "1298",
+        "confidence": "confirmed",
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "regina dragostei",
+        "confidence": "confirmed",
+        "source_book": "Foc și Sânge",
+        "source_fragment": "2.2",
+        "source_page": "230–231, 245–246, 268, 287, 305, 317–319, 321–322"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "a frumuseții (turnir, 55 D.C.)",
+        "confidence": "confirmed",
+        "source_book": "Foc și Sânge",
+        "source_fragment": "2.2",
+        "source_page": "230–231, 245–246, 268, 287, 305, 317–319, 321–322"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "prima în linia succesiunii (menționat de mama ei)",
+        "confidence": "confirmed",
+        "source_book": "Foc și Sânge",
+        "source_fragment": "2.3",
+        "source_page": "230–231, 245–246, 268, 287, 305, 317–319, 321–322"
+      }
+    ]
+  },
+  "surse": [
+    {
+      "source_book": "Urzeala Tronurilor",
+      "source_fragment": null,
+      "source_page": "2, 8, 13–14, 23, 27–39, 43, 50, 66, 82, 99, 231–243, 356, 363–366, 398–399, 509–513, 827–839, 849"
+    },
+    {
+      "source_book": "Înclestarea Regilor",
+      "source_fragment": null,
+      "source_page": "nespecificată (Anexă)"
+    },
+    {
+      "source_book": "Iureșul Săbiilor",
+      "source_fragment": 5,
+      "source_page": "252–268"
+    },
+    {
+      "source_book": "Iureșul Săbiilor",
+      "source_fragment": 6,
+      "source_page": "296–307\n---"
+    },
+    {
+      "source_book": "Iureșul Săbiilor",
+      "source_fragment": 9,
+      "source_page": "150–164, 181"
+    },
+    {
+      "source_book": "Iureșul Săbiilor",
+      "source_fragment": 14,
+      "source_page": "157–170"
+    },
+    {
+      "source_book": "Festinul Ciorilor",
+      "source_fragment": null,
+      "source_page": "—"
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": null,
+      "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298"
+    },
+    {
+      "source_book": "Foc și Sânge",
+      "source_fragment": null,
+      "source_page": "230–231, 245–246, 268, 287, 305, 317–319, 321–322"
+    },
+    {
+      "source_book": "Urzeala Tronurilor",
+      "source_fragment": 5,
+      "source_page": "2, 8, 13–14, 23, 27–39, 43, 50, 66, 82, 99, 231–243, 356, 363–366, 398–399, 509–513, 827–839, 849"
+    },
+    {
+      "source_book": "Urzeala Tronurilor",
+      "source_fragment": 1,
+      "source_page": "2, 8, 13–14, 23, 27–39, 43, 50, 66, 82, 99, 231–243, 356, 363–366, 398–399, 509–513, 827–839, 849"
+    },
+    {
+      "source_book": "Urzeala Tronurilor",
+      "source_fragment": 15,
+      "source_page": "2, 8, 13–14, 23, 27–39, 43, 50, 66, 82, 99, 231–243, 356, 363–366, 398–399, 509–513, 827–839, 849"
+    },
+    {
+      "source_book": "Înclestarea Regilor",
+      "source_fragment": 8,
+      "source_page": "nespecificată (Anexă)"
+    },
+    {
+      "source_book": "Înclestarea Regilor",
+      "source_fragment": 10,
+      "source_page": "nespecificată (Anexă)"
+    },
+    {
+      "source_book": "Înclestarea Regilor",
+      "source_fragment": 12,
+      "source_page": "nespecificată (Anexă)"
+    },
+    {
+      "source_book": "Înclestarea Regilor",
+      "source_fragment": 13,
+      "source_page": "nespecificată (Anexă)"
+    },
+    {
+      "source_book": "Înclestarea Regilor",
+      "source_fragment": 15,
+      "source_page": "nespecificată (Anexă)"
+    },
+    {
+      "source_book": "Festinul Ciorilor",
+      "source_fragment": 1,
+      "source_page": "—"
+    },
+    {
+      "source_book": "Festinul Ciorilor",
+      "source_fragment": 13,
+      "source_page": "—"
+    },
+    {
+      "source_book": "Foc și Sânge",
+      "source_fragment": "2.2",
+      "source_page": "230–231, 245–246, 268, 287, 305, 317–319, 321–322"
+    },
+    {
+      "source_book": "Foc și Sânge",
+      "source_fragment": "2.3",
+      "source_page": "230–231, 245–246, 268, 287, 305, 317–319, 321–322"
+    },
+    {
+      "source_book": "Înclestarea Regilor",
+      "source_fragment": 4,
+      "source_page": "nespecificată (Anexă)"
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": 8,
+      "source_page": "354"
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": 2,
+      "source_page": "214"
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": 17,
+      "source_page": "935"
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": 19,
+      "source_page": "1058–1069"
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": 3,
+      "source_page": "119–135"
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": "13-1",
+      "source_page": "682–689"
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": 14,
+      "source_page": "766"
+    },
+    {
+      "source_book": "Dansul dragonilor",
+      "source_fragment": null,
+      "source_page": "942–944"
+    },
+    {
+      "source_book": "Dansul dragonilor",
+      "source_fragment": null,
+      "source_page": "990–991"
+    },
+    {
+      "source_book": "Încleștarea regilor",
+      "source_fragment": null,
+      "source_page": "nespecificată"
+    },
+    {
+      "source_book": "Iureșul săbiilor",
+      "source_fragment": null,
+      "source_page": "91-104"
+    },
+    {
+      "source_book": "Iureșul săbiilor",
+      "source_fragment": null,
+      "source_page": "158–159, 166"
+    },
+    {
+      "source_book": "Iureșul săbiilor",
+      "source_fragment": null,
+      "source_page": "160–161"
+    },
+    {
+      "source_book": "Iureșul săbiilor",
+      "source_fragment": null,
+      "source_page": "14–17"
+    },
+    {
+      "source_book": "Iureșul săbiilor",
+      "source_fragment": null,
+      "source_page": "17–18"
+    },
+    {
+      "source_book": "Iureșul săbiilor",
+      "source_fragment": null,
+      "source_page": "252–261"
+    },
+    {
+      "source_book": "Iureșul săbiilor",
+      "source_fragment": null,
+      "source_page": "296–301"
+    },
+    {
+      "source_book": "Urzeala tronurilor",
+      "source_fragment": null,
+      "source_page": "29–30, 439"
+    },
+    {
+      "source_book": "Urzeala tronurilor",
+      "source_fragment": null,
+      "source_page": "100–110"
+    },
+    {
+      "source_book": "Urzeala tronurilor",
+      "source_fragment": null,
+      "source_page": "233–239"
+    },
+    {
+      "source_book": "Urzeala tronurilor",
+      "source_fragment": null,
+      "source_page": "232–243"
+    },
+    {
+      "source_book": "Urzeala tronurilor",
+      "source_fragment": null,
+      "source_page": "508–513"
+    },
+    {
+      "source_book": "Urzeala tronurilor",
+      "source_fragment": null,
+      "source_page": "514–520"
+    },
+    {
+      "source_book": "Urzeala tronurilor",
+      "source_fragment": null,
+      "source_page": "610–617"
+    },
+    {
+      "source_book": "Urzeala tronurilor",
+      "source_fragment": null,
+      "source_page": "690–700"
+    },
+    {
+      "source_book": "Urzeala tronurilor",
+      "source_fragment": null,
+      "source_page": "730–744"
+    },
+    {
+      "source_book": "Urzeala tronurilor",
+      "source_fragment": null,
+      "source_page": "784–790"
+    },
+    {
+      "source_book": "Urzeala tronurilor",
+      "source_fragment": null,
+      "source_page": "827–839"
+    },
+    {
+      "source_book": "Festinul Ciorilor",
+      "source_fragment": null,
+      "source_page": null
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": "7",
+      "source_page": "397–399"
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": "14",
+      "source_page": "775–776"
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": "17",
+      "source_page": "926–929"
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": "19",
+      "source_page": "1067–1071"
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": "4",
+      "source_page": "205, 218–222"
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": "1",
+      "source_page": null
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": "2",
+      "source_page": "58–70"
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": "3",
+      "source_page": "121–122"
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": "4",
+      "source_page": "205–222"
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": "5",
+      "source_page": "278–285"
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": "6",
+      "source_page": "286–297"
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": "8",
+      "source_page": "400–413"
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": "11",
+      "source_page": "584, 594–596"
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": "12",
+      "source_page": "634–648"
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": "14",
+      "source_page": "758–779"
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": "15",
+      "source_page": "831–843"
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": "16",
+      "source_page": "890–905"
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": "17",
+      "source_page": "925–943"
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": "20",
+      "source_page": "1074–1081"
+    },
+    {
+      "source_book": "Dansul Dragonilor",
+      "source_fragment": "24",
+      "source_page": "1344–1345"
+    }
+  ],
+  "member_of": [
+    "HOUSE_TARGARYEN"
+  ],
+  "_completitudine": {
+    "titles": true,
+    "membru_al": true,
+    "parinti": true,
+    "copii": true,
+    "frati": true,
+    "casatorit_cu": true,
+    "moarte": true,
+    "surse": true,
+    "scor_total": 1.0
+  },
+  "_etl": {
+    "import_status": "new",
+    "matched_app_id": null,
+    "match_method": "no match",
+    "candidate_app_ids": []
+  }
+}
+
+--- ALICENT ---
+{
+  "id": "alicent_hightower",
+  "name": "Alicent Hightower",
+  "titles": [
+    {
+      "titlu": "regină",
+      "surse": [
+        {
+          "source_book": "Foc și Sânge",
+          "source_fragment": "3.3",
+          "source_page": "393–396, 406, 411, 417, 425–426, 432-437, 445-467, 471, 487, 494, 514–516, 527, 595, 623–626, 630, 638–640, 649, 673, 676, 696-697, --",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 130,
+        "carte": "Foc și Sânge",
+        "fragment": "3.3"
+      }
+    },
+    {
+      "titlu": "apoi regină-văduvă",
+      "surse": [
+        {
+          "source_book": "Foc și Sânge",
+          "source_fragment": "3.3",
+          "source_page": "393–396, 406, 411, 417, 425–426, 432-437, 445-467, 471, 487, 494, 514–516, 527, 595, 623–626, 630, 638–640, 649, 673, 676, 696-697, --",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Foc și Sânge",
+          "source_fragment": "4.1",
+          "source_page": "393–396, 406, 411, 417, 425–426, 432-437, 445-467, 471, 487, 494, 514–516, 527, 595, 623–626, 630, 638–640, 649, 673, 676, 696-697, --",
+          "confidence": "confirmed"
+        },
+        {
+          "source_book": "Foc și Sânge",
+          "source_fragment": "4.3",
+          "source_page": "393–396, 406, 411, 417, 425–426, 432-437, 445-467, 471, 487, 494, 514–516, 527, 595, 623–626, 630, 638–640, 649, 673, 676, 696-697, --",
+          "confidence": "confirmed"
+        }
+      ],
+      "pozitie_cronologica": {
+        "an_aproximativ": 130,
+        "carte": "Foc și Sânge",
+        "fragment": "3.3"
+      }
+    }
+  ],
+  "born": [],
+  "died": null,
+  "description": "",
+  "timeline": [],
+  "house": null,
+  "canon": "canon",
+  "locatie_asociata": null,
+  "titlu_curent": "apoi regină-văduvă",
+  "membru_al": "HOUSE_HIGHTOWER",
+  "parinti": [
+    "PERSON_SER_OTTO_HIGHTOWER"
+  ],
+  "copii": [
+    "PERSON_AEGON",
+    "PERSON_AEGON_II_TARGARYEN",
+    "PERSON_DAERON_TANARUL_DRAGON"
+  ],
+  "frati": [
+    "PERSON_GWAYNE_HIGHTOWER"
+  ],
+  "casatorit_cu": [
+    "PERSON_DAENAERA_DIN_CASA_VELARYON",
+    "PERSON_VISERYS_TARGARYEN"
+  ],
+  "possible_parent_of": [],
+  "age_at": [],
+  "moarte": {
+    "descriere": null,
+    "confidence": null,
+    "variante": null
+  },
+  "id_intern": "PERSON_ALICENT_HIGHTOWER",
+  "aliasuri": [],
+  "_afirmatii_pe_predicat": {
+    "child_of": [
+      {
+        "directie": "object",
+        "predicat_original": "parent_of",
+        "predicate": "child_of",
+        "valoare": "PERSON_SER_OTTO_HIGHTOWER",
+        "confidence": "confirmed",
+        "source_book": "Foc și Sânge",
+        "source_fragment": "3.2",
+        "source_page": "383, 395–396, 411, 486–487, 527",
+        "surse_combinate": [
+          {
+            "source_book": "Foc și Sânge",
+            "source_fragment": "3.2",
+            "source_page": "383, 395–396, 411, 486–487, 527",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Foc și Sânge",
+            "source_fragment": "4.1",
+            "source_page": "383, 395–396, 411, 486–487, 527",
+            "confidence": "confirmed"
+          }
+        ]
+      }
+    ],
+    "married_to": [
+      {
+        "directie": "object",
+        "predicat_original": "married_to",
+        "predicate": "married_to",
+        "valoare": "PERSON_DAENAERA_DIN_CASA_VELARYON",
+        "confidence": "confirmed",
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "66, 70, 85, 93, 107, 341, 373, 440-443",
+        "surse_combinate": [
+          {
+            "source_book": "Foc și Sânge",
+            "source_fragment": "3.2",
+            "source_page": "383–384, 392–396, 402–403, 406, 411, 417–418, 425–426, 495–496, 504–507, 531, 554, 610–611, 617, 621, 643, 645–646, 651, 654-655, 662-664, 673-674, 679-680, 698-700, --, recurent, 701–753, 731–734, 744–745, 748, 762–763, 770–776, 794–797",
+            "confidence": "confirmed"
+          }
+        ]
+      },
+      {
+        "directie": "object",
+        "predicat_original": "married_to",
+        "predicate": "married_to",
+        "valoare": "PERSON_VISERYS_TARGARYEN",
+        "confidence": "confirmed",
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "66, 70, 85, 93, 107, 341, 373, 440-443",
+        "surse_combinate": [
+          {
+            "source_book": "Foc și Sânge",
+            "source_fragment": null,
+            "source_page": "66, 70, 85, 93, 107, 341, 373, 440-443",
+            "confidence": "confirmed"
+          }
+        ]
+      }
+    ],
+    "member_of": [
+      {
+        "directie": "subject",
+        "predicat_original": "member_of",
+        "predicate": "member_of",
+        "valoare": "HOUSE_HIGHTOWER",
+        "confidence": "confirmed",
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "393–396, 406, 411, 417, 425–426, 432-437, 445-467, 471, 487, 494, 514–516, 527, 595, 623–626, 630, 638–640, 649, 673, 676, 696-697, --"
+      }
+    ],
+    "parent_of": [
+      {
+        "directie": "subject",
+        "predicat_original": "parent_of",
+        "predicate": "parent_of",
+        "valoare": "PERSON_AEGON",
+        "confidence": "confirmed",
+        "source_book": "Foc și Sânge",
+        "source_fragment": "3.2",
+        "source_page": "393–396, 406, 411, 417, 425–426, 432-437, 445-467, 471, 487, 494, 514–516, 527, 595, 623–626, 630, 638–640, 649, 673, 676, 696-697, --",
+        "surse_combinate": [
+          {
+            "source_book": "Foc și Sânge",
+            "source_fragment": "3.2",
+            "source_page": "393–396, 406, 411, 417, 425–426, 432-437, 445-467, 471, 487, 494, 514–516, 527, 595, 623–626, 630, 638–640, 649, 673, 676, 696-697, --",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 3,
+            "source_page": "134",
+            "confidence": "confirmed"
+          }
+        ]
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "parent_of",
+        "predicate": "parent_of",
+        "valoare": "PERSON_AEGON_II_TARGARYEN",
+        "confidence": "confirmed",
+        "source_book": "Foc și Sânge",
+        "source_fragment": "3.2",
+        "source_page": "393–396, 406, 411, 417, 425–426, 432-437, 445-467, 471, 487, 494, 514–516, 527, 595, 623–626, 630, 638–640, 649, 673, 676, 696-697, --",
+        "surse_combinate": [
+          {
+            "source_book": "Foc și Sânge",
+            "source_fragment": null,
+            "source_page": "411, 428, 435-436, 450-451, 454, 460-461, 471-473, 488, 493–494, 541-544, 546, 611–621, 623, 628–635, 638–643, 648, --",
+            "confidence": "confirmed"
+          }
+        ]
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "parent_of",
+        "predicate": "parent_of",
+        "valoare": "PERSON_DAERON_TANARUL_DRAGON",
+        "confidence": "confirmed",
+        "source_book": "Foc și Sânge",
+        "source_fragment": "3.2",
+        "source_page": "393–396, 406, 411, 417, 425–426, 432-437, 445-467, 471, 487, 494, 514–516, 527, 595, 623–626, 630, 638–640, 649, 673, 676, 696-697, --",
+        "surse_combinate": [
+          {
+            "source_book": "Foc și Sânge",
+            "source_fragment": "3.2",
+            "source_page": "393–396, 406, 411, 417, 425–426, 432-437, 445-467, 471, 487, 494, 514–516, 527, 595, 623–626, 630, 638–640, 649, 673, 676, 696-697, --",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Foc și Sânge",
+            "source_fragment": "3.3",
+            "source_page": "393–396, 406, 411, 417, 425–426, 432-437, 445-467, 471, 487, 494, 514–516, 527, 595, 623–626, 630, 638–640, 649, 673, 676, 696-697, --",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Foc și Sânge",
+            "source_fragment": "4.1",
+            "source_page": "393–396, 406, 411, 417, 425–426, 432-437, 445-467, 471, 487, 494, 514–516, 527, 595, 623–626, 630, 638–640, 649, 673, 676, 696-697, --",
+            "confidence": "confirmed"
+          }
+        ]
+      }
+    ],
+    "participant": [
+      {
+        "directie": "object",
+        "predicat_original": "participant",
+        "predicate": "participant",
+        "valoare": "EVENT_DEBARCADERUL_REGELUI_CUCERIT_MAJORITATEA_PORTILOR_TRECUTE_FARA_LUPTA",
+        "confidence": "confirmed",
+        "source_book": "Focul și sângele",
+        "source_fragment": null,
+        "source_page": "512–518"
+      }
+    ],
+    "sibling_of": [
+      {
+        "directie": "object",
+        "predicat_original": "sibling_of",
+        "predicate": "sibling_of",
+        "valoare": "PERSON_GWAYNE_HIGHTOWER",
+        "confidence": "confirmed",
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "515",
+        "surse_combinate": [
+          {
+            "source_book": "Foc și Sânge",
+            "source_fragment": null,
+            "source_page": "515",
+            "confidence": "confirmed"
+          }
+        ]
+      }
+    ],
+    "title_at": [
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "regină",
+        "confidence": "confirmed",
+        "source_book": "Foc și Sânge",
+        "source_fragment": "3.3",
+        "source_page": "393–396, 406, 411, 417, 425–426, 432-437, 445-467, 471, 487, 494, 514–516, 527, 595, 623–626, 630, 638–640, 649, 673, 676, 696-697, --"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "apoi regină-văduvă",
+        "confidence": "confirmed",
+        "source_book": "Foc și Sânge",
+        "source_fragment": "3.3",
+        "source_page": "393–396, 406, 411, 417, 425–426, 432-437, 445-467, 471, 487, 494, 514–516, 527, 595, 623–626, 630, 638–640, 649, 673, 676, 696-697, --"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "Regină-văduvă",
+        "confidence": "confirmed",
+        "source_book": "Foc și Sânge",
+        "source_fragment": "4.1",
+        "source_page": "393–396, 406, 411, 417, 425–426, 432-437, 445-467, 471, 487, 494, 514–516, 527, 595, 623–626, 630, 638–640, 649, 673, 676, 696-697, --"
+      },
+      {
+        "directie": "subject",
+        "predicat_original": "title_at",
+        "predicate": "title_at",
+        "valoare": "regina-văduvă",
+        "confidence": "confirmed",
+        "source_book": "Foc și Sânge",
+        "source_fragment": "4.3",
+        "source_page": "393–396, 406, 411, 417, 425–426, 432-437, 445-467, 471, 487, 494, 514–516, 527, 595, 623–626, 630, 638–640, 649, 673, 676, 696-697, --"
+      }
+    ]
+  },
+  "surse": [
+    {
+      "source_book": "Foc și Sânge",
+      "source_fragment": null,
+      "source_page": "393–396, 406, 411, 417, 425–426, 432-437, 445-467, 471, 487, 494, 514–516, 527, 595, 623–626, 630, 638–640, 649, 673, 676, 696-697, --"
+    },
+    {
+      "source_book": "Foc și Sânge",
+      "source_fragment": "3.3",
+      "source_page": "393–396, 406, 411, 417, 425–426, 432-437, 445-467, 471, 487, 494, 514–516, 527, 595, 623–626, 630, 638–640, 649, 673, 676, 696-697, --"
+    },
+    {
+      "source_book": "Foc și Sânge",
+      "source_fragment": "4.1",
+      "source_page": "393–396, 406, 411, 417, 425–426, 432-437, 445-467, 471, 487, 494, 514–516, 527, 595, 623–626, 630, 638–640, 649, 673, 676, 696-697, --"
+    },
+    {
+      "source_book": "Foc și Sânge",
+      "source_fragment": "4.3",
+      "source_page": "393–396, 406, 411, 417, 425–426, 432-437, 445-467, 471, 487, 494, 514–516, 527, 595, 623–626, 630, 638–640, 649, 673, 676, 696-697, --"
+    },
+    {
+      "source_book": "Foc și Sânge",
+      "source_fragment": "3.2",
+      "source_page": "393–396, 406, 411, 417, 425–426, 432-437, 445-467, 471, 487, 494, 514–516, 527, 595, 623–626, 630, 638–640, 649, 673, 676, 696-697, --"
+    },
+    {
+      "source_book": "Focul și sângele",
+      "source_fragment": null,
+      "source_page": "512–518"
+    },
+    {
+      "source_book": "Foc și Sânge",
+      "source_fragment": null,
+      "source_page": "66, 70, 85, 93, 107, 341, 373, 440-443"
+    },
+    {
+      "source_book": "Foc și Sânge",
+      "source_fragment": "3.2",
+      "source_page": "383, 395–396, 411, 486–487, 527"
+    },
+    {
+      "source_book": "Foc și Sânge",
+      "source_fragment": null,
+      "source_page": "515"
+    }
+  ],
+  "member_of": [
+    "HOUSE_HIGHTOWER"
+  ],
+  "_completitudine": {
+    "titles": true,
+    "membru_al": true,
+    "parinti": true,
+    "copii": true,
+    "frati": true,
+    "casatorit_cu": true,
+    "moarte": false,
+    "surse": true,
+    "scor_total": 0.88
+  },
+  "_etl": {
+    "import_status": "new",
+    "matched_app_id": null,
+    "match_method": "no match",
+    "candidate_app_ids": []
+  }
+}
+
+--- 8 OTHER CHARACTERS ---
+
+Character: Alyn Tarbeck (alyn_tarbeck)
+  titlu_curent: None
+  membru_al: None
+  locatie_asociata: None
+  parinti: []
+  copii: []
+  frati: []
+  casatorit_cu: ['PERSON_JEYNE_WESTERLING']
+  moarte: {'descriere': 'murit alături de prințul Aegon în bătălia de sub Ochiul Zeilor', 'confidence': 'confirmed', 'variante': None}
+
+Character: Aegon Blackfyre (fiul lui Daemon, geamăn întâi-născut) (aegon_blackfyre)
+  titlu_curent: None
+  membru_al: HOUSE_BLACKFYRE
+  locatie_asociata: None
+  parinti: []
+  copii: []
+  frati: []
+  casatorit_cu: []
+  moarte: {'descriere': 'mort la Câmpul Ierbii Roșii, ucis de săgețile Corbului Sângelui — Fragment 4', 'confidence': 'confirmed', 'variante': None}
+
+Character: Addam Hightower (addam_hightower)
+  titlu_curent: None
+  membru_al: None
+  locatie_asociata: None
+  parinti: ['PERSON_MANFRED_HIGHTOWER']
+  copii: []
+  frati: []
+  casatorit_cu: []
+  moarte: {'descriere': None, 'confidence': None, 'variante': None}
+
+Character: Alyse Ladybright (alyse_ladybright)
+  titlu_curent: None
+  membru_al: None
+  locatie_asociata: None
+  parinti: []
+  copii: []
+  frati: []
+  casatorit_cu: []
+  moarte: {'descriere': None, 'confidence': None, 'variante': None}
+
+Character: Aerion Targaryen (aerion_targaryen)
+  titlu_curent: lord de Piatra Dragonului
+  membru_al: HOUSE_TARGARYEN
+  locatie_asociata: pajistea_ashford
+  parinti: ['PERSON_DAEMION_TARGARYEN', 'PERSON_PRINTUL_MAEKAR_TARGARYEN']
+  copii: ['PERSON_AEGON', 'PERSON_AEGON_I_TARGARYEN', 'PERSON_RHAENYS', 'PERSON_RHAENYS_TARGARYEN', 'PERSON_VISENYA', 'PERSON_VISENYA_TARGARYEN']
+  frati: ['PERSON_AEGON_TARGARYEN_PRINTUL_AEGON', 'PERSON_PRINTUL_AEMON_TARGARYEN', 'PERSON_PRINTUL_DAERON_TARGARYEN']
+  casatorit_cu: []
+  moarte: {'descriere': None, 'confidence': None, 'variante': None}
+
+Character: Aenys I Targaryen (aenys_i)
+  titlu_curent: mostenitorul necontestat al Tronului de Fier (menționat retrospectiv)
+  membru_al: HOUSE_TARGARYEN
+  locatie_asociata: None
+  parinti: ['PERSON_AEGON_I_TARGARYEN', 'PERSON_RHAENYS']
+  copii: ['PERSON_AEGON', 'PERSON_ALYSANNE', 'PERSON_JAEHAERYS', 'PERSON_JAEHAERYS_TARGARYEN', 'PERSON_RHAENA_TARGARYEN', 'PERSON_VAELLA_TARGARYEN', 'PERSON_VISERYS_TARGARYEN']
+  frati: []
+  casatorit_cu: []
+  moarte: {'descriere': 'născut 7 D.C.; rege 37–41/42 D.C.; moare la Dragonstone (boală, agravată de stres); a murit în anul 42 D.C., „frânt și disprețuit", la treizeci și cinci de ani (din Fragment 1.3)', 'confidence': 'confirmed', 'variante': None}
+
+Character: Aenar Targaryen (aenar_targaryen)
+  titlu_curent: lord de Piatra Dragonului
+  membru_al: HOUSE_TARGARYEN
+  locatie_asociata: piatra_dragonului
+  parinti: []
+  copii: ['PERSON_DAENYS_TARGARYEN']
+  frati: []
+  casatorit_cu: []
+  moarte: {'descriere': None, 'confidence': None, 'variante': None}
+
+Character: Aegon Cuceritorul (aegon_cuceritorul)
+  titlu_curent: Cuceritorul
+  membru_al: HOUSE_TARGARYEN
+  locatie_asociata: harrenhal
+  parinti: []
+  copii: []
+  frati: ['PERSON_RHAENYS', 'PERSON_VISENYA']
+  casatorit_cu: ['PERSON_RHAENYS_TARGARYEN', 'PERSON_VISENYA']
+  moarte: {'descriere': None, 'confidence': None, 'variante': None}

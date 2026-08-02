@@ -9,12 +9,18 @@ export class Timeline {
     this.minimap = null;
     this.playBtn = null;
     this.tooltip = null;
-    
-    this.years = [1, 37, 48, 60, 92, 101, 120, 129, 131, 136, 157, 209, 260, 282, 298, 300];
-    this.currentYearIdx = 0;
+
+
+    // Playback step in years per tick (configurable)
+    this.playStep = 1;
+
     this.onYearChangeCallback = null;
     this.isPlaying = false;
     this.playInterval = null;
+
+    // Year range
+    this.minYear = 1;
+    this.maxYear = 300;
   }
 
   init() {
@@ -42,16 +48,16 @@ export class Timeline {
     this.minimap = createElement('div', 'timeline-minimap');
     wrapper.appendChild(this.minimap);
 
-    // 4. Setup Slider Wrapper
+    // 4. Setup Slider Wrapper — continuous range 1–300 AC
     const sliderWrapper = createElement('div', 'timeline-slider-wrapper');
     this.slider = createElement('input', 'timeline-slider');
     this.slider.type = 'range';
-    this.slider.min = '0';
-    this.slider.max = (this.years.length - 1).toString();
-    this.slider.value = '0';
+    this.slider.min = this.minYear.toString();
+    this.slider.max = this.maxYear.toString();
+    this.slider.step = '1';
+    this.slider.value = this.minYear.toString();
     
     this.slider.addEventListener('input', () => {
-      this.currentYearIdx = parseInt(this.slider.value);
       this.updateDisplay();
       this.notifyChange();
       // Play a very subtle metallic tick sound on sliding
@@ -71,18 +77,22 @@ export class Timeline {
     this.updateDisplay();
   }
 
+  /**
+   * Set the slider to a specific year (any integer between minYear and maxYear).
+   * Works for any year, not just historical milestones.
+   */
   setYear(year) {
-    const idx = this.years.indexOf(year);
-    if (idx !== -1) {
-      this.currentYearIdx = idx;
-      this.slider.value = idx.toString();
-      this.updateDisplay();
-      this.notifyChange();
-    }
+    const clamped = Math.max(this.minYear, Math.min(this.maxYear, Math.round(year)));
+    this.slider.value = clamped.toString();
+    this.updateDisplay();
+    this.notifyChange();
   }
 
+  /**
+   * Returns the current year as an integer read directly from the slider value.
+   */
   getYear() {
-    return this.years[this.currentYearIdx];
+    return parseInt(this.slider.value, 10);
   }
 
   onYearChange(callback) {
@@ -126,11 +136,23 @@ export class Timeline {
     this.minimap.innerHTML = '';
     if (!events) return;
 
-    const startYear = this.years[0];
-    const endYear = this.years[this.years.length - 1];
-    const range = endYear - startYear;
+    // Dynamically compute year bounds from loaded event data
+    const validYears = events.filter(evt => Number.isFinite(evt.year)).map(evt => evt.year);
+    if (validYears.length > 0) {
+      this.minYear = Math.min(...validYears);
+      this.maxYear = Math.max(...validYears);
+      if (this.slider) {
+        this.slider.min = this.minYear.toString();
+        this.slider.max = this.maxYear.toString();
+      }
+    }
 
-    events.forEach(evt => {
+    const startYear = this.minYear;
+    const endYear = this.maxYear;
+    const range = (endYear - startYear) || 1;
+
+    // The timeline has no visual representation for undated Wiki-only events.
+    events.filter(evt => Number.isFinite(evt.year)).forEach(evt => {
       const relative = (evt.year - startYear) / range;
       const left = Math.max(2, Math.min(98, relative * 100)); // Clamp between 2% and 98%
 
@@ -172,11 +194,8 @@ export class Timeline {
       });
 
       marker.addEventListener('click', () => {
-        // Find nearest timeline year that contains this event or is just before/on it
-        const nearestYear = this.years.reduce((prev, curr) => {
-          return (Math.abs(curr - evt.year) < Math.abs(prev - evt.year) ? curr : prev);
-        });
-        this.setYear(nearestYear);
+        // Jump directly to the event's exact year (continuous slider supports any year)
+        this.setYear(evt.year);
 
         // Play metal timeline click sound
         if (window.atlasApp && window.atlasApp.audioManager) {
@@ -207,19 +226,20 @@ export class Timeline {
     this.tooltip.style.transform = 'translate(-50%, -100%) translateY(0) scale(0.9)';
   }
 
+  /**
+   * Play/pause — advances year by year (playStep AC per tick) through the continuous range.
+   * Wraps back to minYear when it reaches maxYear.
+   */
   togglePlay() {
     this.isPlaying = !this.isPlaying;
     if (this.isPlaying) {
       this.playBtn.textContent = '⏸';
       this.playInterval = setInterval(() => {
-        let nextIdx = this.currentYearIdx + 1;
-        if (nextIdx >= this.years.length) {
-          nextIdx = 0;
+        let nextYear = this.getYear() + this.playStep;
+        if (nextYear > this.maxYear) {
+          nextYear = this.minYear;
         }
-        this.slider.value = nextIdx.toString();
-        this.currentYearIdx = nextIdx;
-        this.updateDisplay();
-        this.notifyChange();
+        this.setYear(nextYear);
         // Play click sound
         if (window.atlasApp && window.atlasApp.audioManager) {
           window.atlasApp.audioManager.playTick();

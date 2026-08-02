@@ -1,5 +1,6 @@
 import { createSVGElement } from '../utils/helpers.js';
 import { getHouseColor } from '../utils/colors.js';
+import { isLowCompletenessEntity } from '../utils/config.js';
 
 // Tier-1 locations: always visible, largest labels
 const CAPITAL_LOCATIONS = new Set([
@@ -9,6 +10,34 @@ const CAPITAL_LOCATIONS = new Set([
 ]);
 
 const DEFAULT_WORLD_CANVAS = { width: 1500, height: 1000 };
+
+const TYPE_TO_SUBTYPE = {
+  castle: 'castel',
+  city: 'oraș',
+  town: 'sat',
+  ruins: 'ruine',
+  fortress: 'fortăreață',
+  landmark: 'repere naturale'
+};
+
+function getLocationSubtype(location) {
+  return location?.subtip || TYPE_TO_SUBTYPE[location?.type] || 'nespecificat';
+}
+
+// Crests identify the ruling house, but they must not obscure what kind of
+// location a pin represents. This glyph is rendered for every marker.
+function appendLocationTypeGlyph(marker, type) {
+  const common = { class: `location-type-glyph location-type-${type}`, fill: '#F7E8C7', stroke: '#3C2820', 'stroke-width': '0.65' };
+  const paths = {
+    castle: 'M -5,10 L -5,5 L -3,5 L -3,3 L -1,3 L -1,5 L 2,5 L 2,3 L 4,3 L 4,5 L 5,5 L 5,10 Z',
+    fortress: 'M -5,10 L -5,4 L -2,2 L 2,2 L 5,4 L 5,10 Z M -2,2 L -2,0 L 2,0 L 2,2 Z',
+    city: 'M -5,10 L -5,6 L -2,4 L 0,6 L 0,2 L 3,4 L 5,7 L 5,10 Z',
+    town: 'M -5,10 L -5,7 L 0,3 L 5,7 L 5,10 Z',
+    ruins: 'M -5,10 L -5,6 L -2,6 L -2,3 L 0,5 L 2,2 L 2,7 L 5,7 L 5,10 Z',
+    landmark: 'M 0,2 L 5,6 L 0,10 L -5,6 Z'
+  };
+  marker.appendChild(createSVGElement('path', { ...common, d: paths[type] || paths.landmark }));
+}
 
 export class MapRenderer {
   constructor(containerId) {
@@ -23,7 +52,9 @@ export class MapRenderer {
     this.mapDefinition = null;
     this._lastWorldState = null;
     this.selectedRegionId = null;
+    this.visibleLocationSubtypes = null;
     this._missingCoordinatesKey = null;
+    this.disableLabelCulling = false;
   }
 
   init() {
@@ -238,7 +269,7 @@ export class MapRenderer {
     // A location is only rendered after it has been calibrated for the new terrain map.
     // Legacy coordinates remain untouched in locations.json until the migration is complete.
     const allLocations = window.atlasDataManager?.getAllLocations?.() || [];
-    const locations = allLocations.filter(loc => this.getLocationCoordinate(loc));
+    const locations = allLocations.filter(loc => this.getLocationCoordinate(loc) && !isLowCompletenessEntity(loc));
     if (window.atlasDataManager) {
       window.atlasDataManager.data.missingCoordinates = allLocations
         .filter(loc => !this.getLocationCoordinate(loc))
@@ -353,13 +384,15 @@ export class MapRenderer {
       else if (loc.type === 'castle' || loc.type === 'fortress' || loc.type === 'city') tier = '2';
 
       const markerContainer = createSVGElement('g', {
-        class: `location-marker-position${this.selectedRegionId && loc.region !== this.selectedRegionId ? ' region-filtered-out' : ''}`,
+        class: `location-marker-position${this.selectedRegionId && loc.region !== this.selectedRegionId ? ' region-filtered-out' : ''}${this.isLocationSubtypeVisible(loc) ? '' : ' subtype-filtered-out'}`,
         transform: `translate(${renderedPos.x}, ${renderedPos.y})`
       });
 
       const marker = createSVGElement('g', {
-        class: 'location-marker',
-        'data-location-id': loc.id
+        class: `location-marker${loc.sursa_coordonate === 'triangulat' ? ' coordinate-triangulated' : ''}`,
+        'data-location-id': loc.id,
+        'data-location-subtype': getLocationSubtype(loc),
+        'data-coordinate-source': loc.sursa_coordonate || 'unknown'
       });
 
       // Bug C: Invisible hit area rectangle (30×30 centered) for easier clicking
@@ -381,11 +414,11 @@ export class MapRenderer {
       const rulingHouse = window.atlasDataManager?.getHouse?.(houseId);
       if (rulingHouse?.crest) {
         crestFrame = createSVGElement('circle', {
-          cx: '0', cy: '-4', r: '11.5', fill: '#f5ead4', stroke: houseColor,
+          cx: '0', cy: '-7', r: '10', fill: '#f5ead4', stroke: houseColor,
           'stroke-width': '2', class: 'house-crest-frame'
         });
         crestImage = createSVGElement('image', {
-          x: '-9', y: '-13', width: '18', height: '18', href: rulingHouse.crest,
+          x: '-8', y: '-15', width: '16', height: '16', href: rulingHouse.crest,
           preserveAspectRatio: 'xMidYMid meet', class: 'house-crest'
         });
         const fallback = createSVGElement('g', { class: 'house-crest-fallback', visibility: 'hidden' });
@@ -398,6 +431,7 @@ export class MapRenderer {
         }
         crestImage.addEventListener('error', () => { crestImage.setAttribute('visibility', 'hidden'); fallback.setAttribute('visibility', 'visible'); });
         marker.appendChild(crestFrame); marker.appendChild(crestImage); marker.appendChild(fallback);
+        appendLocationTypeGlyph(marker, loc.type);
       } else {
       const locId = loc.id;
       if (locId === 'winterfell') {
@@ -565,6 +599,8 @@ export class MapRenderer {
       }
 
       // ── Label with tier ──
+      if (!rulingHouse?.crest) appendLocationTypeGlyph(marker, loc.type);
+
       const tierClass = tier === '1' ? 'capital' : tier === '2' ? 'castle' : 'minor';
       const label = createSVGElement('text', {
         x: '0',
@@ -619,6 +655,10 @@ export class MapRenderer {
      ───────────────────────────────────────────── */
   updateLabelVisibility(viewBoxWidth) {
     const labels = this.svg.querySelectorAll('.map-label');
+    if (this.disableLabelCulling) {
+      labels.forEach(label => { label.style.opacity = ''; });
+      return;
+    }
     
     // Helper to check if two bounding boxes overlap
     function rectsOverlap(r1, r2, padding = 4) {
@@ -756,6 +796,14 @@ export class MapRenderer {
     return this.renderedPositions.get(locationId) || null;
   }
 
+  setRenderedPosition(locationId, point) {
+    if (!point) return;
+    const position = { x: point.x, y: point.y };
+    this.renderedPositions.set(locationId, position);
+    const container = this._markerCache.get(locationId)?.container;
+    if (container) container.setAttribute('transform', `translate(${position.x}, ${position.y})`);
+  }
+
   getLocationCoordinate(location) {
     const overrides = window.atlasWorldCoordinateOverrides;
     // A null override explicitly removes a saved coordinate while editing.
@@ -770,11 +818,28 @@ export class MapRenderer {
     this.selectedRegionId = regionId;
     this.svg.querySelectorAll('.location-marker-position').forEach(marker => {
       const locationId = marker.querySelector('.location-marker')?.dataset.locationId;
-      const location = window.atlasDataManager?.getAllLocations?.().find(item => item.id === locationId);
+      // getAllLocations() rebuilds a 391-element array; inside this loop that was
+      // once per marker. The indexed lookup is O(1) and allocation-free.
+      const location = window.atlasDataManager?.getLocation?.(locationId);
       marker.classList.toggle('region-filtered-out', Boolean(regionId && location?.region !== regionId));
     });
     this.svg.querySelectorAll('.calibrated-region').forEach(region => {
       region.classList.toggle('selected', region.dataset.regionId === regionId);
+    });
+  }
+
+  isLocationSubtypeVisible(location) {
+    return !this.visibleLocationSubtypes || this.visibleLocationSubtypes.has(getLocationSubtype(location));
+  }
+
+  setVisibleLocationSubtypes(subtypes) {
+    this.visibleLocationSubtypes = subtypes instanceof Set ? new Set(subtypes) : null;
+    this.svg.querySelectorAll('.location-marker-position').forEach(container => {
+      const marker = container.querySelector('.location-marker');
+      const subtype = marker?.dataset.locationSubtype;
+      container.classList.toggle('subtype-filtered-out', Boolean(
+        this.visibleLocationSubtypes && !this.visibleLocationSubtypes.has(subtype)
+      ));
     });
   }
 

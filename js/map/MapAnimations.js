@@ -3,6 +3,9 @@ import { createSVGElement } from '../utils/helpers.js';
 export class MapAnimations {
   constructor(svgElement) {
     this.svg = svgElement;
+    this.mapWidth = Number(svgElement.dataset.mapWidth) || 1000;
+    this.mapHeight = Number(svgElement.dataset.mapHeight) || 1400;
+    this.usesTerrainMap = svgElement.classList.contains('terrain-map');
     this.isNight = false;
     this.activeSeason = 'summer';
   }
@@ -20,8 +23,8 @@ export class MapAnimations {
       id: 'map-night-overlay',
       x: '0',
       y: '0',
-      width: '1000',
-      height: '1400',
+      width: this.mapWidth,
+      height: this.mapHeight,
       fill: '#0a0a2a',
       opacity: '0',
       style: 'mix-blend-mode: multiply; pointer-events: none; transition: opacity 2s ease;'
@@ -36,7 +39,7 @@ export class MapAnimations {
     });
     
     // Add glowing light markers for major settlements
-    const lightCoords = [
+    const lightCoords = this.usesTerrainMap ? [] : [
       { x: 530, y: 770, name: "King's Landing" },
       { x: 270, y: 990, name: "Oldtown" },
       { x: 265, y: 655, name: "Lannisport" },
@@ -62,8 +65,8 @@ export class MapAnimations {
       id: 'map-winter-overlay',
       x: '0',
       y: '0',
-      width: '1000',
-      height: '1400',
+      width: this.mapWidth,
+      height: this.mapHeight,
       fill: '#B0C4DE',
       opacity: '0',
       style: 'mix-blend-mode: overlay; pointer-events: none; transition: opacity 1.5s ease;'
@@ -72,6 +75,7 @@ export class MapAnimations {
   }
 
   createFogEffect() {
+    if (this.usesTerrainMap) return;
     const fogGroup = createSVGElement('g', { id: 'layer-fog', style: 'opacity: 0.15;' });
     
     // Create large, soft clouds drifting across Beyond the Wall and the Neck
@@ -109,6 +113,7 @@ export class MapAnimations {
   }
 
   createSmokeEffect() {
+    if (this.usesTerrainMap) return;
     const smokeGroup = createSVGElement('g', { id: 'layer-smoke' });
     
     // Add rising smoke over King's Landing, Oldtown, Harrenhal (ruins)

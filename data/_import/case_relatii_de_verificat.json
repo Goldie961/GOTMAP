@@ -1,0 +1,142 @@
+[
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "enemy_of",
+    "object": "PERSON_SER_RODRIK_CASSEL",
+    "source_book": "Înclestarea Regilor",
+    "source_fragment": 16,
+    "source_page": null,
+    "confidence": "confirmed",
+    "motiv_incertitudine": "HOUSE_STARK enemy_of Ser Rodrik Cassel: Cassel este castelanul/maestrul de arme al Winterfell-ului, loial Casei Stark (executat de Theon Greyjoy) - nu poate fi \"dusman\" al propriei case. Exemplu de eroare confirmat explicit de utilizator."
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "enemy_of",
+    "object": "PERSON_SER_RODRIK_CASSEL",
+    "source_book": "Înclestarea Regilor",
+    "source_fragment": 12,
+    "source_page": null,
+    "confidence": "confirmed",
+    "motiv_incertitudine": "HOUSE_BOLTON enemy_of Ser Rodrik Cassel: rolul precis al Casei Bolton (prin Ramsay/\"Reek\") in moartea lui Cassel e ambiguu in text (Theon Greyjoy e cel care il executa personal) - nu se poate confirma cu incredere o dusmanie directa Bolton-Cassel fara fragmentul sursa."
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "vassal_of",
+    "object": "HOUSE_GREYJOY",
+    "source_book": "Înclestarea Regilor",
+    "source_fragment": 17,
+    "source_page": null,
+    "confidence": "confirmed",
+    "motiv_incertitudine": "HOUSE_STARK vassal_of HOUSE_GREYJOY: relatie de vasalitate inexistenta in canon - Insulele de Fier (Casa Greyjoy) sunt un tinut separat, Lord Paramount propriu, nu vasal al Casei Stark si nici invers. Posibila confuzie cu statutul lui Theon Greyjoy ca ostatic/pupil la Winterfell."
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "enemy_of",
+    "object": "HOUSE_ROYCE",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 16,
+    "source_page": "248, 284–285",
+    "confidence": "confirmed",
+    "motiv_incertitudine": "HOUSE_ARRYN enemy_of HOUSE_ROYCE: contrazice o alta afirmatie deja confirmata din corpus (HOUSE_ROYCE vassal_of HOUSE_ARRYN) - Casa Royce e unul dintre cei mai loiali vasali ai Vaii; nu exista conflict cunoscut intre cele doua case. Predicatul corect nu poate fi determinat cu incredere fara fragmentul sursa (posibil confuzie cu un conflict intern minor, ex. Nestor Royce)."
+  },
+  {
+    "subject": "HOUSE_MALLISTER",
+    "predicate": "enemy_of",
+    "object": "PERSON_LORDUL_JASON_MALLISTER",
+    "source_book": "Înclestarea Regilor",
+    "source_fragment": 4,
+    "source_page": null,
+    "confidence": "confirmed",
+    "motiv_incertitudine": "HOUSE_MALLISTER enemy_of Lordul Jason Mallister: Jason Mallister este chiar lordul (capul) Casei Mallister - o casa nu poate fi \"dusmana\" propriului ei conducator. Eroare de extractie heuristica, cauza exacta neclara."
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "enemy_of",
+    "object": "HOUSE_KARSTARK",
+    "source_book": "Înclestarea Regilor",
+    "source_fragment": 12,
+    "source_page": null,
+    "confidence": "confirmed",
+    "motiv_incertitudine": "HOUSE_STARK enemy_of HOUSE_KARSTARK (Inclestarea Regilor/ACOK): tradarea reala a lui Rickard Karstark si ruptura cu Robb Stark are loc abia in Iuresul Sabiilor (ASOS); in ACOK toate celelalte afirmatii Stark-Karstark din corpus sunt ally_of, ceea ce sugereaza ca aceasta intrare e plasata gresit cronologic sau e o eroare de extractie. Confirmata corect insa in ASOS (statements_case_nobile_part3.json)."
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "vassal_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Înclestarea Regilor",
+    "source_fragment": 13,
+    "source_page": null,
+    "confidence": "confirmed",
+    "motiv_incertitudine": "HOUSE_LANNISTER vassal_of Stannis Baratheon: relatie de vasalitate inexistenta - Casa Lannister nu a fost niciodata vasala lui Stannis, care a fost unul dintre principalii sai adversari. Exemplu de eroare confirmat explicit de utilizator; cauza exacta (ce fragment a generat aceasta clasificare) nu poate fi reconstituita fara textul sursa."
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "ally_of",
+    "object": "HOUSE_GREYJOY",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 11,
+    "source_page": "265",
+    "confidence": "confirmed",
+    "motiv_incertitudine": "HOUSE_BOLTON ally_of HOUSE_GREYJOY (Iuresul Sabiilor): \"alianta\" dintre Bolton (prin Ramsay, deghizat in \"Reek\") si ironborn-ii lui Theon la Winterfell a fost de fapt un siretlic/tradare, nu o alianta autentica intre case - clasificarea ally_of poate induce in eroare fara context suplimentar din fragmentul sursa."
+  },
+  {
+    "subject": "HOUSE_BEESBURY",
+    "predicate": "enemy_of",
+    "object": "PERSON_SER_HUMFREY_BEESBURY",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 3,
+    "source_page": null,
+    "confidence": "confirmed",
+    "motiv_incertitudine": "HOUSE_BEESBURY enemy_of Ser Humfrey Beesbury: Humfrey Beesbury pare sa fie chiar un membru/conducator al propriei Case Beesbury - o casa nu poate fi \"dusmana\" propriului ei cavaler/lord fara un context clar de conflict intern (succesiune, tradare); nu exista suficiente informatii pentru a confirma sau corecta."
+  },
+  {
+    "subject": "HOUSE_OSGREY",
+    "predicate": "vassal_of",
+    "object": "HOUSE_WEBBER",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 4,
+    "source_page": null,
+    "confidence": "confirmed",
+    "motiv_incertitudine": "HOUSE_OSGREY vassal_of HOUSE_WEBBER: nu exista o relatie de vasalitate cunoscuta intre aceste doua case rivale (Osgrey si Webber sunt case vecine independente aflate in disputa pentru Padurea Wat, in \"Cavalerul ratacit\"/\"The Sworn Sword\"), nu una fata de cealalta. Posibila eroare heuristica pe cuvantul-cheie \"stegar\"."
+  },
+  {
+    "subject": "HOUSE_WEBBER",
+    "predicate": "vassal_of",
+    "object": "HOUSE_OSGREY",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 5,
+    "source_page": null,
+    "confidence": "confirmed",
+    "motiv_incertitudine": "HOUSE_WEBBER vassal_of HOUSE_OSGREY: aceeasi problema ca mai sus, in sens invers - nu exista o relatie de vasalitate reala intre Osgrey si Webber."
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "enemy_of",
+    "object": "PERSON_BORYS_BARATHEON",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "3.1",
+    "source_page": "324–328, 345",
+    "confidence": "confirmed",
+    "motiv_incertitudine": "HOUSE_BARATHEON enemy_of Borys Baratheon: obiectul pare a fi un membru al aceleiasi case (Baratheon) - fara fragmentul sursa nu se poate confirma daca reflecta un conflict succesoral intern real sau o eroare de clasificare."
+  },
+  {
+    "subject": "HOUSE_HARROWAY",
+    "predicate": "enemy_of",
+    "object": "PERSON_ALYS_HARROWAY",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "1.3",
+    "source_page": "111",
+    "confidence": "confirmed",
+    "motiv_incertitudine": "HOUSE_HARROWAY enemy_of Alys Harroway: Alys Harroway pare sa fie un membru al aceleiasi case (a fost regina, sotia lui Maegor I, provenita din Casa Harroway) - fara fragmentul sursa nu se poate confirma un conflict intern real vs. o eroare de clasificare."
+  },
+  {
+    "subject": "HOUSE_STRONG",
+    "predicate": "enemy_of",
+    "object": "PERSON_LARYS_STRONG",
+    "source_book": "Foc și Sânge",
+    "source_fragment": "4.1",
+    "source_page": "490, 515, 520–522, 536–537",
+    "confidence": "confirmed",
+    "motiv_incertitudine": "HOUSE_STRONG enemy_of Larys Strong: Larys Strong (\"Clubfoot\") este chiar ultimul lord al Casei Strong; desi a trădat si a contribuit indirect la ruina propriei case, incadrarea drept \"dusman\" al Casei Strong necesita nuantarea din fragmentul sursa pentru a fi confirmata."
+  }
+]

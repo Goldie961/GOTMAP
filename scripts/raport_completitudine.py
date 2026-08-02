@@ -10,10 +10,19 @@ Generează raportul în data/_import/etl_output/raport_completitudine.json
 și afișează un sumar complet la consolă.
 """
 
+import sys
+# ── Safety guard ──────────────────────────────────────────────────────────────
+# This script writes a report to data/_import/etl_output/.
+# Pass --i-know-what-im-doing to confirm intentional execution.
+if "--i-know-what-im-doing" not in sys.argv:
+    print("REFUSED: acest script scrie raport în data/_import/etl_output/.")
+    print("Dacă ești sigur, rulează cu:  python scripts/raport_completitudine.py --i-know-what-im-doing")
+    sys.exit(1)
+# ──────────────────────────────────────────────────────────────────────────────
+
 import json
 import os
 import re
-import sys
 from pathlib import Path
 
 # Set UTF-8 encoding for stdout/stderr

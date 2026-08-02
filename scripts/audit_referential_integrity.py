@@ -17,6 +17,16 @@ Verifică sistematic:
 Scrie raportul în data/_import/etl_output/audit_integritate_referentiala.json
 """
 
+import sys
+# ── Safety guard ──────────────────────────────────────────────────────────────
+# This script writes an audit report to data/_import/etl_output/.
+# Pass --i-know-what-im-doing to confirm intentional execution.
+if "--i-know-what-im-doing" not in sys.argv:
+    print("REFUSED: acest script scrie raport în data/_import/etl_output/.")
+    print("Dacă ești sigur, rulează cu:  python scripts/audit_referential_integrity.py --i-know-what-im-doing")
+    sys.exit(1)
+# ──────────────────────────────────────────────────────────────────────────────
+
 import json
 import os
 import sys

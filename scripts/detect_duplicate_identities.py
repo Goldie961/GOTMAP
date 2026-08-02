@@ -1,6 +1,15 @@
+import sys
+# ── Safety guard ──────────────────────────────────────────────────────────────
+# This script writes to data/_import/etl_output/.
+# Pass --i-know-what-im-doing to confirm intentional execution.
+if "--i-know-what-im-doing" not in sys.argv:
+    print("REFUSED: acest script scrie în data/_import/etl_output/.")
+    print("Dacă ești sigur, rulează cu:  python scripts/detect_duplicate_identities.py --i-know-what-im-doing")
+    sys.exit(1)
+# ──────────────────────────────────────────────────────────────────────────────
+
 import json
 import re
-import sys
 import unicodedata
 from collections import defaultdict
 from pathlib import Path

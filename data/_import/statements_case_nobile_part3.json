@@ -1,0 +1,3233 @@
+[
+  {
+    "subject": "HOUSE_ALLYRION",
+    "predicate": "region",
+    "object": "LOCATION_DORNE",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ALLYRION",
+    "predicate": "sigil",
+    "object": "plăcintă cu felii roșii și negre, cu o mână de aur în mijloc",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ALLYRION",
+    "predicate": "status_at",
+    "object": "vasală a Casei Martell",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "seat",
+    "object": "LOCATION_EYRIE",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "region",
+    "object": "LOCATION_VALEA_ARRYN",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "words",
+    "object": "„La înălțimea onoarei\"",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "sigil",
+    "object": "luna-şi-şoimul, alb pe fond azuriu",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 1,
+    "source_page": "41",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "izolaționistă, neutră în război",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 4,
+    "source_page": "210–211, 228",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "mare casă, condusă acum de Lady Lysa Arryn (văduva lui Jon Arryn)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 13,
+    "source_page": "120–132",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "mare casă, condusă interimar de Lysa (văduva lui Jon Arryn) în numele fiului ei Robert",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 14,
+    "source_page": "133",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "mare casă; nu s-a implicat în Războiul Celor Cinci Regi",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 16,
+    "source_page": "248, 284–285",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "ally_of",
+    "object": "HOUSE_CORBRAY",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 13,
+    "source_page": "120–132",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BAR_EMMON",
+    "predicate": "sigil",
+    "object": "peşte-sabie",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BAR_EMMON",
+    "predicate": "status_at",
+    "object": "aliată cu Stannis",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "seat",
+    "object": "LOCATION_PIATRA_DRAGONULUI",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "seat",
+    "object": "LOCATION_CAPATUL_FURTUNII",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "divizată — Joffrey pe tron (susținut de Lannister/Tyrell), Stannis la Piatra Dragonului (în declin după bătălie), Renly mort",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 2,
+    "source_page": "59-90, 113-114",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "Stannis Baratheon se declară rege, considerat de Melisandre drept Azor Ahai renăscut; conflict de succesiune cu Casa Lannister (Joffrey considerat bastard)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 5,
+    "source_page": "280–286",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "divizată — Robert mort, Renly mort, Stannis înfrânt pe Apa Neagră, considerat pretendent slăbit",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 7,
+    "source_page": "87–92",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "casă regală, cu conflict de succesiune trecut (Renly vs. Stannis vs. Joffrey/Tommen)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 13,
+    "source_page": "111–117",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "dinastie regală recentă, cu ramura lui Stannis în declin militar (armata redusă la Piatra Dragonului)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 14,
+    "source_page": "174",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "ally_of",
+    "object": "PERSON_ALESTER_FLORENT",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 5,
+    "source_page": "280–286",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "branch_of",
+    "object": "HOUSE_BARATHEON",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "sigil",
+    "object": "cerb negru pe câmp auriu",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "sigil",
+    "object": "alături, stindard cu inimă înflăcărată (al oamenilor reginei/R'hllor)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "casă regală auto-proclamată, în declin militar (\"Restul Westerosului e în mâna vrăjmaşilor mei\")",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 11,
+    "source_page": "265–276",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "mare casă, regele Stannis se declară „singurul rege adevărat”",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 15,
+    "source_page": "194, 206–207, 215–220, 230–236",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 11,
+    "source_page": "265–276",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 15,
+    "source_page": "194, 206–207, 215–220, 230–236",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKMONT",
+    "predicate": "region",
+    "object": "LOCATION_DORNE",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKMONT",
+    "predicate": "sigil",
+    "object": "vultur mare, negru, pe fond galben, ținând un prunc (roz/alb) în gheare",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKMONT",
+    "predicate": "status_at",
+    "object": "vasală a Casei Martell",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "seat",
+    "object": "LOCATION_RAVENTREE",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "sigil",
+    "object": "mantie cu pene de corb (Tytos „Tyros\" Blackwood)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "status_at",
+    "object": "vasală, aliată cu Robb",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 3,
+    "source_page": "158",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "status_at",
+    "object": "implicată în conflict activ, atacată",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 15,
+    "source_page": "197",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "enemy_of",
+    "object": "HOUSE_BRACKEN",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 10,
+    "source_page": "251, 259",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "ally_of",
+    "object": "HOUSE_BRACKEN",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 15,
+    "source_page": "197",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "seat",
+    "object": "LOCATION_DREADFORT",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "sigil",
+    "object": "nemenționat aici",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "sigil",
+    "object": "omul jupuit al Dreadfortului",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "status_at",
+    "object": "vasală a Casei Stark, dar acţionează cu relativă autonomie; stăpâneşte acum Harrenhal",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 1,
+    "source_page": "31, 44",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "status_at",
+    "object": "în ascensiune, ambiguă loialitate",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 2,
+    "source_page": "61, 108",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "status_at",
+    "object": "casă vasală Casei Stark, în ascensiune — Roose Bolton ocupă temporar Harrenhal",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 6,
+    "source_page": "33–35",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "status_at",
+    "object": "vasală a Casei Stark, în ascensiune (fiul bastard al lui Bolton salvează supraviețuitorii Winterfell-ului)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 7,
+    "source_page": "84",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "status_at",
+    "object": "vasală a Casei Stark, deține temporar Harrenhal; supusă Regelui Robb Stark, dar cu loialitate ambiguă",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 8,
+    "source_page": "103–108",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "status_at",
+    "object": "vasală Casei Stark, dar cu loialitate ambiguă; Roose Bolton escortează temporar prizonieri Lannister",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 9,
+    "source_page": "175–176, 198",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "status_at",
+    "object": "casă vasală (Nord), în ascensiune ca putere/influenţă",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 10,
+    "source_page": "235–238, 251",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "status_at",
+    "object": "în ascensiune (Roose Bolton devine Păzitor al Nordului)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 11,
+    "source_page": "265",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "status_at",
+    "object": "în ascensiune — Roose Bolton numit Păzitor al Nordului prin decret regal",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 14,
+    "source_page": "172",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "status_at",
+    "object": "în ascensiune — Roose Bolton numit Păzitor al Nordului de Tywin Lannister; bastardul lui Bolton urmează să se însoare cu „sora Sansei” (conform zvonului)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 15,
+    "source_page": "197, 218",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "ally_of",
+    "object": "PERSON_JAIME_LANNISTER",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 8,
+    "source_page": "103–108",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "ally_of",
+    "object": "PERSON_ROBB_STARK",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 10,
+    "source_page": "235–238, 251",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 15,
+    "source_page": "197, 218",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "status_at",
+    "object": "castelul le-a fost pârjolit de Tywin Lannister; posibil responsabili pentru masacrul de la han (suspiciune, neconfirmat)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 1,
+    "source_page": "31",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "status_at",
+    "object": "vasală, aliată cu Robb; Jonos Bracken are o reacţie „aproape glacială\" faţă de Catelyn",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 3,
+    "source_page": "159",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "status_at",
+    "object": "iertată prin amnistie",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 14,
+    "source_page": "172",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "status_at",
+    "object": "acum aliată cu Coroana/Lannisterii",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 15,
+    "source_page": "197",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "enemy_of",
+    "object": "HOUSE_BLACKWOOD",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 10,
+    "source_page": "259",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "ally_of",
+    "object": "HOUSE_BLACKWOOD",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 15,
+    "source_page": "197",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CELTIGAR",
+    "predicate": "seat",
+    "object": "LOCATION_INSULA_CLESTILOR",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CELTIGAR",
+    "predicate": "status_at",
+    "object": "Lordul Celtigar capturat, a plecat genunchiul în fața lui Joffrey",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 5,
+    "source_page": "285",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CELTIGAR",
+    "predicate": "status_at",
+    "object": "a plecat genunchiul în fața lui Joffrey după Bătălia Apei Negre",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 7,
+    "source_page": "91",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CERWYN",
+    "predicate": "status_at",
+    "object": "afectată (moștenitor mort, castelan mort)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CLEGANE",
+    "predicate": "sigil",
+    "object": "scut de stejar bătut cu ținte de fier, vopsit galben, cu trei câini negri",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CLEGANE",
+    "predicate": "status_at",
+    "object": "acuzată de cruzime extremă în timpul războiului (Sherrer, Vadul Măștilor)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 7,
+    "source_page": "68–69",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CLEGANE",
+    "predicate": "status_at",
+    "object": "vasală a Casei Lannister; Ser Gregor Clegane servește drept campion al lui Cersei/Coroanei",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 14,
+    "source_page": "152",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DALT",
+    "predicate": "region",
+    "object": "LOCATION_DORNE",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DALT",
+    "predicate": "sigil",
+    "object": "câmp purpuriu presărat cu lămâi (trei ghemotoace galbene pe flamură purpurie)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DALT",
+    "predicate": "status_at",
+    "object": "vasală a Casei Martell",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DAYNE",
+    "predicate": "seat",
+    "object": "LOCATION_STARFALL",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DAYNE",
+    "predicate": "region",
+    "object": "LOCATION_DORNE",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DAYNE",
+    "predicate": "status_at",
+    "object": "mare casă vasală în Dorne",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ESTERMONT",
+    "predicate": "sigil",
+    "object": "ţestoasă",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ESTERMONT",
+    "predicate": "status_at",
+    "object": "a plecat genunchiul în fața lui Joffrey (Lordul Estermont, bunicul mamei lui Stannis)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 7,
+    "source_page": "90",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ESTERMONT",
+    "predicate": "status_at",
+    "object": "aliată cu Stannis",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 15,
+    "source_page": "207",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FLORENT",
+    "predicate": "sigil",
+    "object": "vulpea şi florile",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FLORENT",
+    "predicate": "status_at",
+    "object": "aliată lui Stannis; Lordul Florent — Mâna Regelui la Piatra Dragonului",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 2,
+    "source_page": "114",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FLORENT",
+    "predicate": "status_at",
+    "object": "puternică la curtea lui Stannis, prin regina Selyse şi unchii ei (Alester, Axell)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 3,
+    "source_page": "121",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FLORENT",
+    "predicate": "status_at",
+    "object": "dezmoștenită (Alester Florent a sprijinit Renly, apoi Stannis)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 4,
+    "source_page": "214",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FLORENT",
+    "predicate": "status_at",
+    "object": "susține pe Stannis; Selyse Florent e regină (soția lui Stannis); Alester Florent — Mâna Regelui, închis pentru trădare/negocieri secrete de pace",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 5,
+    "source_page": "283–286",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FLORENT",
+    "predicate": "status_at",
+    "object": "vasală (implicit Casei Baratheon/Stannis); Lordul Alester Florent apare în conflict privind o căsătorie propusă pentru Shireen",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 6,
+    "source_page": "287 (început de fragment, text incomplet)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FLORENT",
+    "predicate": "status_at",
+    "object": "parte a curții lui Stannis; Selyse (regina) e din această casă; Ser Axell Florent — castelan la Piatra Dragonului; Lordul Alester Florent — fost Mână, acum întemnițat pentru „trădare\"",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 7,
+    "source_page": "87–92",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FLORENT",
+    "predicate": "status_at",
+    "object": "casă vasală, cu membri la curtea lui Stannis (Regina Selyse e din Casa Florent, Ser Axell Florent)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 11,
+    "source_page": "265, 273–274",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FLORENT",
+    "predicate": "status_at",
+    "object": "menționată ca purtător de flamură nesupus al Tyrellilor (istoric); membrii actuali (Ser Axell, Regina Selyse) sunt aliați ai lui Stannis",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 12,
+    "source_page": "66–67",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FLORENT",
+    "predicate": "status_at",
+    "object": "casă vasală, aliată cu Stannis (flamura cu vulpe şi flori la Castelul Negru)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 15,
+    "source_page": "207, 238 (mama lui Sam Tarly e o Florent)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FLORENT",
+    "predicate": "ally_of",
+    "object": "HOUSE_BARATHEON",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 3,
+    "source_page": "121",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FLORENT",
+    "predicate": "ally_of",
+    "object": "HOUSE_BARATHEON",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 11,
+    "source_page": "265, 273–274",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FOSSOWAY",
+    "predicate": "status_at",
+    "object": "ramură \"merele verzi\" menționată",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "sigil",
+    "object": "două turnuri (menționat pe tunica lui Cleos: „turnuri\" alături de „lei\")",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "sigil",
+    "object": "turnuri gemene (menţionate pe cămăşile purtate de fiii lui Walder Frey)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "sigil",
+    "object": "cele două turnuri gemene unite de un pod",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "sigil",
+    "object": "un pod cu două turnuri (descris grafic în Anexă, nu explicit în text)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "vasală (jurată Riverrunului/Casei Tully)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 1,
+    "source_page": "26",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "puternic insultată — logodna lui Robb cu o fiică Frey a fost încălcată; aproape 40 de oameni au părăsit oastea lui Robb",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 3,
+    "source_page": "158–159, 161–163, 166–167",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "vasal Tully, jignit de încălcarea jurământului lui Robb",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 4,
+    "source_page": "209, 221, 227–229",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "aliați ai Lannisterilor la acel moment",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 5,
+    "source_page": "239, 241, 274, 276",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "casă vasală Casei Tully/Stark, dar cu resentimente faţă de Robb Stark (menţionate ca „trădare\" a încrederii lor)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 6,
+    "source_page": "33–34",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "vasală (a Riverrun-ului), în tensiune cu Robb Stark după ce l-a „părăsit\"",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 7,
+    "source_page": "75–86",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "vasală a Casei Tully, dar cu loialitate șubredă față de Robb Stark (logodna ruptă cu Arya Stark)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 8,
+    "source_page": "104–105",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "vasală, aliată (cu tensiuni) cu Robb prin căsătoria planificată Edmure–Roslin",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 9,
+    "source_page": "188, 200–201",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "mare casă vasală, extrem de numeroasă (mulţi copii/nepoţi)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 10,
+    "source_page": "226–256",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "mare casă vasală, în ascensiune prin alianţă cu Coroana (Lannister) după Nunta Roşie",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 11,
+    "source_page": "264",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "vasal (fost al Casei Tully), acum aliat/în slujba Lannisterilor",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 12,
+    "source_page": "34, 56–57",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "mare casă vasală (aliată/subordonată Casei Tully/Lannister după evenimente)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 13,
+    "source_page": "86–87",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "răsplătită de Coroană — Ser Aemon Frey și Lady Genna primesc pământuri și un castel prin decret",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 14,
+    "source_page": "172",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "asediază Riverrun, aliată cu Lannisterii",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 15,
+    "source_page": "197",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "vasali ai Casei Tully; responsabili de Nunta Roșie; succesiune tensionată (Ser Ryman moștenitor, apoi Edwyn și Walder cel Negru, considerați \"mai răi\")",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 16,
+    "source_page": "261–271, 287–291",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 1,
+    "source_page": "26",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "ally_of",
+    "object": "PERSON_ROBB_STARK",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 7,
+    "source_page": "75–86",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "ally_of",
+    "object": "PERSON_EDMURE_TULLY",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 8,
+    "source_page": "104–105",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "ally_of",
+    "object": "PERSON_LORDUL_WALDER_FREY",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 9,
+    "source_page": "188, 200–201",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 10,
+    "source_page": "226–256",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 11,
+    "source_page": "264",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GARGALEN",
+    "predicate": "region",
+    "object": "LOCATION_DORNE",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GARGALEN",
+    "predicate": "sigil",
+    "object": "cocoșel roșu cu un șarpe în cioc, pe fond auriu (descris inițial greșit de Pod drept „găină roșie mâncând un șarpe\")",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GARGALEN",
+    "predicate": "status_at",
+    "object": "vasală a Casei Martell",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GLOVER",
+    "predicate": "seat",
+    "object": "LOCATION_DEEPWOOD_MOTTE",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GLOVER",
+    "predicate": "status_at",
+    "object": "vasală a Casei Stark; Galbart Glover are reacţie „rece\" faţă de Catelyn",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 3,
+    "source_page": "159",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GLOVER",
+    "predicate": "status_at",
+    "object": "aliată a Casei Stark; Robert Glover capturat la Duskendale",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 7,
+    "source_page": "80",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GLOVER",
+    "predicate": "status_at",
+    "object": "vasală Casei Stark; teritoriul ocupat temporar de Asha Greyjoy",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 9,
+    "source_page": "189, 199",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GLOVER",
+    "predicate": "enemy_of",
+    "object": "HOUSE_GREYJOY",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 9,
+    "source_page": "189, 199",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "region",
+    "object": "LOCATION_INSULELE_DE_FIER",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "dușman al Casei Stark (a atacat Winterfell)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 2,
+    "source_page": "108, 111",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "în ascensiune, autoproclamată regală („Rege al Insulelor și al Nordului\")",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 4,
+    "source_page": "210, 217, 220",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "Lordul Balon Greyjoy — Bravii Camarazi îl slujesc acum pe el",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 5,
+    "source_page": "239, 251",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "ocupă Winterfell şi Moat Cailin; conflict cu Stark",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 7,
+    "source_page": "80–84",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "mare casă, în criză de succesiune (moartea lui Balon)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 9,
+    "source_page": "198–199",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "casă regală (autoproclamată)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 10,
+    "source_page": "225, 236–238, 262",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "în conflict intern după moartea lui Balon Greyjoy; ocupă castele nordice",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 15,
+    "source_page": "219",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 9,
+    "source_page": "198–199",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HAYFORD",
+    "predicate": "status_at",
+    "object": "ultima moştenitoare (Ermesande) căsătorită cu Tyrek Lannister",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "seat",
+    "object": "LOCATION_ORASUL_VECHI",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HOLLARD",
+    "predicate": "sigil",
+    "object": "cămașă cu dungi orizontale roz și roșii, o fâșie neagră cu trei coroane de aur",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_JORDAYNE",
+    "predicate": "seat",
+    "object": "LOCATION_TOR",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_JORDAYNE",
+    "predicate": "region",
+    "object": "LOCATION_DORNE",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_JORDAYNE",
+    "predicate": "sigil",
+    "object": "pană/condei auriu pe fond de carouri verzi",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_JORDAYNE",
+    "predicate": "status_at",
+    "object": "vasală a Casei Martell",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "branch_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "seat",
+    "object": "LOCATION_KARHOLD",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "words",
+    "object": "nespecificate în fragment",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "sigil",
+    "object": "cămașă/blazon cu „răsăritul alb de soare\" (soare alb pe fond negru)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "status_at",
+    "object": "aliată Casei Stark",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 2,
+    "source_page": "108-112",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "status_at",
+    "object": "vasală a Casei Stark; Lordul Rickard Karstark furios pe Catelyn",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 3,
+    "source_page": "158–159",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "status_at",
+    "object": "vasal Stark, în cădere (trădare, execuție a lordului, dezertare masivă)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 4,
+    "source_page": "224–229",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "status_at",
+    "object": "în declin/înfrântă — lordul executat pentru trădare, casa se trage din Karlon Stark (fiu mai tânăr al Winterfellului)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 5,
+    "source_page": "230",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "status_at",
+    "object": "vasală Casei Stark, dar lordul ei a fost decapitat de Robb Stark pentru trădare şi crimă",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 6,
+    "source_page": "33–34",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "status_at",
+    "object": "Rickard Karstark executat (menționat retrospectiv) pentru uciderea lui Willem Lannister",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 7,
+    "source_page": "43, 80",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "status_at",
+    "object": "casă vasală (Nord), loialitate „nesigură\" la acest moment",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 10,
+    "source_page": "238",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "ally_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 5,
+    "source_page": "230",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KETTLEBLACK",
+    "predicate": "status_at",
+    "object": "în ascensiune (trei frați intrați recent în serviciul Coroanei/Gărzii Regale)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "seat",
+    "object": "LOCATION_CASTERLY_ROCK",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "words",
+    "object": "„Un Lannister își plătește întotdeauna datoriile\" (zicală recurentă, nu explicit „cuvinte de casă\" oficiale)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "sigil",
+    "object": "leu auriu",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "sigil",
+    "object": "leu (menționat implicit — „prin lei și prin turnuri\" pe cămașa lui Cleos)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "sigil",
+    "object": "leu",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "sigil",
+    "object": "culori purpuriu şi auriu (menţionate pe mantia de mireasă a lui Tyrion, brodată cu lei)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "sigil",
+    "object": "leu (aluzie repetată, „leul Lannisterilor\")",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, controlează Coroana prin Joffrey",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 1,
+    "source_page": "24–58 (frecvent)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, la putere",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 2,
+    "source_page": "59-63",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă dominantă, la putere (Tywin - Mâna Regelui)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 4,
+    "source_page": "207–229",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, condusă de Tywin Lannister",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 5,
+    "source_page": "233–234, 239–241",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, la putere (Tywin Lannister e Mână a Regelui)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 6,
+    "source_page": "5–14, 27–35",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, dominantă (conduce practic tronul prin Tywin, Mâna Regelui)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 7,
+    "source_page": "42–49",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, foarte puternică",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 9,
+    "source_page": "175–187",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, aflată la putere prin Tronul de Fier",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 10,
+    "source_page": "257–263",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, la putere (Tywin — Mâna Regelui)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 12,
+    "source_page": "pe tot parcursul fragmentului",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, la putere prin regența Lordului Tywin",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 13,
+    "source_page": "93–120",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "cea mai puternică casă a momentului, deține regența la Debarcaderul Regelui prin Lordul Tywin",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 14,
+    "source_page": "141, 171 ș.a.",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, la putere (controlează Tronul de Fier prin Tommen)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 15,
+    "source_page": "multiple, ex. 196–199, 221–229",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "enemy_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 1,
+    "source_page": "24–58 (frecvent)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "enemy_of",
+    "object": "HOUSE_MARTELL",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 2,
+    "source_page": "59-63",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "enemy_of",
+    "object": "HOUSE_GREYJOY",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 4,
+    "source_page": "207–229",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "enemy_of",
+    "object": "HOUSE_GREYJOY",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 5,
+    "source_page": "233–234, 239–241",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "enemy_of",
+    "object": "HOUSE_TYRELL",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 7,
+    "source_page": "42–49",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "enemy_of",
+    "object": "HOUSE_BOLTON",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 9,
+    "source_page": "175–187",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "enemy_of",
+    "object": "HOUSE_MARTELL",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 10,
+    "source_page": "257–263",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "enemy_of",
+    "object": "HOUSE_TARBECK",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 12,
+    "source_page": "pe tot parcursul fragmentului",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "enemy_of",
+    "object": "HOUSE_MARTELL",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 13,
+    "source_page": "93–120",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "ally_of",
+    "object": "HOUSE_BRACKEN",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 15,
+    "source_page": "multiple, ex. 196–199, 221–229",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LOTHSTON",
+    "predicate": "seat",
+    "object": "LOCATION_HARRENHAL",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LOTHSTON",
+    "predicate": "sigil",
+    "object": "liliac negru, pe fond argintiu și auriu",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LOTHSTON",
+    "predicate": "status_at",
+    "object": "stinsă",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MALLISTER",
+    "predicate": "sigil",
+    "object": "coif înaripat purtat de Lord Jason Mallister",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MALLISTER",
+    "predicate": "status_at",
+    "object": "vasală a Casei Tully/aliată cu Robb; ţine ostatic pe Lordul Gawen Westerling",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 3,
+    "source_page": "158, 163",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MALLISTER",
+    "predicate": "status_at",
+    "object": "aliată cu Robb Stark; un Mallister comandă Turnul Umbrei",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 7,
+    "source_page": "57, 76",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MALLISTER",
+    "predicate": "status_at",
+    "object": "vasală, aliată cu Robb",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 9,
+    "source_page": "198–201",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MALLISTER",
+    "predicate": "status_at",
+    "object": "mare casă vasală, reprezentată la Zid de Ser Denys Mallister",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 15,
+    "source_page": "237",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "seat",
+    "object": "LOCATION_PORTUL_ALB",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "status_at",
+    "object": "aliată Casei Stark",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANWOODY",
+    "predicate": "region",
+    "object": "LOCATION_DORNE",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANWOODY",
+    "predicate": "sigil",
+    "object": "craniu încoronat, alb și auriu, pe fond negru",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANWOODY",
+    "predicate": "status_at",
+    "object": "vasală a Casei Martell",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "region",
+    "object": "LOCATION_DORNE",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "sigil",
+    "object": "soare roșu pe fond portocaliu, cu o suliță în spate",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "status_at",
+    "object": "nou aliată cu Lannisterii (prin ostatică Myrcella și loc în consiliu)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 2,
+    "source_page": "60",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "status_at",
+    "object": "mare casă, revendică dreptate pentru Elia Martell",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 4,
+    "source_page": "213–214",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "status_at",
+    "object": "mare casă, aliată nominal cu Coroana (prin căsătoria propusă a Myrcellei), dar cu tensiuni puternice legate de moartea Eliei Martell",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 8,
+    "source_page": "108–118",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 10,
+    "source_page": "257–263",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "status_at",
+    "object": "mare casă, cu resentimente istorice față de Lannister (moartea Eliei Martell)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 13,
+    "source_page": "93, 105–107, 115–117",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "status_at",
+    "object": "mare casă; Oberyn moare în fragment ca urmare a duelului judiciar",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 14,
+    "source_page": "143–156",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 8,
+    "source_page": "108–118",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 13,
+    "source_page": "93, 105–107, 115–117",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 14,
+    "source_page": "143–156",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MOOTON",
+    "predicate": "seat",
+    "object": "LOCATION_IAZUL_FECIOARELOR",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MOOTON",
+    "predicate": "sigil",
+    "object": "somon roșu",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MOOTON",
+    "predicate": "status_at",
+    "object": "vasal jurat Riverrunului",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 5,
+    "source_page": "232",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MOOTON",
+    "predicate": "status_at",
+    "object": "iertată prin amnistie",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 14,
+    "source_page": "172",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORMONT",
+    "predicate": "sigil",
+    "object": "urs negru (purtat de Ser Jorah pe cămaşă)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORMONT",
+    "predicate": "status_at",
+    "object": "Ser Jorah — cavaler exilat",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 2,
+    "source_page": "92-104",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORMONT",
+    "predicate": "status_at",
+    "object": "vasală a Casei Stark; Lady Maege Mormont poartă cămaşă din zale peticită",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 3,
+    "source_page": "158–159",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORMONT",
+    "predicate": "status_at",
+    "object": "casă mică, membru notabil în exil (Ser Jorah) şi la Rondul de Noapte (Jeor Mormont, Lord Comandant)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 6,
+    "source_page": "296, 291",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORMONT",
+    "predicate": "status_at",
+    "object": "vasală loială Casei Stark",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 9,
+    "source_page": "196–199",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PAYNE",
+    "predicate": "sigil",
+    "object": "carouri violet și alb, cu monede aurii, în pătrate",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PIPER",
+    "predicate": "status_at",
+    "object": "vasală Casei Tully",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PIPER",
+    "predicate": "ally_of",
+    "object": "PERSON_MARQ_PIPER",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 9,
+    "source_page": "191",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PLUMM",
+    "predicate": "region",
+    "object": "LOCATION_WESTEROS",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PLUMM",
+    "predicate": "status_at",
+    "object": "dispărută/nesigură — Oacheşul Ben e descendent auto-declarat, mercenar în Essos",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_QORGYLE",
+    "predicate": "seat",
+    "object": "LOCATION_SANDSTONE",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_QORGYLE",
+    "predicate": "region",
+    "object": "LOCATION_DORNE",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_QORGYLE",
+    "predicate": "sigil",
+    "object": "trei scorpioni negri pe fond roșu",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_QORGYLE",
+    "predicate": "status_at",
+    "object": "vasală a Casei Martell",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDWYNE",
+    "predicate": "seat",
+    "object": "LOCATION_ARBOR",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDWYNE",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDWYNE",
+    "predicate": "status_at",
+    "object": "menţionate ca aliaţi ai Casei Tyrell, prezenţi cu oamenii lor la Debarcaderul Regelui",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 1,
+    "source_page": "55",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDWYNE",
+    "predicate": "status_at",
+    "object": "aliată Coroanei, aduce flota",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 2,
+    "source_page": "59, 69",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDWYNE",
+    "predicate": "status_at",
+    "object": "mare casă vasală Tyrell",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 4,
+    "source_page": "208–215",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDWYNE",
+    "predicate": "status_at",
+    "object": "mare casă vasală Tyrell",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 12,
+    "source_page": "26, 34",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REED",
+    "predicate": "region",
+    "object": "LOCATION_GATUL",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REED",
+    "predicate": "status_at",
+    "object": "purtători de flamuri ai Casei Stark",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REYNE",
+    "predicate": "seat",
+    "object": "LOCATION_CASTAMERE",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REYNE",
+    "predicate": "status_at",
+    "object": "stinsă (distrusă de Tywin Lannister)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 4,
+    "source_page": "223",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REYNE",
+    "predicate": "status_at",
+    "object": "stinse (aluzie istorică, prin Ploile din Castamere)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 12,
+    "source_page": "57",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REYNE",
+    "predicate": "status_at",
+    "object": "stinsă (menționată istoric — \"lecția\" dată de Tywin Casei Reyne)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 14,
+    "source_page": "150",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROWAN",
+    "predicate": "seat",
+    "object": "LOCATION_GOLDENGROVE",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROWAN",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROWAN",
+    "predicate": "status_at",
+    "object": "menţionate ca aliaţi ai Casei Tyrell, prezenţi cu oamenii lor la Debarcaderul Regelui",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 1,
+    "source_page": "55",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROWAN",
+    "predicate": "status_at",
+    "object": "casă vasală Tyrell",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 4,
+    "source_page": "208–215",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SEAWORTH",
+    "predicate": "status_at",
+    "object": "în ascensiune — Davos ridicat de la cavaler la Lord de Rainwood, Amiral al Mării Înguste și Mână a Regelui",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SEAWORTH",
+    "predicate": "ally_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 8,
+    "source_page": "94–95",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SMALLWOOD",
+    "predicate": "seat",
+    "object": "LOCATION_CASTELUL_GHINDEI",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SMALLWOOD",
+    "predicate": "status_at",
+    "object": "vasală a Casei Vance; stăpânul plecat la război, Lady Smallwood conduce",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 5,
+    "source_page": "247–252",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SMALLWOOD",
+    "predicate": "status_at",
+    "object": "vasală, aliată/neutră cu Frăția fără Steaguri",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 9,
+    "source_page": "173",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SPICER",
+    "predicate": "sigil",
+    "object": "trei piperniţe pe o bentiţă oblică de culoarea şofranului, aşezată de-a curmezişul pe un fond vărgat, în dungi verzi şi argintii",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SPICER",
+    "predicate": "status_at",
+    "object": "casă mică; Lady Sybell Westerling e născută Spicer; fratele ei, Ser Rolph, a fost castelan la Crag",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 3,
+    "source_page": "160–164",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SPICER",
+    "predicate": "status_at",
+    "object": "în ascensiune — Ser Rolph Spicer primește castelul Castamere și titlul de lord",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 14,
+    "source_page": "172",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SPICER",
+    "predicate": "ally_of",
+    "object": "HOUSE_WESTERLING",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 3,
+    "source_page": "160–164",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "words",
+    "object": "\"Vine iarna\"; „Vine iarna” (menționat)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "sigil",
+    "object": "lup (implicit, „lupoaica\", „lupul tânăr\")",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "sigil",
+    "object": "lup străvechi gri pe fond alb (menţionat brodat cu fir de argint pe o mantie de catifea albă)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "mare casă; Robb Stark e \"regele Nordului\"",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 1,
+    "source_page": "37–43",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "în declin/dezmembrată (Eddard executat, castel distrus)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 2,
+    "source_page": "68, 74-76, 87, 111",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "mare casă, în criză (moștenitori uciși/dispăruți, castel căzut, Robb proclamat „Rege în Nord\")",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 4,
+    "source_page": "174, 185, 209–229",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "Robb e „Regele Nordului\"; casa e în război",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 5,
+    "source_page": "230–232, 249",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "mare casă, în conflict/război; capul familiei (Ned Stark) e mort; Robb Stark e „Regele Nordului\"",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 6,
+    "source_page": "5–35 (menţionată frecvent)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "în mare declin — Winterfell ars, mai mulți membri morți sau dispăruți, Robb e „Regele Nordului\"",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 7,
+    "source_page": "78–86",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "mare casă, condusă de Robb ca „Rege al Nordului\"",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 9,
+    "source_page": "188–201",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "mare casă; Robb — „Regele Nordului\"",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 10,
+    "source_page": "multiple (207–263)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "aproape stinsă / în declin sever",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 12,
+    "source_page": "19–20",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "în declin sever / aproape stinsă ca putere (Winterfell distrus, mulți membri morți)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 13,
+    "source_page": "86–92",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "în declin sever — considerată aproape stinsă la vedere publică; Sansa se ascunde sub identitate falsă; se folosește o falsă \"Arya Stark\" pentru căsătoria cu Ramsay Bolton",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 14,
+    "source_page": "133, 180–182",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "în declin sever (Robb mort, Winterfell distrus, Sansa şi Arya dispărute, doar Jon — bastard — mai rămâne activ)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 15,
+    "source_page": "multiple, ex. 217–219, 241",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "Robb Stark (Regele Nordului) — conform Anexă, decedat/menționat ca rege; linia Stark aparent decimată (Bran, Rickon, Arya — dispăruți/socotiți morți); Sansa la Eyrie sub identitate falsă",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 16,
+    "source_page": "248, 275–278 (Anexă)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "vassal_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 4,
+    "source_page": "174, 185, 209–229",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "enemy_of",
+    "object": "HOUSE_KARSTARK",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 5,
+    "source_page": "230–232, 249",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "vassal_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 6,
+    "source_page": "5–35 (menţionată frecvent)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "ally_of",
+    "object": "HOUSE_MALLISTER",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 9,
+    "source_page": "188–201",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 10,
+    "source_page": "multiple (207–263)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 13,
+    "source_page": "86–92",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "ally_of",
+    "object": "HOUSE_BARATHEON",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 15,
+    "source_page": "multiple, ex. 217–219, 241",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SUNGLASS",
+    "predicate": "status_at",
+    "object": "Lordul Guncer Sunglass ars de Melisandre (ars pe rug la Piatra Dragonului, menționat retrospectiv); fiii lui Ser Hubard Rambton de asemenea executați acolo",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SWANN",
+    "predicate": "status_at",
+    "object": "casă vasală",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TALLHART",
+    "predicate": "status_at",
+    "object": "aliată a Casei Stark; Ser Helman Tallhart zdrobit la Duskendale",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARBECK",
+    "predicate": "seat",
+    "object": "LOCATION_CASTELUL_TARBECK",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARBECK",
+    "predicate": "status_at",
+    "object": "stinsă (distrusă de Tywin Lannister)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 4,
+    "source_page": "223",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARBECK",
+    "predicate": "status_at",
+    "object": "stinse (aluzie istorică, prin Ploile din Castamere)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 12,
+    "source_page": "57",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARBECK",
+    "predicate": "status_at",
+    "object": "menționată istoric alături de Casa Reyne, ca exemplu al represaliilor lui Tywin",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 14,
+    "source_page": "150",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "words",
+    "object": "„Sânge și foc\" (menționat explicit de Dany ca „Cuvintele Casei Targaryen\")",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "sigil",
+    "object": "dragon cu trei capete (istoric: Balerion, Meraxes, Vhagar)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "stinsă din punct de vedere al puterii politice, doar Daenerys rămasă",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 2,
+    "source_page": "91-104",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "casă căzută/în exil (Dany și Viserys, ultimii reprezentanți cunoscuți); tradiția căsătoriilor incestuoase menționată",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 5,
+    "source_page": "234, 268",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "în declin/exil — Daenerys ultima reprezentantă activă, se declară Regina Celor Șapte Regate",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 9,
+    "source_page": "153, 162, 181",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "dinastie căzută, ultimii reprezentanți fiind Daenerys și Maester Aemon (menționat ca fiind din sânge Targaryen, \"fiul unui rege și fratele unui rege\")",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 14,
+    "source_page": "184, 157–170",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "seat",
+    "object": "LOCATION_HORN_HILL",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "region",
+    "object": "LOCATION_WESTEROS",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "status_at",
+    "object": "aliată a Lannisterilor; Randyll Tarly a zdrobit oastea Glover/Tallhart la Duskendale",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 7,
+    "source_page": "80, 91",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "status_at",
+    "object": "vasală",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 9,
+    "source_page": "203, 206",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "status_at",
+    "object": "mare casă vasală (Reach)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 10,
+    "source_page": "207",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "status_at",
+    "object": "mare casă vasală (a Casei Tyrell), loială Coroanei/Lannisterilor",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 15,
+    "source_page": "198, 210–211, 234, 237",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "ally_of",
+    "object": "HOUSE_BARATHEON",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 15,
+    "source_page": "198, 210–211, 234, 237",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARTH",
+    "predicate": "seat",
+    "object": "LOCATION_TARTH",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARTH",
+    "predicate": "status_at",
+    "object": "casă mică; Lordul Selwyn Tarth („Luceafărul de Seară\") e tatăl Briennei",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "seat",
+    "object": "LOCATION_RIVERRUN",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "words",
+    "object": "„Familie, Datorie, Onoare\"",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "sigil",
+    "object": "păstrăv (menţionat prin stâlpi sculptaţi cu păstrăvi şi flamura cu păstrăv)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "sigil",
+    "object": "peşte (implicit, nedescris explicit — corabia Casei Tully e menţionată)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "sigil",
+    "object": "un păstrăv săltând, cu solzi de argint și bronz, culori albastru și roșu",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "sigil",
+    "object": "peştele (menţionat aluziv — „mantia peştelui\")",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "sigil",
+    "object": "un păstrăv sărind, argintiu, pe fond unduit albastru cu roșu",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "mare casă, aliată cu Robb Stark",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 1,
+    "source_page": "25, 37, 42–43",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "mare casă, aliată cu Casa Stark; Lordul Hoster muribund",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 3,
+    "source_page": "124, 157–167",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "mare casă, aliată/înrudită cu Stark",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 4,
+    "source_page": "209, 222–229",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "Lordul Hoster Tully pe moarte; Edmure conduce; Catelyn Tully-Stark, fiica lui Hoster",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 5,
+    "source_page": "231–232",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "mare casă; Hoster Tully mort sau muribund, Edmure Tully noul lord",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 6,
+    "source_page": "15–16, 22, 33–34",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "mare casă, lord nou (Edmure) după moartea Lordului Hoster",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 7,
+    "source_page": "75–86",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "mare casă, aliată cu Robb Stark",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 9,
+    "source_page": "188–201",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 10,
+    "source_page": "226–234",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "în declin (Robb și Catelyn morți)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 12,
+    "source_page": "19, 34",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "mare casă, aflată în dificultate (Peştele Negru — Brynden Tully — ar putea fi acolo)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 13,
+    "source_page": "86, 92",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "în declin — Edmure Tully și Brynden Tully declarați răzvrătiți, deposedați de pământuri",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 14,
+    "source_page": "171",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "în declin, asediată",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 15,
+    "source_page": "197",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "mare casă; Catelyn (fiica Lordului Hoster) — apare ca \"Lady Stoneheart\" (moartă/reînviată) la finalul fragmentului",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 16,
+    "source_page": "257, 295–297 (Anexă)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 1,
+    "source_page": "25, 37, 42–43",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 3,
+    "source_page": "124, 157–167",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 9,
+    "source_page": "188–201",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "sigil",
+    "object": "trandafir de aur",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "sigil",
+    "object": "trandafir auriu (menţionat indirect — „o mie de trandafiri aurii\")",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "mare casă, s-a declarat de partea lui Joffrey; foarte populară la Debarcaderul Regelui (aduce mâncare de pomană)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 1,
+    "source_page": "43, 55–56",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "mare casă, în ascensiune (aliați cu Coroana)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 2,
+    "source_page": "68-79",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "mare casă, acum aliată cu Lannisterii (după unirea forţelor cu Tywin la Cascada Saltimbancului, împotriva lui Stannis)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 3,
+    "source_page": "139–141, 166",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "mare casă, în ascensiune (alianță cu Lannister prin căsătoria Margaery-Joffrey)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 4,
+    "source_page": "182–186, 208–219",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "mare casă, aliată cu Casa Lannister (după Bătălia de la Apa Neagră); Margaery logodită cu Joffrey",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 6,
+    "source_page": "6–11, 34",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "puternică, curtată de Lannister; a refuzat oferta de căsătorie Cersei–Willas",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 7,
+    "source_page": "46–47",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "mare casă, în ascensiune (prin căsătoria lui Margaery cu Joffrey)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 12,
+    "source_page": "24–47",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "mare casă în ascensiune (prin căsătoria Margaery cu regii succesivi)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 13,
+    "source_page": "97, 111–117, 125–126",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "mare casă, aliată prin căsătorie cu Coroana (Margaery)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 14,
+    "source_page": "145, 149",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "mare casă, menţionată în legătură cu Mace Tyrell la bătălia de la Ashford",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 15,
+    "source_page": "234",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 2,
+    "source_page": "68-79",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "ally_of",
+    "object": "PERSON_SER_LORAS_TYRELL",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 3,
+    "source_page": "139–141, 166",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 4,
+    "source_page": "182–186, 208–219",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 6,
+    "source_page": "6–11, 34",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 12,
+    "source_page": "24–47",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "enemy_of",
+    "object": "HOUSE_MARTELL",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 13,
+    "source_page": "97, 111–117, 125–126",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 14,
+    "source_page": "145, 149",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ULLER",
+    "predicate": "seat",
+    "object": "LOCATION_HELLHOLT",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ULLER",
+    "predicate": "region",
+    "object": "LOCATION_DORNE",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ULLER",
+    "predicate": "sigil",
+    "object": "roșu și galben, cu o linie crestată între ele („Flăcările de la Hellholt\")",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ULLER",
+    "predicate": "status_at",
+    "object": "vasală a Casei Martell",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_UMBER",
+    "predicate": "seat",
+    "object": "LOCATION_ULTIMA_VATRA",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_UMBER",
+    "predicate": "status_at",
+    "object": "aliată Casei Stark",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 2,
+    "source_page": "108-112",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_UMBER",
+    "predicate": "status_at",
+    "object": "vasală a Casei Stark; „Marelejon\" (Greatjon) susţine zgomotos titlul „Rege în Nord\" al lui Robb",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 3,
+    "source_page": "158–159, 163",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VELARYON",
+    "predicate": "status_at",
+    "object": "Monford Velaryon, lord al mării înguste, a murit pe corabia sa (menționat retrospectiv)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WENSINGTON",
+    "predicate": "sigil",
+    "object": "trâmbiţe încrucişate",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WENSINGTON",
+    "predicate": "status_at",
+    "object": "aliată cu Stannis",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WESTERLING",
+    "predicate": "sigil",
+    "object": "şapte scoici albe pe fond nisipiu",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WESTERLING",
+    "predicate": "status_at",
+    "object": "casă mică, anterior jurată Lannisterilor; acum aliată cu Robb prin căsătoria acestuia cu Jeyne",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 3,
+    "source_page": "160–164",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WESTERLING",
+    "predicate": "status_at",
+    "object": "casă veche, decăzută financiar („mai multă onoare decât minte\")",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 4,
+    "source_page": "221–222",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WESTERLING",
+    "predicate": "status_at",
+    "object": "aliată cu Robb prin căsătoria cu Jeyne Westerling",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 7,
+    "source_page": "79, 83",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WESTERLING",
+    "predicate": "status_at",
+    "object": "casă veche, „cu mai multă mândrie decât putere\" (descrisă de Jaime); Jeyne Westerling s-a măritat cu Robb Stark",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 8,
+    "source_page": "105",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WESTERLING",
+    "predicate": "status_at",
+    "object": "vasală, aliată cu Robb prin căsătoria cu Jeyne",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 9,
+    "source_page": "188–189",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WESTERLING",
+    "predicate": "status_at",
+    "object": "casă vasală relativ minoră, ridicată prin căsătoria lui Jeyne cu Robb",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 10,
+    "source_page": "226, 230",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WESTERLING",
+    "predicate": "status_at",
+    "object": "iertată prin amnistie regală (Lordul Gawen, soția și fiica Jeyne)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 14,
+    "source_page": "172",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WESTERLING",
+    "predicate": "ally_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 3,
+    "source_page": "160–164",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WESTERLING",
+    "predicate": "vassal_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": 8,
+    "source_page": "105",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WHENT",
+    "predicate": "seat",
+    "object": "LOCATION_HARRENHAL",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WHENT",
+    "predicate": "status_at",
+    "object": "menționată doar retrospectiv (organizatorul turnirului din anul falsei primăveri, Lordul Whent)",
+    "source_book": "Iureșul Săbiilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  }
+]

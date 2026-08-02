@@ -1,0 +1,1802 @@
+[
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "region",
+    "object": "LOCATION_VALEA_ARRYN",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "sigil",
+    "object": "nemenționat în fragment",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "mare casă, linie de succesiune slăbită (un singur moștenitor minor și bolnăvicios)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 3,
+    "source_page": "137–148",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "au purtat „Coroana Șoimului\" și au domnit ca regi în Vale înainte de Cucerirea lui Aegon",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 3,
+    "source_page": "137",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "seat",
+    "object": "LOCATION_FORTAREATA_ROSIE",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "seat",
+    "object": "LOCATION_PIATRA_DRAGONULUI",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "seat",
+    "object": "LOCATION_CAPATUL_FURTUNII",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "sigil",
+    "object": "cerb",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "casă regală; Robert, Renly și Joffrey morți; Tommen e rege sub regența lui Cersei; Stannis continuă lupta, convertit la R'hllor",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 1,
+    "source_page": "12, 23, 47–53",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "casă regală (Tommen), ramură Stannis în dizgrație, ramură Renly stinsă (fără moștenitor)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 4,
+    "source_page": "163–172, 191",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BELMORE",
+    "predicate": "region",
+    "object": "LOCATION_VALEA_ARRYN",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BELMORE",
+    "predicate": "status_at",
+    "object": "case vasale ale Văii, aliate cu facțiunea Yohn Bronze",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BELMORE",
+    "predicate": "ally_of",
+    "object": "PERSON_PETYR_BAELISH",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKMONT",
+    "predicate": "region",
+    "object": "LOCATION_DORNE",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKMONT",
+    "predicate": "status_at",
+    "object": "casă dorneană, menționate doar „odraslele lui Lady Blackmont\"",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKTYDE",
+    "predicate": "seat",
+    "object": "LOCATION_BLACKTYDE",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKTYDE",
+    "predicate": "region",
+    "object": "LOCATION_INSULELE_DE_FIER",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKTYDE",
+    "predicate": "status_at",
+    "object": "mare casă/vasală, sceptică față de plebiscit",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "seat",
+    "object": "LOCATION_RAVENTREE",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "status_at",
+    "object": "în conflict cu Casa Bracken; nu a venit să se alăture asaltului asupra Riverrunului",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 9,
+    "source_page": "65–68",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "status_at",
+    "object": "înfrântă/ținută sub asediu (Tytos Blackwood)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 10,
+    "source_page": "126",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOTLEY",
+    "predicate": "region",
+    "object": "LOCATION_INSULELE_DE_FIER",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOTLEY",
+    "predicate": "status_at",
+    "object": "casă vasală Greyjoy; Sawane Botley, membru al casei, înecat din ordinul lui Balon",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "status_at",
+    "object": "în război cu Casa Blackwood",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 9,
+    "source_page": "65–68",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "status_at",
+    "object": "îngenuncheată (predată Coroanei)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 10,
+    "source_page": "126",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CODD",
+    "predicate": "region",
+    "object": "LOCATION_INSULELE_DE_FIER",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CODD",
+    "predicate": "words",
+    "object": "parafrazate de Tris (nu citate direct din carte)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CODD",
+    "predicate": "status_at",
+    "object": "disprețuită dar aliată cu Euron",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CORBRAY",
+    "predicate": "region",
+    "object": "LOCATION_VALEA_ARRYN",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CORBRAY",
+    "predicate": "status_at",
+    "object": "vasală",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CORBRAY",
+    "predicate": "enemy_of",
+    "object": "PERSON_PETYR_BAELISH",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_COSTAYNE",
+    "predicate": "seat",
+    "object": "LOCATION_TREI_TURNURI",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CRABB",
+    "predicate": "region",
+    "object": "LOCATION_CAPUL_GHEAREI_DESPICATE",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CRABB",
+    "predicate": "status_at",
+    "object": "aproape stinsă, cândva mare prin Ser Clarence Crabb, acum reprezentată doar de Dick Crabb",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CRAKEHALL",
+    "predicate": "sigil",
+    "object": "mistreț vărgat",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CRAKEHALL",
+    "predicate": "status_at",
+    "object": "menționată prin un lord (cavaler bădăran) la nuntă",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DALT",
+    "predicate": "region",
+    "object": "LOCATION_DORNE",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DALT",
+    "predicate": "status_at",
+    "object": "casă dorneană, menționat doar „băiatul lui Dalt\"",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DARKLYN",
+    "predicate": "status_at",
+    "object": "stinsă",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DARKLYN",
+    "predicate": "ally_of",
+    "object": "HOUSE_HOLLARD",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FOWLER",
+    "predicate": "region",
+    "object": "LOCATION_DORNE",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FOWLER",
+    "predicate": "words",
+    "object": "„Lasă-mă să zbor\"",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FOWLER",
+    "predicate": "status_at",
+    "object": "casă dorneană, menționată prin „gemenele Fowler\"",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "seat",
+    "object": "LOCATION_GEMENII",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "mare casă, recent ridicată prin trădare",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GLOVER",
+    "predicate": "seat",
+    "object": "LOCATION_DEEPWOOD_MOTTE",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GLOVER",
+    "predicate": "status_at",
+    "object": "înfrântă, familia luată ostatică",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GOODBROTHER",
+    "predicate": "seat",
+    "object": "LOCATION_HAMMERHORN",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GOODBROTHER",
+    "predicate": "sigil",
+    "object": "corn de război, negru cu auriu",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GOODBROTHER",
+    "predicate": "status_at",
+    "object": "casă vasală, mineri",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GOODBROTHER",
+    "predicate": "ally_of",
+    "object": "HOUSE_GREYJOY",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GRANDISON",
+    "predicate": "region",
+    "object": "LOCATION_TARTH",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GRANDISON",
+    "predicate": "status_at",
+    "object": "casă minoră",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYIRON",
+    "predicate": "region",
+    "object": "LOCATION_INSULELE_DE_FIER",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYIRON",
+    "predicate": "status_at",
+    "object": "stinsă/istorică",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 3,
+    "source_page": "154",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYIRON",
+    "predicate": "status_at",
+    "object": "a domnit fără să fie aleasă timp de o mie de ani, după masacrul lui Urron din Orkmont",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 3,
+    "source_page": "150",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "region",
+    "object": "LOCATION_INSULELE_DE_FIER",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "words",
+    "object": "nemenționate în fragment (Fragment 1)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "words",
+    "object": "nemenționate explicit (Fragment 3)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "sigil",
+    "object": "nemenționat explicit (kraken, cunoscut din alte surse) (Fragment 1)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "sigil",
+    "object": "menționat indirect (Asha se autonumește „kraken\") (Fragment 3)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "mare casă, regat autoproclamat al Insulelor de Fier; în criză de succesiune după moartea lui Balon",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 1,
+    "source_page": "21–33",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "mare casă, succesiune violent disputată",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 3,
+    "source_page": "149–162",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HARLAW",
+    "predicate": "sigil",
+    "object": "coasă de argint pe fond negru (ramura principală)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HARLAW",
+    "predicate": "sigil",
+    "object": "variații pentru ramurile cadete (fond albastru pal — Boremund",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HARLAW",
+    "predicate": "sigil",
+    "object": "tiv crenelat — Hotho",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HARLAW",
+    "predicate": "sigil",
+    "object": "coasă alăturată cocoșului bălțat, blazon scartelat — Cavalerul Harras",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HARLAW",
+    "predicate": "sigil",
+    "object": "două coase simetrice pe fond diagonal — Sigfryd)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HARLAW",
+    "predicate": "status_at",
+    "object": "mare casă vasală, susține pretenția Ashei Greyjoy",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 1,
+    "source_page": "31–32",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HARLAW",
+    "predicate": "status_at",
+    "object": "mare casă, cea mai bogată și populată insulă din arhipelag, fără rival pe propria insulă",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 3,
+    "source_page": "149–159",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HARLAW",
+    "predicate": "ally_of",
+    "object": "HOUSE_STONETREE",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HETHERSPOON",
+    "predicate": "status_at",
+    "object": "menționată doar prin Melara Hetherspoon (moartă în copilărie)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "seat",
+    "object": "LOCATION_ORASUL_VECHI",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "region",
+    "object": "LOCATION_ORASUL_VECHI",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "status_at",
+    "object": "mare casă, stegar jurat al Casei Tyrell; Lordul Leyton deține și titlul de „Protector al Citadelei\"",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 1,
+    "source_page": "20",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "status_at",
+    "object": "mare casă (menționată doar istoric)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 3,
+    "source_page": "113",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "vassal_of",
+    "object": "HOUSE_TYRELL",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_JORDAYNE",
+    "predicate": "seat",
+    "object": "LOCATION_TOR",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_JORDAYNE",
+    "predicate": "region",
+    "object": "LOCATION_DORN",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_JORDAYNE",
+    "predicate": "sigil",
+    "object": "nu se detaliază",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_JORDAYNE",
+    "predicate": "status_at",
+    "object": "vasală",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KENNING",
+    "predicate": "status_at",
+    "object": "subjugată demult de Harlaw",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KETTLEBLACK",
+    "predicate": "status_at",
+    "object": "casă în ascensiune, în slujba lui Cersei (frații Osmund, Osney, Osfryd)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 1,
+    "source_page": "48–54",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KETTLEBLACK",
+    "predicate": "status_at",
+    "object": "casă fără sediu cunoscut menționat, în ascensiune la curte prin favoarea lui Cersei",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 4,
+    "source_page": "172, 215",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "seat",
+    "object": "LOCATION_CASTERLY_ROCK",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "words",
+    "object": "nemenționate în fragment (Fragment 1)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "words",
+    "object": "„Ascultă-mi Răgetul!” (Fragment 13)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "sigil",
+    "object": "leu auriu (menționat prin „leii aurii sclipind pe creste\") (Fragment 1)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "sigil",
+    "object": "leu pe fond purpuriu (Fragment 13)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "cea mai puternică mare casă a regatului; Mâna Regelui (Tywin) tocmai asasinat",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 1,
+    "source_page": "41–54",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, dominantă la curte",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 4,
+    "source_page": "163–216 (recurent)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "cea mai bogată dintre Marile Case; principalii susținători ai pretenției Regelui Tommen la Tron",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 13,
+    "source_page": "264",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "enemy_of",
+    "object": "HOUSE_MARTELL",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 1,
+    "source_page": "41–54",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "enemy_of",
+    "object": "HOUSE_TYRELL",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 4,
+    "source_page": "163–216 (recurent)",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LOTHSTON",
+    "predicate": "sigil",
+    "object": "liliac negru",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LOTHSTON",
+    "predicate": "status_at",
+    "object": "stinsă (implicit — blazonul are „proastă reputație\")",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MALLISTER",
+    "predicate": "status_at",
+    "object": "absentă de la asaltul Riverrunului (steagul vulturului de argint nu apare)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "seat",
+    "object": "LOCATION_SUNSPEAR",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "region",
+    "object": "LOCATION_DORNE",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "status_at",
+    "object": "mare casă, aliat fragil al coroanei prin logodna Myrcella–Trystane",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MERRYWEATHER",
+    "predicate": "seat",
+    "object": "LOCATION_LONGTABLE",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MERRYWEATHER",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MERRYWEATHER",
+    "predicate": "status_at",
+    "object": "casă mai mică, jurată Highgardenului; lordul revenit din exil",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MOOTON",
+    "predicate": "seat",
+    "object": "LOCATION_IAZUL_FECIOARELOR",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MOOTON",
+    "predicate": "sigil",
+    "object": "somon roșu-auriu",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MOOTON",
+    "predicate": "status_at",
+    "object": "vasală/subordonată, lordul considerat laș de localnici",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MYRE",
+    "predicate": "sigil",
+    "object": "ștreanguri",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MYRE",
+    "predicate": "status_at",
+    "object": "subjugată demult de Harlaw",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_OAKHEART",
+    "predicate": "seat",
+    "object": "LOCATION_OLD_OAK",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_OAKHEART",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_OAKHEART",
+    "predicate": "status_at",
+    "object": "casă de cavaleri; Ser Arys Oakheart e membru al Gărzii Regale",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 1,
+    "source_page": "37–38",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_OAKHEART",
+    "predicate": "status_at",
+    "object": "dușmani istorici ai dornishenilor",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 4,
+    "source_page": "173",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ORKWOOD",
+    "predicate": "seat",
+    "object": "LOCATION_ORKMONT",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ORKWOOD",
+    "predicate": "region",
+    "object": "LOCATION_INSULELE_DE_FIER",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ORKWOOD",
+    "predicate": "status_at",
+    "object": "aliată cu Euron (20 corăbii lungi)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PAYNE",
+    "predicate": "status_at",
+    "object": "casă minoră",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 3,
+    "source_page": "113–114, 135–136",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PAYNE",
+    "predicate": "status_at",
+    "object": "ramură mai modestă, decăzută",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 4,
+    "source_page": "185–186",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PIPER",
+    "predicate": "seat",
+    "object": "LOCATION_CASTELUL_PINKMAIDEN",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PIPER",
+    "predicate": "status_at",
+    "object": "casă minoră; a treia soție a lui Quellon Greyjoy provenea din ea",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDFORT",
+    "predicate": "region",
+    "object": "LOCATION_VALEA_ARRYN",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDFORT",
+    "predicate": "sigil",
+    "object": "nu se detaliază",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDFORT",
+    "predicate": "status_at",
+    "object": "vasală (Mychel Redfort a fost scutierul lui Lyn Corbray)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDWYNE",
+    "predicate": "seat",
+    "object": "LOCATION_ARBOR",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDWYNE",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDWYNE",
+    "predicate": "status_at",
+    "object": "mare casă vasală Tyrell",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROSBY",
+    "predicate": "seat",
+    "object": "LOCATION_ROSBY",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROSBY",
+    "predicate": "sigil",
+    "object": "trei V-uri roșii pe fond de hermină",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROWAN",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROWAN",
+    "predicate": "status_at",
+    "object": "vasală a Tyrell",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROYCE",
+    "predicate": "region",
+    "object": "LOCATION_VALEA_ARRYN",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROYCE",
+    "predicate": "status_at",
+    "object": "mare casă vasală, cu tensiune internă între ramuri",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROYCE",
+    "predicate": "ally_of",
+    "object": "PERSON_PETYR_BAELISH",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SERRY",
+    "predicate": "seat",
+    "object": "LOCATION_SCUTUL_SUDULUI",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SERRY",
+    "predicate": "region",
+    "object": "LOCATION_INSULELE_SCUTULUI",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SERRY",
+    "predicate": "sigil",
+    "object": "trandafir alb pe scut roșu (descris și ca fond alb cu margine roșie crenelată)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SERRY",
+    "predicate": "status_at",
+    "object": "vasală a Casei Tyrell; înfrântă de Flota de Fier",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SERRY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_GREYJOY",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SPARR",
+    "predicate": "region",
+    "object": "LOCATION_INSULELE_DE_FIER",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SPARR",
+    "predicate": "status_at",
+    "object": "casă minoră/lorzi mărunți",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "seat",
+    "object": "LOCATION_WINTERFELL",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "în declin/dezmembrată; Robb și Catelyn morți (aluzie la Nunta Roșie), Sansa dispărută",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STOKEWORTH",
+    "predicate": "status_at",
+    "object": "vasală minoră",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STONETREE",
+    "predicate": "region",
+    "object": "LOCATION_INSULELE_DE_FIER",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STONETREE",
+    "predicate": "sigil",
+    "object": "copac de piatră",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STONETREE",
+    "predicate": "status_at",
+    "object": "casă minoră; prima soție a lui Quellon Greyjoy provenea din ea",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 1,
+    "source_page": "24",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STONETREE",
+    "predicate": "status_at",
+    "object": "vasală Harlaw, proprietate mare",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 3,
+    "source_page": "149, 153, 155",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SUNDERLY",
+    "predicate": "seat",
+    "object": "LOCATION_SALTCLIFFE",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SUNDERLY",
+    "predicate": "region",
+    "object": "LOCATION_INSULELE_DE_FIER",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SUNDERLY",
+    "predicate": "status_at",
+    "object": "casă minoră; a doua soție a lui Quellon Greyjoy provenea din ea",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SWYFT",
+    "predicate": "status_at",
+    "object": "casă minoră, în slujba Cerseiei (Jocelyn Swyft, cameristă)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 1,
+    "source_page": "49",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SWYFT",
+    "predicate": "status_at",
+    "object": "Harys Swyft — Mâna Regelui (înainte de a fi înlocuit cu Merryweather în acest fragment)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 10,
+    "source_page": "141",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "seat",
+    "object": "LOCATION_FORTAREATA_ROSIE",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "seat",
+    "object": "LOCATION_PIATRA_DRAGONULUI",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "words",
+    "object": "nemenționate în fragment",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "sigil",
+    "object": "dragon cu trei capete (menționat ca simbol heraldic)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "aproape stinsă în Westeros; se crede că mai supraviețuiește doar Daenerys, peste mare",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "seat",
+    "object": "LOCATION_HORN_HILL",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "sigil",
+    "object": "hăitași călare (huntsmen) (Fragment 3)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "sigil",
+    "object": "vânător (\"vânătorul în mers\") (Fragment 4)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "status_at",
+    "object": "casă vasală respectată",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 2,
+    "source_page": "78–81",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "status_at",
+    "object": "vasală puternică a Tyrell",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 3,
+    "source_page": "110, 124, 130, 133",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "status_at",
+    "object": "vasală Tyrell, dar în prezent conduce militar la Iazul Fecioarelor pentru coroană; în ascensiune",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 4,
+    "source_page": "165, 191–199, 200–208",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "ally_of",
+    "object": "HOUSE_TYRELL",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARTH",
+    "predicate": "seat",
+    "object": "LOCATION_TARTH",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARTH",
+    "predicate": "seat",
+    "object": "LOCATION_EVENFALL",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARTH",
+    "predicate": "region",
+    "object": "LOCATION_TARTH",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARTH",
+    "predicate": "sigil",
+    "object": "sori aurii şi semiluni argintii (pe rochia Briennei din vis)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARTH",
+    "predicate": "status_at",
+    "object": "vasală minoră",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 2,
+    "source_page": "61",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARTH",
+    "predicate": "status_at",
+    "object": "mică nobilime; Brienne fiica şi moştenitoarea (aparent unică)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 11,
+    "source_page": "192–193",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TOLAND",
+    "predicate": "seat",
+    "object": "LOCATION_MAGURA_NALUCII",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TOLAND",
+    "predicate": "seat",
+    "object": "LOCATION_DEALUL_FANTOMEI",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TOLAND",
+    "predicate": "region",
+    "object": "LOCATION_DORNE",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TOLAND",
+    "predicate": "sigil",
+    "object": "dragon mâncându-și coada (Fragment 4)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TOLAND",
+    "predicate": "sigil",
+    "object": "nu se detaliază (Fragment 11)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TOLAND",
+    "predicate": "status_at",
+    "object": "vasală",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "seat",
+    "object": "LOCATION_RIVERRUN",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "asediată, dar rezistentă",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "sigil",
+    "object": "nemenționat explicit (doar trandafiri galbeni aduși de Margaery ca ofrandă)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "mare casă, în ascensiune (căsătorie cu Coroana)",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 3,
+    "source_page": "109–110, 119–122, 161–162",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "mare casă, în ascensiune la curte prin căsătoria Margaery–Tommen",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 4,
+    "source_page": "163–172",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "ally_of",
+    "object": "PERSON_CERSEI",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 3,
+    "source_page": "109–110, 119–122, 161–162",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "ally_of",
+    "object": "PERSON_TOMMEN",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 4,
+    "source_page": "163–172",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VOLMARK",
+    "predicate": "seat",
+    "object": "LOCATION_SCUTUL_VERDE",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VOLMARK",
+    "predicate": "region",
+    "object": "LOCATION_INSULELE_SCUTULUI",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VOLMARK",
+    "predicate": "sigil",
+    "object": "leviatan negru",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VOLMARK",
+    "predicate": "status_at",
+    "object": "vasală Harlaw, proprietate mare",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 3,
+    "source_page": "149, 153, 155, 158",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_VOLMARK",
+    "predicate": "status_at",
+    "object": "în ascensiune; Maron Volmark (16 ani) descinde din Harren cel Negru pe linie maternă",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 8,
+    "source_page": "16",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WYNCH",
+    "predicate": "seat",
+    "object": "LOCATION_PYKE",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WYNCH",
+    "predicate": "region",
+    "object": "LOCATION_INSULELE_DE_FIER",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WYNCH",
+    "predicate": "status_at",
+    "object": "casă minoră, menționată doar în trecere",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 1,
+    "source_page": "28",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WYNCH",
+    "predicate": "status_at",
+    "object": "în ascensiune, primii supuși lui Euron",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 3,
+    "source_page": "158",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WYNCH",
+    "predicate": "ally_of",
+    "object": "HOUSE_BOTLEY",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_YRONWOOD",
+    "predicate": "seat",
+    "object": "LOCATION_YRONWOOD",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_YRONWOOD",
+    "predicate": "region",
+    "object": "LOCATION_DORNE",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_YRONWOOD",
+    "predicate": "status_at",
+    "object": "mare casă vasală, are o oaste pe Drumul Oaselor",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 1,
+    "source_page": "35",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_YRONWOOD",
+    "predicate": "status_at",
+    "object": "mare casă rivală în Dorne, influentă, istoric aliată cu Compania de Aur/Blackfyre",
+    "source_book": "Festinul Ciorilor",
+    "source_fragment": 4,
+    "source_page": "183–184",
+    "confidence": "confirmed"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "index": 5,
+    "id_original": "PERSON_ALTI_VERI_AI_LUI_VALARR_SI_MATARYS",
+    "app_id": "alti_veri_ai_lui_valarr_si_matarys",
+    "nume_canonic": "Alți veri ai lui Valarr și Matarys (nenumiți)",
+    "motiv": "\"Alți veri ai lui Valarr și Matarys (nenumiți)\" descrie o RUDĂ NENUMITĂ a doi oameni deja numiți (Valarr, Matarys) — nu sunt 2 persoane numite \"Alți veri\" și \"Matarys\". Nu se poate crea o intrare de persoană validă din asta fără decizie manuală despre cum se tratează."
+  },
+  {
+    "index": 27,
+    "id_original": "PERSON_ELADON_PAR_AURIU_SULITA_CREDINCIOASA",
+    "app_id": "eladon_par_auriu_sulita_credincioasa",
+    "nume_canonic": "Eladon Păr Auriu, Suliţa Credincioasă",
+    "motiv": "\"Eladon Păr Auriu, Suliţa Credincioasă\" — posibil nume+poreclă ale ACELEIAȘI persoane (ca la Aegon/Styr), posibil 2 persoane. Nu am suficientă certitudine din text."
+  },
+  {
+    "index": 50,
+    "id_original": "PERSON_LORDUL_BRYNDEMERE_EVENSTARUL",
+    "app_id": "lordul_bryndemere_evenstarul",
+    "nume_canonic": "lordul Bryndemere, Evenstarul",
+    "motiv": "\"lordul Bryndemere, Evenstarul\" — neclar dacă \"Evenstarul\" (titlul casei Estermont) se referă la Bryndemere însuși sau la o a doua persoană. Necesită verificare în text."
+  },
+  {
+    "index": 77,
+    "id_original": "PERSON_TATAL_LUI_PENNY_SI_OPPO",
+    "app_id": "tatal_lui_penny_si_oppo",
+    "nume_canonic": "Tatăl lui Penny și Oppo („Bobul-Săltăreț”)",
+    "motiv": "\"Tatăl lui Penny și Oppo\" — neclar dacă Oppo E tatăl lui Penny (nume de scenă) sau altă rudă (frate). Necesită verificare în text (ADWD)."
+  }
+]

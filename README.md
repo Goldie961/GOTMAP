@@ -4,7 +4,7 @@ A premium historical atlas of the *A Song of Ice and Fire* universe, built with 
 
 ## Features
 - **Cinematic Map Engine**: Fully interactive custom SVG map with mouse pan/zoom, coordinate fitting boundaries, and smooth animated viewport transitions (like Google Earth).
-- **Annals Chronology Timeline**: Snaps to 16 historical milestones (1 AC to 300 AC). Updates regional political control, ruling houses, castle ownership, living dragons, and kings dynamically.
+- **Annals Chronology Timeline**: Continuous slider spanning 1 AC to 300 AC with 20 historical event markers. Updates regional political control, ruling houses, castle ownership, living dragons, and kings dynamically.
 - **Minimap Event Markers**: Highlights key wars, coronations, and events on the timeline scrollbar for quick indexing.
 - **Living Map**: Features environmental micro-animations including drifting fog layers, rising town smoke, and animated water.
 - **Day/Night Mode & Seasons**: Switch the map between daylight and nighttime with city lights glowing. Toggle winter season rendering to freeze the North.
@@ -23,3 +23,7 @@ python -m http.server 8000
 npx http-server
 ```
 Open `http://localhost:8000` in the browser. Works entirely offline with zero dependencies!
+
+## Map editor (local administration)
+
+Run `python server.py`, then open `http://localhost:8000/admin/map-editor.html`. The editor is not linked from the public page. Its **Save** action writes coordinates to the original location dataset and to `data/map/catalog.json`, the canonical coordinate registry used by the public map. Use this server rather than `python -m http.server` when saving edits.

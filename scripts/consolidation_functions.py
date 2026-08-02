@@ -10,6 +10,8 @@ Functions:
   - consolidate_died(statements: list[dict]) -> dict
   - consolidate_family_relations(all_person_records: dict, all_grouped: dict) -> None
   - test() -> dict
+
+Library module — no --i-know-what-im-doing guard needed (no file writes).
 """
 
 from __future__ import annotations

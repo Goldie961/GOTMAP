@@ -1,0 +1,288 @@
+[
+  {
+    "id": "TITLE_SER_BUNIC_BARBA_ALBA",
+    "tip": "titlu",
+    "subtip": "poreclă",
+    "nume_canonic": "Ser Bunic / Barbă-albă",
+    "aliasuri": [],
+    "prima_aparitie": {
+      "carte": "Dansul Dragonilor",
+      "fragment": null,
+      "pagina": "1188"
+    },
+    "nota": "Creată la Pas 5 din secțiunea 'Alte detalii utile'; nume întâlnit în sursă: Poreclă „Ser Bunic\" / „Barbă-albă\" (Dansul Dragonilor)"
+  },
+  {
+    "id": "TITLE_OAMENII_MIEI",
+    "tip": "titlu",
+    "subtip": "poreclă",
+    "nume_canonic": "Oamenii Miei",
+    "aliasuri": [],
+    "prima_aparitie": {
+      "carte": "Dansul Dragonilor",
+      "fragment": null,
+      "pagina": "289"
+    },
+    "nota": "Creată la Pas 5 din secțiunea 'Alte detalii utile'; nume întâlnit în sursă: Poreclă „Oamenii Miei\" (Dansul Dragonilor)"
+  },
+  {
+    "id": "TITLE_MONSTRU",
+    "tip": "titlu",
+    "subtip": "poreclă",
+    "nume_canonic": "Monstru",
+    "aliasuri": [],
+    "prima_aparitie": {
+      "carte": "Dansul Dragonilor",
+      "fragment": null,
+      "pagina": "692–693"
+    },
+    "nota": "Creată la Pas 5 din secțiunea 'Alte detalii utile'; nume întâlnit în sursă: Numele „Monstru\" (Dansul Dragonilor)"
+  },
+  {
+    "id": "TITLE_UCIGASUL_PORECLA_SAMWELL_TARLY",
+    "tip": "titlu",
+    "subtip": null,
+    "nume_canonic": "Ucigașul (poreclă Samwell Tarly)",
+    "aliasuri": [],
+    "prima_aparitie": {
+      "carte": "Festinul Ciorilor",
+      "fragment": null,
+      "pagina": null
+    },
+    "nota": "Creată la Pas 5 din secțiunea 'Alte detalii utile'; nume întâlnit în sursă: Titlul „Ucigaşul” (Festinul Ciorilor)"
+  },
+  {
+    "id": "TITLE_CEI_DOI_TRADATORI",
+    "tip": "titlu",
+    "subtip": "poreclă",
+    "nume_canonic": "Cei Doi Trădători",
+    "aliasuri": [],
+    "prima_aparitie": {
+      "carte": "Foc și Sânge",
+      "fragment": null,
+      "pagina": null
+    },
+    "nota": "Creată la Pas 5 din secțiunea 'Alte detalii utile'; nume întâlnit în sursă: Denumirea „Cei Doi Trădători” (Hugh Ciocanul și Ulf Cel Alb) (Foc si Sange)"
+  },
+  {
+    "id": "TITLE_CEI_SAPTE_CALARETI",
+    "tip": "titlu",
+    "subtip": "poreclă",
+    "nume_canonic": "Cei Șapte Călăreți",
+    "aliasuri": [],
+    "prima_aparitie": {
+      "carte": "Foc și Sânge",
+      "fragment": null,
+      "pagina": null
+    },
+    "nota": "Creată la Pas 5 din secțiunea 'Alte detalii utile'; nume întâlnit în sursă: Denumirea „Cei Șapte Călăreți” (Foc si Sange)"
+  },
+  {
+    "id": "TITLE_LIGHIOANA_CU_PATRU_CAPETE",
+    "tip": "titlu",
+    "subtip": "poreclă",
+    "nume_canonic": "Lighioana cu Patru Capete",
+    "aliasuri": [],
+    "prima_aparitie": {
+      "carte": "Foc și Sânge",
+      "fragment": null,
+      "pagina": "182, 184"
+    },
+    "nota": "Creată la Pas 5 din secțiunea 'Alte detalii utile'; nume întâlnit în sursă: Porecla „Lighioana cu Patru Capete” (Regența) (Foc si Sange)"
+  },
+  {
+    "id": "TITLE_MANA_CU_CAPISON",
+    "tip": "titlu",
+    "subtip": "poreclă",
+    "nume_canonic": "Mâna cu capișon",
+    "aliasuri": [],
+    "prima_aparitie": {
+      "carte": "Foc și Sânge",
+      "fragment": null,
+      "pagina": null
+    },
+    "nota": "Creată la Pas 5 din secțiunea 'Alte detalii utile'; nume întâlnit în sursă: Porecla „Mâna cu capișon” (Tyland Lannister) (Foc si Sange)"
+  },
+  {
+    "id": "TITLE_REGELE_MAEGOR_CU_TATE",
+    "tip": "titlu",
+    "subtip": "poreclă",
+    "nume_canonic": "Regele Maegor cu țâțe",
+    "aliasuri": [],
+    "prima_aparitie": {
+      "carte": "Foc și Sânge",
+      "fragment": null,
+      "pagina": "530"
+    },
+    "nota": "Creată la Pas 5 din secțiunea 'Alte detalii utile'; nume întâlnit în sursă: Porecla „Regele Maegor cu țâțe” / „țâțele lui Maegor” (Foc si Sange)"
+  },
+  {
+    "id": "TITLE_REGINA_ALBASTRA",
+    "tip": "titlu",
+    "subtip": "poreclă",
+    "nume_canonic": "Regina Albastră",
+    "aliasuri": [],
+    "prima_aparitie": {
+      "carte": "Foc și Sânge",
+      "fragment": null,
+      "pagina": null
+    },
+    "nota": "Creată la Pas 5 din secțiunea 'Alte detalii utile'; nume întâlnit în sursă: Porecla „Regina Albastră” (dragonul Tessarion) (Foc si Sange)"
+  },
+  {
+    "id": "TITLE_UMBRA_STACOJIE",
+    "tip": "titlu",
+    "subtip": "poreclă",
+    "nume_canonic": "Umbra Stacojie",
+    "aliasuri": [],
+    "prima_aparitie": {
+      "carte": "Foc și Sânge",
+      "fragment": null,
+      "pagina": "223"
+    },
+    "nota": "Creată la Pas 5 din secțiunea 'Alte detalii utile'; nume întâlnit în sursă: Porecla/Titlul „Umbra Stacojie” (Jonquil Darke) (Foc si Sange)"
+  },
+  {
+    "id": "TITLE_LORDUL_AERULUI",
+    "tip": "titlu",
+    "subtip": "poreclă",
+    "nume_canonic": "Lordul Aerului",
+    "aliasuri": [],
+    "prima_aparitie": {
+      "carte": "Foc și Sânge",
+      "fragment": null,
+      "pagina": "200, 230"
+    },
+    "nota": "Creată la Pas 5 din secțiunea 'Alte detalii utile'; nume întâlnit în sursă: Titlul „Lordul Aerului” (Lord of the Air) (Foc si Sange)"
+  },
+  {
+    "id": "TITLE_REGELE_ZDROBIT",
+    "tip": "titlu",
+    "subtip": "poreclă",
+    "nume_canonic": "Regele Zdrobit",
+    "aliasuri": [],
+    "prima_aparitie": {
+      "carte": "Foc și Sânge",
+      "fragment": null,
+      "pagina": "797"
+    },
+    "nota": "Creată la Pas 5 din secțiunea 'Alte detalii utile'; nume întâlnit în sursă: Titlul „Regele Zdrobit” (Aegon II) (Foc si Sange)"
+  },
+  {
+    "id": "TITLE_REGINA_DIN_VEST",
+    "tip": "titlu",
+    "subtip": "poreclă",
+    "nume_canonic": "Regina din Vest",
+    "aliasuri": [],
+    "prima_aparitie": {
+      "carte": "Foc și Sânge",
+      "fragment": null,
+      "pagina": "165, 179, 187, 208–209"
+    },
+    "nota": "Creată la Pas 5 din secțiunea 'Alte detalii utile'; nume întâlnit în sursă: Titlul „Regina din Vest” (Rhaena Targaryen) (Foc si Sange)"
+  },
+  {
+    "id": "TITLE_UCIGASUL_DE_NEPOTI",
+    "tip": "titlu",
+    "subtip": "poreclă",
+    "nume_canonic": "Ucigașul-de-Nepoți",
+    "aliasuri": [],
+    "prima_aparitie": {
+      "carte": "Foc și Sânge",
+      "fragment": null,
+      "pagina": "494, 525"
+    },
+    "nota": "Creată la Pas 5 din secțiunea 'Alte detalii utile'; nume întâlnit în sursă: Titlul „Ucigașul-de-Nepoți” (Aemond Targaryen) (Foc si Sange)"
+  },
+  {
+    "id": "TITLE_REGELE_SUDULUI",
+    "tip": "titlu",
+    "subtip": null,
+    "nume_canonic": "Regele Sudului",
+    "aliasuri": [],
+    "prima_aparitie": {
+      "carte": "Înclestarea Regilor",
+      "fragment": null,
+      "pagina": null
+    },
+    "nota": "Creată la Pas 5 din secțiunea 'Alte detalii utile'; nume întâlnit în sursă: Titlul „Regele Sudului” (Inclestarea Regilor)"
+  },
+  {
+    "id": "TITLE_LORDUL_PESTE_UMFLAT",
+    "tip": "titlu",
+    "subtip": "poreclă",
+    "nume_canonic": "Lordul Pește Umflat",
+    "aliasuri": [],
+    "prima_aparitie": {
+      "carte": "Iureșul Săbiilor",
+      "fragment": null,
+      "pagina": null
+    },
+    "nota": "Creată la Pas 5 din secțiunea 'Alte detalii utile'; nume întâlnit în sursă: „Lordul Pește Umflat” (Iuresul Sabiilor)"
+  },
+  {
+    "id": "TITLE_BIZONUL",
+    "tip": "titlu",
+    "subtip": "poreclă",
+    "nume_canonic": "Bizonul",
+    "aliasuri": [],
+    "prima_aparitie": {
+      "carte": "Urzeala Tronurilor",
+      "fragment": null,
+      "pagina": null
+    },
+    "nota": "Creată la Pas 5 din secțiunea 'Alte detalii utile'; nume întâlnit în sursă: Porecla „Bizonul\" (Urzeala Tronurilor)"
+  },
+  {
+    "id": "TITLE_BROASCA_RAIOASA",
+    "tip": "titlu",
+    "subtip": "poreclă",
+    "nume_canonic": "Broasca Râioasă",
+    "aliasuri": [],
+    "prima_aparitie": {
+      "carte": "Urzeala Tronurilor",
+      "fragment": null,
+      "pagina": null
+    },
+    "nota": "Creată la Pas 5 din secțiunea 'Alte detalii utile'; nume întâlnit în sursă: Porecla „Broasca Râioasă\" (Urzeala Tronurilor)"
+  },
+  {
+    "id": "TITLE_DEGETELUL",
+    "tip": "titlu",
+    "subtip": "poreclă",
+    "nume_canonic": "Degețelul",
+    "aliasuri": [],
+    "prima_aparitie": {
+      "carte": "Urzeala Tronurilor",
+      "fragment": null,
+      "pagina": "170"
+    },
+    "nota": "Creată la Pas 5 din secțiunea 'Alte detalii utile'; nume întâlnit în sursă: Porecla „Degețelul\" (Littlefinger) (Urzeala Tronurilor)"
+  },
+  {
+    "id": "TITLE_LORDUL_INTARZIAT",
+    "tip": "titlu",
+    "subtip": "poreclă",
+    "nume_canonic": "Lordul Întârziat",
+    "aliasuri": [],
+    "prima_aparitie": {
+      "carte": "Urzeala Tronurilor",
+      "fragment": null,
+      "pagina": "297"
+    },
+    "nota": "Creată la Pas 5 din secțiunea 'Alte detalii utile'; nume întâlnit în sursă: Porecla „Lordul Întârziat\" (Urzeala Tronurilor)"
+  },
+  {
+    "id": "TITLE_JUMATE_OM",
+    "tip": "titlu",
+    "subtip": "poreclă",
+    "nume_canonic": "Jumate Om",
+    "aliasuri": [],
+    "prima_aparitie": {
+      "carte": "Urzeala Tronurilor",
+      "fragment": null,
+      "pagina": null
+    },
+    "nota": "Creată la Pas 5 din secțiunea 'Alte detalii utile'; nume întâlnit în sursă: Porecla „Jumate Om\" (Urzeala Tronurilor)"
+  }
+]

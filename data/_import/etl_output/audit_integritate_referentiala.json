@@ -1,0 +1,2111 @@
+{
+  "generated_at": "2026-08-02T18:14:12.399048",
+  "summary": {
+    "total_references_checked": 12193,
+    "total_broken_references": 326
+  },
+  "by_file": {
+    "characters.json": {
+      "casatorit_cu": {
+        "total_checked": 154,
+        "total_broken": 0,
+        "broken_refs": []
+      },
+      "copii": {
+        "total_checked": 423,
+        "total_broken": 0,
+        "broken_refs": []
+      },
+      "frati": {
+        "total_checked": 596,
+        "total_broken": 0,
+        "broken_refs": []
+      },
+      "membru_al": {
+        "total_checked": 631,
+        "total_broken": 3,
+        "broken_refs": [
+          {
+            "entity_id": "daryn_hornwood",
+            "field": "membru_al",
+            "broken_value": "HOUSE_HORNWOOD",
+            "reason": "resolved app_id 'lady_hornwood' not in houses.json"
+          },
+          {
+            "entity_id": "donella_hornwood",
+            "field": "membru_al",
+            "broken_value": "HOUSE_HORNWOOD",
+            "reason": "resolved app_id 'lady_hornwood' not in houses.json"
+          },
+          {
+            "entity_id": "lady_hornwood",
+            "field": "membru_al",
+            "broken_value": "HOUSE_HORNWOOD",
+            "reason": "resolved app_id 'lady_hornwood' not in houses.json"
+          }
+        ]
+      },
+      "parinti": {
+        "total_checked": 419,
+        "total_broken": 0,
+        "broken_refs": []
+      }
+    },
+    "distances.json": {
+      "location_a_id": {
+        "total_checked": 467,
+        "total_broken": 69,
+        "broken_refs": [
+          {
+            "entity_id": "dist_3",
+            "field": "location_a_id",
+            "broken_value": "pentos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_4",
+            "field": "location_a_id",
+            "broken_value": "pentos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_5",
+            "field": "location_a_id",
+            "broken_value": "pentos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_6",
+            "field": "location_a_id",
+            "broken_value": "pentos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_43",
+            "field": "location_a_id",
+            "broken_value": "vaes_dothrak",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_44",
+            "field": "location_a_id",
+            "broken_value": "vaes_dothrak",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_45",
+            "field": "location_a_id",
+            "broken_value": "vaes_dothrak",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_46",
+            "field": "location_a_id",
+            "broken_value": "vaes_dothrak",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_56",
+            "field": "location_a_id",
+            "broken_value": "asshai",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_60",
+            "field": "location_a_id",
+            "broken_value": "asshai",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_66",
+            "field": "location_a_id",
+            "broken_value": "asshai",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_67",
+            "field": "location_a_id",
+            "broken_value": "braavos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_116",
+            "field": "location_a_id",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_117",
+            "field": "location_a_id",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_118",
+            "field": "location_a_id",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_129",
+            "field": "location_a_id",
+            "broken_value": "astapor",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_130",
+            "field": "location_a_id",
+            "broken_value": "astapor",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_131",
+            "field": "location_a_id",
+            "broken_value": "astapor",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_132",
+            "field": "location_a_id",
+            "broken_value": "braavos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_168",
+            "field": "location_a_id",
+            "broken_value": "meereen",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_177",
+            "field": "location_a_id",
+            "broken_value": "braavos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_178",
+            "field": "location_a_id",
+            "broken_value": "braavos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_179",
+            "field": "location_a_id",
+            "broken_value": "braavos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_180",
+            "field": "location_a_id",
+            "broken_value": "braavos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_231",
+            "field": "location_a_id",
+            "broken_value": "meereen",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_232",
+            "field": "location_a_id",
+            "broken_value": "meereen",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_234",
+            "field": "location_a_id",
+            "broken_value": "norvos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_256",
+            "field": "location_a_id",
+            "broken_value": "volantis",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_257",
+            "field": "location_a_id",
+            "broken_value": "yunkai",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_261",
+            "field": "location_a_id",
+            "broken_value": "meereen",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_262",
+            "field": "location_a_id",
+            "broken_value": "yunkai",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_263",
+            "field": "location_a_id",
+            "broken_value": "yunkai",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_265",
+            "field": "location_a_id",
+            "broken_value": "pentos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_266",
+            "field": "location_a_id",
+            "broken_value": "pentos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_267",
+            "field": "location_a_id",
+            "broken_value": "meereen",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_268",
+            "field": "location_a_id",
+            "broken_value": "meereen",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_269",
+            "field": "location_a_id",
+            "broken_value": "volantis",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_270",
+            "field": "location_a_id",
+            "broken_value": "meereen",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_271",
+            "field": "location_a_id",
+            "broken_value": "volantis",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_272",
+            "field": "location_a_id",
+            "broken_value": "volantis",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_274",
+            "field": "location_a_id",
+            "broken_value": "pentos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_279",
+            "field": "location_a_id",
+            "broken_value": "volantis",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_289",
+            "field": "location_a_id",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_290",
+            "field": "location_a_id",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_291",
+            "field": "location_a_id",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_292",
+            "field": "location_a_id",
+            "broken_value": "yunkai",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_293",
+            "field": "location_a_id",
+            "broken_value": "yunkai",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_294",
+            "field": "location_a_id",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_300",
+            "field": "location_a_id",
+            "broken_value": "volantis",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_307",
+            "field": "location_a_id",
+            "broken_value": "astapor",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_311",
+            "field": "location_a_id",
+            "broken_value": "volantis",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_312",
+            "field": "location_a_id",
+            "broken_value": "volantis",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_314",
+            "field": "location_a_id",
+            "broken_value": "volantis",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_315",
+            "field": "location_a_id",
+            "broken_value": "volantis",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_317",
+            "field": "location_a_id",
+            "broken_value": "lys",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_318",
+            "field": "location_a_id",
+            "broken_value": "meereen",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_327",
+            "field": "location_a_id",
+            "broken_value": "astapor",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_337",
+            "field": "location_a_id",
+            "broken_value": "braavos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_340",
+            "field": "location_a_id",
+            "broken_value": "meereen",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_344",
+            "field": "location_a_id",
+            "broken_value": "meereen",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_351",
+            "field": "location_a_id",
+            "broken_value": "meereen",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_353",
+            "field": "location_a_id",
+            "broken_value": "volantis",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_364",
+            "field": "location_a_id",
+            "broken_value": "meereen",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_392",
+            "field": "location_a_id",
+            "broken_value": "braavos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_451",
+            "field": "location_a_id",
+            "broken_value": "lys",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_452",
+            "field": "location_a_id",
+            "broken_value": "lys",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_457",
+            "field": "location_a_id",
+            "broken_value": "pentos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_458",
+            "field": "location_a_id",
+            "broken_value": "pentos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_459",
+            "field": "location_a_id",
+            "broken_value": "pentos",
+            "reason": "location slug not found in locations.json"
+          }
+        ]
+      },
+      "location_b_id": {
+        "total_checked": 467,
+        "total_broken": 59,
+        "broken_refs": [
+          {
+            "entity_id": "dist_3",
+            "field": "location_b_id",
+            "broken_value": "vaes_dothrak",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_4",
+            "field": "location_b_id",
+            "broken_value": "vaes_dothrak",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_5",
+            "field": "location_b_id",
+            "broken_value": "vaes_dothrak",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_6",
+            "field": "location_b_id",
+            "broken_value": "vaes_dothrak",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_23",
+            "field": "location_b_id",
+            "broken_value": "vaes_dothrak",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_56",
+            "field": "location_b_id",
+            "broken_value": "pentos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_66",
+            "field": "location_b_id",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_104",
+            "field": "location_b_id",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_108",
+            "field": "location_b_id",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_116",
+            "field": "location_b_id",
+            "broken_value": "vaes_tolorro",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_117",
+            "field": "location_b_id",
+            "broken_value": "vaes_tolorro",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_129",
+            "field": "location_b_id",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_130",
+            "field": "location_b_id",
+            "broken_value": "vaes_dothrak",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_168",
+            "field": "location_b_id",
+            "broken_value": "yunkai",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_203",
+            "field": "location_b_id",
+            "broken_value": "myr",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_205",
+            "field": "location_b_id",
+            "broken_value": "braavos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_209",
+            "field": "location_b_id",
+            "broken_value": "meereen",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_231",
+            "field": "location_b_id",
+            "broken_value": "astapor",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_234",
+            "field": "location_b_id",
+            "broken_value": "volantis",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_253",
+            "field": "location_b_id",
+            "broken_value": "lhazar",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_257",
+            "field": "location_b_id",
+            "broken_value": "meereen",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_262",
+            "field": "location_b_id",
+            "broken_value": "meereen",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_263",
+            "field": "location_b_id",
+            "broken_value": "meereen",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_264",
+            "field": "location_b_id",
+            "broken_value": "meereen",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_266",
+            "field": "location_b_id",
+            "broken_value": "meereen",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_267",
+            "field": "location_b_id",
+            "broken_value": "pentos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_268",
+            "field": "location_b_id",
+            "broken_value": "volantis",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_269",
+            "field": "location_b_id",
+            "broken_value": "meereen",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_270",
+            "field": "location_b_id",
+            "broken_value": "volantis",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_271",
+            "field": "location_b_id",
+            "broken_value": "meereen",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_272",
+            "field": "location_b_id",
+            "broken_value": "meereen",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_273",
+            "field": "location_b_id",
+            "broken_value": "meereen",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_274",
+            "field": "location_b_id",
+            "broken_value": "volantis",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_275",
+            "field": "location_b_id",
+            "broken_value": "asshai",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_280",
+            "field": "location_b_id",
+            "broken_value": "volantis",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_289",
+            "field": "location_b_id",
+            "broken_value": "astapor",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_290",
+            "field": "location_b_id",
+            "broken_value": "astapor",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_291",
+            "field": "location_b_id",
+            "broken_value": "astapor",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_292",
+            "field": "location_b_id",
+            "broken_value": "myr",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_293",
+            "field": "location_b_id",
+            "broken_value": "volantis",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_294",
+            "field": "location_b_id",
+            "broken_value": "pentos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_307",
+            "field": "location_b_id",
+            "broken_value": "yunkai",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_311",
+            "field": "location_b_id",
+            "broken_value": "volantis",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_314",
+            "field": "location_b_id",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_316",
+            "field": "location_b_id",
+            "broken_value": "volantis",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_317",
+            "field": "location_b_id",
+            "broken_value": "braavos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_318",
+            "field": "location_b_id",
+            "broken_value": "astapor",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_326",
+            "field": "location_b_id",
+            "broken_value": "volantis",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_327",
+            "field": "location_b_id",
+            "broken_value": "meereen",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_338",
+            "field": "location_b_id",
+            "broken_value": "lys",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_348",
+            "field": "location_b_id",
+            "broken_value": "meereen",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_351",
+            "field": "location_b_id",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_357",
+            "field": "location_b_id",
+            "broken_value": "astapor",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_358",
+            "field": "location_b_id",
+            "broken_value": "yunkai",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_388",
+            "field": "location_b_id",
+            "broken_value": "pentos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_392",
+            "field": "location_b_id",
+            "broken_value": "pentos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_432",
+            "field": "location_b_id",
+            "broken_value": "pentos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_458",
+            "field": "location_b_id",
+            "broken_value": "tyrosh",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dist_460",
+            "field": "location_b_id",
+            "broken_value": "valyria",
+            "reason": "location slug not found in locations.json"
+          }
+        ]
+      }
+    },
+    "events.json": {
+      "locatie_id": {
+        "total_checked": 855,
+        "total_broken": 35,
+        "broken_refs": [
+          {
+            "entity_id": "a_fost_gasit_taiat_in_trei_bucati_varat_in_cele_trei_guri_ale_statuii_zeului_tri",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_TYROSH",
+            "reason": "resolved app_id 'tyrosh' not in locations.json"
+          },
+          {
+            "entity_id": "aenys_il_obliga_pe_maegor_sa_aleaga_intre_renuntarea_la_alys_harroway_sau_5_ani_",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_PENTOS",
+            "reason": "resolved app_id 'pentos' not in locations.json"
+          },
+          {
+            "entity_id": "alyn_merge_personal_la_lys_pentru_a_negocia_eliberarea_lui_viserys_targaryen",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_LYS",
+            "reason": "resolved app_id 'lys' not in locations.json"
+          },
+          {
+            "entity_id": "benerro_anunta_ca_daenerys_e_in_pericol_si_invoca_o_profetie_despre_un_erou_salv",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_QARTH",
+            "reason": "resolved app_id 'qarth' not in locations.json"
+          },
+          {
+            "entity_id": "casatorie_fortata_apoi_lady_hornwood_a_fost_incuiata_intr_un_turn_si_lasata_sa_m",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_HORNWOOD",
+            "reason": "resolved app_id 'lady_hornwood' not in locations.json"
+          },
+          {
+            "entity_id": "casatorie_fortata_izolare_intr_un_turn_moarte_prin_infometare_locatie_hornwood",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_HORNWOOD",
+            "reason": "resolved app_id 'lady_hornwood' not in locations.json"
+          },
+          {
+            "entity_id": "cei_doi_anunta_ca_magister_illyrio_i_a_trimis_sa_o_gaseasca_pe_dany_si_s_o_duca_",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_QARTH",
+            "reason": "resolved app_id 'qarth' not in locations.json"
+          },
+          {
+            "entity_id": "cei_doi_frati_rogare_mor_aproape_simultan_la_o_zi_distanta_in_imprejurari_suspec",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_LYS",
+            "reason": "resolved app_id 'lys' not in locations.json"
+          },
+          {
+            "entity_id": "cei_trei_straini_vin_sa_vada_dragonii_lui_dany",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_VAES_TOLORRO",
+            "reason": "resolved app_id 'vaes_tolorro' not in locations.json"
+          },
+          {
+            "entity_id": "dany_a_cerut_ajutor_de_la_cei_puri_in_sala_celor_o_mie_de_tronuri",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_QARTH",
+            "reason": "resolved app_id 'qarth' not in locations.json"
+          },
+          {
+            "entity_id": "dany_a_poruncit_tintuirea_pe_stalpi_a_163_de_mari_stapani_ca_represalii_pentru_c",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_QARTH",
+            "reason": "resolved app_id 'qarth' not in locations.json"
+          },
+          {
+            "entity_id": "dany_il_trimite_pe_rakharo_sa_exploreze_orasul_si_pe_ser_jorah_sa_cerceteze_docu",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_QARTH",
+            "reason": "resolved app_id 'qarth' not in locations.json"
+          },
+          {
+            "entity_id": "dany_intra_calare_in_qarth_intampinata_cu_gonguri_cornuri_garda_de_onoare_pe_cam",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_QARTH",
+            "reason": "resolved app_id 'qarth' not in locations.json"
+          },
+          {
+            "entity_id": "dany_mananca_intreaga_inima_cruda_a_unui_armasar_armasar_fara_sa_se_inece_indepl",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_VAES_DOTHRAK",
+            "reason": "resolved app_id 'vaes_dothrak' not in locations.json"
+          },
+          {
+            "entity_id": "flota_navigheaza_de_la_qarth_spre_pentos",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_QARTH",
+            "reason": "resolved app_id 'qarth' not in locations.json"
+          },
+          {
+            "entity_id": "gasesc_orasul_complet_abandonat_cu_fructe_apa_si_adapost",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_VAES_TOLORRO",
+            "reason": "resolved app_id 'vaes_tolorro' not in locations.json"
+          },
+          {
+            "entity_id": "in_piata_din_vaes_dothrak_un_negustor_incearca_sa_o_otraveasca_pe_dany_cu_un_but",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_VAES_DOTHRAK",
+            "reason": "resolved app_id 'vaes_dothrak' not in locations.json"
+          },
+          {
+            "entity_id": "la_predarea_trupelor_dany_refuza_sa_l_lase_pe_kraznys_sa_ia_efectiv_dragonul_il_",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_QARTH",
+            "reason": "resolved app_id 'qarth' not in locations.json"
+          },
+          {
+            "entity_id": "lysaro_planuieste_un_razboi_scurt_pentru_glorie_si_avere_dar_planul_esueaza",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_LYS",
+            "reason": "resolved app_id 'lys' not in locations.json"
+          },
+          {
+            "entity_id": "magicianul_a_creat_o_scara_de_flacari_si_s_a_urcat_pe_ea_disparand",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_QARTH",
+            "reason": "resolved app_id 'qarth' not in locations.json"
+          },
+          {
+            "entity_id": "nepatatii_au_rezistat_la_optsprezece_atacuri",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_QOHOR",
+            "reason": "resolved app_id 'qohor' not in locations.json"
+          },
+          {
+            "entity_id": "o_corabie_braavosi_intoarsa_din_marea_de_jad_a_adus_molima_la_pentos",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_PENTOS",
+            "reason": "resolved app_id 'pentos' not in locations.json"
+          },
+          {
+            "entity_id": "o_manticora_ascunsa_intr_o_caseta_de_bijuterii_daruita_in_dar_o_raneste_usor_pe_",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_QARTH",
+            "reason": "resolved app_id 'qarth' not in locations.json"
+          },
+          {
+            "entity_id": "oamenii_lui_ser_rodrik_l_au_prins_pe_bastardul_lui_bolton_pe_proprietatea_hornwo",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_HORNWOOD",
+            "reason": "resolved app_id 'lady_hornwood' not in locations.json"
+          },
+          {
+            "entity_id": "pedepse_severe_si_executii_publice_in_fata_fortaretei_rosii",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_QARTH",
+            "reason": "resolved app_id 'qarth' not in locations.json"
+          },
+          {
+            "entity_id": "pyat_pree_si_xaro_ofera_daruri_si_promisiuni_rivale",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_QARTH",
+            "reason": "resolved app_id 'qarth' not in locations.json"
+          },
+          {
+            "entity_id": "quaithe_o_avertizeaza_pe_dany_sa_paraseasca_urgent_qarth_sugerandu_i_sa_mearga_l",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_QARTH",
+            "reason": "resolved app_id 'qarth' not in locations.json"
+          },
+          {
+            "entity_id": "quentyn_a_plecat_intr_o_calatorie_lunga_si_periculoasa_peste_mare_cu_scopul_decl",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_LYS",
+            "reason": "resolved app_id 'lys' not in locations.json"
+          },
+          {
+            "entity_id": "quhuru_mo_aduce_vestea_mortii_lui_robert_baratheon",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_QARTH",
+            "reason": "resolved app_id 'qarth' not in locations.json"
+          },
+          {
+            "entity_id": "rakharo_gaseste_un_tarm_de_mare_otravita_si_oasele_unui_dragon_urias",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_QARTH",
+            "reason": "resolved app_id 'qarth' not in locations.json"
+          },
+          {
+            "entity_id": "tyrion_pleaca_din_pentos_ascuns_intr_o_lectica_escortat_de_nepatati_spre_volanti",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_PENTOS",
+            "reason": "resolved app_id 'pentos' not in locations.json"
+          },
+          {
+            "entity_id": "un_vrajitor_din_myr_il_castreaza_pe_varys_copil_ars_organele_pe_un_mangal_invoca",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_MYR",
+            "reason": "resolved app_id 'myr' not in locations.json"
+          },
+          {
+            "entity_id": "viserys_a_incercat_sa_se_strecoare_in_patul_lui_dany_in_noaptea_dinaintea_nuntii",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_PENTOS",
+            "reason": "resolved app_id 'pentos' not in locations.json"
+          },
+          {
+            "entity_id": "viserys_apare_beat_la_ospatul_sacru_cu_sabia_scoasa_si",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_VAES_DOTHRAK",
+            "reason": "resolved app_id 'vaes_dothrak' not in locations.json"
+          },
+          {
+            "entity_id": "viserys_incoronat_cu_aur_topit",
+            "field": "locatie_id",
+            "broken_value": "LOCATION_VAES_DOTHRAK",
+            "reason": "resolved app_id 'vaes_dothrak' not in locations.json"
+          }
+        ]
+      },
+      "location": {
+        "total_checked": 875,
+        "total_broken": 32,
+        "broken_refs": [
+          {
+            "entity_id": "a_fost_gasit_taiat_in_trei_bucati_varat_in_cele_trei_guri_ale_statuii_zeului_tri",
+            "field": "location",
+            "broken_value": "tyrosh",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "aenys_il_obliga_pe_maegor_sa_aleaga_intre_renuntarea_la_alys_harroway_sau_5_ani_",
+            "field": "location",
+            "broken_value": "pentos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "alyn_merge_personal_la_lys_pentru_a_negocia_eliberarea_lui_viserys_targaryen",
+            "field": "location",
+            "broken_value": "lys",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "benerro_anunta_ca_daenerys_e_in_pericol_si_invoca_o_profetie_despre_un_erou_salv",
+            "field": "location",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "cei_doi_anunta_ca_magister_illyrio_i_a_trimis_sa_o_gaseasca_pe_dany_si_s_o_duca_",
+            "field": "location",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "cei_doi_frati_rogare_mor_aproape_simultan_la_o_zi_distanta_in_imprejurari_suspec",
+            "field": "location",
+            "broken_value": "lys",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "cei_trei_straini_vin_sa_vada_dragonii_lui_dany",
+            "field": "location",
+            "broken_value": "vaes_tolorro",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dany_a_cerut_ajutor_de_la_cei_puri_in_sala_celor_o_mie_de_tronuri",
+            "field": "location",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dany_a_poruncit_tintuirea_pe_stalpi_a_163_de_mari_stapani_ca_represalii_pentru_c",
+            "field": "location",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dany_il_trimite_pe_rakharo_sa_exploreze_orasul_si_pe_ser_jorah_sa_cerceteze_docu",
+            "field": "location",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dany_intra_calare_in_qarth_intampinata_cu_gonguri_cornuri_garda_de_onoare_pe_cam",
+            "field": "location",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "dany_mananca_intreaga_inima_cruda_a_unui_armasar_armasar_fara_sa_se_inece_indepl",
+            "field": "location",
+            "broken_value": "vaes_dothrak",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "flota_navigheaza_de_la_qarth_spre_pentos",
+            "field": "location",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "gasesc_orasul_complet_abandonat_cu_fructe_apa_si_adapost",
+            "field": "location",
+            "broken_value": "vaes_tolorro",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "in_piata_din_vaes_dothrak_un_negustor_incearca_sa_o_otraveasca_pe_dany_cu_un_but",
+            "field": "location",
+            "broken_value": "vaes_dothrak",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "la_predarea_trupelor_dany_refuza_sa_l_lase_pe_kraznys_sa_ia_efectiv_dragonul_il_",
+            "field": "location",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "lysaro_planuieste_un_razboi_scurt_pentru_glorie_si_avere_dar_planul_esueaza",
+            "field": "location",
+            "broken_value": "lys",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "magicianul_a_creat_o_scara_de_flacari_si_s_a_urcat_pe_ea_disparand",
+            "field": "location",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "nepatatii_au_rezistat_la_optsprezece_atacuri",
+            "field": "location",
+            "broken_value": "qohor",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "o_corabie_braavosi_intoarsa_din_marea_de_jad_a_adus_molima_la_pentos",
+            "field": "location",
+            "broken_value": "pentos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "o_manticora_ascunsa_intr_o_caseta_de_bijuterii_daruita_in_dar_o_raneste_usor_pe_",
+            "field": "location",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "pedepse_severe_si_executii_publice_in_fata_fortaretei_rosii",
+            "field": "location",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "pyat_pree_si_xaro_ofera_daruri_si_promisiuni_rivale",
+            "field": "location",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "quaithe_o_avertizeaza_pe_dany_sa_paraseasca_urgent_qarth_sugerandu_i_sa_mearga_l",
+            "field": "location",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "quentyn_a_plecat_intr_o_calatorie_lunga_si_periculoasa_peste_mare_cu_scopul_decl",
+            "field": "location",
+            "broken_value": "lys",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "quhuru_mo_aduce_vestea_mortii_lui_robert_baratheon",
+            "field": "location",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "rakharo_gaseste_un_tarm_de_mare_otravita_si_oasele_unui_dragon_urias",
+            "field": "location",
+            "broken_value": "qarth",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "tyrion_pleaca_din_pentos_ascuns_intr_o_lectica_escortat_de_nepatati_spre_volanti",
+            "field": "location",
+            "broken_value": "pentos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "un_vrajitor_din_myr_il_castreaza_pe_varys_copil_ars_organele_pe_un_mangal_invoca",
+            "field": "location",
+            "broken_value": "myr",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "viserys_a_incercat_sa_se_strecoare_in_patul_lui_dany_in_noaptea_dinaintea_nuntii",
+            "field": "location",
+            "broken_value": "pentos",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "viserys_apare_beat_la_ospatul_sacru_cu_sabia_scoasa_si",
+            "field": "location",
+            "broken_value": "vaes_dothrak",
+            "reason": "location slug not found in locations.json"
+          },
+          {
+            "entity_id": "viserys_incoronat_cu_aur_topit",
+            "field": "location",
+            "broken_value": "vaes_dothrak",
+            "reason": "location slug not found in locations.json"
+          }
+        ]
+      },
+      "participanti": {
+        "total_checked": 2194,
+        "total_broken": 58,
+        "broken_refs": [
+          {
+            "entity_id": "aranjarea_a_doua_logodne_notabile_de_catre_regina_alysanne",
+            "field": "participanti",
+            "broken_value": "HOUSE_BELMORE",
+            "reason": "resolved app_id 'belmore' not in characters.json"
+          },
+          {
+            "entity_id": "aranjarea_a_doua_logodne_notabile_de_catre_regina_alysanne",
+            "field": "participanti",
+            "broken_value": "PERSON_LORDUL_MULLENDORE",
+            "reason": "PERSON_* ID not found in id_map.json"
+          },
+          {
+            "entity_id": "aranjarea_a_doua_logodne_notabile_de_catre_regina_alysanne",
+            "field": "participanti",
+            "broken_value": "PERSON_LADY_PRUNELLA_CELTIGAR",
+            "reason": "PERSON_* ID not found in id_map.json"
+          },
+          {
+            "entity_id": "aranjarea_a_doua_logodne_notabile_de_catre_regina_alysanne",
+            "field": "participanti",
+            "broken_value": "PERSON_UTHER_PEAKE",
+            "reason": "PERSON_* ID not found in id_map.json"
+          },
+          {
+            "entity_id": "armata_lui_stannis_a_fost_zdrobita_flota_incendiata",
+            "field": "participanti",
+            "broken_value": "HOUSE_TYRELL",
+            "reason": "resolved app_id 'tyrell' not in characters.json"
+          },
+          {
+            "entity_id": "armatele_unite_ale_reach_ului_si_apusului_au_fost_arse_pe_campul_de_lupta_de_dra",
+            "field": "participanti",
+            "broken_value": "HOUSE_OSGREY",
+            "reason": "resolved app_id 'osgrey' not in characters.json"
+          },
+          {
+            "entity_id": "armatele_unite_ale_reach_ului_si_apusului_au_fost_arse_pe_campul_de_lupta_de_dra",
+            "field": "participanti",
+            "broken_value": "HOUSE_TARGARYEN",
+            "reason": "resolved app_id 'targaryen' not in characters.json"
+          },
+          {
+            "entity_id": "atac_asupra_septului_de_piatra_uciderea_lordului_local",
+            "field": "participanti",
+            "broken_value": "HOUSE_LANNISTER",
+            "reason": "resolved app_id 'lannister' not in characters.json"
+          },
+          {
+            "entity_id": "atac_nocturn_surprinzator_incendiere_de_corturi_si_oras_partial",
+            "field": "participanti",
+            "broken_value": "HOUSE_VYPREN",
+            "reason": "resolved app_id 'vypren' not in characters.json"
+          },
+          {
+            "entity_id": "atac_nocturn_surprinzator_incendiere_de_corturi_si_oras_partial",
+            "field": "participanti",
+            "broken_value": "HOUSE_DEDDINGS",
+            "reason": "resolved app_id 'deddings' not in characters.json"
+          },
+          {
+            "entity_id": "atac_nocturn_surprinzator_incendiere_de_corturi_si_oras_partial",
+            "field": "participanti",
+            "broken_value": "HOUSE_VANCE",
+            "reason": "resolved app_id 'vance' not in characters.json"
+          },
+          {
+            "entity_id": "au_predat_fortareata_rosie_printului_jaehaerys_si_surorilor_rhaena_si_alysanne_c",
+            "field": "participanti",
+            "broken_value": "HOUSE_DARKLYN",
+            "reason": "resolved app_id 'darklyn' not in characters.json"
+          },
+          {
+            "entity_id": "au_predat_fortareata_rosie_printului_jaehaerys_si_surorilor_rhaena_si_alysanne_c",
+            "field": "participanti",
+            "broken_value": "HOUSE_STAUNTON",
+            "reason": "resolved app_id 'staunton' not in characters.json"
+          },
+          {
+            "entity_id": "au_predat_fortareata_rosie_printului_jaehaerys_si_surorilor_rhaena_si_alysanne_c",
+            "field": "participanti",
+            "broken_value": "HOUSE_TOWERS",
+            "reason": "resolved app_id 'towers' not in characters.json"
+          },
+          {
+            "entity_id": "batalia_de_la_trident",
+            "field": "participanti",
+            "broken_value": "HOUSE_STARK",
+            "reason": "resolved app_id 'stark' not in characters.json"
+          },
+          {
+            "entity_id": "brackenii_au_otravit_copacul_inima_din_padurea_zeilor_a_raventree_ului",
+            "field": "participanti",
+            "broken_value": "HOUSE_BRACKEN",
+            "reason": "resolved app_id 'bracken' not in characters.json"
+          },
+          {
+            "entity_id": "brackenii_lorzi_vasali_renumiti_pentru_cresterea_cailor_au_refuzat_sa_plateasca_",
+            "field": "participanti",
+            "broken_value": "HOUSE_BLACKWOOD",
+            "reason": "resolved app_id 'blackwood' not in characters.json"
+          },
+          {
+            "entity_id": "casa_greystark_dupa_5_secole_la_vizuina_lupilor_s_a_alaturat_dreadfortului_intr_",
+            "field": "participanti",
+            "broken_value": "HOUSE_GREYSTARK",
+            "reason": "resolved app_id 'greystark' not in characters.json"
+          },
+          {
+            "entity_id": "cea_mai_sangeroasa_batalie_de_pe_uscat_din_dansul_dragonilor",
+            "field": "participanti",
+            "broken_value": "HOUSE_BLACKWOOD",
+            "reason": "resolved app_id 'blackwood' not in characters.json"
+          },
+          {
+            "entity_id": "cel_mai_barbar_jaf_din_istoria_westerosului_locuitori_ucisi_femei_violate_prunci",
+            "field": "participanti",
+            "broken_value": "HOUSE_PEAKE",
+            "reason": "resolved app_id 'peake' not in characters.json"
+          },
+          {
+            "entity_id": "cere_corabii_pentru_a_opri_salbaticii_ce_traverseaza_golful_focilor",
+            "field": "participanti",
+            "broken_value": "HOUSE_STARK",
+            "reason": "resolved app_id 'stark' not in characters.json"
+          },
+          {
+            "entity_id": "cinci_oameni_ai_nordului_au_incercat_sa_deschida_portile_deepwood_motte_inaintea",
+            "field": "participanti",
+            "broken_value": "HOUSE_STARK",
+            "reason": "resolved app_id 'stark' not in characters.json"
+          },
+          {
+            "entity_id": "daemon_blackfyre_a_fost_aproape_de_victorie_dupa_ce_l_a_doborat_pe_ser_gwayne_co",
+            "field": "participanti",
+            "broken_value": "HOUSE_HAYFORD",
+            "reason": "resolved app_id 'hayford' not in characters.json"
+          },
+          {
+            "entity_id": "daemon_blackfyre_a_fost_aproape_de_victorie_dupa_ce_l_a_doborat_pe_ser_gwayne_co",
+            "field": "participanti",
+            "broken_value": "HOUSE_SUNDERLAND",
+            "reason": "resolved app_id 'sunderland' not in characters.json"
+          },
+          {
+            "entity_id": "dake_a_fost_prins_de_oamenii_doamnei_webber_pentru_furtul_unei_oi_bagat_intr_un_",
+            "field": "participanti",
+            "broken_value": "HOUSE_WEBBER",
+            "reason": "resolved app_id 'webber' not in characters.json"
+          },
+          {
+            "entity_id": "duel_pentru_a_decide_legitimitatea_lui_maegor",
+            "field": "participanti",
+            "broken_value": "HOUSE_LOTHSTON",
+            "reason": "resolved app_id 'lothston' not in characters.json"
+          },
+          {
+            "entity_id": "epidemia_fierbinteala_iernii_patrunde_in_debarcaderul_regelui_ucide_trei_sfertur",
+            "field": "participanti",
+            "broken_value": "HOUSE_BARATHEON",
+            "reason": "resolved app_id 'baratheon' not in characters.json"
+          },
+          {
+            "entity_id": "flota_tyrell_a_debarcat_la_o_jumatate_de_zi_de_mers_calare_de_debarcaderul_regel",
+            "field": "participanti",
+            "broken_value": "HOUSE_TYRELL",
+            "reason": "resolved app_id 'tyrell' not in characters.json"
+          },
+          {
+            "entity_id": "in_timpul_ospatului_la_semnalul_lui_walder_frey_muzicantii",
+            "field": "participanti",
+            "broken_value": "HOUSE_STARK",
+            "reason": "resolved app_id 'stark' not in characters.json"
+          },
+          {
+            "entity_id": "in_timpul_ospatului_la_semnalul_lui_walder_frey_muzicantii",
+            "field": "participanti",
+            "broken_value": "HOUSE_VANCE",
+            "reason": "resolved app_id 'vance' not in characters.json"
+          },
+          {
+            "entity_id": "incaierari_in_fundatura_puricilor",
+            "field": "participanti",
+            "broken_value": "HOUSE_TYRELL",
+            "reason": "resolved app_id 'tyrell' not in characters.json"
+          },
+          {
+            "entity_id": "incendierea_resedintelor_lorzilor_cucernici_rebeli_din_tinuturile_riverane_si_ti",
+            "field": "participanti",
+            "broken_value": "HOUSE_TERRICK",
+            "reason": "resolved app_id 'terrick' not in characters.json"
+          },
+          {
+            "entity_id": "incendierea_resedintelor_lorzilor_cucernici_rebeli_din_tinuturile_riverane_si_ti",
+            "field": "participanti",
+            "broken_value": "HOUSE_DEDDINGS",
+            "reason": "resolved app_id 'deddings' not in characters.json"
+          },
+          {
+            "entity_id": "incendierea_resedintelor_lorzilor_cucernici_rebeli_din_tinuturile_riverane_si_ti",
+            "field": "participanti",
+            "broken_value": "HOUSE_LYCHESTER",
+            "reason": "resolved app_id 'lychester' not in characters.json"
+          },
+          {
+            "entity_id": "incendierea_resedintelor_lorzilor_cucernici_rebeli_din_tinuturile_riverane_si_ti",
+            "field": "participanti",
+            "broken_value": "HOUSE_BROOME",
+            "reason": "resolved app_id 'broome' not in characters.json"
+          },
+          {
+            "entity_id": "incendierea_resedintelor_lorzilor_cucernici_rebeli_din_tinuturile_riverane_si_ti",
+            "field": "participanti",
+            "broken_value": "HOUSE_FALWELL",
+            "reason": "resolved app_id 'falwell' not in characters.json"
+          },
+          {
+            "entity_id": "incendierea_resedintelor_lorzilor_cucernici_rebeli_din_tinuturile_riverane_si_ti",
+            "field": "participanti",
+            "broken_value": "HOUSE_LORCHE",
+            "reason": "resolved app_id 'lorche' not in characters.json"
+          },
+          {
+            "entity_id": "incident_la_perla_albastra",
+            "field": "participanti",
+            "broken_value": "HOUSE_BEESBURY",
+            "reason": "resolved app_id 'beesbury' not in characters.json"
+          },
+          {
+            "entity_id": "lorzii_cer_inlaturarea_lui_baelish_masand_oameni_la_eyrie",
+            "field": "participanti",
+            "broken_value": "HOUSE_BELMORE",
+            "reason": "resolved app_id 'belmore' not in characters.json"
+          },
+          {
+            "entity_id": "lupta_pentru_succesiune_in_insulele_de_fier_dupa_moartea_krakenului_rosu",
+            "field": "participanti",
+            "broken_value": "HOUSE_LANNISTER",
+            "reason": "resolved app_id 'lannister' not in characters.json"
+          },
+          {
+            "entity_id": "manderly_hartuiti_si_fara_casa_au_fost_primiti_hraniti_si_aparati_de_stark",
+            "field": "participanti",
+            "broken_value": "HOUSE_STARK",
+            "reason": "resolved app_id 'stark' not in characters.json"
+          },
+          {
+            "entity_id": "merrett_descrie_indirect_planul_corturi_prabusite_arcasi_ascunsi_printre_muzican",
+            "field": "participanti",
+            "broken_value": "HOUSE_STARK",
+            "reason": "resolved app_id 'stark' not in characters.json"
+          },
+          {
+            "entity_id": "merrett_descrie_indirect_planul_corturi_prabusite_arcasi_ascunsi_printre_muzican",
+            "field": "participanti",
+            "broken_value": "PERSON_LOTHAR_FREY",
+            "reason": "PERSON_* ID not found in id_map.json"
+          },
+          {
+            "entity_id": "oamenii_doamnei_webber_au_construit_un_dig_de_pamant_si_lemn_pe_apa_baltata_devi",
+            "field": "participanti",
+            "broken_value": "HOUSE_WEBBER",
+            "reason": "resolved app_id 'webber' not in characters.json"
+          },
+          {
+            "entity_id": "oamenii_lannister_au_trecut_prin_sabie_opt_localnici_cautandu_l_pe_regicid_apoi_",
+            "field": "participanti",
+            "broken_value": "HOUSE_LANNISTER",
+            "reason": "resolved app_id 'lannister' not in characters.json"
+          },
+          {
+            "entity_id": "oastea_porneste_de_la_riverrun_spre_gemeni_apoi_spre_nord_prin_ploaie_continua_p",
+            "field": "participanti",
+            "broken_value": "HOUSE_RIVERS",
+            "reason": "resolved app_id 'rivers' not in characters.json"
+          },
+          {
+            "entity_id": "orys_baratheon_si_ceilalti_lorzi_capturati_pe_drumul_oaselor_au_fost_rascumparat",
+            "field": "participanti",
+            "broken_value": "HOUSE_BARATHEON",
+            "reason": "resolved app_id 'baratheon' not in characters.json"
+          },
+          {
+            "entity_id": "petyr_a_dansat_cu_catelyn_a_incercat_s_o_sarute_ea_l_a_respins_si_i_a_ras_in_nas",
+            "field": "participanti",
+            "broken_value": "HOUSE_BLACKWOOD",
+            "reason": "resolved app_id 'blackwood' not in characters.json"
+          },
+          {
+            "entity_id": "riverrun_asediat",
+            "field": "participanti",
+            "broken_value": "HOUSE_STARK",
+            "reason": "resolved app_id 'stark' not in characters.json"
+          },
+          {
+            "entity_id": "robb_se_intoarce_la_riverrun_dupa_campania_din_vest",
+            "field": "participanti",
+            "broken_value": "HOUSE_RIVERS",
+            "reason": "resolved app_id 'rivers' not in characters.json"
+          },
+          {
+            "entity_id": "salbaticii_strapung_poarta_reginei_si_se_raspandesc_in_dar",
+            "field": "participanti",
+            "broken_value": "HOUSE_GLOVER",
+            "reason": "resolved app_id 'glover' not in characters.json"
+          },
+          {
+            "entity_id": "semnarea_unui_tratat_de_pace_vesnica_intre_aegon_si_dorne",
+            "field": "participanti",
+            "broken_value": "HOUSE_MARTELL",
+            "reason": "resolved app_id 'martell' not in characters.json"
+          },
+          {
+            "entity_id": "trupul_lordului_hoster_e_pus_pe_o_barca_si_dat_drumul_pe_rau_apoi_aprins_cu_sage",
+            "field": "participanti",
+            "broken_value": "HOUSE_BLACKWOOD",
+            "reason": "resolved app_id 'blackwood' not in characters.json"
+          },
+          {
+            "entity_id": "trupul_lordului_hoster_e_pus_pe_o_barca_si_dat_drumul_pe_rau_apoi_aprins_cu_sage",
+            "field": "participanti",
+            "broken_value": "HOUSE_VANCE",
+            "reason": "resolved app_id 'vance' not in characters.json"
+          },
+          {
+            "entity_id": "turnir_mare_organizat_de_lordul_whent_la_harrenhal_cu_lupte_in_echipe_tras_cu_ar",
+            "field": "participanti",
+            "broken_value": "HOUSE_WHENT",
+            "reason": "resolved app_id 'whent' not in characters.json"
+          },
+          {
+            "entity_id": "un_brutar_a_fost_copt_de_viu_in_propriul_cuptor_de_gloata_furioasa_nemultumita_d",
+            "field": "participanti",
+            "broken_value": "HOUSE_BARATHEON",
+            "reason": "resolved app_id 'baratheon' not in characters.json"
+          },
+          {
+            "entity_id": "valuri_de_zvonuri_defaimatoare_accidente_si_atacuri_suspecte_lovesc_rivalele_pro",
+            "field": "participanti",
+            "broken_value": "HOUSE_STAUNTON",
+            "reason": "resolved app_id 'staunton' not in characters.json"
+          },
+          {
+            "entity_id": "vestea_mortii_lui_eddard_stark_ajunge_la_winterfell",
+            "field": "participanti",
+            "broken_value": "HOUSE_STARK",
+            "reason": "resolved app_id 'stark' not in characters.json"
+          }
+        ]
+      },
+      "participants": {
+        "total_checked": 2224,
+        "total_broken": 65,
+        "broken_refs": [
+          {
+            "entity_id": "landing_blackwater",
+            "field": "participants",
+            "broken_value": "aegon_i",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "burning_harrenhal",
+            "field": "participants",
+            "broken_value": "aegon_i",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "field_of_fire",
+            "field": "participants",
+            "broken_value": "aegon_i",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "submission_north",
+            "field": "participants",
+            "broken_value": "aegon_i",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "coronation_oldtown",
+            "field": "participants",
+            "broken_value": "aegon_i",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "founding_kl",
+            "field": "participants",
+            "broken_value": "aegon_i",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "coronation_aegon_ii",
+            "field": "participants",
+            "broken_value": "aegon_ii",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "aranjarea_a_doua_logodne_notabile_de_catre_regina_alysanne",
+            "field": "participants",
+            "broken_value": "belmore",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "aranjarea_a_doua_logodne_notabile_de_catre_regina_alysanne",
+            "field": "participants",
+            "broken_value": "PERSON_LORDUL_MULLENDORE",
+            "reason": "PERSON_* ID not found in id_map.json"
+          },
+          {
+            "entity_id": "aranjarea_a_doua_logodne_notabile_de_catre_regina_alysanne",
+            "field": "participants",
+            "broken_value": "PERSON_LADY_PRUNELLA_CELTIGAR",
+            "reason": "PERSON_* ID not found in id_map.json"
+          },
+          {
+            "entity_id": "aranjarea_a_doua_logodne_notabile_de_catre_regina_alysanne",
+            "field": "participants",
+            "broken_value": "PERSON_UTHER_PEAKE",
+            "reason": "PERSON_* ID not found in id_map.json"
+          },
+          {
+            "entity_id": "armata_lui_stannis_a_fost_zdrobita_flota_incendiata",
+            "field": "participants",
+            "broken_value": "tyrell",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "armatele_unite_ale_reach_ului_si_apusului_au_fost_arse_pe_campul_de_lupta_de_dra",
+            "field": "participants",
+            "broken_value": "osgrey",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "armatele_unite_ale_reach_ului_si_apusului_au_fost_arse_pe_campul_de_lupta_de_dra",
+            "field": "participants",
+            "broken_value": "targaryen",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "atac_asupra_septului_de_piatra_uciderea_lordului_local",
+            "field": "participants",
+            "broken_value": "lannister",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "atac_nocturn_surprinzator_incendiere_de_corturi_si_oras_partial",
+            "field": "participants",
+            "broken_value": "vypren",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "atac_nocturn_surprinzator_incendiere_de_corturi_si_oras_partial",
+            "field": "participants",
+            "broken_value": "deddings",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "atac_nocturn_surprinzator_incendiere_de_corturi_si_oras_partial",
+            "field": "participants",
+            "broken_value": "vance",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "au_predat_fortareata_rosie_printului_jaehaerys_si_surorilor_rhaena_si_alysanne_c",
+            "field": "participants",
+            "broken_value": "darklyn",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "au_predat_fortareata_rosie_printului_jaehaerys_si_surorilor_rhaena_si_alysanne_c",
+            "field": "participants",
+            "broken_value": "staunton",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "au_predat_fortareata_rosie_printului_jaehaerys_si_surorilor_rhaena_si_alysanne_c",
+            "field": "participants",
+            "broken_value": "towers",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "batalia_de_la_trident",
+            "field": "participants",
+            "broken_value": "stark",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "brackenii_au_otravit_copacul_inima_din_padurea_zeilor_a_raventree_ului",
+            "field": "participants",
+            "broken_value": "bracken",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "brackenii_lorzi_vasali_renumiti_pentru_cresterea_cailor_au_refuzat_sa_plateasca_",
+            "field": "participants",
+            "broken_value": "blackwood",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "casa_greystark_dupa_5_secole_la_vizuina_lupilor_s_a_alaturat_dreadfortului_intr_",
+            "field": "participants",
+            "broken_value": "greystark",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "cea_mai_sangeroasa_batalie_de_pe_uscat_din_dansul_dragonilor",
+            "field": "participants",
+            "broken_value": "blackwood",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "cel_mai_barbar_jaf_din_istoria_westerosului_locuitori_ucisi_femei_violate_prunci",
+            "field": "participants",
+            "broken_value": "peake",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "cere_corabii_pentru_a_opri_salbaticii_ce_traverseaza_golful_focilor",
+            "field": "participants",
+            "broken_value": "stark",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "cinci_oameni_ai_nordului_au_incercat_sa_deschida_portile_deepwood_motte_inaintea",
+            "field": "participants",
+            "broken_value": "stark",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "daemon_blackfyre_a_fost_aproape_de_victorie_dupa_ce_l_a_doborat_pe_ser_gwayne_co",
+            "field": "participants",
+            "broken_value": "hayford",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "daemon_blackfyre_a_fost_aproape_de_victorie_dupa_ce_l_a_doborat_pe_ser_gwayne_co",
+            "field": "participants",
+            "broken_value": "sunderland",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "dake_a_fost_prins_de_oamenii_doamnei_webber_pentru_furtul_unei_oi_bagat_intr_un_",
+            "field": "participants",
+            "broken_value": "webber",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "duel_pentru_a_decide_legitimitatea_lui_maegor",
+            "field": "participants",
+            "broken_value": "lothston",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "epidemia_fierbinteala_iernii_patrunde_in_debarcaderul_regelui_ucide_trei_sfertur",
+            "field": "participants",
+            "broken_value": "baratheon",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "flota_tyrell_a_debarcat_la_o_jumatate_de_zi_de_mers_calare_de_debarcaderul_regel",
+            "field": "participants",
+            "broken_value": "tyrell",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "in_timpul_ospatului_la_semnalul_lui_walder_frey_muzicantii",
+            "field": "participants",
+            "broken_value": "stark",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "in_timpul_ospatului_la_semnalul_lui_walder_frey_muzicantii",
+            "field": "participants",
+            "broken_value": "vance",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "incaierari_in_fundatura_puricilor",
+            "field": "participants",
+            "broken_value": "tyrell",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "incendierea_resedintelor_lorzilor_cucernici_rebeli_din_tinuturile_riverane_si_ti",
+            "field": "participants",
+            "broken_value": "terrick",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "incendierea_resedintelor_lorzilor_cucernici_rebeli_din_tinuturile_riverane_si_ti",
+            "field": "participants",
+            "broken_value": "deddings",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "incendierea_resedintelor_lorzilor_cucernici_rebeli_din_tinuturile_riverane_si_ti",
+            "field": "participants",
+            "broken_value": "lychester",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "incendierea_resedintelor_lorzilor_cucernici_rebeli_din_tinuturile_riverane_si_ti",
+            "field": "participants",
+            "broken_value": "broome",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "incendierea_resedintelor_lorzilor_cucernici_rebeli_din_tinuturile_riverane_si_ti",
+            "field": "participants",
+            "broken_value": "falwell",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "incendierea_resedintelor_lorzilor_cucernici_rebeli_din_tinuturile_riverane_si_ti",
+            "field": "participants",
+            "broken_value": "lorche",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "incident_la_perla_albastra",
+            "field": "participants",
+            "broken_value": "beesbury",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "lorzii_cer_inlaturarea_lui_baelish_masand_oameni_la_eyrie",
+            "field": "participants",
+            "broken_value": "belmore",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "lupta_pentru_succesiune_in_insulele_de_fier_dupa_moartea_krakenului_rosu",
+            "field": "participants",
+            "broken_value": "lannister",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "manderly_hartuiti_si_fara_casa_au_fost_primiti_hraniti_si_aparati_de_stark",
+            "field": "participants",
+            "broken_value": "stark",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "merrett_descrie_indirect_planul_corturi_prabusite_arcasi_ascunsi_printre_muzican",
+            "field": "participants",
+            "broken_value": "stark",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "merrett_descrie_indirect_planul_corturi_prabusite_arcasi_ascunsi_printre_muzican",
+            "field": "participants",
+            "broken_value": "PERSON_LOTHAR_FREY",
+            "reason": "PERSON_* ID not found in id_map.json"
+          },
+          {
+            "entity_id": "oamenii_doamnei_webber_au_construit_un_dig_de_pamant_si_lemn_pe_apa_baltata_devi",
+            "field": "participants",
+            "broken_value": "webber",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "oamenii_lannister_au_trecut_prin_sabie_opt_localnici_cautandu_l_pe_regicid_apoi_",
+            "field": "participants",
+            "broken_value": "lannister",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "oastea_porneste_de_la_riverrun_spre_gemeni_apoi_spre_nord_prin_ploaie_continua_p",
+            "field": "participants",
+            "broken_value": "rivers",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "orys_baratheon_si_ceilalti_lorzi_capturati_pe_drumul_oaselor_au_fost_rascumparat",
+            "field": "participants",
+            "broken_value": "baratheon",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "petyr_a_dansat_cu_catelyn_a_incercat_s_o_sarute_ea_l_a_respins_si_i_a_ras_in_nas",
+            "field": "participants",
+            "broken_value": "blackwood",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "riverrun_asediat",
+            "field": "participants",
+            "broken_value": "stark",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "robb_se_intoarce_la_riverrun_dupa_campania_din_vest",
+            "field": "participants",
+            "broken_value": "rivers",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "salbaticii_strapung_poarta_reginei_si_se_raspandesc_in_dar",
+            "field": "participants",
+            "broken_value": "glover",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "semnarea_unui_tratat_de_pace_vesnica_intre_aegon_si_dorne",
+            "field": "participants",
+            "broken_value": "martell",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "trupul_lordului_hoster_e_pus_pe_o_barca_si_dat_drumul_pe_rau_apoi_aprins_cu_sage",
+            "field": "participants",
+            "broken_value": "blackwood",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "trupul_lordului_hoster_e_pus_pe_o_barca_si_dat_drumul_pe_rau_apoi_aprins_cu_sage",
+            "field": "participants",
+            "broken_value": "vance",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "turnir_mare_organizat_de_lordul_whent_la_harrenhal_cu_lupte_in_echipe_tras_cu_ar",
+            "field": "participants",
+            "broken_value": "whent",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "un_brutar_a_fost_copt_de_viu_in_propriul_cuptor_de_gloata_furioasa_nemultumita_d",
+            "field": "participants",
+            "broken_value": "baratheon",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "valuri_de_zvonuri_defaimatoare_accidente_si_atacuri_suspecte_lovesc_rivalele_pro",
+            "field": "participants",
+            "broken_value": "staunton",
+            "reason": "participant slug not found in characters.json"
+          },
+          {
+            "entity_id": "vestea_mortii_lui_eddard_stark_ajunge_la_winterfell",
+            "field": "participants",
+            "broken_value": "stark",
+            "reason": "participant slug not found in characters.json"
+          }
+        ]
+      }
+    },
+    "houses.json": {
+      "relatii.ally_of": {
+        "total_checked": 504,
+        "total_broken": 0,
+        "broken_refs": []
+      },
+      "relatii.enemy_of": {
+        "total_checked": 317,
+        "total_broken": 0,
+        "broken_refs": []
+      },
+      "relatii.liege_of": {
+        "total_checked": 26,
+        "total_broken": 0,
+        "broken_refs": []
+      },
+      "relatii.vassal_of": {
+        "total_checked": 26,
+        "total_broken": 0,
+        "broken_refs": []
+      }
+    },
+    "locations.json": {
+      "evenimente (text liber — confirmare)": {
+        "total_checked": 1987,
+        "total_broken": 0,
+        "broken_refs": []
+      }
+    },
+    "objects.json": {
+      "made_by[].creator": {
+        "total_checked": 3,
+        "total_broken": 0,
+        "broken_refs": []
+      },
+      "owned_by[].proprietar": {
+        "total_checked": 18,
+        "total_broken": 4,
+        "broken_refs": [
+          {
+            "entity_id": "mana_de_aur_a_lui_jaime_lannister",
+            "field": "owned_by[].proprietar",
+            "broken_value": "Jaime după pierderea mâinii",
+            "reason": "proprietar slug not found in characters.json"
+          },
+          {
+            "entity_id": "sigiliul_regelui_baietan",
+            "field": "owned_by[].proprietar",
+            "broken_value": "Brienne",
+            "reason": "proprietar slug not found in characters.json"
+          },
+          {
+            "entity_id": "zgarda_de_sclav",
+            "field": "owned_by[].proprietar",
+            "broken_value": "„odoarele\" (comorile) lui Yezzan",
+            "reason": "proprietar slug not found in characters.json"
+          },
+          {
+            "entity_id": "zorile",
+            "field": "owned_by[].proprietar",
+            "broken_value": "Ulrick Dayne",
+            "reason": "proprietar slug not found in characters.json"
+          }
+        ]
+      }
+    },
+    "titles.json": {
+      "purtatori[].persoana_id": {
+        "total_checked": 7,
+        "total_broken": 1,
+        "broken_refs": [
+          {
+            "entity_id": "monstru",
+            "field": "purtatori[].persoana_id",
+            "broken_value": "Fiul lui Mance Rayder",
+            "reason": "persoana_id is free text, not PERSON_*/HOUSE_* format (cannot validate through id_map)"
+          }
+        ]
+      }
+    }
+  },
+  "locations_evenimente_analysis": {
+    "total_locations_with_evenimente": 690,
+    "total_items_in_evenimente": 1987,
+    "items_that_look_like_ids": 0,
+    "confirmed_text_liber": true,
+    "examples": [
+      {
+        "location_id": "winterfell",
+        "value": "ospățul de bun venit oferit regelui Robert; vizita în criptă; numirea lui Ned ca Mână a Regelui"
+      },
+      {
+        "location_id": "winterfell",
+        "value": "numeroase — vezi secțiunea 4 (mesajul Lysei, disputa Ned–Catelyn, cearta din curtea de antrenament, căderea lui Bran, rămas-bunurile lui Jon)"
+      },
+      {
+        "location_id": "winterfell",
+        "value": "menționat ca loc de origine/destinație; Ned trimite instrucțiuni ca Catelyn să se întoarcă acolo"
+      },
+      {
+        "location_id": "winterfell",
+        "value": "Tyrion Lannister sosește cu patru oameni din Rondul de Noapte (inclusiv Yoren) aducând vești despre Jon; Robb îl primește cu sabia scoasă; lupii străvechi atacă/amenință pe Tyrion; se primește vestea "
+      },
+      {
+        "location_id": "winterfell",
+        "value": "nu se petrece nimic direct; este destinația spre care se îndreaptă Catelyn și spre care e dusă captiv o vreme și intenția declarată pentru Tyrion (înșelătorie, de fapt e dus spre Eyrie)"
+      }
+    ]
+  }
+}

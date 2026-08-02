@@ -1,0 +1,1118 @@
+{
+  "metadate": {
+    "total_neconfirmate": 38,
+    "motiv": "Aceste grupuri au același nume normalizat dar FĂRĂ niciun semnal suplimentar de confirmare — necesită decizie manuală."
+  },
+  "grupuri_neconfirmate": [
+    {
+      "nume_normalizat": "addam marbrand",
+      "id_uri": [
+        "addam_marbrand",
+        "ser_addam_marbrand"
+      ],
+      "id_intern_uri": [
+        "PERSON_ADDAM_MARBRAND",
+        "PERSON_SER_ADDAM_MARBRAND"
+      ],
+      "names": [
+        "Addam Marbrand",
+        "Ser Addam Marbrand"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "addam_marbrand",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "ser_addam_marbrand",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "aegon",
+      "id_uri": [
+        "aegon",
+        "printul_aegon"
+      ],
+      "id_intern_uri": [
+        "PERSON_AEGON",
+        "PERSON_PRINTUL_AEGON"
+      ],
+      "names": [
+        "Aegon",
+        "Prințul Aegon („Tânărul Griff”)"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "aegon",
+          "scor_total": 1.0,
+          "campuri_populate": 11
+        },
+        {
+          "id": "printul_aegon",
+          "scor_total": 0.0,
+          "campuri_populate": 1
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "aenys frey",
+      "id_uri": [
+        "aenys_frey",
+        "ser_aenys_frey"
+      ],
+      "id_intern_uri": [
+        "PERSON_AENYS_FREY",
+        "PERSON_SER_AENYS_FREY"
+      ],
+      "names": [
+        "Aenys Frey",
+        "Ser Aenys Frey"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "aenys_frey",
+          "scor_total": 0.0,
+          "campuri_populate": 1
+        },
+        {
+          "id": "ser_aenys_frey",
+          "scor_total": 0.38,
+          "campuri_populate": 6
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "archibald yronwood",
+      "id_uri": [
+        "archibald_yronwood",
+        "ser_archibald_yronwood"
+      ],
+      "id_intern_uri": [
+        "PERSON_ARCHIBALD_YRONWOOD",
+        "PERSON_SER_ARCHIBALD_YRONWOOD"
+      ],
+      "names": [
+        "Archibald Yronwood (Ser Arch)",
+        "Ser Archibald Yronwood („Arch\")"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "archibald_yronwood",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "ser_archibald_yronwood",
+          "scor_total": 0.0,
+          "campuri_populate": 1
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "aron santagar",
+      "id_uri": [
+        "aron_santagar",
+        "ser_aron_santagar"
+      ],
+      "id_intern_uri": [
+        "PERSON_ARON_SANTAGAR",
+        "PERSON_SER_ARON_SANTAGAR"
+      ],
+      "names": [
+        "Aron Santagar",
+        "Ser Aron Santagar"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "aron_santagar",
+          "scor_total": 0.0,
+          "campuri_populate": 1
+        },
+        {
+          "id": "ser_aron_santagar",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "boros blount",
+      "id_uri": [
+        "boros_blount",
+        "ser_boros_blount"
+      ],
+      "id_intern_uri": [
+        "PERSON_BOROS_BLOUNT",
+        "PERSON_SER_BOROS_BLOUNT"
+      ],
+      "names": [
+        "Boros Blount",
+        "Ser Boros Blount"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "boros_blount",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "ser_boros_blount",
+          "scor_total": 0.25,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "caleotte",
+      "id_uri": [
+        "caleotte",
+        "maester_caleotte"
+      ],
+      "id_intern_uri": [
+        "PERSON_CALEOTTE",
+        "PERSON_MAESTER_CALEOTTE"
+      ],
+      "names": [
+        "Caleotte",
+        "Maester Caleotte"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "caleotte",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "maester_caleotte",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "corliss penny",
+      "id_uri": [
+        "corliss_penny",
+        "ser_corliss_penny"
+      ],
+      "id_intern_uri": [
+        "PERSON_CORLISS_PENNY",
+        "PERSON_SER_CORLISS_PENNY"
+      ],
+      "names": [
+        "Corliss Penny (Ser)",
+        "Ser Corliss Penny"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "corliss_penny",
+          "scor_total": 0.0,
+          "campuri_populate": 1
+        },
+        {
+          "id": "ser_corliss_penny",
+          "scor_total": 0.25,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "desmond",
+      "id_uri": [
+        "desmond",
+        "grand_maester_desmond",
+        "ser_desmond"
+      ],
+      "id_intern_uri": [
+        "PERSON_DESMOND",
+        "PERSON_GRAND_MAESTER_DESMOND",
+        "PERSON_SER_DESMOND"
+      ],
+      "names": [
+        "Desmond",
+        "Grand Maester Desmond",
+        "Ser Desmond"
+      ],
+      "numar_variante": 3,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "desmond",
+          "scor_total": 0.0,
+          "campuri_populate": 1
+        },
+        {
+          "id": "grand_maester_desmond",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "ser_desmond",
+          "scor_total": 0.0,
+          "campuri_populate": 1
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "desmond grell",
+      "id_uri": [
+        "desmond_grell",
+        "ser_desmond_grell"
+      ],
+      "id_intern_uri": [
+        "PERSON_DESMOND_GRELL",
+        "PERSON_SER_DESMOND_GRELL"
+      ],
+      "names": [
+        "Desmond Grell",
+        "Ser Desmond Grell"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "desmond_grell",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "ser_desmond_grell",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "donnel hightower",
+      "id_uri": [
+        "donnel_hightower",
+        "lordul_donnel_hightower"
+      ],
+      "id_intern_uri": [
+        "PERSON_DONNEL_HIGHTOWER",
+        "PERSON_LORDUL_DONNEL_HIGHTOWER"
+      ],
+      "names": [
+        "Donnel Hightower („Donnel Pregătitorul”)",
+        "Lordul Donnel Hightower („Pregetătorul\")"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "donnel_hightower",
+          "scor_total": 0.0,
+          "campuri_populate": 1
+        },
+        {
+          "id": "lordul_donnel_hightower",
+          "scor_total": 0.0,
+          "campuri_populate": 1
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "endrew tarth",
+      "id_uri": [
+        "endrew_tarth",
+        "ser_endrew_tarth"
+      ],
+      "id_intern_uri": [
+        "PERSON_ENDREW_TARTH",
+        "PERSON_SER_ENDREW_TARTH"
+      ],
+      "names": [
+        "Endrew Tarth",
+        "Ser Endrew Tarth"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "endrew_tarth",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "ser_endrew_tarth",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "forley prester",
+      "id_uri": [
+        "forley_prester",
+        "ser_forley_prester"
+      ],
+      "id_intern_uri": [
+        "PERSON_FORLEY_PRESTER",
+        "PERSON_SER_FORLEY_PRESTER"
+      ],
+      "names": [
+        "Forley Prester",
+        "Ser Forley Prester"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "forley_prester",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "ser_forley_prester",
+          "scor_total": 0.12,
+          "campuri_populate": 3
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "ghael",
+      "id_uri": [
+        "ghael",
+        "lordul_ghael"
+      ],
+      "id_intern_uri": [
+        "PERSON_GHAEL",
+        "PERSON_LORDUL_GHAEL"
+      ],
+      "names": [
+        "Ghael",
+        "Lordul Ghael"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "ghael",
+          "scor_total": 0.12,
+          "campuri_populate": 2
+        },
+        {
+          "id": "lordul_ghael",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "gormon",
+      "id_uri": [
+        "gormon",
+        "maester_gormon"
+      ],
+      "id_intern_uri": [
+        "PERSON_GORMON",
+        "PERSON_MAESTER_GORMON"
+      ],
+      "names": [
+        "Gormon",
+        "Maester Gormon"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "gormon",
+          "scor_total": 0.12,
+          "campuri_populate": 2
+        },
+        {
+          "id": "maester_gormon",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "horas redwyne",
+      "id_uri": [
+        "horas_redwyne",
+        "ser_horas_redwyne"
+      ],
+      "id_intern_uri": [
+        "PERSON_HORAS_REDWYNE",
+        "PERSON_SER_HORAS_REDWYNE"
+      ],
+      "names": [
+        "Horas Redwyne",
+        "Ser Horas Redwyne"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "horas_redwyne",
+          "scor_total": 0.0,
+          "campuri_populate": 1
+        },
+        {
+          "id": "ser_horas_redwyne",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "hubard rambton",
+      "id_uri": [
+        "hubard_rambton",
+        "ser_hubard_rambton"
+      ],
+      "id_intern_uri": [
+        "PERSON_HUBARD_RAMBTON",
+        "PERSON_SER_HUBARD_RAMBTON"
+      ],
+      "names": [
+        "Hubard Rambton (şi fiii săi)",
+        "Ser Hubard Rambton"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "hubard_rambton",
+          "scor_total": 0.25,
+          "campuri_populate": 5
+        },
+        {
+          "id": "ser_hubard_rambton",
+          "scor_total": 0.25,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "jon connington",
+      "id_uri": [
+        "jon_connington",
+        "lordul_jon_connington"
+      ],
+      "id_intern_uri": [
+        "PERSON_JON_CONNINGTON",
+        "PERSON_LORDUL_JON_CONNINGTON"
+      ],
+      "names": [
+        "Jon Connington",
+        "Lordul Jon Connington (\"Griff\")"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "jon_connington",
+          "scor_total": 0.62,
+          "campuri_populate": 8
+        },
+        {
+          "id": "lordul_jon_connington",
+          "scor_total": 0.0,
+          "campuri_populate": 1
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "justin massey",
+      "id_uri": [
+        "justin_massey",
+        "ser_justin_massey"
+      ],
+      "id_intern_uri": [
+        "PERSON_JUSTIN_MASSEY",
+        "PERSON_SER_JUSTIN_MASSEY"
+      ],
+      "names": [
+        "Justin Massey (Ser)",
+        "Ser Justin Massey"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "justin_massey",
+          "scor_total": 0.0,
+          "campuri_populate": 1
+        },
+        {
+          "id": "ser_justin_massey",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "kedry",
+      "id_uri": [
+        "kedry",
+        "maester_kedry"
+      ],
+      "id_intern_uri": [
+        "PERSON_KEDRY",
+        "PERSON_MAESTER_KEDRY"
+      ],
+      "names": [
+        "Kedry",
+        "Maester Kedry"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "kedry",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "maester_kedry",
+          "scor_total": 0.0,
+          "campuri_populate": 1
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "lucinda tully",
+      "id_uri": [
+        "lady_lucinda_tully",
+        "lucinda_tully"
+      ],
+      "id_intern_uri": [
+        "PERSON_LADY_LUCINDA_TULLY",
+        "PERSON_LUCINDA_TULLY"
+      ],
+      "names": [
+        "Lady Lucinda Tully",
+        "Lucinda Tully"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "lady_lucinda_tully",
+          "scor_total": 0.12,
+          "campuri_populate": 3
+        },
+        {
+          "id": "lucinda_tully",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "maegor",
+      "id_uri": [
+        "maegor",
+        "regele_maegor"
+      ],
+      "id_intern_uri": [
+        "PERSON_MAEGOR",
+        "PERSON_REGELE_MAEGOR"
+      ],
+      "names": [
+        "Maegor (fiul Helaenei)",
+        "Regele Maegor"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "maegor",
+          "scor_total": 0.5,
+          "campuri_populate": 5
+        },
+        {
+          "id": "regele_maegor",
+          "scor_total": 0.12,
+          "campuri_populate": 3
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "merryweather",
+      "id_uri": [
+        "lady_merryweather",
+        "lordul_merryweather"
+      ],
+      "id_intern_uri": [
+        "PERSON_LADY_MERRYWEATHER",
+        "PERSON_LORDUL_MERRYWEATHER"
+      ],
+      "names": [
+        "Lady Merryweather",
+        "Lordul Merryweather (bătrânul Lord Merryweather)"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "lady_merryweather",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "lordul_merryweather",
+          "scor_total": 0.25,
+          "campuri_populate": 3
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "meryn trant",
+      "id_uri": [
+        "meryn_trant",
+        "ser_meryn_trant"
+      ],
+      "id_intern_uri": [
+        "PERSON_MERYN_TRANT",
+        "PERSON_SER_MERYN_TRANT"
+      ],
+      "names": [
+        "Meryn Trant",
+        "Ser Meryn Trant"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "meryn_trant",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "ser_meryn_trant",
+          "scor_total": 0.25,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "myles",
+      "id_uri": [
+        "maester_myles",
+        "myles"
+      ],
+      "id_intern_uri": [
+        "PERSON_MAESTER_MYLES",
+        "PERSON_MYLES"
+      ],
+      "names": [
+        "Maester Myles",
+        "Myles"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "maester_myles",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "myles",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "pate sitarul",
+      "id_uri": [
+        "pate_sitarul",
+        "ser_pate_sitarul"
+      ],
+      "id_intern_uri": [
+        "PERSON_PATE_SITARUL",
+        "PERSON_SER_PATE_SITARUL"
+      ],
+      "names": [
+        "Pate Sitarul",
+        "Ser Pate Sitarul"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "pate_sitarul",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "ser_pate_sitarul",
+          "scor_total": 0.0,
+          "campuri_populate": 1
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "piper",
+      "id_uri": [
+        "lordul_piper",
+        "piper"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_PIPER",
+        "PERSON_PIPER"
+      ],
+      "names": [
+        "Lordul Piper",
+        "Piper"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "lordul_piper",
+          "scor_total": 0.0,
+          "campuri_populate": 1
+        },
+        {
+          "id": "piper",
+          "scor_total": 0.25,
+          "campuri_populate": 3
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "preston greenfield",
+      "id_uri": [
+        "preston_greenfield",
+        "ser_preston_greenfield"
+      ],
+      "id_intern_uri": [
+        "PERSON_PRESTON_GREENFIELD",
+        "PERSON_SER_PRESTON_GREENFIELD"
+      ],
+      "names": [
+        "Preston Greenfield",
+        "Ser Preston Greenfield"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "preston_greenfield",
+          "scor_total": 0.0,
+          "campuri_populate": 1
+        },
+        {
+          "id": "ser_preston_greenfield",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "pylos",
+      "id_uri": [
+        "maester_pylos",
+        "pylos"
+      ],
+      "id_intern_uri": [
+        "PERSON_MAESTER_PYLOS",
+        "PERSON_PYLOS"
+      ],
+      "names": [
+        "Maester Pylos",
+        "Pylos"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "maester_pylos",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "pylos",
+          "scor_total": 0.0,
+          "campuri_populate": 1
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "richard horpe",
+      "id_uri": [
+        "richard_horpe",
+        "ser_richard_horpe"
+      ],
+      "id_intern_uri": [
+        "PERSON_RICHARD_HORPE",
+        "PERSON_SER_RICHARD_HORPE"
+      ],
+      "names": [
+        "Richard Horpe (Ser)",
+        "Ser Richard Horpe"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "richard_horpe",
+          "scor_total": 0.0,
+          "campuri_populate": 1
+        },
+        {
+          "id": "ser_richard_horpe",
+          "scor_total": 0.25,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "robar",
+      "id_uri": [
+        "robar",
+        "ser_robar"
+      ],
+      "id_intern_uri": [
+        "PERSON_ROBAR",
+        "PERSON_SER_ROBAR"
+      ],
+      "names": [
+        "Robar",
+        "Ser Robar"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "robar",
+          "scor_total": 0.0,
+          "campuri_populate": 1
+        },
+        {
+          "id": "ser_robar",
+          "scor_total": 0.0,
+          "campuri_populate": 1
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "robin ryger",
+      "id_uri": [
+        "robin_ryger",
+        "ser_robin_ryger"
+      ],
+      "id_intern_uri": [
+        "PERSON_ROBIN_RYGER",
+        "PERSON_SER_ROBIN_RYGER"
+      ],
+      "names": [
+        "Robin Ryger",
+        "Ser Robin Ryger"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "robin_ryger",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "ser_robin_ryger",
+          "scor_total": 0.25,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "roland crakehall",
+      "id_uri": [
+        "roland_crakehall",
+        "ser_roland_crakehall"
+      ],
+      "id_intern_uri": [
+        "PERSON_ROLAND_CRAKEHALL",
+        "PERSON_SER_ROLAND_CRAKEHALL"
+      ],
+      "names": [
+        "Roland Crakehall (Lordul Crakehall, rememorare)",
+        "Ser Roland Crakehall"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "roland_crakehall",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "ser_roland_crakehall",
+          "scor_total": 0.38,
+          "campuri_populate": 6
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "varys",
+      "id_uri": [
+        "lordul_varys",
+        "varys"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_VARYS",
+        "PERSON_VARYS"
+      ],
+      "names": [
+        "Lordul Varys",
+        "Varys"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "lordul_varys",
+          "scor_total": 0.0,
+          "campuri_populate": 1
+        },
+        {
+          "id": "varys",
+          "scor_total": 0.25,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "victor risley",
+      "id_uri": [
+        "ser_victor_risley",
+        "victor_risley"
+      ],
+      "id_intern_uri": [
+        "PERSON_SER_VICTOR_RISLEY",
+        "PERSON_VICTOR_RISLEY"
+      ],
+      "names": [
+        "ser Victor Risley",
+        "Victor Risley (ser)"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "ser_victor_risley",
+          "scor_total": 0.12,
+          "campuri_populate": 3
+        },
+        {
+          "id": "victor_risley",
+          "scor_total": 0.0,
+          "campuri_populate": 1
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "vyman",
+      "id_uri": [
+        "maester_vyman",
+        "vyman"
+      ],
+      "id_intern_uri": [
+        "PERSON_MAESTER_VYMAN",
+        "PERSON_VYMAN"
+      ],
+      "names": [
+        "Maester Vyman",
+        "Vyman"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "maester_vyman",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "vyman",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "vyrwel",
+      "id_uri": [
+        "lady_vyrwel",
+        "lordul_vyrwel"
+      ],
+      "id_intern_uri": [
+        "PERSON_LADY_VYRWEL",
+        "PERSON_LORDUL_VYRWEL"
+      ],
+      "names": [
+        "Lady Vyrwel",
+        "Lordul Vyrwel"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "lady_vyrwel",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "lordul_vyrwel",
+          "scor_total": 0.0,
+          "campuri_populate": 1
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "waymar royce",
+      "id_uri": [
+        "ser_waymar_royce",
+        "waymar_royce"
+      ],
+      "id_intern_uri": [
+        "PERSON_SER_WAYMAR_ROYCE",
+        "PERSON_WAYMAR_ROYCE"
+      ],
+      "names": [
+        "Ser Waymar Royce",
+        "Waymar Royce"
+      ],
+      "numar_variante": 2,
+      "semnale": {},
+      "scor_completitudine": [
+        {
+          "id": "ser_waymar_royce",
+          "scor_total": 0.38,
+          "campuri_populate": 6
+        },
+        {
+          "id": "waymar_royce",
+          "scor_total": 0.0,
+          "campuri_populate": 1
+        }
+      ]
+    }
+  ]
+}

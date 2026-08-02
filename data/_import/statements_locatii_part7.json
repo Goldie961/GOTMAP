@@ -1,0 +1,3116 @@
+[
+  {
+    "subject": "LOCATION_ADAPOSTUL_PIETRUIT",
+    "predicate": "type",
+    "object": "reper teritorial",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ADAPOSTUL_PIETRUIT",
+    "predicate": "region",
+    "object": "fost teritoriu Osgrey — limita vestică",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ADAPOSTUL_PIETRUIT",
+    "predicate": "geographic_position",
+    "object": "capătul vestic al fostului teritoriu Osgrey",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ADAPOSTUL_PIETRUIT",
+    "predicate": "event_here",
+    "object": "niciunul; reper geografic istoric",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_APA_BALTATA",
+    "predicate": "type",
+    "object": "pârâu/apă curgătoare",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_APA_BALTATA",
+    "predicate": "region",
+    "object": "între Standfast și Coldmoat",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_APA_BALTATA",
+    "predicate": "built_year",
+    "object": "N/A (curs natural de apă), cunoscut „de o mie de ani și mai bine\"",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_APA_BALTATA",
+    "predicate": "physical_description",
+    "object": "suficient de adâncă să ude un călăreț până la burta calului la traversare",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_APA_BALTATA",
+    "predicate": "physical_description",
+    "object": "alimentează un canal ce curge de-a lungul drumului spre Coldmoat, ramificat în canale mai mici pentru câmpuri",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_APA_BALTATA",
+    "predicate": "geographic_position",
+    "object": "curge dinspre teritoriul Osgrey spre Coldmoat, prin Pădurea lui Wat",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_APA_BALTATA",
+    "predicate": "near",
+    "object": "LOCATION_PADUREA_LUI_WAT",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_APA_BALTATA",
+    "predicate": "owner_at",
+    "object": "HOUSE_WEBBER",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_APA_BALTATA",
+    "predicate": "status_at",
+    "object": "deviată artificial (stăvilar + canal)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_APA_BALTATA",
+    "predicate": "event_here",
+    "object": "Casa Webber a construit un stăvilar care deviază apa spre Coldmoat, lăsând fără apă cătunele lui Ser Eustace; Ser Bennis a rănit un săpător (Wolmer) aici",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ARBOR",
+    "predicate": "type",
+    "object": "insulă/regiune viticolă",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ARBOR",
+    "predicate": "event_here",
+    "object": "menționată ca sursă a vinului servit lui Dunk la Coldmoat; krakenii lui Dagon Greyjoy au ajuns cu raidurile până aici",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_BAZINUL_DE_APA_DE_SUB_ULM",
+    "predicate": "type",
+    "object": "reper natural (bazin de apă la cotitura unui izvor), folosit ca loc de campare",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_BAZINUL_DE_APA_DE_SUB_ULM",
+    "predicate": "region",
+    "object": "la marginea Pajiștii Ashford",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_BAZINUL_DE_APA_DE_SUB_ULM",
+    "predicate": "physical_description",
+    "object": "bazin adânc de apă, trestii dese în jur, un ulm înalt și frunzos, iarbă fragedă și verde",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_BAZINUL_DE_APA_DE_SUB_ULM",
+    "predicate": "geographic_position",
+    "object": "la cotitura unui izvor, la marginea pajiștii",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_BAZINUL_DE_APA_DE_SUB_ULM",
+    "predicate": "near",
+    "object": "izvor, trestii, ulm înalt",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_BAZINUL_DE_APA_DE_SUB_ULM",
+    "predicate": "owner_at",
+    "object": "neînsușit de nimeni la sosirea lui Dunk",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_BAZINUL_DE_APA_DE_SUB_ULM",
+    "predicate": "status_at",
+    "object": "natural, intact",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_BAZINUL_DE_APA_DE_SUB_ULM",
+    "predicate": "event_here",
+    "object": "Dunk își face tabăra sub ulm, se spală, îl găsește ulterior pe Egg gătind pește la un foc de tabără; aici Dunk vede o stea căzătoare verzuie",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "1",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_BRADYBOTTOM",
+    "predicate": "type",
+    "object": "sat",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_BRADYBOTTOM",
+    "predicate": "region",
+    "object": "malurile Lacului Frunzos, fost teritoriu Osgrey",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_BRADYBOTTOM",
+    "predicate": "event_here",
+    "object": "niciunul; menționat istoric",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CAPATUL_FURTUNII",
+    "predicate": "type",
+    "object": "loc de turnir menționat (fără descriere fizică în fragment)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CAPATUL_FURTUNII",
+    "predicate": "event_here",
+    "object": "(cu mulți ani în urmă) Ser Arlan de Pennytree e doborât de pe cal de \"prințul de Piatra Dragonului\" într-un turnir, după ce rupsese șapte lănci împotriva lui",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "1",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CASCADA_SALTIMBANCULUI",
+    "predicate": "type",
+    "object": "castel/reședință",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CASCADA_SALTIMBANCULUI",
+    "predicate": "owner_at",
+    "object": "PERSON_SER_MORGAN_DUNSTABLE",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CASCADA_SALTIMBANCULUI",
+    "predicate": "event_here",
+    "object": "aici a fost învestit cavaler Ser Glendon Ball, cu aproximativ jumătate de an înainte de fragment",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CASTELUL_ASHFORD",
+    "predicate": "type",
+    "object": "castel / fortăreață",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CASTELUL_ASHFORD",
+    "predicate": "region",
+    "object": "lângă orașul Ashford, dincolo de râul Cockleswent față de Pajiștea Ashford",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CASTELUL_ASHFORD",
+    "predicate": "physical_description",
+    "object": "structură din piatră, în formă de triunghi, cu turnuri rotunde înalte de zece metri la fiecare vârf, ziduri groase și crenelate ce le unesc",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CASTELUL_ASHFORD",
+    "predicate": "geographic_position",
+    "object": "dincolo de vad, față de pajiște",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CASTELUL_ASHFORD",
+    "predicate": "near",
+    "object": "râul Cockleswent",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CASTELUL_ASHFORD",
+    "predicate": "owner_at",
+    "object": "PERSON_LORDUL_ASHFORD",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CASTELUL_ASHFORD",
+    "predicate": "status_at",
+    "object": "intactă, în funcțiune",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CASTELUL_ASHFORD",
+    "predicate": "event_here",
+    "object": "sosirea unui alai de aproximativ o sută de cavaleri și arcași călare, condus de flamura Casei Targaryen (dragonul cu trei capete), aducând pe Prințul Valarr, Prințul Matarys, alți veri Targaryen și cavaleri ai Gărzii Regelui; Dunk se prezintă ispravnicului Plummer pentru înscrierea la turnir și i se cere garanția unui lord sau cavaler cunoscut",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "1",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CASTELUL_VERII",
+    "predicate": "type",
+    "object": "castel / reședință princiară",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CASTELUL_VERII",
+    "predicate": "region",
+    "object": "menționat ca fiind spre sud față de poziția curentă a personajelor",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CASTELUL_VERII",
+    "predicate": "owner_at",
+    "object": "HOUSE_TARGARYEN",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CASTELUL_VERII",
+    "predicate": "owner_at",
+    "object": "PERSON_PRINTUL_MAEKAR_TARGARYEN",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CASTELUL_VERII",
+    "predicate": "owner_at",
+    "object": "PERSON_MAEKAR_TARGARYEN",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CASTELUL_VERII",
+    "predicate": "owner_at",
+    "object": "PERSON_MAEKAR",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CASTELUL_VERII",
+    "predicate": "owner_at",
+    "object": "PERSON_PRINTUL_MAEKAR_TARGARYEN",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "8",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CASTELUL_VERII",
+    "predicate": "owner_at",
+    "object": "PERSON_MAEKAR_TARGARYEN",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "8",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CASTELUL_VERII",
+    "predicate": "owner_at",
+    "object": "PERSON_MAEKAR",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "8",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CASTELUL_VERII",
+    "predicate": "status_at",
+    "object": "intact (implicit)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CASTELUL_VERII",
+    "predicate": "event_here",
+    "object": "menționat ca reședința la care Aegon (Egg) și fratele său s-au întors după turnirul de la Ashford",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CASTELUL_VERII",
+    "predicate": "event_here",
+    "object": "menționat doar ca reședință a Prințului Maekar; nu se descrie o acțiune petrecută aici",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CASTELUL_VERII",
+    "predicate": "event_here",
+    "object": "menționat ca locul unde Prințul Maekar stă retras, certat cu regele și cu Mâna Regelui",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "8",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CASTERLY_ROCK",
+    "predicate": "type",
+    "object": "castel",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CASTERLY_ROCK",
+    "predicate": "owner_at",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CASTERLY_ROCK",
+    "predicate": "event_here",
+    "object": "menționat doar — „Leul Cenușiu\" s-a refugiat aici după moartea Lordului Lefford",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_COLDMOAT",
+    "predicate": "type",
+    "object": "castel (cu șanț de apărare/moat)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_COLDMOAT",
+    "predicate": "type",
+    "object": "castel (cu șanț de apărare și pod basculant)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_COLDMOAT",
+    "predicate": "region",
+    "object": "Reach",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_COLDMOAT",
+    "predicate": "built_year",
+    "object": "an nespecificat; construit de Lordul Perwyn Osgrey „cel Mândru\", înainte ca regiunea să treacă la administratori după Câmpul de Foc",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_COLDMOAT",
+    "predicate": "builder",
+    "object": "Lordul Perwyn Osgrey",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_COLDMOAT",
+    "predicate": "physical_description",
+    "object": "ziduri exterioare crenelate, înalte de zece metri, cu turnuri de colț (fiecare de 1,5 ori mai înalt ca Standfast)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_COLDMOAT",
+    "predicate": "physical_description",
+    "object": "pod basculant",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_COLDMOAT",
+    "predicate": "physical_description",
+    "object": "barieră-ghilotină și gură de tragere la poartă",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_COLDMOAT",
+    "predicate": "physical_description",
+    "object": "deasupra porții principale, un leu bălțat cioplit în piatră, tocit de vreme, sub flamurile mai noi ale familiei Webber",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_COLDMOAT",
+    "predicate": "physical_description",
+    "object": "sept de lemn cu șapte laturi și ferestre plumbuite",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_COLDMOAT",
+    "predicate": "physical_description",
+    "object": "grajduri, fierărie, curte exterioară",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_COLDMOAT",
+    "predicate": "physical_description",
+    "object": "are grajduri cu boxe, curte interioară, șanț de apărare cu apă foarte înaltă, pod basculant",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_COLDMOAT",
+    "predicate": "geographic_position",
+    "object": "la vest de Standfast, dincolo de Apa Bălțată și Pădurea lui Wat",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_COLDMOAT",
+    "predicate": "near",
+    "object": "LOCATION_APA_BALTATA",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_COLDMOAT",
+    "predicate": "owner_at",
+    "object": "HOUSE_WEBBER",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_COLDMOAT",
+    "predicate": "owner_at",
+    "object": "HOUSE_WEBBER",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_COLDMOAT",
+    "predicate": "status_at",
+    "object": "intactă, în folosință activă",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_COLDMOAT",
+    "predicate": "status_at",
+    "object": "intactă",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_COLDMOAT",
+    "predicate": "event_here",
+    "object": "Dunk și Egg ajung să negocieze cu Lady Webber problema stăvilarului; Dunk o confundă pe Lady Helicent cu Văduva Roșie; este primit de Ser Lucas Găliganul, Septonul Sefton și apoi de Lady Rohanne însăși",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_COLDMOAT",
+    "predicate": "event_here",
+    "object": "Dunk e adus aici rănit grav după duel; are loc căsătoria dintre Ser Eustace Osgrey și Lady Rohanne Webber; Dunk se recuperează și apoi pleacă",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CREASTA_PLANGERII",
+    "predicate": "type",
+    "object": "deal/creastă (câmp de bătălie)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CREASTA_PLANGERII",
+    "predicate": "region",
+    "object": "Câmpul Ierbii Roșii",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CREASTA_PLANGERII",
+    "predicate": "event_here",
+    "object": "Corbul Sângelui (Brynden Rivers) s-a poziționat aici cu arcul și a văzut flamura regală a lui Daemon Blackfyre la 300 de metri distanță, apoi i-a ucis pe Daemon și pe fiii săi gemeni",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CRANGUL_AURIU",
+    "predicate": "type",
+    "object": "castel/reședință de lord",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CRANGUL_AURIU",
+    "predicate": "region",
+    "object": "Reach",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CRANGUL_AURIU",
+    "predicate": "physical_description",
+    "object": "nedescrisă",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CRANGUL_AURIU",
+    "predicate": "owner_at",
+    "object": "PERSON_SER_EUSTACE_OSGREY",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CRANGUL_AURIU",
+    "predicate": "owner_at",
+    "object": "PERSON_ROWAN",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CRANGUL_AURIU",
+    "predicate": "status_at",
+    "object": "intactă (implicit)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CRANGUL_AURIU",
+    "predicate": "event_here",
+    "object": "niciunul direct (doar menționat ca opțiune de ajutor, respinsă de Ser Eustace)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CURTEA_INCHISA_CU_FANTANA",
+    "predicate": "type",
+    "object": "curte interioară, pavată",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CURTEA_INCHISA_CU_FANTANA",
+    "predicate": "region",
+    "object": "în incinta castelului Zidurile Albe",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CURTEA_INCHISA_CU_FANTANA",
+    "predicate": "physical_description",
+    "object": "curte pustie, înconjurată de clădiri cu ferestre oblonite",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CURTEA_INCHISA_CU_FANTANA",
+    "predicate": "physical_description",
+    "object": "fântâna are pereți acoperiți cu alge, iar apa se afla la aproximativ șapte metri sub marginea zidului",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CURTEA_INCHISA_CU_FANTANA",
+    "predicate": "geographic_position",
+    "object": "ascunsă, la adăpost, accesibilă pe sub o galerie acoperită și în josul unor trepte",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CURTEA_INCHISA_CU_FANTANA",
+    "predicate": "owner_at",
+    "object": "HOUSE_BUTTERWELL",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CURTEA_INCHISA_CU_FANTANA",
+    "predicate": "status_at",
+    "object": "intactă",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CURTEA_INCHISA_CU_FANTANA",
+    "predicate": "event_here",
+    "object": "Lordul Alyn Cockshaw încearcă să-l ucidă pe Dunk, aruncându-l (sau intenționând să-l arunce) în fântână; Dunk îl răstoarnă pe Cockshaw în fântână, unde acesta se îneacă",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "8",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CAMPUL_IERBII_ROSII",
+    "predicate": "type",
+    "object": "câmp de bătălie (loc istoric, evocat, nu vizitat direct în acest fragment)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CAMPUL_IERBII_ROSII",
+    "predicate": "built_year",
+    "object": "nu se aplică (câmp de bătălie, nu construcție)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CAMPUL_IERBII_ROSII",
+    "predicate": "physical_description",
+    "object": "apus descris ca extrem de frumos (auriu, roșu, portocaliu) după bătălie",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CAMPUL_IERBII_ROSII",
+    "predicate": "status_at",
+    "object": "loc de pelerinaj pentru simpatizanții Blackfyre, conform textului",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CAMPUL_IERBII_ROSII",
+    "predicate": "event_here",
+    "object": "bătălia decisivă a Rebeliunii Blackfyre — moartea lui Daemon Blackfyre și a fiilor săi gemeni, ~10.000 de morți, sfârșitul rebeliunii; și primul soț al lui Rohanne Webber a murit aici, călcat de cai (avea 12 ani)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CAMPUL_IERBII_ROSII",
+    "predicate": "event_here",
+    "object": "locul bătăliei decisive a Rebeliunii Blackfyre, cu 16 ani înainte de fragment (vezi secțiunea 4)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_CAMPUL_IERBII_ROSII",
+    "predicate": "event_here",
+    "object": "menționat ca loc unde s-a încheiat Prima Rebeliune Blackfyre; aici a murit Daemon Blackfyre (tatăl) și gemenii săi Aegon și Aemon; aici Brynden Rivers și-a pierdut un ochi, luat de Oțelul Înverșunat (Bittersteel)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "8",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_DEALURILE_POTCOAVEI",
+    "predicate": "type",
+    "object": "dealuri",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_DEALURILE_POTCOAVEI",
+    "predicate": "region",
+    "object": "fost teritoriu Osgrey",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_DEALURILE_POTCOAVEI",
+    "predicate": "event_here",
+    "object": "niciunul; menționat istoric",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_DEBARCADERUL_REGELUI",
+    "predicate": "type",
+    "object": "oraș-capitală",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_DEBARCADERUL_REGELUI",
+    "predicate": "type",
+    "object": "capitală / reședință regală",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_DEBARCADERUL_REGELUI",
+    "predicate": "physical_description",
+    "object": "conține Marele Sept al lui Baelor și Groapa Dragonilor",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_DEBARCADERUL_REGELUI",
+    "predicate": "physical_description",
+    "object": "are cartierul „Fundătura Puricilor” (Flea Bottom), cu canale, unde a crescut Dunk",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_DEBARCADERUL_REGELUI",
+    "predicate": "geographic_position",
+    "object": "mai departe decât Iazul Fecioarelor față de Zidurile Albe",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_DEBARCADERUL_REGELUI",
+    "predicate": "owner_at",
+    "object": "HOUSE_TARGARYEN",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "1",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_DEBARCADERUL_REGELUI",
+    "predicate": "owner_at",
+    "object": "HOUSE_TARGARYEN",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_DEBARCADERUL_REGELUI",
+    "predicate": "owner_at",
+    "object": "HOUSE_TARGARYEN",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "8",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_DEBARCADERUL_REGELUI",
+    "predicate": "status_at",
+    "object": "parțial distrus/depopulat",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_DEBARCADERUL_REGELUI",
+    "predicate": "status_at",
+    "object": "intact (implicit)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "8",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_DEBARCADERUL_REGELUI",
+    "predicate": "event_here",
+    "object": "(în trecut) Ser Arlan, copil fiind, adus de bunicul lui, a văzut ultimul dragon în viață, cu un an înainte ca acesta să moară; (cu trei ani înainte de fragment) Ser Otho Bracken l-a ucis pe Lordul Quentyn Blackwood într-un turnir aici",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "1",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_DEBARCADERUL_REGELUI",
+    "predicate": "event_here",
+    "object": "devastat de Marea Epidemie de Primăvară (acum ~2 ani) — un sfert din case distruse prin incendii, un sfert goale, șobolanii au dispărut; cadavrele arse cu foc sălbatic în Groapa Dragonilor",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_DEBARCADERUL_REGELUI",
+    "predicate": "event_here",
+    "object": "menționat ca destinație pentru ostatici/prizonieri și pentru judecarea lorzilor implicați în conspirație; Dunk menționează că a copilărit în Fundătura Puricilor, un cartier al orașului",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "8",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_DERRING_DOWNS",
+    "predicate": "type",
+    "object": "zonă cu peșteri",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_DERRING_DOWNS",
+    "predicate": "region",
+    "object": "fost teritoriu Osgrey",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_DERRING_DOWNS",
+    "predicate": "physical_description",
+    "object": "conține peșteri",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_DERRING_DOWNS",
+    "predicate": "event_here",
+    "object": "niciunul; menționat istoric",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_DOSK_MICUL_DOSK",
+    "predicate": "type",
+    "object": "sate",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_DOSK_MICUL_DOSK",
+    "predicate": "region",
+    "object": "malurile Lacului Frunzos, fost teritoriu Osgrey",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_DOSK_MICUL_DOSK",
+    "predicate": "event_here",
+    "object": "niciunul; menționate istoric",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_DUSKENDALE",
+    "predicate": "type",
+    "object": "oraș / feudă",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_DUSKENDALE",
+    "predicate": "owner_at",
+    "object": "HOUSE_DARKLYN",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_DUSKENDALE",
+    "predicate": "status_at",
+    "object": "intact (implicit)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_DUSKENDALE",
+    "predicate": "event_here",
+    "object": "Lordul Darklyn vine de aici cu oastea regală",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "8",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_FORTAREATA_ROSIE",
+    "predicate": "type",
+    "object": "castel regal",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_FORTAREATA_ROSIE",
+    "predicate": "event_here",
+    "object": "menționat doar, ca reședință a Regelui Aerys și loc unde Prințul Rhaegel „țopăie despuiat\"",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_FUNDATURA_PURICILOR",
+    "predicate": "type",
+    "object": "cartier sărac",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_FUNDATURA_PURICILOR",
+    "predicate": "type",
+    "object": "oraș / cartier",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_FUNDATURA_PURICILOR",
+    "predicate": "type",
+    "object": "cartier urban sărac",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_FUNDATURA_PURICILOR",
+    "predicate": "region",
+    "object": "în Debarcaderul Regelui",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_FUNDATURA_PURICILOR",
+    "predicate": "physical_description",
+    "object": "are canale",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_FUNDATURA_PURICILOR",
+    "predicate": "event_here",
+    "object": "Dunk s-a născut și a crescut aici, trăind la voia sorții prin bordeluri și ulițe, până a fost găsit de Ser Arlan",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "1",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_FUNDATURA_PURICILOR",
+    "predicate": "event_here",
+    "object": "amintire din copilăria lui Dunk — el și prietenii lui au furat un cap dintr-o țeapă și l-au folosit ca să sperie fetele",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_FUNDATURA_PURICILOR",
+    "predicate": "event_here",
+    "object": "locul unde a crescut Dunk, printre canale",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "8",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_GEMENII",
+    "predicate": "type",
+    "object": "castel / sediu de casă",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_GEMENII",
+    "predicate": "owner_at",
+    "object": "HOUSE_FREY",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_GEMENII",
+    "predicate": "status_at",
+    "object": "intact",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_GEMENII",
+    "predicate": "event_here",
+    "object": "Lordul Frey anunță că se retrage aici imediat ce află de conspirație, pentru a evita implicarea",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "8",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_GROAPA_DRAGONILOR",
+    "predicate": "type",
+    "object": "structură/arenă istorică (fostă cușcă de dragoni)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_GROAPA_DRAGONILOR",
+    "predicate": "region",
+    "object": "Debarcaderul Regelui",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_GROAPA_DRAGONILOR",
+    "predicate": "event_here",
+    "object": "folosită pentru îngrămădirea și arderea (cu foc sălbatic, la ordinul Lordului Rivers) a victimelor Marii Epidemii de Primăvară, cadavrele fiind stivuite pe o adâncime de trei metri",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_HANUL_DE_LA_MARGINEA_LACULUI",
+    "predicate": "type",
+    "object": "han",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_HANUL_DE_LA_MARGINEA_LACULUI",
+    "predicate": "region",
+    "object": "malul unui lac, lângă locul de trecere cu podul plutitor",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_HANUL_DE_LA_MARGINEA_LACULUI",
+    "predicate": "physical_description",
+    "object": "construcție mare din lemn, cu turnuri, lăbărțată și cenușie, jumătate ridicată pe piloni deasupra apei",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_HANUL_DE_LA_MARGINEA_LACULUI",
+    "predicate": "physical_description",
+    "object": "curte cu zid din piatră brută, fântână, adăpătoare, grajd cu acoperiș de stuf",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_HANUL_DE_LA_MARGINEA_LACULUI",
+    "predicate": "physical_description",
+    "object": "o cărare din scânduri duce la debarcader",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_HANUL_DE_LA_MARGINEA_LACULUI",
+    "predicate": "geographic_position",
+    "object": "pe malul mocirlos al unui lac",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_HANUL_DE_LA_MARGINEA_LACULUI",
+    "predicate": "near",
+    "object": "lacul, sălcii",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_HANUL_DE_LA_MARGINEA_LACULUI",
+    "predicate": "owner_at",
+    "object": "administrat de o hangiță; podul plutitor operat de un bărbat numit Ned",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_HANUL_DE_LA_MARGINEA_LACULUI",
+    "predicate": "status_at",
+    "object": "intact",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_HANUL_DE_LA_MARGINEA_LACULUI",
+    "predicate": "event_here",
+    "object": "Dunk și Egg opresc aici, cer mâncare și adăpost, sunt refuzați (hanul e plin din cauza lorzilor Shawney și Costayne)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_HANUL_NENUMIT_DE_PE_DRUMUL_SPRE_ASHFORD",
+    "predicate": "type",
+    "object": "han",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_HANUL_NENUMIT_DE_PE_DRUMUL_SPRE_ASHFORD",
+    "predicate": "region",
+    "object": "pe drumul dintre locul înmormântării lui Ser Arlan și Pajiștea Ashford, lângă o răscruce cu o moară arsă",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_HANUL_NENUMIT_DE_PE_DRUMUL_SPRE_ASHFORD",
+    "predicate": "region",
+    "object": "la o zi de călărie de Ashford",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_HANUL_NENUMIT_DE_PE_DRUMUL_SPRE_ASHFORD",
+    "predicate": "physical_description",
+    "object": "clădire înaltă din chirpici și lemn",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_HANUL_NENUMIT_DE_PE_DRUMUL_SPRE_ASHFORD",
+    "predicate": "geographic_position",
+    "object": "pe malul unui izvor",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_HANUL_NENUMIT_DE_PE_DRUMUL_SPRE_ASHFORD",
+    "predicate": "near",
+    "object": "izvor",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_HANUL_NENUMIT_DE_PE_DRUMUL_SPRE_ASHFORD",
+    "predicate": "owner_at",
+    "object": "o hangiță (fără nume) și cei doi copii ai ei",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_HANUL_NENUMIT_DE_PE_DRUMUL_SPRE_ASHFORD",
+    "predicate": "status_at",
+    "object": "intactă, funcțională",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_HANUL_NENUMIT_DE_PE_DRUMUL_SPRE_ASHFORD",
+    "predicate": "event_here",
+    "object": "Dunk cinează aici (miel și rață), întâlnește un tânăr lord beat care pretinde că l-a \"visat\" pe Dunk și îi cere să stea departe de el; îl întâlnește pe grăjdarul-copil (viitorul Egg), care încearcă armura lui Ser Arlan și călărește pe Tunet fără voie",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "1",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_HARRENHAL",
+    "predicate": "type",
+    "object": "castel (descris ca „turnuri bântuite”)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_HARRENHAL",
+    "predicate": "physical_description",
+    "object": "turnuri bântuite",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_HARRENHAL",
+    "predicate": "owner_at",
+    "object": "HOUSE_LOTHSTON",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_HARRENHAL",
+    "predicate": "status_at",
+    "object": "intact, dar descris ca „bântuit”",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_HARRENHAL",
+    "predicate": "event_here",
+    "object": "Danelle Lothston pleacă de aici cu oaste, alăturându-se forței regale",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "8",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_IAZUL_FECIOAREI",
+    "predicate": "type",
+    "object": "oraș/loc menționat doar prin nume, în amintirea lui Dunk",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_IAZUL_FECIOAREI",
+    "predicate": "type",
+    "object": "oraș / feudă",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_IAZUL_FECIOAREI",
+    "predicate": "geographic_position",
+    "object": "mai aproape de Zidurile Albe decât Debarcaderul Regelui",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_IAZUL_FECIOAREI",
+    "predicate": "owner_at",
+    "object": "HOUSE_MOOTON",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_IAZUL_FECIOAREI",
+    "predicate": "status_at",
+    "object": "intact",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_IAZUL_FECIOAREI",
+    "predicate": "event_here",
+    "object": "(în trecut) Dunk a fost bătut aici de Ser Arlan, pe nedrept, într-un incident legat de o plăcintă furată de \"Fecior\" (nu de Dunk)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "1",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_IAZUL_FECIOAREI",
+    "predicate": "event_here",
+    "object": "Dunk îi recomandă lui Egg să fugă aici, fiind mai aproape decât Debarcaderul Regelui, dacă lucrurile merg prost",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "8",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_INSULA_FRUMOASA",
+    "predicate": "type",
+    "object": "insulă",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_INSULA_FRUMOASA",
+    "predicate": "owner_at",
+    "object": "HOUSE_FARMAN",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_INSULA_FRUMOASA",
+    "predicate": "event_here",
+    "object": "raid al krakenilor lui Dagon Greyjoy — jumătate din avere și 100 de femei luate; Lordul Farman își repară zidurile de apărare",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_LACUL_FRUNZOS",
+    "predicate": "type",
+    "object": "lac",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_LACUL_FRUNZOS",
+    "predicate": "region",
+    "object": "fost teritoriu Osgrey",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_LACUL_FRUNZOS",
+    "predicate": "physical_description",
+    "object": "nedescrisă",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_LACUL_FRUNZOS",
+    "predicate": "geographic_position",
+    "object": "satele Dosk, Micul Dosk și Bradybottom se aflau pe ambele maluri",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_LACUL_FRUNZOS",
+    "predicate": "near",
+    "object": "LOCATION_DOSK_MICUL_DOSK",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_LACUL_FRUNZOS",
+    "predicate": "near",
+    "object": "LOCATION_BRADYBOTTOM",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_LACUL_FRUNZOS",
+    "predicate": "event_here",
+    "object": "menționat doar istoric — pe malurile lui trăia „familia Osgrey de la Lacul Frunzos\" (ramură), din care făcea parte verișoara sărutată de tânărul Ser Eustace",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_LANNISPORT",
+    "predicate": "type",
+    "object": "oraș/porți",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_LANNISPORT",
+    "predicate": "owner_at",
+    "object": "nespecificat în fragment (implicit teritoriu Lannister)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_LANNISPORT",
+    "predicate": "event_here",
+    "object": "(cu un an în urmă) Dunk a sărutat o cârciumăreasă, urcându-se pe o masă pentru a ajunge la înălțimea ei; menționat și ca opțiune pentru Dunk de a se alătura Pazei Orașului",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "1",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_LANNISPORT",
+    "predicate": "event_here",
+    "object": "menționat ca afectat grav de Marea Epidemie de Primăvară",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_LANNISPORT",
+    "predicate": "event_here",
+    "object": "Ser Quentyn Ball („Globul de Foc\") l-a ucis pe Lordul Lefford la porțile orașului",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_MAREA_APUSULUI",
+    "predicate": "type",
+    "object": "mare",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_MAREA_APUSULUI",
+    "predicate": "event_here",
+    "object": "raidurile krakenilor lui Dagon Greyjoy",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_MARELE_SEPT_AL_LUI_BAELOR",
+    "predicate": "type",
+    "object": "sept/lăcaș religios major",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_MARELE_SEPT_AL_LUI_BAELOR",
+    "predicate": "region",
+    "object": "Debarcaderul Regelui",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_MARELE_SEPT_AL_LUI_BAELOR",
+    "predicate": "event_here",
+    "object": "Septonul Sefton a slujit aici mulți ani, sub Înaltul Septon (mort în epidemie)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_MLASTINILE_DORNE",
+    "predicate": "type",
+    "object": "regiune de graniță / zonă mlăștinoasă",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_MLASTINILE_DORNE",
+    "predicate": "region",
+    "object": "graniță cu Dorne",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_MLASTINILE_DORNE",
+    "predicate": "event_here",
+    "object": "(an nespecificat, legendar) un strămoș al Casei Dondarrion, purtând un mesaj pentru Regele Furtunii, este doborât de pe cal de o săgeată într-o noapte cu furtună; salvat printr-un fulger violet care ucide doi atacatori în zale, cu coifuri cu creastă",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "1",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_MUNTII_ROSII",
+    "predicate": "type",
+    "object": "lanț muntos",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_MUNTII_ROSII",
+    "predicate": "region",
+    "object": "menționați în legătură cu o campanie a Casei Dondarrion",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_MUNTII_ROSII",
+    "predicate": "region",
+    "object": "zonă asociată cu Dorne în context",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_MUNTII_ROSII",
+    "predicate": "event_here",
+    "object": "(an nespecificat) Ser Arlan de Pennytree și Lordul Caron, sub comanda fostului Lord Dondarrion (tatăl lui Ser Manfred), l-au ars pe \"Regele Vultur\" aici, într-o expediție cu 800 de cavaleri și aproape 400 de pedestrași",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "1",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_NUNNY",
+    "predicate": "type",
+    "object": "reper teritorial (localitate/graniță)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_NUNNY",
+    "predicate": "region",
+    "object": "fost teritoriu Osgrey — limita estică",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_NUNNY",
+    "predicate": "geographic_position",
+    "object": "capătul estic al fostului teritoriu Osgrey",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_NUNNY",
+    "predicate": "owner_at",
+    "object": "N/A (menționat doar ca reper de graniță istorică)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_NUNNY",
+    "predicate": "event_here",
+    "object": "niciunul; menționat doar ca reper geografic istoric",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ORASUL_COLIBELOR",
+    "predicate": "type",
+    "object": "oraș/așezare",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ORASUL_COLIBELOR",
+    "predicate": "region",
+    "object": "Dorne, pe Sângele Verde",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ORASUL_COLIBELOR",
+    "predicate": "event_here",
+    "object": "punct de plecare spre Orașul Vechi, cu galera Doamna Albă",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ORASUL_VECHI",
+    "predicate": "type",
+    "object": "oraș",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ORASUL_VECHI",
+    "predicate": "event_here",
+    "object": "menționat ca afectat (posibil mai grav decât Lannisport) de Marea Epidemie de Primăvară, conform zvonurilor",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ORASUL_VECHI",
+    "predicate": "event_here",
+    "object": "menționat ca destinație a unei călătorii anterioare a lui Dunk dinspre Dorne, pe corabia Doamna Albă",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PAJISTEA_ASHFORD",
+    "predicate": "type",
+    "object": "câmpie / spațiu comun al orășenilor, transformat temporar în teren de turnir",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PAJISTEA_ASHFORD",
+    "predicate": "type",
+    "object": "loc de turnir / câmp",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PAJISTEA_ASHFORD",
+    "predicate": "region",
+    "object": "lângă orașul și Castelul Ashford, la sud de râul Cockleswent",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PAJISTEA_ASHFORD",
+    "predicate": "built_year",
+    "object": "nu se aplică (loc natural)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PAJISTEA_ASHFORD",
+    "predicate": "physical_description",
+    "object": "întinsă, acoperită de iarbă, presărată cu pavilioane multicolore (roșu, galben, verde, albastru, negru, cenușiu, violet), tarabe de negustori, jongleri, păpușari",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PAJISTEA_ASHFORD",
+    "predicate": "geographic_position",
+    "object": "la vreun kilometru de oraș și castel",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PAJISTEA_ASHFORD",
+    "predicate": "near",
+    "object": "râul Cockleswent la nord; un bazin de apă cu trestii și un ulm mare la marginea pajiștii",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PAJISTEA_ASHFORD",
+    "predicate": "owner_at",
+    "object": "PERSON_LORDUL_ASHFORD",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PAJISTEA_ASHFORD",
+    "predicate": "status_at",
+    "object": "activă, în plină desfășurare a pregătirilor pentru turnir",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PAJISTEA_ASHFORD",
+    "predicate": "event_here",
+    "object": "găzduiește turnirul dat de Lordul Ashford cu ocazia celei de-a treisprezecea aniversări a fiicei sale; se ridică pavilioane multicolore ale caselor nobile, tarabe de negustori, bariere pentru proba de lance, o tribună pe trei niveluri; sosește un alai princiar Targaryen",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "1",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PAJISTEA_ASHFORD",
+    "predicate": "event_here",
+    "object": "turnirul la care Dunk a fost aproape să-și piardă o mână/picior, trei oameni au murit, Dunk l-a câștigat pe Egg ca scutier și a văzut o stea căzătoare (pictată apoi pe scutul său de Tanselle)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PAJISTEA_ASHFORD",
+    "predicate": "event_here",
+    "object": "locul unde a murit Prințul Baelor Sfarmă-Lance (Breakspear), lovit accidental de fratele său, Prințul Maekar, în timpul unui duel judiciar de șapte; Dunk a fost implicat și a riscat să-și piardă o mână sau un picior",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "8",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PAVILIONUL_MAINII_REGELUI",
+    "predicate": "type",
+    "object": "pavilion militar / cort de campanie",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PAVILIONUL_MAINII_REGELUI",
+    "predicate": "region",
+    "object": "în afara castelului Zidurile Albe",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PAVILIONUL_MAINII_REGELUI",
+    "predicate": "built_year",
+    "object": "nu se aplică (structură temporară)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PAVILIONUL_MAINII_REGELUI",
+    "predicate": "physical_description",
+    "object": "situat la câteva sute de metri de castel, sub un ulm cu coroană lăbărțată",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PAVILIONUL_MAINII_REGELUI",
+    "predicate": "geographic_position",
+    "object": "la câteva sute de metri de Zidurile Albe",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PAVILIONUL_MAINII_REGELUI",
+    "predicate": "near",
+    "object": "un ulm, pășuni cu vaci",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PAVILIONUL_MAINII_REGELUI",
+    "predicate": "owner_at",
+    "object": "HOUSE_TARGARYEN",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PAVILIONUL_MAINII_REGELUI",
+    "predicate": "status_at",
+    "object": "temporară, ridicată pentru campanie",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PAVILIONUL_MAINII_REGELUI",
+    "predicate": "event_here",
+    "object": "Dunk și Egg sunt aduși în fața Lordului Brynden Rivers pentru a da socoteală; Lordul Butterwell și Lordul Frey sunt judecați aici",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "8",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PENNYTREE",
+    "predicate": "region",
+    "object": "nespecificat — locul de origine presupus al lui Ser Arlan, dă numele \"de Pennytree\"",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PENNYTREE",
+    "predicate": "event_here",
+    "object": "niciunul — menționat doar ca nume; Dunk nu a fost niciodată acolo și bătrânul nu-i vorbise mult despre el",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "1",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PIATRA_DRAGONULUI",
+    "predicate": "type",
+    "object": "menționat doar prin titlul \"prințul de Piatra Dragonului\"",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PIATRA_DRAGONULUI",
+    "predicate": "type",
+    "object": "castel/insulă",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PIATRA_DRAGONULUI",
+    "predicate": "event_here",
+    "object": "niciunul direct — locul nu apare ca scenă, doar titlul purtătorului",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "1",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PIATRA_DRAGONULUI",
+    "predicate": "event_here",
+    "object": "menționat doar în context — se spune că acolo există mai multe ouă vechi de dragon, dinaintea Dansului",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PODUL_AMAR",
+    "predicate": "type",
+    "object": "reședință nobiliară",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PODUL_AMAR",
+    "predicate": "owner_at",
+    "object": "PERSON_JOFFREY",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PODUL_AMAR",
+    "predicate": "event_here",
+    "object": "doar menționat; Joffrey urma să participe la nunta de la Zidurile Albe",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PADUREA_LUI_WAT",
+    "predicate": "type",
+    "object": "pădure",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PADUREA_LUI_WAT",
+    "predicate": "region",
+    "object": "între Standfast și Coldmoat",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PADUREA_LUI_WAT",
+    "predicate": "physical_description",
+    "object": "înainte de Cucerire se întindea până la Coldmoat, avea zimbri și elani uriași, cerbi roșii mulți",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PADUREA_LUI_WAT",
+    "predicate": "physical_description",
+    "object": "vânatul era rezervat regelui și leului bălțat (Osgrey)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PADUREA_LUI_WAT",
+    "predicate": "geographic_position",
+    "object": "între Apa Bălțată/Standfast și Coldmoat",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PADUREA_LUI_WAT",
+    "predicate": "near",
+    "object": "LOCATION_APA_BALTATA",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PADUREA_LUI_WAT",
+    "predicate": "owner_at",
+    "object": "teritoriu Osgrey (parțial defrișat de Webber pentru pășuni)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PADUREA_LUI_WAT",
+    "predicate": "status_at",
+    "object": "parțial defrișată",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_PADUREA_LUI_WAT",
+    "predicate": "event_here",
+    "object": "recruții trimiși aici să taie sulițe din lemn; se găsește hoitul unei pisici sălbatice mari, mișunând de viermi, cauza morții necunoscută",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_RAVENTREE",
+    "predicate": "type",
+    "object": "castel / sediu de casă",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_RAVENTREE",
+    "predicate": "owner_at",
+    "object": "HOUSE_BLACKWOOD",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_RAVENTREE",
+    "predicate": "status_at",
+    "object": "intact (implicit)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_RAVENTREE",
+    "predicate": "event_here",
+    "object": "Lordul Blackwood vine de aici cu oastea regală",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "8",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_RIVERRUN",
+    "predicate": "type",
+    "object": "castel/sediu",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_RIVERRUN",
+    "predicate": "owner_at",
+    "object": "HOUSE_TULLY",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_RIVERRUN",
+    "predicate": "event_here",
+    "object": "niciunul direct; menționat ca incapabil să impună pace în conflictul Bracken–Blackwood",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_RASCRUCEA_DE_LA_MOARA_ARSA",
+    "predicate": "type",
+    "object": "răscruce de drumuri, cu reper o moară distrusă (arsă)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_RASCRUCEA_DE_LA_MOARA_ARSA",
+    "predicate": "region",
+    "object": "pe drumul dintre han și Ashford",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_RASCRUCEA_DE_LA_MOARA_ARSA",
+    "predicate": "physical_description",
+    "object": "o moară arsă la o răscruce de drumuri",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_RASCRUCEA_DE_LA_MOARA_ARSA",
+    "predicate": "geographic_position",
+    "object": "la nord de han, pe drumul spre Ashford",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_RASCRUCEA_DE_LA_MOARA_ARSA",
+    "predicate": "status_at",
+    "object": "moara — arsă/distrusă; restul răscrucii nespecificat",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_RASCRUCEA_DE_LA_MOARA_ARSA",
+    "predicate": "event_here",
+    "object": "menționată doar ca punct de orientare (hangița îi spune lui Dunk să o ia spre nord la această răscruce pentru a ajunge la Ashford)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "1",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_SALA_MARE_A_CASTELULUI_ZIDURILE_ALBE",
+    "predicate": "type",
+    "object": "sală de ospețe",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_SALA_MARE_A_CASTELULUI_ZIDURILE_ALBE",
+    "predicate": "region",
+    "object": "în incinta castelului",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_SALA_MARE_A_CASTELULUI_ZIDURILE_ALBE",
+    "predicate": "physical_description",
+    "object": "are un dais pentru mese de onoare, un balcon cu muzicanți, covor myrishez pe podea, mese de rând pentru cavaleri mai mărunți",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_SALA_MARE_A_CASTELULUI_ZIDURILE_ALBE",
+    "predicate": "owner_at",
+    "object": "HOUSE_BUTTERWELL",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_SALA_MARE_A_CASTELULUI_ZIDURILE_ALBE",
+    "predicate": "status_at",
+    "object": "intactă",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_SALA_MARE_A_CASTELULUI_ZIDURILE_ALBE",
+    "predicate": "event_here",
+    "object": "ospăț de nuntă; Dunk cere dreptate public pentru Ser Glendon Ball în fața lui Daemon Blackfyre al II-lea și a Lordului Peake",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "8",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_SEPTUL_DE_PIATRA",
+    "predicate": "type",
+    "object": "oraș cu porți și casă a porții",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_SEPTUL_DE_PIATRA",
+    "predicate": "physical_description",
+    "object": "are o casă a porții deasupra căreia se expun capete de trădători",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_SEPTUL_DE_PIATRA",
+    "predicate": "status_at",
+    "object": "intact",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_SEPTUL_DE_PIATRA",
+    "predicate": "event_here",
+    "object": "capul unui septon ghebos, executat pentru trădare (predicase împotriva Corbului Sângelui), era expus într-o țeapă de fier deasupra porții orașului",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_STANDFAST",
+    "predicate": "type",
+    "object": "turn fortificat (castel mic / turn de veghe)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_STANDFAST",
+    "predicate": "type",
+    "object": "turn (turnul unui cavaler mărunt)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_STANDFAST",
+    "predicate": "region",
+    "object": "Reach, fost teritoriu Osgrey",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_STANDFAST",
+    "predicate": "physical_description",
+    "object": "are un beci cu fântână (folosită la spălat rufe și îmbăiat, cu covată/cadă de piatră), un balcon, un acoperiș unde Dunk preferă să doarmă",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_STANDFAST",
+    "predicate": "physical_description",
+    "object": "poartă de turn, curte cu găini și porci",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_STANDFAST",
+    "predicate": "physical_description",
+    "object": "are un salon cu tapiserie mucegăită, în spatele căreia era ascunsă o rezervă de monede",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_STANDFAST",
+    "predicate": "geographic_position",
+    "object": "la câțiva kilometri est de Coldmoat (conform Ser Lucas Inchfield)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_STANDFAST",
+    "predicate": "near",
+    "object": "LOCATION_PADUREA_LUI_WAT",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_STANDFAST",
+    "predicate": "near",
+    "object": "LOCATION_APA_BALTATA",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_STANDFAST",
+    "predicate": "owner_at",
+    "object": "HOUSE_OSGREY",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_STANDFAST",
+    "predicate": "owner_at",
+    "object": "PERSON_SER_EUSTACE_OSGREY",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_STANDFAST",
+    "predicate": "status_at",
+    "object": "intactă, dar descrisă ca „turn dărăpănat\" de către Ser Lucas Inchfield (perspectivă ostilă)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_STANDFAST",
+    "predicate": "status_at",
+    "object": "intactă, dar prădată de bunuri",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_STANDFAST",
+    "predicate": "event_here",
+    "object": "recrutarea și antrenarea a opt țărani ca soldați (sulițași), pregătire pentru un posibil conflict cu Coldmoat; discuții despre stăvilar și „prețul sângelui\"",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_STANDFAST",
+    "predicate": "event_here",
+    "object": "jefuit de Ser Bennis în timp ce Dunk era rănit; Sam Gârbovul și soția lui au fost legați",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_STARPIKE",
+    "predicate": "type",
+    "object": "castel / sediu de casă",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_STARPIKE",
+    "predicate": "owner_at",
+    "object": "HOUSE_PEAKE",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_STARPIKE",
+    "predicate": "status_at",
+    "object": "intact (implicit)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_STARPIKE",
+    "predicate": "event_here",
+    "object": "menționat doar ca ofertă de loc de slujbă pentru Ser Glendon Ball, refuzată/complicată de propunerea reală venită din partea pretendentului Blackfyre",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "8",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_SANGELE_VERDE",
+    "predicate": "type",
+    "object": "râu",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_SANGELE_VERDE",
+    "predicate": "region",
+    "object": "Dorne",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_SANGELE_VERDE",
+    "predicate": "event_here",
+    "object": "Dunk și Egg au coborât râul cu o luntre spre Orașul Colibelor",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_TEMPLUL_SEPTULUI",
+    "predicate": "type",
+    "object": "sept / lăcaș de cult",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_TEMPLUL_SEPTULUI",
+    "predicate": "region",
+    "object": "în incinta castelului Zidurile Albe",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_TEMPLUL_SEPTULUI",
+    "predicate": "physical_description",
+    "object": "întunecat și tăcut, luminat de lumânări pe altarele Celor Șapte (Războinicul, Străinul, Mama, Tatăl, Fierarul, Fecioara, Baba)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_TEMPLUL_SEPTULUI",
+    "predicate": "physical_description",
+    "object": "podea albă de piatră",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_TEMPLUL_SEPTULUI",
+    "predicate": "owner_at",
+    "object": "HOUSE_BUTTERWELL",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_TEMPLUL_SEPTULUI",
+    "predicate": "status_at",
+    "object": "intact",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_TEMPLUL_SEPTULUI",
+    "predicate": "event_here",
+    "object": "Egg se refugiază/este adus aici după ce a fost descoperit; Lordul Butterwell se roagă la altarul Babei; Ser Tommard Heddle vine să-l ia cu forța pe Egg; are loc duelul cu săbii dintre Dunk și Tom Heddle, încheiat cu moartea acestuia din urmă",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "8",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_TRECATOAREA_PRINTULUI",
+    "predicate": "type",
+    "object": "trecătoare montană",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_TRECATOAREA_PRINTULUI",
+    "predicate": "event_here",
+    "object": "Dunk, Egg, Ser Bennis și Ser Arlan au escortat aici un negustor dornishean; un alt cavaler angajat a dispărut lângă Septul de Piatră, zvonindu-se că Bennis l-a ucis",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_TRIDENT",
+    "predicate": "type",
+    "object": "râu/regiune",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_TRIDENT",
+    "predicate": "owner_at",
+    "object": "HOUSE_BRACKEN",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_TRIDENT",
+    "predicate": "event_here",
+    "object": "niciunul direct; menționat ca zonă de conflict iminent Bracken–Blackwood",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_TYROSH",
+    "predicate": "type",
+    "object": "oraș liber",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_TYROSH",
+    "predicate": "event_here",
+    "object": "Oțelul Înverșunat și fiii lui Daemon Blackfyre pun la cale comploturi aici",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_TYROSH",
+    "predicate": "event_here",
+    "object": "menționat ca loc de exil al lui Bittersteel („Oțelul Înverșunat\")",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_VAITH",
+    "predicate": "type",
+    "object": "localitate (Dorne)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_VAITH",
+    "predicate": "event_here",
+    "object": "pe drumul lung și arid dintre Trecătoarea Prințului și Vaith a murit calul lui Dunk, Castană",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_WINTERFELL",
+    "predicate": "type",
+    "object": "castel / sediu de casă",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_WINTERFELL",
+    "predicate": "region",
+    "object": "Nordul",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_WINTERFELL",
+    "predicate": "geographic_position",
+    "object": "descris de Dunk ca „o lume în sine”",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_WINTERFELL",
+    "predicate": "owner_at",
+    "object": "HOUSE_STARK",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_WINTERFELL",
+    "predicate": "owner_at",
+    "object": "HOUSE_STARK",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "8",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_WINTERFELL",
+    "predicate": "status_at",
+    "object": "intact (implicit)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_WINTERFELL",
+    "predicate": "event_here",
+    "object": "menționat doar — Lordul Beron Stark adună săbii împotriva krakenilor",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_WINTERFELL",
+    "predicate": "event_here",
+    "object": "nu se întâmplă nimic direct aici; Dunk plănuiește să meargă acolo, cu Egg, după turnir, pentru a se pune în slujba Casei Stark împotriva oamenilor de fier",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "8",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ZIDUL",
+    "predicate": "type",
+    "object": "fortificație/graniță nordică",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ZIDUL",
+    "predicate": "region",
+    "object": "extremul nord al regatului",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ZIDUL",
+    "predicate": "built_year",
+    "object": "menționat ca având opt mii de ani vechime",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ZIDUL",
+    "predicate": "event_here",
+    "object": "menționat doar ca amenințare/pedeapsă ipotetică pentru Dunk („aș fi fost trimis la Rondul de Noapte\")",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "4",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ZIDUL",
+    "predicate": "event_here",
+    "object": "doar menționat ca destinație dorită de Dunk și Egg",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ZIDURILE_ALBE",
+    "predicate": "type",
+    "object": "castel",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ZIDURILE_ALBE",
+    "predicate": "region",
+    "object": "dincolo de lac față de han, aproape de drumul regelui",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ZIDURILE_ALBE",
+    "predicate": "region",
+    "object": "nespecificată explicit în fragment (regiunea Riverlands, cunoscută din context general al seriei, dar nemenționată direct aici)",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ZIDURILE_ALBE",
+    "predicate": "built_year",
+    "object": "ridicat cu aproximativ 40 de ani înainte de fragment, de bunicul actualului lord",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ZIDURILE_ALBE",
+    "predicate": "builder",
+    "object": "bunicul Lordului Ambrose Butterwell",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ZIDURILE_ALBE",
+    "predicate": "physical_description",
+    "object": "ziduri, donjoane și turnuri din piatră albă șlefuită adusă din carierele Văii",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ZIDURILE_ALBE",
+    "predicate": "physical_description",
+    "object": "podele și coloane din marmură albă cu nervuri aurii",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ZIDURILE_ALBE",
+    "predicate": "physical_description",
+    "object": "grinzi din trunchiuri de copaci ai inimii",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ZIDURILE_ALBE",
+    "predicate": "physical_description",
+    "object": "sala principală nu foarte mare comparativ cu alte săli văzute de Dunk",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ZIDURILE_ALBE",
+    "predicate": "physical_description",
+    "object": "are o curte principală cu teren de turnir, tribune, grajduri, o sală mare cu dais și balcon pentru muzicanți, un sept/templu, și o curte închisă separată, pavată, cu o fântână înconjurată de zid scund de piatră",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ZIDURILE_ALBE",
+    "predicate": "geographic_position",
+    "object": "dincolo de lac, pe drumul spre drumul regelui",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ZIDURILE_ALBE",
+    "predicate": "near",
+    "object": "LOCATION_PAVILIONUL_MAINII_REGELUI",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ZIDURILE_ALBE",
+    "predicate": "owner_at",
+    "object": "HOUSE_BUTTERWELL",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ZIDURILE_ALBE",
+    "predicate": "owner_at",
+    "object": "HOUSE_BUTTERWELL",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "8",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ZIDURILE_ALBE",
+    "predicate": "status_at",
+    "object": "aproape nou pentru un castel, intact",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ZIDURILE_ALBE",
+    "predicate": "status_at",
+    "object": "intactă la momentul fragmentului; Lordul Rivers anunță la final intenția de a o dărâma complet și a presăra sare pe locul ei",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "8",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ZIDURILE_ALBE",
+    "predicate": "event_here",
+    "object": "nunta dintre Lordul Butterwell și fiica Lordului Frey; ospăț mare cu numeroși lorzi și cavaleri; anunțarea unui turnir cu ou de dragon drept premiu",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "6",
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "LOCATION_ZIDURILE_ALBE",
+    "predicate": "event_here",
+    "object": "turnir organizat cu ocazia nunții Lordului Butterwell cu fiica Lordului Frey; furtul oului de dragon; conspirație pentru a doua Rebeliune Blackfyre; duel judiciar între Ser Glendon Ball și pretendentul Daemon Blackfyre al II-lea; sosirea oastei regale conduse de Lordul Brynden Rivers (Corbul Sângelui), care înăbușă rebeliunea fără luptă",
+    "source_book": "Cavalerul celor Șapte Regate",
+    "source_fragment": "8",
+    "source_page": null,
+    "confidence": "confirmed"
+  }
+]

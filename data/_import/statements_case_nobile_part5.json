@@ -1,0 +1,4709 @@
+[
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "seat",
+    "object": "LOCATION_EYRIE",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "region",
+    "object": "LOCATION_VALEA_ARRYN",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "words",
+    "object": "„La înălțimea onoarei”",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "sigil",
+    "object": "lună-și-șoim, alb pe fond azuriu",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "Mare casă; Lysa Arryn moartă, condusă de Petyr Baelish",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 4,
+    "source_page": "178–179",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "Istoric: Osgood Arryn (Bătrânul Șoim) a asediat Vizuina Lupilor",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 10,
+    "source_page": "518",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "status_at",
+    "object": "Mare casă; nu a luat parte la Războiul Celor Cinci Regi; condusă de facto de Petyr Baelish (tutore al lui Robert Arryn)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 24,
+    "source_page": "1311",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ARRYN",
+    "predicate": "liege_of",
+    "object": "HOUSE_SUNDERLAND",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 4,
+    "source_page": "178",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "seat",
+    "object": "LOCATION_PIATRA_DRAGONULUI",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "region",
+    "object": "LOCATION_WESTEROS",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "words",
+    "object": "„A noastră e furia”",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "sigil",
+    "object": "flamură de luptă aurie, cerb încoronat negru pe fond auriu",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "sigil",
+    "object": "ramura Stannis folosește un cap de cerb în centrul unei inimi în flăcări (simbol R'hllor)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "Mare casă, regat contestat (Stannis pretendent)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 2,
+    "source_page": "77, 79–83",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "Stannis pretendent la tron, aliat temporar cu Rondul de Noapte",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 3,
+    "source_page": "140–141, 157–158",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "Stannis autoproclamat rege, cauza sa considerată osândită de unii",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 4,
+    "source_page": "187, 191",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "Stannis se pretinde Rege, dispune de forțe militare reduse",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 6,
+    "source_page": "402",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "Stannis descris ca rebel la Capătul Furtunii/Piatra Dragonului; Robert mort",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 7,
+    "source_page": "343–344, 382",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "Robert mort; Stannis activ la Zid",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 8,
+    "source_page": "415, 428–429, 454",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "Robert mort; Stannis activ la Zid",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 10,
+    "source_page": "546–561",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "Stannis în marș spre Winterfell cu oaste crescândă; Tommen rege la Debarcaderul Regelui",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 12,
+    "source_page": "630–632, 677",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "Divizată — ramura Tommen la Debarcaderul Regelui, ramura Stannis la Zid/Nord",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": "13-1",
+    "source_page": "683–684, 719–720",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "Ramura Stannis conduce o campanie militară în Nord",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 14,
+    "source_page": "748",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "Stannis asediază Winterfell",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 17,
+    "source_page": "909–961",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "Stannis în rebeliune",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 20,
+    "source_page": "1091, 1099–1116",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "Conform scrisorii lui Ramsay Bolton, Stannis a fost zdrobit (neconfirmat direct)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 22,
+    "source_page": "1229",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "Pretendent rival la tron, deține Capătul Furtunii",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 23,
+    "source_page": "1280–1281",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "founded",
+    "object": "Casă regală (linie Tommen), cu ramuri rebele (Stannis, decedatul Renly); cea mai tânără dintre Marile Case, întemeiată de Orys Baratheon în timpul Războaielor de Cucerire",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 24,
+    "source_page": "1315",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "ally_of",
+    "object": "HOUSE_KARSTARK",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 2,
+    "source_page": "79–83",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "ally_of",
+    "object": "HOUSE_KARSTARK",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 3,
+    "source_page": "140–141",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "ally_of",
+    "object": "HOUSE_FLORENT",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 4,
+    "source_page": "187, 191",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "enemy_of",
+    "object": "HOUSE_BOLTON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 14,
+    "source_page": "748",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "enemy_of",
+    "object": "HOUSE_BOLTON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 17,
+    "source_page": "909–961",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "ally_of",
+    "object": "HOUSE_MORMONT",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 14,
+    "source_page": "741–744, 748",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARBA_ROSIE",
+    "predicate": "status_at",
+    "object": "Gerrick Sânge-de-Rege este declarat de regina Selyse drept „Regele Sălbaticilor\", descendent (dintr-o ramură mai tânără) al lui Raymun Barbă-Roșie",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 22,
+    "source_page": "1219–1220, 1228",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARBA_ROSIE",
+    "predicate": "ally_of",
+    "object": "PERSON_SER_AXELL_FLORENT",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 22,
+    "source_page": "1219–1220",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKFYRE",
+    "predicate": "branch_of",
+    "object": "HOUSE_TARGARYEN",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKFYRE",
+    "predicate": "status_at",
+    "object": "Stinsă pe linie masculină (moartea lui Maelys cel Monstruos pe Treptele de Piatră, ucis de Barristan Selmy)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 2,
+    "source_page": "113–114",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKFYRE",
+    "predicate": "status_at",
+    "object": "Stinsă pe linie masculină (moartea lui Maelys cel Monstruos pe Treptele de Piatră, ucis de Barristan Selmy)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 3,
+    "source_page": "115",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKFYRE",
+    "predicate": "enemy_of",
+    "object": "HOUSE_TARGARYEN",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 2,
+    "source_page": "113–114",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKFYRE",
+    "predicate": "enemy_of",
+    "object": "HOUSE_TARGARYEN",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 4,
+    "source_page": "346",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "seat",
+    "object": "LOCATION_CASTELUL_RAVENTREE",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "sigil",
+    "object": "copac golaș/uscat, argintiu, înconjurat de un cârd de corbi de onix care-și iau zborul, pe fond roșu",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "sigil",
+    "object": "mantie din pene de corb purtată de lord",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "status_at",
+    "object": "Mare casă, în declin militar — s-a răzvrătit alături de Casele Stark și Tully, ultimul lord care se predă Coroanei",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 16,
+    "source_page": "850–863",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "ally_of",
+    "object": "HOUSE_BRACKEN",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 16,
+    "source_page": "852–859",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "ally_of",
+    "object": "HOUSE_TULLY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 16,
+    "source_page": "850–863",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "seat",
+    "object": "LOCATION_DREADFORT",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "words",
+    "object": "„O țară pașnică, un popor liniștit” (deviză personală Roose Bolton)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "sigil",
+    "object": "omul jupuit al Dreadfortului pe fond roz",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "sigil",
+    "object": "flamuri roz cu picături mici de sânge, ceară roz pentru sigilii",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "status_at",
+    "object": "Dușmani temuți în Nord",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 2,
+    "source_page": "81",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "status_at",
+    "object": "În ascensiune — Ramsay (fost bastard Snow) recunoscut oficial de Tronul de Fier cu numele Bolton",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 4,
+    "source_page": "227–228",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "status_at",
+    "object": "Mare casă; Roose Bolton e Păzitor al Nordului, ridicat de Tronul de Fier",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 5,
+    "source_page": "229–233, 272–273",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "status_at",
+    "object": "Roose numit Păzitor al Nordului; Ramsay se căsătorește cu o fată prezentată drept Arya Stark",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 6,
+    "source_page": "306–342",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "status_at",
+    "object": "În ascensiune (preia controlul Nordului)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 7,
+    "source_page": "344, 359–362",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "status_at",
+    "object": "Ramsay revendică titlul de Lord de Winterfell după cucerirea Moat Cailin",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 8,
+    "source_page": "447–448",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "status_at",
+    "object": "Roose stăpânește de facto Nordul",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 9,
+    "source_page": "265, 508",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "status_at",
+    "object": "În ascensiune (titlu de Păzitor al Nordului)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 10,
+    "source_page": "526–529, 562–569",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "status_at",
+    "object": "În ascensiune (deține controlul militar al Nordului prin decret regal)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 11,
+    "source_page": "570–580",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "status_at",
+    "object": "Roose stăpânește Winterfell",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 12,
+    "source_page": "649–663",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "status_at",
+    "object": "Deține Winterfell",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": "13-1",
+    "source_page": "719–737",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "status_at",
+    "object": "În ascensiune, dar „temut, dar prea puțin iubit”",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 14,
+    "source_page": "743",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "status_at",
+    "object": "În ascensiune",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 15,
+    "source_page": "813–827",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "status_at",
+    "object": "Mare casă, în ascensiune",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 17,
+    "source_page": "907–911",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "status_at",
+    "object": "Ramsay se declară „Adevăratul Lord de Winterfell”",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 22,
+    "source_page": "1229",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "ally_of",
+    "object": "PERSON_WALDA_FREY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 4,
+    "source_page": "227–228",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "ally_of",
+    "object": "PERSON_WALDA_FREY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 5,
+    "source_page": "264",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "ally_of",
+    "object": "PERSON_WALDA_FREY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 6,
+    "source_page": "306–342",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "ally_of",
+    "object": "PERSON_WALDA_FREY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 7,
+    "source_page": "344",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "ally_of",
+    "object": "PERSON_WALDA_FREY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 10,
+    "source_page": "526",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "ally_of",
+    "object": "PERSON_WALDA_FREY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 11,
+    "source_page": "570",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "ally_of",
+    "object": "PERSON_WALDA_FREY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 14,
+    "source_page": "743",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "ally_of",
+    "object": "PERSON_WALDA_FREY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 17,
+    "source_page": "907–911",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 4,
+    "source_page": "227–228",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 5,
+    "source_page": "263",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 11,
+    "source_page": "570",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "ally_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 5,
+    "source_page": "264",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "ally_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 8,
+    "source_page": "396",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "ally_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 9,
+    "source_page": "508",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "ally_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 11,
+    "source_page": "578–580",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "enemy_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 6,
+    "source_page": "306–342",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "enemy_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": "13-1",
+    "source_page": "719–737",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "enemy_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 14,
+    "source_page": "743",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "enemy_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 17,
+    "source_page": "907–911",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "enemy_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 22,
+    "source_page": "1229",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "enemy_of",
+    "object": "HOUSE_MANDERLY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 5,
+    "source_page": "264",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "enemy_of",
+    "object": "HOUSE_MANDERLY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 10,
+    "source_page": "526",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "enemy_of",
+    "object": "HOUSE_MANDERLY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 11,
+    "source_page": "578",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "enemy_of",
+    "object": "HOUSE_MANDERLY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 17,
+    "source_page": "907–911",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BOLTON",
+    "predicate": "enemy_of",
+    "object": "PERSON_JON_SNOW",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 22,
+    "source_page": "1229",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BORRELL",
+    "predicate": "region",
+    "object": "LOCATION_CELE_TREI_SURORI",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BORRELL",
+    "predicate": "sigil",
+    "object": "crab-păianjen alb, pe fond gri-verzui",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BORRELL",
+    "predicate": "status_at",
+    "object": "Casă vasală Casei Sunderland",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 4,
+    "source_page": "175, 183",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "seat",
+    "object": "LOCATION_STONE_HEDGE",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "sigil",
+    "object": "armăsar roșu ridicat în două picioare, pe blazon auriu",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "status_at",
+    "object": "Vasală loială Coroanei (și-a plecat genunchiul), în ascensiune teritorială după negocierea cu Jaime Lannister",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 16,
+    "source_page": "852–859, 864–865",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "ally_of",
+    "object": "HOUSE_BLACKWOOD",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 16,
+    "source_page": "852–859",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CASWELL",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CASWELL",
+    "predicate": "status_at",
+    "object": "Casă vasală minoră în Reach",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 3,
+    "source_page": "164–165",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CERWYN",
+    "predicate": "sigil",
+    "object": "secure neagră de luptă (brodată pe pieptul unui arcaș)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CERWYN",
+    "predicate": "status_at",
+    "object": "Oameni ai casei s-au alăturat marșului Bastardului lui Bolton",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 5,
+    "source_page": "273",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CERWYN",
+    "predicate": "status_at",
+    "object": "Steaguri văzute în foc (secure de război)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 6,
+    "source_page": "306",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CERWYN",
+    "predicate": "status_at",
+    "object": "Aliată lui Bolton",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 9,
+    "source_page": "508",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CERWYN",
+    "predicate": "status_at",
+    "object": "Vasală Stark / prezentă în garnizoana Winterfellului",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 12,
+    "source_page": "654",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CERWYN",
+    "predicate": "status_at",
+    "object": "Vasală Stark / prezentă în garnizoana Winterfellului",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": "13-1",
+    "source_page": "724",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CERWYN",
+    "predicate": "status_at",
+    "object": "Vasală Stark / prezentă în garnizoana Winterfellului",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 15,
+    "source_page": "814–827",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CODD",
+    "predicate": "region",
+    "object": "LOCATION_INSULELE_DE_FIER",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CODD",
+    "predicate": "sigil",
+    "object": "pește-cod de argint",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CODD",
+    "predicate": "status_at",
+    "object": "Privită prost (reputație de hoți și lași)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 7,
+    "source_page": "353–355",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CONNINGTON",
+    "predicate": "seat",
+    "object": "LOCATION_CUIBUL_GRIFONULUI",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CONNINGTON",
+    "predicate": "region",
+    "object": "LOCATION_CAPUL_MANIEI",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CONNINGTON",
+    "predicate": "sigil",
+    "object": "grifoni gemeni ai Casei sale, pe tunică albă și roșie",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CONNINGTON",
+    "predicate": "status_at",
+    "object": "Jon Connington, fost Lord și Mână a Regelui, exilat, deghizat drept mercenarul „Griff”",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 6,
+    "source_page": "327",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CONNINGTON",
+    "predicate": "status_at",
+    "object": "Exilată",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 8,
+    "source_page": "415–431",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CONNINGTON",
+    "predicate": "status_at",
+    "object": "Căzută în dizgrație/exil, în curs de restaurare prin cucerirea Cuibului Grifonului",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 20,
+    "source_page": "1084–1098",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CONNINGTON",
+    "predicate": "status_at",
+    "object": "Casă minoră/vasală; Ronnet Connington suspectat de trădare, Jon Connington conduce Compania de Aur alături de pretendentul Aegon",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 23,
+    "source_page": "1276–1281",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CONNINGTON",
+    "predicate": "ally_of",
+    "object": "HOUSE_TARGARYEN",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 20,
+    "source_page": "1084–1098",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CONNINGTON",
+    "predicate": "enemy_of",
+    "object": "PERSON_ROBERT_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 20,
+    "source_page": "1084–1098",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DAYNE",
+    "predicate": "region",
+    "object": "LOCATION_DORNE",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DAYNE",
+    "predicate": "status_at",
+    "object": "Menționată istoric (Ashara Dayne s-a aruncat dintr-un turn; Arthur Dayne, cavaler al Gărzii Regelui)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 22,
+    "source_page": "1190–1191",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DAYNE",
+    "predicate": "ally_of",
+    "object": "PERSON_RHAEGAR_TARGARYEN",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 22,
+    "source_page": "1190–1191",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DRINKWATER",
+    "predicate": "region",
+    "object": "LOCATION_DORNE",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DRINKWATER",
+    "predicate": "status_at",
+    "object": "Cavaler împroprietărit (obârșie modestă, sub rangul marilor case)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 3,
+    "source_page": "130",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DUSTIN",
+    "predicate": "sigil",
+    "object": "coroană cu țepușe deasupra unor securi încrucișate (combinat cu capul de cal auriu Ryswell pe steagul văduvei)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DUSTIN",
+    "predicate": "status_at",
+    "object": "Au atacat oamenii de fier la Râul Fierbinte",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 5,
+    "source_page": "272–273",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DUSTIN",
+    "predicate": "status_at",
+    "object": "Aliată lui Bolton prin căsătorie",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 6,
+    "source_page": "306",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DUSTIN",
+    "predicate": "status_at",
+    "object": "Aliată lui Bolton prin căsătorie",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 9,
+    "source_page": "508",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DUSTIN",
+    "predicate": "status_at",
+    "object": "Aliată lui Bolton prin căsătorie",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 11,
+    "source_page": "570, 579–580",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DUSTIN",
+    "predicate": "status_at",
+    "object": "O suspectează pe Casa Bolton (Ramsay) de moartea fiului Lady-ei Dustin; resentimente față de Frey",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 10,
+    "source_page": "568–569",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DUSTIN",
+    "predicate": "status_at",
+    "object": "O suspectează pe Casa Bolton (Ramsay) de moartea fiului Lady-ei Dustin; resentimente față de Frey",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 12,
+    "source_page": "651, 663–666",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DUSTIN",
+    "predicate": "status_at",
+    "object": "O suspectează pe Casa Bolton (Ramsay) de moartea fiului Lady-ei Dustin; resentimente față de Frey",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": "13-1",
+    "source_page": "722, 730–737",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DUSTIN",
+    "predicate": "status_at",
+    "object": "O suspectează pe Casa Bolton (Ramsay) de moartea fiului Lady-ei Dustin; resentimente față de Frey",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 15,
+    "source_page": "817–827",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DUSTIN",
+    "predicate": "ally_of",
+    "object": "HOUSE_BOLTON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 9,
+    "source_page": "508",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DUSTIN",
+    "predicate": "ally_of",
+    "object": "HOUSE_BOLTON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 10,
+    "source_page": "568–569",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DUSTIN",
+    "predicate": "ally_of",
+    "object": "HOUSE_FREY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 15,
+    "source_page": "817–827",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ESTERMONT",
+    "predicate": "seat",
+    "object": "LOCATION_PIATRA_VERDE",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ESTERMONT",
+    "predicate": "region",
+    "object": "LOCATION_CAPUL_MANIEI",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ESTERMONT",
+    "predicate": "status_at",
+    "object": "Are legături de sânge cu ambii regi (Baratheon și Lannister, prin căsătorii anterioare)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 20,
+    "source_page": "1095",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FLINT",
+    "predicate": "status_at",
+    "object": "Atacă Deepwood Motte alături de alte clanuri",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 9,
+    "source_page": "462",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FLINT",
+    "predicate": "ally_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 9,
+    "source_page": "462",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FLINT",
+    "predicate": "seat",
+    "object": "LOCATION_VIZUINA_LUPILOR",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FLINT",
+    "predicate": "sigil",
+    "object": "mâna de piatră",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FLINT",
+    "predicate": "status_at",
+    "object": "Fostă stăpână a Vizuinii Lupilor (istoric)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 10,
+    "source_page": "518",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FLINT",
+    "predicate": "status_at",
+    "object": "Vasală Stark, prezentă la stindardele din Sala Mare la Winterfell",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 12,
+    "source_page": "654",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FLINT",
+    "predicate": "status_at",
+    "object": "Vasală Stark, prezentă la stindardele din Sala Mare la Winterfell",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 15,
+    "source_page": "814–827",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FLORENT",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FLORENT",
+    "predicate": "status_at",
+    "object": "Alester Florent (fost Mână a lui Stannis) ars ca ofrandă",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 4,
+    "source_page": "181",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FLORENT",
+    "predicate": "status_at",
+    "object": "Casă a reginei Selyse; Ser Axell Florent printre primii adepți ai lui R'hllor",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 14,
+    "source_page": "780, 789–790",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FLORENT",
+    "predicate": "status_at",
+    "object": "Casă vasală, cu pretenție la sânge regal vechi (regii Gardener)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 16,
+    "source_page": "887–889",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FLORENT",
+    "predicate": "status_at",
+    "object": "Aliată/vasală Casei Baratheon (linia Selyse)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 22,
+    "source_page": "1217–1220",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FLORENT",
+    "predicate": "ally_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 4,
+    "source_page": "181",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FLORENT",
+    "predicate": "ally_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 14,
+    "source_page": "780",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FLORENT",
+    "predicate": "ally_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 22,
+    "source_page": "1217–1220",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FOSSOWAY",
+    "predicate": "seat",
+    "object": "LOCATION_CASTELUL_CIDRULUI",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FOSSOWAY",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FOSSOWAY",
+    "predicate": "status_at",
+    "object": "Menționată doar prin legătura ilegitimă a lui Franklyn Flowers",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 8,
+    "source_page": "420, 429",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "seat",
+    "object": "LOCATION_GEMENII",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "sigil",
+    "object": "două turnuri unite printr-un pod",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "Mare casă aliată cu Tronul de Fier; pact de căsătorie cu Manderly; ucis pe fiul lui Wyman Manderly",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 4,
+    "source_page": "183–184",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "Aliată cu Coroana/Boltonii",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 5,
+    "source_page": "267, 273–274",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "Aliată cu Bolton/Lannister, implicată în Nunta Roșie, negociază căsătorii cu Manderly",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 6,
+    "source_page": "332–342",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "Mare casă, aliată cu Casa Bolton",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 7,
+    "source_page": "343–344, 360–361",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "Mare casă, aliată cu Casa Bolton",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 10,
+    "source_page": "198",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "Mare casă, aliată cu Casa Bolton",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 11,
+    "source_page": "570, 577–578",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "Mare casă, aliată cu Casa Bolton",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 12,
+    "source_page": "651, 661–664",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "Mare casă, aliată cu Casa Bolton",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": "13-1",
+    "source_page": "720–721",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "Mare casă, aliată cu Casa Bolton",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 14,
+    "source_page": "743",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "Disprețuită de nordici pentru Nunta Roșie; tensiuni cu Manderly",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 15,
+    "source_page": "815–827",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "Disprețuită de nordici pentru Nunta Roșie; tensiuni cu Manderly",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 17,
+    "source_page": "908–912",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "Casă vasală Tully, dar trădătoare — a uneltit cu Roose Bolton pentru asasinarea lui Robb Stark la Nunta Roșie",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 24,
+    "source_page": "1318",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 4,
+    "source_page": "183–184",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 5,
+    "source_page": "273",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 6,
+    "source_page": "332–342",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "ally_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 24,
+    "source_page": "1318",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_MANDERLY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 4,
+    "source_page": "183–184",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_MANDERLY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 5,
+    "source_page": "273",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_MANDERLY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 15,
+    "source_page": "820–827",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_MANDERLY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 17,
+    "source_page": "908–912",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_TULLY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 17,
+    "source_page": "908–912",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_TULLY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 24,
+    "source_page": "1318",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GLOVER",
+    "predicate": "seat",
+    "object": "LOCATION_DEEPWOOD_MOTTE",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GLOVER",
+    "predicate": "status_at",
+    "object": "În declin — castelul cucerit de Asha Greyjoy",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 8,
+    "source_page": "447, 449",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GLOVER",
+    "predicate": "status_at",
+    "object": "Vasală a Casei Stark; castel ocupat de oamenii de fier",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 9,
+    "source_page": "458, 463–465",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GLOVER",
+    "predicate": "status_at",
+    "object": "Și-a recucerit teritoriul, aliată cu Regele Stannis",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 10,
+    "source_page": "519–530",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GLOVER",
+    "predicate": "status_at",
+    "object": "Și-a recucerit teritoriul, aliată cu Regele Stannis",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 11,
+    "source_page": "571",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GLOVER",
+    "predicate": "ally_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 10,
+    "source_page": "519–530",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GLOVER",
+    "predicate": "ally_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 11,
+    "source_page": "571",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GOODBROTHER",
+    "predicate": "region",
+    "object": "LOCATION_INSULELE_DE_FIER",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GOODBROTHER",
+    "predicate": "status_at",
+    "object": "Menționată istoric (Urragon Goodbrother, rege prin plebiscit în Era Eroilor)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 9,
+    "source_page": "461",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYIRON",
+    "predicate": "region",
+    "object": "LOCATION_INSULELE_DE_FIER",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYIRON",
+    "predicate": "status_at",
+    "object": "Dinastie stinsă, regi ai Insulelor de Fier în Era Eroilor (Torgon Greyiron)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 9,
+    "source_page": "461",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "seat",
+    "object": "LOCATION_PYKE",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "region",
+    "object": "LOCATION_INSULELE_DE_FIER",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "words",
+    "object": "„Noi nu secerăm”",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "sigil",
+    "object": "kraken auriu pe fond negru",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "Balon Greyjoy a murit; frații lui se luptă pentru Stânca Mării",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 5,
+    "source_page": "272",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "Mare casă; fiii Lordului Balon uciși (cu excepția lui Theon, captiv ca „Duhoare”)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 7,
+    "source_page": "346–359",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "Mare casă, în conflict intern de succesiune (Euron rege încoronat la plebiscit, Asha contestatară)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 7,
+    "source_page": "355",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "Mare casă, în conflict intern de succesiune (Euron rege încoronat la plebiscit, Asha contestatară)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 9,
+    "source_page": "457–471",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "Divizată — Balon mort, Euron rege, Victarion plecat cu flota, Asha izolată la Deepwood Motte",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 8,
+    "source_page": "447–456",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "Corăbiile capturate/arse de Alysane Mormont; Theon captiv",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 12,
+    "source_page": "630, 649–669",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "Theon exclus/renegat",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": "13-1",
+    "source_page": "721",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "Înfrântă/în declin; condusă de Euron Greyjoy după plebiscit",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 14,
+    "source_page": "741, 743–744",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "Membru relevant Theon Greyjoy",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 15,
+    "source_page": "814–830",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "Menționată retrospectiv prin Theon",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 17,
+    "source_page": "914–915",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "Conflict intern între frați (Euron vs. Victarion vs. Aeron)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 18,
+    "source_page": "1001–1017",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "Divizată — Euron rege, Victarion conduce Flota de Fier, Asha și Theon captivi/în conflict",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 20,
+    "source_page": "1099–1129",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "Mare casă, autoproclamată regat separat (Regele Insulelor de Fier și al Nordului — Euron Greyjoy)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 24,
+    "source_page": "1307",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 14,
+    "source_page": "741–744",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "enemy_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 14,
+    "source_page": "741–744",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "enemy_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 20,
+    "source_page": "1099–1117",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "ally_of",
+    "object": "PERSON_ERIK_FIERARUL",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 9,
+    "source_page": "457–471",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYSTARK",
+    "predicate": "branch_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYSTARK",
+    "predicate": "seat",
+    "object": "LOCATION_VIZUINA_LUPILOR",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYSTARK",
+    "predicate": "status_at",
+    "object": "Stinsă — ramură a Casei Stark care s-a alăturat Dreadfortului într-o rebeliune împotriva Winterfellului și a fost distrusă",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 10,
+    "source_page": "517–518",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYSTARK",
+    "predicate": "ally_of",
+    "object": "HOUSE_BOLTON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 10,
+    "source_page": "517–518",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYSTARK",
+    "predicate": "enemy_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 10,
+    "source_page": "517–518",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HARLAW",
+    "predicate": "seat",
+    "object": "LOCATION_ZECE_TURNURI",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HARLAW",
+    "predicate": "region",
+    "object": "LOCATION_INSULELE_DE_FIER",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HARLAW",
+    "predicate": "status_at",
+    "object": "Casă activă, Rodrik Harlaw absent",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 8,
+    "source_page": "449, 455–456",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "seat",
+    "object": "LOCATION_ORASUL_VECHI",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HIGHTOWER",
+    "predicate": "status_at",
+    "object": "Mama Maesterului Walys provenea din această casă",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 12,
+    "source_page": "665",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HORNWOOD",
+    "predicate": "seat",
+    "object": "LOCATION_HORNWOOD",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HORNWOOD",
+    "predicate": "sigil",
+    "object": "elan",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HORNWOOD",
+    "predicate": "status_at",
+    "object": "Lady Hornwood forțată să se mărite cu Ramsay Bolton, apoi întemnițată și forțată să-și mănânce degetele",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 4,
+    "source_page": "223",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HORNWOOD",
+    "predicate": "status_at",
+    "object": "Lady Hornwood forțată să se mărite cu Ramsay Bolton, apoi întemnițată și forțată să-și mănânce degetele",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 6,
+    "source_page": "415",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HORNWOOD",
+    "predicate": "status_at",
+    "object": "Oameni din Hornwood merg alături de Ramsay; alții s-au refugiat la Portul Alb",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 5,
+    "source_page": "269, 273",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HORNWOOD",
+    "predicate": "status_at",
+    "object": "Titlul purtat acum de Ramsay Bolton (Lord de Hornwood)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 12,
+    "source_page": "654",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HUMBLE",
+    "predicate": "seat",
+    "object": "LOCATION_MARELE_WYK",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HUMBLE",
+    "predicate": "region",
+    "object": "LOCATION_INSULELE_DE_FIER",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HUMBLE",
+    "predicate": "status_at",
+    "object": "Casă din Insulele de Fier (Adrack Humble a predat garnizoana Moat Cailin)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 7,
+    "source_page": "357",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "branch_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "seat",
+    "object": "LOCATION_KARHOLD",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "sigil",
+    "object": "soare alb, strălucitor",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "status_at",
+    "object": "Vasală, castelan Arnolf Karstark, s-a alăturat lui Stannis",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 2,
+    "source_page": "79–83",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "status_at",
+    "object": "Aliată cu Stannis; anterior a trădat pe Robb Stark (după ce acesta l-a decapitat pe Rickard Karstark)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 3,
+    "source_page": "140–141",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "status_at",
+    "object": "Aliată cu Stannis; anterior a trădat pe Robb Stark (după ce acesta l-a decapitat pe Rickard Karstark)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 6,
+    "source_page": "309–310, 339",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "status_at",
+    "object": "Vasală, aliniată nominal cu Boltonii, dar suspectă de simpatii Stark",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 11,
+    "source_page": "571",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "status_at",
+    "object": "Arnolf Karstark suspectat gata să treacă de partea lui Bolton",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 12,
+    "source_page": "651, 664",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "status_at",
+    "object": "Mare casă vasală, în criză de succesiune (tatăl executat, doi fii morți, moștenitorul Harry prizonier la Iazul Fecioarelor)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 15,
+    "source_page": "795–797",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "status_at",
+    "object": "Castelanul Arnolf uzurpă drepturile nepoatei Alys; aliată prin căsătoria Alysei cu Thenn (Sigorn)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 16,
+    "source_page": "875, 880–887",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "status_at",
+    "object": "Arnolf Karstark primul lord stegar al lui Eddard Stark trecut de partea lui Stannis (cu complot secret)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 20,
+    "source_page": "1104",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "status_at",
+    "object": "Cregan Karstark prizonier la Castelul Negru",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 22,
+    "source_page": "1226–1227",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "ally_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 2,
+    "source_page": "79–83",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "ally_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 3,
+    "source_page": "140–141",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "ally_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 6,
+    "source_page": "309",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "ally_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 20,
+    "source_page": "1104",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "ally_of",
+    "object": "PERSON_RAMSAY_BOLTON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 15,
+    "source_page": "796",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "ally_of",
+    "object": "PERSON_RAMSAY_BOLTON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 16,
+    "source_page": "875",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_KARSTARK",
+    "predicate": "ally_of",
+    "object": "PERSON_SIGORN",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 16,
+    "source_page": "880–887",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "seat",
+    "object": "LOCATION_CASTERLY_ROCK",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "words",
+    "object": "„Ascultă-mi răgetul!” („Un Lannister își plătește întotdeauna datoriile” — deviză neoficială/vorbă cunoscută)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "sigil",
+    "object": "leu pe fond purpuriu",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "sigil",
+    "object": "broșă de aur în formă de cap de leu",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "Mare casă, dar zguduită de moartea lordului Tywin (ucis de Tyrion) și fuga lui Tyrion",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 1,
+    "source_page": "218",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "Mare casă, dar zguduită de moartea lordului Tywin (ucis de Tyrion) și fuga lui Tyrion",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 2,
+    "source_page": "108–113",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "Mare casă, dar zguduită de moartea lordului Tywin (ucis de Tyrion) și fuga lui Tyrion",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 3,
+    "source_page": "159–171",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "Mare casă la putere (regența pentru Tommen)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 4,
+    "source_page": "185, 198–199",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "Mare casă la putere (regența pentru Tommen)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 7,
+    "source_page": "382–383",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "Mare casă la putere (regența pentru Tommen)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 8,
+    "source_page": "414, 429",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "Descrisă ca „putere vlăguită” (Tywin mort, Jaime schilod, Tyrion fugar)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 12,
+    "source_page": "663–664",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "În declin după moartea lui Tywin",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": "13-1",
+    "source_page": "682–685",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "Deține Tronul de Fier prin regele Tommen; refuză să plătească datoriile către Banca de Fier",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 14,
+    "source_page": "786–787",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "În criză internă — Cersei captivă și acuzată, guvernare preluată parțial de Tyrell sub regența lui Kevan Lannister",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 18,
+    "source_page": "969–983",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "Cersei captivă/umilită, Tyrion fugar, Jaime dispărut",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 21,
+    "source_page": "1147–1179",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "Guvernează prin regența lui Ser Kevan; datorii mari către bancheri",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 23,
+    "source_page": "1276–1298",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "Cea mai bogată mare casă, principal susținător al Regelui Tommen; descendenți ai lui Lann cel Iscusit",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 24,
+    "source_page": "1320",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "enemy_of",
+    "object": "PERSON_CERSEI",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 1,
+    "source_page": "219",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "ally_of",
+    "object": "HOUSE_BOLTON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 4,
+    "source_page": "185",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "ally_of",
+    "object": "HOUSE_BOLTON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 5,
+    "source_page": "263",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "enemy_of",
+    "object": "PERSON_DAENERYS_TARGARYEN",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 8,
+    "source_page": "354",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "enemy_of",
+    "object": "HOUSE_MARTELL",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": "13-1",
+    "source_page": "682–685",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "enemy_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 18,
+    "source_page": "969–983",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "enemy_of",
+    "object": "HOUSE_TYRELL",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 18,
+    "source_page": "969–983",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "enemy_of",
+    "object": "HOUSE_TYRELL",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 23,
+    "source_page": "1276–1298",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LOCKE",
+    "predicate": "seat",
+    "object": "LOCATION_VIZUINA_LUPILOR",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LOCKE",
+    "predicate": "status_at",
+    "object": "Fostă stăpână a Vizuinii Lupilor (istoric)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 10,
+    "source_page": "518",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LOCKE",
+    "predicate": "status_at",
+    "object": "Prezentă la Winterfell (bătrânul Lord Locke)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 15,
+    "source_page": "815",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LORAQ",
+    "predicate": "seat",
+    "object": "LOCATION_MEEREEN",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LORAQ",
+    "predicate": "region",
+    "object": "LOCATION_GOLFUL_SCLAVILOR",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LORAQ",
+    "predicate": "sigil",
+    "object": "tokaruri purpuriu și indigo",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LORAQ",
+    "predicate": "status_at",
+    "object": "În ascensiune (Hizdahr deține cele mai multe arene din oraș)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 2,
+    "source_page": "63–64",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LORAQ",
+    "predicate": "status_at",
+    "object": "Nobilă ghiscari, în ascensiune (Hizdahr curtat ca posibil rege-consort)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 8,
+    "source_page": "400–404",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LORAQ",
+    "predicate": "status_at",
+    "object": "Mare casă locală, la putere prin căsătoria lui Hizdahr cu Daenerys",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 17,
+    "source_page": "935",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LORAQ",
+    "predicate": "status_at",
+    "object": "Casă conducătoare ghiscară, regele Hizdahr zo Loraq al XIV-lea",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 19,
+    "source_page": "1058–1069",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LORAQ",
+    "predicate": "ally_of",
+    "object": "PERSON_GRATIA_VERDE",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 8,
+    "source_page": "400–404",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LORAQ",
+    "predicate": "ally_of",
+    "object": "PERSON_DAENERYS_TARGARYEN",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 17,
+    "source_page": "935",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LORAQ",
+    "predicate": "ally_of",
+    "object": "PERSON_DAENERYS_TARGARYEN",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 19,
+    "source_page": "1058–1069",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "seat",
+    "object": "LOCATION_PORTUL_ALB",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "sigil",
+    "object": "triton de argint (statui de tritoni, teme marine, tridente)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "status_at",
+    "object": "Vasală a Casei Stark, cel mai bogat lord stegar",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 2,
+    "source_page": "81",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "status_at",
+    "object": "Nu sunt considerați „oameni ai Nordului” în adâncul soului; au adus Credința celor Șapte",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 4,
+    "source_page": "183–184",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "status_at",
+    "object": "Nu sunt considerați „oameni ai Nordului” în adâncul soului; au adus Credința celor Șapte",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 5,
+    "source_page": "282",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "status_at",
+    "object": "Mare casă vasală, poziție politică neclară — construiește galere de război, în negocieri paralele cu Lannister, Bolton, Frey și Stannis",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 5,
+    "source_page": "265–274",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "status_at",
+    "object": "Mare casă vasală, poziție politică neclară — construiește galere de război, în negocieri paralele cu Lannister, Bolton, Frey și Stannis",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 6,
+    "source_page": "331–342",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "status_at",
+    "object": "Mare casă vasală",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 7,
+    "source_page": "343–345",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "status_at",
+    "object": "Joacă un joc dublu de loialitate (aparent supusă Frey/Bolton, secret loială Stark/Stannis; negociază cu Davos Seaworth)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 10,
+    "source_page": "515–530",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "status_at",
+    "object": "Bănuită de Roose Bolton că „urzește trădare”",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 11,
+    "source_page": "578, 580",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "status_at",
+    "object": "Aparent aliată Bolton, dar suspectată de ranchiună ascunsă față de Frey",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 12,
+    "source_page": "653, 661–664",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "status_at",
+    "object": "Vasal al Casei Bolton (aparent), prezent la Winterfell",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": "13-1",
+    "source_page": "721, 732",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "status_at",
+    "object": "Ostilă în secret Freyilor/Bolton",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 15,
+    "source_page": "820–827",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "status_at",
+    "object": "În conflict deschis cu Frey (Wyman rănit grav de Ser Hosteen Frey la Winterfell)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 17,
+    "source_page": "908–912",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "ally_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 4,
+    "source_page": "183",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "ally_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 5,
+    "source_page": "267",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "ally_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 10,
+    "source_page": "515–530",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_FREY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 4,
+    "source_page": "183–184",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_FREY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 5,
+    "source_page": "283",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_FREY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 6,
+    "source_page": "332–342",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_FREY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 10,
+    "source_page": "522–524",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_FREY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 15,
+    "source_page": "820–827",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_FREY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 17,
+    "source_page": "908–912",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "ally_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 6,
+    "source_page": "366",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "ally_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 10,
+    "source_page": "515–530",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_BOLTON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 5,
+    "source_page": "283",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_BOLTON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 10,
+    "source_page": "526–529",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_BOLTON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 11,
+    "source_page": "580",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "seat",
+    "object": "LOCATION_SUNSPEAR",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "region",
+    "object": "LOCATION_DORNE",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "words",
+    "object": "„Neplecat, Neînfrânt, Nesfărâmat”",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "sigil",
+    "object": "soare roșu străpuns de o suliță de aur",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "sigil",
+    "object": "sori de aramă",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "status_at",
+    "object": "Mare casă; conducător actual Doran Martell, după moartea lui Oberyn",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 1,
+    "source_page": "233",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "status_at",
+    "object": "Implicată într-o conspirație secretă (căsătoria lui Quentyn cu Daenerys)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 3,
+    "source_page": "119–135",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "status_at",
+    "object": "Implicată într-o conspirație secretă (căsătoria lui Quentyn cu Daenerys)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 8,
+    "source_page": "432–447",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "status_at",
+    "object": "Doran conduce; Quentyn trimis în misiune secretă",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 8,
+    "source_page": "432–447",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "status_at",
+    "object": "Mare casă, condusă de Prințul Doran",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": "13-1",
+    "source_page": "682–689",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "status_at",
+    "object": "Loială istoric memoriei Casei Targaryen; puterile lui Doran în scădere",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 14,
+    "source_page": "766, 769–771",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "status_at",
+    "object": "Aliat vechi și pretendent la mâna lui Daenerys prin Quentyn",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 16,
+    "source_page": "899–903",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "status_at",
+    "object": "Prințul Doran nu a reușit să o apere pe Myrcella",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 18,
+    "source_page": "984–985",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "status_at",
+    "object": "Quentyn respins de Daenerys",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 19,
+    "source_page": "1061, 1069–1072",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "status_at",
+    "object": "Doran prudent, așteaptă; oști în așteptare",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 20,
+    "source_page": "1073–1081, 1091–1092",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "status_at",
+    "object": "Quentyn moare din cauza rănilor provocate de foc de dragon",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 22,
+    "source_page": "1201–1216, 1238–1241",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "status_at",
+    "object": "Suspectată de intenții ostile față de Tronul de Fier",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 23,
+    "source_page": "1250–1252, 1286",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "status_at",
+    "object": "Aliată cu Lannister/Tommen prin logodna Myrcella–Trystane; Dorne a fost ultimul regat care a jurat credință Tronului de Fier",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 24,
+    "source_page": "1323",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "ally_of",
+    "object": "PERSON_MYRCELLA",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 1,
+    "source_page": "234",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "ally_of",
+    "object": "PERSON_DAENERYS_TARGARYEN",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 3,
+    "source_page": "119–135",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "ally_of",
+    "object": "PERSON_DAENERYS_TARGARYEN",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": "13-1",
+    "source_page": "682–689",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "ally_of",
+    "object": "PERSON_DAENERYS_TARGARYEN",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 14,
+    "source_page": "766",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": "13-1",
+    "source_page": "682–685",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "enemy_of",
+    "object": "PERSON_ROBERT_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 14,
+    "source_page": "769",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "ally_of",
+    "object": "HOUSE_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 18,
+    "source_page": "984–985",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "ally_of",
+    "object": "HOUSE_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 20,
+    "source_page": "1092",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "ally_of",
+    "object": "HOUSE_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 24,
+    "source_page": "1323",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MARTELL",
+    "predicate": "ally_of",
+    "object": "PERSON_JON_CONNINGTON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 23,
+    "source_page": "1276–1281",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORMONT",
+    "predicate": "seat",
+    "object": "LOCATION_INSULA_URSULUI",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORMONT",
+    "predicate": "status_at",
+    "object": "Vasală a Casei Stark, condusă acum de Lyanna Mormont (10 ani)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 2,
+    "source_page": "79",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORMONT",
+    "predicate": "status_at",
+    "object": "Ser Jorah Mormont, fost lord exilat",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 9,
+    "source_page": "472–500",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORMONT",
+    "predicate": "status_at",
+    "object": "Mare casă vasală, activă în oastea lui Stannis (Alysane Mormont)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 14,
+    "source_page": "744",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORMONT",
+    "predicate": "status_at",
+    "object": "Jorah Mormont sclav/luptător de arenă",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 15,
+    "source_page": "838–849",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORMONT",
+    "predicate": "status_at",
+    "object": "Jorah Mormont sclav/luptător de arenă",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 19,
+    "source_page": "1023–1038, 1052",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORMONT",
+    "predicate": "status_at",
+    "object": "Alysane Mormont protectoare a Ashei",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 20,
+    "source_page": "1099–1112",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORMONT",
+    "predicate": "ally_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 2,
+    "source_page": "79",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORMONT",
+    "predicate": "ally_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 14,
+    "source_page": "744",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORMONT",
+    "predicate": "ally_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 20,
+    "source_page": "1099–1112",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORRIGEN",
+    "predicate": "seat",
+    "object": "LOCATION_CUIBUL_CIORII",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORRIGEN",
+    "predicate": "region",
+    "object": "LOCATION_CAPUL_MANIEI",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORRIGEN",
+    "predicate": "status_at",
+    "object": "Țintă de atac al Companiei de Aur",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 20,
+    "source_page": "1090–1091",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MORRIGEN",
+    "predicate": "enemy_of",
+    "object": "PERSON_JON_CONNINGTON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 20,
+    "source_page": "1090–1091",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PAHL",
+    "predicate": "seat",
+    "object": "LOCATION_MEEREEN",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PAHL",
+    "predicate": "region",
+    "object": "LOCATION_GOLFUL_SCLAVILOR",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PAHL",
+    "predicate": "region",
+    "object": "LOCATION_MEEREEN",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PAHL",
+    "predicate": "sigil",
+    "object": "culori roz și alb",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PAHL",
+    "predicate": "status_at",
+    "object": "În declin — „o casă de femei, acum”",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 2,
+    "source_page": "213",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PAHL",
+    "predicate": "status_at",
+    "object": "Mare familie locală, tensionată (oamenii lor fug primii la apariția lui Drogon)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 17,
+    "source_page": "931, 941",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PAHL",
+    "predicate": "enemy_of",
+    "object": "PERSON_DAENERYS_TARGARYEN",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 2,
+    "source_page": "214",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PLUMM",
+    "predicate": "seat",
+    "object": "LOCATION_WESTEROS",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PLUMM",
+    "predicate": "status_at",
+    "object": "Ramură aflată în declin/exil, actualmente mercenari (Oacheșul Ben Plumm conduce Fiii Secunzi)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 19,
+    "source_page": "1036–1037",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PLUMM",
+    "predicate": "ally_of",
+    "object": "HOUSE_TARGARYEN",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 19,
+    "source_page": "1036–1037",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_POOLE",
+    "predicate": "seat",
+    "object": "LOCATION_WINTERFELL",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_POOLE",
+    "predicate": "sigil",
+    "object": "platou albastru pe fond alb, bordură cenușie cu irisi",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_POOLE",
+    "predicate": "status_at",
+    "object": "Casă minoră, Vayon Poole a fost senescalul Winterfellului; fiica Jeyne Poole e folosită ca falsa Arya",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 12,
+    "source_page": "660",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDFORT",
+    "predicate": "seat",
+    "object": "LOCATION_REDFORT",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDFORT",
+    "predicate": "region",
+    "object": "LOCATION_VALEA_ARRYN",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDFORT",
+    "predicate": "status_at",
+    "object": "L-a găzduit pe Domeric Bolton ca scutier timp de 3 ani",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 11,
+    "source_page": "577",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDWYNE",
+    "predicate": "seat",
+    "object": "LOCATION_ARBOR",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDWYNE",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDWYNE",
+    "predicate": "status_at",
+    "object": "Vasală/aliată a Tyrellilor; Paxter Redwyne e lord amiral, luptă cu oamenii de fier ai lui Euron Greyjoy",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 23,
+    "source_page": "1287",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDWYNE",
+    "predicate": "ally_of",
+    "object": "HOUSE_TYRELL",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 23,
+    "source_page": "1287",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_REDWYNE",
+    "predicate": "enemy_of",
+    "object": "PERSON_EURON_GREYJOY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 23,
+    "source_page": "1287",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_RYSWELL",
+    "predicate": "sigil",
+    "object": "patru capete de cai diferite (sur, negru, auriu, roib)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_RYSWELL",
+    "predicate": "status_at",
+    "object": "Atacat oameni de fier la Râul Fierbinte",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 5,
+    "source_page": "272–273",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_RYSWELL",
+    "predicate": "status_at",
+    "object": "Legată prin căsătorie de Bolton; aliată Bolton",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 6,
+    "source_page": "306",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_RYSWELL",
+    "predicate": "status_at",
+    "object": "Legată prin căsătorie de Bolton; aliată Bolton",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 9,
+    "source_page": "508",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_RYSWELL",
+    "predicate": "status_at",
+    "object": "Legată prin căsătorie de Bolton; aliată Bolton",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 10,
+    "source_page": "568–569",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_RYSWELL",
+    "predicate": "status_at",
+    "object": "Legată prin căsătorie de Bolton; aliată Bolton",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 11,
+    "source_page": "579",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_RYSWELL",
+    "predicate": "status_at",
+    "object": "Legată prin căsătorie de Bolton; aliată Bolton",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 12,
+    "source_page": "653–654",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_RYSWELL",
+    "predicate": "status_at",
+    "object": "Legată prin căsătorie de Bolton; aliată Bolton",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": "13-1",
+    "source_page": "735–736",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_RYSWELL",
+    "predicate": "status_at",
+    "object": "Legată prin căsătorie de Bolton; aliată Bolton",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 15,
+    "source_page": "814–827",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_RYSWELL",
+    "predicate": "ally_of",
+    "object": "HOUSE_BOLTON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 5,
+    "source_page": "272–273",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_RYSWELL",
+    "predicate": "ally_of",
+    "object": "HOUSE_BOLTON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 6,
+    "source_page": "306",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_RYSWELL",
+    "predicate": "ally_of",
+    "object": "HOUSE_BOLTON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 9,
+    "source_page": "508",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SEAWORTH",
+    "predicate": "status_at",
+    "object": "Casă mică, ridicată din popor (Davos rânduit cavaler de Stannis cu o cală de ceapă)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 4,
+    "source_page": "173, 175–176",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SEAWORTH",
+    "predicate": "status_at",
+    "object": "Casă mică, ridicată din popor (Davos rânduit cavaler de Stannis cu o cală de ceapă)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 10,
+    "source_page": "518–519, 548–549",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SEAWORTH",
+    "predicate": "ally_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 4,
+    "source_page": "173",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SEAWORTH",
+    "predicate": "ally_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 10,
+    "source_page": "518–519",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CASELE_SLATE_LONG_HOLT_ASHWOOD",
+    "predicate": "seat",
+    "object": "LOCATION_VIZUINA_LUPILOR",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CASELE_SLATE_LONG_HOLT_ASHWOOD",
+    "predicate": "status_at",
+    "object": "Foste stăpâne ale Vizuinii Lupilor, împuternicite de Winterfell",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 10,
+    "source_page": "518",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "seat",
+    "object": "LOCATION_WINTERFELL",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "words",
+    "object": "„Vine iarna”",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "sigil",
+    "object": "lup străvechi (direwolf) cenușiu pe câmp alb",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "În declin/dispersată (Robb mort, Bran/Rickon presupuși morți, Jon bastard la Rond)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 2,
+    "source_page": "79, 90",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "În declin/dispersată (Robb mort, Bran/Rickon presupuși morți, Jon bastard la Rond)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 3,
+    "source_page": "140–141, 150–153",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "Conducere neclară (istoric regele-lup a supus Surorile)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 4,
+    "source_page": "182–183",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "În declin/dispersată — Arya logodită cu Ramsay (impostoare Jeyne Poole)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 5,
+    "source_page": "230–232, 267",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "Aproape stinsă pe linie masculină; o fiică revendicată de Bolton",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 6,
+    "source_page": "311, 337–341",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "În declin/distrusă",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 7,
+    "source_page": "347, 362",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "Căzută/dispărută",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 8,
+    "source_page": "447, 449",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "În declin sever, Winterfell ruinat",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 9,
+    "source_page": "504, 508–510",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "Aproape stinsă, dar cu autoritate morală puternică în Nord",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 10,
+    "source_page": "517–530",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "Aproape stinsă/dispersată",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 11,
+    "source_page": "570–571, 599–615",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "În declin sever — capul familiei mort, Jon la Rond singur confirmat în viață",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 12,
+    "source_page": "649–660",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "Aparent stinsă/dispersată, falsa Arya (Jeyne Poole) substitut",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": "13-1",
+    "source_page": "719–737",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "Sediul uzurpat de Bolton; loialitatea clanurilor rămâne față de „fiica lui Ned”",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 14,
+    "source_page": "741–743, 755",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "Aproape stinsă",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 15,
+    "source_page": "794–830",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "În declin/aparent stinsă ca putere locală",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 17,
+    "source_page": "913–921",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "Decimată/în declin",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 19,
+    "source_page": "1021, 1039–1040, 1057",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "În declin/dispersată — Arya „nimeni”",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 21,
+    "source_page": "1132, 1141, 1160",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "Casă mare, lider decăzut al Regatului Nordului; descind din Brandon Constructorul; Torrhen Stark s-a supus lui Aegon Cuceritorul",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 24,
+    "source_page": "1325",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "liege_of",
+    "object": "HOUSE_MORMONT",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 2,
+    "source_page": "79, 81",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "liege_of",
+    "object": "HOUSE_MORMONT",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 3,
+    "source_page": "152",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "enemy_of",
+    "object": "HOUSE_BOLTON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 2,
+    "source_page": "81",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "enemy_of",
+    "object": "HOUSE_BOLTON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 6,
+    "source_page": "306–342",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "enemy_of",
+    "object": "HOUSE_BOLTON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 12,
+    "source_page": "649–660",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "enemy_of",
+    "object": "HOUSE_BOLTON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 14,
+    "source_page": "743",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "ally_of",
+    "object": "HOUSE_MORMONT",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 14,
+    "source_page": "741–743, 755",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STOUT",
+    "predicate": "status_at",
+    "object": "Lord mărunt (Harwood Stout, ciung, gazda ospățului lui Ramsay)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 10,
+    "source_page": "566–568",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STOUT",
+    "predicate": "status_at",
+    "object": "Lord mărunt (Harwood Stout, ciung, gazda ospățului lui Ramsay)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 15,
+    "source_page": "819",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STRICKLAND",
+    "predicate": "region",
+    "object": "LOCATION_WESTEROS",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STRICKLAND",
+    "predicate": "founded",
+    "object": "Exilată, membră fondatoare a Companiei de Aur de patru generații",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 8,
+    "source_page": "419, 423–424",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SUNDERLAND",
+    "predicate": "region",
+    "object": "LOCATION_CELE_TREI_SURORI",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SUNDERLAND",
+    "predicate": "status_at",
+    "object": "Mare casă (vasală Casei Arryn din Vale); are vasali Borrell, Longthorpe, Torrent",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 4,
+    "source_page": "178, 183",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SUNDERLAND",
+    "predicate": "vassal_of",
+    "object": "HOUSE_ARRYN",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 4,
+    "source_page": "178",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SWANN",
+    "predicate": "seat",
+    "object": "LOCATION_STONEHELM",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SWANN",
+    "predicate": "sigil",
+    "object": "două lebede (fildeș și onix) pe broșă argintie",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SWANN",
+    "predicate": "status_at",
+    "object": "Ser Balon Swann e cavaler al Gărzii Regelui",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 12,
+    "source_page": "671–672",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TALLHART",
+    "predicate": "sigil",
+    "object": "pini",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TALLHART",
+    "predicate": "status_at",
+    "object": "Steaguri văzute în foc (trei pini)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 6,
+    "source_page": "306",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TALLHART",
+    "predicate": "status_at",
+    "object": "Vasală Stark, prezentă la Winterfell",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 12,
+    "source_page": "654",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TALLHART",
+    "predicate": "status_at",
+    "object": "Vasală Stark, prezentă la Winterfell",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 15,
+    "source_page": "814–827",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "words",
+    "object": "„Foc și Sânge”",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "sigil",
+    "object": "dragon cu trei capete (trup din aur, aripi din argint, capete din fildeș, onix și jais",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "sigil",
+    "object": "roșu pe fond negru)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "În declin/exil — linia lui Aerys aproape stinsă în Westeros (Rhaegar, fiul lui, Viserys morți), supraviețuiește prin Daenerys",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 1,
+    "source_page": "226",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "În declin/exil — linia lui Aerys aproape stinsă în Westeros (Rhaegar, fiul lui, Viserys morți), supraviețuiește prin Daenerys",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 2,
+    "source_page": "58–70",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "În ascensiune prin Daenerys la Meereen; ultimii reprezentanți cunoscuți Daenerys și Maester Aemon",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 3,
+    "source_page": "121–122, 136, 170–171",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "Daenerys la Meereen; istoric Aegon III",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 4,
+    "source_page": "219–220",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "Dispersată/în exil",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 5,
+    "source_page": "256, 274–275, 278–285",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "Dinastie în exil/pretendentă la tron; Daenerys și posibil „Tânărul Griff” (Aegon)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 6,
+    "source_page": "358–360",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "Dinastie în exil/pretendentă la tron; Daenerys și posibil „Tânărul Griff” (Aegon)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 7,
+    "source_page": "379–383",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "Doi pretendenți activi (Daenerys la Meereen, Aegon cu Compania de Aur)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 8,
+    "source_page": "400–413, 414–431",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "Doi pretendenți activi (Daenerys la Meereen, Aegon cu Compania de Aur)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 9,
+    "source_page": "478–479, 490–499",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "În exil/în luptă pentru revendicare",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 10,
+    "source_page": "531–545",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "Daenerys la Meereen; istoric Jaehaerys I",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 11,
+    "source_page": "577, 584–585, 596",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "Ramură în Essos (Daenerys) încearcă recucerirea; istoric Daeron cel Bun și Daemon Blackfyre",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 12,
+    "source_page": "634–648, 679",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "Daenerys urmărește revendicarea Tronului de Fier",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 14,
+    "source_page": "768–770",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "Daenerys urmărește revendicarea Tronului de Fier",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 15,
+    "source_page": "838–843",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "Daenerys regină la Meereen",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 17,
+    "source_page": "925–944",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "Daenerys regină în Meereen, dispărută (presupusă moartă de mulți); măritată cu Hizdahr zo Loraq",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 19,
+    "source_page": "1019, 1059–1069",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "Ramură activă prin Daenerys la Meereen cu trei dragoni; istoric Aerion „Prințul Strălucitor”",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 21,
+    "source_page": "1169, 1184–1185",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "Daenerys conduce Meereen; pretendent Aegon",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 22,
+    "source_page": "1186–1187, 1238–1241",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "Daenerys conduce Meereen; pretendent Aegon",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 23,
+    "source_page": "1269, 1280–1281, 1298",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "Daenerys conduce Meereen; pretendent Aegon",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 24,
+    "source_page": "1347",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "enemy_of",
+    "object": "PERSON_ROBERT_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 1,
+    "source_page": "227",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "ally_of",
+    "object": "HOUSE_MARTELL",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 3,
+    "source_page": "119–135",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "ally_of",
+    "object": "HOUSE_MARTELL",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 14,
+    "source_page": "766",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "ally_of",
+    "object": "HOUSE_MARTELL",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 16,
+    "source_page": "899–903",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 3,
+    "source_page": "170–171",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 8,
+    "source_page": "354",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "ally_of",
+    "object": "PERSON_ILLYRIO",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 8,
+    "source_page": "354",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "seat",
+    "object": "LOCATION_HORN_HILL",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "status_at",
+    "object": "Mare casă / vasală a Reach-ului",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 3,
+    "source_page": "146",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "status_at",
+    "object": "Vasală a Tyrellilor; Randyll Tarly considerat de Ser Kevan „adevărul pericol” militar",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 23,
+    "source_page": "1278–1287",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "vassal_of",
+    "object": "HOUSE_TYRELL",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 23,
+    "source_page": "1278–1287",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TOYNE",
+    "predicate": "region",
+    "object": "LOCATION_WESTEROS",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TOYNE",
+    "predicate": "status_at",
+    "object": "Stinsă/fără reprezentant activ (Myles Toyne mort)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 8,
+    "source_page": "415, 421–422",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "seat",
+    "object": "LOCATION_RIVERRUN",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "words",
+    "object": "„Familie, Datorie, Onoare”",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "sigil",
+    "object": "păstrăv sărind, argintiu, pe fond unduit albastru cu roșu",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "Mare casă, condusă acum de Edmure Tully (prizonier)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 24,
+    "source_page": "1329",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "Istoric: Lordul Edwyn Tully a jurat credință timpuriu lui Aegon Cuceritorul",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 24,
+    "source_page": "1329",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "ally_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 16,
+    "source_page": "850–863",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "liege_of",
+    "object": "HOUSE_FREY",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 24,
+    "source_page": "1329",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "words",
+    "object": "„Devenind Puternici”",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "sigil",
+    "object": "trandafir de aur pe fond de iarbă verde",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "Mace Tyrell ar dori sceptrul, dar fără sprijin suficient",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 7,
+    "source_page": "382",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "Mare casă, aliată prin logodnă cu regele-copil Tommen (Lannister)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 8,
+    "source_page": "429",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "Mare casă, în ascensiune la Curte — Mace Tyrell numit Mâna Regelui; Randyll Tarly judecător; Paxter Redwyne lord amiral; Margaery eliberată în custodia lui Tarly",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 18,
+    "source_page": "973, 983",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "Alianța cu Lannister „se destramă”",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 20,
+    "source_page": "1091",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "Mare casă, în alianță tensionată cu Lannisterii; Mace Tyrell insistă asupra nevinovăției fiicei sale Margaery",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 23,
+    "source_page": "1277–1287",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "Mare casă, susținători ai lui Renly, apoi realiniați cu Lannister/Tommen; ridicați din administratori ai Regilor de Reach; revendică descendența din Garth Greenhand",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 24,
+    "source_page": "1331",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 8,
+    "source_page": "429",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 18,
+    "source_page": "973, 983",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 20,
+    "source_page": "1091",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "enemy_of",
+    "object": "HOUSE_LANNISTER",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 23,
+    "source_page": "1277–1287",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_UMBER",
+    "predicate": "seat",
+    "object": "LOCATION_ULTIMA_VATRA",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_UMBER",
+    "predicate": "sigil",
+    "object": "uriaș",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_UMBER",
+    "predicate": "status_at",
+    "object": "(Istoric) aliată Casei Stark",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 3,
+    "source_page": "152",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_UMBER",
+    "predicate": "status_at",
+    "object": "Hother Umber merge spre sud alături de Bastardul lui Bolton",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 5,
+    "source_page": "273",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_UMBER",
+    "predicate": "status_at",
+    "object": "Divizată — Mors „Hrana Ciorilor” pentru Stannis, Hother „Urgia Târfelor” cu Bolton",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 6,
+    "source_page": "305–309",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_UMBER",
+    "predicate": "status_at",
+    "object": "A deținut cândva Turnul Copiilor la Moat Cailin",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 7,
+    "source_page": "347",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_UMBER",
+    "predicate": "status_at",
+    "object": "Aliată/vasală a lui Bolton",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 9,
+    "source_page": "508",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_UMBER",
+    "predicate": "status_at",
+    "object": "Nesiguri ca aliați ai Boltonilor",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 11,
+    "source_page": "578, 580",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_UMBER",
+    "predicate": "status_at",
+    "object": "Divizată — Hother la Winterfell doar fiindcă Freyii îl țin captiv pe Marele Jon",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": "13-1",
+    "source_page": "720, 733",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_UMBER",
+    "predicate": "status_at",
+    "object": "Parțial ostatică (Marelejon ostatic la Bolton)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 15,
+    "source_page": "817–826",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_UMBER",
+    "predicate": "ally_of",
+    "object": "HOUSE_STARK",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 3,
+    "source_page": "152",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_UMBER",
+    "predicate": "ally_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 6,
+    "source_page": "305–309",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_UMBER",
+    "predicate": "ally_of",
+    "object": "PERSON_STANNIS_BARATHEON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 20,
+    "source_page": "1108, 1115",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_UMBER",
+    "predicate": "ally_of",
+    "object": "HOUSE_BOLTON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 6,
+    "source_page": "305–309",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_UMBER",
+    "predicate": "ally_of",
+    "object": "HOUSE_BOLTON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": "13-1",
+    "source_page": "720",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_UMBER",
+    "predicate": "ally_of",
+    "object": "HOUSE_BOLTON",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 15,
+    "source_page": "817–826",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WHENT",
+    "predicate": "seat",
+    "object": "LOCATION_HARRENHAL",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WHENT",
+    "predicate": "status_at",
+    "object": "Menționată doar istoric, în amintirile lui Ser Barristan (Ser Oswell Whent, fratele Lordului Whent, era în Garda Regelui)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 22,
+    "source_page": "1190",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_YRONWOOD",
+    "predicate": "region",
+    "object": "LOCATION_DORNE",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_YRONWOOD",
+    "predicate": "status_at",
+    "object": "Casă vasală/nobilă importantă în Dorne",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 3,
+    "source_page": "127, 129–130, 134",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_YRONWOOD",
+    "predicate": "status_at",
+    "object": "Casă mare vasală, aliată Martell (Lordul Yronwood numit „al doilea tată” al lui Quentyn)",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 19,
+    "source_page": "1072",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_YRONWOOD",
+    "predicate": "status_at",
+    "object": "Casă vasală importantă din Dorne; Gwyneth Yronwood dorită de Quentyn ca soție",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 22,
+    "source_page": "1204",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_YRONWOOD",
+    "predicate": "ally_of",
+    "object": "HOUSE_MARTELL",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 3,
+    "source_page": "127",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_YRONWOOD",
+    "predicate": "ally_of",
+    "object": "HOUSE_MARTELL",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 19,
+    "source_page": "1072",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_YRONWOOD",
+    "predicate": "ally_of",
+    "object": "HOUSE_MARTELL",
+    "source_book": "Dansul Dragonilor",
+    "source_fragment": 22,
+    "source_page": "1204",
+    "confidence": "confirmed"
+  }
+]

@@ -118,9 +118,18 @@ export class SearchBar {
       if (res.type === 'castle' || res.type === 'fortress') icon = '🏰';
       if (res.type === 'city') icon = '🏘';
       if (res.type === 'town' || res.type === 'port') icon = '⛵';
-      if (res.type === 'landmark' || res.type === 'natural') icon = '🌲';
+      if (res.type === 'landmark' || res.type === 'natural' || res.type === 'ruins') icon = '🌲';
+      if (res.type === 'house' || res.type === 'faction' || res.type === 'institution') icon = '🛡️';
+      if (res.type === 'character') icon = '👤';
+      if (res.type === 'dragon') icon = '🐉';
+      if (res.type === 'event') icon = '⚔️';
+      if (res.type === 'object') icon = '🗡️';
+      if (res.type === 'title') icon = '👑';
 
-      item.innerHTML = `<span>${icon}</span> <strong style="color:var(--ink);">${res.name}</strong> <span style="font-size:0.8rem; color:var(--ink-light);">(${res.regionName})</span>`;
+      // Avoid showing empty parentheses if regionName is empty
+      const regionSpan = res.regionName ? ` <span style="font-size:0.8rem; color:var(--ink-light);">(${res.regionName})</span>` : '';
+      const aliasSpan = res.matchedAlias ? ` <span style="font-size:0.75rem; color:var(--ink-light); font-style:italic;">(găsit ca: ${res.matchedAlias})</span>` : '';
+      item.innerHTML = `<span>${icon}</span> <strong style="color:var(--ink);">${res.name}</strong>${regionSpan}${aliasSpan}`;
 
       item.addEventListener('mouseenter', () => this.highlightItem(idx));
       item.addEventListener('click', () => this.selectResult(res));

@@ -1,22 +1,58 @@
-import { screenToSVG } from '../utils/coordinates.js';
 import { easeInOutCubic } from '../utils/helpers.js';
+
+// SVG's screen CTM does not account for the letterboxing introduced by
+// preserveAspectRatio="xMidYMid meet". Calculate against the rendered map area
+// so a click in a side margin can never produce coordinates outside the canvas.
+export function screenToMapPoint(svg, clientX, clientY) {
+  const rect = svg.getBoundingClientRect();
+  const viewBox = svg.viewBox.baseVal;
+  const viewAspect = viewBox.width / viewBox.height;
+  const screenAspect = rect.width / rect.height;
+
+  let width;
+  let height;
+  let left = rect.left;
+  let top = rect.top;
+
+  if (screenAspect > viewAspect) {
+    height = rect.height;
+    width = height * viewAspect;
+    left += (rect.width - width) / 2;
+  } else {
+    width = rect.width;
+    height = width / viewAspect;
+    top += (rect.height - height) / 2;
+  }
+
+  const inside = clientX >= left && clientX <= left + width && clientY >= top && clientY <= top + height;
+  return {
+    x: viewBox.x + ((clientX - left) / width) * viewBox.width,
+    y: viewBox.y + ((clientY - top) / height) * viewBox.height,
+    inside,
+    width,
+    height
+  };
+}
 
 export class MapInteraction {
   constructor(svgElement, options = {}) {
     this.svg = svgElement;
     this.container = svgElement.parentElement;
+    this.mapWidth = options.mapWidth || Number(svgElement.dataset.mapWidth) || 1000;
+    this.mapHeight = options.mapHeight || Number(svgElement.dataset.mapHeight) || 1400;
     
     // Default viewBox state
-    this.viewBox = { x: 0, y: 0, width: 1000, height: 1400 };
+    this.viewBox = { x: 0, y: 0, width: this.mapWidth, height: this.mapHeight };
     
     // Zoom constraints
-    this.minWidth = 200;
-    this.maxWidth = 1000;
+    this.minWidth = this.mapWidth * 0.12;
+    this.maxWidth = this.mapWidth;
     
     this.isPanning = false;
     this.startPoint = { x: 0, y: 0 };
     
     this.animationId = null;
+    this._lastLabelVisibilityWidth = null;
 
     this.init();
   }
@@ -41,7 +77,14 @@ export class MapInteraction {
 
   onPointerDown(e) {
     if (e.button && e.button !== 0) return; // Only left click
-    
+
+    // A drag started on a location marker is handled by the map editor's own
+    // marker-drag logic. If we also start panning here, both systems fight
+    // over the same mousedown/touchstart (pointerdown and mousedown are
+    // separate native events, so stopPropagation() on one doesn't stop the
+    // other) and the whole map pans underneath the marker being dragged.
+    if (e.target?.closest?.('.location-marker')) return;
+
     this.isPanning = true;
     this.container.classList.add('panning');
     
@@ -68,16 +111,18 @@ export class MapInteraction {
     const dx = clientX - this.startPoint.x;
     const dy = clientY - this.startPoint.y;
     
-    // Scale movement by zoom level
-    const scale = this.viewBox.width / this.container.clientWidth;
+    // Scale movement by the actual rendered map area, excluding side letterboxing.
+    const content = screenToMapPoint(this.svg, clientX, clientY);
+    const scaleX = this.viewBox.width / content.width;
+    const scaleY = this.viewBox.height / content.height;
     
-    this.viewBox.x -= dx * scale;
-    this.viewBox.y -= dy * scale;
+    this.viewBox.x -= dx * scaleX;
+    this.viewBox.y -= dy * scaleY;
     
     // Constrain pan within reasonable boundaries
     const margin = 200;
-    this.viewBox.x = Math.max(-margin, Math.min(1000 - this.viewBox.width + margin, this.viewBox.x));
-    this.viewBox.y = Math.max(-margin, Math.min(1400 - this.viewBox.height + margin, this.viewBox.y));
+    this.viewBox.x = Math.max(-margin, Math.min(this.mapWidth - this.viewBox.width + margin, this.viewBox.x));
+    this.viewBox.y = Math.max(-margin, Math.min(this.mapHeight - this.viewBox.height + margin, this.viewBox.y));
     
     this.updateViewBox();
     this.startPoint = { x: clientX, y: clientY };
@@ -96,20 +141,13 @@ export class MapInteraction {
     e.preventDefault();
     
     // Get mouse pointer in SVG space to zoom towards it
-    const rect = this.container.getBoundingClientRect();
-    const mouseX = e.clientX - rect.left;
-    const mouseY = e.clientY - rect.top;
-    
-    // Convert screen coordinates of mouse to SVG coordinates
-    const scaleX = this.viewBox.width / this.container.clientWidth;
-    const scaleY = this.viewBox.height / this.container.clientHeight;
-    const svgMouseX = this.viewBox.x + mouseX * scaleX;
-    const svgMouseY = this.viewBox.y + mouseY * scaleY;
+    const point = screenToMapPoint(this.svg, e.clientX, e.clientY);
+    if (!point.inside) return;
     
     // Determine zoom factor
     const zoomFactor = e.deltaY > 0 ? 1.1 : 0.9;
     
-    this.zoom(zoomFactor, svgMouseX, svgMouseY);
+    this.zoom(zoomFactor, point.x, point.y);
   }
 
   zoom(factor, centerX, centerY) {
@@ -156,6 +194,42 @@ export class MapInteraction {
     this._zoomAnimId = requestAnimationFrame(animateZoom);
   }
 
+  // Recenters the view on a point without changing the current zoom level.
+  // Used instead of flyTo() where an automatic zoom change would be
+  // disorienting (e.g. selecting a location from the admin editor list) —
+  // zooming stays exclusively under the user's control via the mouse wheel.
+  panTo(targetX, targetY, duration = 450) {
+    if (this.animationId) cancelAnimationFrame(this.animationId);
+
+    const startX = this.viewBox.x;
+    const startY = this.viewBox.y;
+    const width = this.viewBox.width;
+    const height = this.viewBox.height;
+
+    const targetViewBoxX = targetX - width / 2;
+    const targetViewBoxY = targetY - height / 2;
+
+    const startTime = performance.now();
+
+    const animate = (currentTime) => {
+      const elapsed = currentTime - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      const ease = easeInOutCubic(progress);
+
+      this.viewBox.x = startX + (targetViewBoxX - startX) * ease;
+      this.viewBox.y = startY + (targetViewBoxY - startY) * ease;
+      this.updateViewBox();
+
+      if (progress < 1) {
+        this.animationId = requestAnimationFrame(animate);
+      } else {
+        this.animationId = null;
+      }
+    };
+
+    this.animationId = requestAnimationFrame(animate);
+  }
+
   flyTo(targetX, targetY, zoomWidth, duration = 1500) {
     if (this.animationId) {
       cancelAnimationFrame(this.animationId);
@@ -166,7 +240,7 @@ export class MapInteraction {
     const startWidth = this.viewBox.width;
     const startHeight = this.viewBox.height;
     
-    const targetHeight = zoomWidth * 1.4; // 1000:1400 ratio
+    const targetHeight = zoomWidth * (this.mapHeight / this.mapWidth);
     const targetViewBoxX = targetX - zoomWidth / 2;
     const targetViewBoxY = targetY - targetHeight / 2;
     
@@ -195,13 +269,22 @@ export class MapInteraction {
   }
 
   resetView() {
-    this.flyTo(500, 700, 1000, 1200);
+    this.flyTo(this.mapWidth / 2, this.mapHeight / 2, this.mapWidth, 1200);
   }
 
   updateViewBox() {
     this.svg.setAttribute('viewBox', `${this.viewBox.x.toFixed(2)} ${this.viewBox.y.toFixed(2)} ${this.viewBox.width.toFixed(2)} ${this.viewBox.height.toFixed(2)}`);
     if (window.atlasApp && window.atlasApp.mapRenderer) {
-      window.atlasApp.mapRenderer.updateLabelVisibility(this.viewBox.width);
+      // Panning does not change label overlap in map space. Re-running getBBox
+      // collision detection for every pointer event was the primary source of
+      // stutter on the large terrain image, so refresh only after a meaningful
+      // zoom change.
+      const previous = this._lastLabelVisibilityWidth;
+      const changedEnough = previous === null || Math.abs(this.viewBox.width - previous) / previous >= 0.12;
+      if (changedEnough) {
+        window.atlasApp.mapRenderer.updateLabelVisibility(this.viewBox.width);
+        this._lastLabelVisibilityWidth = this.viewBox.width;
+      }
     }
   }
 }

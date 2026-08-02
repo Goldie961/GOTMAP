@@ -1,0 +1,4853 @@
+{
+  "metadate": {
+    "total_personaje": 2470,
+    "total_grupuri_candidat": 167,
+    "total_confirmate": 129,
+    "total_neconfirmate": 38
+  },
+  "grupuri_confirmate": [
+    {
+      "nume_normalizat": "aegon al iii-lea",
+      "id_uri": [
+        "aegon_al_iii_lea",
+        "regele_aegon_al_iii_lea"
+      ],
+      "id_intern_uri": [
+        "PERSON_AEGON_AL_III_LEA",
+        "PERSON_REGELE_AEGON_AL_III_LEA"
+      ],
+      "names": [
+        "Aegon al III-lea",
+        "Regele Aegon al III-lea („Aegon Dragonul\" / „Aegon cel Ghinionist\")"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house targaryen"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "aegon_al_iii_lea",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        },
+        {
+          "id": "regele_aegon_al_iii_lea",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "aegon i targaryen",
+      "id_uri": [
+        "aegon_i",
+        "aegon_i_targaryen"
+      ],
+      "id_intern_uri": [
+        "",
+        "PERSON_AEGON_I_TARGARYEN"
+      ],
+      "names": [
+        "Aegon I Targaryen",
+        "Aegon I Targaryen (Aegon Cuceritorul, Aegon Dragonul)"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "house_comun": "targaryen"
+      },
+      "scor_completitudine": [
+        {
+          "id": "aegon_i",
+          "scor_total": null,
+          "campuri_populate": 7
+        },
+        {
+          "id": "aegon_i_targaryen",
+          "scor_total": 1.0,
+          "campuri_populate": 10
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "aegon ii targaryen",
+      "id_uri": [
+        "aegon_ii",
+        "aegon_ii_targaryen"
+      ],
+      "id_intern_uri": [
+        "",
+        "PERSON_AEGON_II_TARGARYEN"
+      ],
+      "names": [
+        "Aegon II Targaryen",
+        "Aegon II Targaryen (cel Vârstnic)"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "house_comun": "targaryen"
+      },
+      "scor_completitudine": [
+        {
+          "id": "aegon_ii",
+          "scor_total": null,
+          "campuri_populate": 7
+        },
+        {
+          "id": "aegon_ii_targaryen",
+          "scor_total": 1.0,
+          "campuri_populate": 10
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "aemon targaryen",
+      "id_uri": [
+        "aemon_targaryen",
+        "printul_aemon_targaryen"
+      ],
+      "id_intern_uri": [
+        "PERSON_AEMON_TARGARYEN",
+        "PERSON_PRINTUL_AEMON_TARGARYEN"
+      ],
+      "names": [
+        "Aemon Targaryen (Prinț de Piatra Dragonului)",
+        "Prințul Aemon Targaryen (fiul lui Maekar)"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house targaryen"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "aemon_targaryen",
+          "scor_total": 0.88,
+          "campuri_populate": 9
+        },
+        {
+          "id": "printul_aemon_targaryen",
+          "scor_total": 0.38,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "aerea targaryen",
+      "id_uri": [
+        "aerea_targaryen",
+        "printesa_aerea_targaryen"
+      ],
+      "id_intern_uri": [
+        "PERSON_AEREA_TARGARYEN",
+        "PERSON_PRINTESA_AEREA_TARGARYEN"
+      ],
+      "names": [
+        "Aerea Targaryen",
+        "Prințesa Aerea Targaryen"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "parinti_comuni": [
+          "aegon"
+        ],
+        "frati_comuni": [
+          "rhaella targaryen"
+        ],
+        "surse_comune": [
+          "foc si sange"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "aerea_targaryen",
+          "scor_total": 0.38,
+          "campuri_populate": 4
+        },
+        {
+          "id": "printesa_aerea_targaryen",
+          "scor_total": 0.75,
+          "campuri_populate": 9
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "aerion targaryen",
+      "id_uri": [
+        "aerion_targaryen",
+        "printul_aerion_targaryen"
+      ],
+      "id_intern_uri": [
+        "PERSON_AERION_TARGARYEN",
+        "PERSON_PRINTUL_AERION_TARGARYEN"
+      ],
+      "names": [
+        "Aerion Targaryen",
+        "Prințul Aerion Targaryen („Flacără Strălucitoare\" / „Prințul Strălucitor\")"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "parinti_comuni": [
+          "maekar targaryen"
+        ],
+        "frati_comuni": [
+          "aemon targaryen"
+        ],
+        "membru_al_comun": [
+          "house targaryen"
+        ],
+        "surse_comune": [
+          "cavalerul celor 7 regate"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "aerion_targaryen",
+          "scor_total": 0.75,
+          "campuri_populate": 9
+        },
+        {
+          "id": "printul_aerion_targaryen",
+          "scor_total": 0.62,
+          "campuri_populate": 7
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "aerys al ii-lea targaryen",
+      "id_uri": [
+        "aerys_al_ii_lea_targaryen",
+        "regele_aerys_al_ii_lea_targaryen"
+      ],
+      "id_intern_uri": [
+        "PERSON_AERYS_AL_II_LEA_TARGARYEN",
+        "PERSON_REGELE_AERYS_AL_II_LEA_TARGARYEN"
+      ],
+      "names": [
+        "Aerys al II-lea Targaryen (Regele Nebun)",
+        "Regele Aerys al II-lea Targaryen"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "copii_comuni": [
+          "daenerys targaryen",
+          "rhaegar",
+          "viserys"
+        ],
+        "membru_al_comun": [
+          "house targaryen"
+        ],
+        "surse_comune": [
+          "inclestarea regilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "aerys_al_ii_lea_targaryen",
+          "scor_total": 0.62,
+          "campuri_populate": 7
+        },
+        {
+          "id": "regele_aerys_al_ii_lea_targaryen",
+          "scor_total": 0.62,
+          "campuri_populate": 8
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "aerys ii targaryen",
+      "id_uri": [
+        "aerys_ii",
+        "regele_aerys_ii_targaryen"
+      ],
+      "id_intern_uri": [
+        "PERSON_AERYS_II_TARGARYEN",
+        "PERSON_REGELE_AERYS_II_TARGARYEN"
+      ],
+      "names": [
+        "Aerys II Targaryen",
+        "Regele Aerys II Targaryen"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "copii_comuni": [
+          "rhaegar targaryen",
+          "viserys targaryen"
+        ],
+        "membru_al_comun": [
+          "house targaryen"
+        ],
+        "house_comun": "targaryen",
+        "surse_comune": [
+          "dansul dragonilor",
+          "festinul ciorilor",
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "aerys_ii",
+          "scor_total": 0.62,
+          "campuri_populate": 12
+        },
+        {
+          "id": "regele_aerys_ii_targaryen",
+          "scor_total": 0.62,
+          "campuri_populate": 8
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "aerys targaryen",
+      "id_uri": [
+        "aerys_targaryen",
+        "printul_aerys_targaryen",
+        "regele_aerys_targaryen"
+      ],
+      "id_intern_uri": [
+        "PERSON_AERYS_TARGARYEN",
+        "PERSON_PRINTUL_AERYS_TARGARYEN",
+        "PERSON_REGELE_AERYS_TARGARYEN"
+      ],
+      "names": [
+        "Aerys Targaryen (străbunic, generație anterioară lui Aegon Cuceritorul)",
+        "Prințul Aerys Targaryen",
+        "Regele Aerys Targaryen"
+      ],
+      "numar_variante": 3,
+      "semnale": {
+        "frati_comuni": [
+          "maekar targaryen"
+        ],
+        "membru_al_comun": [
+          "house targaryen"
+        ],
+        "surse_comune": [
+          "dansul dragonilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "aerys_targaryen",
+          "scor_total": 0.62,
+          "campuri_populate": 6
+        },
+        {
+          "id": "printul_aerys_targaryen",
+          "scor_total": 0.25,
+          "campuri_populate": 3
+        },
+        {
+          "id": "regele_aerys_targaryen",
+          "scor_total": 0.62,
+          "campuri_populate": 7
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "alannys greyjoy",
+      "id_uri": [
+        "alannys_greyjoy",
+        "lady_alannys_greyjoy"
+      ],
+      "id_intern_uri": [
+        "PERSON_ALANNYS_GREYJOY",
+        "PERSON_LADY_ALANNYS_GREYJOY"
+      ],
+      "names": [
+        "Alannys Greyjoy (născută Harlaw)",
+        "Lady Alannys Greyjoy"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "casatorit_cu_comuni": [
+          "balon greyjoy"
+        ],
+        "surse_comune": [
+          "festinul ciorilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "alannys_greyjoy",
+          "scor_total": 0.75,
+          "campuri_populate": 8
+        },
+        {
+          "id": "lady_alannys_greyjoy",
+          "scor_total": 0.62,
+          "campuri_populate": 6
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "alerie tyrell",
+      "id_uri": [
+        "alerie_tyrell",
+        "lady_alerie_tyrell"
+      ],
+      "id_intern_uri": [
+        "PERSON_ALERIE_TYRELL",
+        "PERSON_LADY_ALERIE_TYRELL"
+      ],
+      "names": [
+        "Alerie Tyrell",
+        "Lady Alerie Tyrell"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "copii_comuni": [
+          "loras tyrell"
+        ],
+        "casatorit_cu_comuni": [
+          "mace tyrell"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "alerie_tyrell",
+          "scor_total": 0.5,
+          "campuri_populate": 5
+        },
+        {
+          "id": "lady_alerie_tyrell",
+          "scor_total": 0.38,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "alester florent",
+      "id_uri": [
+        "alester_florent",
+        "lordul_alester_florent"
+      ],
+      "id_intern_uri": [
+        "PERSON_ALESTER_FLORENT",
+        "PERSON_LORDUL_ALESTER_FLORENT"
+      ],
+      "names": [
+        "Alester Florent",
+        "Lordul Alester Florent"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house florent"
+        ],
+        "surse_comune": [
+          "inclestarea regilor",
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "alester_florent",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        },
+        {
+          "id": "lordul_alester_florent",
+          "scor_total": 0.38,
+          "campuri_populate": 6
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "alliser thorne",
+      "id_uri": [
+        "alliser_thorne",
+        "ser_alliser_thorne"
+      ],
+      "id_intern_uri": [
+        "PERSON_ALLISER_THORNE",
+        "PERSON_SER_ALLISER_THORNE"
+      ],
+      "names": [
+        "Alliser Thorne",
+        "Ser Alliser Thorne"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "inclestarea regilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "alliser_thorne",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "ser_alliser_thorne",
+          "scor_total": 0.25,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "amaury peake",
+      "id_uri": [
+        "amaury_peake",
+        "ser_amaury_peake"
+      ],
+      "id_intern_uri": [
+        "PERSON_AMAURY_PEAKE",
+        "PERSON_SER_AMAURY_PEAKE"
+      ],
+      "names": [
+        "Amaury Peake (ser)",
+        "ser Amaury Peake"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "foc si sange"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "amaury_peake",
+          "scor_total": 0.25,
+          "campuri_populate": 3
+        },
+        {
+          "id": "ser_amaury_peake",
+          "scor_total": 0.25,
+          "campuri_populate": 3
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "amory lorch",
+      "id_uri": [
+        "amory_lorch",
+        "ser_amory_lorch"
+      ],
+      "id_intern_uri": [
+        "PERSON_AMORY_LORCH",
+        "PERSON_SER_AMORY_LORCH"
+      ],
+      "names": [
+        "Amory Lorch",
+        "Ser Amory Lorch"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "inclestarea regilor",
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "amory_lorch",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "ser_amory_lorch",
+          "scor_total": 0.38,
+          "campuri_populate": 6
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "arthur dayne",
+      "id_uri": [
+        "arthur_dayne",
+        "ser_arthur_dayne"
+      ],
+      "id_intern_uri": [
+        "PERSON_ARTHUR_DAYNE",
+        "PERSON_SER_ARTHUR_DAYNE"
+      ],
+      "names": [
+        "Arthur Dayne",
+        "Ser Arthur Dayne (rememorare)"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "arthur_dayne",
+          "scor_total": 0.5,
+          "campuri_populate": 7
+        },
+        {
+          "id": "ser_arthur_dayne",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "arys oakheart",
+      "id_uri": [
+        "arys_oakheart",
+        "ser_arys_oakheart"
+      ],
+      "id_intern_uri": [
+        "PERSON_ARYS_OAKHEART",
+        "PERSON_SER_ARYS_OAKHEART"
+      ],
+      "names": [
+        "Arys Oakheart",
+        "Ser Arys Oakheart"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "festinul ciorilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "arys_oakheart",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        },
+        {
+          "id": "ser_arys_oakheart",
+          "scor_total": 0.5,
+          "campuri_populate": 7
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "axell florent",
+      "id_uri": [
+        "axell_florent",
+        "ser_axell_florent"
+      ],
+      "id_intern_uri": [
+        "PERSON_AXELL_FLORENT",
+        "PERSON_SER_AXELL_FLORENT"
+      ],
+      "names": [
+        "Axell Florent",
+        "Ser Axell Florent"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house florent"
+        ],
+        "surse_comune": [
+          "inclestarea regilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "axell_florent",
+          "scor_total": 0.25,
+          "campuri_populate": 3
+        },
+        {
+          "id": "ser_axell_florent",
+          "scor_total": 0.38,
+          "campuri_populate": 6
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "balon greyjoy",
+      "id_uri": [
+        "balon_greyjoy",
+        "lordul_balon_greyjoy"
+      ],
+      "id_intern_uri": [
+        "PERSON_BALON_GREYJOY",
+        "PERSON_LORDUL_BALON_GREYJOY"
+      ],
+      "names": [
+        "Balon Greyjoy",
+        "Lordul Balon Greyjoy"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "copii_comuni": [
+          "asha greyjoy",
+          "maron greyjoy",
+          "rodrik greyjoy",
+          "theon greyjoy"
+        ],
+        "casatorit_cu_comuni": [
+          "alannys greyjoy"
+        ],
+        "membru_al_comun": [
+          "house greyjoy"
+        ],
+        "surse_comune": [
+          "dansul dragonilor",
+          "inclestarea regilor",
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "balon_greyjoy",
+          "scor_total": 1.0,
+          "campuri_populate": 11
+        },
+        {
+          "id": "lordul_balon_greyjoy",
+          "scor_total": 0.62,
+          "campuri_populate": 8
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "balon swann",
+      "id_uri": [
+        "balon_swann",
+        "ser_balon_swann"
+      ],
+      "id_intern_uri": [
+        "PERSON_BALON_SWANN",
+        "PERSON_SER_BALON_SWANN"
+      ],
+      "names": [
+        "Balon Swann",
+        "Ser Balon Swann"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house swann"
+        ],
+        "surse_comune": [
+          "dansul dragonilor",
+          "festinul ciorilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "balon_swann",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        },
+        {
+          "id": "ser_balon_swann",
+          "scor_total": 0.38,
+          "campuri_populate": 6
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "barbrey dustin",
+      "id_uri": [
+        "barbrey_dustin",
+        "lady_barbrey_dustin"
+      ],
+      "id_intern_uri": [
+        "PERSON_BARBREY_DUSTIN",
+        "PERSON_LADY_BARBREY_DUSTIN"
+      ],
+      "names": [
+        "Barbrey Dustin (Lady Dustin)",
+        "Lady Barbrey Dustin"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "dansul dragonilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "barbrey_dustin",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "lady_barbrey_dustin",
+          "scor_total": 0.25,
+          "campuri_populate": 3
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "barristan selmy",
+      "id_uri": [
+        "barristan_selmy",
+        "ser_barristan_selmy"
+      ],
+      "id_intern_uri": [
+        "PERSON_BARRISTAN_SELMY",
+        "PERSON_SER_BARRISTAN_SELMY"
+      ],
+      "names": [
+        "Barristan Selmy",
+        "Ser Barristan Selmy"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "dansul dragonilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "barristan_selmy",
+          "scor_total": 0.25,
+          "campuri_populate": 5
+        },
+        {
+          "id": "ser_barristan_selmy",
+          "scor_total": 0.25,
+          "campuri_populate": 6
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "beric dondarrion",
+      "id_uri": [
+        "beric_dondarrion",
+        "lordul_beric_dondarrion"
+      ],
+      "id_intern_uri": [
+        "PERSON_BERIC_DONDARRION",
+        "PERSON_LORDUL_BERIC_DONDARRION"
+      ],
+      "names": [
+        "Beric Dondarrion",
+        "Lordul Beric Dondarrion"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house dondarrion"
+        ],
+        "surse_comune": [
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "beric_dondarrion",
+          "scor_total": 0.5,
+          "campuri_populate": 7
+        },
+        {
+          "id": "lordul_beric_dondarrion",
+          "scor_total": 0.5,
+          "campuri_populate": 7
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "bronn",
+      "id_uri": [
+        "bronn",
+        "ser_bronn"
+      ],
+      "id_intern_uri": [
+        "PERSON_BRONN",
+        "PERSON_SER_BRONN"
+      ],
+      "names": [
+        "Bronn",
+        "Ser Bronn"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "dansul dragonilor",
+          "festinul ciorilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "bronn",
+          "scor_total": 0.25,
+          "campuri_populate": 5
+        },
+        {
+          "id": "ser_bronn",
+          "scor_total": 0.12,
+          "campuri_populate": 2
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "brynden tully",
+      "id_uri": [
+        "brynden_tully",
+        "ser_brynden_tully"
+      ],
+      "id_intern_uri": [
+        "PERSON_BRYNDEN_TULLY",
+        "PERSON_SER_BRYNDEN_TULLY"
+      ],
+      "names": [
+        "Brynden Tully („Peștele Negru\")",
+        "Ser Brynden Tully (Peştele Negru)"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house tully"
+        ],
+        "surse_comune": [
+          "festinul ciorilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "brynden_tully",
+          "scor_total": 0.25,
+          "campuri_populate": 3
+        },
+        {
+          "id": "ser_brynden_tully",
+          "scor_total": 0.5,
+          "campuri_populate": 6
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "catelyn stark",
+      "id_uri": [
+        "catelyn_stark",
+        "lady_catelyn_stark"
+      ],
+      "id_intern_uri": [
+        "PERSON_CATELYN_STARK",
+        "PERSON_LADY_CATELYN_STARK"
+      ],
+      "names": [
+        "Catelyn Stark",
+        "Lady Catelyn Stark (Tully)"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "copii_comuni": [
+          "robb stark"
+        ],
+        "parinti_comuni": [
+          "hoster tully"
+        ],
+        "frati_comuni": [
+          "edmure tully"
+        ],
+        "casatorit_cu_comuni": [
+          "eddard stark"
+        ],
+        "membru_al_comun": [
+          "house stark",
+          "house tully"
+        ],
+        "surse_comune": [
+          "inclestarea regilor",
+          "iuresul sabiilor",
+          "urzeala tronurilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "catelyn_stark",
+          "scor_total": 1.0,
+          "campuri_populate": 11
+        },
+        {
+          "id": "lady_catelyn_stark",
+          "scor_total": 0.88,
+          "campuri_populate": 9
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "clayton suggs",
+      "id_uri": [
+        "clayton_suggs",
+        "ser_clayton_suggs"
+      ],
+      "id_intern_uri": [
+        "PERSON_CLAYTON_SUGGS",
+        "PERSON_SER_CLAYTON_SUGGS"
+      ],
+      "names": [
+        "Clayton Suggs",
+        "Ser Clayton Suggs"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "dansul dragonilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "clayton_suggs",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "ser_clayton_suggs",
+          "scor_total": 0.25,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "cleos frey",
+      "id_uri": [
+        "cleos_frey",
+        "ser_cleos_frey"
+      ],
+      "id_intern_uri": [
+        "PERSON_CLEOS_FREY",
+        "PERSON_SER_CLEOS_FREY"
+      ],
+      "names": [
+        "Cleos Frey",
+        "Ser Cleos Frey"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house frey"
+        ],
+        "surse_comune": [
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "cleos_frey",
+          "scor_total": 0.38,
+          "campuri_populate": 4
+        },
+        {
+          "id": "ser_cleos_frey",
+          "scor_total": 0.62,
+          "campuri_populate": 8
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "colemon",
+      "id_uri": [
+        "colemon",
+        "maester_colemon"
+      ],
+      "id_intern_uri": [
+        "PERSON_COLEMON",
+        "PERSON_MAESTER_COLEMON"
+      ],
+      "names": [
+        "Colemon",
+        "Maester Colemon"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "festinul ciorilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "colemon",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "maester_colemon",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "cortnay penrose",
+      "id_uri": [
+        "cortnay_penrose",
+        "ser_cortnay_penrose"
+      ],
+      "id_intern_uri": [
+        "PERSON_CORTNAY_PENROSE",
+        "PERSON_SER_CORTNAY_PENROSE"
+      ],
+      "names": [
+        "Cortnay Penrose",
+        "Ser Cortnay Penrose"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "inclestarea regilor",
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "cortnay_penrose",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        },
+        {
+          "id": "ser_cortnay_penrose",
+          "scor_total": 0.5,
+          "campuri_populate": 7
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "corwyn corbray",
+      "id_uri": [
+        "corwyn_corbray",
+        "ser_corwyn_corbray"
+      ],
+      "id_intern_uri": [
+        "PERSON_CORWYN_CORBRAY",
+        "PERSON_SER_CORWYN_CORBRAY"
+      ],
+      "names": [
+        "Corwyn Corbray (ser)",
+        "ser Corwyn Corbray"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house corbray"
+        ],
+        "surse_comune": [
+          "foc si sange"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "corwyn_corbray",
+          "scor_total": 0.62,
+          "campuri_populate": 7
+        },
+        {
+          "id": "ser_corwyn_corbray",
+          "scor_total": 0.25,
+          "campuri_populate": 3
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "cotter pyke",
+      "id_uri": [
+        "cotter_pyke",
+        "ser_cotter_pyke"
+      ],
+      "id_intern_uri": [
+        "PERSON_COTTER_PYKE",
+        "PERSON_SER_COTTER_PYKE"
+      ],
+      "names": [
+        "Cotter Pyke",
+        "Ser Cotter Pyke"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "dansul dragonilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "cotter_pyke",
+          "scor_total": 0.25,
+          "campuri_populate": 5
+        },
+        {
+          "id": "ser_cotter_pyke",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "cressen",
+      "id_uri": [
+        "cressen",
+        "maester_cressen"
+      ],
+      "id_intern_uri": [
+        "PERSON_CRESSEN",
+        "PERSON_MAESTER_CRESSEN"
+      ],
+      "names": [
+        "Cressen",
+        "Maester Cressen"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "urzeala tronurilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "cressen",
+          "scor_total": 0.12,
+          "campuri_populate": 2
+        },
+        {
+          "id": "maester_cressen",
+          "scor_total": 0.38,
+          "campuri_populate": 6
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "criston cole",
+      "id_uri": [
+        "criston_cole",
+        "ser_criston_cole"
+      ],
+      "id_intern_uri": [
+        "PERSON_CRISTON_COLE",
+        "PERSON_SER_CRISTON_COLE"
+      ],
+      "names": [
+        "Criston Cole",
+        "Ser Criston Cole („Făcătorul de Regi”)"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "foc si sange"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "criston_cole",
+          "scor_total": 0.25,
+          "campuri_populate": 5
+        },
+        {
+          "id": "ser_criston_cole",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "daeron cel bun",
+      "id_uri": [
+        "daeron_cel_bun",
+        "regele_daeron_cel_bun"
+      ],
+      "id_intern_uri": [
+        "PERSON_DAERON_CEL_BUN",
+        "PERSON_REGELE_DAERON_CEL_BUN"
+      ],
+      "names": [
+        "Daeron cel Bun (Daeron II Targaryen)",
+        "Regele Daeron cel Bun"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "dansul dragonilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "daeron_cel_bun",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        },
+        {
+          "id": "regele_daeron_cel_bun",
+          "scor_total": 0.5,
+          "campuri_populate": 6
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "daven lannister",
+      "id_uri": [
+        "daven_lannister",
+        "ser_daven_lannister"
+      ],
+      "id_intern_uri": [
+        "PERSON_DAVEN_LANNISTER",
+        "PERSON_SER_DAVEN_LANNISTER"
+      ],
+      "names": [
+        "Daven Lannister",
+        "Ser Daven Lannister"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house lannister"
+        ],
+        "surse_comune": [
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "daven_lannister",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        },
+        {
+          "id": "ser_daven_lannister",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "dontos cel rosu",
+      "id_uri": [
+        "dontos_cel_rosu",
+        "ser_dontos_cel_rosu"
+      ],
+      "id_intern_uri": [
+        "PERSON_DONTOS_CEL_ROSU",
+        "PERSON_SER_DONTOS_CEL_ROSU"
+      ],
+      "names": [
+        "Dontos cel Roșu",
+        "Ser Dontos cel Roșu"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "festinul ciorilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "dontos_cel_rosu",
+          "scor_total": 0.12,
+          "campuri_populate": 2
+        },
+        {
+          "id": "ser_dontos_cel_rosu",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "dontos hollard",
+      "id_uri": [
+        "dontos_hollard",
+        "ser_dontos_hollard"
+      ],
+      "id_intern_uri": [
+        "PERSON_DONTOS_HOLLARD",
+        "PERSON_SER_DONTOS_HOLLARD"
+      ],
+      "names": [
+        "Dontos Hollard",
+        "Ser Dontos Hollard"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house hollard"
+        ],
+        "surse_comune": [
+          "festinul ciorilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "dontos_hollard",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        },
+        {
+          "id": "ser_dontos_hollard",
+          "scor_total": 0.5,
+          "campuri_populate": 7
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "doran martell",
+      "id_uri": [
+        "doran_martell",
+        "lordul_doran_martell",
+        "printul_doran_martell"
+      ],
+      "id_intern_uri": [
+        "PERSON_DORAN_MARTELL",
+        "PERSON_LORDUL_DORAN_MARTELL",
+        "PERSON_PRINTUL_DORAN_MARTELL"
+      ],
+      "names": [
+        "Doran Martell",
+        "Lordul Doran Martell",
+        "Prinţul Doran Martell"
+      ],
+      "numar_variante": 3,
+      "semnale": {
+        "copii_comuni": [
+          "quentyn martell",
+          "trystane"
+        ],
+        "frati_comuni": [
+          "elia martell",
+          "oberyn martell"
+        ],
+        "membru_al_comun": [
+          "house martell"
+        ],
+        "surse_comune": [
+          "inclestarea regilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "doran_martell",
+          "scor_total": 0.75,
+          "campuri_populate": 9
+        },
+        {
+          "id": "lordul_doran_martell",
+          "scor_total": 0.62,
+          "campuri_populate": 7
+        },
+        {
+          "id": "printul_doran_martell",
+          "scor_total": 0.62,
+          "campuri_populate": 8
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "edmure tully",
+      "id_uri": [
+        "edmure_tully",
+        "ser_edmure_tully"
+      ],
+      "id_intern_uri": [
+        "PERSON_EDMURE_TULLY",
+        "PERSON_SER_EDMURE_TULLY"
+      ],
+      "names": [
+        "Edmure Tully",
+        "Ser Edmure Tully"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "parinti_comuni": [
+          "hoster tully"
+        ],
+        "frati_comuni": [
+          "catelyn stark",
+          "lysa arryn"
+        ],
+        "membru_al_comun": [
+          "house tully"
+        ],
+        "surse_comune": [
+          "inclestarea regilor",
+          "urzeala tronurilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "edmure_tully",
+          "scor_total": 0.75,
+          "campuri_populate": 9
+        },
+        {
+          "id": "ser_edmure_tully",
+          "scor_total": 0.62,
+          "campuri_populate": 7
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "elia martell",
+      "id_uri": [
+        "elia_martell",
+        "printesa_elia_martell"
+      ],
+      "id_intern_uri": [
+        "PERSON_ELIA_MARTELL",
+        "PERSON_PRINTESA_ELIA_MARTELL"
+      ],
+      "names": [
+        "Elia Martell",
+        "Prințesa Elia Martell"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "copii_comuni": [
+          "rhaenys targaryen"
+        ],
+        "frati_comuni": [
+          "doran martell",
+          "oberyn martell"
+        ],
+        "membru_al_comun": [
+          "house martell"
+        ],
+        "surse_comune": [
+          "dansul dragonilor",
+          "festinul ciorilor",
+          "iuresul sabiilor",
+          "urzeala tronurilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "elia_martell",
+          "scor_total": 0.88,
+          "campuri_populate": 9
+        },
+        {
+          "id": "printesa_elia_martell",
+          "scor_total": 0.62,
+          "campuri_populate": 6
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "emmon frey",
+      "id_uri": [
+        "emmon_frey",
+        "ser_emmon_frey"
+      ],
+      "id_intern_uri": [
+        "PERSON_EMMON_FREY",
+        "PERSON_SER_EMMON_FREY"
+      ],
+      "names": [
+        "Emmon Frey",
+        "Ser Emmon Frey"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house frey"
+        ],
+        "surse_comune": [
+          "festinul ciorilor",
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "emmon_frey",
+          "scor_total": 0.5,
+          "campuri_populate": 7
+        },
+        {
+          "id": "ser_emmon_frey",
+          "scor_total": 0.5,
+          "campuri_populate": 6
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "ermesande hayford",
+      "id_uri": [
+        "ermesande_hayford",
+        "lady_ermesande_hayford"
+      ],
+      "id_intern_uri": [
+        "PERSON_ERMESANDE_HAYFORD",
+        "PERSON_LADY_ERMESANDE_HAYFORD"
+      ],
+      "names": [
+        "Ermesande Hayford",
+        "Lady Ermesande Hayford"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house hayford"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "ermesande_hayford",
+          "scor_total": 0.5,
+          "campuri_populate": 6
+        },
+        {
+          "id": "lady_ermesande_hayford",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "gareth long",
+      "id_uri": [
+        "gareth_long",
+        "ser_gareth_long"
+      ],
+      "id_intern_uri": [
+        "PERSON_GARETH_LONG",
+        "PERSON_SER_GARETH_LONG"
+      ],
+      "names": [
+        "Gareth Long (ser)",
+        "ser Gareth Long"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "foc si sange"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "gareth_long",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "ser_gareth_long",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "garlan tyrell",
+      "id_uri": [
+        "garlan_tyrell",
+        "ser_garlan_tyrell"
+      ],
+      "id_intern_uri": [
+        "PERSON_GARLAN_TYRELL",
+        "PERSON_SER_GARLAN_TYRELL"
+      ],
+      "names": [
+        "Garlan Tyrell",
+        "Ser Garlan Tyrell"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "parinti_comuni": [
+          "mace tyrell"
+        ],
+        "frati_comuni": [
+          "loras tyrell",
+          "margaery",
+          "margaery tyrell"
+        ],
+        "membru_al_comun": [
+          "house tyrell"
+        ],
+        "surse_comune": [
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "garlan_tyrell",
+          "scor_total": 0.62,
+          "campuri_populate": 7
+        },
+        {
+          "id": "ser_garlan_tyrell",
+          "scor_total": 0.62,
+          "campuri_populate": 7
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "gawen westerling",
+      "id_uri": [
+        "gawen_westerling",
+        "lordul_gawen_westerling"
+      ],
+      "id_intern_uri": [
+        "PERSON_GAWEN_WESTERLING",
+        "PERSON_LORDUL_GAWEN_WESTERLING"
+      ],
+      "names": [
+        "Gawen Westerling",
+        "Lordul Gawen Westerling"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "copii_comuni": [
+          "jeyne westerling"
+        ],
+        "membru_al_comun": [
+          "house westerling"
+        ],
+        "surse_comune": [
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "gawen_westerling",
+          "scor_total": 0.5,
+          "campuri_populate": 6
+        },
+        {
+          "id": "lordul_gawen_westerling",
+          "scor_total": 0.62,
+          "campuri_populate": 7
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "gerris drinkwater",
+      "id_uri": [
+        "gerris_drinkwater",
+        "ser_gerris_drinkwater"
+      ],
+      "id_intern_uri": [
+        "PERSON_GERRIS_DRINKWATER",
+        "PERSON_SER_GERRIS_DRINKWATER"
+      ],
+      "names": [
+        "Gerris Drinkwater",
+        "Ser Gerris Drinkwater"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "dansul dragonilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "gerris_drinkwater",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        },
+        {
+          "id": "ser_gerris_drinkwater",
+          "scor_total": 0.12,
+          "campuri_populate": 3
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "gregor clegane",
+      "id_uri": [
+        "gregor_clegane",
+        "ser_gregor_clegane"
+      ],
+      "id_intern_uri": [
+        "PERSON_GREGOR_CLEGANE",
+        "PERSON_SER_GREGOR_CLEGANE"
+      ],
+      "names": [
+        "Gregor Clegane",
+        "Ser Gregor Clegane"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house clegane"
+        ],
+        "surse_comune": [
+          "dansul dragonilor",
+          "inclestarea regilor",
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "gregor_clegane",
+          "scor_total": 0.5,
+          "campuri_populate": 7
+        },
+        {
+          "id": "ser_gregor_clegane",
+          "scor_total": 0.62,
+          "campuri_populate": 8
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "gwynesse harlaw",
+      "id_uri": [
+        "gwynesse_harlaw",
+        "lady_gwynesse_harlaw"
+      ],
+      "id_intern_uri": [
+        "PERSON_GWYNESSE_HARLAW",
+        "PERSON_LADY_GWYNESSE_HARLAW"
+      ],
+      "names": [
+        "Gwynesse Harlaw",
+        "Lady Gwynesse Harlaw"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "festinul ciorilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "gwynesse_harlaw",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        },
+        {
+          "id": "lady_gwynesse_harlaw",
+          "scor_total": 0.25,
+          "campuri_populate": 3
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "gyles",
+      "id_uri": [
+        "gyles",
+        "lord_gyles",
+        "lordul_gyles"
+      ],
+      "id_intern_uri": [
+        "PERSON_GYLES",
+        "PERSON_LORD_GYLES",
+        "PERSON_LORDUL_GYLES"
+      ],
+      "names": [
+        "Gyles (Rosby)",
+        "Lord Gyles",
+        "Lordul Gyles"
+      ],
+      "numar_variante": 3,
+      "semnale": {
+        "surse_comune": [
+          "festinul ciorilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "gyles",
+          "scor_total": 0.12,
+          "campuri_populate": 2
+        },
+        {
+          "id": "lord_gyles",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "lordul_gyles",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "gyles rosby",
+      "id_uri": [
+        "gyles_rosby",
+        "lordul_gyles_rosby"
+      ],
+      "id_intern_uri": [
+        "PERSON_GYLES_ROSBY",
+        "PERSON_LORDUL_GYLES_ROSBY"
+      ],
+      "names": [
+        "Gyles Rosby",
+        "Lordul Gyles Rosby"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "festinul ciorilor",
+          "inclestarea regilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "gyles_rosby",
+          "scor_total": 0.5,
+          "campuri_populate": 6
+        },
+        {
+          "id": "lordul_gyles_rosby",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "harys swyft",
+      "id_uri": [
+        "harys_swyft",
+        "ser_harys_swyft"
+      ],
+      "id_intern_uri": [
+        "PERSON_HARYS_SWYFT",
+        "PERSON_SER_HARYS_SWYFT"
+      ],
+      "names": [
+        "Harys Swyft",
+        "Ser Harys Swyft"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "festinul ciorilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "harys_swyft",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        },
+        {
+          "id": "ser_harys_swyft",
+          "scor_total": 0.25,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "helman tallhart",
+      "id_uri": [
+        "helman_tallhart",
+        "ser_helman_tallhart"
+      ],
+      "id_intern_uri": [
+        "PERSON_HELMAN_TALLHART",
+        "PERSON_SER_HELMAN_TALLHART"
+      ],
+      "names": [
+        "Helman Tallhart",
+        "Ser Helman Tallhart"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "copii_comuni": [
+          "benfred tallhart"
+        ],
+        "membru_al_comun": [
+          "house tallhart"
+        ],
+        "surse_comune": [
+          "festinul ciorilor",
+          "inclestarea regilor",
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "helman_tallhart",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        },
+        {
+          "id": "ser_helman_tallhart",
+          "scor_total": 0.62,
+          "campuri_populate": 8
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "hornwood",
+      "id_uri": [
+        "hornwood",
+        "lady_hornwood"
+      ],
+      "id_intern_uri": [
+        "PERSON_HORNWOOD",
+        "PERSON_LADY_HORNWOOD"
+      ],
+      "names": [
+        "Hornwood",
+        "Lady Hornwood"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house hornwood"
+        ],
+        "surse_comune": [
+          "dansul dragonilor",
+          "inclestarea regilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "hornwood",
+          "scor_total": 0.25,
+          "campuri_populate": 3
+        },
+        {
+          "id": "lady_hornwood",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "hosteen frey",
+      "id_uri": [
+        "hosteen_frey",
+        "ser_hosteen_frey"
+      ],
+      "id_intern_uri": [
+        "PERSON_HOSTEEN_FREY",
+        "PERSON_SER_HOSTEEN_FREY"
+      ],
+      "names": [
+        "Hosteen Frey",
+        "Ser Hosteen Frey"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "dansul dragonilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "hosteen_frey",
+          "scor_total": 0.25,
+          "campuri_populate": 3
+        },
+        {
+          "id": "ser_hosteen_frey",
+          "scor_total": 0.5,
+          "campuri_populate": 7
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "hoster tully",
+      "id_uri": [
+        "hoster_tully",
+        "lordul_hoster_tully"
+      ],
+      "id_intern_uri": [
+        "PERSON_HOSTER_TULLY",
+        "PERSON_LORDUL_HOSTER_TULLY"
+      ],
+      "names": [
+        "Hoster Tully",
+        "Lordul Hoster Tully"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "copii_comuni": [
+          "catelyn stark",
+          "catelyn tully",
+          "edmure tully",
+          "lysa arryn"
+        ],
+        "frati_comuni": [
+          "brynden tully"
+        ],
+        "membru_al_comun": [
+          "house tully"
+        ],
+        "surse_comune": [
+          "inclestarea regilor",
+          "iuresul sabiilor",
+          "urzeala tronurilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "hoster_tully",
+          "scor_total": 0.75,
+          "campuri_populate": 9
+        },
+        {
+          "id": "lordul_hoster_tully",
+          "scor_total": 0.75,
+          "campuri_populate": 8
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "ilyn payne",
+      "id_uri": [
+        "ilyn_payne",
+        "ser_ilyn_payne"
+      ],
+      "id_intern_uri": [
+        "PERSON_ILYN_PAYNE",
+        "PERSON_SER_ILYN_PAYNE"
+      ],
+      "names": [
+        "Ilyn Payne",
+        "Ser Ilyn Payne"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house payne"
+        ],
+        "surse_comune": [
+          "festinul ciorilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "ilyn_payne",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        },
+        {
+          "id": "ser_ilyn_payne",
+          "scor_total": 0.38,
+          "campuri_populate": 6
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "jacelyn bywater",
+      "id_uri": [
+        "jacelyn_bywater",
+        "ser_jacelyn_bywater"
+      ],
+      "id_intern_uri": [
+        "PERSON_JACELYN_BYWATER",
+        "PERSON_SER_JACELYN_BYWATER"
+      ],
+      "names": [
+        "Jacelyn Bywater",
+        "Ser Jacelyn Bywater"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "inclestarea regilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "jacelyn_bywater",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "ser_jacelyn_bywater",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "jaehaerys",
+      "id_uri": [
+        "jaehaerys",
+        "regele_jaehaerys"
+      ],
+      "id_intern_uri": [
+        "PERSON_JAEHAERYS",
+        "PERSON_REGELE_JAEHAERYS"
+      ],
+      "names": [
+        "Jaehaerys (fiul lui Aegon cel Nesigur)",
+        "Regele Jaehaerys"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house targaryen"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "jaehaerys",
+          "scor_total": 0.75,
+          "campuri_populate": 8
+        },
+        {
+          "id": "regele_jaehaerys",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "jaehaerys i targaryen",
+      "id_uri": [
+        "jaehaerys_i",
+        "regele_jaehaerys_i_targaryen"
+      ],
+      "id_intern_uri": [
+        "PERSON_JAEHAERYS_I_TARGARYEN",
+        "PERSON_REGELE_JAEHAERYS_I_TARGARYEN"
+      ],
+      "names": [
+        "Jaehaerys I Targaryen",
+        "Regele Jaehaerys I Targaryen"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house targaryen"
+        ],
+        "house_comun": "targaryen"
+      },
+      "scor_completitudine": [
+        {
+          "id": "jaehaerys_i",
+          "scor_total": 1.0,
+          "campuri_populate": 16
+        },
+        {
+          "id": "regele_jaehaerys_i_targaryen",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "jaehaerys targaryen",
+      "id_uri": [
+        "jaehaerys_targaryen",
+        "regele_jaehaerys_targaryen"
+      ],
+      "id_intern_uri": [
+        "PERSON_JAEHAERYS_TARGARYEN",
+        "PERSON_REGELE_JAEHAERYS_TARGARYEN"
+      ],
+      "names": [
+        "Jaehaerys Targaryen (fiul lui Aenys)",
+        "Regele Jaehaerys Targaryen (menționat istoric)"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house targaryen"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "jaehaerys_targaryen",
+          "scor_total": 0.5,
+          "campuri_populate": 5
+        },
+        {
+          "id": "regele_jaehaerys_targaryen",
+          "scor_total": 0.25,
+          "campuri_populate": 3
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "jared frey",
+      "id_uri": [
+        "jared_frey",
+        "ser_jared_frey"
+      ],
+      "id_intern_uri": [
+        "PERSON_JARED_FREY",
+        "PERSON_SER_JARED_FREY"
+      ],
+      "names": [
+        "Jared Frey",
+        "Ser Jared Frey"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house frey"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "jared_frey",
+          "scor_total": 0.25,
+          "campuri_populate": 3
+        },
+        {
+          "id": "ser_jared_frey",
+          "scor_total": 0.25,
+          "campuri_populate": 3
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "jason mallister",
+      "id_uri": [
+        "jason_mallister",
+        "lordul_jason_mallister"
+      ],
+      "id_intern_uri": [
+        "PERSON_JASON_MALLISTER",
+        "PERSON_LORDUL_JASON_MALLISTER"
+      ],
+      "names": [
+        "Jason Mallister",
+        "Lordul Jason Mallister"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house mallister"
+        ],
+        "surse_comune": [
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "jason_mallister",
+          "scor_total": 0.5,
+          "campuri_populate": 7
+        },
+        {
+          "id": "lordul_jason_mallister",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "joanna lannister",
+      "id_uri": [
+        "joanna_lannister",
+        "lady_joanna_lannister"
+      ],
+      "id_intern_uri": [
+        "PERSON_JOANNA_LANNISTER",
+        "PERSON_LADY_JOANNA_LANNISTER"
+      ],
+      "names": [
+        "Joanna Lannister",
+        "Lady Joanna Lannister"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "copii_comuni": [
+          "cersei lannister"
+        ],
+        "casatorit_cu_comuni": [
+          "tywin lannister"
+        ],
+        "membru_al_comun": [
+          "house lannister"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "joanna_lannister",
+          "scor_total": 0.62,
+          "campuri_populate": 6
+        },
+        {
+          "id": "lady_joanna_lannister",
+          "scor_total": 0.75,
+          "campuri_populate": 8
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "joffrey",
+      "id_uri": [
+        "joffrey",
+        "printul_joffrey"
+      ],
+      "id_intern_uri": [
+        "PERSON_JOFFREY",
+        "PERSON_PRINTUL_JOFFREY"
+      ],
+      "names": [
+        "Joffrey",
+        "Prinţul Joffrey"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "parinti_comuni": [
+          "jaime lannister"
+        ],
+        "surse_comune": [
+          "focul si sangele",
+          "urzeala tronurilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "joffrey",
+          "scor_total": 0.88,
+          "campuri_populate": 10
+        },
+        {
+          "id": "printul_joffrey",
+          "scor_total": 0.5,
+          "campuri_populate": 7
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "johanna lannister",
+      "id_uri": [
+        "johanna_lannister",
+        "lady_johanna_lannister"
+      ],
+      "id_intern_uri": [
+        "PERSON_JOHANNA_LANNISTER",
+        "PERSON_LADY_JOHANNA_LANNISTER"
+      ],
+      "names": [
+        "Johanna Lannister (lady)",
+        "lady Johanna Lannister"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house lannister"
+        ],
+        "surse_comune": [
+          "foc si sange"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "johanna_lannister",
+          "scor_total": 0.62,
+          "campuri_populate": 7
+        },
+        {
+          "id": "lady_johanna_lannister",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "jon arryn",
+      "id_uri": [
+        "jon_arryn",
+        "lordul_jon_arryn"
+      ],
+      "id_intern_uri": [
+        "PERSON_JON_ARRYN",
+        "PERSON_LORDUL_JON_ARRYN"
+      ],
+      "names": [
+        "Jon Arryn",
+        "Lordul Jon Arryn"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "casatorit_cu_comuni": [
+          "lysa arryn"
+        ],
+        "membru_al_comun": [
+          "house arryn"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "jon_arryn",
+          "scor_total": 1.0,
+          "campuri_populate": 11
+        },
+        {
+          "id": "lordul_jon_arryn",
+          "scor_total": 0.62,
+          "campuri_populate": 7
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "jon stark",
+      "id_uri": [
+        "jon_stark",
+        "regele_jon_stark"
+      ],
+      "id_intern_uri": [
+        "PERSON_JON_STARK",
+        "PERSON_REGELE_JON_STARK"
+      ],
+      "names": [
+        "Jon Stark",
+        "Regele Jon Stark"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house stark"
+        ],
+        "surse_comune": [
+          "dansul dragonilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "jon_stark",
+          "scor_total": 0.5,
+          "campuri_populate": 5
+        },
+        {
+          "id": "regele_jon_stark",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "jorah mormont",
+      "id_uri": [
+        "jorah_mormont",
+        "ser_jorah_mormont"
+      ],
+      "id_intern_uri": [
+        "PERSON_JORAH_MORMONT",
+        "PERSON_SER_JORAH_MORMONT"
+      ],
+      "names": [
+        "Jorah Mormont",
+        "Ser Jorah Mormont"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "parinti_comuni": [
+          "jeor mormont"
+        ],
+        "membru_al_comun": [
+          "house mormont"
+        ],
+        "surse_comune": [
+          "dansul dragonilor",
+          "inclestarea regilor",
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "jorah_mormont",
+          "scor_total": 0.5,
+          "campuri_populate": 7
+        },
+        {
+          "id": "ser_jorah_mormont",
+          "scor_total": 0.5,
+          "campuri_populate": 7
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "karyl vance",
+      "id_uri": [
+        "karyl_vance",
+        "ser_karyl_vance"
+      ],
+      "id_intern_uri": [
+        "PERSON_KARYL_VANCE",
+        "PERSON_SER_KARYL_VANCE"
+      ],
+      "names": [
+        "Karyl Vance",
+        "Ser Karyl Vance"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house vance"
+        ],
+        "surse_comune": [
+          "urzeala tronurilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "karyl_vance",
+          "scor_total": 0.38,
+          "campuri_populate": 6
+        },
+        {
+          "id": "ser_karyl_vance",
+          "scor_total": 0.25,
+          "campuri_populate": 3
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "kevan lannister",
+      "id_uri": [
+        "kevan_lannister",
+        "ser_kevan_lannister"
+      ],
+      "id_intern_uri": [
+        "PERSON_KEVAN_LANNISTER",
+        "PERSON_SER_KEVAN_LANNISTER"
+      ],
+      "names": [
+        "Kevan Lannister",
+        "Ser Kevan Lannister"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "copii_comuni": [
+          "lancel",
+          "lancel lannister",
+          "martyn lannister"
+        ],
+        "frati_comuni": [
+          "tywin lannister"
+        ],
+        "membru_al_comun": [
+          "house lannister"
+        ],
+        "surse_comune": [
+          "dansul dragonilor",
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "kevan_lannister",
+          "scor_total": 0.62,
+          "campuri_populate": 7
+        },
+        {
+          "id": "ser_kevan_lannister",
+          "scor_total": 0.75,
+          "campuri_populate": 9
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "lancel lannister",
+      "id_uri": [
+        "lancel_lannister",
+        "regele_lancel_lannister",
+        "ser_lancel_lannister"
+      ],
+      "id_intern_uri": [
+        "PERSON_LANCEL_LANNISTER",
+        "PERSON_REGELE_LANCEL_LANNISTER",
+        "PERSON_SER_LANCEL_LANNISTER"
+      ],
+      "names": [
+        "Lancel Lannister",
+        "Regele Lancel Lannister (al patrulea sau al cincilea cu acest nume — neclar)",
+        "Ser Lancel Lannister"
+      ],
+      "numar_variante": 3,
+      "semnale": {
+        "parinti_comuni": [
+          "kevan lannister"
+        ],
+        "membru_al_comun": [
+          "house lannister"
+        ],
+        "surse_comune": [
+          "cavalerul celor 7 regate"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lancel_lannister",
+          "scor_total": 0.75,
+          "campuri_populate": 9
+        },
+        {
+          "id": "regele_lancel_lannister",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        },
+        {
+          "id": "ser_lancel_lannister",
+          "scor_total": 0.38,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "lefford",
+      "id_uri": [
+        "lefford",
+        "lordul_lefford"
+      ],
+      "id_intern_uri": [
+        "PERSON_LEFFORD",
+        "PERSON_LORDUL_LEFFORD"
+      ],
+      "names": [
+        "Lefford",
+        "Lordul Lefford"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "focul si sangele"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lefford",
+          "scor_total": 0.12,
+          "campuri_populate": 2
+        },
+        {
+          "id": "lordul_lefford",
+          "scor_total": 0.25,
+          "campuri_populate": 3
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "lemore",
+      "id_uri": [
+        "lady_lemore",
+        "lemore",
+        "septa_lemore"
+      ],
+      "id_intern_uri": [
+        "PERSON_LADY_LEMORE",
+        "PERSON_LEMORE",
+        "PERSON_SEPTA_LEMORE"
+      ],
+      "names": [
+        "Lady Lemore",
+        "Lemore",
+        "Septa Lemore"
+      ],
+      "numar_variante": 3,
+      "semnale": {
+        "surse_comune": [
+          "dansul dragonilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lady_lemore",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "lemore",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "septa_lemore",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "leo tyrell",
+      "id_uri": [
+        "leo_tyrell",
+        "lordul_leo_tyrell"
+      ],
+      "id_intern_uri": [
+        "PERSON_LEO_TYRELL",
+        "PERSON_LORDUL_LEO_TYRELL"
+      ],
+      "names": [
+        "Leo Tyrell",
+        "Lordul Leo Tyrell („Leo Ghimpe-Lung\")"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house tyrell"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "leo_tyrell",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "lordul_leo_tyrell",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "lewyn martell",
+      "id_uri": [
+        "lewyn_martell",
+        "printul_lewyn_martell"
+      ],
+      "id_intern_uri": [
+        "PERSON_LEWYN_MARTELL",
+        "PERSON_PRINTUL_LEWYN_MARTELL"
+      ],
+      "names": [
+        "Lewyn Martell",
+        "Prinţul Lewyn Martell"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house martell"
+        ],
+        "surse_comune": [
+          "dansul dragonilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lewyn_martell",
+          "scor_total": 0.5,
+          "campuri_populate": 6
+        },
+        {
+          "id": "printul_lewyn_martell",
+          "scor_total": 0.5,
+          "campuri_populate": 6
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "loras tyrell",
+      "id_uri": [
+        "loras_tyrell",
+        "ser_loras_tyrell"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORAS_TYRELL",
+        "PERSON_SER_LORAS_TYRELL"
+      ],
+      "names": [
+        "Loras Tyrell",
+        "Ser Loras Tyrell"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "parinti_comuni": [
+          "alerie tyrell",
+          "mace tyrell"
+        ],
+        "frati_comuni": [
+          "garlan tyrell",
+          "margaery",
+          "margaery tyrell",
+          "willas tyrell"
+        ],
+        "membru_al_comun": [
+          "house tyrell"
+        ],
+        "surse_comune": [
+          "dansul dragonilor",
+          "festinul ciorilor",
+          "inclestarea regilor",
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "loras_tyrell",
+          "scor_total": 0.75,
+          "campuri_populate": 9
+        },
+        {
+          "id": "ser_loras_tyrell",
+          "scor_total": 0.62,
+          "campuri_populate": 8
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "lothor brune",
+      "id_uri": [
+        "lothor_brune",
+        "ser_lothor_brune"
+      ],
+      "id_intern_uri": [
+        "PERSON_LOTHOR_BRUNE",
+        "PERSON_SER_LOTHOR_BRUNE"
+      ],
+      "names": [
+        "Lothor Brune",
+        "Ser Lothor Brune"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "festinul ciorilor",
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lothor_brune",
+          "scor_total": 0.25,
+          "campuri_populate": 5
+        },
+        {
+          "id": "ser_lothor_brune",
+          "scor_total": 0.25,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "luwin",
+      "id_uri": [
+        "luwin",
+        "maester_luwin"
+      ],
+      "id_intern_uri": [
+        "PERSON_LUWIN",
+        "PERSON_MAESTER_LUWIN"
+      ],
+      "names": [
+        "Luwin",
+        "Maester Luwin"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "inclestarea regilor",
+          "urzeala tronurilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "luwin",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "maester_luwin",
+          "scor_total": 0.38,
+          "campuri_populate": 6
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "lysa arryn",
+      "id_uri": [
+        "lady_lysa_arryn",
+        "lysa_arryn"
+      ],
+      "id_intern_uri": [
+        "PERSON_LADY_LYSA_ARRYN",
+        "PERSON_LYSA_ARRYN"
+      ],
+      "names": [
+        "Lady Lysa Arryn (născută Tully)",
+        "Lysa Arryn"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "copii_comuni": [
+          "robert arryn"
+        ],
+        "frati_comuni": [
+          "catelyn stark"
+        ],
+        "casatorit_cu_comuni": [
+          "jon arryn"
+        ],
+        "membru_al_comun": [
+          "house arryn",
+          "house tully"
+        ],
+        "surse_comune": [
+          "iuresul sabiilor",
+          "urzeala tronurilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lady_lysa_arryn",
+          "scor_total": 0.62,
+          "campuri_populate": 6
+        },
+        {
+          "id": "lysa_arryn",
+          "scor_total": 1.0,
+          "campuri_populate": 11
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "mace tyrell",
+      "id_uri": [
+        "lordul_mace_tyrell",
+        "mace_tyrell"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_MACE_TYRELL",
+        "PERSON_MACE_TYRELL"
+      ],
+      "names": [
+        "Lordul Mace Tyrell",
+        "Mace Tyrell"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "copii_comuni": [
+          "garlan tyrell",
+          "loras tyrell",
+          "margaery",
+          "willas tyrell"
+        ],
+        "membru_al_comun": [
+          "house tyrell"
+        ],
+        "surse_comune": [
+          "inclestarea regilor",
+          "iuresul sabiilor",
+          "urzeala tronurilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lordul_mace_tyrell",
+          "scor_total": 0.62,
+          "campuri_populate": 8
+        },
+        {
+          "id": "mace_tyrell",
+          "scor_total": 0.75,
+          "campuri_populate": 9
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "maege mormont",
+      "id_uri": [
+        "lady_maege_mormont",
+        "maege_mormont"
+      ],
+      "id_intern_uri": [
+        "PERSON_LADY_MAEGE_MORMONT",
+        "PERSON_MAEGE_MORMONT"
+      ],
+      "names": [
+        "Lady Maege Mormont",
+        "Maege Mormont"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house mormont"
+        ],
+        "surse_comune": [
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lady_maege_mormont",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        },
+        {
+          "id": "maege_mormont",
+          "scor_total": 0.5,
+          "campuri_populate": 7
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "maegor i targaryen",
+      "id_uri": [
+        "maegor_i",
+        "maegor_i_targaryen"
+      ],
+      "id_intern_uri": [
+        "",
+        "PERSON_MAEGOR_I_TARGARYEN"
+      ],
+      "names": [
+        "Maegor I Targaryen",
+        "Maegor I Targaryen (Maegor cel Crud)"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "house_comun": "targaryen"
+      },
+      "scor_completitudine": [
+        {
+          "id": "maegor_i",
+          "scor_total": null,
+          "campuri_populate": 7
+        },
+        {
+          "id": "maegor_i_targaryen",
+          "scor_total": 0.75,
+          "campuri_populate": 9
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "maekar targaryen",
+      "id_uri": [
+        "maekar_targaryen",
+        "printul_maekar_targaryen"
+      ],
+      "id_intern_uri": [
+        "PERSON_MAEKAR_TARGARYEN",
+        "PERSON_PRINTUL_MAEKAR_TARGARYEN"
+      ],
+      "names": [
+        "Maekar Targaryen",
+        "Prințul Maekar Targaryen"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house targaryen"
+        ],
+        "surse_comune": [
+          "cavalerul celor sapte regate"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "maekar_targaryen",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        },
+        {
+          "id": "printul_maekar_targaryen",
+          "scor_total": 0.75,
+          "campuri_populate": 8
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "marq piper",
+      "id_uri": [
+        "marq_piper",
+        "ser_marq_piper"
+      ],
+      "id_intern_uri": [
+        "PERSON_MARQ_PIPER",
+        "PERSON_SER_MARQ_PIPER"
+      ],
+      "names": [
+        "Marq Piper",
+        "Ser Marq Piper"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house piper"
+        ],
+        "surse_comune": [
+          "iuresul sabiilor",
+          "urzeala tronurilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "marq_piper",
+          "scor_total": 0.25,
+          "campuri_populate": 3
+        },
+        {
+          "id": "ser_marq_piper",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "marston waters",
+      "id_uri": [
+        "marston_waters",
+        "ser_marston_waters"
+      ],
+      "id_intern_uri": [
+        "PERSON_MARSTON_WATERS",
+        "PERSON_SER_MARSTON_WATERS"
+      ],
+      "names": [
+        "Marston Waters (ser)",
+        "ser Marston Waters"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "foc si sange"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "marston_waters",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        },
+        {
+          "id": "ser_marston_waters",
+          "scor_total": 0.25,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "mathis rowan",
+      "id_uri": [
+        "lordul_mathis_rowan",
+        "mathis_rowan"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_MATHIS_ROWAN",
+        "PERSON_MATHIS_ROWAN"
+      ],
+      "names": [
+        "Lordul Mathis Rowan",
+        "Mathis Rowan"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house rowan"
+        ],
+        "surse_comune": [
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lordul_mathis_rowan",
+          "scor_total": 0.25,
+          "campuri_populate": 3
+        },
+        {
+          "id": "mathis_rowan",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "mervyn flowers",
+      "id_uri": [
+        "mervyn_flowers",
+        "ser_mervyn_flowers"
+      ],
+      "id_intern_uri": [
+        "PERSON_MERVYN_FLOWERS",
+        "PERSON_SER_MERVYN_FLOWERS"
+      ],
+      "names": [
+        "Mervyn Flowers (ser)",
+        "ser Mervyn Flowers"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "foc si sange"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "mervyn_flowers",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "ser_mervyn_flowers",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "myrcella baratheon",
+      "id_uri": [
+        "myrcella_baratheon",
+        "printesa_myrcella_baratheon"
+      ],
+      "id_intern_uri": [
+        "PERSON_MYRCELLA_BARATHEON",
+        "PERSON_PRINTESA_MYRCELLA_BARATHEON"
+      ],
+      "names": [
+        "Myrcella Baratheon",
+        "Prințesa Myrcella Baratheon"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "parinti_comuni": [
+          "cersei lannister",
+          "robert baratheon"
+        ],
+        "frati_comuni": [
+          "joffrey",
+          "tommen"
+        ],
+        "membru_al_comun": [
+          "house lannister"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "myrcella_baratheon",
+          "scor_total": 0.62,
+          "campuri_populate": 7
+        },
+        {
+          "id": "printesa_myrcella_baratheon",
+          "scor_total": 0.62,
+          "campuri_populate": 8
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "oberyn martell",
+      "id_uri": [
+        "oberyn_martell",
+        "printul_oberyn_martell"
+      ],
+      "id_intern_uri": [
+        "PERSON_OBERYN_MARTELL",
+        "PERSON_PRINTUL_OBERYN_MARTELL"
+      ],
+      "names": [
+        "Oberyn Martell (Vipera Roșie)",
+        "Prințul Oberyn Martell"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "frati_comuni": [
+          "doran martell",
+          "elia martell"
+        ],
+        "membru_al_comun": [
+          "house martell"
+        ],
+        "surse_comune": [
+          "dansul dragonilor",
+          "festinul ciorilor",
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "oberyn_martell",
+          "scor_total": 0.75,
+          "campuri_populate": 8
+        },
+        {
+          "id": "printul_oberyn_martell",
+          "scor_total": 0.5,
+          "campuri_populate": 7
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "olenna tyrell",
+      "id_uri": [
+        "lady_olenna_tyrell",
+        "olenna_tyrell"
+      ],
+      "id_intern_uri": [
+        "PERSON_LADY_OLENNA_TYRELL",
+        "PERSON_OLENNA_TYRELL"
+      ],
+      "names": [
+        "Lady Olenna Tyrell („Regina Ghimpilor”)",
+        "Olenna Tyrell"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house tyrell"
+        ],
+        "surse_comune": [
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lady_olenna_tyrell",
+          "scor_total": 0.38,
+          "campuri_populate": 4
+        },
+        {
+          "id": "olenna_tyrell",
+          "scor_total": 0.25,
+          "campuri_populate": 3
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "orryn baratheon",
+      "id_uri": [
+        "orryn_baratheon",
+        "ser_orryn_baratheon"
+      ],
+      "id_intern_uri": [
+        "PERSON_ORRYN_BARATHEON",
+        "PERSON_SER_ORRYN_BARATHEON"
+      ],
+      "names": [
+        "Orryn Baratheon",
+        "Ser Orryn Baratheon"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "focul si sangele"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "orryn_baratheon",
+          "scor_total": 0.12,
+          "campuri_populate": 2
+        },
+        {
+          "id": "ser_orryn_baratheon",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "osmund kettleblack",
+      "id_uri": [
+        "osmund_kettleblack",
+        "ser_osmund_kettleblack"
+      ],
+      "id_intern_uri": [
+        "PERSON_OSMUND_KETTLEBLACK",
+        "PERSON_SER_OSMUND_KETTLEBLACK"
+      ],
+      "names": [
+        "Osmund Kettleblack",
+        "Ser Osmund Kettleblack"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "frati_comuni": [
+          "osfryd kettleblack",
+          "osney kettleblack"
+        ],
+        "surse_comune": [
+          "festinul ciorilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "osmund_kettleblack",
+          "scor_total": 0.5,
+          "campuri_populate": 6
+        },
+        {
+          "id": "ser_osmund_kettleblack",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "paxter redwyne",
+      "id_uri": [
+        "lordul_paxter_redwyne",
+        "paxter_redwyne"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_PAXTER_REDWYNE",
+        "PERSON_PAXTER_REDWYNE"
+      ],
+      "names": [
+        "Lordul Paxter Redwyne",
+        "Paxter Redwyne"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house redwyne"
+        ],
+        "surse_comune": [
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lordul_paxter_redwyne",
+          "scor_total": 0.25,
+          "campuri_populate": 3
+        },
+        {
+          "id": "paxter_redwyne",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "petyr baelish",
+      "id_uri": [
+        "lordul_petyr_baelish",
+        "petyr_baelish"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_PETYR_BAELISH",
+        "PERSON_PETYR_BAELISH"
+      ],
+      "names": [
+        "Lordul Petyr Baelish",
+        "Petyr Baelish (Degeţel)"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lordul_petyr_baelish",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "petyr_baelish",
+          "scor_total": 0.5,
+          "campuri_populate": 6
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "quentyn martell",
+      "id_uri": [
+        "printul_quentyn_martell",
+        "quentyn_martell"
+      ],
+      "id_intern_uri": [
+        "PERSON_PRINTUL_QUENTYN_MARTELL",
+        "PERSON_QUENTYN_MARTELL"
+      ],
+      "names": [
+        "Prinţul Quentyn Martell",
+        "Quentyn Martell"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "parinti_comuni": [
+          "doran martell"
+        ],
+        "membru_al_comun": [
+          "house martell"
+        ],
+        "surse_comune": [
+          "dansul dragonilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "printul_quentyn_martell",
+          "scor_total": 0.5,
+          "campuri_populate": 6
+        },
+        {
+          "id": "quentyn_martell",
+          "scor_total": 0.62,
+          "campuri_populate": 8
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "ramsay bolton",
+      "id_uri": [
+        "lordul_ramsay_bolton",
+        "ramsay_bolton"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_RAMSAY_BOLTON",
+        "PERSON_RAMSAY_BOLTON"
+      ],
+      "names": [
+        "Lordul Ramsay Bolton",
+        "Ramsay Bolton"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house bolton"
+        ],
+        "surse_comune": [
+          "dansul dragonilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lordul_ramsay_bolton",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        },
+        {
+          "id": "ramsay_bolton",
+          "scor_total": 0.62,
+          "campuri_populate": 8
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "randyl tarly",
+      "id_uri": [
+        "lordul_randyl_tarly",
+        "randyl_tarly"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_RANDYL_TARLY",
+        "PERSON_RANDYL_TARLY"
+      ],
+      "names": [
+        "Lordul Randyl Tarly",
+        "Randyl Tarly"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house tarly"
+        ],
+        "surse_comune": [
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lordul_randyl_tarly",
+          "scor_total": 0.5,
+          "campuri_populate": 6
+        },
+        {
+          "id": "randyl_tarly",
+          "scor_total": 0.5,
+          "campuri_populate": 6
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "randyll tarly",
+      "id_uri": [
+        "lordul_randyll_tarly",
+        "randyll_tarly"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_RANDYLL_TARLY",
+        "PERSON_RANDYLL_TARLY"
+      ],
+      "names": [
+        "Lordul Randyll Tarly",
+        "Randyll Tarly"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "copii_comuni": [
+          "samwell tarly"
+        ],
+        "membru_al_comun": [
+          "house tarly"
+        ],
+        "surse_comune": [
+          "festinul ciorilor",
+          "inclestarea regilor",
+          "iuresul sabiilor",
+          "urzeala tronurilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lordul_randyll_tarly",
+          "scor_total": 0.5,
+          "campuri_populate": 7
+        },
+        {
+          "id": "randyll_tarly",
+          "scor_total": 0.5,
+          "campuri_populate": 7
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "raynald westerling",
+      "id_uri": [
+        "raynald_westerling",
+        "ser_raynald_westerling"
+      ],
+      "id_intern_uri": [
+        "PERSON_RAYNALD_WESTERLING",
+        "PERSON_SER_RAYNALD_WESTERLING"
+      ],
+      "names": [
+        "Raynald Westerling",
+        "Ser Raynald Westerling"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "frati_comuni": [
+          "elenya westerling",
+          "jeyne",
+          "rollam westerling"
+        ],
+        "membru_al_comun": [
+          "house westerling"
+        ],
+        "surse_comune": [
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "raynald_westerling",
+          "scor_total": 0.5,
+          "campuri_populate": 6
+        },
+        {
+          "id": "ser_raynald_westerling",
+          "scor_total": 0.62,
+          "campuri_populate": 7
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "renly baratheon",
+      "id_uri": [
+        "lordul_renly_baratheon",
+        "renly_baratheon"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_RENLY_BARATHEON",
+        "PERSON_RENLY_BARATHEON"
+      ],
+      "names": [
+        "Lordul Renly Baratheon",
+        "Renly Baratheon"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house baratheon"
+        ],
+        "surse_comune": [
+          "inclestarea regilor",
+          "iuresul sabiilor",
+          "urzeala tronurilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lordul_renly_baratheon",
+          "scor_total": 0.5,
+          "campuri_populate": 6
+        },
+        {
+          "id": "renly_baratheon",
+          "scor_total": 0.75,
+          "campuri_populate": 9
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "rhaegar targaryen",
+      "id_uri": [
+        "printul_rhaegar_targaryen",
+        "rhaegar_targaryen"
+      ],
+      "id_intern_uri": [
+        "PERSON_PRINTUL_RHAEGAR_TARGARYEN",
+        "PERSON_RHAEGAR_TARGARYEN"
+      ],
+      "names": [
+        "Prințul Rhaegar Targaryen",
+        "Rhaegar Targaryen"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "parinti_comuni": [
+          "aerys ii targaryen"
+        ],
+        "frati_comuni": [
+          "viserys"
+        ],
+        "membru_al_comun": [
+          "house targaryen"
+        ],
+        "surse_comune": [
+          "dansul dragonilor",
+          "festinul ciorilor",
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "printul_rhaegar_targaryen",
+          "scor_total": 0.75,
+          "campuri_populate": 9
+        },
+        {
+          "id": "rhaegar_targaryen",
+          "scor_total": 1.0,
+          "campuri_populate": 11
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "rhaenys targaryen",
+      "id_uri": [
+        "rhaenys_targaryen",
+        "printesa_rhaenys_targaryen"
+      ],
+      "id_intern_uri": [
+        "PERSON_RHAENYS_TARGARYEN",
+        "PERSON_PRINTESA_RHAENYS_TARGARYEN"
+      ],
+      "names": [
+        "Rhaenys Targaryen",
+        "Prințesa Rhaenys Targaryen"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "copii_comuni": [
+          "laena velaryon",
+          "laenor velaryon"
+        ],
+        "parinti_comuni": [
+          "rhaegar targaryen"
+        ],
+        "membru_al_comun": [
+          "house targaryen"
+        ],
+        "house_comun": "targaryen",
+        "surse_comune": [
+          "dansul dragonilor",
+          "foc si sange",
+          "focul si sangele"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "rhaenys_targaryen",
+          "scor_total": 1.0,
+          "campuri_populate": 16
+        },
+        {
+          "id": "printesa_rhaenys_targaryen",
+          "scor_total": 0.88,
+          "campuri_populate": 9
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "rickard karstark",
+      "id_uri": [
+        "lordul_rickard_karstark",
+        "rickard_karstark"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_RICKARD_KARSTARK",
+        "PERSON_RICKARD_KARSTARK"
+      ],
+      "names": [
+        "Lordul Rickard Karstark",
+        "Rickard Karstark"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "copii_comuni": [
+          "alys karstark",
+          "harrion karstark"
+        ],
+        "membru_al_comun": [
+          "house karstark"
+        ],
+        "surse_comune": [
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lordul_rickard_karstark",
+          "scor_total": 0.5,
+          "campuri_populate": 7
+        },
+        {
+          "id": "rickard_karstark",
+          "scor_total": 0.62,
+          "campuri_populate": 8
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "rickard stark",
+      "id_uri": [
+        "lordul_rickard_stark",
+        "rickard_stark"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_RICKARD_STARK",
+        "PERSON_RICKARD_STARK"
+      ],
+      "names": [
+        "Lordul Rickard Stark",
+        "Rickard Stark"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "copii_comuni": [
+          "benjen stark",
+          "brandon stark",
+          "brandon stark brandon",
+          "eddard stark",
+          "lyanna stark"
+        ],
+        "membru_al_comun": [
+          "house stark"
+        ],
+        "surse_comune": [
+          "inclestarea regilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lordul_rickard_stark",
+          "scor_total": 0.5,
+          "campuri_populate": 5
+        },
+        {
+          "id": "rickard_stark",
+          "scor_total": 0.62,
+          "campuri_populate": 7
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "rolph spicer",
+      "id_uri": [
+        "rolph_spicer",
+        "ser_rolph_spicer"
+      ],
+      "id_intern_uri": [
+        "PERSON_ROLPH_SPICER",
+        "PERSON_SER_ROLPH_SPICER"
+      ],
+      "names": [
+        "Rolph Spicer",
+        "Ser Rolph Spicer"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "festinul ciorilor",
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "rolph_spicer",
+          "scor_total": 0.25,
+          "campuri_populate": 4
+        },
+        {
+          "id": "ser_rolph_spicer",
+          "scor_total": 0.5,
+          "campuri_populate": 7
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "roose bolton",
+      "id_uri": [
+        "lordul_roose_bolton",
+        "roose_bolton"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_ROOSE_BOLTON",
+        "PERSON_ROOSE_BOLTON"
+      ],
+      "names": [
+        "Lordul Roose Bolton",
+        "Roose Bolton"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "copii_comuni": [
+          "domeric bolton",
+          "ramsay bolton"
+        ],
+        "membru_al_comun": [
+          "house bolton"
+        ],
+        "surse_comune": [
+          "dansul dragonilor",
+          "inclestarea regilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lordul_roose_bolton",
+          "scor_total": 0.5,
+          "campuri_populate": 6
+        },
+        {
+          "id": "roose_bolton",
+          "scor_total": 0.62,
+          "campuri_populate": 8
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "rossart",
+      "id_uri": [
+        "lordul_rossart",
+        "rossart"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_ROSSART",
+        "PERSON_ROSSART"
+      ],
+      "names": [
+        "Lordul Rossart",
+        "Rossart (rememorare)"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lordul_rossart",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        },
+        {
+          "id": "rossart",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "ryman frey",
+      "id_uri": [
+        "ryman_frey",
+        "ser_ryman_frey"
+      ],
+      "id_intern_uri": [
+        "PERSON_RYMAN_FREY",
+        "PERSON_SER_RYMAN_FREY"
+      ],
+      "names": [
+        "Ryman Frey",
+        "Ser Ryman Frey"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "copii_comuni": [
+          "edwyn frey"
+        ],
+        "membru_al_comun": [
+          "house frey"
+        ],
+        "surse_comune": [
+          "festinul ciorilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "ryman_frey",
+          "scor_total": 0.5,
+          "campuri_populate": 6
+        },
+        {
+          "id": "ser_ryman_frey",
+          "scor_total": 0.75,
+          "campuri_populate": 9
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "selwyn tarth",
+      "id_uri": [
+        "lordul_selwyn_tarth",
+        "selwyn_tarth"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_SELWYN_TARTH",
+        "PERSON_SELWYN_TARTH"
+      ],
+      "names": [
+        "Lordul Selwyn Tarth",
+        "Selwyn Tarth"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "copii_comuni": [
+          "brienne de tarth"
+        ],
+        "surse_comune": [
+          "inclestarea regilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lordul_selwyn_tarth",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        },
+        {
+          "id": "selwyn_tarth",
+          "scor_total": 0.5,
+          "campuri_populate": 6
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "selyse",
+      "id_uri": [
+        "lady_selyse",
+        "regina_selyse",
+        "selyse"
+      ],
+      "id_intern_uri": [
+        "PERSON_LADY_SELYSE",
+        "PERSON_REGINA_SELYSE",
+        "PERSON_SELYSE"
+      ],
+      "names": [
+        "Lady Selyse",
+        "Regina Selyse",
+        "Selyse"
+      ],
+      "numar_variante": 3,
+      "semnale": {
+        "copii_comuni": [
+          "shireen baratheon"
+        ],
+        "casatorit_cu_comuni": [
+          "stannis baratheon"
+        ],
+        "membru_al_comun": [
+          "house florent"
+        ],
+        "surse_comune": [
+          "inclestarea regilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lady_selyse",
+          "scor_total": 0.38,
+          "campuri_populate": 4
+        },
+        {
+          "id": "regina_selyse",
+          "scor_total": 0.62,
+          "campuri_populate": 7
+        },
+        {
+          "id": "selyse",
+          "scor_total": 0.38,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "selyse baratheon",
+      "id_uri": [
+        "regina_selyse_baratheon",
+        "selyse_baratheon"
+      ],
+      "id_intern_uri": [
+        "PERSON_REGINA_SELYSE_BARATHEON",
+        "PERSON_SELYSE_BARATHEON"
+      ],
+      "names": [
+        "Regina Selyse Baratheon",
+        "Selyse Baratheon"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "dansul dragonilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "regina_selyse_baratheon",
+          "scor_total": 0.12,
+          "campuri_populate": 3
+        },
+        {
+          "id": "selyse_baratheon",
+          "scor_total": 0.62,
+          "campuri_populate": 7
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "shireen baratheon",
+      "id_uri": [
+        "printesa_shireen_baratheon",
+        "shireen_baratheon"
+      ],
+      "id_intern_uri": [
+        "PERSON_PRINTESA_SHIREEN_BARATHEON",
+        "PERSON_SHIREEN_BARATHEON"
+      ],
+      "names": [
+        "Prinţesa Shireen Baratheon",
+        "Shireen Baratheon"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "parinti_comuni": [
+          "selyse",
+          "stannis baratheon"
+        ],
+        "membru_al_comun": [
+          "house baratheon"
+        ],
+        "surse_comune": [
+          "dansul dragonilor",
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "printesa_shireen_baratheon",
+          "scor_total": 0.5,
+          "campuri_populate": 6
+        },
+        {
+          "id": "shireen_baratheon",
+          "scor_total": 0.5,
+          "campuri_populate": 6
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "stafford lannister",
+      "id_uri": [
+        "ser_stafford_lannister",
+        "stafford_lannister"
+      ],
+      "id_intern_uri": [
+        "PERSON_SER_STAFFORD_LANNISTER",
+        "PERSON_STAFFORD_LANNISTER"
+      ],
+      "names": [
+        "Ser Stafford Lannister",
+        "Stafford Lannister"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house lannister"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "ser_stafford_lannister",
+          "scor_total": 0.62,
+          "campuri_populate": 7
+        },
+        {
+          "id": "stafford_lannister",
+          "scor_total": 0.38,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "sybell westerling",
+      "id_uri": [
+        "lady_sybell_westerling",
+        "sybell_westerling"
+      ],
+      "id_intern_uri": [
+        "PERSON_LADY_SYBELL_WESTERLING",
+        "PERSON_SYBELL_WESTERLING"
+      ],
+      "names": [
+        "Lady Sybell Westerling",
+        "Sybell Westerling (n. Spicer)"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "copii_comuni": [
+          "jeyne westerling",
+          "raynald westerling",
+          "rollam westerling"
+        ],
+        "membru_al_comun": [
+          "house spicer",
+          "house westerling"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lady_sybell_westerling",
+          "scor_total": 0.62,
+          "campuri_populate": 7
+        },
+        {
+          "id": "sybell_westerling",
+          "scor_total": 0.5,
+          "campuri_populate": 5
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "sybelle glover",
+      "id_uri": [
+        "lady_sybelle_glover",
+        "sybelle_glover"
+      ],
+      "id_intern_uri": [
+        "PERSON_LADY_SYBELLE_GLOVER",
+        "PERSON_SYBELLE_GLOVER"
+      ],
+      "names": [
+        "Lady Sybelle Glover",
+        "Sybelle Glover"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "casatorit_cu_comuni": [
+          "robert glover"
+        ],
+        "surse_comune": [
+          "dansul dragonilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lady_sybelle_glover",
+          "scor_total": 0.38,
+          "campuri_populate": 4
+        },
+        {
+          "id": "sybelle_glover",
+          "scor_total": 0.25,
+          "campuri_populate": 3
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "tanda stokeworth",
+      "id_uri": [
+        "lady_tanda_stokeworth",
+        "tanda_stokeworth"
+      ],
+      "id_intern_uri": [
+        "PERSON_LADY_TANDA_STOKEWORTH",
+        "PERSON_TANDA_STOKEWORTH"
+      ],
+      "names": [
+        "Lady Tanda Stokeworth",
+        "Tanda Stokeworth"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "festinul ciorilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lady_tanda_stokeworth",
+          "scor_total": 0.25,
+          "campuri_populate": 5
+        },
+        {
+          "id": "tanda_stokeworth",
+          "scor_total": 0.5,
+          "campuri_populate": 6
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "tommen",
+      "id_uri": [
+        "printul_tommen",
+        "tommen"
+      ],
+      "id_intern_uri": [
+        "PERSON_PRINTUL_TOMMEN",
+        "PERSON_TOMMEN"
+      ],
+      "names": [
+        "Prinţul Tommen",
+        "Tommen"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "frati_comuni": [
+          "joffrey",
+          "myrcella"
+        ],
+        "membru_al_comun": [
+          "house baratheon",
+          "house lannister"
+        ],
+        "surse_comune": [
+          "inclestarea regilor",
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "printul_tommen",
+          "scor_total": 0.5,
+          "campuri_populate": 6
+        },
+        {
+          "id": "tommen",
+          "scor_total": 0.75,
+          "campuri_populate": 8
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "tommen baratheon",
+      "id_uri": [
+        "printul_tommen_baratheon",
+        "regele_tommen_baratheon",
+        "tommen_baratheon"
+      ],
+      "id_intern_uri": [
+        "PERSON_PRINTUL_TOMMEN_BARATHEON",
+        "PERSON_REGELE_TOMMEN_BARATHEON",
+        "PERSON_TOMMEN_BARATHEON"
+      ],
+      "names": [
+        "Prințul Tommen Baratheon",
+        "Regele Tommen Baratheon",
+        "Tommen Baratheon"
+      ],
+      "numar_variante": 3,
+      "semnale": {
+        "parinti_comuni": [
+          "cersei lannister"
+        ],
+        "frati_comuni": [
+          "joffrey",
+          "myrcella"
+        ],
+        "membru_al_comun": [
+          "house baratheon",
+          "house lannister"
+        ],
+        "surse_comune": [
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "printul_tommen_baratheon",
+          "scor_total": 0.62,
+          "campuri_populate": 7
+        },
+        {
+          "id": "regele_tommen_baratheon",
+          "scor_total": 0.62,
+          "campuri_populate": 7
+        },
+        {
+          "id": "tommen_baratheon",
+          "scor_total": 0.75,
+          "campuri_populate": 8
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "torrhen stark",
+      "id_uri": [
+        "torrhen_stark",
+        "regele_torrhen_stark"
+      ],
+      "id_intern_uri": [
+        "PERSON_TORRHEN_STARK",
+        "PERSON_REGELE_TORRHEN_STARK"
+      ],
+      "names": [
+        "Torrhen Stark",
+        "Regele Torrhen Stark (\"Regele care a îngenuncheat\")"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house stark"
+        ],
+        "house_comun": "stark",
+        "surse_comune": [
+          "dansul dragonilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "torrhen_stark",
+          "scor_total": 0.5,
+          "campuri_populate": 10
+        },
+        {
+          "id": "regele_torrhen_stark",
+          "scor_total": 0.25,
+          "campuri_populate": 3
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "tytos blackwood",
+      "id_uri": [
+        "lordul_tytos_blackwood",
+        "tytos_blackwood"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_TYTOS_BLACKWOOD",
+        "PERSON_TYTOS_BLACKWOOD"
+      ],
+      "names": [
+        "Lordul Tytos Blackwood",
+        "Tytos Blackwood"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "surse_comune": [
+          "dansul dragonilor",
+          "inclestarea regilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lordul_tytos_blackwood",
+          "scor_total": 0.38,
+          "campuri_populate": 6
+        },
+        {
+          "id": "tytos_blackwood",
+          "scor_total": 0.5,
+          "campuri_populate": 6
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "tytos lannister",
+      "id_uri": [
+        "lordul_tytos_lannister",
+        "tytos_lannister"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_TYTOS_LANNISTER",
+        "PERSON_TYTOS_LANNISTER"
+      ],
+      "names": [
+        "Lordul Tytos Lannister",
+        "Tytos Lannister"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "copii_comuni": [
+          "tywin lannister"
+        ],
+        "membru_al_comun": [
+          "house lannister"
+        ],
+        "surse_comune": [
+          "festinul ciorilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lordul_tytos_lannister",
+          "scor_total": 0.5,
+          "campuri_populate": 6
+        },
+        {
+          "id": "tytos_lannister",
+          "scor_total": 0.62,
+          "campuri_populate": 7
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "tywin lannister",
+      "id_uri": [
+        "lordul_tywin_lannister",
+        "tywin_lannister"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_TYWIN_LANNISTER",
+        "PERSON_TYWIN_LANNISTER"
+      ],
+      "names": [
+        "Lordul Tywin Lannister",
+        "Tywin Lannister"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "copii_comuni": [
+          "cersei",
+          "cersei lannister",
+          "jaime lannister",
+          "tyrion lannister"
+        ],
+        "frati_comuni": [
+          "genna lannister",
+          "kevan lannister"
+        ],
+        "membru_al_comun": [
+          "house lannister"
+        ],
+        "surse_comune": [
+          "dansul dragonilor",
+          "inclestarea regilor",
+          "iuresul sabiilor",
+          "urzeala tronurilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lordul_tywin_lannister",
+          "scor_total": 0.62,
+          "campuri_populate": 8
+        },
+        {
+          "id": "tywin_lannister",
+          "scor_total": 1.0,
+          "campuri_populate": 11
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "viserys targaryen",
+      "id_uri": [
+        "printul_viserys_targaryen",
+        "viserys_targaryen"
+      ],
+      "id_intern_uri": [
+        "PERSON_PRINTUL_VISERYS_TARGARYEN",
+        "PERSON_VISERYS_TARGARYEN"
+      ],
+      "names": [
+        "Prinţul Viserys Targaryen",
+        "Viserys Targaryen"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "parinti_comuni": [
+          "aerys ii targaryen"
+        ],
+        "frati_comuni": [
+          "rhaegar"
+        ],
+        "membru_al_comun": [
+          "house targaryen"
+        ],
+        "surse_comune": [
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "printul_viserys_targaryen",
+          "scor_total": 0.62,
+          "campuri_populate": 8
+        },
+        {
+          "id": "viserys_targaryen",
+          "scor_total": 1.0,
+          "campuri_populate": 11
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "walder frey",
+      "id_uri": [
+        "lordul_walder_frey",
+        "walder_frey"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_WALDER_FREY",
+        "PERSON_WALDER_FREY"
+      ],
+      "names": [
+        "Lordul Walder Frey",
+        "Walder Frey"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "copii_comuni": [
+          "elmar frey",
+          "olyvar frey",
+          "perwyn frey",
+          "stevron frey"
+        ],
+        "membru_al_comun": [
+          "house frey"
+        ],
+        "surse_comune": [
+          "dansul dragonilor",
+          "inclestarea regilor",
+          "iuresul sabiilor",
+          "urzeala tronurilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lordul_walder_frey",
+          "scor_total": 0.5,
+          "campuri_populate": 7
+        },
+        {
+          "id": "walder_frey",
+          "scor_total": 0.62,
+          "campuri_populate": 8
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "wendel manderly",
+      "id_uri": [
+        "ser_wendel_manderly",
+        "wendel_manderly"
+      ],
+      "id_intern_uri": [
+        "PERSON_SER_WENDEL_MANDERLY",
+        "PERSON_WENDEL_MANDERLY"
+      ],
+      "names": [
+        "Ser Wendel Manderly",
+        "Wendel Manderly"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house manderly"
+        ],
+        "surse_comune": [
+          "inclestarea regilor",
+          "iuresul sabiilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "ser_wendel_manderly",
+          "scor_total": 0.5,
+          "campuri_populate": 7
+        },
+        {
+          "id": "wendel_manderly",
+          "scor_total": 0.75,
+          "campuri_populate": 8
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "wylis manderly",
+      "id_uri": [
+        "ser_wylis_manderly",
+        "wylis_manderly"
+      ],
+      "id_intern_uri": [
+        "PERSON_SER_WYLIS_MANDERLY",
+        "PERSON_WYLIS_MANDERLY"
+      ],
+      "names": [
+        "Ser Wylis Manderly",
+        "Wylis Manderly"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house manderly"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "ser_wylis_manderly",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        },
+        {
+          "id": "wylis_manderly",
+          "scor_total": 0.75,
+          "campuri_populate": 8
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "wylla manderly",
+      "id_uri": [
+        "lady_wylla_manderly",
+        "wylla_manderly"
+      ],
+      "id_intern_uri": [
+        "PERSON_LADY_WYLLA_MANDERLY",
+        "PERSON_WYLLA_MANDERLY"
+      ],
+      "names": [
+        "Lady Wylla Manderly",
+        "Wylla Manderly"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house manderly"
+        ],
+        "surse_comune": [
+          "dansul dragonilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lady_wylla_manderly",
+          "scor_total": 0.25,
+          "campuri_populate": 3
+        },
+        {
+          "id": "wylla_manderly",
+          "scor_total": 0.38,
+          "campuri_populate": 4
+        }
+      ]
+    },
+    {
+      "nume_normalizat": "wyman manderly",
+      "id_uri": [
+        "lordul_wyman_manderly",
+        "wyman_manderly"
+      ],
+      "id_intern_uri": [
+        "PERSON_LORDUL_WYMAN_MANDERLY",
+        "PERSON_WYMAN_MANDERLY"
+      ],
+      "names": [
+        "Lordul Wyman Manderly",
+        "Wyman Manderly"
+      ],
+      "numar_variante": 2,
+      "semnale": {
+        "membru_al_comun": [
+          "house manderly"
+        ],
+        "surse_comune": [
+          "dansul dragonilor",
+          "inclestarea regilor"
+        ]
+      },
+      "scor_completitudine": [
+        {
+          "id": "lordul_wyman_manderly",
+          "scor_total": 0.38,
+          "campuri_populate": 5
+        },
+        {
+          "id": "wyman_manderly",
+          "scor_total": 0.62,
+          "campuri_populate": 8
+        }
+      ]
+    }
+  ]
+}

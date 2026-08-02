@@ -1,7 +1,18 @@
 """Match downloaded AWOIAF house crests to local Atlas houses.
 
-Run from the project root: python scripts/match_crests.py
+Run from the project root: python scripts/match_crests.py --i-know-what-im-doing
 """
+import sys
+
+# ── Safety guard ──────────────────────────────────────────────────────────────
+# This script OVERWRITES data/houses/houses.json and copies files to assets/sigils/.
+# Pass --i-know-what-im-doing to confirm intentional execution.
+if "--i-know-what-im-doing" not in sys.argv:
+    print("REFUSED: acest script suprascrie data/houses/houses.json.")
+    print("Dacă ești sigur, rulează cu:  python scripts/match_crests.py --i-know-what-im-doing")
+    sys.exit(1)
+# ──────────────────────────────────────────────────────────────────────────────
+
 import difflib
 import json
 import re

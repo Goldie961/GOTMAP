@@ -1,0 +1,2153 @@
+[
+  {
+    "subject": "HOUSE_ASHFORD",
+    "predicate": "seat",
+    "object": "LOCATION_CASTELUL_ASHFORD",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ASHFORD",
+    "predicate": "sigil",
+    "object": "dungi și soare alb, pe fond portocaliu",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ASHFORD",
+    "predicate": "sigil",
+    "object": "soare alb împletit cu galoane, pe fond portocaliu",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ASHFORD",
+    "predicate": "status_at",
+    "object": "mare casă locală, găzduiește turnirul",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 1,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ASHFORD",
+    "predicate": "status_at",
+    "object": "casă locală, gazdă a turnirului",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 2,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BALL",
+    "predicate": "sigil",
+    "object": "trei discuri albe deasupra unui „v\" roșu (blazonul familiei)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BALL",
+    "predicate": "sigil",
+    "object": "Ser Glendon poartă însă personal o sferă de foc roșie-galbenă pe fond negru",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BALL",
+    "predicate": "status_at",
+    "object": "decăzută — tatăl (Globul de Foc) a murit înainte de nașterea lui Glendon, care încearcă să-și recâștige renumele",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BALL",
+    "predicate": "ally_of",
+    "object": "PERSON_DAEMON_BLACKFYRE",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 6,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "seat",
+    "object": "LOCATION_CAPATUL_FURTUNII",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "sigil",
+    "object": "cerb încoronat",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "sigil",
+    "object": "cerb negru",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "sigil",
+    "object": "coarne din oțel pe coif",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "sigil",
+    "object": "cerb",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "sigil",
+    "object": "coif cu coarne purtat de Ser Lyonel",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "mare casă / participant la turnir (Ser Lyonel Baratheon, \"Uraganul Râzător\")",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 1,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 3,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BARATHEON",
+    "predicate": "ally_of",
+    "object": "PERSON_SER_LYONEL_BARATHEON",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 3,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BEESBURY",
+    "predicate": "sigil",
+    "object": "dungi galbene-negre",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BEESBURY",
+    "predicate": "sigil",
+    "object": "trei albine pe scut",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BEESBURY",
+    "predicate": "sigil",
+    "object": "faguri de albine, tunică în dungi galbene și negre",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BEESBURY",
+    "predicate": "status_at",
+    "object": "casă mai mică, reprezentată de un singur cavaler",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKFYRE",
+    "predicate": "branch_of",
+    "object": "HOUSE_TARGARYEN",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKFYRE",
+    "predicate": "words",
+    "object": "nu apar",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKFYRE",
+    "predicate": "sigil",
+    "object": "dragon cu trei capete, culori inversate (negru pe roșu) față de Targaryen",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKFYRE",
+    "predicate": "sigil",
+    "object": "dragon cu trei capete, negru pe fond roșu",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKFYRE",
+    "predicate": "status_at",
+    "object": "casă bastardă rebelă, înfrântă la Câmpul Ierbii Roșii; rămășițele (Oțelul Înverșunat, fiii lui Daemon) plănuiesc din exil",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 4,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKFYRE",
+    "predicate": "status_at",
+    "object": "casă rebelă/pretendentă la tron, înfrântă în rebeliunea Dragonului Negru",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 5,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKFYRE",
+    "predicate": "status_at",
+    "object": "casă de pretendenți la tron, asociată cu două rebeliuni eșuate împotriva Casei Targaryen; linia continuă prin frați ai lui Daemon (tatăl), inclusiv Daemon al II-lea (capturat) și Haegon (menționat ca succesor posibil)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 8,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKFYRE",
+    "predicate": "enemy_of",
+    "object": "HOUSE_TARGARYEN",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 4,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKFYRE",
+    "predicate": "enemy_of",
+    "object": "PERSON_CORBUL_SANGELUI",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 8,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "seat",
+    "object": "LOCATION_RAVENTREE",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "sigil",
+    "object": "nespecificat în fragment",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "status_at",
+    "object": "participant la turnir",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 1,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "status_at",
+    "object": "menționată doar generic, ca rivali tradiționali ai celor din Bracken",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 2,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "status_at",
+    "object": "trimite oaste în sprijinul Coroanei împotriva conspirației",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 8,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "enemy_of",
+    "object": "HOUSE_BRACKEN",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 1,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BLACKWOOD",
+    "predicate": "enemy_of",
+    "object": "PERSON_CORBUL_SANGELUI",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 4,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "region",
+    "object": "LOCATION_TRIDENT",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "sigil",
+    "object": "armăsar roșu, pe cort maro (descriere aproximativă din text)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "status_at",
+    "object": "participant la turnir, reprezentată de Ser Otho Bracken (\"Bruta din Bracken\")",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 1,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "status_at",
+    "object": "menționată doar generic (\"Ser Otho Bracken\", \"Bruta din Bracken\"); rivalitate tradițională cu Casa Blackwood",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 2,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "status_at",
+    "object": "casă reprezentată de Ser Otho Bracken, numit „mare campion”",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 3,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "status_at",
+    "object": "lordul actual moare încet; fiul întâi-născut a murit în epidemie; Ser Otho Bracken (poreclit „Bruta de la Bracken\") urmează la titlu",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 4,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "status_at",
+    "object": "menționată ca țintă viitoare a unei conspirații; condusă de Otho, care \"nu poate spera să reziste\"",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 7,
+    "source_page": "fragment 7",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "enemy_of",
+    "object": "PERSON_LORDUL_QUENTYN_BLACKWOOD",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 1,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BRACKEN",
+    "predicate": "enemy_of",
+    "object": "HOUSE_BLACKWOOD",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 4,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BULWER",
+    "predicate": "seat",
+    "object": "LOCATION_COROANA_NEAGRA",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BULWER",
+    "predicate": "status_at",
+    "object": "Ser Theomore Bulwer „Bătrânul Taur”, participant la turnir, învins de Ser Uthor, rănit și târât de cal",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BUTTERWELL",
+    "predicate": "seat",
+    "object": "LOCATION_ZIDURILE_ALBE",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BUTTERWELL",
+    "predicate": "words",
+    "object": "nu apar",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BUTTERWELL",
+    "predicate": "sigil",
+    "object": "dungi vălurite verzi, albe și galbene",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BUTTERWELL",
+    "predicate": "sigil",
+    "object": "nu apare descris explicit",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BUTTERWELL",
+    "predicate": "sigil",
+    "object": "dungi vălurite, verzi, albe și galbene (menționat pe veșmintele oștenilor casei)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BUTTERWELL",
+    "predicate": "status_at",
+    "object": "în pericol de stingere — actualul lord riscă să rămână fără moștenitor",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 6,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BUTTERWELL",
+    "predicate": "status_at",
+    "object": "mare casă, vasală a Lordului Tully; fiii Lordului Butterwell au luptat de ambele părți în rebeliunea Blackfyre (ceea ce îi face \"pe jumătate trădători\", conform lui Egg)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 7,
+    "source_page": "fragment 7",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BUTTERWELL",
+    "predicate": "status_at",
+    "object": "casă găzduind conspirația, dar cu lordul șovăielnic; iertată parțial de Corbul Sângelui (păstrează un zecime din avere și soția), dar castelul e confiscat și urmează să fie dărâmat",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 8,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BUTTERWELL",
+    "predicate": "ally_of",
+    "object": "HOUSE_FREY",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 6,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BUTTERWELL",
+    "predicate": "ally_of",
+    "object": "HOUSE_FREY",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 7,
+    "source_page": "fragment 7",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_BUTTERWELL",
+    "predicate": "ally_of",
+    "object": "HOUSE_PEAKE",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 8,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CARON",
+    "predicate": "seat",
+    "object": "LOCATION_CANTECUL_NOPTII",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CARON",
+    "predicate": "sigil",
+    "object": "privighetoare",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CARON",
+    "predicate": "sigil",
+    "object": "harpă argintie",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CARON",
+    "predicate": "sigil",
+    "object": "pelerină brodată cu privighetori",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CARON",
+    "predicate": "status_at",
+    "object": "mare casă / participant la turnir",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 1,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CARON",
+    "predicate": "status_at",
+    "object": "casă reprezentată de Lord Caron la tribuna Ashford",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 3,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CARON",
+    "predicate": "ally_of",
+    "object": "HOUSE_DONDARRION",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 1,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CASWELL",
+    "predicate": "seat",
+    "object": "LOCATION_PODUL_AMAR",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CASWELL",
+    "predicate": "sigil",
+    "object": "centaur",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CASWELL",
+    "predicate": "sigil",
+    "object": "centaur de aur trăgând cu arbaleta",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CASWELL",
+    "predicate": "status_at",
+    "object": "prezentă la Coldmoat prin Lordul Caswell",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 4,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CASWELL",
+    "predicate": "status_at",
+    "object": "mică, dar prezentă la nuntă (Joffrey Caswell)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 6,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CASWELL",
+    "predicate": "status_at",
+    "object": "mare casă locală, titlu \"Apărător al Vadurilor\"",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 7,
+    "source_page": "fragment 7",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_COCKSHAW",
+    "predicate": "sigil",
+    "object": "nu se descrie",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_COCKSHAW",
+    "predicate": "status_at",
+    "object": "Lordul Alyn Cockshaw, prieten din copilărie al pretendentului Daemon Blackfyre al II-lea, încearcă să-l ucidă pe Dunk din gelozie/loialitate; moare înecat în fântână",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_COCKSHAW",
+    "predicate": "ally_of",
+    "object": "PERSON_DAEMON_BLACKFYRE",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 8,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_COSTAYNE",
+    "predicate": "sigil",
+    "object": "împărțit în patru — potir de argint pe negru și trandafir negru pe auriu",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_COSTAYNE",
+    "predicate": "status_at",
+    "object": "mare casă, prezentă la nuntă",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 6,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_COSTAYNE",
+    "predicate": "status_at",
+    "object": "Lordul Costayne prezent la turnir/ospăț, cere moartea lui Glendon Ball; unul dintre cavalerii săi ucide un spion trădător la final",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 8,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_COSTAYNE",
+    "predicate": "ally_of",
+    "object": "PERSON_DAEMON_BLACKFYRE",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 6,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_CRAKEHALL",
+    "predicate": "status_at",
+    "object": "reprezentată de Ser Roland Crakehall, cavaler al Gărzii Regelui, purtând mantie albă",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DARKLYN",
+    "predicate": "status_at",
+    "object": "casă reprezentată de Donnel de Duskendale, luptător de partea acuzatorilor",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 3,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DARKLYN",
+    "predicate": "status_at",
+    "object": "trimite oaste în sprijinul Coroanei împotriva conspirației",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 8,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DARKLYN",
+    "predicate": "enemy_of",
+    "object": "PERSON_SER_HUMFREY_BEESBURY",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 3,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DONDARRION",
+    "predicate": "sigil",
+    "object": "fulger violet despicat, pe câmp negru presărat cu stele",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DONDARRION",
+    "predicate": "status_at",
+    "object": "mare casă / lorzi, ridicați la rang de Regele Furtunii; reprezentată la turnir de Ser Manfred Dondarrion",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 1,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_DONDARRION",
+    "predicate": "status_at",
+    "object": "mare casă, reprezentată de Manfred Dondarrion la tribuna Ashford",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 3,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ESTERMONT",
+    "predicate": "sigil",
+    "object": "broască-țestoasă de mare, verde întunecat, pe fond ca smaraldul",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ESTERMONT",
+    "predicate": "status_at",
+    "object": "participant la turnir",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FARMAN",
+    "predicate": "seat",
+    "object": "LOCATION_INSULA_FRUMOASA",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FARMAN",
+    "predicate": "status_at",
+    "object": "reparare a zidurilor de apărare după un raid ironborn devastator",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 4,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FARMAN",
+    "predicate": "status_at",
+    "object": "menționată ca posibilă sursă de angajare pentru cavaleri, în contextul unor atacuri ale oamenilor de fier",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 5,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FOSSOWAY",
+    "predicate": "sigil",
+    "object": "măr roșu",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FOSSOWAY",
+    "predicate": "sigil",
+    "object": "măr — apar ambele variante în text: \"măr auriu\" (fâlfâind pe pavilionul lui Steffon) și \"măr roșu\" (cusut pe pieptul soldaților)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FOSSOWAY",
+    "predicate": "sigil",
+    "object": "posibil ramuri diferite ale casei (neclar la acest fragment)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FOSSOWAY",
+    "predicate": "sigil",
+    "object": "fundal auriu, cu un măr — roșu pentru ramura/varianta lui Ser Steffon, verde pentru varianta adoptată de Raymun ca semn distinctiv",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FOSSOWAY",
+    "predicate": "status_at",
+    "object": "casă cu două ramuri prezente la turnir (ramura seniorilor — Ser Steffon; ramura mai tânără — Raymun); rivalitate internă",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 1,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FOSSOWAY",
+    "predicate": "status_at",
+    "object": "casă (probabil vasală)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 2,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FOSSOWAY",
+    "predicate": "status_at",
+    "object": "casă (probabil vasală), cu doi reprezentanți aflați în conflict deschis (verii Raymun și Steffon)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 3,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "seat",
+    "object": "LOCATION_GEMENII",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "region",
+    "object": "LOCATION_FURCA_VERDE",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "region",
+    "object": "LOCATION_TRIDENT",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "words",
+    "object": "nu apar în fragment",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "words",
+    "object": "nu apar",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "sigil",
+    "object": "două turnuri albastre legate de un pod, pe fond gri (corectat de Egg față de presupunerea greșită a lui Dunk)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "sigil",
+    "object": "turnurile gemene (culori albastru și argintiu/gri, purtate de Ser Franklyn Frey pe scut, bluză și valtrapul calului)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "sigil",
+    "object": "nu se descrie",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "în ascensiune — fiica sa se căsătorește cu Lordul Butterwell",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 6,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "mare casă, vasală a Lordului Tully; s-a înrudit cu Casa Butterwell prin căsătorie",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 7,
+    "source_page": "fragment 7",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "status_at",
+    "object": "implicată parțial în conspirație, dar Lordul Frey se retrage la timp; iertat de Corbul Sângelui, urmează să discute mai târziu cu acesta",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 8,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "ally_of",
+    "object": "HOUSE_BUTTERWELL",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 6,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "ally_of",
+    "object": "HOUSE_BUTTERWELL",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 7,
+    "source_page": "fragment 7",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_FREY",
+    "predicate": "ally_of",
+    "object": "HOUSE_BUTTERWELL",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 8,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GARDENER",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GARDENER",
+    "predicate": "sigil",
+    "object": "mână verde pe fond alb",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GARDENER",
+    "predicate": "status_at",
+    "object": "dinastie istorică a „regilor verzi” ai Reach-ului (context din povestea lui Ser Eustace, epoca celor Șapte Regate); descendenți din Garth Mână-Verde",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GARDENER",
+    "predicate": "ally_of",
+    "object": "HOUSE_OSGREY",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 3,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_GREYJOY",
+    "predicate": "status_at",
+    "object": "activă în raiduri navale sub Dagon Greyjoy, pe Marea Apusului, până la Arbor",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HARDYNG",
+    "predicate": "sigil",
+    "object": "model în diamant roșu-alb",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HARDYNG",
+    "predicate": "sigil",
+    "object": "nemenționat (Hardyng călărește armăsarul câștigat anterior de la Aerion, gătit în diamante roș-albe — decorația calului, nu neapărat blazonul casei)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HARDYNG",
+    "predicate": "status_at",
+    "object": "casă mai mică",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HARDYNG",
+    "predicate": "ally_of",
+    "object": "PERSON_SER_HUMFREY_HARDYNG",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 3,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HAYFORD",
+    "predicate": "sigil",
+    "object": "grilaj verde pe fond auriu, cu dungă vălurită verde-deschis",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HAYFORD",
+    "predicate": "status_at",
+    "object": "lord loialist de seamă, mort la Câmpul Ierbii Roșii, numit Mână a Regelui chiar înainte de bătălie",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 4,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HAYFORD",
+    "predicate": "status_at",
+    "object": "trimite trupe în sprijinul Coroanei",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 8,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HEDDLE",
+    "predicate": "sigil",
+    "object": "nu se descrie",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HEDDLE",
+    "predicate": "status_at",
+    "object": "implicată în conspirație prin Ser Tommard „Tom cel Negru” Heddle, ucis de Dunk; capul expus în țeapă la final",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_HEDDLE",
+    "predicate": "ally_of",
+    "object": "HOUSE_BLACKFYRE",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 8,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "seat",
+    "object": "LOCATION_CASTERLY_ROCK",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "sigil",
+    "object": "leu, pe fond sângeriu (roșu)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "sigil",
+    "object": "leu auriu",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "sigil",
+    "object": "leu auriu (implicit, prin porecla „Leul Cenușiu” dată unui membru contemporan)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "participant la turnir",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 1,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 2,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, prezentă atât în trecutul istoric (regele Lancel) cât și în prezentul narativ (Lord Lannister la tribuna Ashford)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 3,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "status_at",
+    "object": "mare casă, condusă de Lordul Tybolt Lannister",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 5,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LANNISTER",
+    "predicate": "enemy_of",
+    "object": "PERSON_LANCEL_LANNISTER",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 3,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LEYGOOD",
+    "predicate": "sigil",
+    "object": "trei fulgere",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LEYGOOD",
+    "predicate": "status_at",
+    "object": "prezentă la Coldmoat prin Ser Leygood",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LOTHSTON",
+    "predicate": "seat",
+    "object": "LOCATION_HARRENHAL",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_LOTHSTON",
+    "predicate": "status_at",
+    "object": "reprezentată de Danelle Lothston, descrisă ca „smintită”, aliată a Coroanei în acest conflict (vine cu oaste împotriva conspirației)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MALLISTER",
+    "predicate": "seat",
+    "object": "LOCATION_SEAGARD",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MALLISTER",
+    "predicate": "sigil",
+    "object": "vultur pe cer indigo",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MALLISTER",
+    "predicate": "sigil",
+    "object": "coif înaripat",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MANDERLY",
+    "predicate": "status_at",
+    "object": "alungată de pe teritoriile lor originare acum aproximativ o mie de ani (menționați doar istoric, prin analogie cu numele râului Mander)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MASSEY",
+    "predicate": "status_at",
+    "object": "trimite trupe în sprijinul Coroanei",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MOOTON",
+    "predicate": "seat",
+    "object": "LOCATION_IAZUL_FECIOARELOR",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_MOOTON",
+    "predicate": "status_at",
+    "object": "trimite oaste în sprijinul Coroanei împotriva conspirației",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_OSGREY",
+    "predicate": "seat",
+    "object": "LOCATION_STANDFAST",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_OSGREY",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_OSGREY",
+    "predicate": "sigil",
+    "object": "„leu bălțat” (istoric, menționat în povestea lui Ser Wilbert)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_OSGREY",
+    "predicate": "sigil",
+    "object": "leu bălțat (carouri verzi și aurii), ridicat pe picioarele din spate, pe fond alb",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_OSGREY",
+    "predicate": "sigil",
+    "object": "leu bălțat (pătat), cu solzi de jad și aur pe obiecte heraldice (ex. cupa de argint a familiei)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_OSGREY",
+    "predicate": "sigil",
+    "object": "leu bălțat",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_OSGREY",
+    "predicate": "status_at",
+    "object": "casă mică, decăzută (Ser Eustace se numește „lord” din tradiție, deși familia nu mai deține titlul de secole); toți cei trei fii ai lui Ser Eustace au murit acum 15 ani, fără urmași direcți menționați (Dunk pare a fi considerat moștenitor informal)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 3,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_OSGREY",
+    "predicate": "status_at",
+    "object": "aproape stinsă — Ser Eustace e ultimul reprezentant; fost, cu ~1000 de ani în urmă, Mareșali ai Hotarului de Nord, cu 20 de lorzi vasali, 100 de cavaleri împroprietăriți și 4 castele",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 4,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_OSGREY",
+    "predicate": "status_at",
+    "object": "casă mică, vasală a Casei Rowan, în declin puternic — odinioară deținători ai titlului „Mareșalii Hotarului de Nord\" timp de o mie de ani",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 5,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_OSGREY",
+    "predicate": "status_at",
+    "object": "în ascensiune (prin căsătoria lui Eustace cu Rohanne Webber)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 6,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_OSGREY",
+    "predicate": "enemy_of",
+    "object": "HOUSE_WEBBER",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 3,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_OSGREY",
+    "predicate": "ally_of",
+    "object": "PERSON_DAEMON_BLACKFYRE",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 5,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_OSGREY",
+    "predicate": "ally_of",
+    "object": "HOUSE_WEBBER",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 6,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PAEGE",
+    "predicate": "sigil",
+    "object": "șerpi albi și roșii pe fond negru",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PAEGE",
+    "predicate": "ally_of",
+    "object": "PERSON_SER_HARBERT_PAEGE",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 7,
+    "source_page": "fragment 7",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PEAKE",
+    "predicate": "seat",
+    "object": "LOCATION_STARPIKE",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PEAKE",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PEAKE",
+    "predicate": "words",
+    "object": "nu apar",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PEAKE",
+    "predicate": "sigil",
+    "object": "trei castele negre pe fond portocaliu",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PEAKE",
+    "predicate": "sigil",
+    "object": "nu se descrie",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PEAKE",
+    "predicate": "status_at",
+    "object": "decăzută parțial — a avut cândva trei castele, a pierdut două",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 6,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PEAKE",
+    "predicate": "status_at",
+    "object": "implicată activ în conspirație; Lordul Gormon Peake conduce complotul; executat la final (capul expus în țeapă)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 8,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PEAKE",
+    "predicate": "ally_of",
+    "object": "PERSON_DAEMON_BLACKFYRE",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 6,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PEAKE",
+    "predicate": "enemy_of",
+    "object": "HOUSE_BLACKFYRE",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 8,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PLUMM",
+    "predicate": "sigil",
+    "object": "nemenționat explicit (mantie violet purtată de Ser Maynard, cu broșă din piatră a lunii)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_PLUMM",
+    "predicate": "status_at",
+    "object": "ramură îndepărtată/minoră (Ser Maynard se consideră „o prună acră\" față de Lordul Viserys Plumm)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROSBY",
+    "predicate": "status_at",
+    "object": "trimite trupe în sprijinul Coroanei",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROWAN",
+    "predicate": "seat",
+    "object": "LOCATION_CRANGUL_AURIU",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROWAN",
+    "predicate": "seat",
+    "object": "LOCATION_CRANGUL_DE_AUR",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROWAN",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROWAN",
+    "predicate": "status_at",
+    "object": "lord senior al lui Ser Eustace Osgrey; relație tensionată cu acesta („nu mă agreează\"); înrudit indirect cu Casa Webber",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 4,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_ROWAN",
+    "predicate": "status_at",
+    "object": "suzeran al Casei Osgrey (Standfast e cetatea Lordului Rowan); a confirmat testamentul lui Wyman Webber",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 5,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SHAWNEY",
+    "predicate": "status_at",
+    "object": "prezentă la nuntă",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SHAWNEY",
+    "predicate": "ally_of",
+    "object": "PERSON_OTELUL_INVERSUNAT",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 6,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SMALLWOOD",
+    "predicate": "status_at",
+    "object": "prezentă la trecerea peste lac, în drum spre nuntă",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "seat",
+    "object": "LOCATION_WINTERFELL",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STARK",
+    "predicate": "status_at",
+    "object": "menționată doar ca destinație plănuită de Dunk pentru a lupta împotriva oamenilor de fier",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_STOKEWORTH",
+    "predicate": "status_at",
+    "object": "trimite trupe în sprijinul Coroanei",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SUNDERLAND",
+    "predicate": "seat",
+    "object": "LOCATION_TREI_SURORI",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SUNDERLAND",
+    "predicate": "sigil",
+    "object": "trei capete palide de femeie, pe fond cu valuri verzi și albastre",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SUNDERLAND",
+    "predicate": "status_at",
+    "object": "a luptat pentru Dragonul Negru (Blackfyre) în rebeliune (istoric)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SWANN",
+    "predicate": "seat",
+    "object": "LOCATION_STONEHELM",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SWANN",
+    "predicate": "sigil",
+    "object": "pereche de lebede (una neagră, una albă) luptându-se",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SWANN",
+    "predicate": "sigil",
+    "object": "culori negru și alb",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_SWANN",
+    "predicate": "status_at",
+    "object": "casă reprezentată de Lord Swann la tribuna Ashford",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "seat",
+    "object": "LOCATION_FORTAREATA_ROSIE",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "seat",
+    "object": "LOCATION_PIATRA_DRAGONULUI",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "seat",
+    "object": "LOCATION_FORTAREATA_ROSIE_DEBARCADERUL_REGELUI",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "words",
+    "object": "Foc și Sânge",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "sigil",
+    "object": "dragon cu trei capete, pe steag negru din mătase, care pare să scuipe foc înroșit când e purtat de vânt",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "sigil",
+    "object": "dragon cu trei capete",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "sigil",
+    "object": "dragon cu trei capete, roșu pe negru",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "sigil",
+    "object": "dragon cu trei capete, roșu pe fond negru",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "sigil",
+    "object": "dragon cu trei capete (roșu pe negru — regele Aerys I)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "sigil",
+    "object": "patru dragoni cu trei capete, doi câte doi (blazonul Prințului Maekar, al patrulea fiu al regelui Daeron al II-lea)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "dinastie regală conducătoare",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 1,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "casă regală",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 2,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "dinastie domnitoare; conflict intern între ramura lui Maekar (Aerion, Daeron, Aegon/Egg) și ramura lui Baelor (Valarr)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 3,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "casă regală",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 4,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "dinastie regală, dar regele Aerys e slab implicat în conducere, puterea reală fiind exercitată de Lordul Rivers (\"Corbul Sângelui\")",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 5,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "casă domnitoare, dar slăbită — regele e considerat neputincios, iar succesiunea e disputată",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 6,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "status_at",
+    "object": "casă domnitoare; regele Aerys I e descris ca slab, om al cărților, nu războinic; conflict intern între ramuri (Maekar retras la Castelul Verii, Corbul Sângelui ca Mână a Regelui)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 8,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "enemy_of",
+    "object": "PERSON_MAEKAR",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 3,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "enemy_of",
+    "object": "HOUSE_BLACKFYRE",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 4,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "ally_of",
+    "object": "HOUSE_BLACKFYRE",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 6,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARGARYEN",
+    "predicate": "enemy_of",
+    "object": "HOUSE_BLACKFYRE",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 8,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "sigil",
+    "object": "vânător (huntsman)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TARLY",
+    "predicate": "status_at",
+    "object": "participant la turnir",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "seat",
+    "object": "LOCATION_RIVERRUN",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "sigil",
+    "object": "nedescris explicit",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "sigil",
+    "object": "pelerină dungată albastru-roșu, agrafe din argint",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 2,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "lord senior actual — copil de 8 ani, înconjurat de femei; putere politică limitată",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 4,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TULLY",
+    "predicate": "status_at",
+    "object": "suveran al Lordului Butterwell; Lordul Tully e bolnav, conform zvonurilor",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 7,
+    "source_page": "fragment 7",
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "sigil",
+    "object": "trandafir auriu",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "mare casă",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 2,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_TYRELL",
+    "predicate": "status_at",
+    "object": "mare casă, administratori ai Reach-ului după căderea regilor Gardener",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 5,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_UNDERLEAF",
+    "predicate": "status_at",
+    "object": "Ser Uthor Underleaf, poreclit „Melcul”, cavaler priceput la turnir, joacă un joc dublu (pierde intenționat pentru a-și crește șansele), încearcă să-l recruteze pe Dunk de partea conspirației, dar nu pare parte activă a complotului central",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WEBBER",
+    "predicate": "seat",
+    "object": "LOCATION_COLDMOAT",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WEBBER",
+    "predicate": "region",
+    "object": "LOCATION_REACH",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WEBBER",
+    "predicate": "sigil",
+    "object": "păianjen pătat/bălțat, pe flamuri negre, pe fond argintiu",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WEBBER",
+    "predicate": "sigil",
+    "object": "păianjen de fier/onix, alb și roșu, pe fond negru",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WEBBER",
+    "predicate": "sigil",
+    "object": "păianjen (motiv reluat pe o broșă de fildeș cu picioare de argint și granate)",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": null,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WEBBER",
+    "predicate": "status_at",
+    "object": "casă activă, condusă de o văduvă („Văduva Roșie”), suspectată de mai multe morți ale soților ei",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 3,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WEBBER",
+    "predicate": "status_at",
+    "object": "casă dominantă în regiune, a preluat fosta putere Osgrey",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 4,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WEBBER",
+    "predicate": "status_at",
+    "object": "mare putere locală, aflată în conflict cu Osgrey pentru controlul apei",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 5,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WEBBER",
+    "predicate": "status_at",
+    "object": "unită cu Casa Osgrey prin căsătoria lui Rohanne",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 6,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WEBBER",
+    "predicate": "enemy_of",
+    "object": "HOUSE_OSGREY",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 3,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WEBBER",
+    "predicate": "enemy_of",
+    "object": "HOUSE_OSGREY",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 4,
+    "source_page": null,
+    "confidence": "confirmed"
+  },
+  {
+    "subject": "HOUSE_WEBBER",
+    "predicate": "ally_of",
+    "object": "HOUSE_OSGREY",
+    "source_book": "Cavalerul celor 7 Regate",
+    "source_fragment": 6,
+    "source_page": null,
+    "confidence": "confirmed"
+  }
+]

@@ -4,6 +4,15 @@ import glob
 import re
 import unicodedata
 
+# ── Safety guard ──────────────────────────────────────────────────────────────
+# This script OVERWRITES data/locations/distances.json.
+# Pass --i-know-what-im-doing to confirm intentional execution.
+if "--i-know-what-im-doing" not in sys.argv:
+    print("REFUSED: acest script suprascrie data/locations/distances.json.")
+    print("Dacă ești sigur, rulează cu:  python scripts/build_distances.py --i-know-what-im-doing")
+    sys.exit(1)
+# ──────────────────────────────────────────────────────────────────────────────
+
 sys.stdout.reconfigure(encoding='utf-8')
 
 def norm(text):

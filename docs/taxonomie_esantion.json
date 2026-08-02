@@ -1,0 +1,1135 @@
+{
+  "schema_version": "taxonomie_v2_esantion/1",
+  "generat_din": "data/locations/locations.json + data/essos/free_cities.json + data/essos/far_lands.json",
+  "total": 60,
+  "grupuri": {
+    "evident_mappable": [
+      {
+        "id": "castelul_darry",
+        "name_curent": "Castelul Darry",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "castel",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "stronghold",
+          "subtype": "castle",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "point"
+        },
+        "nota": "Castel de casă minoră; subtip curat. Candidat direct de pin. Verifică suprapunerea cu o eventuală intrare `darry`."
+      },
+      {
+        "id": "castelul_ashford",
+        "name_curent": "Castelul Ashford",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "castel",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "stronghold",
+          "subtype": "castle",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "point"
+        },
+        "nota": "DUPLICAT probabil cu `ashford_castle` (type=castle, deja fixat pe hartă). Rezolvarea aparține pasului de dedup, nu taxonomiei.",
+        "duplicate_of_probabil": "ashford_castle"
+      },
+      {
+        "id": "castelul_breakwater",
+        "name_curent": "Castelul Breakwater",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "castel/fortăreață",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "stronghold",
+          "subtype": "castle",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "point"
+        },
+        "nota": "Fără ambiguitate: castel de sine stătător."
+      },
+      {
+        "id": "castelul_harlaw",
+        "name_curent": "Castelul Harlaw",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "castel",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "stronghold",
+          "subtype": "castle",
+          "mappable": true,
+          "parent_id": "harlaw",
+          "geometry": "point"
+        },
+        "nota": "Castelul stă pe insula `harlaw` (type=landmark, subtip „insulă/reședință nobiliară\"). parent_id insulă → castel este containment fizic real."
+      },
+      {
+        "id": "bradybottom",
+        "name_curent": "Bradybottom",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "sat",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "settlement",
+          "subtype": "village",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "point"
+        },
+        "nota": "subtip „sat\" — cel mai curat semnal din tot corpusul."
+      },
+      {
+        "id": "donnelwood",
+        "name_curent": "Donnelwood",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "sat",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "settlement",
+          "subtype": "village",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "point"
+        },
+        "nota": "Idem. Numele englez nu împiedică tiparea."
+      },
+      {
+        "id": "copacul_cu_gologani",
+        "name_curent": "Copacul cu Gologani",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "sat",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "settlement",
+          "subtype": "village",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "point"
+        },
+        "nota": "Nume tradus (Pennytree); subtip „sat\". Tiparea nu depinde de limbă."
+      },
+      {
+        "id": "cotul_negru",
+        "name_curent": "Cotul Negru",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "localitate",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "settlement",
+          "subtype": "town",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "point"
+        },
+        "nota": "subtip „localitate\" → settlement; alegerea town/village rămâne la triaj."
+      },
+      {
+        "id": "orasul_cartitei",
+        "name_curent": "Oraşul Cârtiţei",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "sătuc",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "settlement",
+          "subtype": "village",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "point"
+        },
+        "nota": "subtip „sătuc\". Este lângă `castle_black`, dar NU în el: parent_id null, relația rămâne `near`."
+      },
+      {
+        "id": "maracinisul_alb",
+        "name_curent": "Mărăcinișul Alb",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "cetate/localitate (menționată în trecere)",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "settlement",
+          "subtype": "town",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "point"
+        },
+        "nota": "subtip „cetate/localitate\" — ambele valori sunt mappable, deci ambiguitatea nu blochează `mappable`."
+      },
+      {
+        "id": "arborul",
+        "name_curent": "Arborul",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "insulă",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "island",
+          "subtype": "island",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "polygon"
+        },
+        "nota": "Insula Arbor. Poligon, nu punct — chiar dacă are și un castel (Redwyne) care ar merita punct separat."
+      },
+      {
+        "id": "insula_crabilor",
+        "name_curent": "Insula Crabilor",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "insulă",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "island",
+          "subtype": "island",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "polygon"
+        },
+        "nota": "subtip „insulă\"."
+      },
+      {
+        "id": "insula_cedrilor",
+        "name_curent": "Insula Cedrilor",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "insulă",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "island",
+          "subtype": "island",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "polygon"
+        },
+        "nota": "DUPLICAT cu `insula_cedrilor_numita_si_insula_celor_o_suta_de_batalii_...` (aceeași insulă, două rânduri)."
+      },
+      {
+        "id": "fluviul_skahazadhan",
+        "name_curent": "Fluviul Skahazadhan",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "râu",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "watercourse",
+          "subtype": "river",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "polyline"
+        },
+        "nota": "Râu = linie. Un romb pe un râu este întotdeauna greșit."
+      },
+      {
+        "id": "furca_rosie_a_tridentului",
+        "name_curent": "Furca Roșie a Tridentului",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "râu",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "watercourse",
+          "subtype": "river",
+          "mappable": true,
+          "parent_id": "trident",
+          "geometry": "polyline"
+        },
+        "nota": "parent_id `trident` (type=landmark, subtip „regiune (bazinul râurilor din Riverlands)\") → devine region. Braț al unui bazin."
+      },
+      {
+        "id": "furca_verde_a_tridentului",
+        "name_curent": "Furca Verde a Tridentului",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "râu",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "watercourse",
+          "subtype": "river",
+          "mappable": true,
+          "parent_id": "trident",
+          "geometry": "polyline"
+        },
+        "nota": "Idem. Cele trei furci trebuie să fie trei polilinii distincte, nu trei puncte."
+      },
+      {
+        "id": "colinele_de_catifea",
+        "name_curent": "Colinele de Catifea",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "lanţ de coline",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "landform",
+          "subtype": "hills",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "polygon"
+        },
+        "nota": "subtip „lanţ de coline\" → extindere, nu punct."
+      },
+      {
+        "id": "blackwater_bay",
+        "name_curent": "Blackwater Bay",
+        "stare_curenta": {
+          "type": "landmark",
+          "subtip": "golf maritim",
+          "are_pin_in_catalog": true,
+          "coordinates_radacina": {
+            "x": 368.2,
+            "y": 598.2
+          }
+        },
+        "propunere": {
+          "type": "water",
+          "subtype": "bay",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "polygon"
+        },
+        "nota": "DEJA FIXAT pe hartă ca romb. type curent `landmark`. Golful este suprafață."
+      },
+      {
+        "id": "kingswood",
+        "name_curent": "Kingswood",
+        "stare_curenta": {
+          "type": "landmark",
+          "subtip": "pădure",
+          "are_pin_in_catalog": true,
+          "coordinates_radacina": {
+            "x": 318.6,
+            "y": 642.2
+          }
+        },
+        "propunere": {
+          "type": "landform",
+          "subtype": "forest",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "polygon"
+        },
+        "nota": "DEJA FIXAT ca romb. subtip „pădure\"."
+      },
+      {
+        "id": "mountains_of_the_moon",
+        "name_curent": "Mountains of the Moon",
+        "stare_curenta": {
+          "type": "landmark",
+          "subtip": "lanț muntos",
+          "are_pin_in_catalog": true,
+          "coordinates_radacina": {
+            "x": 317.9,
+            "y": 486.5
+          }
+        },
+        "propunere": {
+          "type": "landform",
+          "subtype": "mountain_range",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "polygon"
+        },
+        "nota": "DEJA FIXAT ca romb. subtip „lanț muntos\". Un lanț muntos ca punct este cea mai vizibilă eroare din harta actuală."
+      }
+    ],
+    "sub_locatie_evidenta": [
+      {
+        "id": "criptele_winterfellului",
+        "name_curent": "Criptele Winterfellului",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "cripte subterane",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "interior",
+          "subtype": "crypt",
+          "mappable": false,
+          "parent_id": "winterfell",
+          "geometry": null
+        },
+        "nota": "Unul din TREI rânduri pentru aceleași cripte. Nu poate primi pin: este sub castel."
+      },
+      {
+        "id": "cripta_winterfell",
+        "name_curent": "cripta Winterfell",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "criptă subterană",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "interior",
+          "subtype": "crypt",
+          "mappable": false,
+          "parent_id": "winterfell",
+          "geometry": null
+        },
+        "nota": "DUPLICAT al `criptele_winterfellului`.",
+        "duplicate_of_probabil": "criptele_winterfellului"
+      },
+      {
+        "id": "criptele_din_winterfell",
+        "name_curent": "Criptele din Winterfell",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "cripte funerare",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "interior",
+          "subtype": "crypt",
+          "mappable": false,
+          "parent_id": "winterfell",
+          "geometry": null
+        },
+        "nota": "DUPLICAT al `criptele_winterfellului`. Trei rânduri = un singur loc.",
+        "duplicate_of_probabil": "criptele_winterfellului"
+      },
+      {
+        "id": "sala_mare_a_winterfellului",
+        "name_curent": "Sala Mare a Winterfellului",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "sală de festin",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "interior",
+          "subtype": "hall",
+          "mappable": false,
+          "parent_id": "winterfell",
+          "geometry": null
+        },
+        "nota": "Încăpere. mappable=false indiferent de cât de importantă este narativ."
+      },
+      {
+        "id": "sala_mica",
+        "name_curent": "Sala Mică (Winterfell)",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "sală interioară de castel",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "interior",
+          "subtype": "hall",
+          "mappable": false,
+          "parent_id": "winterfell",
+          "geometry": null
+        },
+        "nota": "Numele („Sala Mică\") nu spune unde e; doar paranteza din `name` o leagă de Winterfell."
+      },
+      {
+        "id": "bucataria_winterfellului",
+        "name_curent": "Bucătăria Winterfellului",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "clădire separată de bucătărie",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "interior",
+          "subtype": "kitchen",
+          "mappable": false,
+          "parent_id": "winterfell",
+          "geometry": null
+        },
+        "nota": "Exact cazul din capcana enunțată: tipată mecanic ar deveni un pin „castle\"."
+      },
+      {
+        "id": "grajdurile_din_winterfell",
+        "name_curent": "Grajdurile din Winterfell",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "grajduri de lemn",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "interior",
+          "subtype": "stable",
+          "mappable": false,
+          "parent_id": "winterfell",
+          "geometry": null
+        },
+        "nota": "Grajd. Nu ajunge pe harta lumii."
+      },
+      {
+        "id": "gradina_de_sticla_de_la_winterfell",
+        "name_curent": "Grădina de sticlă de la Winterfell",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "seră",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "interior",
+          "subtype": "greenhouse",
+          "mappable": false,
+          "parent_id": "winterfell",
+          "geometry": null
+        },
+        "nota": "subtip „seră\"."
+      },
+      {
+        "id": "armuraria_si_camera_de_garda",
+        "name_curent": "Armurăria și Camera de gardă (Winterfell)",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "clădiri militare",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "interior",
+          "subtype": "armoury",
+          "mappable": false,
+          "parent_id": "winterfell",
+          "geometry": null
+        },
+        "nota": "Rândul conține DOUĂ încăperi („Armurăria ȘI Camera de gardă\") — rând compus."
+      },
+      {
+        "id": "turnul_maesterului",
+        "name_curent": "Turnul Maesterului (Winterfell)",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "turn",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "structure",
+          "subtype": "tower",
+          "mappable": false,
+          "parent_id": "winterfell",
+          "geometry": null
+        },
+        "nota": "AICI se vede de ce `type` și `mappable` sunt axe separate: este `structure`, la fel ca un han de drum, dar nu e mappable pentru că e în incinta unui castel."
+      },
+      {
+        "id": "turnul_paraginit",
+        "name_curent": "Turnul părăginit (Winterfell)",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "turn de observație",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "structure",
+          "subtype": "tower",
+          "mappable": false,
+          "parent_id": "winterfell",
+          "geometry": null
+        },
+        "nota": "Idem — Broken Tower. `structure` + mappable=false."
+      },
+      {
+        "id": "padurea_zeilor_de_la_winterfell",
+        "name_curent": "Pădurea zeilor de la Winterfell",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "pădure sacră",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "landform",
+          "subtype": "godswood",
+          "mappable": false,
+          "parent_id": "winterfell",
+          "geometry": null
+        },
+        "nota": "Și mai clar: `landform` cu mappable=false. Tipul spune CE este, mappable spune dacă primește geometrie proprie."
+      },
+      {
+        "id": "marea_fortareata_a_winterfellului",
+        "name_curent": "Marea Fortăreață (Great Keep) a Winterfellului",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "turn locuit",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "structure",
+          "subtype": "keep",
+          "mappable": false,
+          "parent_id": "winterfell",
+          "geometry": null
+        },
+        "nota": "Great Keep. Ar fi tipat „fortress\" de orice euristică pe subtip; e o clădire în curte."
+      },
+      {
+        "id": "camerele_de_culcare_ale_lui_catelyn",
+        "name_curent": "Camerele de culcare ale lui Catelyn (Winterfell)",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "apartament / cameră în castel",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "interior",
+          "subtype": "chamber",
+          "mappable": false,
+          "parent_id": "winterfell",
+          "geometry": null
+        },
+        "nota": "Dormitor. Granularitate de scenă, nu de hartă."
+      },
+      {
+        "id": "calea_tradatorului",
+        "name_curent": "Calea Trădătorului (Traitor's Walk)",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "stradă/alee în cadrul Fortăreței Roșii",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "urban_feature",
+          "subtype": "street",
+          "mappable": false,
+          "parent_id": "kings_landing",
+          "geometry": null
+        },
+        "nota": "subtip: „stradă/alee în cadrul Fortăreței Roșii\". parent_id REAL ar fi Fortăreața Roșie — vezi `parent_pending`.",
+        "parent_pending": "Fortăreața Roșie — 5 rânduri candidate (cetatea_rosie_fortareata_rosie, fortareata_rosie_debarcaderul_regelui, fortareata_rosie_fortareata_lui_maegor, fortareata_rosie_implicit_..., fortareata_rosie_turnul_mainii). Niciunul nu e canonic. parent_id pus temporar pe kings_landing."
+      },
+      {
+        "id": "sala_de_audiente_a_mainii",
+        "name_curent": "Sala de audiențe a Mâinii",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "sală de audiențe (parte a Fortăreței Roșii)",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "interior",
+          "subtype": "hall",
+          "mappable": false,
+          "parent_id": "kings_landing",
+          "geometry": null
+        },
+        "nota": "Idem: parent-ul corect este Fortăreața Roșie, care nu există ca entitate unică.",
+        "parent_pending": "Idem — parent real este Fortăreața Roșie, entitate nededuplicată."
+      },
+      {
+        "id": "aleea_puturoasa",
+        "name_curent": "Aleea Puturoasă",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "alee (zonă săracă)",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "urban_feature",
+          "subtype": "alley",
+          "mappable": false,
+          "parent_id": "kings_landing",
+          "geometry": null
+        },
+        "nota": "Alee în Debarcaderul Regelui. Țesut urban, nu reper de hartă."
+      },
+      {
+        "id": "bordelul_lui_petyr_baelish",
+        "name_curent": "Bordelul lui Petyr Baelish",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "bordel",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "structure",
+          "subtype": "brothel",
+          "mappable": false,
+          "parent_id": "kings_landing",
+          "geometry": null
+        },
+        "nota": "Bordel în oraș → mappable=false. Un han izolat pe un drum ar fi `structure` + mappable=true."
+      },
+      {
+        "id": "camera_circulara",
+        "name_curent": "Camera Circulară",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "încăpere din Turnul Sabiei Albe",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "interior",
+          "subtype": "chamber",
+          "mappable": false,
+          "parent_id": "turnul_sabiei_albe",
+          "geometry": null
+        },
+        "nota": "subtip „încăpere din Turnul Sabiei Albe\" — parent explicit în text, și entitatea părinte EXISTĂ (`turnul_sabiei_albe`). Caz de extragere automată fezabilă."
+      },
+      {
+        "id": "sala_mesei_pictate",
+        "name_curent": "Sala Mesei Pictate",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "cameră de consiliu",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "interior",
+          "subtype": "hall",
+          "mappable": false,
+          "parent_id": "dragonstone",
+          "geometry": null
+        },
+        "nota": "Chamber of the Painted Table. Parent este castelul insulă `dragonstone`."
+      }
+    ],
+    "ambiguu": [
+      {
+        "id": "riverrun",
+        "name_curent": "Riverrun",
+        "stare_curenta": {
+          "type": "castle",
+          "subtip": "încăpere/balcon în interiorul fortăreței",
+          "are_pin_in_catalog": true,
+          "coordinates_radacina": {
+            "x": 219.9,
+            "y": 466.8
+          }
+        },
+        "propunere": {
+          "type": "stronghold",
+          "subtype": "castle",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "point"
+        },
+        "nota": "CAZUL-ȘCOALĂ: subtip = „încăpere/balcon în interiorul fortăreței\". Entitatea ESTE castelul; subtip descrie o sub-locație din el. Dovada că `subtip` nu poate deriva `type` fără supraveghere."
+      },
+      {
+        "id": "pyke",
+        "name_curent": "Pyke",
+        "stare_curenta": {
+          "type": "castle",
+          "subtip": "tron/scaun de conducere",
+          "are_pin_in_catalog": true,
+          "coordinates_radacina": {
+            "x": 94.6,
+            "y": 453.2
+          }
+        },
+        "propunere": {
+          "type": "stronghold",
+          "subtype": "castle",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "point"
+        },
+        "nota": "subtip = „tron/scaun de conducere\". Idem: subtip descrie un obiect din castel, nu castelul."
+      },
+      {
+        "id": "kings_landing",
+        "name_curent": "King's Landing (Aegonfort)",
+        "stare_curenta": {
+          "type": "castle",
+          "subtip": null,
+          "are_pin_in_catalog": true,
+          "coordinates_radacina": {
+            "x": 304.4,
+            "y": 580.2
+          }
+        },
+        "propunere": {
+          "type": "settlement",
+          "subtype": "city",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "point"
+        },
+        "nota": "TYPE CURENT GREȘIT: `castle`. Este capitala — un oraș. Fortăreața Roșie este COPILUL lui, nu sinonimul lui. `name` este „King's Landing (Aegonfort)\", amestecând două epoci."
+      },
+      {
+        "id": "aegonfort",
+        "name_curent": "Aegonfort",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "castel (fortăreață grosolană, apoi extinsă)",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "stronghold",
+          "subtype": "castle",
+          "mappable": true,
+          "parent_id": "kings_landing",
+          "geometry": "point",
+          "state": "former"
+        },
+        "nota": "Predecesorul Fortăreței Roșii. mappable=true dar cu `state: former` — a existat, nu mai există. Alternativa (merge în `kings_landing`) pierde informația istorică."
+      },
+      {
+        "id": "oldtown",
+        "name_curent": "Hightower (Oldtown)",
+        "stare_curenta": {
+          "type": "castle",
+          "subtip": null,
+          "are_pin_in_catalog": true,
+          "coordinates_radacina": {
+            "x": 120,
+            "y": 691.9
+          }
+        },
+        "propunere": {
+          "type": "stronghold",
+          "subtype": "tower",
+          "mappable": true,
+          "parent_id": "oldtown_city",
+          "geometry": "point"
+        },
+        "nota": "Rândul se numește „Hightower (Oldtown)\" dar are id `oldtown` și type `castle`; orașul e `oldtown_city`. Turnul este copil al orașului. Id-ul induce în eroare și trebuie marcat, nu redenumit."
+      },
+      {
+        "id": "highgarden",
+        "name_curent": "Highgarden",
+        "stare_curenta": {
+          "type": "castle",
+          "subtip": "regiune/castel",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "stronghold",
+          "subtype": "castle",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "point"
+        },
+        "nota": "subtip „regiune/castel\" — două scări în același câmp. Castelul primește punct; „Reach\" ca regiune este altă entitate."
+      },
+      {
+        "id": "stoney_sept",
+        "name_curent": "Stoney Sept",
+        "stare_curenta": {
+          "type": "city",
+          "subtip": "localități/regiuni",
+          "are_pin_in_catalog": true,
+          "coordinates_radacina": {
+            "x": 213.1,
+            "y": 554.6
+          }
+        },
+        "propunere": {
+          "type": "settlement",
+          "subtype": "town",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "point"
+        },
+        "nota": "subtip „localități/regiuni\" e zgomot de extragere. `type` curent (`city`) e corect; subtip trebuie ignorat."
+      },
+      {
+        "id": "skagos",
+        "name_curent": "Skagos",
+        "stare_curenta": {
+          "type": "landmark",
+          "subtip": "insulă/regiune",
+          "are_pin_in_catalog": true,
+          "coordinates_radacina": {
+            "x": 612.2,
+            "y": 131.1
+          }
+        },
+        "propunere": {
+          "type": "island",
+          "subtype": "island",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "polygon"
+        },
+        "nota": "subtip „insulă/regiune\" — este ambele. Rezolvare: `type: island`, iar caracterul de regiune se exprimă prin faptul că poate avea copii (`parent_id` al altora), nu printr-un al doilea type."
+      },
+      {
+        "id": "gods_eye",
+        "name_curent": "The God's Eye",
+        "stare_curenta": {
+          "type": "landmark",
+          "subtip": "lac",
+          "are_pin_in_catalog": true,
+          "coordinates_radacina": {
+            "x": 254,
+            "y": 532.1
+          }
+        },
+        "propunere": {
+          "type": "water",
+          "subtype": "lake",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "polygon"
+        },
+        "nota": "Lac → poligon. Conține Insula Fețelor, care ar fi `island` cu parent_id `gods_eye`: un copil mappable într-un părinte mappable. Cazul care demonstrează că mappable NU se moștenește."
+      },
+      {
+        "id": "the_wall",
+        "name_curent": "The Wall",
+        "stare_curenta": {
+          "type": "landmark",
+          "subtip": "fortificație uriașă",
+          "are_pin_in_catalog": true,
+          "coordinates_radacina": {
+            "x": 357.8,
+            "y": 158.1
+          }
+        },
+        "propunere": {
+          "type": "structure",
+          "subtype": "fortification",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "polyline"
+        },
+        "nota": "Singurul obiect liniar construit din set: 300 mile. Nici punct, nici poligon. `castle_black` și `shadow_tower` sunt copii cu parent_id `the_wall` și mappable=true."
+      },
+      {
+        "id": "valyria",
+        "name_curent": "Valyria",
+        "stare_curenta": {
+          "type": "ruins",
+          "subtip": null,
+          "are_pin_in_catalog": true,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "region",
+          "subtype": "region",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "polygon",
+          "state": "ruined"
+        },
+        "nota": "TYPE CURENT `ruins` — dar „ruinat\" este o STARE, nu un fel de lucru. Valyria este o regiune ruinată; Harrenhal este un castel ruinat. Motivul pentru care `ruins` dispare din `type` și devine `state`."
+      },
+      {
+        "id": "yi_ti",
+        "name_curent": "Yi Ti",
+        "stare_curenta": {
+          "type": "castle",
+          "subtip": null,
+          "are_pin_in_catalog": true,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "region",
+          "subtype": "region",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "polygon"
+        },
+        "nota": "TYPE CURENT `castle`, cu pin punctiform. Este un imperiu. Cea mai gravă eroare de scară din cele 77 de pinuri."
+      },
+      {
+        "id": "naath",
+        "name_curent": "Naath",
+        "stare_curenta": {
+          "type": "castle",
+          "subtip": null,
+          "are_pin_in_catalog": true,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "island",
+          "subtype": "island",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "polygon"
+        },
+        "nota": "TYPE CURENT `castle`. Este o insulă. Aceeași clasă de eroare ca `leng`, `claw_isle`, `driftmark`."
+      },
+      {
+        "id": "insula_driftmark",
+        "name_curent": "Insula Driftmark",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "insulă/sediu de casă",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "island",
+          "subtype": "island",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "polygon"
+        },
+        "nota": "GRUP DE DUPLICATE cu 4 membri: `driftmark` (type=castle, deja fixat), `insula_driftmark`, `castelul_driftmark`, `driftmark_orasul_mirodeniilor_valul_inalt`. Taxonomia nu poate alege singură canonicul.",
+        "duplicate_of_probabil": "driftmark"
+      },
+      {
+        "id": "castelul_driftmark",
+        "name_curent": "Castelul Driftmark",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "castel",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "stronghold",
+          "subtype": "castle",
+          "mappable": true,
+          "parent_id": "driftmark",
+          "geometry": "point"
+        },
+        "nota": "Acesta este singurul din grup care e legitim SEPARAT: castelul de pe insulă. parent_id → insula. Restul grupului sunt duplicate."
+      },
+      {
+        "id": "selaesori_qhoran",
+        "name_curent": "Selaesori Qhoran",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "navă (nu locație geografică propriu-zisă, tratată aici ca \"loc\" al acțiunii)",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "non_place",
+          "subtype": "vessel",
+          "mappable": false,
+          "parent_id": null,
+          "geometry": null
+        },
+        "nota": "Este o CORABIE. Propriul subtip o recunoaște: „navă (nu locație geografică propriu-zisă, tratată aici ca «loc» al acțiunii)\". Nu se șterge (§5.4) — se scoate din stratul de locații."
+      },
+      {
+        "id": "turnir_din_harrenhal",
+        "name_curent": "Turnir din Harrenhal (eveniment/loc rememorat)",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "loc de turnir (la Harrenhal, an de „primăvară falsă\")",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "non_place",
+          "subtype": "event_record",
+          "mappable": false,
+          "parent_id": null,
+          "geometry": null,
+          "state": "historic"
+        },
+        "nota": "Este un EVENIMENT, extras în fișierul de locații. Aparține `events.json`. `related_id: harrenhal`."
+      },
+      {
+        "id": "banca_de_fier",
+        "name_curent": "Banca de Fier",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "oraș-stat / instituție financiară",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "non_place",
+          "subtype": "institution",
+          "mappable": false,
+          "parent_id": null,
+          "geometry": null
+        },
+        "nota": "subtip „oraș-stat / instituție financiară\". Este o instituție din Braavos. Aparține unui strat de organizații, nu hărții."
+      },
+      {
+        "id": "nota_ocr",
+        "name_curent": "NOTĂ OCR",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": null,
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "non_place",
+          "subtype": "extraction_artifact",
+          "mappable": false,
+          "parent_id": null,
+          "geometry": null
+        },
+        "nota": "Nu este o locație sub nicio interpretare: este o notă de OCR ajunsă rând în JSON. Alături de `locatii_mentionate_incidental` și `neprecizat`."
+      },
+      {
+        "id": "capatul_furtunii_si_piatra_dragonului",
+        "name_curent": "Capătul Furtunii şi Piatra Dragonului",
+        "stare_curenta": {
+          "type": "location",
+          "subtip": "castele/regiuni",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "non_place",
+          "subtype": "compound_row",
+          "mappable": false,
+          "parent_id": null,
+          "geometry": null
+        },
+        "nota": "DOUĂ castele într-un rând („Capătul Furtunii ŞI Piatra Dragonului\"), ambele existând deja separat (`storm_end`, `dragonstone`). Rând compus — trebuie despicat sau retras, nu tipat."
+      }
+    ]
+  }
+}

@@ -1,5 +1,7 @@
 """
 Final comprehensive analysis - identify ALL true duplicates of existing map locations.
+
+Read-only utility — no --i-know-what-im-doing guard needed (no file writes).
 """
 import json
 import sys
