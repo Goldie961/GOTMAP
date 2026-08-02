@@ -1,0 +1,503 @@
+====================================================================================================
+REZULTAT COMPLET TEST() PENTRU TOȚI CEI 10 OAMENI
+====================================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+  Jon Arryn (PERSON_JON_ARRYN)
+────────────────────────────────────────────────────────────────────────────────
+  ■ titlu_curent = 'fost Păzitor al Castelului Lunii (cât a trăit tatăl său)'
+    titles (9 intrări ordonate cronologic cu poziție):
+      1. "fost Mână a Regelui"
+         [an=298, carte='Urzeala Tronurilor', frag=1]
+      2. "Stăpân al Eyrie"
+         [an=298, carte='Urzeala Tronurilor', frag=1]
+      3. "Paznic peste Est"
+         [an=298, carte='Urzeala Tronurilor', frag=1]
+      4. "Lord al Eyrie-i"
+         [an=298, carte='Urzeala Tronurilor', frag=5]
+      5. "Lord de Eyrie"
+         [an=298, carte='Urzeala Tronurilor', frag=7]
+      6. "Apărător al Văii"
+         [an=298, carte='Urzeala Tronurilor', frag=15]
+      7. "Păzitor al Răsăritului"
+         [an=298, carte='Urzeala Tronurilor', frag=15]
+      8. "fost Lord Paramount al Vaii"
+         [an=300, carte='Iureșul Săbiilor', frag=3]
+      9. "fost Păzitor al Castelului Lunii (cât a trăit tatăl său)"
+         [an=301, carte='Festinul Ciorilor', frag=3]
+  ■ moarte.descriere = 'mort (moment nespecificat exact în fragment)'
+    confidence = confirmed
+    variante (6):
+      • "mort (menţionat ca fost Mână)" [Iureșul Săbiilor f3]
+      • "decedat; mort (aluzie la faptul că Pycelle l-ar fi putut ucide și pe el); mort (anterior evenimentelor din fragment)" [Festinul Ciorilor fNone]
+      • "murit recent, boală bruscă; ultimele cuvinte relatate: a strigat „Robert” de mai multe ori, apoi a șoptit „Sămânța este puternică”" [Urzeala Tronurilor f5]
+      • "decedat înaintea acestui fragment (moarte suspectată drept asasinat)" [Urzeala Tronurilor f7]
+      • "mort recent (otrăvit) — a fost Mână a Regelui timp de 14 ani" [Urzeala Tronurilor f6]
+      • "mort înainte de evenimentele fragmentului" [Urzeala Tronurilor f9]
+  ■ relații de familie:
+    - parent_of: ['Robert Arryn (PERSON_ROBERT_ARRYN)']
+    - child_of: ['Jasper Arryn (Lordul) (PERSON_JASPER_ARRYN)']
+    - sibling_of: ['Alys Arryn (PERSON_ALYS_ARRYN)', 'Ronnel Arryn (PERSON_RONNEL_ARRYN)']
+    - married_to: ['Lady Lysa Arryn (născută Tully) (PERSON_LADY_LYSA_ARRYN)', 'Lysa Arryn (PERSON_LYSA_ARRYN)']
+
+────────────────────────────────────────────────────────────────────────────────
+  Catelyn Stark (PERSON_CATELYN_STARK)
+────────────────────────────────────────────────────────────────────────────────
+  ■ titlu_curent = 'reînviată ca „Lady Inimă de Piatră"'
+    titles (7 intrări ordonate cronologic cu poziție):
+      1. "Lady de Winterfell"
+         [an=298, carte='Urzeala Tronurilor', frag=5]
+      2. "Lady Stark"
+         [an=298, carte='Urzeala Tronurilor', frag=6]
+      3. "Doamna de Winterfell (implicit)"
+         [an=299, carte='Înclestarea Regilor', frag=7]
+      4. "Doamnă de Riverrun"
+         [an=299, carte='Înclestarea Regilor', frag=12]
+      5. "Winterfell"
+         [an=299, carte='Înclestarea Regilor', frag=12]
+      6. "Lady"
+         [an=300, carte='Iureșul Săbiilor', frag=8]
+      7. "reînviată ca „Lady Inimă de Piatră""
+         [an=301, carte='Festinul Ciorilor', frag=12]
+  ■ moarte.descriere = 'ucisă în acest fragment, la Nunta Roşie (gâtul tăiat), după ce ea însăşi îl ucide pe Aegon „Clopoţel" Frey ca represalii'
+    confidence = confirmed
+    variante (6):
+      • "ucisă la Nunta Roşie (gâtul tăiat, aruncată în râu, conform relatării lui Salladhor Saan)" [Iureșul Săbiilor f11]
+      • "moartă, reînviată sub numele „Lady Inimă de Piatră"" [Festinul Ciorilor fNone]
+      • "moartă la Gemeni" [Dansul Dragonilor fNone]
+      • "moartă (ucisă)" [Dansul Dragonilor fNone]
+      • "moartă" [Dansul Dragonilor fNone]
+      • "decedată (Nunta Roșie, implicit); menționată doar în amintiri (Brienne o citează); moartă (menționată ca decedată); moartă (gâtul tăiat de Freyi la Nunta Roşie), înviată de Beric Dondarrion" [Festinul Ciorilor fNone]
+  ■ relații de familie:
+    - parent_of: ['Arya Stark (PERSON_ARYA_STARK)', 'Bran Stark (PERSON_BRAN_STARK)', 'Bran Stark, Rickon Stark (PERSON_BRAN_STARK_RICKON_STARK)', 'Bran Stark și Rickon Stark (PERSON_BRAN_STARK_SI_RICKON_STARK)', 'Rickon Stark (PERSON_RICKON_STARK)', 'Robb Stark (PERSON_ROBB_STARK)', 'Robb Stark, „Tânărul Lup" (PERSON_ROBB_STARK_TANARUL_LUP)']
+    - child_of: ['Hoster Tully (PERSON_HOSTER_TULLY)', 'Lordul Hoster Tully (PERSON_LORDUL_HOSTER_TULLY)']
+    - sibling_of: ['Edmure Tully (PERSON_EDMURE_TULLY)', 'Lady Lysa Arryn (născută Tully) (PERSON_LADY_LYSA_ARRYN)', 'Lysa Arryn (PERSON_LYSA_ARRYN)', 'Ser Edmure Tully (PERSON_SER_EDMURE_TULLY)']
+    - married_to: ['Eddard Stark (PERSON_EDDARD_STARK)']
+    - contradictii_relatii_familie: ['Sansa Stark (PERSON_SANSA_STARK)']
+
+────────────────────────────────────────────────────────────────────────────────
+  Robert Baratheon (PERSON_ROBERT_BARATHEON)
+────────────────────────────────────────────────────────────────────────────────
+  ■ titlu_curent = 'Primul pe Numele Său'
+    titles (7 intrări ordonate cronologic cu poziție):
+      1. "Rege al Andalilor"
+         [an=298, carte='Urzeala Tronurilor', frag=1]
+      2. "al Rhoynar"
+         [an=298, carte='Urzeala Tronurilor', frag=1]
+      3. "fost Rege al celor Șapte Regate"
+         [an=298, carte='Urzeala Tronurilor', frag=1]
+      4. "Protector al Domeniului"
+         [an=298, carte='Urzeala Tronurilor', frag=1]
+      5. "fost Rege"
+         [an=298, carte='Urzeala Tronurilor', frag=5]
+      6. "Regele celor Șapte Regate"
+         [an=298, carte='Urzeala Tronurilor', frag=6]
+      7. "Primul pe Numele Său"
+         [an=298, carte='Urzeala Tronurilor', frag=15]
+  ■ moarte.descriere = 'nespecificat în acest fragment (notă: în narațiune, Robert este deja mort la acest punct al poveștii, deși Anexa îl listează încă drept „Regele Robert Baratheon" — posibil ca Anexa să reflecte structura de familie de la începutul cărții, nu starea curentă; marcat (neclar) statusul temporal)'
+    confidence = confirmed
+    variante (8):
+      • "decedat înaintea evenimentelor fragmentului" [Iureșul Săbiilor f8]
+      • "decedat înaintea acestui fragment" [Iureșul Săbiilor f10]
+      • "mort înaintea acestui fragment" [Iureșul Săbiilor f3]
+      • "mort (menţionat retrospectiv)" [Iureșul Săbiilor f15]
+      • "mort (evocat retrospectiv)" [Iureșul Săbiilor f11]
+      • "mort" [Iureșul Săbiilor f9]
+      • "mort (menționat ca trecut); mort; mort (menționat ca "Uzurpatorul", ucis de un mistreț); decedat — oficial ucis de un mistreț; decedat" [Dansul Dragonilor fNone]
+      • "mort; decedat; mort (ucis de un mistreț, aluzie)" [Festinul Ciorilor fNone]
+  ■ relații de familie:
+    - parent_of: ['Barra (PERSON_BARRA)', 'Edric Storm (PERSON_EDRIC_STORM)', 'Gendry (PERSON_GENDRY)', 'Joffrey (PERSON_JOFFREY)', 'Joffrey Baratheon (PERSON_JOFFREY_BARATHEON)', 'Myrcella (PERSON_MYRCELLA)', 'Myrcella Baratheon (PERSON_MYRCELLA_BARATHEON)', 'Prințesa Myrcella Baratheon (PERSON_PRINTESA_MYRCELLA_BARATHEON)', 'Tommen (PERSON_TOMMEN)', 'Tommen Baratheon (PERSON_TOMMEN_BARATHEON)']
+    - child_of: ['Steffon Baratheon (PERSON_STEFFON_BARATHEON)']
+    - sibling_of: ['Renly (PERSON_RENLY)', 'Renly Baratheon (PERSON_RENLY_BARATHEON)', 'Stannis Baratheon (PERSON_STANNIS_BARATHEON)']
+    - married_to: ['Cersei (regină) (PERSON_CERSEI)', 'Cersei Lannister (PERSON_CERSEI_LANNISTER)']
+
+────────────────────────────────────────────────────────────────────────────────
+  Daenerys Targaryen (PERSON_DAENERYS_TARGARYEN)
+────────────────────────────────────────────────────────────────────────────────
+  ■ titlu_curent = 'Regina Golfului Sclavilor'
+    titles (30 intrări ordonate cronologic cu poziție):
+      1. "regina dragostei"
+         [an=130, carte='Foc și Sânge', frag=2.2]
+      2. "a frumuseții (turnir, 55 D.C.)"
+         [an=130, carte='Foc și Sânge', frag=2.2]
+      3. "prima în linia succesiunii (menționat de mama ei)"
+         [an=130, carte='Foc și Sânge', frag=2.3]
+      4. "Prințesa Pietrei Dragonului"
+         [an=298, carte='Urzeala Tronurilor', frag=1]
+      5. "Khaleesi"
+         [an=298, carte='Urzeala Tronurilor', frag=5]
+      6. "Mama Dragonilor"
+         [an=298, carte='Urzeala Tronurilor', frag=15]
+      7. "Regină"
+         [an=299, carte='Înclestarea Regilor', frag=12]
+      8. "intră singură în Palatul de Pulbere"
+         [an=299, carte='Înclestarea Regilor', frag=12]
+      9. "numită Daenerys Stormborn"
+         [an=299, carte='Înclestarea Regilor', frag=13]
+      10. "Regină a celor Șapte Regate ale Westerosului"
+         [an=299, carte='Înclestarea Regilor', frag=13]
+      11. "Regina Celor Șapte Regate (auto-proclamată)"
+         [an=299, carte='Înclestarea Regilor', frag=15]
+      12. "Daenerys Născută din Furtună"
+         [an=300, carte='Iureșul Săbiilor', frag=5]
+      13. "„Cea Nearsă”"
+         [an=300, carte='Iureșul Săbiilor', frag=5]
+      14. "regină fără tron"
+         [an=300, carte='Iureșul Săbiilor', frag=6]
+      15. "ucigașa vrăjitorilor"
+         [an=300, carte='Iureșul Săbiilor', frag=14]
+      16. "eliberatoarea"
+         [an=300, carte='Iureșul Săbiilor', frag=14]
+      17. "Prima pe Numele Ei"
+         [an=301, carte='Festinul Ciorilor', frag=13]
+      18. "Regină a Meereenului"
+         [an=301, carte='Festinul Ciorilor', frag=13]
+      19. "Regină a Andalilor"
+         [an=301, carte='Festinul Ciorilor', frag=13]
+      20. "a Rhoynarilor"
+         [an=301, carte='Festinul Ciorilor', frag=13]
+      21. "a Primilor Oameni"
+         [an=301, carte='Festinul Ciorilor', frag=13]
+      22. "Khaleesi a întinsei Mări de Iarbă"
+         [an=301, carte='Festinul Ciorilor', frag=13]
+      23. "a Rhoynarilor şi a Primilor Oameni"
+         [an=302, carte='Dansul Dragonilor', frag=necunoscut]
+      24. "Cea Care a Sfărâmat Lanţurile"
+         [an=302, carte='Dansul Dragonilor', frag=necunoscut]
+      25. "regina argintie"
+         [an=302, carte='Dansul Dragonilor', frag=necunoscut]
+      26. "Dezrobitoarea"
+         [an=302, carte='Dansul Dragonilor', frag=necunoscut]
+      27. "„Luminăţia Ta”"
+         [an=302, carte='Dansul Dragonilor', frag=necunoscut]
+      28. "„Măreţia Ta”"
+         [an=302, carte='Dansul Dragonilor', frag=necunoscut]
+      29. "„salvatoarea lumii”"
+         [an=302, carte='Dansul Dragonilor', frag=necunoscut]
+      30. "Regina Golfului Sclavilor"
+         [an=302, carte='Dansul Dragonilor', frag=necunoscut]
+  ■ moarte.descriere = 'nu apar; în viață; dispărută, presupusă posibil moartă (necunfirmat); stare necunoscută — presupusă moartă de unii, în viață (fugită pe dragon) în realitate'
+    confidence = confirmed
+    variante = None
+  ■ relații de familie:
+    - parent_of: ['Rhaego (PERSON_RHAEGO)']
+    - child_of: ['Aerys al II-lea Targaryen (Regele Nebun) (PERSON_AERYS_AL_II_LEA_TARGARYEN)', 'Alysanne (Targaryen) (PERSON_ALYSANNE)', 'Jaehaerys I Targaryen (PERSON_JAEHAERYS_I_TARGARYEN)', 'Regele Aerys (tânăr, ca prinț) (PERSON_REGELE_AERYS)', 'Regele Aerys al II-lea Targaryen (PERSON_REGELE_AERYS_AL_II_LEA_TARGARYEN)', 'Regele Aerys Targaryen (PERSON_REGELE_AERYS_TARGARYEN)', 'Regina Rhaella (PERSON_REGINA_RHAELLA)']
+    - sibling_of: ['Aemon Targaryen (Prinț de Piatra Dragonului) (PERSON_AEMON_TARGARYEN)', 'Alyssa (regina Alyssa, din Casa Velaryon) (PERSON_ALYSSA)', 'Baelon Targaryen ("cel Viteaz", "Prințul Primăverii") (PERSON_BAELON_TARGARYEN)', 'Prințesa Alyssa Targaryen (PERSON_PRINTESA_ALYSSA_TARGARYEN)', 'Rhaegar (Frey) (PERSON_RHAEGAR)', 'Rhaegar Targaryen (PERSON_RHAEGAR_TARGARYEN)', 'Viserys (prințul Viserys) (PERSON_VISERYS)', 'Viserys Targaryen (PERSON_VISERYS_TARGARYEN)']
+    - married_to: ['Hizdahr zo Loraq (PERSON_HIZDAHR_ZO_LORAQ)', 'Khal Drogo (PERSON_KHAL_DROGO)']
+
+────────────────────────────────────────────────────────────────────────────────
+  Tyrion Lannister (PERSON_TYRION_LANNISTER)
+────────────────────────────────────────────────────────────────────────────────
+  ■ titlu_curent = 'Hugor Hill'
+    titles (21 intrări ordonate cronologic cu poziție):
+      1. "Lord (poreclit „Pezevenghiul”,„Piticul”)"
+         [an=298, carte='Urzeala Tronurilor', frag=7]
+      2. "poreclit „Pezevenghiul""
+         [an=298, carte='Urzeala Tronurilor', frag=9]
+      3. "poreclit „Pezevenghiul" de dușmani"
+         [an=298, carte='Urzeala Tronurilor', frag=12]
+      4. "conduce un grup de clanuri din Munții Lunii"
+         [an=298, carte='Urzeala Tronurilor', frag=12]
+      5. "nou-numit Mâna Regelui"
+         [an=299, carte='Înclestarea Regilor', frag=2]
+      6. "Mâna Regelui"
+         [an=299, carte='Înclestarea Regilor', frag=3]
+      7. "numit „Pezevenghiul” de Varys"
+         [an=299, carte='Înclestarea Regilor', frag=17]
+      8. "propus ca maestru vistiernic"
+         [an=300, carte='Iureșul Săbiilor', frag=4]
+      9. "urmează să se căsătorească cu Sansa Stark"
+         [an=300, carte='Iureșul Săbiilor', frag=4]
+      10. "actual vistiernic (maestrul monedelor)"
+         [an=300, carte='Iureșul Săbiilor', frag=12]
+      11. "acuzat de regicid"
+         [an=300, carte='Iureșul Săbiilor', frag=13]
+      12. "acuzat de uciderea regelui Joffrey"
+         [an=300, carte='Iureșul Săbiilor', frag=14]
+      13. "fost condamnat la moarte pentru uciderea regelui Joffrey"
+         [an=301, carte='Festinul Ciorilor', frag=3]
+      14. "evadat"
+         [an=301, carte='Festinul Ciorilor', frag=3]
+      15. "căutat de Cersei (recompensă pentru capul lui)"
+         [an=301, carte='Festinul Ciorilor', frag=10]
+      16. "nespecificate în fragment"
+         [an=302, carte='Dansul Dragonilor', frag=necunoscut]
+      17. "alias-uri folosite: „Yollo" (în Pentos)"
+         [an=302, carte='Dansul Dragonilor', frag=necunoscut]
+      18. "menționat prin poreclele „Yollo""
+         [an=302, carte='Dansul Dragonilor', frag=necunoscut]
+      19. "se auto-numeşte „Lord de Casterly Rock" în documentele semnate pentru Fiii Secunzi"
+         [an=302, carte='Dansul Dragonilor', frag=necunoscut]
+      20. "pseudonime folosite: Yollo"
+         [an=302, carte='Dansul Dragonilor', frag=necunoscut]
+      21. "Hugor Hill"
+         [an=302, carte='Dansul Dragonilor', frag=necunoscut]
+  ■ moarte.descriere = None
+    confidence = None
+    variante = None
+  ■ relații de familie:
+    - parent_of: []
+    - child_of: ['Joanna Lannister (PERSON_JOANNA_LANNISTER)', 'Lordul Tywin Lannister (PERSON_LORDUL_TYWIN_LANNISTER)', 'Tywin Lannister (PERSON_TYWIN_LANNISTER)']
+    - sibling_of: ['Cersei (regină) (PERSON_CERSEI)', 'Cersei Lannister (PERSON_CERSEI_LANNISTER)', 'Jaime Lannister (PERSON_JAIME_LANNISTER)']
+    - married_to: ['Sansa Stark (PERSON_SANSA_STARK)', 'Tysha (PERSON_TYSHA)']
+
+────────────────────────────────────────────────────────────────────────────────
+  Cersei Lannister (PERSON_CERSEI_LANNISTER)
+────────────────────────────────────────────────────────────────────────────────
+  ■ titlu_curent = 'acuzată de înaltă trădare'
+    titles (14 intrări ordonate cronologic cu poziție):
+      1. "Regină"
+         [an=298, carte='Urzeala Tronurilor', frag=5]
+      2. "Regenta"
+         [an=298, carte='Urzeala Tronurilor', frag=12]
+      3. "„Lumină a Apusului"
+         [an=298, carte='Urzeala Tronurilor', frag=12]
+      4. "Protectoare a Regatului"
+         [an=298, carte='Urzeala Tronurilor', frag=12]
+      5. "Regina Regentă"
+         [an=299, carte='Înclestarea Regilor', frag=2]
+      6. "Lady de Casterly Rock"
+         [an=301, carte='Festinul Ciorilor', frag=3]
+      7. "Alteța Ta"
+         [an=301, carte='Festinul Ciorilor', frag=3]
+      8. "Regina Văduvă"
+         [an=301, carte='Festinul Ciorilor', frag=7]
+      9. "Regina Regentă a celor Șapte Regate"
+         [an=301, carte='Festinul Ciorilor', frag=8]
+      10. "Înălțimea Ta"
+         [an=301, carte='Festinul Ciorilor', frag=10]
+      11. "Regină-Mamă"
+         [an=301, carte='Festinul Ciorilor', frag=12]
+      12. "Regină Moștenitoare"
+         [an=302, carte='Dansul Dragonilor', frag=necunoscut]
+      13. "mama regelui Tommen"
+         [an=302, carte='Dansul Dragonilor', frag=necunoscut]
+      14. "acuzată de înaltă trădare"
+         [an=302, carte='Dansul Dragonilor', frag=necunoscut]
+  ■ moarte.descriere = 'avea un an când i-a murit bunicul (Lordul Tytos, implicit)'
+    confidence = confirmed
+    variante = None
+  ■ relații de familie:
+    - parent_of: ['Joffrey (PERSON_JOFFREY)', 'Joffrey Baratheon (PERSON_JOFFREY_BARATHEON)', 'Myrcella (PERSON_MYRCELLA)', 'Myrcella Baratheon (PERSON_MYRCELLA_BARATHEON)', 'Prințesa Myrcella Baratheon (PERSON_PRINTESA_MYRCELLA_BARATHEON)', 'Prințul Tommen Baratheon (PERSON_PRINTUL_TOMMEN_BARATHEON)', 'Regele Tommen Baratheon (PERSON_REGELE_TOMMEN_BARATHEON)', 'Tommen (PERSON_TOMMEN)', 'Tommen Baratheon (PERSON_TOMMEN_BARATHEON)', 'Tommen Baratheon, Primul pe Numele Său (PERSON_TOMMEN_BARATHEON_PRIMUL_PE_NUMELE_SAU)']
+    - child_of: ['Joanna Lannister (PERSON_JOANNA_LANNISTER)', 'Lady Joanna Lannister (PERSON_LADY_JOANNA_LANNISTER)', 'Lordul Tywin Lannister (PERSON_LORDUL_TYWIN_LANNISTER)', 'Tywin Lannister (PERSON_TYWIN_LANNISTER)']
+    - sibling_of: ['Jaime Lannister (PERSON_JAIME_LANNISTER)', 'Tyrion Lannister (PERSON_TYRION_LANNISTER)']
+    - married_to: ['Regele Robert I Baratheon (PERSON_REGELE_ROBERT_I_BARATHEON)', 'Robert Baratheon (PERSON_ROBERT_BARATHEON)']
+
+────────────────────────────────────────────────────────────────────────────────
+  Jaime Lannister (PERSON_JAIME_LANNISTER)
+────────────────────────────────────────────────────────────────────────────────
+  ■ titlu_curent = 'zis „Regicidul"'
+    titles (19 intrări ordonate cronologic cu poziție):
+      1. "cavaler (membru al Gărzii Regelui, implicit prin context — spera să câștige coroana campionului la turnirul de ziua Prințului Jeffrey)"
+         [an=298, carte='Urzeala Tronurilor', frag=5]
+      2. "Ser"
+         [an=298, carte='Urzeala Tronurilor', frag=6]
+      3. "„Regicidul”"
+         [an=298, carte='Urzeala Tronurilor', frag=6]
+      4. "fost membru al Gărzii Regelui"
+         [an=298, carte='Urzeala Tronurilor', frag=6]
+      5. "Frate Jurat al Săbiilor Albe"
+         [an=298, carte='Urzeala Tronurilor', frag=6]
+      6. "comandant al unei platoșe aurite cu blazonul leului"
+         [an=298, carte='Urzeala Tronurilor', frag=7]
+      7. "poreclit "Regicidul""
+         [an=298, carte='Urzeala Tronurilor', frag=9]
+      8. "în acest fragment este numit (prin decret) noul Lord Comandant al Gărzii Regelui"
+         [an=298, carte='Urzeala Tronurilor', frag=12]
+      9. "înlocuindu-l pe Ser Barristan Selmy"
+         [an=298, carte='Urzeala Tronurilor', frag=12]
+      10. "moștenitor al Casterly Rock"
+         [an=298, carte='Urzeala Tronurilor', frag=15]
+      11. "Lord Comandant al Gărzii Regale"
+         [an=299, carte='Înclestarea Regilor', frag=2]
+      12. "menționat ca prizonier promis a fi eliberat în schimbul Aryei"
+         [an=299, carte='Înclestarea Regilor', frag=12]
+      13. "Sansei"
+         [an=299, carte='Înclestarea Regilor', frag=12]
+      14. "supranumit „Regicidul""
+         [an=299, carte='Înclestarea Regilor', frag=14]
+      15. "prizonier la Riverrun"
+         [an=299, carte='Înclestarea Regilor', frag=17]
+      16. "cavaler al Gărzii Regelui (implicit)"
+         [an=299, carte='Înclestarea Regilor', frag=necunoscut]
+      17. "poreclă din tinerețe „Tânărul Leu""
+         [an=301, carte='Festinul Ciorilor', frag=3]
+      18. "poreclit acum „Mână-de-Aur”"
+         [an=301, carte='Festinul Ciorilor', frag=7]
+      19. "zis „Regicidul""
+         [an=301, carte='Festinul Ciorilor', frag=12]
+  ■ moarte.descriere = None
+    confidence = None
+    variante = None
+  ■ relații de familie:
+    - parent_of: ['Joffrey (PERSON_JOFFREY)', 'Joffrey Baratheon (PERSON_JOFFREY_BARATHEON)', 'Myrcella (PERSON_MYRCELLA)', 'Myrcella Baratheon (PERSON_MYRCELLA_BARATHEON)', 'Prinţul Joffrey (PERSON_PRINTUL_JOFFREY)', 'Tommen (PERSON_TOMMEN)', 'Tommen Baratheon (PERSON_TOMMEN_BARATHEON)']
+    - child_of: ['Joanna Lannister (PERSON_JOANNA_LANNISTER)', 'Lordul Tywin Lannister (PERSON_LORDUL_TYWIN_LANNISTER)', 'Tywin Lannister (PERSON_TYWIN_LANNISTER)']
+    - sibling_of: ['Cersei (regină) (PERSON_CERSEI)', 'Cersei Lannister (PERSON_CERSEI_LANNISTER)', 'Tyrion Lannister (PERSON_TYRION_LANNISTER)']
+    - married_to: ['Tywin Lannister (PERSON_TYWIN_LANNISTER)']
+
+────────────────────────────────────────────────────────────────────────────────
+  Jon Snow (PERSON_JON_SNOW)
+────────────────────────────────────────────────────────────────────────────────
+  ■ titlu_curent = '187–204 (acțiune)'
+    titles (17 intrări ordonate cronologic cu poziție):
+      1. "frate al Rondului de Noapte"
+         [an=298, carte='Urzeala Tronurilor', frag=5]
+      2. "scutier al Lordului Comandant Mormont"
+         [an=299, carte='Înclestarea Regilor', frag=7]
+      3. "aflat la Zid"
+         [an=299, carte='Înclestarea Regilor', frag=8]
+      4. "bastard („Snow")"
+         [an=299, carte='Înclestarea Regilor', frag=12]
+      5. "numit „Lord Snow""
+         [an=299, carte='Înclestarea Regilor', frag=17]
+      6. "plecat cu Qhorin Halfhand"
+         [an=300, carte='Iureșul Săbiilor', frag=1]
+      7. "menţionat"
+         [an=300, carte='Iureșul Săbiilor', frag=1]
+      8. "nu prezent fizic în fragment"
+         [an=300, carte='Iureșul Săbiilor', frag=1]
+      9. "fără vești"
+         [an=300, carte='Iureșul Săbiilor', frag=7]
+      10. "a găsit ascunzătoarea de obsidian la Pumnul Primilor Oameni"
+         [an=300, carte='Iureșul Săbiilor', frag=7]
+      11. "Lord Snow (poreclă)"
+         [an=300, carte='Iureșul Săbiilor', frag=13]
+      12. "i se încredințează comanda Zidului de către Donai Noye"
+         [an=300, carte='Iureșul Săbiilor', frag=13]
+      13. "Maester Aemon"
+         [an=300, carte='Iureșul Săbiilor', frag=13]
+      14. "poreclit "Lord Snow""
+         [an=300, carte='Iureșul Săbiilor', frag=14]
+      15. "i se oferă titlul de Lord Stark de Winterfell (neacceptat în fragment)"
+         [an=300, carte='Iureșul Săbiilor', frag=15]
+      16. "ales al 998-lea Lord Comandant al Rondului de Noapte"
+         [an=300, carte='Iureșul Săbiilor', frag=16]
+      17. "187–204 (acțiune)"
+         [an=302, carte='Dansul Dragonilor', frag=necunoscut]
+  ■ moarte.descriere = None
+    confidence = None
+    variante = None
+  ■ relații de familie:
+    - parent_of: []
+    - child_of: ['Eddard Stark (PERSON_EDDARD_STARK)', 'Robb Stark (PERSON_ROBB_STARK)']
+    - sibling_of: ['Arya Stark (PERSON_ARYA_STARK)', 'Brandon Stark (PERSON_BRANDON_STARK)', 'Bran Stark (PERSON_BRAN_STARK)', 'Rickon Stark (PERSON_RICKON_STARK)', 'Robb Stark (PERSON_ROBB_STARK)', 'Sansa Stark (PERSON_SANSA_STARK)']
+    - married_to: []
+
+────────────────────────────────────────────────────────────────────────────────
+  Robb Stark (PERSON_ROBB_STARK)
+────────────────────────────────────────────────────────────────────────────────
+  ■ titlu_curent = 'supranumit „Tânărul Lup”'
+    titles (17 intrări ordonate cronologic cu poziție):
+      1. "conduce Winterfell în absența tatălui („Robb Stăpânul”)"
+         [an=298, carte='Urzeala Tronurilor', frag=5]
+      2. "conduce oastea Nordului ca urmaș al lui Eddard Stark"
+         [an=298, carte='Urzeala Tronurilor', frag=12]
+      3. "moștenitorul Winterfellului"
+         [an=298, carte='Urzeala Tronurilor', frag=15]
+      4. "proclamat în acest fragment „Regele Nordului""
+         [an=298, carte='Urzeala Tronurilor', frag=15]
+      5. "Regele Nordului"
+         [an=299, carte='Înclestarea Regilor', frag=2]
+      6. "Lord de Winterfell"
+         [an=299, carte='Înclestarea Regilor', frag=4]
+      7. "Rege în Nord (implicit, nemenţionat explicit titulatura aici)"
+         [an=299, carte='Înclestarea Regilor', frag=4]
+      8. "fost Mână a Regelui"
+         [an=299, carte='Înclestarea Regilor', frag=4]
+      9. "poreclit „Tânărul Lup""
+         [an=299, carte='Înclestarea Regilor', frag=8]
+      10. "„Regele Robb""
+         [an=299, carte='Înclestarea Regilor', frag=11]
+      11. "„Tânărul Lup""
+         [an=299, carte='Înclestarea Regilor', frag=11]
+      12. "„Regele Tridentului" (menționat ca titlu posibil)"
+         [an=299, carte='Înclestarea Regilor', frag=12]
+      13. "comandant al oastei nordului"
+         [an=299, carte='Înclestarea Regilor', frag=12]
+      14. "câștigător la Oxcross"
+         [an=299, carte='Înclestarea Regilor', frag=12]
+      15. "rege (implicit, „Regele Nordului")"
+         [an=299, carte='Înclestarea Regilor', frag=13]
+      16. "Lord de drept al Winterfellului"
+         [an=300, carte='Iureșul Săbiilor', frag=15]
+      17. "supranumit „Tânărul Lup”"
+         [an=301, carte='Festinul Ciorilor', frag=13]
+  ■ moarte.descriere = 'ucis în acest fragment, la Nunta Roşie, la Gemeni — lovit de două săgeţi (umăr, picior), apoi înjunghiat în inimă de un bărbat în mantie trandafirie ce spune „Jaime Lannister îţi trimite salutări"'
+    confidence = confirmed
+    variante (8):
+      • "recent (decapitat de „regina Lannister” / Cersei) (notat și: ucis la porunca Regelui Aerys II Targaryen) (notat și: 15 ani (menționat de Catelyn)) (notat și: nu apar)" [Înclestarea Regilor fNone]
+      • "murit — ucis printr-o săgeată la nunta lui Edmure Tully (Nunta Roşie)" [Iureșul Săbiilor f11]
+      • "ucis la Nunta Roșie, la 16 ani (Fragment 13)" [Festinul Ciorilor fNone]
+      • "mort (Nunta Roșie, eveniment anterior)" [Dansul Dragonilor fNone]
+      • "mort (menţionat la trecut)" [Iureșul Săbiilor f15]
+      • "mort la Nunta Roșie" [Dansul Dragonilor fNone]
+      • "mort; mort — ucis la Gemeni (Nunta Roșie, menționată retrospectiv); l-a învins pe Lordul Rickard Karstark („scărmăneala” menționată); mort (implicit, Nunta Roșie); mort (menționat, „Tânărul Lup"); mort — ucis la Nunta Roșie, măcelărit de Casa Frey; mort (menționat ca amintire în visul lui Jon — decapitat); mort (menționat ca amintire de Jon)" [Dansul Dragonilor fNone]
+      • "mort, decapitat; decedat (menționat retrospectiv, l-a luat prin surprindere pe Jaime la Pădurea Șoaptelor); mort (ucis prin trădare, aluzie la Nunta Roșie)" [Festinul Ciorilor fNone]
+  ■ relații de familie:
+    - parent_of: ['Arya Stark (PERSON_ARYA_STARK)', 'Bran Stark (PERSON_BRAN_STARK)', 'Jon Snow (PERSON_JON_SNOW)', 'Rickon Stark (PERSON_RICKON_STARK)', 'Sansa Stark (PERSON_SANSA_STARK)']
+    - child_of: ['Catelyn Stark (PERSON_CATELYN_STARK)', 'Catelyn Tully (Stark) (PERSON_CATELYN_TULLY)', 'Eddard Stark (PERSON_EDDARD_STARK)', 'Lady Catelyn Stark (Tully) (PERSON_LADY_CATELYN_STARK)', 'Ned (Eddard) Stark (PERSON_NED_STARK)']
+    - sibling_of: ['Arya Stark (PERSON_ARYA_STARK)', 'Brandon Stark (PERSON_BRANDON_STARK)', 'Bran Stark (PERSON_BRAN_STARK)', 'Bran Stark, Rickon Stark (PERSON_BRAN_STARK_RICKON_STARK)', 'Bran Stark și Rickon Stark (PERSON_BRAN_STARK_SI_RICKON_STARK)', 'Jon Snow (PERSON_JON_SNOW)', 'Jon Stark (PERSON_JON_STARK)', 'Rickon Stark (PERSON_RICKON_STARK)', 'Sansa Stark (PERSON_SANSA_STARK)']
+    - married_to: []
+
+────────────────────────────────────────────────────────────────────────────────
+  Sansa Stark (PERSON_SANSA_STARK)
+────────────────────────────────────────────────────────────────────────────────
+  ■ titlu_curent = 'identitate falsă „Alayne Stone"'
+    titles (13 intrări ordonate cronologic cu poziție):
+      1. "ostatică la Debarcaderul Regelui"
+         [an=299, carte='Înclestarea Regilor', frag=5]
+      2. "nespecificate"
+         [an=299, carte='Înclestarea Regilor', frag=12]
+      3. "„foarte frumoasă""
+         [an=299, carte='Înclestarea Regilor', frag=12]
+      4. "„poate puțin palidă""
+         [an=299, carte='Înclestarea Regilor', frag=12]
+      5. "logodnica regelui Joffrey"
+         [an=299, carte='Înclestarea Regilor', frag=15]
+      6. "pupilă a curții (statut stabilit în acest fragment)"
+         [an=299, carte='Înclestarea Regilor', frag=16]
+      7. "ostatică la curtea Lannister"
+         [an=300, carte='Iureșul Săbiilor', frag=4]
+      8. "posibilă moștenitoare a Winterfellului"
+         [an=300, carte='Iureșul Săbiilor', frag=4]
+      9. "Arya se gândește la ea (talentul ei muzical)"
+         [an=300, carte='Iureșul Săbiilor', frag=5]
+      10. "Lady"
+         [an=300, carte='Iureșul Săbiilor', frag=8]
+      11. "potențială moștenitoare a Nordului (după lege)"
+         [an=300, carte='Iureșul Săbiilor', frag=9]
+      12. "oficial fosta soție a lui Tyrion Lannister"
+         [an=301, carte='Festinul Ciorilor', frag=3]
+      13. "identitate falsă „Alayne Stone""
+         [an=301, carte='Festinul Ciorilor', frag=3]
+  ■ moarte.descriere = None
+    confidence = None
+    variante = None
+  ■ relații de familie:
+    - parent_of: []
+    - child_of: ['Catelyn Tully (Stark) (PERSON_CATELYN_TULLY)', 'Eddard Stark (PERSON_EDDARD_STARK)', 'Ned (Eddard) Stark (PERSON_NED_STARK)', 'Robb Stark (PERSON_ROBB_STARK)']
+    - sibling_of: ['Arya Stark (PERSON_ARYA_STARK)', 'Benjen Stark (PERSON_BENJEN_STARK)', 'Brandon Stark (PERSON_BRANDON_STARK)', 'Bran Stark (PERSON_BRAN_STARK)', 'Bran Stark, Rickon Stark (PERSON_BRAN_STARK_RICKON_STARK)', 'Bran Stark și Rickon Stark (PERSON_BRAN_STARK_SI_RICKON_STARK)', 'Jon Snow (PERSON_JON_SNOW)', 'Jon Stark (PERSON_JON_STARK)', 'Rickon Stark (PERSON_RICKON_STARK)', 'Robb Stark (PERSON_ROBB_STARK)', 'Robb Stark, „Tânărul Lup" (PERSON_ROBB_STARK_TANARUL_LUP)']
+    - married_to: ['Tyrion Lannister (PERSON_TYRION_LANNISTER)']
+    - contradictii_relatii_familie: ['Catelyn Stark (PERSON_CATELYN_STARK)']
+
+====================================================================================================
+VERIFICARE EXPLICITĂ TEST DE REGRESIE (PASUL 4)
+====================================================================================================
+
+1. Robb Stark NU mai apare în propriul lui parent_of: [PASS]
+   Targets în parent_of pentru Robb Stark: ['PERSON_ARYA_STARK', 'PERSON_BRAN_STARK', 'PERSON_JON_SNOW', 'PERSON_RICKON_STARK', 'PERSON_SANSA_STARK']
+
+2. Jon Snow NU mai are Eddard Stark/Robb Stark în parent_of: [PASS]
+   Jon Snow parent_of: []
+   Jon Snow child_of: ['PERSON_EDDARD_STARK', 'PERSON_ROBB_STARK'] (Eddard Stark este părintele lui Jon)
+
+3. titlu_curent pentru Robert, Daenerys, Robb, Sansa nu e număr de pagină sau fragment de zgomot:
+   - Robert Baratheon: titlu_curent = 'Primul pe Numele Său' -> [PASS]
+   - Daenerys Targaryen: titlu_curent = 'Regina Golfului Sclavilor' -> [PASS]
+   - Robb Stark: titlu_curent = 'supranumit „Tânărul Lup”' -> [PASS]
+   - Sansa Stark: titlu_curent = 'identitate falsă „Alayne Stone"' -> [PASS]
+
+STATUS REGRESIE PUNCTUL 3: [PASS]
+
+ALL REGRESSION CHECKS: [PASS]
+====================================================================================================

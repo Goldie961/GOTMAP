@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.zip
+data.zip
+Imagini dovezi/
+.DS_Store
+scratch/

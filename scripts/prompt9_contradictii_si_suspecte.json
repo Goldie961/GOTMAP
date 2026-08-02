@@ -1,0 +1,746 @@
+{
+  "contradictii_familie": [
+    {
+      "subiect": "PERSON_CATELYN_STARK",
+      "subiect_nume": "Catelyn Stark",
+      "obiect": "PERSON_SANSA_STARK",
+      "obiect_nume": "Sansa Stark",
+      "surse": {
+        "parent_of_sources": [
+          {
+            "source_book": "Urzeala Tronurilor",
+            "source_fragment": 1,
+            "source_page": "2, 7, 21–27, 29–30, 33–34, 37, 42, 45, 49, 60, 62, 66, 75, 81, 91, 244–245, 265, 279, 293–302, 336–349, 372–391, 456–460, 628–629, 660–675, 814–830, 837",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": 2,
+            "source_page": "nespecificată",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": 3,
+            "source_page": "nespecificată",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": 5,
+            "source_page": "nespecificată",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": 6,
+            "source_page": "nespecificată",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": 8,
+            "source_page": "nespecificată",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": null,
+            "source_page": "nespecificată",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": 10,
+            "source_page": "nespecificată",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": 12,
+            "source_page": "nespecificată",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": 14,
+            "source_page": "nespecificată",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": 17,
+            "source_page": "nespecificată",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Festinul Ciorilor",
+            "source_fragment": 3,
+            "source_page": "—",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Festinul Ciorilor",
+            "source_fragment": 5,
+            "source_page": "—",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Festinul Ciorilor",
+            "source_fragment": 10,
+            "source_page": "—",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Dansul Dragonilor",
+            "source_fragment": null,
+            "source_page": "651",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 4,
+            "source_page": "182–187, 217–222",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 7,
+            "source_page": "37–46",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 8,
+            "source_page": "108, 119",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 9,
+            "source_page": "195–196",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 12,
+            "source_page": "22 și pe tot parcursul",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 13,
+            "source_page": "118–132",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Dansul Dragonilor",
+            "source_fragment": null,
+            "source_page": "650, 662, 868, 1160, 1325, 1312",
+            "confidence": "confirmed"
+          }
+        ],
+        "child_of_sources": [
+          {
+            "source_book": "Festinul Ciorilor",
+            "source_fragment": null,
+            "source_page": "—",
+            "confidence": "confirmed"
+          }
+        ]
+      }
+    },
+    {
+      "subiect": "PERSON_DAVOS_SEAWORTH",
+      "subiect_nume": "Davos Seaworth",
+      "obiect": "PERSON_DEVAN",
+      "obiect_nume": "Devan",
+      "surse": {
+        "parent_of_sources": [
+          {
+            "source_book": "Dansul Dragonilor",
+            "source_fragment": null,
+            "source_page": "173, 175–176, 178–179, 264–277, 331–342, 515–530, 548–549",
+            "confidence": "confirmed"
+          }
+        ],
+        "child_of_sources": [
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 3,
+            "source_page": "116–123",
+            "confidence": "confirmed"
+          },
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 8,
+            "source_page": "93–97",
+            "confidence": "confirmed"
+          }
+        ]
+      }
+    },
+    {
+      "subiect": "PERSON_ELLARIA_SAND",
+      "subiect_nume": "Ellaria Sand",
+      "obiect": "PERSON_HARMEN_ULLER",
+      "obiect_nume": "Harmen Uller",
+      "surse": {
+        "parent_of_sources": [
+          {
+            "source_book": "Festinul Ciorilor",
+            "source_fragment": null,
+            "source_page": "—",
+            "confidence": "confirmed"
+          }
+        ],
+        "child_of_sources": [
+          {
+            "source_book": "Festinul Ciorilor",
+            "source_fragment": null,
+            "source_page": "—",
+            "confidence": "confirmed"
+          }
+        ]
+      }
+    },
+    {
+      "subiect": "PERSON_LADY_TANDA",
+      "subiect_nume": "Lady Tanda",
+      "obiect": "PERSON_LOLLYS",
+      "obiect_nume": "Lollys",
+      "surse": {
+        "parent_of_sources": [
+          {
+            "source_book": "Iureșul Săbiilor",
+            "source_fragment": 12,
+            "source_page": "21",
+            "confidence": "confirmed"
+          }
+        ],
+        "child_of_sources": [
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": null,
+            "source_page": "nespecificată",
+            "confidence": "confirmed"
+          }
+        ]
+      }
+    },
+    {
+      "subiect": "PERSON_LOLLYS",
+      "subiect_nume": "Lollys",
+      "obiect": "PERSON_TANDA_STOKEWORTH",
+      "obiect_nume": "Tanda Stokeworth",
+      "surse": {
+        "parent_of_sources": [
+          {
+            "source_book": "Festinul Ciorilor",
+            "source_fragment": null,
+            "source_page": "—",
+            "confidence": "confirmed"
+          }
+        ],
+        "child_of_sources": [
+          {
+            "source_book": "Înclestarea Regilor",
+            "source_fragment": 5,
+            "source_page": "nespecificată",
+            "confidence": "confirmed"
+          }
+        ]
+      }
+    },
+    {
+      "subiect": "PERSON_TOREGG_CEL_INALT",
+      "subiect_nume": "Toregg cel Înalt",
+      "obiect": "PERSON_TORMUND",
+      "obiect_nume": "Tormund",
+      "surse": {
+        "parent_of_sources": [
+          {
+            "source_book": "Festinul Ciorilor",
+            "source_fragment": null,
+            "source_page": "—",
+            "confidence": "confirmed"
+          }
+        ],
+        "child_of_sources": [
+          {
+            "source_book": "Dansul Dragonilor",
+            "source_fragment": null,
+            "source_page": "1222–1223, 1234",
+            "confidence": "confirmed"
+          }
+        ]
+      }
+    },
+    {
+      "subiect": "PERSON_TOREGG_CEL_INALT",
+      "subiect_nume": "Toregg cel Înalt",
+      "obiect": "PERSON_TORMUND_NAPASTA_URIASILOR",
+      "obiect_nume": "Tormund Năpasta Uriașilor",
+      "surse": {
+        "parent_of_sources": [
+          {
+            "source_book": "Dansul Dragonilor",
+            "source_fragment": null,
+            "source_page": "1218, 1221–1223, 1227–1235",
+            "confidence": "confirmed"
+          }
+        ],
+        "child_of_sources": [
+          {
+            "source_book": "Dansul Dragonilor",
+            "source_fragment": null,
+            "source_page": "945–952, 960–961",
+            "confidence": "confirmed"
+          }
+        ]
+      }
+    }
+  ],
+  "died_suspecte": [
+    {
+      "id_persoana": "PERSON_SER_EMMON_CUY",
+      "text": "mort; jurase înainte să moară că Brienne l-a ucis pe Renly (notat și: ucis de Brienne, imediat după moartea lui Renly)",
+      "sursa": {
+        "source_book": "Înclestarea Regilor",
+        "source_fragment": null,
+        "source_page": "nespecificată",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_BALON_GREYJOY",
+      "text": "mort recent — a căzut de pe un pod la Pyke, în timpul unei furtuni; decedat — cădere de pe un pod de sfoară; mort (recent); decedat",
+      "sursa": {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "—",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_CATELYN_STARK",
+      "text": "decedată (Nunta Roșie, implicit); menționată doar în amintiri (Brienne o citează); moartă (menționată ca decedată); moartă (gâtul tăiat de Freyi la Nunta Roşie), înviată de Beric Dondarrion",
+      "sursa": {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "—",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_EDDARD_STARK",
+      "text": "decedat (executat); mort; mort (executat, menționat indirect)",
+      "sursa": {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "—",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_ELIA_MARTELL",
+      "text": "moartă (ucisă) cu 17 ani în urmă, împreună cu copiii ei; moartă (ucisă de Lannisteri)",
+      "sursa": {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "—",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_JON_ARRYN",
+      "text": "decedat; mort (aluzie la faptul că Pycelle l-ar fi putut ucide și pe el); mort (anterior evenimentelor din fragment)",
+      "sursa": {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "304, 316",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_LYSA_ARRYN",
+      "text": "decedată — a murit prin Poarta Lunii; moartă (împinsă prin Poarta Lunii de Marillion)",
+      "sursa": {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "108, 301–311",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_QUELLON_GREYJOY",
+      "text": "mort pe mare, în ultima sa călătorie; mort (implicit, generație anterioară)",
+      "sursa": {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "—",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_REGELE_AERYS_II_TARGARYEN",
+      "text": "decedat anterior fragmentului (nedetaliat aici); decedat; mort (ucis de Jaime — aluzie la \"sângele Regelui Nebun pe sabia sa\")",
+      "sursa": {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "72",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_RENLY_BARATHEON",
+      "text": "decedat; mort la 21 de ani, în brațele Briennei",
+      "sursa": {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "61–62",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_RHAEGAR_TARGARYEN",
+      "text": "mort — capul zdrobit de zid de „oamenii Leului de Lannister\"; decedat la Trident; mort (istoric, la Trident); decedat; avea 17 ani la turnirul din Lannisport (context: cu ani înaintea acțiunii prezente)",
+      "sursa": {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "—",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_ROBB_STARK",
+      "text": "mort, decapitat; decedat (menționat retrospectiv, l-a luat prin surprindere pe Jaime la Pădurea Șoaptelor); mort (ucis prin trădare, aluzie la Nunta Roșie)",
+      "sursa": {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "58, 85",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_ROBERT_BARATHEON",
+      "text": "mort; decedat; mort (ucis de un mistreț, aluzie)",
+      "sursa": {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "55, 95",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_THEON_GREYJOY",
+      "text": "presupus decedat (neconfirmat); posibil mort (nesigur, doar speculat)",
+      "sursa": {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "—",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_TYWIN_LANNISTER",
+      "text": "mort — ucis cu o săgeată de arbaletă în pântece, în Turnul Mâinii; decedat recent (ucis, conform textului, de o săgeată — detaliu nedescris explicit în acest fragment); mort (an nespecificat în acest fragment); decedat (ucis, conform mențiunilor, de Tyrion); mort (ucis, implicit de Tyrion)",
+      "sursa": {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "280, 55–108",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_MELARA_HETHERSPOON",
+      "text": "decedată (înecată într-o fântână); moartă (la scurt timp după episodul cu vrăjitoarea); moartă (înecată într-un puţ), pe când Cersei avea 10 ani",
+      "sursa": {
+        "source_book": "Festinul Ciorilor",
+        "source_fragment": null,
+        "source_page": "—",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_AERYS_FIUL_LUI_JAEHAERYS",
+      "text": "decedat (implicit, prin context istoric al domniei sale „tulburi\"/nebuniei); moartea nu e descrisă explicit aici",
+      "sursa": {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "993, 996",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_BALON_GREYJOY",
+      "text": "mort; nemenționat (implicit decedat, dar nu se confirmă explicit în fragment)",
+      "sursa": {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "316, 450, 452, 741, 915, 1307",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_DAENERYS_TARGARYEN",
+      "text": "nu apar; în viață; dispărută, presupusă posibil moartă (necunfirmat); stare necunoscută — presupusă moartă de unii, în viață (fugită pe dragon) în realitate",
+      "sursa": {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 60, 106–107, 121–122, 130–131, 170–171, 205–222, 278–285, 286–297, 380–383, 397–399, 400–413, 531–545, 584–585, 594–596, 634–648, 686–689, 758–779, 838–843, 890–905, 985–999 (extensiv), 1019, 1058–1069, 1257–1275, 1280–1282, 1298",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_EDDARD_STARK",
+      "text": "mort (decapitat, anterior fragmentului); mort (menționat ca amintire); mort (moartea sa e presupusă cunoscută, menționată retrospectiv)",
+      "sursa": {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "151, 153 (amintiri), 230–232, 311–312, 337, 524–529, 814–830, 859, 868, 882, 913–920",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_JOFFREY_BARATHEON",
+      "text": "mort; mort (otrăvit); mort (menționată nunta lui); decedat (moarte menţionată)",
+      "sursa": {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "216, 336, 682–683, 847, 1150, 1155, 1160–1161, 1288, 1293",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_RHAEGAR_TARGARYEN",
+      "text": "mort (anterior fragmentului); mort la Bătălia Tridentului (an nespecificat exact în fragment); nemenționate în fragment",
+      "sursa": {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "295–296, 327 (posibil tată al „Tânărului Griff\"), 406–407, 416, 423, 535, 868, 1085, 1092–1093, 1186, 1187, 1190–1191, 1278, 1281–1282",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_RICKARD_KARSTARK",
+      "text": "mort (executat, implicat); decapitat de Robb Stark (anterior fragmentului); mort (implicit, „scărmănat” de Robb Stark); decapitat de Robb Stark pentru uciderea a doi prizonieri Lannister",
+      "sursa": {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "80, 310, 571, 796",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_RICKON_STARK",
+      "text": "ucis (decapitat, la porunca lui Theon Greyjoy, conform relatării din fragment); presupus mort (fals — substituție mușamalizată de Theon); nemenționate",
+      "sursa": {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "74, 570, 719, 1231, 1325",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_ROBB_STARK",
+      "text": "mort; mort — ucis la Gemeni (Nunta Roșie, menționată retrospectiv); l-a învins pe Lordul Rickard Karstark („scărmăneala” menționată); mort (implicit, Nunta Roșie); mort (menționat, „Tânărul Lup\"); mort — ucis la Nunta Roșie, măcelărit de Casa Frey; mort (menționat ca amintire în visul lui Jon — decapitat); mort (menționat ca amintire de Jon)",
+      "sursa": {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "74, 141, 150, 570, 651, 663, 796–826, 919–920, 1040, 1231",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_ROBERT_BARATHEON",
+      "text": "mort (menționat ca trecut); mort; mort (menționat ca \"Uzurpatorul\", ucis de un mistreț); decedat — oficial ucis de un mistreț; decedat",
+      "sursa": {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "186, 199, 333–341, 343, 739, 742–743, 937, 938, 970, 977, 995, 1087–1088, 1091, 1148, 1155, 1161, 1315–1316",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_SER_ARYS_OAKHEART",
+      "text": "mort; mort — ucis de Gerold Dayne (nu de \"Pezevenghi\" cum se crede la curte); decedat — ucis de Gerold Dayne apărând-o pe Myrcella",
+      "sursa": {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "674, 677, 684–685, 984–985",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_TYWIN_LANNISTER",
+      "text": "recent, ucis de Tyrion cu o săgeată de arbaletă, în timp ce se afla \"acolo unde se duc târfele\" (a fost surprins cu o femeie/în context legat de Shae); mort recent, ucis de Tyrion, în timp ce stătea pe privată; mort, ucis de Tyrion; mort; mort — ucis de propriul fiu (Tyrion); decedat (moarte menționată ca faptă a lui Tyrion — „L-a ucis pe tata\"); mort (ucis de Tyrion cu o săgeată)",
+      "sursa": {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Tyrion I, 159–160, 166–167 (amintiri), 185, 198–199, 217, 318–322, 597–598, 682–683, 706, 710, 718, 777, 820, 851, 859, 970, 985, 1021, 1055, 1147, 1154, 1165, 1173–1174, 1182, 1278–1290, 1298, 1320",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_VISERYS_TARGARYEN",
+      "text": "mort la Vaes Dothrak, cu o coroană de aur topit turnată pe cap; mort (înainte de acest fragment); mort (anterior fragmentului); mort de tânăr; mort",
+      "sursa": {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 106–107, 216, 219, 288, 381, 412, 426, 533, 634, 768, 1263, 1267, 1269–1270",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_WENDEL_MANDERLY",
+      "text": "mort la Nunta Roșie (Wyman pretinde public că a murit erou apărându-l pe un Frey); mort la Nunta Roșie",
+      "sursa": {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "334–335, 524",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_YGRITTE",
+      "text": "moartă (menționată ca trecut), în brațele lui Jon; moartă (apare în visul lui Jon)",
+      "sursa": {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "189, 202, 622, 629, 784, 1040, 1046, 1049",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_DONAL_NOYE",
+      "text": "mort apărând poarta (trecut); mort",
+      "sursa": {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "198, 204, 630",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_SCUT_NECLINTIT",
+      "text": "ucis de Fiii Harpiei într-un bordel din Meereen; mort recent",
+      "sursa": {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Daenerys I, 59, 63",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_SHAE",
+      "text": "recentă, ucisă de Tyrion; moartă, strangulată de Tyrion (menționat retrospectiv)",
+      "sursa": {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "Tyrion I, 330",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_YURKHAZ_ZO_YUNZAK",
+      "text": "decedat; mort (călcat în picioare fugind de dragon, sau atac de cord)",
+      "sursa": {
+        "source_book": "Dansul Dragonilor",
+        "source_fragment": null,
+        "source_page": "436, 445, 850, 892, 900, 998, 1064–1065, 1079",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_ALYSANNE_OSGREY",
+      "text": "- Moartă în timpul Marii Epidemii de Primăvară (acum ~2 ani) — Fragment 4\n- Luată ostatică la 7 ani; moartă la 20 de ani, ca „soră tăcută\" — Fragment 5",
+      "sursa": {
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": null,
+        "source_page": "nespecificat\n---",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_SER_LUCAS_INCHFIELD_GALIGANUL",
+      "text": "ucis de Dunk în duel la Apa Bălțată, înjunghiat sub apă la subraț — Fragment 5; cavaler mort — ucis de Dunk cu puțin timp înainte de Fragment 6 — Fragment 6",
+      "sursa": {
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": null,
+        "source_page": "nespecificat\n---\n---",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_ROGER_DE_PENNYTREE",
+      "text": "mort la Câmpul Ierbii Roșii, mai tânăr decât recrutul „Wat Udul\" — Fragment 4; ucis de Lordul Gormon Peake — Fragment 6, 8",
+      "sursa": {
+        "source_book": "Cavalerul celor 7 Regate",
+        "source_fragment": null,
+        "source_page": "nespecificat\n---",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_AEGON",
+      "text": "mort în Bătălia de sub Ochiul Zeilor, ucis de unchiul lor Maegor; n. 53 D.C., mort după 3 zile (din Fragment 2.2)",
+      "sursa": {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "224, 285",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_LAENOR_VELARYON",
+      "text": "120 D.C. — ucis în Orașul Mirodeniilor de ser Qarl Correy; răposat (mort anterior fragmentului) (din Fragment 4.1)",
+      "sursa": {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "388, 392, 417–420, 424, 426–428, 499–500",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_LUCERYS_VELARYON",
+      "text": "are 13 ani; moare 129 D.C., ucis de Vhagar/Aemond deasupra Golfului Naufragiilor; mort (anterior fragmentului, ucis de Aemond) (din Fragment 4.1); sfârșit 115 D.C (din Fragment 3.2)",
+      "sursa": {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "423–424, 426, 430–431, 437, 462-463, 474-480, 495, 508",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_VAEMOND_VELARYON",
+      "text": "129 D.C. (implicit, dinainte de moartea lui Viserys) — decapitat la ordinul Rhaenyrei, capul dat drept hrană dragonului Syrax; mort anterior (executat pentru revoltă în timpul domniei lui Viserys I) (din Fragment 5.1)",
+      "sursa": {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "437, 682, --",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_JASON_LANNISTER",
+      "text": "mort (rănit mortal la Furca Roșie de scutierul Pate din Longleaf); mort în luptă, anterior acestui fragment (din Fragment 5.1)",
+      "sursa": {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "509–511, 656, --",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id_persoana": "PERSON_TYANNA_DIN_TURN",
+      "text": "moartă în acest fragment (mărturisit crimele sub tortură; ucisă, posibil de Maegor însuși prin scoaterea inimii)",
+      "sursa": {
+        "source_book": "Foc și Sânge",
+        "source_fragment": null,
+        "source_page": "89–90, 93–94, 101, 107–108, 113, 119–120, 130",
+        "confidence": "confirmed"
+      }
+    }
+  ]
+}
