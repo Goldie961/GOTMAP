@@ -37,17 +37,68 @@
   color: var(--blood);
 }
 
+/* The summary header. It carries everything that identifies the entity, and the
+   panel below it carries at most four facts and one button — the whole thing has
+   to fit one screen for any entity, so the padding is measured, not generous. */
 .info-panel-header {
-  padding: 2rem 1.5rem 1rem;
+  padding: 1.6rem 1.5rem 0.9rem;
   border-bottom: 1px solid var(--parchment-dark);
   text-align: center;
   position: relative;
 }
 
+/* Clamped, because the panel must fit one screen whatever the record holds and
+   14 location names run past 60 characters — the longest is 332, an extracted
+   run-on listing eighteen places. The full name is on the element's title and on
+   the entity's page; it is never the panel's job to render all of it. */
 .info-panel-header h2 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin: 0;
+  font-size: 1.6rem;
+  line-height: 1.15;
+  overflow-wrap: anywhere;
 }
+
+.info-panel-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.45rem;
+}
+
+.info-panel-kicker {
+  margin: 0.25rem 0 0;
+  color: var(--gold-dark);
+  font: 0.7rem 'Cinzel', serif;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.info-panel-house { margin-top: 0.35rem; font-size: 0.8rem; }
+.info-panel-note { margin-top: 0.3rem; color: var(--ink-light); font-size: 0.82rem; font-style: italic; }
+
+/* An honest label for how much the record holds, shown before the reader
+   commits to opening the page: 1530 of 2227 scored characters are below 0.3. */
+.info-panel-completeness {
+  display: inline-block;
+  margin: 0.55rem 0 0;
+  padding: 0.1rem 0.5rem;
+  border: 1px solid;
+  border-radius: 999px;
+  font: 700 0.64rem 'Cinzel', serif;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.info-panel-completeness.rich,
+.wiki-completeness.rich { color: var(--forest); border-color: rgba(74, 103, 65, .45); background: rgba(74, 103, 65, .1); }
+.info-panel-completeness.partial,
+.wiki-completeness.partial { color: var(--gold-dark); border-color: rgba(197, 165, 90, .5); background: rgba(197, 165, 90, .12); }
+.info-panel-completeness.sparse,
+.wiki-completeness.sparse { color: var(--blood); border-color: rgba(139, 0, 0, .32); background: rgba(139, 0, 0, .07); }
 
 .house-banner-stripe {
   height: 5px;
@@ -58,17 +109,20 @@
 }
 
 .house-sigil-display {
-  width: 70px;
-  height: 70px;
-  margin: 0.5rem auto;
+  width: 72px;
+  height: 72px;
+  margin: 0.6rem auto 0.2rem;
   border-radius: 50%;
   border: 2px solid var(--gold);
-  background: var(--parchment-light);
+  background: rgba(255, 248, 231, 0.9);
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: inset 0 0 10px rgba(0,0,0,0.1), 0 2px 5px rgba(0,0,0,0.15);
 }
+
+.house-sigil-display img { width: 100%; height: 100%; object-fit: contain; }
 
 .house-words {
   font-style: italic;
@@ -109,7 +163,88 @@
 .wiki-aliases { margin: .35rem 0; font-style: italic; color: var(--ink-light); }
 .wiki-identity { display: flex; flex-wrap: wrap; align-items: center; gap: .45rem .8rem; margin-top: 1rem; }
 .wiki-fact { font-size: .9rem; text-transform: capitalize; }
-.wiki-section { margin: 2rem 0; }
+/* ── Page navigation ───────────────────────────────────────────────────────
+   One link per section that actually rendered. It is built after the sections
+   precisely so it cannot advertise an empty one — on a dataset where 1530 of
+   2227 scored characters sit below 0.3, an anchor list built from a fixed menu
+   would be mostly dead links. */
+.wiki-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
+  margin: 1.2rem 0 .4rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--parchment-dark);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: linear-gradient(var(--parchment-light) 70%, transparent);
+}
+
+.wiki-nav-link {
+  padding: .22rem .6rem;
+  border: 1px solid var(--parchment-dark);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .35);
+  color: var(--ink);
+  font: 700 .7rem 'Cinzel', serif;
+  text-decoration: none;
+  transition: background-color .15s, border-color .15s;
+}
+
+.wiki-nav-link:hover { background: rgba(197, 165, 90, .22); border-color: var(--gold-dark); }
+
+.wiki-completeness {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .3rem .7rem;
+  margin-top: 1rem;
+  padding: .4rem .7rem;
+  border: 1px solid;
+  border-radius: 3px;
+}
+
+.wiki-completeness-band { font: 700 .68rem 'Cinzel', serif; letter-spacing: .06em; text-transform: uppercase; }
+.wiki-completeness-detail { color: var(--ink-light); font-size: .78rem; font-style: italic; }
+
+.wiki-advisory {
+  margin-top: 1rem;
+  padding: .65rem .8rem;
+  border: 1px dashed rgba(139, 115, 64, .4);
+  background: linear-gradient(135deg, rgba(139,115,64,.08), rgba(92,72,48,.12));
+  color: var(--ink-light);
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+}
+
+.wiki-advisory strong { font: 700 .75rem 'Cinzel', serif; letter-spacing: .05em; font-style: normal; }
+.wiki-advisory p { margin: .3rem 0 0; font-size: .88rem; }
+
+.wiki-subheading { margin: 1rem 0 .3rem; font: 700 .8rem 'Cinzel', serif; color: var(--gold-dark); }
+
+.wiki-house-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: .5rem;
+  margin-top: .5rem;
+}
+
+.wiki-house-card {
+  padding: .45rem;
+  border: 1px solid var(--parchment-dark);
+  border-left: 3px solid var(--gold-dark);
+  border-radius: 2px;
+  background: rgba(44, 24, 16, .03);
+  color: var(--ink);
+  font-size: .82rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.wiki-house-card:hover { background: rgba(197, 165, 90, .16); }
+
+.wiki-section { margin: 2rem 0; scroll-margin-top: 3.5rem; }
 .wiki-section h2 { border-bottom: 1px solid var(--parchment-dark); padding-bottom: .35rem; font: 1.1rem 'Cinzel', serif; }
 .wiki-description { white-space: pre-wrap; line-height: 1.6; }
 .wiki-relation-row { margin: .55rem 0; }
@@ -124,8 +259,112 @@
 .wiki-confidence.inferred { color: var(--gold-dark); background: rgba(197,165,90,.14); border-color: rgba(197,165,90,.45); }
 .wiki-confidence.unknown { color: var(--blood); background: rgba(139,0,0,.09); border-color: rgba(139,0,0,.3); }
 .wiki-generated-name { display: inline-block; margin-left: .45rem; color: var(--ink-light); font-size: .85rem; }
-.wiki-source { margin-top: .3rem; color: var(--ink-light); font-size: .78rem; font-style: italic; }
-.wiki-source a { color: var(--gold-dark); }
+.wiki-source { display: inline; margin-left: .35rem; }
+
+/* ── Provenance citation ───────────────────────────────────────────────────
+   Sources are the proof of canonicity and are never dropped, but printed in
+   full next to every claim they were most of what a character page showed —
+   only 34 of 2288 characters have a description, so the panel was built almost
+   entirely out of statements and their page ranges. The citation collapses to
+   one chip; the detail opens on click, one line per book rather than one line
+   per claim. */
+.source-cite { display: inline-block; vertical-align: baseline; }
+
+.source-cite-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: .12rem;
+  padding: 0 .3rem;
+  border: 1px solid rgba(139, 115, 64, .3);
+  border-radius: 999px;
+  background: rgba(197, 165, 90, .1);
+  color: var(--ink-light);
+  font-family: 'Cinzel', serif;
+  font-size: .66rem;
+  line-height: 1.5;
+  cursor: pointer;
+  transition: background-color .15s, border-color .15s;
+}
+
+.source-cite-toggle:hover,
+.source-cite.open .source-cite-toggle {
+  background: rgba(197, 165, 90, .26);
+  border-color: var(--gold-dark);
+  color: var(--ink);
+}
+
+.source-cite-icon { font-size: .7rem; }
+.source-cite-count { font-variant-numeric: tabular-nums; font-weight: 700; }
+
+.source-cite-detail,
+.source-list {
+  margin-top: .3rem;
+  padding: .35rem .55rem;
+  border-left: 2px solid rgba(139, 115, 64, .35);
+  background: rgba(197, 165, 90, .07);
+  color: var(--ink-light);
+  font-size: .74rem;
+  font-style: italic;
+  text-align: left;
+  /* A page range can run to hundreds of characters; it wraps, it never widens
+     the panel it sits in. */
+  overflow-wrap: anywhere;
+}
+
+.source-cite-detail[hidden] { display: none; }
+
+.source-cite-line + .source-cite-line,
+.source-list .source-cite-line + .source-cite-line { margin-top: .25rem; }
+
+.source-cite-book { font-style: normal; font-weight: 700; color: var(--ink); }
+.source-cite-book:not(:last-child)::after { content: ' — '; font-weight: 400; color: var(--ink-light); }
+.source-cite-fragment::after { content: ' · '; }
+
+.source-cite-more {
+  margin-left: .3rem;
+  padding: 0 .3rem;
+  border: 1px solid rgba(139, 115, 64, .3);
+  border-radius: 3px;
+  background: none;
+  color: var(--gold-dark);
+  font: 700 .7rem 'Cinzel', serif;
+  cursor: pointer;
+}
+
+.source-cite-more:hover { background: rgba(197, 165, 90, .2); }
+.source-cite-link { margin-left: .35rem; color: var(--gold-dark); }
+
+/* ── Contradictory readings of one claim ───────────────────────────────────
+   `moarte` frequently holds several readings extracted from different fragments
+   — alive at the end of one, dead in another. Concatenated into a single
+   paragraph they read as one incoherent statement, so they are listed. */
+.claim-variants-note {
+  margin: .15rem 0;
+  color: var(--gold-dark);
+  font-family: 'Cinzel', serif;
+  font-size: .66rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.claim-variants {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+
+.claim-variant {
+  margin: .3rem 0;
+  padding-left: .6rem;
+  border-left: 2px solid rgba(139, 115, 64, .3);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: .95rem;
+  line-height: 1.4;
+  color: var(--ink);
+}
+
+.claim-variant-text { margin-right: .3rem; }
 
 /* ── Wiki Participants List (Houses vs Persons) ── */
 .wiki-participants-list { padding-left: 0; list-style: none; margin: .6rem 0; }
@@ -170,16 +409,100 @@
   padding-bottom: 2px;
 }
 
+/* Two columns, and the gap between them is load-bearing.
+   The row was `display:flex; justify-content:space-between` with nothing else:
+   the label had no reserved width and no separation, so a long value — the death
+   claim is routinely 300+ characters — began exactly at the label's right edge
+   and the two ran together as "Deathdouă zi a celei de-a zecea luni...".
+   The label now keeps a column of its own; the value gets `min-width: 0` so it
+   wraps inside that column instead of pushing the label. */
 .info-row {
   display: flex;
+  align-items: baseline;
   justify-content: space-between;
-  margin-bottom: 0.4rem;
+  gap: 0.9rem;
+  margin-bottom: 0.2rem;
+  padding: 0.4rem 0;
+  border-bottom: 1px dashed rgba(44, 24, 16, 0.12);
   font-size: 0.95rem;
 }
 
 .info-row .info-label {
+  flex: 0 1 auto;
+  min-width: 5.5rem;
+  max-width: 45%;
+  font-family: 'Cinzel', serif;
+  font-size: 0.8rem;
   font-weight: bold;
   color: var(--ink-light);
+  overflow-wrap: break-word;
+}
+
+.info-row .info-value {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: baseline;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  /* Without this the text refuses to shrink below its content width and
+     overflows the panel instead of wrapping. */
+  min-width: 0;
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+
+.info-row .info-value-text {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+/* A claim with several readings needs the full width; the label goes above. */
+.info-row-stacked {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.3rem;
+}
+
+.info-row-stacked .info-value {
+  max-width: none;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+/* Inline value lists. The separator is drawn by CSS rather than inserted as a
+   text node, so folding an entry away takes its separator with it. */
+/* Text flow, not a flex track: the entries have to run on as one paragraph and
+   break mid-list, which flex items cannot do. */
+.info-row .info-value.info-inline-list { display: block; }
+.info-inline-list { --info-separator: ' · '; }
+.info-list-comma { --info-separator: ', '; }
+.info-item + .info-item::before { content: var(--info-separator); color: var(--ink-light); }
+.info-item[hidden] { display: none; }
+
+.info-more,
+.info-more-item .info-more {
+  padding: 0 .35rem;
+  border: 1px solid rgba(139, 115, 64, .35);
+  border-radius: 3px;
+  background: rgba(197, 165, 90, .1);
+  color: var(--gold-dark);
+  font: 700 .68rem 'Cinzel', serif;
+  cursor: pointer;
+}
+
+.info-more:hover { background: rgba(197, 165, 90, .26); color: var(--ink); }
+.info-more-item { margin-top: .35rem; list-style: none; }
+
+.canon-badge.value-badge {
+  align-self: center;
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.9rem;
+  cursor: help;
 }
 
 /* Timeline vertical list */
@@ -264,6 +587,70 @@
   border: 1px solid rgba(139, 0, 0, 0.2);
 }
 
+/* Language badge — shown only when a string is not in the interface language.
+   Reuses the canon-badge idiom deliberately: the reader already knows that a
+   small chip next to a value qualifies it rather than replaces it. */
+.lang-badge {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.35rem;
+  padding: 0 4px;
+  border-radius: 3px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.65rem;
+  font-weight: bold;
+  letter-spacing: 0.06em;
+  line-height: 1.5;
+  vertical-align: middle;
+  cursor: help;
+  background-color: rgba(139, 115, 64, 0.12);
+  color: var(--gold-dark);
+  border: 1px solid rgba(139, 115, 64, 0.35);
+}
+
+.lang-badge-unknown {
+  background-color: rgba(139, 0, 0, 0.08);
+  color: var(--blood);
+  border-color: rgba(139, 0, 0, 0.25);
+}
+
+/* The fragment stays fully legible: this marks provenance, it does not dim or
+   truncate the text (I18N_ARHITECTURA §5.1). */
+.untranslated-fragment {
+  border-left: 2px solid rgba(139, 115, 64, 0.35);
+  padding-left: 0.6rem;
+}
+
+/* Language switch (RO | EN) */
+.lang-switch {
+  display: inline-flex;
+  border: 1px solid var(--gold);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.lang-switch-option {
+  padding: 0.2rem 0.5rem;
+  font-family: 'Cinzel', serif;
+  font-size: 0.7rem;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  color: var(--ink-light);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.lang-switch-option:hover {
+  background-color: rgba(197, 165, 90, 0.18);
+}
+
+.lang-switch-option[aria-pressed="true"] {
+  background-color: var(--gold);
+  color: var(--parchment-light);
+}
+
 /* Filter Panel (Left bar) */
 .filter-panel {
   position: fixed;
@@ -311,21 +698,104 @@
   cursor: pointer;
 }
 
-.location-subtype-filters {
-  min-width: 0;
-  margin: 0.25rem 0 0;
-  padding: 0.65rem 0 0;
-  border: 0;
-  border-top: 1px solid var(--parchment-dark);
-  display: flex;
-  flex-direction: column;
-  gap: 0.45rem;
-}
-
 .filter-subtitle {
   padding: 0;
   color: var(--ink-light);
   font: 700 0.76rem 'Cinzel', serif;
+}
+
+/* Two-level filter tree — categories collapse, leaves carry affected-pin counts */
+.filter-tree {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  /* The Houses category can list every house that draws a crest; the panel
+     scrolls rather than growing past the viewport. */
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.filter-category {
+  border-top: 1px solid var(--parchment-dark);
+  padding-top: 0.4rem;
+}
+
+.filter-category:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.filter-category-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  cursor: pointer;
+  list-style: none;
+  color: var(--ink-light);
+  font: 700 0.76rem 'Cinzel', serif;
+}
+
+.filter-category-summary::-webkit-details-marker { display: none; }
+
+.filter-category-summary::before {
+  content: '▸';
+  font-size: 0.7rem;
+  transition: transform var(--transition-speed);
+}
+
+.filter-category[open] > .filter-category-summary::before {
+  transform: rotate(90deg);
+}
+
+.filter-category-label { flex: 1; }
+
+.filter-category-count,
+.filter-leaf-count {
+  color: var(--ink-light);
+  font-size: 0.72rem;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.75;
+}
+
+.filter-category-actions {
+  display: flex;
+  gap: 0.35rem;
+  margin: 0.3rem 0 0.2rem 1rem;
+}
+
+.filter-category-actions button {
+  background: none;
+  border: 1px solid var(--parchment-dark);
+  border-radius: 3px;
+  color: var(--ink-light);
+  cursor: pointer;
+  font-size: 0.68rem;
+  padding: 1px 6px;
+}
+
+.filter-category-actions button:hover {
+  border-color: var(--gold-dark);
+  color: var(--ink);
+}
+
+.filter-leaf-option {
+  margin-left: 1rem;
+  padding: 0.1rem 0;
+}
+
+.filter-leaf-label { flex: 1; }
+
+.filter-layer-option {
+  border-top: 1px solid var(--parchment-dark);
+  padding-top: 0.5rem;
+}
+
+.filter-empty {
+  color: var(--ink-light);
+  font-size: 0.8rem;
+  font-style: italic;
+  margin: 0;
 }
 
 /* Distance Tool Output Popup */

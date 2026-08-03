@@ -86,7 +86,9 @@
         "source_fragment": null,
         "source_page": "11"
       }
-    ]
+    ],
+    "name_ro": "Aducătoarea de Lumină",
+    "name_en": null
   },
   {
     "id": "aducatoarea_luminii",
@@ -108,7 +110,9 @@
         "source_fragment": null,
         "source_page": "85,196,203–204,743,1229,1231"
       }
-    ]
+    ],
+    "name_ro": "Aducătoarea Luminii (Lightbringer)",
+    "name_en": null
   },
   {
     "id": "analele_centaurului_negru",
@@ -194,7 +198,9 @@
         "source_fragment": 5,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Armura comandată de Jon Arryn",
+    "name_en": null
   },
   {
     "id": "armura_daruita_lui_ser_barristan_de_regina_daenerys",
@@ -212,7 +218,9 @@
         "source_fragment": null,
         "source_page": "1191–1192"
       }
-    ]
+    ],
+    "name_ro": "Armura dăruită lui Ser Barristan de regina Daenerys",
+    "name_en": null
   },
   {
     "id": "armura_de_lemn_vopsit",
@@ -239,7 +247,9 @@
         "source_fragment": null,
         "source_page": "703,707"
       }
-    ]
+    ],
+    "name_ro": "Armura de lemn vopsit (Tyrion și Penny)",
+    "name_en": null
   },
   {
     "id": "armura_lui_roose_bolton",
@@ -257,7 +267,9 @@
         "source_fragment": 7,
         "source_page": "7"
       }
-    ]
+    ],
+    "name_ro": "Armura lui Roose Bolton",
+    "name_en": null
   },
   {
     "id": "armura_noua_a_lui_dunk",
@@ -311,7 +323,9 @@
         "source_fragment": 6,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Averea lui Dunk și Egg",
+    "name_en": null
   },
   {
     "id": "balerion",
@@ -347,7 +361,9 @@
         "source_fragment": null,
         "source_page": "5"
       }
-    ]
+    ],
+    "name_ro": "Barda executării lui Karstark",
+    "name_en": null
   },
   {
     "id": "batalia_de_la_tumbleton_dragonii_seasmoke_si_vermithor",
@@ -365,7 +381,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Bătălia de la Tumbleton — Dragonii Seasmoke și Vermithor",
+    "name_en": null
   },
   {
     "id": "batul_folosit_de_beth_oarba",
@@ -383,7 +401,9 @@
         "source_fragment": null,
         "source_page": "801–802"
       }
-    ]
+    ],
+    "name_ro": "Bățul folosit de Beth Oarba",
+    "name_en": null
   },
   {
     "id": "biciul_arcul_si_marele_arakh_daruri_de_nunta_ale_lui_drogo_catre_daenerys",
@@ -401,7 +421,9 @@
         "source_fragment": null,
         "source_page": "827–829"
       }
-    ]
+    ],
+    "name_ro": "Biciul, arcul și marele arakh — daruri de nuntă ale lui Drogo către Daenerys",
+    "name_en": null
   },
   {
     "id": "biciul_folosit_pentru_domolirea_dragonului_drogon",
@@ -432,7 +454,9 @@
         "source_fragment": null,
         "source_page": "1207,1215"
       }
-    ]
+    ],
+    "name_ro": "Biciul folosit pentru domolirea dragonului Drogon",
+    "name_en": null
   },
   {
     "id": "blazoane_vazute_incidental_pe_armuri_pradate_la_duskendale",
@@ -450,7 +474,9 @@
         "source_fragment": null,
         "source_page": "124"
       }
-    ]
+    ],
+    "name_ro": "Blazoane văzute incidental pe armuri prădate la Duskendale (case nordice neidentificate explicit în text)",
+    "name_en": null
   },
   {
     "id": "blazonul_casei_greyjoy",
@@ -486,7 +512,9 @@
         "source_fragment": 13,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Blazonul Casei Lannister pe armura lui Tywin",
+    "name_en": null
   },
   {
     "id": "blazonul_casei_piper",
@@ -522,7 +550,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Blazonul Casei Velaryon (Calul de Mare)",
+    "name_en": null
   },
   {
     "id": "blazonul_combinat_al_castelului_darry",
@@ -540,7 +570,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Blazonul combinat al Castelului Darry",
+    "name_en": null
   },
   {
     "id": "brasardele_de_aur_ale_lui_tormund",
@@ -558,7 +590,9 @@
         "source_fragment": null,
         "source_page": "947"
       }
-    ]
+    ],
+    "name_ro": "Brasardele de aur ale lui Tormund",
+    "name_en": null
   },
   {
     "id": "brosa_lui_bran_stark",
@@ -573,7 +607,9 @@
         "source_fragment": 6,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Broșa lui Bran Stark",
+    "name_en": null
   },
   {
     "id": "brosa_lui_loras_tyrell",
@@ -591,7 +627,9 @@
         "source_fragment": null,
         "source_page": "2"
       }
-    ]
+    ],
+    "name_ro": "Broșa lui Loras Tyrell",
+    "name_en": null
   },
   {
     "id": "brosa_lui_ser_balon_swann",
@@ -609,7 +647,9 @@
         "source_fragment": 12,
         "source_page": "12"
       }
-    ]
+    ],
+    "name_ro": "Broșa lui Ser Balon Swann",
+    "name_en": null
   },
   {
     "id": "cannibal",
@@ -663,7 +703,9 @@
         "source_fragment": 3,
         "source_page": "154,154–155"
       }
-    ]
+    ],
+    "name_ro": "Carte istorică",
+    "name_en": null
   },
   {
     "id": "carte_simbol_steaua_in_sapte_colturi",
@@ -737,7 +779,9 @@
         "source_fragment": null,
         "source_page": "14"
       }
-    ]
+    ],
+    "name_ro": "Cartea Albă",
+    "name_en": null
   },
   {
     "id": "cartea_alba_a_garzii_regelui",
@@ -773,7 +817,9 @@
         "source_fragment": null,
         "source_page": "176–180,189–191,196"
       }
-    ]
+    ],
+    "name_ro": "Cartea obscenă „Pentru tinerele fete, spre luare aminte”",
+    "name_en": null
   },
   {
     "id": "cartea_veche_legata_in_piele",
@@ -788,7 +834,9 @@
         "source_fragment": 16,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Cartea veche legată în piele (arsă de Roose Bolton)",
+    "name_en": null
   },
   {
     "id": "cartea_vietile_celor_patru_regi",
@@ -816,7 +864,9 @@
         "source_fragment": null,
         "source_page": "12"
       }
-    ]
+    ],
+    "name_ro": "Cartea „Viețile celor patru regi”",
+    "name_en": null
   },
   {
     "id": "castana",
@@ -835,7 +885,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Castană",
+    "name_en": null
   },
   {
     "id": "ceai_al_lunii",
@@ -853,7 +905,9 @@
         "source_fragment": null,
         "source_page": "453"
       }
-    ]
+    ],
+    "name_ro": "Ceai al lunii",
+    "name_en": null
   },
   {
     "id": "ceai_de_luna",
@@ -868,7 +922,9 @@
         "source_fragment": null,
         "source_page": "3"
       }
-    ]
+    ],
+    "name_ro": "Ceai de lună",
+    "name_en": null
   },
   {
     "id": "ceaslovul_fiilor_secunzi",
@@ -904,7 +960,9 @@
         "source_fragment": 2,
         "source_page": "227,232–236"
       }
-    ]
+    ],
+    "name_ro": "Cele trei ouă de dragon furate de Elissa Farman",
+    "name_en": null
   },
   {
     "id": "celulele_ceresti",
@@ -922,7 +980,9 @@
         "source_fragment": 8,
         "source_page": "424–425"
       }
-    ]
+    ],
+    "name_ro": "„Celulele cerești\"",
+    "name_en": null
   },
   {
     "id": "celulele_de_gheata_de_la_castelul_negru",
@@ -940,7 +1000,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Celulele de gheață de la Castelul Negru",
+    "name_en": null
   },
   {
     "id": "cerbul_de_argint",
@@ -958,7 +1020,9 @@
         "source_fragment": 5,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Cerbul de argint",
+    "name_en": null
   },
   {
     "id": "ciocanul_de_lupta_al_lui_hugh_ciocanul",
@@ -976,7 +1040,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Ciocanul de luptă al lui Hugh Ciocanul",
+    "name_en": null
   },
   {
     "id": "ciocanul_regelui_robert",
@@ -1018,7 +1084,9 @@
         "source_fragment": null,
         "source_page": "6"
       }
-    ]
+    ],
+    "name_ro": "Clopoțelul de argint al lui Daenerys",
+    "name_en": null
   },
   {
     "id": "coiful_cap_de_caine",
@@ -1036,7 +1104,9 @@
         "source_fragment": null,
         "source_page": "120-123"
       }
-    ]
+    ],
+    "name_ro": "Coiful \"cap de câine\"",
+    "name_en": null
   },
   {
     "id": "coiful_cu_cap_de_taur_al_lui_gendry",
@@ -1055,7 +1125,9 @@
         "source_fragment": 6,
         "source_page": "289–290"
       }
-    ]
+    ],
+    "name_ro": "Coiful cu cap de taur al lui Gendry",
+    "name_en": null
   },
   {
     "id": "coiful_vechi_al_lui_bran_obiect_adus",
@@ -1070,7 +1142,9 @@
         "source_fragment": 5,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Coiful vechi al lui Bran — obiect, adus",
+    "name_en": null
   },
   {
     "id": "coifurile_fiilor_razboinicului",
@@ -1088,7 +1162,9 @@
         "source_fragment": 21,
         "source_page": "21"
       }
-    ]
+    ],
+    "name_ro": "Coifurile Fiilor Războinicului",
+    "name_en": null
   },
   {
     "id": "colanul_colierul_de_maester",
@@ -1108,7 +1184,9 @@
         "source_fragment": null,
         "source_page": "467"
       }
-    ]
+    ],
+    "name_ro": "Colanul / colierul de Maester",
+    "name_en": null
   },
   {
     "id": "colanul_de_maester",
@@ -1144,7 +1222,9 @@
         "source_fragment": null,
         "source_page": "15"
       }
-    ]
+    ],
+    "name_ro": "Colanul de maester",
+    "name_en": null
   },
   {
     "id": "colanul_de_maester_al_lui_aemon",
@@ -1162,7 +1242,9 @@
         "source_fragment": 1,
         "source_page": "79–82,89,241"
       }
-    ]
+    ],
+    "name_ro": "Colanul de maester al lui Aemon",
+    "name_en": null
   },
   {
     "id": "colanul_de_sclavie_al_maesterilor",
@@ -1180,7 +1262,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Colanul de sclavie al maesterilor",
+    "name_en": null
   },
   {
     "id": "colierul_cheliei",
@@ -1219,7 +1303,9 @@
         "source_fragment": 3,
         "source_page": "151–155"
       }
-    ]
+    ],
+    "name_ro": "Colțul Leului",
+    "name_en": null
   },
   {
     "id": "compendiul_jadului",
@@ -1299,7 +1385,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Corabia Tăcerea",
+    "name_en": null
   },
   {
     "id": "corabii_mentionate_in_portul_alb",
@@ -1358,7 +1446,9 @@
         "source_fragment": null,
         "source_page": "3"
       }
-    ]
+    ],
+    "name_ro": "Corăbii regale și de război menționate",
+    "name_en": null
   },
   {
     "id": "corabii_si_flote_mentionate",
@@ -1381,7 +1471,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Corăbii și flote menționate",
+    "name_en": null
   },
   {
     "id": "corbul_lui_mormont",
@@ -1409,7 +1501,9 @@
         "source_fragment": 11,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Corbul lui Mormont",
+    "name_en": null
   },
   {
     "id": "corn_de_razboi_din_corn_de_zimbru",
@@ -1424,7 +1518,9 @@
         "source_fragment": 9,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Corn de război din corn de zimbru",
+    "name_en": null
   },
   {
     "id": "cornul_crapat",
@@ -1442,7 +1538,9 @@
         "source_fragment": null,
         "source_page": "89"
       }
-    ]
+    ],
+    "name_ro": "Cornul crăpat",
+    "name_en": null
   },
   {
     "id": "cornul_de_dragon",
@@ -1460,7 +1558,9 @@
         "source_fragment": 20,
         "source_page": "20"
       }
-    ]
+    ],
+    "name_ro": "Cornul de dragon",
+    "name_en": null
   },
   {
     "id": "cornul_de_dragon_al_lui_euron",
@@ -1478,7 +1578,9 @@
         "source_fragment": 5,
         "source_page": "255–256"
       }
-    ]
+    ],
+    "name_ro": "Cornul de dragon al lui Euron",
+    "name_en": null
   },
   {
     "id": "cornul_de_vanatoare_de_pe_pumnul_primilor_oameni",
@@ -1493,7 +1595,9 @@
         "source_fragment": 11,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Cornul de vânătoare de pe Pumnul Primilor Oameni",
+    "name_en": null
   },
   {
     "id": "cornul_iernii",
@@ -1531,7 +1635,9 @@
     "categorie": null,
     "material": null,
     "owned_by": [],
-    "sursa": null
+    "sursa": null,
+    "name_ro": "Cornul lui Joramun",
+    "name_en": null
   },
   {
     "id": "cornul_pietrei",
@@ -1647,7 +1753,9 @@
         "source_fragment": 9,
         "source_page": "9"
       }
-    ]
+    ],
+    "name_ro": "Coroana de lemn",
+    "name_en": null
   },
   {
     "id": "coroana_iubirii_si_frumusetii",
@@ -1674,7 +1782,9 @@
         "source_fragment": null,
         "source_page": "9"
       }
-    ]
+    ],
+    "name_ro": "Coroana iubirii și frumuseții",
+    "name_en": null
   },
   {
     "id": "coroana_lui_daenerys",
@@ -1698,7 +1808,9 @@
         "source_fragment": null,
         "source_page": "294"
       }
-    ]
+    ],
+    "name_ro": "Coroana lui Daenerys",
+    "name_en": null
   },
   {
     "id": "coroana_lui_daenerys_targaryen",
@@ -1713,7 +1825,9 @@
         "source_fragment": null,
         "source_page": "2"
       }
-    ]
+    ],
+    "name_ro": "Coroana lui Daenerys Targaryen",
+    "name_en": null
   },
   {
     "id": "coroana_lui_renly_baratheon",
@@ -1728,7 +1842,9 @@
         "source_fragment": 9,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Coroana lui Renly Baratheon",
+    "name_en": null
   },
   {
     "id": "coroana_lui_robb_stark",
@@ -1743,7 +1859,9 @@
         "source_fragment": null,
         "source_page": "3"
       }
-    ]
+    ],
+    "name_ro": "Coroana lui Robb Stark",
+    "name_en": null
   },
   {
     "id": "coroana_lui_stannis_baratheon",
@@ -1758,7 +1876,9 @@
         "source_fragment": 9,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Coroana lui Stannis Baratheon",
+    "name_en": null
   },
   {
     "id": "coroana_lui_theon_greyjoy",
@@ -1773,7 +1893,9 @@
         "source_fragment": 14,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Coroana lui Theon Greyjoy",
+    "name_en": null
   },
   {
     "id": "coroana_regilor_iernii",
@@ -1806,7 +1928,9 @@
         "source_fragment": null,
         "source_page": "30"
       }
-    ]
+    ],
+    "name_ro": "Coroana Șoimului de Munte și Vale",
+    "name_en": null
   },
   {
     "id": "costume_de_fiare_de_bronz_pentru_deghizare",
@@ -1824,7 +1948,9 @@
         "source_fragment": null,
         "source_page": "1206–1207"
       }
-    ]
+    ],
+    "name_ro": "Costume de „Fiare de Bronz\" pentru deghizare",
+    "name_en": null
   },
   {
     "id": "craniile_de_dragon_din_fortareata_rosie",
@@ -1842,7 +1968,9 @@
         "source_fragment": 3,
         "source_page": "122–124"
       }
-    ]
+    ],
+    "name_ro": "Craniile de dragon din Fortăreața Roșie",
+    "name_en": null
   },
   {
     "id": "craniul_dragonului_meraxes",
@@ -1878,7 +2006,9 @@
         "source_fragment": null,
         "source_page": "682–685"
       }
-    ]
+    ],
+    "name_ro": "Craniul lui Gregor Clegane",
+    "name_en": null
   },
   {
     "id": "cronica_marturia_lui_ciuperca_si_cronicile_maesterilor",
@@ -1896,7 +2026,9 @@
         "source_fragment": null,
         "source_page": "767,796–797"
       }
-    ]
+    ],
+    "name_ro": "Cronică / Mărturia lui Ciupercă (Mushroom) și cronicile maesterilor",
+    "name_en": null
   },
   {
     "id": "cutitele_de_piatra",
@@ -1914,7 +2046,9 @@
         "source_fragment": 9,
         "source_page": "509"
       }
-    ]
+    ],
+    "name_ro": "Cuțitele de piatră",
+    "name_en": null
   },
   {
     "id": "cyvasse",
@@ -2038,7 +2172,9 @@
         "source_fragment": null,
         "source_page": "14"
       }
-    ]
+    ],
+    "name_ro": "Devotata / Trădătoarea / Prietena Prefăcută",
+    "name_en": null
   },
   {
     "id": "diadema_de_incoronare_a_lui_aegon_iii",
@@ -2089,7 +2225,9 @@
         "source_fragment": 7,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Direcție",
+    "name_en": null
   },
   {
     "id": "distanta_mentionata",
@@ -2107,7 +2245,9 @@
         "source_fragment": 7,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Distanță menționată",
+    "name_en": null
   },
   {
     "id": "doamna_deznadejdii",
@@ -2155,7 +2295,9 @@
         "source_fragment": null,
         "source_page": "255"
       }
-    ]
+    ],
+    "name_ro": "Doamna Deznădejdii",
+    "name_en": null
   },
   {
     "id": "document",
@@ -2191,7 +2333,9 @@
         "source_fragment": null,
         "source_page": "3"
       }
-    ]
+    ],
+    "name_ro": "Dragon de aur",
+    "name_en": null
   },
   {
     "id": "dragonii_vermithor_si_silverwing_imblanzirea_pe_piatra_dragonului",
@@ -2209,7 +2353,9 @@
         "source_fragment": null,
         "source_page": "221,227,236–240"
       }
-    ]
+    ],
+    "name_ro": "Dragonii Vermithor și Silverwing — îmblânzirea pe Piatra Dragonului",
+    "name_en": null
   },
   {
     "id": "dragonul_de_aur",
@@ -2227,7 +2373,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Dragonul de aur",
+    "name_en": null
   },
   {
     "id": "dreamfyre",
@@ -2263,7 +2411,9 @@
         "source_fragment": null,
         "source_page": "258–259"
       }
-    ]
+    ],
+    "name_ro": "Dreapta Fecioară",
+    "name_en": null
   },
   {
     "id": "drumurile_valyriene",
@@ -2307,7 +2457,9 @@
         "source_fragment": null,
         "source_page": "332"
       }
-    ]
+    ],
+    "name_ro": "Echipament Casa Manderly",
+    "name_en": null
   },
   {
     "id": "fiicele_bastardului",
@@ -2327,7 +2479,9 @@
         "source_fragment": null,
         "source_page": "567,729"
       }
-    ]
+    ],
+    "name_ro": "„Fiicele Bastardului\" (câinii lui Ramsay)",
+    "name_en": null
   },
   {
     "id": "fiii_razboinicului",
@@ -2352,7 +2506,9 @@
         "source_fragment": 8,
         "source_page": "102"
       }
-    ]
+    ],
+    "name_ro": "Fiii Războinicului",
+    "name_en": null
   },
   {
     "id": "flacara",
@@ -2380,7 +2536,9 @@
         "source_fragment": 6,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Flacăra",
+    "name_en": null
   },
   {
     "id": "foc_salbatic",
@@ -2388,7 +2546,9 @@
     "categorie": null,
     "material": null,
     "owned_by": [],
-    "sursa": null
+    "sursa": null,
+    "name_ro": "Foc sălbatic",
+    "name_en": null
   },
   {
     "id": "focul_salbatic",
@@ -2417,7 +2577,9 @@
         "source_fragment": null,
         "source_page": "2"
       }
-    ]
+    ],
+    "name_ro": "Focul sălbatic (wildfire)",
+    "name_en": null
   },
   {
     "id": "fratii_sarmani",
@@ -2435,7 +2597,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Frații Sărmani",
+    "name_en": null
   },
   {
     "id": "galera_doamna_alba",
@@ -2443,7 +2607,9 @@
     "categorie": null,
     "material": null,
     "owned_by": [],
-    "sursa": null
+    "sursa": null,
+    "name_ro": "Galera „Doamna Albă\"",
+    "name_en": null
   },
   {
     "id": "garda_curcubeului",
@@ -2519,7 +2685,9 @@
         "source_fragment": null,
         "source_page": "802,813"
       }
-    ]
+    ],
+    "name_ro": "Gheara Lungă (Longclaw)",
+    "name_en": null
   },
   {
     "id": "ghearalunga",
@@ -2542,7 +2710,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Ghearalungă",
+    "name_en": null
   },
   {
     "id": "gheata",
@@ -2599,7 +2769,9 @@
         "source_fragment": null,
         "source_page": "13,23,162,756,771"
       }
-    ]
+    ],
+    "name_ro": "Gheața",
+    "name_en": null
   },
   {
     "id": "ghioaga_de_razboi_a_regelui_robert",
@@ -2680,7 +2852,9 @@
         "source_fragment": null,
         "source_page": "296"
       }
-    ]
+    ],
+    "name_ro": "Harta veche (dar de la Xaro)",
+    "name_en": null
   },
   {
     "id": "hathay",
@@ -2718,7 +2892,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Inelul-sigiliu al lui Egg (Inelul Prințului Maekar)",
+    "name_en": null
   },
   {
     "id": "inima_franta",
@@ -2736,7 +2912,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Inima Frântă (Heartsbane)",
+    "name_en": null
   },
   {
     "id": "jiltul_de_piatra",
@@ -2754,7 +2932,9 @@
         "source_fragment": null,
         "source_page": "744"
       }
-    ]
+    ],
+    "name_ro": "Jilţul de Piatră (Seastone Chair)",
+    "name_en": null
   },
   {
     "id": "labe_de_urs",
@@ -2772,7 +2952,9 @@
         "source_fragment": null,
         "source_page": "750"
       }
-    ]
+    ],
+    "name_ro": "Labe-de-urs",
+    "name_en": null
   },
   {
     "id": "lady_lu",
@@ -2805,7 +2987,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Lanțul-capcană de pe Apa Neagră",
+    "name_en": null
   },
   {
     "id": "laptele_macului_vinul_viselor",
@@ -2879,7 +3063,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Lucrările istorice ale arhimaestrului Abelon",
+    "name_en": null
   },
   {
     "id": "lucrarile_istorice_ale_arhimaestrului_lyman",
@@ -2897,7 +3083,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Lucrările istorice ale arhimaestrului Lyman",
+    "name_en": null
   },
   {
     "id": "lucrarile_istorice_ale_arhimaestrului_mancaster",
@@ -2915,7 +3103,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Lucrările istorice ale arhimaestrului Mancaster",
+    "name_en": null
   },
   {
     "id": "maester",
@@ -2933,7 +3123,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Maester (catârul)",
+    "name_en": null
   },
   {
     "id": "mana_de_aur_a_lui_jaime",
@@ -3029,7 +3221,9 @@
         "source_fragment": null,
         "source_page": "12"
       }
-    ]
+    ],
+    "name_ro": "Mâncătoarea de Inimi",
+    "name_en": null
   },
   {
     "id": "mantia_alba_de_lana",
@@ -3047,7 +3241,9 @@
         "source_fragment": 6,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Mantia albă de lână (dar de la Ser Eustace)",
+    "name_en": null
   },
   {
     "id": "mantia_de_blana_tarcata_de_pisica_umbra",
@@ -3065,7 +3261,9 @@
         "source_fragment": 7,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Mantia de blană tărcată de pisică-umbră",
+    "name_en": null
   },
   {
     "id": "mantia_din_matase_purpurie_a_lui_tyrion",
@@ -3095,7 +3293,9 @@
         "source_fragment": 11,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Mantia neagră găsită îngropată sub Pumnul Primilor Oameni",
+    "name_en": null
   },
   {
     "id": "manticora",
@@ -3136,7 +3336,9 @@
         "source_fragment": null,
         "source_page": "13"
       }
-    ]
+    ],
+    "name_ro": "Masa Pictată",
+    "name_en": null
   },
   {
     "id": "masa_pictata_de_la_piatra_dragonului",
@@ -3151,7 +3353,9 @@
         "source_fragment": 1,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Masa Pictată de la Piatra Dragonului",
+    "name_en": null
   },
   {
     "id": "meraxes",
@@ -3177,7 +3381,9 @@
         "source_fragment": 7,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Mijloc de deplasare implicat",
+    "name_en": null
   },
   {
     "id": "mirodenii_rare_la_godric_borrell",
@@ -3195,7 +3401,9 @@
         "source_fragment": null,
         "source_page": "182"
       }
-    ]
+    ],
+    "name_ro": "Mirodenii rare la Godric Borrell",
+    "name_en": null
   },
   {
     "id": "moneda_de_aur_veche_de_la_highgarden",
@@ -3213,7 +3421,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Moneda de aur veche de la Highgarden",
+    "name_en": null
   },
   {
     "id": "moneda_de_fier",
@@ -3231,7 +3441,9 @@
         "source_fragment": null,
         "source_page": "85–94"
       }
-    ]
+    ],
+    "name_ro": "Moneda de fier",
+    "name_en": null
   },
   {
     "id": "moneda_de_fier_din_braavos",
@@ -3246,7 +3458,9 @@
         "source_fragment": null,
         "source_page": "1"
       }
-    ]
+    ],
+    "name_ro": "Moneda de fier din Braavos",
+    "name_en": null
   },
   {
     "id": "moneda_din_fier_a_lui_jaqen_hghar",
@@ -3298,7 +3512,9 @@
         "source_fragment": null,
         "source_page": "105"
       }
-    ]
+    ],
+    "name_ro": "Moneda veche descoperită de Qyburn",
+    "name_en": null
   },
   {
     "id": "monede_diverse",
@@ -3338,7 +3554,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Nave ale noii flote regale (dromoane)",
+    "name_en": null
   },
   {
     "id": "neamul_dragonilor",
@@ -3444,7 +3662,9 @@
         "source_fragment": null,
         "source_page": "14"
       }
-    ]
+    ],
+    "name_ro": "Ochean myrishez din bronz",
+    "name_en": null
   },
   {
     "id": "ochiul_myrishean",
@@ -3501,7 +3721,9 @@
         "source_fragment": 1,
         "source_page": "23,35"
       }
-    ]
+    ],
+    "name_ro": "Oțelul valyrian",
+    "name_en": null
   },
   {
     "id": "otrava_strangulatorul",
@@ -3516,7 +3738,9 @@
         "source_fragment": 1,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": null,
+    "name_en": "Otrava „Strangulatorul” (The Strangler)"
   },
   {
     "id": "otravurile_marelui_maester_pycelle",
@@ -3534,7 +3758,9 @@
         "source_fragment": null,
         "source_page": "13"
       }
-    ]
+    ],
+    "name_ro": "Otrăvurile Marelui Maester Pycelle",
+    "name_en": null
   },
   {
     "id": "ouale_de_dragon_ale_copiilor_lui_maekar",
@@ -3553,7 +3779,9 @@
         "source_fragment": 6,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Ouăle de dragon ale copiilor lui Maekar",
+    "name_en": null
   },
   {
     "id": "ouale_de_dragon_ale_lui_daenerys",
@@ -3581,7 +3809,9 @@
         "source_fragment": null,
         "source_page": "408,515–516,783–784,831,839"
       }
-    ]
+    ],
+    "name_ro": "Ouăle de dragon ale lui Daenerys",
+    "name_en": null
   },
   {
     "id": "ouale_de_dragon_false_de_la_qarth",
@@ -3596,7 +3826,9 @@
         "source_fragment": 15,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Ouăle de dragon false de la Qarth",
+    "name_en": null
   },
   {
     "id": "oul_de_dragon",
@@ -3617,7 +3849,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Oul de dragon (premiu de turnir la Zidurile Albe)",
+    "name_en": null
   },
   {
     "id": "palosul_pumnalul_lung_si_cutitasul_curbat_de_jupuit_ale_lui_ramsay_bolton",
@@ -3635,7 +3869,9 @@
         "source_fragment": null,
         "source_page": "564"
       }
-    ]
+    ],
+    "name_ro": "Paloşul, pumnalul lung şi cuţitaşul curbat de jupuit ale lui Ramsay Bolton",
+    "name_en": null
   },
   {
     "id": "papucii_de_matase_albastra_din_qarth",
@@ -3650,7 +3886,9 @@
         "source_fragment": 10,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Papucii de mătase albastră din Qarth",
+    "name_en": null
   },
   {
     "id": "pasajul_secret_al_lui_maegor_i",
@@ -3668,7 +3906,9 @@
         "source_fragment": null,
         "source_page": "3"
       }
-    ]
+    ],
+    "name_ro": "Pasajul secret al lui Maegor I",
+    "name_en": null
   },
   {
     "id": "pielea_degetului_mic_al_lui_theon_greyjoy",
@@ -3686,7 +3926,9 @@
         "source_fragment": null,
         "source_page": "10"
       }
-    ]
+    ],
+    "name_ro": "Pielea degetului mic al lui Theon Greyjoy",
+    "name_en": null
   },
   {
     "id": "piese_de_teatru_mentionate",
@@ -3694,7 +3936,9 @@
     "categorie": null,
     "material": null,
     "owned_by": [],
-    "sursa": null
+    "sursa": null,
+    "name_ro": "Piese de teatru menționate (trupa „Corabie\", Braavos)",
+    "name_en": null
   },
   {
     "id": "plasa_de_par_cu_ametiste_a_sansei",
@@ -3724,7 +3968,9 @@
         "source_fragment": null,
         "source_page": "251"
       }
-    ]
+    ],
+    "name_ro": "Ploaia Roșie",
+    "name_en": null
   },
   {
     "id": "podul_plutitor_din_orasul_harroway",
@@ -3742,7 +3988,9 @@
         "source_fragment": null,
         "source_page": "10"
       }
-    ]
+    ],
+    "name_ro": "Podul plutitor din Orașul Harroway",
+    "name_en": null
   },
   {
     "id": "potecile_viermilor",
@@ -3778,7 +4026,9 @@
         "source_fragment": null,
         "source_page": "12"
       }
-    ]
+    ],
+    "name_ro": "Potirul de nuntă al lui Joffrey",
+    "name_en": null
   },
   {
     "id": "potop",
@@ -3832,7 +4082,9 @@
         "source_fragment": null,
         "source_page": "3"
       }
-    ]
+    ],
+    "name_ro": "Pumnalul dăruit lui Davos de Khorane",
+    "name_en": null
   },
   {
     "id": "pumnalul_de_obsidian",
@@ -3847,7 +4099,9 @@
         "source_fragment": 11,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Pumnalul de obsidian (sticlă neagră)",
+    "name_en": null
   },
   {
     "id": "pumnalul_valyrian",
@@ -3871,7 +4125,9 @@
         "source_fragment": null,
         "source_page": "136,170,329,341–342,521,533–534"
       }
-    ]
+    ],
+    "name_ro": "Pumnalul valyrian (arma atentatului asupra lui Bran)",
+    "name_en": null
   },
   {
     "id": "pumnalul_valyrian_cu_maner_in_forma_de_os_de_dragon",
@@ -3904,7 +4160,9 @@
         "source_fragment": null,
         "source_page": "3"
       }
-    ]
+    ],
+    "name_ro": "Punguța cu oasele degetelor lui Davos",
+    "name_en": null
   },
   {
     "id": "rhllor",
@@ -3927,7 +4185,9 @@
         "source_fragment": 11,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Rubinul cel mare purtat de Melisandre",
+    "name_en": null
   },
   {
     "id": "rubinul_lui_melisandre",
@@ -3954,7 +4214,9 @@
         "source_fragment": 6,
         "source_page": "304"
       }
-    ]
+    ],
+    "name_ro": "Rubinul lui Melisandre",
+    "name_en": null
   },
   {
     "id": "sabia_apusul",
@@ -4020,7 +4282,9 @@
         "source_fragment": null,
         "source_page": "12"
       }
-    ]
+    ],
+    "name_ro": "Sabia „Bocetul Văduvei”",
+    "name_en": null
   },
   {
     "id": "sabia_brightroar",
@@ -4057,7 +4321,9 @@
         "source_fragment": 1,
         "source_page": "9–10"
       }
-    ]
+    ],
+    "name_ro": "Sabia „Celuilalt\" (Alb Rătăcitor)",
+    "name_en": null
   },
   {
     "id": "sabia_de_cristal",
@@ -4075,7 +4341,9 @@
         "source_fragment": 21,
         "source_page": "21"
       }
-    ]
+    ],
+    "name_ro": "Sabia de cristal (blazon)",
+    "name_en": null
   },
   {
     "id": "sabia_de_imprumut_a_lui_viserys",
@@ -4101,7 +4369,9 @@
     "categorie": null,
     "material": null,
     "owned_by": [],
-    "sursa": null
+    "sursa": null,
+    "name_ro": "Sabia Devotată",
+    "name_en": null
   },
   {
     "id": "sabia_diminetii",
@@ -4130,7 +4400,9 @@
         "source_fragment": 6,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Sabia Dimineții (Dawn)",
+    "name_en": null
   },
   {
     "id": "sabia_din_otel_valyrian_a_lui_sandoq_umbra",
@@ -4156,7 +4428,9 @@
     "categorie": null,
     "material": null,
     "owned_by": [],
-    "sursa": null
+    "sursa": null,
+    "name_ro": "Sabia „Doamna Deznădejdii\"",
+    "name_en": null
   },
   {
     "id": "sabia_facatoarea_de_orfani",
@@ -4174,7 +4448,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Sabia Făcătoarea de Orfani (Orphan-Maker)",
+    "name_en": null
   },
   {
     "id": "sabia_focul_negru",
@@ -4209,7 +4485,9 @@
     "categorie": null,
     "material": null,
     "owned_by": [],
-    "sursa": null
+    "sursa": null,
+    "name_ro": "Sabia Gheața (Ice)",
+    "name_en": null
   },
   {
     "id": "sabia_gravata_a_lui_jon_arryn_fara_nume_propriu",
@@ -4277,7 +4555,9 @@
         "source_fragment": 1,
         "source_page": "7,11"
       }
-    ]
+    ],
+    "name_ro": "Sabia lui Ser Waymar Royce",
+    "name_en": null
   },
   {
     "id": "sabia_lunga_a_lui_ser_arlan",
@@ -4349,7 +4629,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Sabia Năpasta Inimii (Heartsbane)",
+    "name_en": null
   },
   {
     "id": "sabia_ploaia_rosie",
@@ -4376,7 +4658,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Sabia Ploaia Roșie",
+    "name_en": null
   },
   {
     "id": "sabia_rasarit_sabia_diminetii",
@@ -4384,7 +4668,9 @@
     "categorie": null,
     "material": null,
     "owned_by": [],
-    "sursa": null
+    "sursa": null,
+    "name_ro": "Sabia „Răsărit” / „Sabia Dimineții”",
+    "name_en": null
   },
   {
     "id": "sabia_sora_intunecata",
@@ -4430,7 +4716,9 @@
         "source_fragment": null,
         "source_page": "16-17,45,172"
       }
-    ]
+    ],
+    "name_ro": "Sabia Sora Întunecată (Dark Sister)",
+    "name_en": null
   },
   {
     "id": "sabia_tanguirea",
@@ -4448,7 +4736,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Sabia Tânguirea (Lamentation)",
+    "name_en": null
   },
   {
     "id": "sabia_vigilenta",
@@ -4466,7 +4756,9 @@
         "source_fragment": null,
         "source_page": "508"
       }
-    ]
+    ],
+    "name_ro": "Sabia Vigilența (Vigilance)",
+    "name_en": null
   },
   {
     "id": "sabia_zorii",
@@ -4518,7 +4810,9 @@
         "source_fragment": null,
         "source_page": "1229–1230"
       }
-    ]
+    ],
+    "name_ro": "Scrisoarea lui Ramsay Bolton către Jon Snow",
+    "name_en": null
   },
   {
     "id": "scutul_lui_dunk",
@@ -4538,7 +4832,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Scutul lui Dunk (blazonul personal)",
+    "name_en": null
   },
   {
     "id": "scutul_lui_ser_arlan_scutul_initial_al_lui_dunk",
@@ -4557,7 +4853,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Scutul lui Ser Arlan / Scutul inițial al lui Dunk",
+    "name_en": null
   },
   {
     "id": "scutul_lui_ser_bennis",
@@ -4575,7 +4873,9 @@
         "source_fragment": 5,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Scutul lui Ser Bennis",
+    "name_en": null
   },
   {
     "id": "scutul_micului_leu",
@@ -4609,7 +4909,9 @@
         "source_fragment": 17,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Scuturile sălbaticilor",
+    "name_en": null
   },
   {
     "id": "selaesori_qhoran",
@@ -4636,7 +4938,9 @@
         "source_fragment": null,
         "source_page": "413–417"
       }
-    ]
+    ],
+    "name_ro": "Sfioasa Fecioară (Shy Maid)",
+    "name_en": null
   },
   {
     "id": "sigiliul_regelui_baietan",
@@ -4663,7 +4967,9 @@
         "source_fragment": null,
         "source_page": "199"
       }
-    ]
+    ],
+    "name_ro": "Sigiliul regelui-băietan",
+    "name_en": null
   },
   {
     "id": "silverwing",
@@ -4689,7 +4995,9 @@
     "categorie": null,
     "material": null,
     "owned_by": [],
-    "sursa": null
+    "sursa": null,
+    "name_ro": "Sora Întunecată (Dark Sister)",
+    "name_en": null
   },
   {
     "id": "statuia_alyssei_arryn",
@@ -4707,7 +5015,9 @@
         "source_fragment": 9,
         "source_page": "457–459"
       }
-    ]
+    ],
+    "name_ro": "Statuia Alyssei Arryn (\"femeia plângândă\")",
+    "name_en": null
   },
   {
     "id": "steaua_in_sapte_colturi",
@@ -4748,7 +5058,9 @@
         "source_fragment": null,
         "source_page": "249"
       }
-    ]
+    ],
+    "name_ro": "Stindardul lui Stannis Baratheon",
+    "name_en": null
   },
   {
     "id": "stindardul_regelui_tommen",
@@ -4774,7 +5086,9 @@
     "categorie": null,
     "material": null,
     "owned_by": [],
-    "sursa": null
+    "sursa": null,
+    "name_ro": "Tăcerea",
+    "name_en": null
   },
   {
     "id": "tarfa_de_sare",
@@ -4792,7 +5106,9 @@
         "source_fragment": null,
         "source_page": "450"
       }
-    ]
+    ],
+    "name_ro": "Târfa de Sare",
+    "name_en": null
   },
   {
     "id": "temnitele_lui_maegor_cel_crud",
@@ -4810,7 +5126,9 @@
         "source_fragment": null,
         "source_page": "15"
       }
-    ]
+    ],
+    "name_ro": "Temnițele lui Maegor cel Crud",
+    "name_en": null
   },
   {
     "id": "titanul_din_braavos",
@@ -4818,7 +5136,9 @@
     "categorie": null,
     "material": null,
     "owned_by": [],
-    "sursa": null
+    "sursa": null,
+    "name_ro": "Titanul din Braavos",
+    "name_en": null
   },
   {
     "id": "toga_qartheeana_purtata_de_daenerys",
@@ -4836,7 +5156,9 @@
         "source_fragment": 5,
         "source_page": "5"
       }
-    ]
+    ],
+    "name_ro": "Toga qartheeană purtată de Daenerys",
+    "name_en": null
   },
   {
     "id": "toiagul_de_fier_al_lui_moqorro",
@@ -4854,7 +5176,9 @@
         "source_fragment": null,
         "source_page": "581"
       }
-    ]
+    ],
+    "name_ro": "Toiagul de fier al lui Moqorro",
+    "name_en": null
   },
   {
     "id": "tokar",
@@ -4916,7 +5240,9 @@
         "source_fragment": null,
         "source_page": "2"
       }
-    ]
+    ],
+    "name_ro": "Trandafirul roșu al lui Loras Tyrell",
+    "name_en": null
   },
   {
     "id": "trei_rubine_pe_lant_de_fier_negru",
@@ -4934,7 +5260,9 @@
         "source_fragment": null,
         "source_page": "418"
       }
-    ]
+    ],
+    "name_ro": "Trei rubine pe lanț de fier negru",
+    "name_en": null
   },
   {
     "id": "tronul_de_fier",
@@ -4969,7 +5297,9 @@
         "source_fragment": null,
         "source_page": "479–483,547"
       }
-    ]
+    ],
+    "name_ro": "Tronul de Fier",
+    "name_en": null
   },
   {
     "id": "tronul_de_lemn_plutitor_al_casei_velaryon",
@@ -4984,7 +5314,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "name_ro": "Tronul de Lemn Plutitor al Casei Velaryon",
+    "name_en": null
   },
   {
     "id": "tronul_grifonului",
@@ -5020,7 +5352,9 @@
         "source_fragment": null,
         "source_page": "15"
       }
-    ]
+    ],
+    "name_ro": "Tunelul secret sub Turnul Mâinii",
+    "name_en": null
   },
   {
     "id": "tunet",
@@ -5056,7 +5390,9 @@
         "source_fragment": null,
         "source_page": "8"
       }
-    ]
+    ],
+    "name_ro": "Turnul „Coroana Reginei”",
+    "name_en": null
   },
   {
     "id": "usa_lunii",
@@ -5074,7 +5410,9 @@
         "source_fragment": 8,
         "source_page": "425,435"
       }
-    ]
+    ],
+    "name_ro": "Ușa Lunii",
+    "name_en": null
   },
   {
     "id": "vantul_negru",
@@ -5098,7 +5436,9 @@
         "source_fragment": null,
         "source_page": "240,243"
       }
-    ]
+    ],
+    "name_ro": "Vântul Negru",
+    "name_en": null
   },
   {
     "id": "vas_ritualic_din_lemn_de_copac_al_inimii",
@@ -5116,7 +5456,9 @@
         "source_fragment": null,
         "source_page": "611"
       }
-    ]
+    ],
+    "name_ro": "Vas ritualic din lemn de copac al inimii",
+    "name_en": null
   },
   {
     "id": "vermithor",
@@ -5160,7 +5502,9 @@
         "source_fragment": null,
         "source_page": "1307,1347"
       }
-    ]
+    ],
+    "name_ro": "Victoria de Fier",
+    "name_en": null
   },
   {
     "id": "victoria_fierului",
@@ -5196,7 +5540,9 @@
         "source_fragment": null,
         "source_page": "151"
       }
-    ]
+    ],
+    "name_ro": "Vieţile Înalţilor Septoni",
+    "name_en": null
   },
   {
     "id": "vin_al_curajului",
@@ -5211,7 +5557,9 @@
         "source_fragment": null,
         "source_page": "5"
       }
-    ]
+    ],
+    "name_ro": "Vin al curajului",
+    "name_en": null
   },
   {
     "id": "vin_de_arbor",
@@ -5229,7 +5577,9 @@
         "source_fragment": 1,
         "source_page": "1"
       }
-    ]
+    ],
+    "name_ro": "Vin de Arbor (butoi din pivnița lui Illyrio)",
+    "name_en": null
   },
   {
     "id": "vinciurile_eyrie",
@@ -5295,7 +5645,9 @@
         "source_fragment": null,
         "source_page": "844"
       }
-    ]
+    ],
+    "name_ro": "Zgardă de sclav",
+    "name_en": null
   },
   {
     "id": "ziua_fecioarei",

@@ -1,0 +1,156 @@
+{
+  "generated_at": "20260802T223355Z",
+  "mode": "apply",
+  "categories": {
+    "characters": {
+      "source": "data/characters/characters.json",
+      "total": 2288,
+      "both": 0,
+      "ro_only": 628,
+      "en_only": 5,
+      "undecided": 1655,
+      "name_ro_coverage": 628,
+      "name_en_coverage": 5,
+      "name_ro_coverage_percent": 27.45,
+      "name_en_coverage_percent": 0.22
+    },
+    "dragons": {
+      "source": "data/dragons/dragons.json",
+      "total": 3,
+      "both": 0,
+      "ro_only": 0,
+      "en_only": 0,
+      "undecided": 3,
+      "name_ro_coverage": 0,
+      "name_en_coverage": 0,
+      "name_ro_coverage_percent": 0.0,
+      "name_en_coverage_percent": 0.0
+    },
+    "essos_far_lands": {
+      "source": "data/essos/far_lands.json",
+      "total": 49,
+      "both": 0,
+      "ro_only": 0,
+      "en_only": 8,
+      "undecided": 41,
+      "name_ro_coverage": 0,
+      "name_en_coverage": 8,
+      "name_ro_coverage_percent": 0.0,
+      "name_en_coverage_percent": 16.33
+    },
+    "essos_free_cities": {
+      "source": "data/essos/free_cities.json",
+      "total": 9,
+      "both": 0,
+      "ro_only": 0,
+      "en_only": 0,
+      "undecided": 9,
+      "name_ro_coverage": 0,
+      "name_en_coverage": 0,
+      "name_ro_coverage_percent": 0.0,
+      "name_en_coverage_percent": 0.0
+    },
+    "essos_free_cities_events": {
+      "source": "data/essos/free_cities_events.json",
+      "total": 7,
+      "both": 0,
+      "ro_only": 0,
+      "en_only": 6,
+      "undecided": 1,
+      "name_ro_coverage": 0,
+      "name_en_coverage": 6,
+      "name_ro_coverage_percent": 0.0,
+      "name_en_coverage_percent": 85.71
+    },
+    "essos_free_cities_factions": {
+      "source": "data/essos/free_cities_factions.json",
+      "total": 7,
+      "both": 0,
+      "ro_only": 0,
+      "en_only": 6,
+      "undecided": 1,
+      "name_ro_coverage": 0,
+      "name_en_coverage": 6,
+      "name_ro_coverage_percent": 0.0,
+      "name_en_coverage_percent": 85.71
+    },
+    "events": {
+      "source": "data/events/events.json",
+      "total": 1682,
+      "both": 0,
+      "ro_only": 898,
+      "en_only": 23,
+      "undecided": 761,
+      "name_ro_coverage": 898,
+      "name_en_coverage": 23,
+      "name_ro_coverage_percent": 53.39,
+      "name_en_coverage_percent": 1.37
+    },
+    "houses": {
+      "source": "data/houses/houses.json",
+      "total": 229,
+      "both": 20,
+      "ro_only": 101,
+      "en_only": 106,
+      "undecided": 2,
+      "name_ro_coverage": 121,
+      "name_en_coverage": 126,
+      "name_ro_coverage_percent": 52.84,
+      "name_en_coverage_percent": 55.02
+    },
+    "locations": {
+      "source": "data/locations/locations.json",
+      "total": 1041,
+      "both": 56,
+      "ro_only": 414,
+      "en_only": 91,
+      "undecided": 480,
+      "name_ro_coverage": 470,
+      "name_en_coverage": 147,
+      "name_ro_coverage_percent": 45.15,
+      "name_en_coverage_percent": 14.12
+    },
+    "objects": {
+      "source": "data/objects/objects.json",
+      "total": 276,
+      "both": 0,
+      "ro_only": 175,
+      "en_only": 1,
+      "undecided": 100,
+      "name_ro_coverage": 175,
+      "name_en_coverage": 1,
+      "name_ro_coverage_percent": 63.41,
+      "name_en_coverage_percent": 0.36
+    },
+    "titles": {
+      "source": "data/titles/titles.json",
+      "total": 94,
+      "both": 0,
+      "ro_only": 74,
+      "en_only": 0,
+      "undecided": 20,
+      "name_ro_coverage": 74,
+      "name_en_coverage": 0,
+      "name_ro_coverage_percent": 78.72,
+      "name_en_coverage_percent": 0.0
+    }
+  },
+  "totals": {
+    "both": 76,
+    "ro_only": 2290,
+    "en_only": 246,
+    "undecided": 3073
+  },
+  "changed_files": [
+    "data/characters/characters.json",
+    "data/essos/far_lands.json",
+    "data/essos/free_cities_events.json",
+    "data/essos/free_cities_factions.json",
+    "data/events/events.json",
+    "data/houses/houses.json",
+    "data/locations/locations.json",
+    "data/objects/objects.json",
+    "data/titles/titles.json"
+  ],
+  "review_file": "data/_review/needs_language_review.json"
+}

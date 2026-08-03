@@ -6060,7 +6060,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.57
-    }
+    },
+    "name_ro": "Targaryen (dinastie istorică)",
+    "name_en": "House Targaryen"
   },
   {
     "id": "stark",
@@ -14620,7 +14622,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.57
-    }
+    },
+    "name_ro": "- Casa Stark",
+    "name_en": "House Stark"
   },
   {
     "id": "lannister",
@@ -25238,7 +25242,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.57
-    }
+    },
+    "name_ro": "- Casa Lannister",
+    "name_en": "House Lannister"
   },
   {
     "id": "baratheon",
@@ -32223,7 +32229,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.57
-    }
+    },
+    "name_ro": "- Casa Baratheon",
+    "name_en": "House Baratheon"
   },
   {
     "id": "tyrell",
@@ -36067,7 +36075,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.57
-    }
+    },
+    "name_ro": "- Casa Tyrell",
+    "name_en": "House Tyrell"
   },
   {
     "id": "tully",
@@ -40107,7 +40117,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": "- Casa Tully",
+    "name_en": "House Tully"
   },
   {
     "id": "arryn",
@@ -42851,7 +42863,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": "- Casa Arryn",
+    "name_en": "House Arryn"
   },
   {
     "id": "greyjoy",
@@ -46256,7 +46270,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Greyjoy"
   },
   {
     "id": "martell",
@@ -49641,7 +49657,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.57
-    }
+    },
+    "name_ro": "- Casa Martell",
+    "name_en": "House Nymeros Martell"
   },
   {
     "id": "bolton",
@@ -53041,7 +53059,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": "- Casa Bolton",
+    "name_en": "House Bolton"
   },
   {
     "id": "karstark",
@@ -54795,7 +54815,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": "Casele Flint și Karstark",
+    "name_en": "House Karstark"
   },
   {
     "id": "umber",
@@ -55888,7 +55910,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Umber"
   },
   {
     "id": "mormont",
@@ -57309,7 +57333,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Mormont"
   },
   {
     "id": "manderly",
@@ -59790,7 +59816,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": "- Casa Manderly",
+    "name_en": "House Manderly"
   },
   {
     "id": "reed",
@@ -60342,7 +60370,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Reed"
   },
   {
     "id": "hightower",
@@ -61749,7 +61779,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Hightower"
   },
   {
     "id": "redwyne",
@@ -62996,7 +63028,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Redwyne"
   },
   {
     "id": "florent",
@@ -64586,7 +64620,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Florent"
   },
   {
     "id": "tarly",
@@ -66085,7 +66121,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Tarly"
   },
   {
     "id": "dayne",
@@ -66596,7 +66634,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": "- Casa Dayne",
+    "name_en": "House Dayne"
   },
   {
     "id": "yronwood",
@@ -67095,7 +67135,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Yronwood"
   },
   {
     "id": "connington",
@@ -67593,7 +67635,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Connington"
   },
   {
     "id": "selmy",
@@ -67676,7 +67720,9 @@
       "enemy_of": [],
       "vassal_of": [],
       "liege_of": []
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Selmy"
   },
   {
     "id": "frey",
@@ -72181,7 +72227,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Frey"
   },
   {
     "id": "blackwood",
@@ -73987,7 +74035,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.57
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Blackwood"
   },
   {
     "id": "bracken",
@@ -75147,7 +75197,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.57
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Bracken"
   },
   {
     "id": "mallister",
@@ -76065,7 +76117,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Mallister"
   },
   {
     "id": "velaryon",
@@ -77435,7 +77489,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Velaryon"
   },
   {
     "id": "celtigar",
@@ -77935,7 +77991,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Celtigar"
   },
   {
     "id": "nights_watch",
@@ -78011,7 +78069,9 @@
       "enemy_of": [],
       "vassal_of": [],
       "liege_of": []
-    }
+    },
+    "name_ro": null,
+    "name_en": "The Night's Watch"
   },
   {
     "id": "qoherys",
@@ -78110,7 +78170,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Qoherys"
   },
   {
     "id": "harroway",
@@ -78264,7 +78326,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Harroway"
   },
   {
     "id": "towers",
@@ -78446,7 +78510,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.57
-    }
+    },
+    "name_ro": "Towers (de Harrenhal)",
+    "name_en": "House Towers"
   },
   {
     "id": "strong",
@@ -78775,7 +78841,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Strong"
   },
   {
     "id": "lothston",
@@ -79064,7 +79132,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.57
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Lothston"
   },
   {
     "id": "whent",
@@ -79430,7 +79500,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.57
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Whent"
   },
   {
     "id": "hoare",
@@ -79675,7 +79747,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Hoare"
   },
   {
     "id": "glover",
@@ -80653,7 +80727,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.57
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Glover"
   },
   {
     "id": "lefford",
@@ -80738,7 +80814,9 @@
       "enemy_of": [],
       "vassal_of": [],
       "liege_of": []
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Lefford"
   },
   {
     "id": "crakehall",
@@ -81021,7 +81099,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Crakehall"
   },
   {
     "id": "smallwood",
@@ -81291,7 +81371,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Smallwood"
   },
   {
     "id": "grafton",
@@ -81388,7 +81470,9 @@
       "distante": "0/0",
       "surse": false,
       "scor_total": 0.29
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Grafton"
   },
   {
     "id": "royce",
@@ -82339,7 +82423,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": "- Casa Royce",
+    "name_en": "House Royce"
   },
   {
     "id": "corbray",
@@ -82712,7 +82798,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": "- Casa Corbray",
+    "name_en": "House Corbray"
   },
   {
     "id": "wylde",
@@ -82829,7 +82917,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Wylde"
   },
   {
     "id": "tarth",
@@ -83367,7 +83457,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Tarth"
   },
   {
     "id": "allyrion",
@@ -83527,7 +83619,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Allyrion"
   },
   {
     "id": "dustin",
@@ -84096,7 +84190,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Dustin"
   },
   {
     "id": "rykker",
@@ -84132,7 +84228,9 @@
       "enemy_of": [],
       "vassal_of": [],
       "liege_of": []
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Rykker"
   },
   {
     "id": "mooton",
@@ -84645,7 +84743,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Mooton"
   },
   {
     "id": "cerwyn",
@@ -85214,7 +85314,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Cerwyn"
   },
   {
     "id": "hornwood",
@@ -85682,7 +85784,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Hornwood"
   },
   {
     "id": "locke",
@@ -85850,7 +85954,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Locke"
   },
   {
     "id": "flint",
@@ -86126,7 +86232,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": "Casele Flint și Karstark",
+    "name_en": "House Flint"
   },
   {
     "id": "darry",
@@ -86448,7 +86556,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Darry"
   },
   {
     "id": "vance",
@@ -86917,7 +87027,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.57
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Vance"
   },
   {
     "id": "roote",
@@ -86995,7 +87107,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Roote"
   },
   {
     "id": "waynwood",
@@ -87158,7 +87272,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": "- Casa Waynwood",
+    "name_en": "House Waynwood"
   },
   {
     "id": "templeton",
@@ -87229,7 +87345,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.29
-    }
+    },
+    "name_ro": "- Casa Templeton",
+    "name_en": "House Templeton"
   },
   {
     "id": "hunter",
@@ -87298,7 +87416,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.29
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Hunter"
   },
   {
     "id": "belmore",
@@ -87488,7 +87608,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.57
-    }
+    },
+    "name_ro": "- Casa Belmore",
+    "name_en": "House Belmore"
   },
   {
     "id": "tollett",
@@ -87538,7 +87660,9 @@
       "distante": "0/0",
       "surse": false,
       "scor_total": 0.14
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Tollett"
   },
   {
     "id": "redfort",
@@ -87800,7 +87924,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Redfort"
   },
   {
     "id": "waxley",
@@ -87837,7 +87963,9 @@
       "enemy_of": [],
       "vassal_of": [],
       "liege_of": []
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Waxley"
   },
   {
     "id": "marbrand",
@@ -88118,7 +88246,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Marbrand"
   },
   {
     "id": "swyft",
@@ -88261,7 +88391,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Swyft"
   },
   {
     "id": "serrett",
@@ -88298,7 +88430,9 @@
       "enemy_of": [],
       "vassal_of": [],
       "liege_of": []
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Serrett"
   },
   {
     "id": "prester",
@@ -88399,7 +88533,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Prester"
   },
   {
     "id": "sarsfield",
@@ -88436,7 +88572,9 @@
       "enemy_of": [],
       "vassal_of": [],
       "liege_of": []
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Sarsfield"
   },
   {
     "id": "farman",
@@ -88785,7 +88923,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Farman"
   },
   {
     "id": "banefort",
@@ -88822,7 +88962,9 @@
       "enemy_of": [],
       "vassal_of": [],
       "liege_of": []
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Banefort"
   },
   {
     "id": "westerling",
@@ -89636,7 +89778,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Westerling"
   },
   {
     "id": "brax",
@@ -89800,7 +89944,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Brax"
   },
   {
     "id": "clegane",
@@ -90214,7 +90360,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Clegane"
   },
   {
     "id": "fossoway",
@@ -90693,7 +90841,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Fossoway"
   },
   {
     "id": "oakheart",
@@ -91092,7 +91242,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": "- Casa Oakheart",
+    "name_en": "House Oakheart"
   },
   {
     "id": "meadows",
@@ -91161,7 +91313,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.29
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Meadows"
   },
   {
     "id": "ashford",
@@ -91374,7 +91528,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Ashford"
   },
   {
     "id": "cuy",
@@ -91411,7 +91567,9 @@
       "enemy_of": [],
       "vassal_of": [],
       "liege_of": []
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Cuy"
   },
   {
     "id": "beesbury",
@@ -91736,7 +91894,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.57
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Beesbury"
   },
   {
     "id": "rowan",
@@ -92501,7 +92661,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Rowan"
   },
   {
     "id": "merryweather",
@@ -92712,7 +92874,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Merryweather"
   },
   {
     "id": "osgrey",
@@ -93310,7 +93474,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.57
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Osgrey"
   },
   {
     "id": "peake",
@@ -93915,7 +94081,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.57
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Peake"
   },
   {
     "id": "bulwer",
@@ -94005,7 +94173,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Bulwer"
   },
   {
     "id": "costayne",
@@ -94281,7 +94451,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Costayne"
   },
   {
     "id": "blackbar",
@@ -94362,7 +94534,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.29
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Blackbar"
   },
   {
     "id": "fowler",
@@ -94553,7 +94727,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Fowler"
   },
   {
     "id": "uller",
@@ -94726,7 +94902,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Uller"
   },
   {
     "id": "santagar",
@@ -94776,7 +94954,9 @@
       "distante": "0/0",
       "surse": false,
       "scor_total": 0.14
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Santagar"
   },
   {
     "id": "toland",
@@ -94984,7 +95164,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Toland"
   },
   {
     "id": "wyl",
@@ -95070,7 +95252,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.29
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Wyl"
   },
   {
     "id": "vaith",
@@ -95107,7 +95291,9 @@
       "enemy_of": [],
       "vassal_of": [],
       "liege_of": []
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Vaith"
   },
   {
     "id": "qorgyle",
@@ -95301,7 +95487,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Qorgyle"
   },
   {
     "id": "jordayne",
@@ -95502,7 +95690,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Jordayne"
   },
   {
     "id": "manwoody",
@@ -95616,7 +95806,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Manwoody"
   },
   {
     "id": "blackmont",
@@ -95784,7 +95976,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Blackmont"
   },
   {
     "id": "gargalen",
@@ -95898,7 +96092,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Gargalen"
   },
   {
     "id": "swann",
@@ -96425,7 +96621,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Swann"
   },
   {
     "id": "fell",
@@ -96462,7 +96660,9 @@
       "enemy_of": [],
       "vassal_of": [],
       "liege_of": []
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Fell"
   },
   {
     "id": "mertyns",
@@ -96499,7 +96699,9 @@
       "enemy_of": [],
       "vassal_of": [],
       "liege_of": []
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Mertyns"
   },
   {
     "id": "buckler",
@@ -96536,7 +96738,9 @@
       "enemy_of": [],
       "vassal_of": [],
       "liege_of": []
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Buckler"
   },
   {
     "id": "cafferen",
@@ -96573,7 +96777,9 @@
       "enemy_of": [],
       "vassal_of": [],
       "liege_of": []
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Cafferen"
   },
   {
     "id": "dondarrion",
@@ -97064,7 +97270,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Dondarrion"
   },
   {
     "id": "errol",
@@ -97101,7 +97309,9 @@
       "enemy_of": [],
       "vassal_of": [],
       "liege_of": []
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Errol"
   },
   {
     "id": "trant",
@@ -97138,7 +97348,9 @@
       "enemy_of": [],
       "vassal_of": [],
       "liege_of": []
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Trant"
   },
   {
     "id": "penrose",
@@ -97357,7 +97569,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Penrose"
   },
   {
     "id": "caron",
@@ -97726,7 +97940,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Caron"
   },
   {
     "id": "morrigen",
@@ -97926,7 +98142,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Morrigen"
   },
   {
     "id": "estermont",
@@ -98401,7 +98619,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Estermont"
   },
   {
     "id": "grandison",
@@ -98503,7 +98723,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Grandison"
   },
   {
     "id": "massey",
@@ -98598,7 +98820,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Massey"
   },
   {
     "id": "bar_emmon",
@@ -98722,7 +98946,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Bar Emmon"
   },
   {
     "id": "staunton",
@@ -98823,7 +99049,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Staunton"
   },
   {
     "id": "hollard",
@@ -99053,7 +99281,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Hollard"
   },
   {
     "id": "rosby",
@@ -99408,7 +99638,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Rosby"
   },
   {
     "id": "stokeworth",
@@ -99689,7 +99921,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Stokeworth"
   },
   {
     "id": "hayford",
@@ -99897,7 +100131,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.57
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Hayford"
   },
   {
     "id": "harlaw",
@@ -100341,7 +100577,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Harlaw"
   },
   {
     "id": "goodbrother",
@@ -100667,7 +100905,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Goodbrother"
   },
   {
     "id": "botley",
@@ -100908,7 +101148,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Botley"
   },
   {
     "id": "codd",
@@ -101121,7 +101363,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Codd"
   },
   {
     "id": "drumm",
@@ -101233,7 +101477,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Drumm"
   },
   {
     "id": "farwynd",
@@ -101319,7 +101565,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.29
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Farwynd"
   },
   {
     "id": "wynch",
@@ -101519,7 +101767,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Wynch"
   },
   {
     "id": "volmark",
@@ -101690,7 +101940,9 @@
       "distante": "0/0",
       "surse": true,
       "scor_total": 0.43
-    }
+    },
+    "name_ro": null,
+    "name_en": "House Volmark"
   },
   {
     "id": "baelish",
@@ -102018,7 +102270,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "the_vale"
+    "region": "the_vale",
+    "name_ro": "Casa Baelish",
+    "name_en": null
   },
   {
     "id": "ball",
@@ -102194,7 +102448,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Ball",
+    "name_en": null
   },
   {
     "id": "barba_rosie",
@@ -102294,7 +102550,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Barbă-Roșie",
+    "name_en": null
   },
   {
     "id": "blackfyre",
@@ -102937,7 +103195,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Blackfyre",
+    "name_en": null
   },
   {
     "id": "blacktyde",
@@ -103142,7 +103402,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "the_iron_islands"
+    "region": "the_iron_islands",
+    "name_ro": "Casa Blacktyde",
+    "name_en": null
   },
   {
     "id": "blanetree",
@@ -103202,7 +103464,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Blanetree",
+    "name_en": null
   },
   {
     "id": "boggs",
@@ -103234,7 +103498,9 @@
       "surse": false,
       "scor_total": 0
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Boggs",
+    "name_en": null
   },
   {
     "id": "borrell",
@@ -103379,7 +103645,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "the_vale"
+    "region": "the_vale",
+    "name_ro": "Casa Borrell",
+    "name_en": null
   },
   {
     "id": "broome",
@@ -103456,7 +103724,9 @@
       "surse": true,
       "scor_total": 0.43
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Broome",
+    "name_en": null
   },
   {
     "id": "brune",
@@ -103517,7 +103787,9 @@
       "surse": true,
       "scor_total": 0.14
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Brune",
+    "name_en": null
   },
   {
     "id": "butterwell",
@@ -104081,7 +104353,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Butterwell",
+    "name_en": null
   },
   {
     "id": "cargyll",
@@ -104141,7 +104415,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Cargyll",
+    "name_en": null
   },
   {
     "id": "casele_slate_long_holt_ashwood",
@@ -104354,7 +104630,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Casterly",
+    "name_en": null
   },
   {
     "id": "caswell",
@@ -104820,7 +105098,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "the_reach"
+    "region": "the_reach",
+    "name_ro": "Casa Caswell",
+    "name_en": null
   },
   {
     "id": "cave",
@@ -104852,7 +105132,9 @@
       "surse": false,
       "scor_total": 0
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Cave",
+    "name_en": null
   },
   {
     "id": "chester",
@@ -104942,7 +105224,9 @@
       "surse": true,
       "scor_total": 0.14
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Chester",
+    "name_en": null
   },
   {
     "id": "cockshaw",
@@ -105083,7 +105367,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Cockshaw",
+    "name_en": null
   },
   {
     "id": "coldwater",
@@ -105115,7 +105401,9 @@
       "surse": false,
       "scor_total": 0
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Coldwater",
+    "name_en": null
   },
   {
     "id": "crabb",
@@ -105199,7 +105487,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "the_crownlands"
+    "region": "the_crownlands",
+    "name_ro": "Casa Crabb",
+    "name_en": null
   },
   {
     "id": "crane",
@@ -105288,7 +105578,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Crane",
+    "name_en": null
   },
   {
     "id": "dalt",
@@ -105439,7 +105731,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "dorne"
+    "region": "dorne",
+    "name_ro": "Casa Dalt (de la Lemonwood)",
+    "name_en": null
   },
   {
     "id": "darke",
@@ -105563,7 +105857,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Darke",
+    "name_en": null
   },
   {
     "id": "darklyn",
@@ -105994,7 +106290,9 @@
       "surse": true,
       "scor_total": 0.43
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Darklyn",
+    "name_en": null
   },
   {
     "id": "deddings",
@@ -106086,7 +106384,9 @@
       "surse": true,
       "scor_total": 0.43
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Deddings",
+    "name_en": null
   },
   {
     "id": "doggett",
@@ -106186,7 +106486,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Doggett",
+    "name_en": null
   },
   {
     "id": "drinkwater",
@@ -106307,7 +106609,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "dorne"
+    "region": "dorne",
+    "name_ro": "Casa Drinkwater",
+    "name_en": null
   },
   {
     "id": "durrandon",
@@ -106504,7 +106808,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Durrandon",
+    "name_en": null
   },
   {
     "id": "falwell",
@@ -106581,7 +106887,9 @@
       "surse": true,
       "scor_total": 0.43
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Falwell",
+    "name_en": null
   },
   {
     "id": "footly",
@@ -106691,7 +106999,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "the_reach"
+    "region": "the_reach",
+    "name_ro": "Casa Footly",
+    "name_en": null
   },
   {
     "id": "franklyn",
@@ -106775,7 +107085,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Franklyn",
+    "name_en": null
   },
   {
     "id": "gardener",
@@ -107142,7 +107454,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "the_reach"
+    "region": "the_reach",
+    "name_ro": "Casa Gardener",
+    "name_en": null
   },
   {
     "id": "greyiron",
@@ -107302,7 +107616,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "the_iron_islands"
+    "region": "the_iron_islands",
+    "name_ro": "Casa Greyiron",
+    "name_en": null
   },
   {
     "id": "greystark",
@@ -107502,7 +107818,9 @@
       "surse": true,
       "scor_total": 0.43
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Greystark",
+    "name_en": null
   },
   {
     "id": "grimm",
@@ -107553,7 +107871,9 @@
       "surse": true,
       "scor_total": 0.14
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Grimm",
+    "name_en": null
   },
   {
     "id": "haigh",
@@ -107585,7 +107905,9 @@
       "surse": false,
       "scor_total": 0
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Haigh",
+    "name_en": null
   },
   {
     "id": "hardy",
@@ -107617,7 +107939,9 @@
       "surse": false,
       "scor_total": 0
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Hardy",
+    "name_en": null
   },
   {
     "id": "hardyng",
@@ -107778,7 +108102,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Hardyng",
+    "name_en": null
   },
   {
     "id": "heddle",
@@ -107902,7 +108228,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Heddle",
+    "name_en": null
   },
   {
     "id": "hetherspoon",
@@ -107962,7 +108290,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Hetherspoon",
+    "name_en": null
   },
   {
     "id": "hewett",
@@ -108045,7 +108375,9 @@
       "surse": true,
       "scor_total": 0.14
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Hewett",
+    "name_en": null
   },
   {
     "id": "horpe",
@@ -108077,7 +108409,9 @@
       "surse": false,
       "scor_total": 0
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Horpe",
+    "name_en": null
   },
   {
     "id": "humble",
@@ -108202,7 +108536,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "the_iron_islands"
+    "region": "the_iron_islands",
+    "name_ro": "Casa Humble",
+    "name_en": null
   },
   {
     "id": "kenning",
@@ -108262,7 +108598,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Kenning",
+    "name_en": null
   },
   {
     "id": "kettleblack",
@@ -108453,7 +108791,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Kettleblack",
+    "name_en": null
   },
   {
     "id": "leygood",
@@ -108537,7 +108877,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Leygood",
+    "name_en": null
   },
   {
     "id": "loraq",
@@ -108870,7 +109212,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Loraq",
+    "name_en": null
   },
   {
     "id": "lorche",
@@ -108947,7 +109291,9 @@
       "surse": true,
       "scor_total": 0.43
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Lorche",
+    "name_en": null
   },
   {
     "id": "lychester",
@@ -109024,7 +109370,9 @@
       "surse": true,
       "scor_total": 0.43
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Lychester",
+    "name_en": null
   },
   {
     "id": "lydden",
@@ -109108,7 +109456,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Lydden",
+    "name_en": null
   },
   {
     "id": "lynderly",
@@ -109140,7 +109490,9 @@
       "surse": false,
       "scor_total": 0
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Lynderly",
+    "name_en": null
   },
   {
     "id": "merlyn",
@@ -109246,7 +109598,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Merlyn",
+    "name_en": null
   },
   {
     "id": "mullendore",
@@ -109352,7 +109706,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Mullendore",
+    "name_en": null
   },
   {
     "id": "myre",
@@ -109436,7 +109792,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Myre",
+    "name_en": null
   },
   {
     "id": "nayland",
@@ -109468,7 +109826,9 @@
       "surse": false,
       "scor_total": 0
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Nayland",
+    "name_en": null
   },
   {
     "id": "netley",
@@ -109500,7 +109860,9 @@
       "surse": false,
       "scor_total": 0
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Netley",
+    "name_en": null
   },
   {
     "id": "norrey",
@@ -109532,7 +109894,9 @@
       "surse": false,
       "scor_total": 0
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Norrey",
+    "name_en": null
   },
   {
     "id": "orkwood",
@@ -109657,7 +110021,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "the_iron_islands"
+    "region": "the_iron_islands",
+    "name_ro": "Casa Orkwood",
+    "name_en": null
   },
   {
     "id": "pahl",
@@ -109877,7 +110243,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Pahl",
+    "name_en": null
   },
   {
     "id": "payne",
@@ -110161,7 +110529,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Payne",
+    "name_en": null
   },
   {
     "id": "pimm",
@@ -110193,7 +110563,9 @@
       "surse": false,
       "scor_total": 0
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Pimm",
+    "name_en": null
   },
   {
     "id": "piper",
@@ -110613,7 +110985,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Piper",
+    "name_en": null
   },
   {
     "id": "plumm",
@@ -110865,7 +111239,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Plumm",
+    "name_en": null
   },
   {
     "id": "poole",
@@ -110995,7 +111371,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Poole",
+    "name_en": null
   },
   {
     "id": "potter",
@@ -111027,7 +111405,9 @@
       "surse": false,
       "scor_total": 0
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Potter",
+    "name_en": null
   },
   {
     "id": "pryor",
@@ -111102,7 +111482,9 @@
       "surse": true,
       "scor_total": 0.14
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Pryor",
+    "name_en": null
   },
   {
     "id": "pyne",
@@ -111134,7 +111516,9 @@
       "surse": false,
       "scor_total": 0
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Pyne",
+    "name_en": null
   },
   {
     "id": "reyne",
@@ -111283,7 +111667,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Reyne",
+    "name_en": null
   },
   {
     "id": "rhysling",
@@ -111334,7 +111720,9 @@
       "surse": true,
       "scor_total": 0.14
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Rhysling",
+    "name_en": null
   },
   {
     "id": "risley",
@@ -111385,7 +111773,9 @@
       "surse": true,
       "scor_total": 0.14
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Risley",
+    "name_en": null
   },
   {
     "id": "rivers",
@@ -111841,7 +112231,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Rogare",
+    "name_en": null
   },
   {
     "id": "ryswell",
@@ -112216,7 +112608,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Ryswell",
+    "name_en": null
   },
   {
     "id": "saltcliffe",
@@ -112305,7 +112699,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Saltcliffe",
+    "name_en": null
   },
   {
     "id": "sawyer",
@@ -112337,7 +112733,9 @@
       "surse": false,
       "scor_total": 0
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Sawyer",
+    "name_en": null
   },
   {
     "id": "seaworth",
@@ -112665,7 +113063,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Seaworth",
+    "name_en": null
   },
   {
     "id": "serry",
@@ -112866,7 +113266,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "the_reach"
+    "region": "the_reach",
+    "name_ro": "Casa Serry",
+    "name_en": null
   },
   {
     "id": "shawney",
@@ -112983,7 +113385,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Shawney",
+    "name_en": null
   },
   {
     "id": "shepherd",
@@ -113015,7 +113419,9 @@
       "surse": false,
       "scor_total": 0
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Shepherd",
+    "name_en": null
   },
   {
     "id": "shett",
@@ -113047,7 +113453,9 @@
       "surse": false,
       "scor_total": 0
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Shett",
+    "name_en": null
   },
   {
     "id": "slynt",
@@ -113179,7 +113587,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Slynt",
+    "name_en": null
   },
   {
     "id": "sparr",
@@ -113303,7 +113713,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "the_iron_islands"
+    "region": "the_iron_islands",
+    "name_ro": "Casa Sparr",
+    "name_en": null
   },
   {
     "id": "spicer",
@@ -113502,7 +113914,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Spicer",
+    "name_en": null
   },
   {
     "id": "stonehouse",
@@ -113579,7 +113993,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Stonehouse",
+    "name_en": null
   },
   {
     "id": "stonetree",
@@ -113750,7 +114166,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "the_iron_islands"
+    "region": "the_iron_islands",
+    "name_ro": "Casa Stonetree",
+    "name_en": null
   },
   {
     "id": "stout",
@@ -113850,7 +114268,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Stout",
+    "name_en": null
   },
   {
     "id": "strickland",
@@ -113942,7 +114362,9 @@
       "surse": true,
       "scor_total": 0.14
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Strickland",
+    "name_en": null
   },
   {
     "id": "sunderland",
@@ -114180,7 +114602,9 @@
       "surse": true,
       "scor_total": 0.43
     },
-    "region": "the_vale"
+    "region": "the_vale",
+    "name_ro": "Casa Sunderland",
+    "name_en": null
   },
   {
     "id": "sunderly",
@@ -114353,7 +114777,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "the_iron_islands"
+    "region": "the_iron_islands",
+    "name_ro": "Casa Sunderly",
+    "name_en": null
   },
   {
     "id": "sunglass",
@@ -114459,7 +114885,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Sunglass",
+    "name_en": null
   },
   {
     "id": "tallhart",
@@ -114980,7 +115408,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Tallhart",
+    "name_en": null
   },
   {
     "id": "tarbeck",
@@ -115257,7 +115687,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Tarbeck",
+    "name_en": null
   },
   {
     "id": "tawney",
@@ -115289,7 +115721,9 @@
       "surse": false,
       "scor_total": 0
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Tawney",
+    "name_en": null
   },
   {
     "id": "terrick",
@@ -115366,7 +115800,9 @@
       "surse": true,
       "scor_total": 0.43
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Terrick",
+    "name_en": null
   },
   {
     "id": "toyne",
@@ -115455,7 +115891,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Toyne",
+    "name_en": null
   },
   {
     "id": "underleaf",
@@ -115515,7 +115953,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Underleaf",
+    "name_en": null
   },
   {
     "id": "vypren",
@@ -115609,7 +116049,9 @@
       "surse": true,
       "scor_total": 0.43
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Vypren",
+    "name_en": null
   },
   {
     "id": "waters",
@@ -115660,7 +116102,9 @@
       "surse": true,
       "scor_total": 0.14
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Waters",
+    "name_en": null
   },
   {
     "id": "wayn",
@@ -115720,7 +116164,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Wayn",
+    "name_en": null
   },
   {
     "id": "weaver",
@@ -115752,7 +116198,9 @@
       "surse": false,
       "scor_total": 0
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Weaver",
+    "name_en": null
   },
   {
     "id": "webber",
@@ -116272,7 +116720,9 @@
       "surse": true,
       "scor_total": 0.43
     },
-    "region": "the_reach"
+    "region": "the_reach",
+    "name_ro": "Casa Webber",
+    "name_en": null
   },
   {
     "id": "wensington",
@@ -116356,7 +116806,9 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Wensington",
+    "name_en": null
   },
   {
     "id": "wheat",
@@ -116469,6 +116921,8 @@
       "surse": true,
       "scor_total": 0.29
     },
-    "region": "unknown"
+    "region": "unknown",
+    "name_ro": "Casa Wheat",
+    "name_en": null
   }
 ]

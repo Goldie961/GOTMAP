@@ -190,7 +190,9 @@
       "type": "landmark",
       "description": "An ancient, vast, and wealthy empire in the far east of Essos, ruled by the God-Emperor. Renowned for its silk, jade, and massive cities. In Westeros, it is seen as a land of legends.",
       "narratorText": "Yi Ti is an empire of ten thousand gods and a hundred dynasties. While Westerosi kings fought in mud and timber, the God-Emperors of Yin built palaces of jade and gold that cover entire hillsides. Yet behind its splendor lies the shadow of the Grey Waste."
-    }
+    },
+    "name_ro": null,
+    "name_en": "Golden Empire of Yi Ti"
   },
   {
     "id": "yin",
@@ -291,7 +293,9 @@
       "type": "landmark",
       "description": "A line of five colossal forts built of single blocks of fused black stone, situated between the Bleeding Sea and the Mountains of the Morn. Each fort is capable of housing ten thousand men.",
       "narratorText": "Older than the Golden Empire itself, the Five Forts tower a thousand feet high. They are built of fused black stone, a craft lost to the ages. Scribes say they were built to keep out the demons of the cold wastes — and whatever was feared back then was vast indeed."
-    }
+    },
+    "name_ro": null,
+    "name_en": "The Five Forts"
   },
   {
     "id": "asshai",
@@ -328,7 +332,9 @@
         "Jade Sea gate"
       ],
       "narratorText": "Asshai-by-the-Shadow is a city of silence. Its streets are vast, yet people walk them masked and alone. No child is ever born in Asshai, and no beast will drink the oily waters of the Ash. It is a city that belongs to the dead and those who speak to them."
-    }
+    },
+    "name_ro": null,
+    "name_en": "Asshai-by-the-Shadow"
   },
   {
     "id": "shadow_lands",
@@ -349,7 +355,9 @@
       "type": "landmark",
       "description": "A mountainous, dark region beyond Asshai. It is believed to be the home of shadowbinders, demons, and ghost grass. Westerosi maesters have never mapped its interior.",
       "narratorText": "The Shadow Lands are a realm of perpetual twilight, choked by ghost grass that glows with a pale light and kills all other plants. It is said that dragons first came from the Shadow, hatched from a moon that cracked, and that they will one day return."
-    }
+    },
+    "name_ro": null,
+    "name_en": "The Shadow Lands"
   },
   {
     "id": "ulthos_continent",
@@ -567,7 +575,9 @@
       "far_lands"
     ],
     "crest": null,
-    "crest_is_custom": null
+    "crest_is_custom": null,
+    "name_ro": null,
+    "name_en": "Isle of Cedars"
   },
   {
     "id": "bhorash",
@@ -616,7 +626,9 @@
       "far_lands"
     ],
     "crest": null,
-    "crest_is_custom": null
+    "crest_is_custom": null,
+    "name_ro": null,
+    "name_en": "Womb of the World"
   },
   {
     "id": "mother_of_mountains",
@@ -632,7 +644,9 @@
       "far_lands"
     ],
     "crest": null,
-    "crest_is_custom": null
+    "crest_is_custom": null,
+    "name_ro": null,
+    "name_en": "Mother of Mountains"
   },
   {
     "id": "lhazar",
@@ -829,7 +843,9 @@
       "far_lands"
     ],
     "crest": null,
-    "crest_is_custom": null
+    "crest_is_custom": null,
+    "name_ro": null,
+    "name_en": "Great Moraq"
   },
   {
     "id": "valyria",

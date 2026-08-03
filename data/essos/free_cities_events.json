@@ -11,10 +11,17 @@
     "description": "Sealord Uthero Zalyne of Braavos ends over a century of the city's secrecy, sending ships to every corner of the known world to proclaim Braavos's existence. The revelation occurs during the 111th festival of the city's founding. The Iron Bank pays settlements to descendants of masters whose ships the founders took, but refuses to pay for the value of the slaves themselves, affirming Braavos's anti-slavery principles. The anniversary is celebrated annually with a ten-day festival ending at midnight when the Titan roars and citizens remove their masks.",
     "canon": "canon",
     "book": "The World of Ice and Fire",
-    "participants": ["Sealord Uthero Zalyne"],
-    "factions": ["sealord_of_braavos", "iron_bank_of_braavos"],
+    "participants": [
+      "Sealord Uthero Zalyne"
+    ],
+    "factions": [
+      "sealord_of_braavos",
+      "iron_bank_of_braavos"
+    ],
     "outcome": "Braavos is revealed to the world; the city gains international recognition and trade relationships.",
-    "source": "https://awoiaf.westeros.org/index.php/Uncloaking_of_Uthero"
+    "source": "https://awoiaf.westeros.org/index.php/Uncloaking_of_Uthero",
+    "name_ro": null,
+    "name_en": "The Uncloaking of Uthero"
   },
   {
     "id": "doom_of_valyria",
@@ -31,7 +38,9 @@
     "participants": [],
     "factions": [],
     "outcome": "Valyrian Freehold destroyed; Free Cities become independent; Century of Blood begins.",
-    "source": "https://awoiaf.westeros.org/index.php/Doom_of_Valyria"
+    "source": "https://awoiaf.westeros.org/index.php/Doom_of_Valyria",
+    "name_ro": null,
+    "name_en": "The Doom of Valyria"
   },
   {
     "id": "century_of_blood_volantis_expansion",
@@ -46,9 +55,17 @@
     "canon": "canon",
     "book": "The World of Ice and Fire",
     "participants": [],
-    "factions": ["volantene_tigers", "braavos", "pentos", "myrish_magisters", "lyseni_magisters"],
+    "factions": [
+      "volantene_tigers",
+      "braavos",
+      "pentos",
+      "myrish_magisters",
+      "lyseni_magisters"
+    ],
     "outcome": "Coalition defeats Volantis; Myr and Lys regain independence; Elephant faction rises in Volantis.",
-    "source": "https://awoiaf.westeros.org/index.php/Century_of_Blood"
+    "source": "https://awoiaf.westeros.org/index.php/Century_of_Blood",
+    "name_ro": null,
+    "name_en": "Century of Blood — Volantene Expansion"
   },
   {
     "id": "aegon_burns_volantene_fleet",
@@ -62,10 +79,18 @@
     "description": "As part of the coalition against Volantis's expansionist Century of Blood, Aegon Targaryen (later Aegon the Conqueror, at this time Lord of Dragonstone) joins the Free Cities alliance. Riding Balerion the Black Dread, Aegon burns a Volantene fleet that had assembled off the coast of Lys, preparing to invade the city. Following this decisive intervention, Aegon loses interest in Essos and turns his attention toward the conquest of Westeros.",
     "canon": "canon",
     "book": "The World of Ice and Fire",
-    "participants": ["aegon_i"],
-    "factions": ["targaryen", "volantene_tigers", "lyseni_magisters"],
+    "participants": [
+      "aegon_i"
+    ],
+    "factions": [
+      "targaryen",
+      "volantene_tigers",
+      "lyseni_magisters"
+    ],
     "outcome": "Volantene fleet destroyed; Lys freed; Aegon turns toward Westeros; Century of Blood effectively ends.",
-    "source": "https://awoiaf.westeros.org/index.php/Century_of_Blood"
+    "source": "https://awoiaf.westeros.org/index.php/Century_of_Blood",
+    "name_ro": null,
+    "name_en": "Aegon Targaryen Burns the Volantene Fleet"
   },
   {
     "id": "battle_of_qohor",
@@ -79,10 +104,17 @@
     "description": "Khal Temmo leads a khalasar of approximately 50,000 Dothraki riders against the Free City of Qohor during the Century of Blood. The Qohorik purchase 3,000 Unsullied from Astapor to supplement their own forces. On the first day, the Qohorik cavalry and all hired mercenaries are annihilated. On the second day, the 3,000 Unsullied form up before the city gates and repel eighteen consecutive Dothraki charges, killing 12,000 Dothraki including Khal Temmo and all his sons. Only 600 Unsullied survive. In a display of unprecedented respect, the surviving Dothraki dismount, cut their braids, and lay them at the feet of the surviving Unsullied — the first time the Dothraki had been defeated by infantry. In desperation during the siege, Qohorik nobles offered their own children to the Black Goat.",
     "canon": "canon",
     "book": "A Storm of Swords / The World of Ice and Fire",
-    "participants": ["Khal Temmo"],
-    "factions": ["qohorik_merchant_lords", "black_goat_of_qohor"],
+    "participants": [
+      "Khal Temmo"
+    ],
+    "factions": [
+      "qohorik_merchant_lords",
+      "black_goat_of_qohor"
+    ],
     "outcome": "Qohor saved; 12,000 Dothraki dead including Khal Temmo; 600 Unsullied survive; Dothraki braid-cutting ceremony; Qohor permanently relies on Unsullied for defense.",
-    "source": "https://awoiaf.westeros.org/index.php/Battle_of_Qohor"
+    "source": "https://awoiaf.westeros.org/index.php/Battle_of_Qohor",
+    "name_ro": null,
+    "name_en": "The Battle of Qohor (Three Thousand of Qohor)"
   },
   {
     "id": "pentos_braavos_treaty",
@@ -97,9 +129,14 @@
     "canon": "canon",
     "book": "A Game of Thrones",
     "participants": [],
-    "factions": ["sealord_of_braavos", "pentoshi_magisters"],
+    "factions": [
+      "sealord_of_braavos",
+      "pentoshi_magisters"
+    ],
     "outcome": "Pentos formally cedes right to eunuch slaves; enforcement is loose in practice.",
-    "source": "https://awoiaf.westeros.org/index.php/Pentos"
+    "source": "https://awoiaf.westeros.org/index.php/Pentos",
+    "name_ro": null,
+    "name_en": "Treaty of Pentos with Braavos"
   },
   {
     "id": "iron_bank_backs_stannis",
@@ -113,8 +150,14 @@
     "description": "When the Iron Throne (under Lannister control) defaults on its debts to the Iron Bank of Braavos, the bank exemplifies its motto — 'The Iron Bank will have its due' — by withdrawing support from the Lannisters and beginning to finance Stannis Baratheon's claim to the throne. Tycho Nestoris represents the bank in negotiations at Castle Black. This follows the pattern established over centuries: the Iron Bank funds rivals of defaulting debtors to recover its losses.",
     "canon": "canon",
     "book": "A Dance with Dragons",
-    "participants": ["Tycho Nestoris", "Stannis Baratheon"],
-    "factions": ["iron_bank_of_braavos", "baratheon"],
+    "participants": [
+      "Tycho Nestoris",
+      "Stannis Baratheon"
+    ],
+    "factions": [
+      "iron_bank_of_braavos",
+      "baratheon"
+    ],
     "outcome": "Stannis receives Iron Bank backing; Iron Throne's Lannister regime faces financial pressure.",
     "source": "https://awoiaf.westeros.org/index.php/Iron_Bank_of_Braavos"
   }

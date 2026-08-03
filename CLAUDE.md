@@ -62,6 +62,12 @@ Acestea au produs deja diagnostice greșite în audituri anterioare. Nu le repet
    citește DOAR din catalog. Un audit anterior le-a confundat și a concluzionat greșit.
    `kings_landing` are `coordinates: {x: 304.4, y: 580.2}` în **ambele**.
 
+   `coordinates` de la rădăcină este **deprecat și nu se mai scrie**; `catalog.json`
+   este singura sursă pentru locațiile cu pin. Câmpul rămâne în date pentru că este
+   singura poziție disponibilă pentru locațiile fără pin (fallback de fly-to la
+   `js/app.js:356`) — nu se șterge. Cele două sisteme divergeau deja pentru 7 orașe
+   libere: `docs/raport_coordonate_desincronizate.md`.
+
 2. **`id_intern` poate fi string SAU array.** Exact 3 locații îl au ca array:
    `kings_landing`, `oldtown_city`, `storm_end`. Operatorul `?.` nu protejează de
    „nu e o funcție". Orice `entity.id_intern?.startsWith(...)` aruncă pentru ele.

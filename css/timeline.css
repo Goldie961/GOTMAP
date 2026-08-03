@@ -1,6 +1,6 @@
 .timeline-container {
   position: fixed;
-  bottom: 25px;
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
   width: 75%;
@@ -8,12 +8,72 @@
   background: radial-gradient(circle, var(--parchment-light) 0%, var(--parchment) 100%);
   border: 1.5px solid var(--gold-dark);
   border-radius: 4px;
-  padding: 0.7rem 1.4rem;
   box-shadow: 0 4px 15px rgba(44, 24, 16, 0.15); /* Softer shadow */
   z-index: 100;
+  transition: padding 0.25s ease, gap 0.25s ease;
+}
+
+/* Expanded State */
+.timeline-container.expanded {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  padding: 0.7rem 1.4rem;
+}
+
+/* Collapsed State (~28px bar overlay) */
+.timeline-container.collapsed {
+  height: 28px;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.timeline-container.collapsed .timeline-top-row {
+  display: contents;
+}
+
+.timeline-container.collapsed .timeline-play-btn {
+  order: 1;
+  width: 22px;
+  height: 22px;
+  font-size: 0.7rem;
+  flex-shrink: 0;
+}
+
+.timeline-container.collapsed .timeline-year-display {
+  order: 2;
+  text-align: left;
+  flex: none;
+}
+
+.timeline-container.collapsed .timeline-year-display .year-number {
+  font-size: 0.95rem;
+  line-height: 28px;
+}
+
+.timeline-container.collapsed .timeline-king-name {
+  display: none;
+}
+
+.timeline-container.collapsed .timeline-minimap {
+  display: none;
+}
+
+.timeline-container.collapsed .timeline-slider-wrapper {
+  order: 3;
+  flex: 1;
+  margin-top: 0;
+}
+
+.timeline-container.collapsed .timeline-toggle-btn {
+  order: 4;
+  width: 22px;
+  height: 22px;
+  font-size: 0.7rem;
+  flex-shrink: 0;
 }
 
 .timeline-top-row {
@@ -23,8 +83,9 @@
   margin-bottom: 0.1rem;
 }
 
-.timeline-play-btn {
-  background: none;
+.timeline-play-btn,
+.timeline-toggle-btn {
+  background: var(--parchment-light);
   border: 1px solid var(--gold-dark);
   border-radius: 50%;
   width: 30px;
@@ -35,12 +96,12 @@
   font-size: 0.8rem;
   color: var(--ink);
   cursor: pointer;
-  background: var(--parchment-light);
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
   transition: background-color 0.3s, transform 0.15s ease-out;
 }
 
-.timeline-play-btn:hover {
+.timeline-play-btn:hover,
+.timeline-toggle-btn:hover {
   background-color: var(--gold-bright);
 }
 
@@ -56,7 +117,8 @@
   color: var(--ink);
 }
 
-.timeline-play-btn:active {
+.timeline-play-btn:active,
+.timeline-toggle-btn:active {
   transform: scale(0.95);
 }
 

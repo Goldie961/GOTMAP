@@ -11994,7 +11994,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.62
-    }
+    },
+    "name_ro": "Addam din Hull (devenit Addam Velaryon)",
+    "name_en": null
   },
   {
     "id": "addam_hightower",
@@ -14535,7 +14537,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Aegon al III-lea",
+    "name_en": null
   },
   {
     "id": "aegon_al_iii_lea_numit_nenorocirea_dragonului",
@@ -14644,7 +14648,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Aegon al III-lea, numit \"Nenorocirea Dragonului\"",
+    "name_en": null
   },
   {
     "id": "aegon_al_iv_lea_targaryen",
@@ -14710,7 +14716,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Aegon al IV-lea Targaryen",
+    "name_en": null
   },
   {
     "id": "aegon_al_v_lea",
@@ -15269,7 +15277,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.75
-    }
+    },
+    "name_ro": "Aegon al V-lea",
+    "name_en": null
   },
   {
     "id": "aegon_al_v_lea_targaryen",
@@ -15451,7 +15461,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Aegon al V-lea Targaryen („cel Nesigur”)",
+    "name_en": null
   },
   {
     "id": "aegon_blackfyre",
@@ -15529,7 +15541,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Aegon Blackfyre (fiul lui Daemon, geamăn întâi-născut)",
+    "name_en": null
   },
   {
     "id": "aegon_cel_nesigur",
@@ -15744,7 +15758,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Aegon cel Netrebnic (Regele Aegon al IV-lea)",
+    "name_en": null
   },
   {
     "id": "aegon_cuceritorul",
@@ -16137,7 +16153,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Aegon Frey, zis „Clopoţel\" (Bellringer)",
+    "name_en": null
   },
   {
     "id": "aegon_i_targaryen",
@@ -17412,7 +17430,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 1.0
-    }
+    },
+    "name_ro": "Aegon II Targaryen (cel Vârstnic)",
+    "name_en": null
   },
   {
     "id": "aegon_targaryen",
@@ -18362,7 +18382,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Aegon Targaryen („Egg\") / Prințul Aegon",
+    "name_en": null
   },
   {
     "id": "aemma_arryn",
@@ -18700,7 +18722,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Aemon Blackfyre (fiul lui Daemon, geamăn al doilea-născut)",
+    "name_en": null
   },
   {
     "id": "aemon_cavalerul_dragon",
@@ -19465,7 +19489,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.88
-    }
+    },
+    "name_ro": "Aemon Targaryen (Prinț de Piatra Dragonului)",
+    "name_en": null
   },
   {
     "id": "aenar_targaryen",
@@ -22857,7 +22883,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.75
-    }
+    },
+    "name_ro": "Aerys (fiul lui Jaehaerys",
+    "name_en": null
   },
   {
     "id": "aggar",
@@ -23213,7 +23241,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Al doilea conspirator (neidentificat, glas hodorogit)",
+    "name_en": null
   },
   {
     "id": "alannys_greyjoy",
@@ -23577,7 +23607,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.75
-    }
+    },
+    "name_ro": "Alannys Greyjoy (născută Harlaw)",
+    "name_en": null
   },
   {
     "id": "alaric_din_elysen",
@@ -23658,7 +23690,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Alaric din Elysen",
+    "name_en": null
   },
   {
     "id": "alaric_stark",
@@ -25543,7 +25577,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Alfyn Ucigașul Ciorilor",
+    "name_en": null
   },
   {
     "id": "alia_tyrell",
@@ -25751,7 +25787,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Aliandra Martell (prințesa de Dorne)",
+    "name_en": null
   },
   {
     "id": "alicent_hightower",
@@ -26839,7 +26877,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Alți veri ai lui Valarr și Matarys (nenumiți)",
+    "name_en": null
   },
   {
     "id": "alton_butterwell",
@@ -27317,7 +27357,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Alyn cel Roșu de la Drumul Rozelor",
+    "name_en": null
   },
   {
     "id": "alyn_cel_rosu_din_padurea_rozelor",
@@ -27381,7 +27423,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Alyn cel Roșu din Pădurea Rozelor",
+    "name_en": null
   },
   {
     "id": "alyn_tarbeck",
@@ -27896,7 +27940,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Alyn Velaryon („Pumn de Stejar\" / Oakenfist)",
+    "name_en": null
   },
   {
     "id": "alyn_velaryon_pumn_de_stejar",
@@ -28017,7 +28063,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Alyn Velaryon, „Pumn de Stejar\" (lordul)",
+    "name_en": null
   },
   {
     "id": "alynne_connington",
@@ -29544,7 +29592,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Alysanne Blackwood (lady, „Aly cea Neagră\")",
+    "name_en": null
   },
   {
     "id": "alysanne_osgrey",
@@ -30536,7 +30586,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.75
-    }
+    },
+    "name_ro": "Alyssa (regina Alyssa, din Casa Velaryon)",
+    "name_en": null
   },
   {
     "id": "alyssa_arryn",
@@ -31410,7 +31462,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Andrik cel Posomorât",
+    "name_en": null
   },
   {
     "id": "androw_farman",
@@ -31855,7 +31909,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Anguy Arcaşul",
+    "name_en": null
   },
   {
     "id": "anya_waynwood",
@@ -32018,7 +32074,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Arcaşul necunoscut al lui Ser Marq Piper",
+    "name_en": null
   },
   {
     "id": "arch",
@@ -32153,7 +32211,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Arch („Maţe-Verzi”)",
+    "name_en": null
   },
   {
     "id": "archibald_yronwood",
@@ -34480,7 +34540,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Arson Spărgătorul de Gheaţă",
+    "name_en": null
   },
   {
     "id": "arstan_barba_alba",
@@ -34810,7 +34872,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Arstan Barbă-albă",
+    "name_en": null
   },
   {
     "id": "arthor_celtigar",
@@ -35332,7 +35396,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.62
-    }
+    },
+    "name_ro": "Arthur Dayne „Sabia Dimineții\"",
+    "name_en": null
   },
   {
     "id": "artos_flint",
@@ -39716,7 +39782,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Baela Velaryon (născută Targaryen)",
+    "name_en": null
   },
   {
     "id": "baelon_targaryen",
@@ -40399,7 +40467,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.88
-    }
+    },
+    "name_ro": "Baelon Targaryen (\"cel Viteaz\", \"Prințul Primăverii\")",
+    "name_en": null
   },
   {
     "id": "baelor_blacktyde",
@@ -40603,7 +40673,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Baelor cel Binecuvântat (Targaryen)",
+    "name_en": null
   },
   {
     "id": "baelor_hightower",
@@ -40652,7 +40724,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Baelor Hightower (\"Baelor Zâmbet-Strălucitor\", poreclit de Oberyn \"Baelor Vântosul\")",
+    "name_en": null
   },
   {
     "id": "baiat_de_grajd",
@@ -40698,7 +40772,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Băiat de grajd",
+    "name_en": null
   },
   {
     "id": "baiatul_cu_arbaleta",
@@ -40779,7 +40855,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Băiatul cu arbaleta (orfan, adoptat)",
+    "name_en": null
   },
   {
     "id": "baiatul_luna",
@@ -40860,7 +40938,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Băiatul Lună",
+    "name_en": null
   },
   {
     "id": "baiatul_lunii",
@@ -41022,7 +41102,9 @@
     },
     "_note_provenienta_split": [
       "Surse din entitatea comasată PERSON_BUTTERBUMPS_SI_BAIATUL_LUNII (butterbumps_si_baiatul_lunii)"
-    ]
+    ],
+    "name_ro": "Băiatul Lunii",
+    "name_en": null
   },
   {
     "id": "balaq_cel_negru",
@@ -41068,7 +41150,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Balaq cel Negru",
+    "name_en": null
   },
   {
     "id": "balaquo_sfarma_oase",
@@ -41114,7 +41198,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Balaquo Sfarmă-Oase",
+    "name_en": null
   },
   {
     "id": "balena_galbena_fata_general_micul_porumbel_lorzii_zornaitori_lordul_obraji_tremuratori_cuceritorul_betiv_stapanul_bestie_fata_terciuita_iepurele_carausul_eroul_parfumat",
@@ -41160,7 +41246,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Balena Galbenă, Fata General, Micul Porumbel, Lorzii Zornăitori, Lordul Obraji-tremurători, Cuceritorul Beţiv, Stăpânul-Bestie, Faţă-Terciuită, Iepurele, Cărăuşul, Eroul Parfumat",
+    "name_en": null
   },
   {
     "id": "balman_byrch",
@@ -43636,7 +43724,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Barbă-însângerată",
+    "name_en": null
   },
   {
     "id": "barba_nsangerata",
@@ -43682,7 +43772,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Barbă-nsângerată",
+    "name_en": null
   },
   {
     "id": "barba_verde",
@@ -43746,7 +43838,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.12
-    }
+    },
+    "name_ro": "Barbă-Verde (Greenbeard)",
+    "name_en": null
   },
   {
     "id": "barbat_cu_mantie_verde",
@@ -43827,7 +43921,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Bărbat cu mantie verde",
+    "name_en": null
   },
   {
     "id": "barbat_din_casa_lannister_casatorit_cu_o_fata_din_casa_baratheon",
@@ -43893,7 +43989,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "bărbat din Casa Lannister (neidentificat pe nume) căsătorit cu o fată din Casa Baratheon",
+    "name_en": null
   },
   {
     "id": "barbatul_care_nu_era_hangiu",
@@ -44084,7 +44182,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Bărbatul care nu era hangiu (Hanul Omului Îngenuncheat)",
+    "name_en": null
   },
   {
     "id": "barbatul_cocarjat",
@@ -44165,7 +44265,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Bărbatul cocârjat (nenumit, conducător al barcagiilor de la Harroway)",
+    "name_en": null
   },
   {
     "id": "barbatul_cu_mantie_galbena",
@@ -44211,7 +44313,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Bărbatul cu mantie galbenă („Lem\")",
+    "name_en": null
   },
   {
     "id": "barbatul_din_clanul_liddle",
@@ -44344,7 +44448,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Bărbatul din clanul Liddle (nenumit)",
+    "name_en": null
   },
   {
     "id": "barbrey_dustin",
@@ -44689,7 +44795,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Barsena Păr-Negru",
+    "name_en": null
   },
   {
     "id": "barsena_par_negru_khrazz_motanul_baltat_goghor_uriasul_belaquo_sfarma_oase",
@@ -44735,7 +44843,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Barsena Păr-Negru, Khrazz, Motanul Bălțat, Goghor Uriașul, Belaquo Sfarmă-Oase",
+    "name_en": null
   },
   {
     "id": "barth",
@@ -44957,7 +45067,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "„Bastardul de Harrenhall\"",
+    "name_en": null
   },
   {
     "id": "bastardul_de_la_cantecul_noptii",
@@ -45038,7 +45150,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Bastardul de la Cântecul Nopții",
+    "name_en": null
   },
   {
     "id": "bastardul_din_godsgrace",
@@ -45084,7 +45198,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Bastardul din Godsgrace",
+    "name_en": null
   },
   {
     "id": "bastardul_orb",
@@ -45130,7 +45246,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Bastardul Orb (menționat ca fost sfătuitor al lui Davos)",
+    "name_en": null
   },
   {
     "id": "batrana_nan",
@@ -45466,7 +45584,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Bătrâna Nan",
+    "name_en": null
   },
   {
     "id": "batranul_flint",
@@ -45515,7 +45635,9 @@
     },
     "_note_provenienta_split": [
       "Surse din entitatea comasată PERSON_BATRANUL_FLINT_NORREY (batranul_flint_norrey)"
-    ]
+    ],
+    "name_ro": "Bătrânul Flint (Old Flint)",
+    "name_en": null
   },
   {
     "id": "batranul_maester_kyn",
@@ -45634,7 +45756,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Bătrânul Maester Kyn",
+    "name_en": null
   },
   {
     "id": "batranul_negustor_asigurator_de_corabii",
@@ -45680,7 +45804,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Bătrânul negustor/asigurător de corăbii (fără nume dat în fragment)",
+    "name_en": null
   },
   {
     "id": "batranul_pate",
@@ -45744,7 +45870,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Bătrânul Pate",
+    "name_en": null
   },
   {
     "id": "batranul_pescarus_cenusiu",
@@ -45790,7 +45918,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Bătrânul Pescăruș Cenușiu",
+    "name_en": null
   },
   {
     "id": "batranul_petic_de_sare",
@@ -45836,7 +45966,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Bătrânul Petic-de-Sare",
+    "name_en": null
   },
   {
     "id": "batranul_satului_din_muntii_lunii",
@@ -45995,7 +46127,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Bătrânul satului din Munții Lunii (nenumit)",
+    "name_en": null
   },
   {
     "id": "batranul_taur_ser_theomore_bulwer",
@@ -46041,7 +46175,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "„Bătrânul Taur\" / Ser Theomore Bulwer",
+    "name_en": null
   },
   {
     "id": "bean",
@@ -46284,7 +46420,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.12
-    }
+    },
+    "name_ro": "Bedwyck „Uriașul\"",
+    "name_en": null
   },
   {
     "id": "belandra",
@@ -46411,7 +46549,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Belaquo Sfărâmătorul-de-oase",
+    "name_en": null
   },
   {
     "id": "belaquo_sfarma_oase",
@@ -46457,7 +46597,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Belaquo Sfarmă-Oase (Belaquo Bonebreaker)",
+    "name_en": null
   },
   {
     "id": "belis",
@@ -46596,7 +46738,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Belwas cel Voinic",
+    "name_en": null
   },
   {
     "id": "belwas_vanjosul",
@@ -46677,7 +46821,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Belwas Vânjosul (Strong Belwas)",
+    "name_en": null
   },
   {
     "id": "ben_beesbury",
@@ -47022,7 +47168,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Ben Blackwood, „Sângerosul\"",
+    "name_en": null
   },
   {
     "id": "ben_buttercakes",
@@ -47586,7 +47734,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Ben Plumm („Oacheșul Ben”)",
+    "name_en": null
   },
   {
     "id": "ben_plumm_oachesul",
@@ -47632,7 +47782,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Ben Plumm, „Oacheşul\"",
+    "name_en": null
   },
   {
     "id": "ben_stark",
@@ -49002,7 +49154,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Benjicot Blackwood (Sângerosul Ben)",
+    "name_en": null
   },
   {
     "id": "benjicot_branch",
@@ -50735,7 +50889,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Bessa Hangița",
+    "name_en": null
   },
   {
     "id": "beth_cassel",
@@ -51477,7 +51633,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Bonifer Hasty (\"cel Bun\")",
+    "name_en": null
   },
   {
     "id": "borcas",
@@ -51845,7 +52003,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Boremund Harlaw „cel Albastru\"",
+    "name_en": null
   },
   {
     "id": "boros_blount",
@@ -52798,7 +52958,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Botley „Mustăți de Peşte\"",
+    "name_en": null
   },
   {
     "id": "bowen_marsh",
@@ -55611,7 +55773,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Brandon Corăbierul",
+    "name_en": null
   },
   {
     "id": "brandon_snow",
@@ -56646,7 +56810,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Brandon Stark (unchiul lui Ned)",
+    "name_en": null
   },
   {
     "id": "brax",
@@ -56756,7 +56922,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.12
-    }
+    },
+    "name_ro": "Brăzdatul",
+    "name_en": null
   },
   {
     "id": "brella",
@@ -58249,7 +58417,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Brienne de Tarth",
+    "name_en": null
   },
   {
     "id": "brienne_din_tarth",
@@ -58702,7 +58872,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Brienne din Tarth",
+    "name_en": null
   },
   {
     "id": "brogg",
@@ -59902,7 +60074,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Bronn de la Apa Neagră",
+    "name_en": null
   },
   {
     "id": "broscoiul",
@@ -60576,7 +60750,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Brynden Rivers, zis „Corbul Sângelui\" (Bloodraven)",
+    "name_en": null
   },
   {
     "id": "brynden_tully_pestele_negru",
@@ -60760,7 +60936,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Brynden Tully „Peștele Negru\"",
+    "name_en": null
   },
   {
     "id": "buboi",
@@ -61141,7 +61319,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "„Burtă de Bere\"",
+    "name_en": null
   },
   {
     "id": "burta_de_fier",
@@ -61222,7 +61402,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "„Burtă de Fier\"",
+    "name_en": null
   },
   {
     "id": "burtadebere",
@@ -61303,7 +61485,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Burtădebere",
+    "name_en": null
   },
   {
     "id": "burton_humble",
@@ -61562,7 +61746,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Caggo (Mâna Crudă)",
+    "name_en": null
   },
   {
     "id": "caggo_ucigasul_cadavrului",
@@ -61695,7 +61881,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Caggo Ucigaşul Cadavrului",
+    "name_en": null
   },
   {
     "id": "cal",
@@ -61927,7 +62115,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Călimară",
+    "name_en": null
   },
   {
     "id": "calon",
@@ -62121,7 +62311,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Cap de Oțel / Pate Cap de Oțel",
+    "name_en": null
   },
   {
     "id": "cap_de_paie",
@@ -62228,7 +62420,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Cap de Paie",
+    "name_en": null
   },
   {
     "id": "capitanul_aventurii",
@@ -62274,7 +62468,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "căpitanul Aventurii (nenumit)",
+    "name_en": null
   },
   {
     "id": "capitanul_capriorului",
@@ -62320,7 +62516,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "căpitanul Căpriorului (nenumit)",
+    "name_en": null
   },
   {
     "id": "capitanul_corabiei_myraham",
@@ -62432,7 +62630,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Căpitanul corabiei Myraham",
+    "name_en": null
   },
   {
     "id": "capitanul_vylarr",
@@ -62530,7 +62730,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Căpitanul Vylarr",
+    "name_en": null
   },
   {
     "id": "casper_straw",
@@ -62891,7 +63093,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Cat (fata cu roaba)",
+    "name_en": null
   },
   {
     "id": "catelyn_stark",
@@ -66065,7 +66269,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Cavalerul Copacului Surâzător (identitate necunoscută, personaj din povestea spusă de Meera)",
+    "name_en": null
   },
   {
     "id": "cavalerul_dalbridge",
@@ -66600,7 +66806,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Cei doi „Will\" (recruți)",
+    "name_en": null
   },
   {
     "id": "cei_trei_wat",
@@ -66707,7 +66915,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Cei trei „Wat\" (recruți, doi dintre ei frați)",
+    "name_en": null
   },
   {
     "id": "celladar",
@@ -71183,7 +71393,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Ceryse (regina Ceryse Hightower)",
+    "name_en": null
   },
   {
     "id": "ceryse_hightower",
@@ -71788,7 +72000,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Chella, fiica lui Cheyk",
+    "name_en": null
   },
   {
     "id": "chett",
@@ -72634,7 +72848,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.12
-    }
+    },
+    "name_ro": "Cioara cu trei ochi",
+    "name_en": null
   },
   {
     "id": "ciuperca",
@@ -73250,7 +73466,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Ciupercă (bufonul, cronicarul „Mărturia lui Ciupercă\")",
+    "name_en": null
   },
   {
     "id": "ciuperca_ciocanul_dreptatii",
@@ -73452,7 +73670,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Ciupercă / Ciocanul Dreptății (haiduc-cântăreț nenumit direct la Pietrele Vechi)",
+    "name_en": null
   },
   {
     "id": "clarence_crabb",
@@ -73754,7 +73974,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.12
-    }
+    },
+    "name_ro": "Clarvăzătorul verde / ultima \"cioară cu trei ochi\"",
+    "name_en": null
   },
   {
     "id": "clement",
@@ -74254,7 +74476,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Cleon cel Mare",
+    "name_en": null
   },
   {
     "id": "cletus",
@@ -74318,7 +74542,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Cletus (menționat doar ca decedat)",
+    "name_en": null
   },
   {
     "id": "cletus_will_maesterul_kedry",
@@ -74781,7 +75007,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Clopoţel (Frey)",
+    "name_en": null
   },
   {
     "id": "clydas",
@@ -75565,7 +75793,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Conn, fiul lui Coratt",
+    "name_en": null
   },
   {
     "id": "conwy",
@@ -75738,7 +75968,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.12
-    }
+    },
+    "name_ro": "Copilul pădurii (fată nenumită)",
+    "name_en": null
   },
   {
     "id": "corbul_insangerat",
@@ -75802,7 +76034,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.12
-    }
+    },
+    "name_ro": "Corbul Însângerat (poreclă/nume)",
+    "name_en": null
   },
   {
     "id": "corbul_lui_mormont",
@@ -75868,7 +76102,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Corbul lui Mormont",
+    "name_en": null
   },
   {
     "id": "corbul_sangelui",
@@ -75947,7 +76183,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.12
-    }
+    },
+    "name_ro": "Corbul Sângelui (Bloodraven)",
+    "name_en": null
   },
   {
     "id": "corliss_penny",
@@ -78957,7 +79195,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Croitoreasa (bătrână, nenumită)",
+    "name_en": null
   },
   {
     "id": "cromm",
@@ -80026,7 +80266,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Dădacă",
+    "name_en": null
   },
   {
     "id": "daella_targaryen",
@@ -81968,7 +82210,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 1.0
-    }
+    },
+    "name_ro": "Daemon Targaryen (fiul lui Baelon)",
+    "name_en": null
   },
   {
     "id": "daenaera",
@@ -82051,7 +82295,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.12
-    }
+    },
+    "name_ro": "Daenaera (regina)",
+    "name_en": null
   },
   {
     "id": "daenaera_din_casa_velaryon",
@@ -86422,7 +86668,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.88
-    }
+    },
+    "name_ro": "Daenys Targaryen (Daenys Visătoarea)",
+    "name_en": null
   },
   {
     "id": "daeron_tanarul_dragon",
@@ -86770,7 +87018,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.62
-    }
+    },
+    "name_ro": "Daeron, „Tânărul Dragon\"",
+    "name_en": null
   },
   {
     "id": "daeron_velaryon",
@@ -87407,7 +87657,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Dale, Allard, Maric, Matthos, Davos (fiul)",
+    "name_en": null
   },
   {
     "id": "dale_pleoapa_cazuta",
@@ -87453,7 +87705,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Dale Pleoapă-Căzută",
+    "name_en": null
   },
   {
     "id": "dale_seaworth",
@@ -88076,7 +88330,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Dalton Greyjoy („Krakenul Roșu\")",
+    "name_en": null
   },
   {
     "id": "dalton_greyjoy_krakenul_rosu",
@@ -88194,7 +88450,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Dalton Greyjoy, „Krakenul Roșu\"",
+    "name_en": null
   },
   {
     "id": "damion_lannister",
@@ -88481,7 +88739,9 @@
     },
     "_note_provenienta_split": [
       "Surse din entitatea comasată PERSON_DAMON_DANSEAZA_PENTRU_MINE_JUPUITORUL_ALYN_URSUZUL_DICK_GALBEJITUL_LUTON_MARAITUL_BAIETII_BASTARDULUI_AI_LUI_RAMSAY_BOLTON_DICK_GALBEJITUL_GASIT_MORT_SI_MUTILAT_PAGINA_815_823 (damon_danseaza_pentru_mine_jupuitorul_alyn_ursuzul_dick_galbejitul_luton_maraitul_baietii_bastardului_ai_lui_ramsay_bolton_dick_galbejitul_gasit_mort_si_mutilat_pagina_815_823)"
-    ]
+    ],
+    "name_ro": "Damon Dansează-pentru-Mine",
+    "name_en": null
   },
   {
     "id": "dan_canepa",
@@ -88562,7 +88822,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Dan Cânepă (Hempen Dan)",
+    "name_en": null
   },
   {
     "id": "dancy",
@@ -92064,7 +92326,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.12
-    }
+    },
+    "name_ro": "Dermot de Rainwood",
+    "name_en": null
   },
   {
     "id": "desmond",
@@ -92741,7 +93005,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Devyn Jupuitorul-de-foci",
+    "name_en": null
   },
   {
     "id": "dhazzar",
@@ -92787,7 +93053,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Dhazzar (menționat și ca „Dhazak\" în lista de nume)",
+    "name_en": null
   },
   {
     "id": "dick_bean",
@@ -93359,7 +93627,9 @@
     },
     "_note_provenienta_split": [
       "Surse din entitatea comasată PERSON_DAMON_DANSEAZA_PENTRU_MINE_JUPUITORUL_ALYN_URSUZUL_DICK_GALBEJITUL_LUTON_MARAITUL_BAIETII_BASTARDULUI_AI_LUI_RAMSAY_BOLTON_DICK_GALBEJITUL_GASIT_MORT_SI_MUTILAT_PAGINA_815_823 (damon_danseaza_pentru_mine_jupuitorul_alyn_ursuzul_dick_galbejitul_luton_maraitul_baietii_bastardului_ai_lui_ramsay_bolton_dick_galbejitul_gasit_mort_si_mutilat_pagina_815_823)"
-    ]
+    ],
+    "name_ro": "Dick Gălbejitul",
+    "name_en": null
   },
   {
     "id": "dick_galbejitul_maraitul_alyn_ursuzul_walder_cel_mare_walder_cel_mic",
@@ -93440,7 +93710,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Dick Gălbejitul, Mârâitul, Alyn Ursuzul, Walder cel Mare, Walder cel Mic",
+    "name_en": null
   },
   {
     "id": "dick_paiosul",
@@ -93486,7 +93758,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Dick Păiosul",
+    "name_en": null
   },
   {
     "id": "dick_paiosul_mos_bill_ciolanosul_baqq_hartoage",
@@ -93534,7 +93808,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Dick Păiosul, Moş Bill Ciolănosul, Baqq (poreclit „Fasole”), Hârţoage",
+    "name_en": null
   },
   {
     "id": "dickon_tarly",
@@ -94053,7 +94329,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Doamna Frunzelor",
+    "name_en": null
   },
   {
     "id": "doamna_inima_de_piatra",
@@ -94238,7 +94516,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Doamna Inimă de Piatră",
+    "name_en": null
   },
   {
     "id": "dobber",
@@ -94443,7 +94723,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "doi frați, călăreți liberi din Mlaştinile Dornish",
+    "name_en": null
   },
   {
     "id": "doi_nepoti_frey",
@@ -94509,7 +94791,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "doi nepoți Frey",
+    "name_en": null
   },
   {
     "id": "domeric_bolton",
@@ -95799,7 +96083,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Donnel Hightower („Donnel Pregătitorul”)",
+    "name_en": null
   },
   {
     "id": "donnel_hill_cel_dulce",
@@ -95949,7 +96235,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Donnel Hill cel Dulce",
+    "name_en": null
   },
   {
     "id": "doran_martell",
@@ -97774,7 +98062,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Doran Noyce (posibil formă corupt — vezi notă)",
+    "name_en": null
   },
   {
     "id": "dorcas",
@@ -98959,7 +99249,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Dulău",
+    "name_en": null
   },
   {
     "id": "dulaul_rosu_din_hills",
@@ -99005,7 +99297,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Dulăul Roșu din Hills (Ser Joffrey Doggett)",
+    "name_en": null
   },
   {
     "id": "dulceata",
@@ -99051,7 +99345,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Dulceaţă",
+    "name_en": null
   },
   {
     "id": "dunsen",
@@ -99972,7 +100268,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Dywen, Iron Emmett, Hobb Trei-Degete, Bowen Marsh, Cotter Pyke, Satin, Owen Ologul, Halder, Broscoiul, Gheață Desperecheată, Uriaşul, Mully, Ulmer din Pădurea Regilor, Donnel Hill cel Dulce, Pyp, Grenn, Sam (Samwell Tarly)",
+    "name_en": null
   },
   {
     "id": "dywen_uriasul_donnel_hill_cel_dulce_ulmer_lew_stangaciul_garth_pana_cenusie",
@@ -100018,7 +100316,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Dywen, Uriaşul, Donnel Hill cel Dulce, Ulmer, Lew Stângaciul, Garth Pană-Cenuşie",
+    "name_en": null
   },
   {
     "id": "ebben",
@@ -100671,7 +100971,9 @@
     },
     "_note_provenienta_split": [
       "Surse din entitatea comasată PERSON_GRENN_EDD_CEL_TRIST (grenn_edd_cel_trist)"
-    ]
+    ],
+    "name_ro": "Edd cel Trist",
+    "name_en": null
   },
   {
     "id": "edd_cel_trist_tollett",
@@ -100717,7 +101019,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Edd cel Trist Tollett",
+    "name_en": null
   },
   {
     "id": "edd_tollett",
@@ -101056,7 +101360,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Edd Tollett cel Trist",
+    "name_en": null
   },
   {
     "id": "eddard_karstark",
@@ -107375,7 +107681,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Egon Emeros cel Splendid",
+    "name_en": null
   },
   {
     "id": "eladon_par_auriu_sulita_credincioasa",
@@ -107482,7 +107790,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Eladon Păr Auriu, Suliţa Credincioasă",
+    "name_en": null
   },
   {
     "id": "elbert_arryn",
@@ -109997,7 +110307,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Ella din Casa Broome",
+    "name_en": null
   },
   {
     "id": "ellaria",
@@ -111837,7 +112149,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Erik Fierarul (Rupe-Nicovală)",
+    "name_en": null
   },
   {
     "id": "ermesande_hayford",
@@ -112961,7 +113275,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.62
-    }
+    },
+    "name_ro": "Euron Greyjoy („Ochi de Cioară”)",
+    "name_en": null
   },
   {
     "id": "euron_greyjoy_ochiul_ciorii",
@@ -113213,7 +113529,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Eveniment din fragment:",
+    "name_en": null
   },
   {
     "id": "ezzara",
@@ -113688,7 +114006,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Falyse de Stokeworth",
+    "name_en": null
   },
   {
     "id": "farlen",
@@ -113934,7 +114254,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Fasole, Hârţoage, Moş Bill Ciolănosul",
+    "name_en": null
   },
   {
     "id": "fata_capitanului_corabiei_myrabam",
@@ -114041,7 +114363,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Fata căpitanului corabiei Myrabam",
+    "name_en": null
   },
   {
     "id": "fata_capitanului_corabiei_myraham",
@@ -114122,7 +114446,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "fata căpitanului corabiei Myraham",
+    "name_en": null
   },
   {
     "id": "fata_cu_doua_capete_din_mantarys_femeia_cu_barba_baiatul_cu_picioare_de_tap_alte_comori_sclave_ale_lui_yezzan_pagina_844_848",
@@ -114168,7 +114494,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Fata cu două capete din Mantarys, femeia cu barbă, băiatul cu picioare de țap — alte „comori\" sclave ale lui Yezzan. Pagina 844–848.",
+    "name_en": null
   },
   {
     "id": "fata_de_molima",
@@ -114214,7 +114542,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Faţă-de-molimă (preotul cu chipul victimei molimei)",
+    "name_en": null
   },
   {
     "id": "fata_din_orasul_cartitei",
@@ -114295,7 +114625,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Fata din Orașul Cârtiței (nenumită)",
+    "name_en": null
   },
   {
     "id": "fata_papusar",
@@ -114402,7 +114734,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Fata păpușar (fără nume)",
+    "name_en": null
   },
   {
     "id": "femeia_din_dorne_femeia_cea_grasa_din_dorne",
@@ -114529,7 +114863,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Femeia din Dorne (păpușăreasa mai în vârstă) / Femeia cea grasă din Dorne",
+    "name_en": null
   },
   {
     "id": "femeia_oachesa",
@@ -114636,7 +114972,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Femeia oacheşă",
+    "name_en": null
   },
   {
     "id": "femeia_pitica",
@@ -114734,7 +115072,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Femeia pitică (ghicitoarea de la Inima Avântată)",
+    "name_en": null
   },
   {
     "id": "femeie_cu_semn_din_nastere_pe_fata",
@@ -114862,7 +115202,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Femeie cu semn din naștere pe față („o Darke\")",
+    "name_en": null
   },
   {
     "id": "ferret_rafe_pudding",
@@ -114954,7 +115296,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Fetița palidă (orfelina)",
+    "name_en": null
   },
   {
     "id": "fiica_lui_hagen",
@@ -115000,7 +115344,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Fiica lui Hagen (nenumită)",
+    "name_en": null
   },
   {
     "id": "florian_smintitul",
@@ -115713,7 +116059,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Franklyn Fowler (\"Bătrânul Şoim\")",
+    "name_en": null
   },
   {
     "id": "frate_jurat_pitic",
@@ -115918,7 +116266,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Fraţii Kettleblack (inclusiv Ser Osmund)",
+    "name_en": null
   },
   {
     "id": "fredo_rogare",
@@ -116246,7 +116596,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Frunză",
+    "name_en": null
   },
   {
     "id": "fulk_puricele",
@@ -116338,7 +116690,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Furăciune",
+    "name_en": null
   },
   {
     "id": "gadilatorul",
@@ -116505,7 +116859,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Gâdilătorul",
+    "name_en": null
   },
   {
     "id": "gael_targaryen",
@@ -117257,7 +117613,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Gaemon Păr-Alb, „Regele Fofoloancă\"",
+    "name_en": null
   },
   {
     "id": "gaemon_targaryen",
@@ -118231,7 +118589,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Gâlcevitorul",
+    "name_en": null
   },
   {
     "id": "galhart_glover",
@@ -118485,7 +118845,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Galyeon din Cuy",
+    "name_en": null
   },
   {
     "id": "gared",
@@ -120319,7 +120681,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Garth cel Mare",
+    "name_en": null
   },
   {
     "id": "garth_din_orasul_vechi_ollo_ciungul_jungher",
@@ -120400,7 +120764,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Garth din Oraşul Vechi, Ollo Ciungul, Jungher",
+    "name_en": null
   },
   {
     "id": "garth_mana_verde",
@@ -120464,7 +120830,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Garth Mână-Verde",
+    "name_en": null
   },
   {
     "id": "garth_umflatul",
@@ -120510,7 +120878,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Garth Umflatul (Lordul Seneșal de Highgarden)",
+    "name_en": null
   },
   {
     "id": "gascoyne_de_la_sangele_verde",
@@ -120556,7 +120926,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Gascoyne de la Sângele Verde",
+    "name_en": null
   },
   {
     "id": "gavin_negutatorul",
@@ -120602,7 +120974,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Gavin Neguțătorul",
+    "name_en": null
   },
   {
     "id": "gella",
@@ -120755,7 +121129,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Gelmarr cel Fioros",
+    "name_en": null
   },
   {
     "id": "gemenele_drinkwater",
@@ -121602,7 +121978,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Genealogie confuză Targaryen (discuție de tavernă, Portul Alb — informație contradictorie/neclară, notată ca atare)",
+    "name_en": null
   },
   {
     "id": "genna_lannister",
@@ -122648,7 +123026,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Gerold Dayne (\"Steaua Întunecată\")",
+    "name_en": null
   },
   {
     "id": "gerold_hightower",
@@ -123009,7 +123389,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Gerrick Sânge-de-rege",
+    "name_en": null
   },
   {
     "id": "gerris_drinkwater",
@@ -123343,7 +123725,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Gheață Desperecheată",
+    "name_en": null
   },
   {
     "id": "gigantul_tridentului",
@@ -124524,7 +124908,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Godry Moartea Uriaşilor",
+    "name_en": null
   },
   {
     "id": "godwyn",
@@ -124662,7 +125048,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Goghor Uriașul",
+    "name_en": null
   },
   {
     "id": "goghor_uriasul_motanul_baltat_belaquo_sfarma_oase_khrazz",
@@ -124708,7 +125096,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Goghor Uriaşul, Motanul Bălţat, Belaquo Sfarmă-Oase, Khrazz",
+    "name_en": null
   },
   {
     "id": "goodwin",
@@ -125723,7 +126113,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Grandison (\"Barbă Colilie\")",
+    "name_en": null
   },
   {
     "id": "grasa_walda_frey",
@@ -125887,7 +126279,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.12
-    }
+    },
+    "name_ro": "Grația Verde",
+    "name_en": null
   },
   {
     "id": "grazdan",
@@ -125933,7 +126327,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Grazdan (bătrânul, cu tiv de perle)",
+    "name_en": null
   },
   {
     "id": "grazdan_mo_eraz",
@@ -126216,7 +126612,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Grazdar, Mezzara, Kezmya, Azzak, Bhkaz, Zhak, Quazzar, Uhlez, Hazkar, Dhazak, Yherizan — copii ai Marilor Stăpâni, ostatici",
+    "name_en": null
   },
   {
     "id": "grazhar",
@@ -126481,7 +126879,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Gregor Clegane „Muntele\"",
+    "name_en": null
   },
   {
     "id": "grenn",
@@ -127129,7 +127529,9 @@
     },
     "_note_provenienta_split": [
       "Surse din entitatea comasată PERSON_GRIGG_TAPUL_ERROK (grigg_tapul_errok)"
-    ]
+    ],
+    "name_ro": "Grigg Ţapul",
+    "name_en": null
   },
   {
     "id": "grisel",
@@ -127593,7 +127995,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "⚠ Grup de persoane: Aggar, Rednose (Gynir Rednose), Gelmar(r) (mențiune colectivă în fragment)",
+    "name_en": null
   },
   {
     "id": "grup_de_persoane_aggo_rakharo_jhogo",
@@ -127674,7 +128078,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "⚠ Grup de persoane: Aggo, Rakharo, Jhogo (mențiune colectivă în fragment)",
+    "name_en": null
   },
   {
     "id": "grup_de_persoane_dagmer_falca_despicata",
@@ -127809,7 +128215,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Dagmer Falcă Despicată",
+    "name_en": null
   },
   {
     "id": "grup_de_persoane_duhoare",
@@ -127916,7 +128324,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "⚠ Grup de persoane: Duhoare (Heke, „Reek\") (mențiune colectivă în fragment)",
+    "name_en": null
   },
   {
     "id": "grup_de_persoane_enger_delp_long_lew",
@@ -128023,7 +128433,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "⚠ Grup de persoane: Enger, Delp, Long Lew (mențiune colectivă în fragment)",
+    "name_en": null
   },
   {
     "id": "grup_de_persoane_grenn_pyp_halder_toad",
@@ -128130,7 +128542,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "⚠ Grup de persoane: Grenn, Pyp, Halder, Toad (mențiune colectivă în fragment)",
+    "name_en": null
   },
   {
     "id": "grup_de_persoane_gulian_swann_batranul_penrose",
@@ -128211,7 +128625,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "⚠ Grup de persoane: Gulian Swann, bătrânul Penrose (mențiune colectivă în fragment)",
+    "name_en": null
   },
   {
     "id": "grup_de_persoane_koss_dobber_rey_reysen_woth_gerren_kurt_kurz_cutjack_tarber_garren_urreg",
@@ -128318,7 +128734,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "⚠ Grup de persoane: Koss, Dobber, Rey/Reysen, Woth, Gerren, Kurt/Kurz, Cutjack, Tarber, Garren, Urreg (mențiune colectivă în fragment)",
+    "name_en": null
   },
   {
     "id": "grup_de_persoane_rakharo_jhogo_aggo",
@@ -128364,7 +128782,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "⚠ Grup de persoane: Rakharo, Jhogo, Aggo (mențiune colectivă în fragment)",
+    "name_en": null
   },
   {
     "id": "grup_de_persoane_rattleshirt_harma_dogshead_omul_inlacrimat",
@@ -128410,7 +128830,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "⚠ Grup de persoane: Rattleshirt, Harma Dogshead, Omul înlăcrimat (mențiune colectivă în fragment)",
+    "name_en": null
   },
   {
     "id": "grup_de_persoane_ser_aron",
@@ -128491,7 +128913,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "⚠ Grup de persoane: Ser Aron (Santagar, implicit) (mențiune colectivă în fragment)",
+    "name_en": null
   },
   {
     "id": "grup_de_persoane_ser_cortnay",
@@ -128537,7 +128961,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "⚠ Grup de persoane: Ser Cortnay (probabil Penrose, nume complet nemenționat) (mențiune colectivă în fragment)",
+    "name_en": null
   },
   {
     "id": "grup_de_persoane_ser_dontos",
@@ -128644,7 +129070,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "⚠ Grup de persoane: Ser Dontos (Dontos Hollard, numit doar „Ser Dontos\" în fragment) (mențiune colectivă în fragment)",
+    "name_en": null
   },
   {
     "id": "grup_de_persoane_ser_jacelyn_bywater",
@@ -128777,7 +129205,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "⚠ Grup de persoane: Ser Jacelyn Bywater (Lord Jacelyn, „Mâna de Fier\") (mențiune colectivă în fragment)",
+    "name_en": null
   },
   {
     "id": "grup_de_persoane_shagga_fiul_lui_dolf",
@@ -128858,7 +129288,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "⚠ Grup de persoane: Shagga, fiul lui Dolf (mențiune colectivă în fragment)",
+    "name_en": null
   },
   {
     "id": "grup_de_persoane_timett_fiul_lui_timett",
@@ -129073,7 +129505,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "⚠ Grup de persoane: Timett, fiul lui Timett (mențiune colectivă în fragment)",
+    "name_en": null
   },
   {
     "id": "grup_de_persoane_urzen_kromm_cadwyl",
@@ -129119,7 +129553,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "⚠ Grup de persoane: Urzen, Kromm, Cadwyl (mențiune colectivă în fragment)",
+    "name_en": null
   },
   {
     "id": "grup_de_persoane_walder_cel_mare_fiul_lui_jamos",
@@ -129165,7 +129601,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "⚠ Grup de persoane: Walder cel Mare, fiul lui Jamos (mențiune colectivă în fragment)",
+    "name_en": null
   },
   {
     "id": "grup_de_persoane_walder_cel_mic_fiul_lui_merrett",
@@ -129211,7 +129649,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "⚠ Grup de persoane: Walder cel Mic, fiul lui Merrett (mențiune colectivă în fragment)",
+    "name_en": null
   },
   {
     "id": "gueren",
@@ -129584,7 +130024,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Gunthor, fiul lui Gurn",
+    "name_en": null
   },
   {
     "id": "gunthor_goodbrother",
@@ -129910,7 +130352,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "„Gură de Rahat\"",
+    "name_en": null
   },
   {
     "id": "gura_spurcata",
@@ -129956,7 +130400,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Gură-Spurcată",
+    "name_en": null
   },
   {
     "id": "guyard_cel_verde",
@@ -130002,7 +130448,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Guyard cel Verde",
+    "name_en": null
   },
   {
     "id": "gwayne_gaunt",
@@ -131998,7 +132446,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Hăitașul Furios",
+    "name_en": null
   },
   {
     "id": "hake",
@@ -132180,7 +132630,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Hal Hârciogul",
+    "name_en": null
   },
   {
     "id": "hal_mollen",
@@ -132319,7 +132771,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Hal Părosul",
+    "name_en": null
   },
   {
     "id": "halder",
@@ -132847,7 +133301,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Haldon Jumătate-maester",
+    "name_en": null
   },
   {
     "id": "hali",
@@ -133700,7 +134156,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Hangița de la hanul lângă lac (nenumită)",
+    "name_en": null
   },
   {
     "id": "hangita_de_la_hanul_pe_drumul_spre_ashford",
@@ -133746,7 +134204,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Hangița (fără nume) — de la hanul pe drumul spre Ashford",
+    "name_en": null
   },
   {
     "id": "hangiul_de_la_satul_de_pe_drum",
@@ -133827,7 +134287,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Hangiul de la satul de pe drum",
+    "name_en": null
   },
   {
     "id": "hangiul_din_lordsport",
@@ -133908,7 +134370,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "hangiul din Lordsport",
+    "name_en": null
   },
   {
     "id": "hareth",
@@ -134002,7 +134466,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Harl Șase-Degete",
+    "name_en": null
   },
   {
     "id": "harlon_stark",
@@ -134301,7 +134767,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Harma Cap-de-Câine",
+    "name_en": null
   },
   {
     "id": "harma_cap_de_caine_rattleshirt_plangatorul",
@@ -134382,7 +134850,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Harma Cap-de-Câine, Rattleshirt, Plângătorul",
+    "name_en": null
   },
   {
     "id": "harmen_uller",
@@ -134573,7 +135043,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Harmond Umber („Uriaşul Cherchelit\")",
+    "name_en": null
   },
   {
     "id": "harras_harlaw",
@@ -135182,7 +135654,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Harren cel Negru (Harren Hoare)",
+    "name_en": null
   },
   {
     "id": "harren_cel_rosu",
@@ -135301,7 +135775,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Harren cel Roșu",
+    "name_en": null
   },
   {
     "id": "harrion_karstark",
@@ -135852,7 +136328,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Harrold Hardyng (\"Harry Moştenitorul\")",
+    "name_en": null
   },
   {
     "id": "harrold_osgrey",
@@ -136103,7 +136581,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Harry Merrell „Înfierbântatul\"",
+    "name_en": null
   },
   {
     "id": "harry_strickland_fara_adapost",
@@ -136149,7 +136629,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Harry Strickland Fără-adăpost",
+    "name_en": null
   },
   {
     "id": "harry_strickland_vagabondul",
@@ -136947,7 +137429,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Harwyn Mână Grea",
+    "name_en": null
   },
   {
     "id": "harys_swyft",
@@ -137767,7 +138251,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.88
-    }
+    },
+    "name_ro": "Helaena Targaryen (menționată indirect)",
+    "name_en": null
   },
   {
     "id": "helya",
@@ -138220,7 +138706,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Hero al Nepătaților",
+    "name_en": null
   },
   {
     "id": "heward",
@@ -139392,7 +139880,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Hobb Tăietorul de Lemne",
+    "name_en": null
   },
   {
     "id": "hobb_trei_degete",
@@ -141688,7 +142178,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Hother Umber (\"Urgia Târfelor\")",
+    "name_en": null
   },
   {
     "id": "hother_umber_urgia_tarfelor",
@@ -141754,7 +142246,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Hother Umber „Urgia Târfelor\"",
+    "name_en": null
   },
   {
     "id": "hother_umber_zis_urgia_tarfelor",
@@ -141841,7 +142335,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Hother Umber, zis „Urgia Târfelor\"",
+    "name_en": null
   },
   {
     "id": "hotho_harlaw",
@@ -141926,7 +142422,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Hotho Harlaw („Cocoșatul”)",
+    "name_en": null
   },
   {
     "id": "hotho_harlaw_cocosatul",
@@ -142043,7 +142541,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Hotho Harlaw „Cocoșatul\"",
+    "name_en": null
   },
   {
     "id": "howd_ratacitorul",
@@ -142089,7 +142589,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Howd Rătăcitorul",
+    "name_en": null
   },
   {
     "id": "howland_reed",
@@ -142448,7 +142950,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Hubard Rambton (şi fiii săi)",
+    "name_en": null
   },
   {
     "id": "hubert_arryn",
@@ -142688,7 +143192,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Hugh cel Tare (Ciocanul)",
+    "name_en": null
   },
   {
     "id": "hugh_ciocanul",
@@ -142846,7 +143352,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Hugh Ciocanul (Hugh Hammer / Hugh cel Tare)",
+    "name_en": null
   },
   {
     "id": "hugh_hungerford",
@@ -144407,7 +144915,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Înalta Vrabie (Înaltul Septon)",
+    "name_en": null
   },
   {
     "id": "inaltul_septon",
@@ -144900,7 +145410,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Înaltul Septon",
+    "name_en": null
   },
   {
     "id": "inteleptul_malliard",
@@ -144946,7 +145458,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Înțeleptul Malliard",
+    "name_en": null
   },
   {
     "id": "inteleptul_munciter",
@@ -144992,7 +145506,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Înțeleptul Munciter",
+    "name_en": null
   },
   {
     "id": "iron_emmett",
@@ -146486,7 +147002,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Jack Bulwer cel Negru",
+    "name_en": null
   },
   {
     "id": "jack_musgood",
@@ -146624,7 +147142,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Jack Roşcovanul",
+    "name_en": null
   },
   {
     "id": "jaehaera_din_casa_targaryen",
@@ -146745,7 +147265,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Jaehaera din Casa Targaryen (regină)",
+    "name_en": null
   },
   {
     "id": "jaehaera_targaryen",
@@ -147291,7 +147813,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Jaehaerys al II-lea",
+    "name_en": null
   },
   {
     "id": "jaehaerys_targaryen",
@@ -147521,7 +148045,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Jaehaerys Targaryen (fiul lui Aenys)",
+    "name_en": null
   },
   {
     "id": "jafer_flowers",
@@ -154273,7 +154799,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Jason Mallister, Tytos Blackwood, Marq Piper (Ser), „Marelejon\" (posibil formă coruptă/lipită pentru „Marele Jon\"), Ser Rolph Spicer, Ser Desmond Greii (posibil corupt, formă corectă neclară)",
+    "name_en": null
   },
   {
     "id": "jasper_arryn",
@@ -154749,7 +155277,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Jenny din Pietre-Vechi",
+    "name_en": null
   },
   {
     "id": "jeor_mormont",
@@ -155456,7 +155986,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Jeor Mormont „Bătrânul Urs\" (Lordul Comandant al Rondului de Noapte)",
+    "name_en": null
   },
   {
     "id": "jeren",
@@ -156146,7 +156678,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Jeyne Arryn (lady, Fecioara din Vale)",
+    "name_en": null
   },
   {
     "id": "jeyne_cenusia_sara_willow",
@@ -156192,7 +156726,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Jeyne Cenușia, Sara, Willow",
+    "name_en": null
   },
   {
     "id": "jeyne_farman",
@@ -162652,7 +163188,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Jon Bettley („Spânul\")",
+    "name_en": null
   },
   {
     "id": "jon_connington",
@@ -170086,7 +170624,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Jupâneasa",
+    "name_en": null
   },
   {
     "id": "jupaneasa_amabel",
@@ -170293,7 +170833,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Jupâneasa Amabel",
+    "name_en": null
   },
   {
     "id": "jupaneasa_harra",
@@ -170417,7 +170959,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Jupâneasa Harra",
+    "name_en": null
   },
   {
     "id": "jupuitorul",
@@ -170848,7 +171392,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Karl Picior-Strâmb",
+    "name_en": null
   },
   {
     "id": "karyl_vance",
@@ -171108,7 +171654,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Kasporio („Vicleanul\"/„Scârnăvia\")",
+    "name_en": null
   },
   {
     "id": "kasporio_cel_viclean",
@@ -171154,7 +171702,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Kasporio cel Viclean",
+    "name_en": null
   },
   {
     "id": "kedge_albeata",
@@ -171235,7 +171785,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Kedge Albeaţă",
+    "name_en": null
   },
   {
     "id": "kedry",
@@ -171503,7 +172055,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Kennos de Kayce, Strongboar, Lambert Turnberry, Jon Beetley Spânul, Humfrey Swyft, Alyn Stackspear, Ser Dermot de Rainwood, Ser Tallad Înaltul",
+    "name_en": null
   },
   {
     "id": "kermit_tully",
@@ -172849,7 +173403,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Khrazz, Barsena Păr-Negru, Camarron Socoteală, Goghor Uriașul, Motanul Bălțat/Tărcat, Ithoke Neînfricatul, Belaquo Sfarmă-Oase",
+    "name_en": null
   },
   {
     "id": "kirby_pimm_ser_kirby_pimm",
@@ -173985,7 +174541,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Kyleg Ureche-de-lemn, Morna Mască Albă, Marea Morsă",
+    "name_en": null
   },
   {
     "id": "kyra",
@@ -174253,7 +174811,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "„Lady Arya\" (de fapt Jeyne Poole)",
+    "name_en": null
   },
   {
     "id": "lady_bethany",
@@ -174460,7 +175020,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Lady Butterwell (soția tânără, născută Frey)",
+    "name_en": null
   },
   {
     "id": "lady_ermesande",
@@ -176253,7 +176815,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Lady Olenna Tyrell („Regina Ghimpilor”)",
+    "name_en": null
   },
   {
     "id": "lady_patrice_hightower",
@@ -176391,7 +176955,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Lady Rohanne (menționare din amintiri)",
+    "name_en": null
   },
   {
     "id": "lady_rohanne_webber_lady_osgrey",
@@ -176582,7 +177148,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Lady Rohanne Webber („Văduva Roșie\") / Lady Osgrey",
+    "name_en": null
   },
   {
     "id": "lady_sam_din_orasul_vechi",
@@ -176689,7 +177257,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "lady Sam (Samantha) din Orașul Vechi",
+    "name_en": null
   },
   {
     "id": "lady_shiera",
@@ -178264,7 +178834,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Lady Walda Bolton (născută Frey)",
+    "name_en": null
   },
   {
     "id": "laena_velaryon",
@@ -180217,7 +180789,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Lann cel Iscusit",
+    "name_en": null
   },
   {
     "id": "lann_cel_istet",
@@ -180416,7 +180990,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Lann cel Isteţ",
+    "name_en": null
   },
   {
     "id": "larence_snow",
@@ -181170,7 +181746,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.62
-    }
+    },
+    "name_ro": "Larra Rogare (Larra din Lys)",
+    "name_en": null
   },
   {
     "id": "larraq",
@@ -181582,7 +182160,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.62
-    }
+    },
+    "name_ro": "Larys Strong (\"Picior-Strâmb\")",
+    "name_en": null
   },
   {
     "id": "laswell_peake",
@@ -181971,7 +182551,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Lem Mantie-de-Lămâie",
+    "name_en": null
   },
   {
     "id": "lem_mantie_de_lamaie_tom_saptecoarde_anguy_jack_norocosul_barba_verde",
@@ -182017,7 +182599,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Lem Mantie-de-Lămâie, Tom Şaptecoarde, Anguy, Jack Norocosul, Barbă-Verde",
+    "name_en": null
   },
   {
     "id": "lemore",
@@ -182387,7 +182971,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Leo Tyrell „Leneșul\"",
+    "name_en": null
   },
   {
     "id": "leobald_tallhart",
@@ -182760,7 +183346,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Lester cel Roșu",
+    "name_en": null
   },
   {
     "id": "lew_lungul",
@@ -182913,7 +183501,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Lew Stângaciul",
+    "name_en": null
   },
   {
     "id": "lewyn_martell",
@@ -183284,7 +183874,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Lewys zis Precupeața",
+    "name_en": null
   },
   {
     "id": "leyton_hightower",
@@ -183535,7 +184127,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Lhazarene („Mielul Roșu\")",
+    "name_en": null
   },
   {
     "id": "lianna_velaryon",
@@ -183702,7 +184296,9 @@
     },
     "_note_provenienta_split": [
       "Surse din entitatea comasată PERSON_LIDDLE_CEL_MARE_SI_LUKE_DIN_ORASUL_LUNG (liddle_cel_mare_si_luke_din_orasul_lung)"
-    ]
+    ],
+    "name_ro": "Liddle cel Mare",
+    "name_en": null
   },
   {
     "id": "lodos",
@@ -183809,7 +184405,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Lodos (Al Doilea pe Numele Său)",
+    "name_en": null
   },
   {
     "id": "lollys",
@@ -184028,7 +184626,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Lollys Nătânga (Lady Stokeworth)",
+    "name_en": null
   },
   {
     "id": "lollys_stokeworth",
@@ -184709,7 +185309,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Longleaf („Omorâtorul-de-lei” / „Pate de Longleaf”)",
+    "name_en": null
   },
   {
     "id": "longspear",
@@ -187159,7 +187761,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Lordul 1 (neidentificat cu nume)",
+    "name_en": null
   },
   {
     "id": "lordul_2",
@@ -187205,7 +187809,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Lordul 2 (neidentificat cu nume, cocârjat)",
+    "name_en": null
   },
   {
     "id": "lordul_alester_florent",
@@ -188957,7 +189563,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Lordul Brynden („Cioara cu Trei Ochi”)",
+    "name_en": null
   },
   {
     "id": "lordul_caron_ser_pearse_din_casa_caron",
@@ -189067,7 +189675,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Lordul Caron (de la Cântecul Nopții) / Ser Pearse din Casa Caron",
+    "name_en": null
   },
   {
     "id": "lordul_caswell",
@@ -191063,7 +191673,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.62
-    }
+    },
+    "name_ro": "Lordul Corlys Velaryon („Șarpele Mărilor”)",
+    "name_en": null
   },
   {
     "id": "lordul_costayne",
@@ -191221,7 +191833,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Lordul Dondarrion (istoric, gazda turnirului de la Blackhaven)",
+    "name_en": null
   },
   {
     "id": "lordul_donnel_hightower",
@@ -191267,7 +191881,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Lordul Donnel Hightower („Pregetătorul\")",
+    "name_en": null
   },
   {
     "id": "lordul_drumm",
@@ -191420,7 +192036,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "lordul Edmund Gardener (menționat ca fiu al lui Mern al IX-lea, vezi și 3a — dublă listare posibilă)",
+    "name_en": null
   },
   {
     "id": "lordul_fata_de_maimuta",
@@ -191553,7 +192171,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Lordul Faţă-de-maimuţă",
+    "name_en": null
   },
   {
     "id": "lordul_fell",
@@ -191824,7 +192444,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Lordul Florent cel Orb",
+    "name_en": null
   },
   {
     "id": "lordul_fowler",
@@ -192694,7 +193316,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Lordul Giulgiului (titlu/funcție)",
+    "name_en": null
   },
   {
     "id": "lordul_giulgiului_printul_tristetilor_alteta_sa_cenusie",
@@ -192740,7 +193364,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Lordul Giulgiului / Prinţul Tristeţilor / Alteţa Sa Cenuşie",
+    "name_en": null
   },
   {
     "id": "lordul_gormon_peake",
@@ -192963,7 +193589,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Lordul Gunces Sunglass (menționat, mort — ars în focurile Melisandrei)",
+    "name_en": null
   },
   {
     "id": "lordul_jon_connington",
@@ -193857,7 +194485,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Lordul Mării al Braavosului (Sealord)",
+    "name_en": null
   },
   {
     "id": "lordul_meadows",
@@ -194028,7 +194658,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Lordul Merryweather (bătrânul Lord Merryweather)",
+    "name_en": null
   },
   {
     "id": "lordul_myles_smallwood",
@@ -194778,7 +195410,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Lordul Rego (din Pentos)",
+    "name_en": null
   },
   {
     "id": "lordul_risley",
@@ -195001,7 +195635,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Lordul Roderick Dustin („Roddy Ruină”)",
+    "name_en": null
   },
   {
     "id": "lordul_roote",
@@ -195687,7 +196323,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "lordul Toland de Dealul Fantomei",
+    "name_en": null
   },
   {
     "id": "lordul_tully_de_riverrun",
@@ -195753,7 +196391,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Lordul Tully de Riverrun",
+    "name_en": null
   },
   {
     "id": "lordul_varner",
@@ -196241,7 +196881,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.12
-    }
+    },
+    "name_ro": "Loren al Stâncii",
+    "name_en": null
   },
   {
     "id": "loren_cel_negru",
@@ -196287,7 +196929,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Loren cel Negru",
+    "name_en": null
   },
   {
     "id": "lorent",
@@ -196763,7 +197407,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Lorren cel Negru",
+    "name_en": null
   },
   {
     "id": "lothar",
@@ -197149,7 +197795,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.62
-    }
+    },
+    "name_ro": "Lothar Frey „Șchiopul\"",
+    "name_en": null
   },
   {
     "id": "lotho_rogare",
@@ -198224,7 +198872,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Lucas Codd Stângaciul",
+    "name_en": null
   },
   {
     "id": "lucas_leygood",
@@ -200195,7 +200845,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Lyle Crakehall („Mistreţul\")",
+    "name_en": null
   },
   {
     "id": "lyman_lannister",
@@ -203099,7 +203751,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.12
-    }
+    },
+    "name_ro": "Lysaro / gonfalonier — vezi mențiune „gonfalonier\"",
+    "name_en": null
   },
   {
     "id": "lysaro_rogare",
@@ -206042,7 +206696,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Maegor (fiul Helaenei)",
+    "name_en": null
   },
   {
     "id": "maegor_cel_crud",
@@ -206088,7 +206744,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Maegor cel Crud",
+    "name_en": null
   },
   {
     "id": "maegor_i_targaryen",
@@ -206475,7 +207133,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.75
-    }
+    },
+    "name_ro": "Maegor I Targaryen (Maegor cel Crud)",
+    "name_en": null
   },
   {
     "id": "maekar",
@@ -207206,7 +207866,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Maelys cel Monstruos",
+    "name_en": null
   },
   {
     "id": "maester_aemon",
@@ -208298,7 +208960,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Maester Aemon — vezi și 3a (menționat ca fiu de rege Targaryen)",
+    "name_en": null
   },
   {
     "id": "maester_ballabar",
@@ -211136,7 +211800,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Maester Walys (istoric, menționat de Lady Dustin)",
+    "name_en": null
   },
   {
     "id": "maesterul_anselm",
@@ -211448,7 +212114,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Maesterul de la Zidurile Albe (nume nedat)",
+    "name_en": null
   },
   {
     "id": "maesterul_kerwin",
@@ -211898,7 +212566,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Maesterul tânăr (nenumit) care îngrijește bătrânul cavaler",
+    "name_en": null
   },
   {
     "id": "maesterul_yormell",
@@ -212103,7 +212773,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Maestrul de ceremonii al Lordului Butterwell (nenumit)",
+    "name_en": null
   },
   {
     "id": "mag_cel_puternic",
@@ -212334,7 +213006,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Mag cel Puternic",
+    "name_en": null
   },
   {
     "id": "mag_mar_tun_doh_weg",
@@ -213321,7 +213995,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Magnarul din Thenn",
+    "name_en": null
   },
   {
     "id": "mago",
@@ -213521,7 +214197,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Mai Mare",
+    "name_en": null
   },
   {
     "id": "maica_maris",
@@ -213631,7 +214309,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.12
-    }
+    },
+    "name_ro": "Mâini-Reci",
+    "name_en": null
   },
   {
     "id": "malaquo",
@@ -213820,7 +214500,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.12
-    }
+    },
+    "name_ro": "Mama Cârtiţa (Mother Mole)",
+    "name_en": null
   },
   {
     "id": "mance_rayder",
@@ -215344,7 +216026,9 @@
     },
     "_note_provenienta_split": [
       "Surse din entitatea comasată PERSON_DAMON_DANSEAZA_PENTRU_MINE_JUPUITORUL_ALYN_URSUZUL_DICK_GALBEJITUL_LUTON_MARAITUL_BAIETII_BASTARDULUI_AI_LUI_RAMSAY_BOLTON_DICK_GALBEJITUL_GASIT_MORT_SI_MUTILAT_PAGINA_815_823 (damon_danseaza_pentru_mine_jupuitorul_alyn_ursuzul_dick_galbejitul_luton_maraitul_baietii_bastardului_ai_lui_ramsay_bolton_dick_galbejitul_gasit_mort_si_mutilat_pagina_815_823)"
-    ]
+    ],
+    "name_ro": "Mârâitul",
+    "name_en": null
   },
   {
     "id": "marea_morsa",
@@ -215390,7 +216074,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Marea Morsă",
+    "name_en": null
   },
   {
     "id": "marei",
@@ -215604,7 +216290,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Marele Cleon, „Regele Măcelar\"",
+    "name_en": null
   },
   {
     "id": "marele_jon_umber",
@@ -218833,7 +219521,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Marele Wull Căldare",
+    "name_en": null
   },
   {
     "id": "marelejon_umber",
@@ -219108,7 +219798,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Marelejon / Umber Urgia Târfelor",
+    "name_en": null
   },
   {
     "id": "margaery",
@@ -219486,7 +220178,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.62
-    }
+    },
+    "name_ro": "Margaery (regină)",
+    "name_en": null
   },
   {
     "id": "margaery_tyrell",
@@ -220863,7 +221557,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Marilda din Hull",
+    "name_en": null
   },
   {
     "id": "marillion",
@@ -221464,7 +222160,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Mariya Frey (născută Darry)",
+    "name_en": null
   },
   {
     "id": "mark_ryswell",
@@ -222432,7 +223130,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Marq Piper, Lymond Goodbrook, Patrek Mallister, tânărul Vances",
+    "name_en": null
   },
   {
     "id": "marra_rogare",
@@ -227021,7 +227721,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Melisandre din Asshai",
+    "name_en": null
   },
   {
     "id": "mellario",
@@ -227290,7 +227992,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.62
-    }
+    },
+    "name_ro": "Mellario din Norvos",
+    "name_en": null
   },
   {
     "id": "melly",
@@ -228304,7 +229008,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Mern al IX-lea Gardener",
+    "name_en": null
   },
   {
     "id": "mern_al_promontoriului",
@@ -228368,7 +229074,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.12
-    }
+    },
+    "name_ro": "Mern al Promontoriului",
+    "name_en": null
   },
   {
     "id": "mero_bastardul_titanului",
@@ -228696,7 +229404,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Merrit din Moontown",
+    "name_en": null
   },
   {
     "id": "merry",
@@ -228806,7 +229516,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Merryweather (vezi și 3a",
+    "name_en": null
   },
   {
     "id": "mervyn_flowers",
@@ -232460,7 +233172,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Morgan Liddle („Liddle Mijlocilă\")",
+    "name_en": null
   },
   {
     "id": "morgo",
@@ -232694,7 +233408,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Morosh din Myr",
+    "name_en": null
   },
   {
     "id": "morrec",
@@ -233049,7 +233765,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Mors Umber „Mâncătorul de Ciori\"",
+    "name_en": null
   },
   {
     "id": "mors_umber_zis_hrana_ciorilor",
@@ -233298,7 +234016,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Motanul Bălțat (Spotted Cat)",
+    "name_en": null
   },
   {
     "id": "mreana",
@@ -233382,7 +234102,9 @@
     },
     "_note_provenienta_split": [
       "Surse din entitatea comasată PERSON_MREANA_TERCI (mreana_terci)"
-    ]
+    ],
+    "name_ro": "Mreană (poreclă dată de Davos)",
+    "name_en": null
   },
   {
     "id": "mudge",
@@ -234453,7 +235175,9 @@
     },
     "_note_provenienta_split": [
       "Surse din entitatea comasată PERSON_RORGE_SI_MUSCATORUL (rorge_si_muscatorul)"
-    ]
+    ],
+    "name_ro": "Mușcătorul",
+    "name_en": null
   },
   {
     "id": "mya_stone",
@@ -234560,7 +235284,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": null,
+    "name_en": "Mya Stone"
   },
   {
     "id": "mycah",
@@ -235325,7 +236051,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Myles Toyne („Inimă-Neagră”)",
+    "name_en": null
   },
   {
     "id": "myranda_royce",
@@ -236699,7 +237427,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Mysaria din Lys (Viermele Alb)",
+    "name_en": null
   },
   {
     "id": "naerys",
@@ -237000,7 +237730,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.12
-    }
+    },
+    "name_ro": "Nălucă",
+    "name_en": null
   },
   {
     "id": "nan",
@@ -238673,7 +239405,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Nevasta lui Sam Gârbovul",
+    "name_en": null
   },
   {
     "id": "nevastuica",
@@ -238780,7 +239514,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Nevăstuică",
+    "name_en": null
   },
   {
     "id": "noho_dimittis",
@@ -239300,7 +240036,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Nute Bărbierul",
+    "name_en": null
   },
   {
     "id": "nyessos",
@@ -239870,7 +240608,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "O bătrână",
+    "name_en": null
   },
   {
     "id": "oachesul_ben_plumm",
@@ -239996,7 +240736,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.12
-    }
+    },
+    "name_ro": "Oacheșul Ben Plumm",
+    "name_en": null
   },
   {
     "id": "obara_sand",
@@ -241030,7 +241772,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.75
-    }
+    },
+    "name_ro": "Oberyn Martell (Vipera Roșie)",
+    "name_en": null
   },
   {
     "id": "ochi_rosii",
@@ -241111,7 +241855,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Ochi Roșii",
+    "name_en": null
   },
   {
     "id": "oliver_baratheon",
@@ -241756,7 +242502,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Omer zis Mură",
+    "name_en": null
   },
   {
     "id": "omul_blajin",
@@ -242235,7 +242983,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "- **Origine / afiliere:** scutier al regelui Robert, văr al lui Tyrion",
+    "name_en": null
   },
   {
     "id": "ormund_wylde",
@@ -242327,7 +243077,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": null,
+    "name_en": "Orson Stone"
   },
   {
     "id": "orton_merryweather",
@@ -243250,7 +244002,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Osgood Arryn (Bătrânul Şoim)",
+    "name_en": null
   },
   {
     "id": "osha",
@@ -245116,7 +245870,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.12
-    }
+    },
+    "name_ro": "Oțelul Înverșunat (Bittersteel)",
+    "name_en": null
   },
   {
     "id": "othell_yarwyck",
@@ -245974,7 +246730,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Păiosul",
+    "name_en": null
   },
   {
     "id": "palamida",
@@ -246133,7 +246891,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Pălămida",
+    "name_en": null
   },
   {
     "id": "palia",
@@ -246717,7 +247477,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Păstorul („Păstorul Mort”)",
+    "name_en": null
   },
   {
     "id": "pate",
@@ -247068,7 +247830,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Pate din Longleaf (\"Longleaf Omorâtorul-de-Lei\")",
+    "name_en": null
   },
   {
     "id": "pate_dos_ciupit",
@@ -247859,7 +248623,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Penny Jenny / Jenny Iarbă-Roșie",
+    "name_en": null
   },
   {
     "id": "pereno",
@@ -247905,7 +248671,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Pereno (fratele lui Silvario Pendaerys)",
+    "name_en": null
   },
   {
     "id": "perestan",
@@ -248536,7 +249304,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Perwyn Osgrey „cel Mândru\"",
+    "name_en": null
   },
   {
     "id": "pestele_negru",
@@ -248631,7 +249401,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Peștele Negru (Brynden Tully — nume complet neamintit explicit în acest fragment, doar porecla)",
+    "name_en": null
   },
   {
     "id": "petyr",
@@ -248712,7 +249484,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Petyr (aluzie la Petyr Baelish, neconfirmat explicit ca atare în text)",
+    "name_en": null
   },
   {
     "id": "petyr_baelish",
@@ -249775,7 +250549,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Petyr Baelish (Degeţel)",
+    "name_en": null
   },
   {
     "id": "petyr_basicuta",
@@ -249841,7 +250617,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Petyr Băşicuță (Petyr Frey)",
+    "name_en": null
   },
   {
     "id": "petyr_basicuta_frey",
@@ -249928,7 +250706,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Petyr „Băşicuţă\" Frey (Pimple)",
+    "name_en": null
   },
   {
     "id": "pia",
@@ -250386,7 +251166,9 @@
     },
     "_note_provenienta_split": [
       "Surse din entitatea comasată PERSON_KHRAZZ_SI_PIELE_DE_OTEL (khrazz_si_piele_de_otel)"
-    ]
+    ],
+    "name_ro": "Piele-de-Oțel",
+    "name_en": null
   },
   {
     "id": "piper",
@@ -250592,7 +251374,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Pisica Tărcată",
+    "name_en": null
   },
   {
     "id": "placinta_fierbinte",
@@ -250792,7 +251576,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Plăcintă Fierbinte (Hot Pie)",
+    "name_en": null
   },
   {
     "id": "placinta_frageda",
@@ -251245,7 +252031,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Plăcintă Fragedă (Hot Pie)",
+    "name_en": null
   },
   {
     "id": "plangatorul",
@@ -251400,7 +252188,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Plângătorul",
+    "name_en": null
   },
   {
     "id": "plummer",
@@ -252278,7 +253068,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Polliver, Dunsen, Raff cel Dulce, Gâdilătorul",
+    "name_en": null
   },
   {
     "id": "popandaul",
@@ -252324,7 +253116,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Popândăul (căpitanul Jalei)",
+    "name_en": null
   },
   {
     "id": "porther",
@@ -253125,7 +253919,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "„Preafrumoasa prințesă\" (fiica Lordului Ashford)",
+    "name_en": null
   },
   {
     "id": "prendahl_na_ghezn",
@@ -253553,7 +254349,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.12
-    }
+    },
+    "name_ro": "Preotul fără chip („Omul Bun”)",
+    "name_en": null
   },
   {
     "id": "preston_greenfield",
@@ -253663,7 +254461,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.12
-    }
+    },
+    "name_ro": "„prima Daenerys\" (menționată ca fiind iubită de Daemon Blackfyre)",
+    "name_en": null
   },
   {
     "id": "prima_daenerys_targaryen",
@@ -254081,7 +254881,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.75
-    }
+    },
+    "name_ro": "Prințesa Aerea Targaryen",
+    "name_en": null
   },
   {
     "id": "printesa_myrcella_baratheon",
@@ -254719,7 +255521,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.62
-    }
+    },
+    "name_ro": "Prințesa Myrcella Baratheon",
+    "name_en": null
   },
   {
     "id": "printesa_shireen",
@@ -254871,7 +255675,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Prinţesa Shireen",
+    "name_en": null
   },
   {
     "id": "printul_aegon",
@@ -254919,7 +255725,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Prințul Aegon („Tânărul Griff”)",
+    "name_en": null
   },
   {
     "id": "printul_aemon_cavalerul_dragon",
@@ -254965,7 +255773,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Prințul Aemon Cavalerul Dragon",
+    "name_en": null
   },
   {
     "id": "printul_aemond_targaryen",
@@ -255276,7 +256086,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.62
-    }
+    },
+    "name_ro": "Prințul Aemond Targaryen („cel Chior”)",
+    "name_en": null
   },
   {
     "id": "printul_baelor_targaryen",
@@ -255802,7 +256614,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.62
-    }
+    },
+    "name_ro": "Prințul Baelor Targaryen („Baelor Sfarmă-Lance\" / „Breakspear\")",
+    "name_en": null
   },
   {
     "id": "printul_daeron_targaryen",
@@ -256031,7 +256845,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Prințul Daeron Targaryen (fiul lui Maekar) („Daeron Bețivul\")",
+    "name_en": null
   },
   {
     "id": "printul_duncan",
@@ -256095,7 +256911,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Prinţul Duncan (Prinţul Libelulelor/Dragonflies)",
+    "name_en": null
   },
   {
     "id": "printul_libelulelor",
@@ -256197,7 +257015,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Prințul Libelulelor (poreclă)",
+    "name_en": null
   },
   {
     "id": "printul_maekar_targaryen",
@@ -257028,7 +257848,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.75
-    }
+    },
+    "name_ro": "Prințul Maekar Targaryen",
+    "name_en": null
   },
   {
     "id": "printul_matarys_targaryen",
@@ -257128,7 +257950,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Prințul Matarys Targaryen („prințișorul\")",
+    "name_en": null
   },
   {
     "id": "printul_oberyn_nymeros_martell",
@@ -257276,7 +258100,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Prințul Oberyn Nymeros Martell",
+    "name_en": null
   },
   {
     "id": "printul_rhaegel_targaryen",
@@ -257387,7 +258213,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Prințul Rhaegel Targaryen",
+    "name_en": null
   },
   {
     "id": "printul_valarr_targaryen",
@@ -257586,7 +258414,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Prințul Valarr Targaryen („tânărul prinț\")",
+    "name_en": null
   },
   {
     "id": "printul_zdrentaros",
@@ -257713,7 +258543,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Prinţul Zdrenţăros",
+    "name_en": null
   },
   {
     "id": "priscella_hogg",
@@ -258202,7 +259034,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Pumn de Stejar",
+    "name_en": null
   },
   {
     "id": "purcica_frumusica",
@@ -258248,7 +259082,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Purcica Frumuşică",
+    "name_en": null
   },
   {
     "id": "puricele_rosu_sobolanul_negru_puricele_maro",
@@ -258346,7 +259182,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Puricele Roșu / Şobolanul Negru / Puricele Maro (același Nepătat, nume schimbate zilnic)",
+    "name_en": null
   },
   {
     "id": "puternicul_belwas",
@@ -259358,7 +260196,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Pyp, Grenn, Satin, Owen Tolomacul, Mully, Kegs, Hareth „Calul”, Zei (arbaletista), „Gheată Desperecheată”, Jack Bulwer cel Negru, Arron, Emrick",
+    "name_en": null
   },
   {
     "id": "pyp_grenn_toad_satin_owen_haider",
@@ -259586,7 +260426,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Qarl (numit „Fecioară” sau „Puf de piersică”)",
+    "name_en": null
   },
   {
     "id": "qarl_fecioara",
@@ -260556,7 +261398,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Qhorin „Jumătate de Mână”",
+    "name_en": null
   },
   {
     "id": "qhorin_volmark",
@@ -261416,7 +262260,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": null,
+    "name_en": "Quaithe of the Shadow"
   },
   {
     "id": "quarl",
@@ -264512,7 +265358,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Raff cel Dulce",
+    "name_en": null
   },
   {
     "id": "rafford",
@@ -264702,7 +265550,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Rafford, zis „Cel Dulce\"",
+    "name_en": null
   },
   {
     "id": "ragnor_pyke",
@@ -265255,7 +266105,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Ralf Şchiopul",
+    "name_en": null
   },
   {
     "id": "ralf_stonehouse_cel_rosu",
@@ -265353,7 +266205,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Ralf Stonehouse cel Roşu",
+    "name_en": null
   },
   {
     "id": "ramsay",
@@ -265440,7 +266294,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Ramsay (fiul bastard al lui Roose Bolton)",
+    "name_en": null
   },
   {
     "id": "ramsay_bolton",
@@ -268079,7 +268935,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Rață",
+    "name_en": null
   },
   {
     "id": "rattleshirt",
@@ -268719,7 +269577,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Raymun Barbă-Roşie",
+    "name_en": null
   },
   {
     "id": "raymun_fossoway",
@@ -269326,7 +270186,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "„Regele Cerșetor\" (Targaryen, neidentificat pe nume în fragment)",
+    "name_en": null
   },
   {
     "id": "regele_cleon",
@@ -269424,7 +270286,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Regele Cleon",
+    "name_en": null
   },
   {
     "id": "regele_daeron_al_ii_lea_targaryen",
@@ -269725,7 +270589,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Regele Daeron al II-lea Targaryen („Daeron cel Bun\" / „Bunul Rege Daeron\")",
+    "name_en": null
   },
   {
     "id": "regele_daeron_cel_bun",
@@ -269931,7 +270797,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Regele Daeron cel Bun",
+    "name_en": null
   },
   {
     "id": "regele_edrick_barba_de_nea",
@@ -269997,7 +270865,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Regele Edrick Barbă de Nea",
+    "name_en": null
   },
   {
     "id": "regele_edrick_stark",
@@ -270063,7 +270933,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Regele Edrick Stark (Barbă de Nea)",
+    "name_en": null
   },
   {
     "id": "regele_gyles_al_iii_lea_gardener",
@@ -270180,7 +271052,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Regele Gyles al III-lea Gardener",
+    "name_en": null
   },
   {
     "id": "regele_maegor",
@@ -270349,7 +271223,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.12
-    }
+    },
+    "name_ro": "Regele Maegor",
+    "name_en": null
   },
   {
     "id": "regele_vultur",
@@ -270500,7 +271376,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "„Regele Vultur\"",
+    "name_en": null
   },
   {
     "id": "regina_aelinor",
@@ -270566,7 +271444,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Regina Aelinor",
+    "name_en": null
   },
   {
     "id": "regina_alysanne_targaryen",
@@ -270699,7 +271579,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Regina Alysanne Targaryen",
+    "name_en": null
   },
   {
     "id": "regina_elinor_din_casa_costayne",
@@ -270745,7 +271627,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Regina Elinor din Casa Costayne",
+    "name_en": null
   },
   {
     "id": "regina_merlan",
@@ -270791,7 +271675,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Regina Merlan",
+    "name_en": null
   },
   {
     "id": "regina_rhaella",
@@ -270941,7 +271827,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Regina Rhaella",
+    "name_en": null
   },
   {
     "id": "regina_selyse",
@@ -271801,7 +272689,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.62
-    }
+    },
+    "name_ro": "Regina Selyse",
+    "name_en": null
   },
   {
     "id": "regina_selyse_printesa_shireen_ser_axell_florent_cotter_pyke",
@@ -271847,7 +272737,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Regina Selyse, Prințesa Shireen, Ser Axell Florent, Cotter Pyke",
+    "name_en": null
   },
   {
     "id": "regina_vaduva_alicent_hightower",
@@ -272005,7 +272897,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Regina-văduvă Alicent Hightower",
+    "name_en": null
   },
   {
     "id": "rego_draz",
@@ -272331,7 +273225,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Relație:",
+    "name_en": null
   },
   {
     "id": "renly",
@@ -277847,7 +278743,9 @@
     },
     "_note_provenienta_split": [
       "Surse din entitatea comasată PERSON_BAELA_SI_RHAENA_TARGARYEN (baela_si_rhaena_targaryen)"
-    ]
+    ],
+    "name_ro": "Rhaena Targaryen (lady, călăreața de dragoni)",
+    "name_en": null
   },
   {
     "id": "rhaenys",
@@ -278302,7 +279200,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Rhea Royce (\"nemernica de bronz\")",
+    "name_en": null
   },
   {
     "id": "ricasso",
@@ -281303,7 +282203,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Rob Nemâncatul",
+    "name_en": null
   },
   {
     "id": "rob_voinicul",
@@ -281582,7 +282484,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Robb Rivers (\"Arcașul din Raventree\" / „Robb Rivers cel Roșu\")",
+    "name_en": null
   },
   {
     "id": "robb_rivers_cel_rosu",
@@ -281695,7 +282599,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Robb Rivers cel Roșu",
+    "name_en": null
   },
   {
     "id": "robb_stark",
@@ -285839,7 +286745,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.75
-    }
+    },
+    "name_ro": "Robb Stark, „Tânărul Lup\"",
+    "name_en": null
   },
   {
     "id": "robert_arryn",
@@ -287854,7 +288762,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Robin cel Negru",
+    "name_en": null
   },
   {
     "id": "robin_flint",
@@ -290016,7 +290926,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Roger de Pennytree",
+    "name_en": null
   },
   {
     "id": "roger_ryswell",
@@ -290427,7 +291339,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Roggon Barbă-Ruginie",
+    "name_en": null
   },
   {
     "id": "roggon_grimtongue_fingers_rook",
@@ -291208,7 +292122,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Rolly Duckfield, „Raţă\"",
+    "name_en": null
   },
   {
     "id": "rommo",
@@ -291775,7 +292691,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Ronnel Stout, Ser Kyle Condon (apare şi ca „Ser Kylee\" — posibilă eroare OCR)",
+    "name_en": null
   },
   {
     "id": "ronnet_connington",
@@ -291962,7 +292880,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Ronnet Connington (\"cel Roșu\")",
+    "name_en": null
   },
   {
     "id": "roone",
@@ -294515,7 +295435,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Rosemund Lannister (de Lannisport)",
+    "name_en": null
   },
   {
     "id": "rosey",
@@ -296249,7 +297171,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Ryk Sabie-Lungă",
+    "name_en": null
   },
   {
     "id": "rylona_rhee",
@@ -296464,7 +297388,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Ryman Frey (deja notat mai sus la 3a ca membru Frey",
+    "name_en": null
   },
   {
     "id": "rymolf_stormdrunk",
@@ -296725,7 +297651,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Saathos cel Înțelept",
+    "name_en": null
   },
   {
     "id": "sabitha_frey",
@@ -297764,7 +298692,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Sallor cel Pleşuv",
+    "name_en": null
   },
   {
     "id": "salloreon",
@@ -298062,7 +298992,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Sam Gârbovul",
+    "name_en": null
   },
   {
     "id": "sam_ursuzul",
@@ -298417,7 +299349,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Samgood din Sour Hill („Sam Ursuzul\")",
+    "name_en": null
   },
   {
     "id": "samwell_tarly",
@@ -300741,7 +301675,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Sandor Clegane „Câinele\"",
+    "name_en": null
   },
   {
     "id": "sansa_stark",
@@ -304058,7 +304994,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Șarpele Stâncilor",
+    "name_en": null
   },
   {
     "id": "satin",
@@ -304617,7 +305555,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Sclava-tălmăcitoare (nenumită)",
+    "name_en": null
   },
   {
     "id": "scrasnila",
@@ -304663,7 +305603,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Scrâșnilă",
+    "name_en": null
   },
   {
     "id": "scut_neclintit",
@@ -304862,7 +305804,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Șeful grăjdarilor Lordului Ashford (fără nume)",
+    "name_en": null
   },
   {
     "id": "selwyn_tarth",
@@ -305157,7 +306101,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Selwyn Tarth „Luceafărul de Seară\"",
+    "name_en": null
   },
   {
     "id": "senelle",
@@ -312367,7 +313313,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Ser Argrave Sfidătorul",
+    "name_en": null
   },
   {
     "id": "ser_arlan_de_pennytree",
@@ -312585,7 +313533,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Ser Arlan de Pennytree",
+    "name_en": null
   },
   {
     "id": "ser_aron_qorgyle",
@@ -316231,7 +317181,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Ser Benethon, Ser Narbert, Ser Dorden — cavaleri ai reginei Selyse",
+    "name_en": null
   },
   {
     "id": "ser_bennis_zis_scutul_brun_scutul_maro",
@@ -317869,7 +318821,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Ser Brynden Tully (Peştele Negru)",
+    "name_en": null
   },
   {
     "id": "ser_bryndon_hightower",
@@ -318938,7 +319892,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Ser Colen de Greenpools",
+    "name_en": null
   },
   {
     "id": "ser_corliss_penny",
@@ -319521,7 +320477,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Ser Daemon Sand, Lordul Tremond Gargalen, gemenii Fowler, Dagos Manwoody, Ullerii de la Hellholt, Wylii de la Drumul Oaselor",
+    "name_en": null
   },
   {
     "id": "ser_daeron",
@@ -319717,7 +320675,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Ser Damon Lannister („Leul Cenușiu\")",
+    "name_en": null
   },
   {
     "id": "ser_damon_morrigen_damon_cucernicul",
@@ -320375,7 +321335,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Ser Donnel din Duskendale",
+    "name_en": null
   },
   {
     "id": "ser_donnel_waynwood",
@@ -320719,7 +321681,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Ser Dontos cel Roșu",
+    "name_en": null
   },
   {
     "id": "ser_dontos_hollard",
@@ -322020,7 +322984,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Ser Duncan Vlăjganul (Dunk) / Ser Duncan",
+    "name_en": null
   },
   {
     "id": "ser_elyas_scales",
@@ -323580,7 +324546,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Ser Galtry cel Verde",
+    "name_en": null
   },
   {
     "id": "ser_garibald_grey",
@@ -323849,7 +324817,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Ser Garth Buză-de-Iepure",
+    "name_en": null
   },
   {
     "id": "ser_gawen_swann",
@@ -324032,7 +325002,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "ser Gedmund Peake (Secure-Mare / Bob-la-Mare)",
+    "name_en": null
   },
   {
     "id": "ser_gerald_gower",
@@ -324487,7 +325459,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Ser Glendon Ball („Bastardul Globului de Foc\" / „Cavalerul Mâțișorilor\")",
+    "name_en": null
   },
   {
     "id": "ser_glendon_goode",
@@ -324697,7 +325671,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Ser Godry Farring (\"Godry Moartea Uriaşilor\")",
+    "name_en": null
   },
   {
     "id": "ser_godry_farring_moartea_uriasilor",
@@ -324859,7 +325835,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Ser Godry Farring, „Moartea Uriaşilor\"",
+    "name_en": null
   },
   {
     "id": "ser_gregor_clegane",
@@ -328452,7 +329430,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Ser Hugh de Vale",
+    "name_en": null
   },
   {
     "id": "ser_humfrey_beesbury",
@@ -329880,7 +330860,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Ser Joffrey Doggett, „Dulăul Roșu din Hills\"",
+    "name_en": null
   },
   {
     "id": "ser_jon_fossoway",
@@ -330129,7 +331111,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Ser Joseth din Casa Mallister",
+    "name_en": null
   },
   {
     "id": "ser_joyce_morrigen",
@@ -330175,7 +331159,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Ser Joyce Morrigen — (notă: apare ca Ser Gyles Morrigen mai sus; nu duplicat separat)",
+    "name_en": null
   },
   {
     "id": "ser_justin_massey",
@@ -330444,7 +331430,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Ser Kennos de Kayce",
+    "name_en": null
   },
   {
     "id": "ser_kevan_lannister",
@@ -331998,7 +332986,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Ser Kyle, zis „Motanul din Mlaștina Cețoasă\"",
+    "name_en": null
   },
   {
     "id": "ser_leo_costayne",
@@ -332565,7 +333555,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Ser Lucas Inchfield „Găliganul\"",
+    "name_en": null
   },
   {
     "id": "ser_lucas_nayland",
@@ -332915,7 +333907,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Ser Lyonel Baratheon („Uraganul Râzător\")",
+    "name_en": null
   },
   {
     "id": "ser_maladon_moore",
@@ -333111,7 +334105,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Ser Malegorn din Redpool",
+    "name_en": null
   },
   {
     "id": "ser_malegorn_ser_narbert_ser_brus_ser_patrek_de_muntele_regelui_ser_lambert",
@@ -333157,7 +334153,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Ser Malegorn, Ser Narbert, Ser Brus, Ser Patrek de Muntele Regelui, Ser Lambert",
+    "name_en": null
   },
   {
     "id": "ser_mallador_locke",
@@ -336021,7 +337019,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Ser Otho Bracken („Bruta din Bracken\")",
+    "name_en": null
   },
   {
     "id": "ser_otto_hightower",
@@ -336654,7 +337654,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Ser Owen Bush (menționat separat, vezi mai sus)",
+    "name_en": null
   },
   {
     "id": "ser_parmen",
@@ -336905,7 +337907,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Ser Patrek de Muntele Regelui",
+    "name_en": null
   },
   {
     "id": "ser_perwyn_frey",
@@ -337703,7 +338707,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Ser Quentyn Ball, zis „Globul de Foc\" (Fireball)",
+    "name_en": null
   },
   {
     "id": "ser_raymun_darry",
@@ -339870,7 +340876,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": null,
+    "name_en": "Ser Roger of Pennytree"
   },
   {
     "id": "ser_roland_crakehall",
@@ -340058,7 +341066,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Ser Rolland (menționat scurt)",
+    "name_en": null
   },
   {
     "id": "ser_rolland_uffering",
@@ -340231,7 +341241,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Ser Rolly Duckfield (\"Raţă\")",
+    "name_en": null
   },
   {
     "id": "ser_rolph_spicer",
@@ -342442,7 +343454,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.12
-    }
+    },
+    "name_ro": "Ser Theodan cel Onest",
+    "name_en": null
   },
   {
     "id": "ser_titus_peake",
@@ -342661,7 +343675,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Ser Tommard Heddle, zis „Tom cel Negru\"",
+    "name_en": null
   },
   {
     "id": "ser_tristan_rivers",
@@ -342834,7 +343850,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Ser Triston de Tally Hill",
+    "name_en": null
   },
   {
     "id": "ser_tybolt_lannister",
@@ -344821,7 +345839,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Ser William Stafford („Cavalerul Bețivan\", „Bere-n burtă\")",
+    "name_en": null
   },
   {
     "id": "ser_william_viespea",
@@ -345282,7 +346302,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Serala Darklyn („Șerpoaica de Dantelă\")",
+    "name_en": null
   },
   {
     "id": "serpoaicele_nisipului",
@@ -345434,7 +346456,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Şerpoaicele Nisipului (Obara, Nym, Tyene, Sarella, Dorea, Elia, Obella, Lorenza)",
+    "name_en": null
   },
   {
     "id": "serra",
@@ -345686,7 +346710,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Shadrich de Viroaga Umbroasă",
+    "name_en": null
   },
   {
     "id": "shadrich_soarecele_smintit",
@@ -345819,7 +346845,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Shadrich „Șoarecele Smintit\"",
+    "name_en": null
   },
   {
     "id": "shae",
@@ -346651,7 +347679,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Shagga, fiul lui Dolf",
+    "name_en": null
   },
   {
     "id": "shagga_fiul_lui_dolf_timett_fiul_lui_timett_chella_fiica_lui_cheyk_crawn_fiul_lui_calor",
@@ -346732,7 +347762,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Shagga fiul lui Dolf, Timett fiul lui Timett, Chella fiica lui Cheyk, Crawn fiul lui Calor",
+    "name_en": null
   },
   {
     "id": "shagga_fiul_lui_hodger_dolf",
@@ -346839,7 +347871,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Shagga fiul lui Hodger/Dolf",
+    "name_en": null
   },
   {
     "id": "shagwell",
@@ -347664,7 +348698,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.12
-    }
+    },
+    "name_ro": "Shiera Steaua Mării",
+    "name_en": null
   },
   {
     "id": "shireen_baratheon",
@@ -348300,7 +349336,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Sigfryd Harlaw „Păr-de-Argint\"",
+    "name_en": null
   },
   {
     "id": "sigorn",
@@ -348721,7 +349759,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Simon Toyne, Cavalerul Zâmbitor, Oswyn Gât-Lung, Wenda Căprioara Albă, Dick Arcaşul, Ben Pântecosul",
+    "name_en": null
   },
   {
     "id": "simon_toyne_marele_ben_pantecosul_wenda_caprioara_alba",
@@ -348767,7 +349807,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Simon Toyne, Marele Ben Pântecosul, Wenda Căprioara Albă",
+    "name_en": null
   },
   {
     "id": "skahaz_mo_kandaq",
@@ -348852,7 +349894,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Skahaz mo Kandaq (Ţeastă-Rasă)",
+    "name_en": null
   },
   {
     "id": "skahaz_mo_kandaq_teasta_rasa",
@@ -348961,7 +350005,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Skahaz mo Kandaq, „Ţeastă-Rasă\"",
+    "name_en": null
   },
   {
     "id": "skahaz_teasta_rasa",
@@ -349111,7 +350157,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Skahaz Ţeastă-Rasă",
+    "name_en": null
   },
   {
     "id": "skyte",
@@ -349325,7 +350373,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Sora căpitanului porții (pictoriță de scuturi, nenumită)",
+    "name_en": null
   },
   {
     "id": "sora_lui_alton_butterwell",
@@ -349371,7 +350421,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Sora lui Alton Butterwell",
+    "name_en": null
   },
   {
     "id": "sora_lui_ser_glendon_ball",
@@ -349452,7 +350504,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Sora lui Ser Glendon Ball (nume nedat)",
+    "name_en": null
   },
   {
     "id": "sora_lui_ser_loras",
@@ -349518,7 +350572,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "sora lui Ser Loras",
+    "name_en": null
   },
   {
     "id": "sora_wyllei",
@@ -349599,7 +350655,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Sora Wyllei (nenumită)",
+    "name_en": null
   },
   {
     "id": "soren_sfaramatorul_de_paveze",
@@ -349663,7 +350721,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.12
-    }
+    },
+    "name_ro": "Soren Sfărâmătorul-de-paveze",
+    "name_en": null
   },
   {
     "id": "sotul_sharnei",
@@ -349822,7 +350882,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Soţul Sharnei (nedenumit)",
+    "name_en": null
   },
   {
     "id": "squint",
@@ -353619,7 +354681,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Steffar Bâlbâitul",
+    "name_en": null
   },
   {
     "id": "steffarion_sparr",
@@ -354862,7 +355926,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Supraveghetorul de la Zidurile Albe (nenumit)",
+    "name_en": null
   },
   {
     "id": "surdul_dick_follard",
@@ -355139,7 +356205,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Sylas cel Cumplit",
+    "name_en": null
   },
   {
     "id": "sylva_patata",
@@ -355246,7 +356314,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Sylva Pătata (Sylva Santagar)",
+    "name_en": null
   },
   {
     "id": "sylva_santagar",
@@ -355294,7 +356364,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Sylva Santagar (\"Sylva Pătată\")",
+    "name_en": null
   },
   {
     "id": "sylvenna_sand",
@@ -355447,7 +356519,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Symeon Ochi-de-Stea",
+    "name_en": null
   },
   {
     "id": "symon",
@@ -355643,7 +356717,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Symon Gură de Argint",
+    "name_en": null
   },
   {
     "id": "symon_hollard",
@@ -355910,7 +356986,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Symon Limbă de Argint",
+    "name_en": null
   },
   {
     "id": "symon_spate_crestat",
@@ -357161,7 +358239,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Tânărul Griff",
+    "name_en": null
   },
   {
     "id": "tanarul_griff_pretinsul_print_aegon_targaryen",
@@ -357242,7 +358322,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "„Tânărul Griff\" / pretinsul Prinţ Aegon Targaryen",
+    "name_en": null
   },
   {
     "id": "tanarul_lord_beat_de_la_han",
@@ -357288,7 +358370,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Tânărul lord beat de la han (fără nume)",
+    "name_en": null
   },
   {
     "id": "tanda_de_stokeworth",
@@ -357334,7 +358418,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Tanda de Stokeworth",
+    "name_en": null
   },
   {
     "id": "tanda_stokeworth",
@@ -357748,7 +358834,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.12
-    }
+    },
+    "name_ro": "Tanselle Lungana („Tanselle Lungă\")",
+    "name_en": null
   },
   {
     "id": "tansy_clopotica_helly_jyzene_cass_lanna_leslyn_alyce",
@@ -357794,7 +358882,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Tansy, Clopoţica, Helly, Jyzene, Cass, Lanna, Leslyn, Alyce",
+    "name_en": null
   },
   {
     "id": "tarber",
@@ -357962,7 +359052,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Tatăl lui Penny și Oppo („Bobul-Săltăreț”)",
+    "name_en": null
   },
   {
     "id": "tattersalt",
@@ -358244,7 +359336,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Ţeastă-Rasă",
+    "name_en": null
   },
   {
     "id": "teon_frey",
@@ -358417,7 +359511,9 @@
     },
     "_note_provenienta_split": [
       "Surse din entitatea comasată PERSON_MREANA_TERCI (mreana_terci)"
-    ]
+    ],
+    "name_ro": "Terci (poreclă dată de Davos)",
+    "name_en": null
   },
   {
     "id": "ternesio_terys",
@@ -358608,7 +359704,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Ţesătorul",
+    "name_en": null
   },
   {
     "id": "tess",
@@ -358815,7 +359913,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Tessario („Degetul-Mare\" / „Tigrul\")",
+    "name_en": null
   },
   {
     "id": "tessario_tigrul",
@@ -358991,7 +360091,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Tessario Tigrul (Tessario Tigrul, „Degetul-Mare\")",
+    "name_en": null
   },
   {
     "id": "thaddeus_rowan",
@@ -359577,7 +360679,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Theodan Wells (mai târziu „Ser Theodan cel Onest\")",
+    "name_en": null
   },
   {
     "id": "theomore_harlaw",
@@ -362379,7 +363483,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Thoros (din Myr)",
+    "name_en": null
   },
   {
     "id": "thoros_din_myr",
@@ -363103,7 +364209,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Thoros din Myr",
+    "name_en": null
   },
   {
     "id": "tigaro_moraqos",
@@ -363256,7 +364364,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Tim Bâlbâitul",
+    "name_en": null
   },
   {
     "id": "timeon",
@@ -363671,7 +364781,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Timett, fiul lui Timett",
+    "name_en": null
   },
   {
     "id": "timett_shagga_chella",
@@ -363824,7 +364936,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Timoth cel Înalt",
+    "name_en": null
   },
   {
     "id": "tion_frey",
@@ -364644,7 +365758,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Tom Barbă Încâlcită",
+    "name_en": null
   },
   {
     "id": "tom_barleycorn",
@@ -364852,7 +365968,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Tom de Şapte (Tom Șaptecoarde)",
+    "name_en": null
   },
   {
     "id": "tom_de_sapte_paraie",
@@ -364898,7 +366016,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Tom de Şapte Pâraie (menestrel)",
+    "name_en": null
   },
   {
     "id": "tom_limba_impleticita",
@@ -365074,7 +366194,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Tom Limbă Împleticită",
+    "name_en": null
   },
   {
     "id": "tom_saptecoarde",
@@ -365246,7 +366368,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Tom Șaptecoarde",
+    "name_en": null
   },
   {
     "id": "tom_saptecoarde_lem_mantie_de_lamaie_anguy_harwin_barba_verde_jack_norocosul",
@@ -365292,7 +366416,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Tom Şaptecoarde, Lem Mantie-de-Lămâie, Anguy, Harwin, Barbă-Verde, Jack Norocosul",
+    "name_en": null
   },
   {
     "id": "tom_saptecoarde_tom_sapteparaie",
@@ -365373,7 +366499,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Tom Şaptecoarde / Tom Şaptepâraie",
+    "name_en": null
   },
   {
     "id": "tom_tidewood",
@@ -365690,7 +366818,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Tom Zdrăngănitorul",
+    "name_en": null
   },
   {
     "id": "tomard",
@@ -368934,7 +370064,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Toregg cel Înalt",
+    "name_en": null
   },
   {
     "id": "torghen_flint",
@@ -368982,7 +370114,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Torghen Flint (\"bătrânul Flint\")",
+    "name_en": null
   },
   {
     "id": "torgon_greyiron",
@@ -369030,7 +370164,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Torgon Greyiron („Torgon Întârziatul”)",
+    "name_en": null
   },
   {
     "id": "tormo_fregar",
@@ -369560,7 +370696,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Tormund Năpasta/Duhoarea/Pruncul/Suflătorul Cornului Uriaşilor (Tormund Giantsbane)",
+    "name_en": null
   },
   {
     "id": "tormund_napasta_uriasilor",
@@ -370103,7 +371241,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Tormund Năpasta Uriașilor",
+    "name_en": null
   },
   {
     "id": "tormund_thunderfist",
@@ -370210,7 +371350,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Tormund Thunderfist (Tormund Pumn de Tunet)",
+    "name_en": null
   },
   {
     "id": "toron_greyjoy",
@@ -370987,7 +372129,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Trei-Dinţi (fostă „Doisprezece-Dinţi\")",
+    "name_en": null
   },
   {
     "id": "trei_vizitatori_recurenti_ai_templului",
@@ -371033,7 +372177,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Trei vizitatori recurenți ai templului",
+    "name_en": null
   },
   {
     "id": "trianna",
@@ -371217,7 +372363,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": null,
+    "name_en": "Tristan Rivers, Laswell Peake, Marq Mandrake, Ser Orson Stone, Lucifer Lungul, Webber, Lewis Lanster"
   },
   {
     "id": "tristifer_botley",
@@ -371632,7 +372780,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Trombo cel Negru",
+    "name_en": null
   },
   {
     "id": "trystane",
@@ -372959,7 +374109,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Tyanna din Turn (Tyanna din Pentos)",
+    "name_en": null
   },
   {
     "id": "tycho_nestoris",
@@ -382807,7 +383959,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Ulf cel Alb (fost Ulf Bețivul)",
+    "name_en": null
   },
   {
     "id": "ulf_fiul_lui_umar",
@@ -382914,7 +384068,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Ulf, fiul lui Umar",
+    "name_en": null
   },
   {
     "id": "uller",
@@ -383131,7 +384287,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Ulmer din Pădurea Regelui",
+    "name_en": null
   },
   {
     "id": "ulmer_din_padurea_regilor",
@@ -383177,7 +384335,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Ulmer din Pădurea Regilor",
+    "name_en": null
   },
   {
     "id": "umfred",
@@ -383408,7 +384568,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Un bufon dolofan nenumit",
+    "name_en": null
   },
   {
     "id": "un_profet_frate_cersetor_nenumit",
@@ -383454,7 +384616,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Un profet/frate cerșetor nenumit",
+    "name_en": null
   },
   {
     "id": "unchi",
@@ -383750,7 +384914,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Unchiul lui Tanselle",
+    "name_en": null
   },
   {
     "id": "unwin_peake",
@@ -384193,7 +385359,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "„Ureche-Surdă\"",
+    "name_en": null
   },
   {
     "id": "urho_nespalatul",
@@ -384239,7 +385407,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Urho Nespălatul",
+    "name_en": null
   },
   {
     "id": "uriasul_capturat",
@@ -384346,7 +385516,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Uriașul capturat (nenumit)",
+    "name_en": null
   },
   {
     "id": "urragon_goodbrother",
@@ -384873,7 +386045,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Urswyck cel Credincios",
+    "name_en": null
   },
   {
     "id": "urzen",
@@ -385325,7 +386499,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.12
-    }
+    },
+    "name_ro": "Văduva Țărmului",
+    "name_en": null
   },
   {
     "id": "vaduva_waynwood",
@@ -385371,7 +386547,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Văduva Waynwood",
+    "name_en": null
   },
   {
     "id": "vaduvoiul",
@@ -385417,7 +386595,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Văduvoiul",
+    "name_en": null
   },
   {
     "id": "vaegon_targaryen",
@@ -385735,7 +386915,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.62
-    }
+    },
+    "name_ro": "Vaegon Targaryen (\"cel Fără Dragon\")",
+    "name_en": null
   },
   {
     "id": "vaella_targaryen",
@@ -385937,7 +387119,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Vaellyn „Oțet\"",
+    "name_en": null
   },
   {
     "id": "vaemond_velaryon",
@@ -386882,7 +388066,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Vânjosul Belwas",
+    "name_en": null
   },
   {
     "id": "vant_cenusiu",
@@ -386963,7 +388149,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Vânt Cenușiu",
+    "name_en": null
   },
   {
     "id": "vara",
@@ -387301,7 +388489,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Varamyr Şasepiei",
+    "name_en": null
   },
   {
     "id": "vargo_hoat",
@@ -390656,7 +391846,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Vâslaşul Roşu",
+    "name_en": null
   },
   {
     "id": "vayon_poole",
@@ -390783,7 +391975,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Veveriţa (Squirrel)",
+    "name_en": null
   },
   {
     "id": "vicleanul",
@@ -390890,7 +392084,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "„Vicleanul\" (grăjdar)",
+    "name_en": null
   },
   {
     "id": "victarion_greyjoy",
@@ -392034,7 +393230,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Viermele Cenuşiu",
+    "name_en": null
   },
   {
     "id": "violet",
@@ -392203,7 +393401,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "„Vipera Roşie\" (Oberyn Martell)",
+    "name_en": null
   },
   {
     "id": "viserra_targaryen",
@@ -392930,7 +394130,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.75
-    }
+    },
+    "name_ro": "Viserys (prințul Viserys)",
+    "name_en": null
   },
   {
     "id": "viserys_plumm",
@@ -393025,7 +394227,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Viserys Plumm (menționat ca strămoș posibil al lui Ben Plumm)",
+    "name_en": null
   },
   {
     "id": "viserys_targaryen",
@@ -395313,7 +396517,9 @@
     "_note_provenienta_split": [
       "Surse din entitatea comasată PERSON_WALDER_CEL_MIC_WALDER_CEL_MARE (walder_cel_mic_walder_cel_mare)",
       "Surse din entitatea comasată PERSON_WALDER_SI_WALDER (walder_si_walder)"
-    ]
+    ],
+    "name_ro": "Walder cel Mic (\"Micul Walder\" Frey)",
+    "name_en": null
   },
   {
     "id": "walder_cel_negru",
@@ -395457,7 +396663,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.5
-    }
+    },
+    "name_ro": "Walder cel Negru",
+    "name_en": null
   },
   {
     "id": "walder_cel_negru_frey",
@@ -395636,7 +396844,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Walder cel Roșu",
+    "name_en": null
   },
   {
     "id": "walder_frey",
@@ -397363,7 +398573,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Walder Frey cel Negru",
+    "name_en": null
   },
   {
     "id": "walder_rivers",
@@ -398144,7 +399356,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Walton Picioare-de-Oțel",
+    "name_en": null
   },
   {
     "id": "warrick_wheaton",
@@ -398660,7 +399874,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Wat Tăbăcarul",
+    "name_en": null
   },
   {
     "id": "wat_zis_bardul_albastru",
@@ -398904,7 +400120,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Watt de la Lacul Lung",
+    "name_en": null
   },
   {
     "id": "watty_morarul",
@@ -399031,7 +400249,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Watty Morarul, Merrit din Oraşul Lunii, Mudge, Jack Norocosul",
+    "name_en": null
   },
   {
     "id": "waymar_royce",
@@ -400427,7 +401647,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Wick Băţ-Cioplit",
+    "name_en": null
   },
   {
     "id": "will",
@@ -400687,7 +401909,9 @@
       "moarte": true,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Will Cârlig",
+    "name_en": null
   },
   {
     "id": "will_de_la_padure",
@@ -400733,7 +401957,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Will de la Pădure",
+    "name_en": null
   },
   {
     "id": "willam_istoric",
@@ -400799,7 +402025,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Willam (Lordul Willam de Winterfell) — istoric",
+    "name_en": null
   },
   {
     "id": "willam_wells",
@@ -401983,7 +403211,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Willow Mai-de-Piatră",
+    "name_en": null
   },
   {
     "id": "willow_ochi_de_vrajitoare",
@@ -402029,7 +403259,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Willow Ochi-de-Vrăjitoare",
+    "name_en": null
   },
   {
     "id": "wolmer",
@@ -402174,7 +403406,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Wulfe O-Ureche",
+    "name_en": null
   },
   {
     "id": "wull_caldare",
@@ -402220,7 +403454,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Wull Căldare",
+    "name_en": null
   },
   {
     "id": "wun_weg_wun_dar_wun",
@@ -402594,7 +403830,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.38
-    }
+    },
+    "name_ro": "Wyl de Wyl („Iubărețul-văduvelor\")",
+    "name_en": null
   },
   {
     "id": "wyland_wyl",
@@ -404961,7 +406199,9 @@
       "moarte": false,
       "surse": false,
       "scor_total": 0.0
-    }
+    },
+    "name_ro": "Ygon Tată-bătrân",
+    "name_en": null
   },
   {
     "id": "ygritte",
@@ -407427,7 +408667,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Zdrențărosul Silas",
+    "name_en": null
   },
   {
     "id": "zdrentarosul_silas_septon_moon_dennis_ologul",
@@ -407508,7 +408750,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Zdrențărosul Silas, septon Moon, Dennis Ologul",
+    "name_en": null
   },
   {
     "id": "zei",
@@ -407748,7 +408992,9 @@
       "moarte": false,
       "surse": true,
       "scor_total": 0.25
-    }
+    },
+    "name_ro": "Zollo cel Gras (menționat)",
+    "name_en": null
   },
   {
     "id": "zollo_pyg_timeon_shagwell_rorge_trei_degete",
@@ -407925,7 +409171,9 @@
     "_completitudine": null,
     "id_intern": null,
     "aliasuri": [],
-    "_split_din": "PERSON_ARON_SANTAGAR_JALABHAR_XHO_GEMENII_REDWYNE_LORDUL_GYLES_SER_DONTOS_SER_BALON_SWANN"
+    "_split_din": "PERSON_ARON_SANTAGAR_JALABHAR_XHO_GEMENII_REDWYNE_LORDUL_GYLES_SER_DONTOS_SER_BALON_SWANN",
+    "name_ro": "Bălosul Redwyne",
+    "name_en": null
   },
   {
     "id": "lordul_gyles",
@@ -408182,7 +409430,9 @@
     "_completitudine": null,
     "id_intern": null,
     "aliasuri": [],
-    "_split_din": "PERSON_CLEON_SI_CLEON_AL_DOILEA"
+    "_split_din": "PERSON_CLEON_SI_CLEON_AL_DOILEA",
+    "name_ro": "Cleon al Doilea",
+    "name_en": null
   },
   {
     "id": "daemion_velaryon",
@@ -408476,7 +409726,9 @@
     "_completitudine": null,
     "id_intern": null,
     "aliasuri": [],
-    "_split_din": "PERSON_HARLE_VANATORUL_HARLE_FRUMUSELUL"
+    "_split_din": "PERSON_HARLE_VANATORUL_HARLE_FRUMUSELUL",
+    "name_ro": "Harle Vânătorul",
+    "name_en": null
   },
   {
     "id": "harle_frumuselul",
@@ -408504,7 +409756,9 @@
     "_completitudine": null,
     "id_intern": null,
     "aliasuri": [],
-    "_split_din": "PERSON_HARLE_VANATORUL_HARLE_FRUMUSELUL"
+    "_split_din": "PERSON_HARLE_VANATORUL_HARLE_FRUMUSELUL",
+    "name_ro": "Harle Frumușelul",
+    "name_en": null
   },
   {
     "id": "jennis_din_casa_templeton",
@@ -408532,7 +409786,9 @@
     "_completitudine": null,
     "id_intern": null,
     "aliasuri": [],
-    "_split_din": "PERSON_JENNIS_DIN_CASA_TEMPLETON_ROSAMUND_DIN_CASA_BALL"
+    "_split_din": "PERSON_JENNIS_DIN_CASA_TEMPLETON_ROSAMUND_DIN_CASA_BALL",
+    "name_ro": "Jennis din Casa Templeton",
+    "name_en": null
   },
   {
     "id": "rosamund_din_casa_ball",
@@ -408560,7 +409816,9 @@
     "_completitudine": null,
     "id_intern": null,
     "aliasuri": [],
-    "_split_din": "PERSON_JENNIS_DIN_CASA_TEMPLETON_ROSAMUND_DIN_CASA_BALL"
+    "_split_din": "PERSON_JENNIS_DIN_CASA_TEMPLETON_ROSAMUND_DIN_CASA_BALL",
+    "name_ro": "Rosamund din Casa Ball",
+    "name_en": null
   },
   {
     "id": "jax",
@@ -408616,7 +409874,9 @@
     "_completitudine": null,
     "id_intern": null,
     "aliasuri": [],
-    "_split_din": "PERSON_LEW_MANA_STANGA_ALF_RUNNYMUDD"
+    "_split_din": "PERSON_LEW_MANA_STANGA_ALF_RUNNYMUDD",
+    "name_ro": "Lew Mână-Stângă",
+    "name_en": null
   },
   {
     "id": "alf_runnymudd",
@@ -408672,7 +409932,9 @@
     "_completitudine": null,
     "id_intern": null,
     "aliasuri": [],
-    "_split_din": "PERSON_LIDDLE_CEL_MARE_SI_LUKE_DIN_ORASUL_LUNG"
+    "_split_din": "PERSON_LIDDLE_CEL_MARE_SI_LUKE_DIN_ORASUL_LUNG",
+    "name_ro": "Luke din Orașul Lung",
+    "name_en": null
   },
   {
     "id": "lordul_smallwood",
@@ -409213,7 +410475,9 @@
     "_completitudine": null,
     "id_intern": null,
     "aliasuri": [],
-    "_split_din": "PERSON_TAGGANARO_SI_CASSO"
+    "_split_din": "PERSON_TAGGANARO_SI_CASSO",
+    "name_ro": "Casso (Regele Focilor)",
+    "name_en": null
   },
   {
     "id": "torrek",
@@ -409442,7 +410706,9 @@
     "_split_din": "PERSON_WALDER_CEL_MIC_WALDER_CEL_MARE",
     "_note_provenienta_split": [
       "Surse din entitatea comasată PERSON_WALDER_SI_WALDER (walder_si_walder)"
-    ]
+    ],
+    "name_ro": "Walder cel Mare",
+    "name_en": null
   },
   {
     "id": "amabel",

@@ -18,7 +18,25 @@ def read_json(path):
 
 
 def write_json(path, value):
-    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    """Write only when the serialized result differs from what is on disk.
+
+    Every admin action used to rewrite each file it touched unconditionally.
+    Saving one pin therefore rewrote locations.json — 7.5 MB — even when not a
+    byte of it had changed, which churned git history and made a one-pin move
+    look like a bulk data edit.  Returns True when the file was actually written.
+
+    Compared and written as bytes with explicit LF.  Text mode translates
+    newlines on write but not on read, so re-saving identical content produced a
+    different file on Windows and the check could never settle.
+    """
+    serialized = (json.dumps(value, ensure_ascii=False, indent=2) + '\n').encode('utf-8')
+    try:
+        if path.read_bytes() == serialized:
+            return False
+    except FileNotFoundError:
+        pass
+    path.write_bytes(serialized)
+    return True
 
 
 class AtlasHandler(SimpleHTTPRequestHandler):
@@ -54,22 +72,33 @@ class AtlasHandler(SimpleHTTPRequestHandler):
                 coordinates = payload.get('coordinates', {})
                 if not isinstance(coordinates, dict):
                     raise ValueError('coordinates must be an object')
-                remaining = dict(coordinates)
-                saved_coordinates = {}
+
+                # The location files are read to validate ids and never written.
+                # catalog.json is the authoritative registry for anything that
+                # carries a pin (CLAUDE.md §4.1): MapRenderer.getLocationCoordinate()
+                # reads it and nothing else.  The root-level `coordinates` field is
+                # deprecated — kept because it is still the only position source for
+                # the locations that have no pin (the fly-to fallback at
+                # js/app.js:356), but no longer written, because two writable copies
+                # of one fact do not stay in sync.  They already had not: 7 of the
+                # free cities carried root coordinates that disagreed with the
+                # catalog.  See docs/raport_coordonate_desincronizate.md.
+                known_ids = set()
                 for path in LOCATION_FILES:
-                    rows = read_json(path)
-                    for row in rows:
-                        if row.get('id') in remaining:
-                            point = remaining.pop(row['id'])
-                            if point is None:
-                                row.pop('coordinates', None)
-                                saved_coordinates[row['id']] = None
-                            elif isinstance(point, dict) and isinstance(point.get('x'), (int, float)) and isinstance(point.get('y'), (int, float)):
-                                row['coordinates'] = {'x': point['x'], 'y': point['y']}
-                                saved_coordinates[row['id']] = row['coordinates']
-                            else:
-                                raise ValueError(f'invalid coordinate for {row["id"]}')
-                    write_json(path, rows)
+                    known_ids.update(row.get('id') for row in read_json(path))
+
+                saved_coordinates = {}
+                unknown_ids = []
+                for location_id, point in coordinates.items():
+                    if location_id not in known_ids:
+                        unknown_ids.append(location_id)
+                    elif point is None:
+                        saved_coordinates[location_id] = None
+                    elif isinstance(point, dict) and isinstance(point.get('x'), (int, float)) and isinstance(point.get('y'), (int, float)):
+                        saved_coordinates[location_id] = {'x': point['x'], 'y': point['y']}
+                    else:
+                        raise ValueError(f'invalid coordinate for {location_id}')
+
                 catalog = read_json(CATALOG)
                 stored = catalog['maps']['world']['coordinates']
                 for location_id, point in saved_coordinates.items():
@@ -77,8 +106,8 @@ class AtlasHandler(SimpleHTTPRequestHandler):
                         stored.pop(location_id, None)
                     else:
                         stored[location_id] = {'x': point['x'], 'y': point['y'], 'source': 'admin/map-editor.html', 'method': 'admin-editor'}
-                write_json(CATALOG, catalog)
-                return self.reply(200, {'updated': len(saved_coordinates), 'unknownIds': list(remaining)})
+                written = write_json(CATALOG, catalog)
+                return self.reply(200, {'updated': len(saved_coordinates), 'unknownIds': unknown_ids, 'filesWritten': ['data/map/catalog.json'] if written else []})
 
             if self.path == '/api/locations':
                 location_id = str(payload.get('id', '')).strip()

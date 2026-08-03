@@ -1,6 +1,21 @@
 import { getPolygonBounds, isPointInPolygon } from '../map/RegionSelector.js';
 import { normalizeInternIds, toInternIds } from '../utils/entities.js';
 
+const MAPPABLE_TYPES = ['castle', 'city', 'town', 'landmark', 'ruins', 'fortress'];
+
+// The predicate behind getAllLocations(). Extracted because the anchor resolver
+// below has to ask the same question about an arbitrary ancestor, and two copies
+// of this rule would drift the moment a type is added.
+export function isMappableLocation(location) {
+  if (!location) return false;
+  return location.mappable === true
+    || (location.mappable !== false && MAPPABLE_TYPES.includes(location.type));
+}
+
+// Guards a malformed `parent_id` cycle in the data from hanging the renderer.
+// The deepest real chain today is 2 (room → castle); 8 is slack, not a limit.
+const MAX_PARENT_DEPTH = 8;
+
 // bringing it into the 1500 × 1000 world canvas. Reviewed calibration files
 // replace these seeds by supplying a normal `path` with no seed method.
 export class DataManager {
@@ -88,6 +103,7 @@ export class DataManager {
 
     // Compatibility Layer: Reconstruct castles, cities, landmarks, and houses/factions
     // to expose all metadata/timeline/crest properties at the root level.
+    const mapLabel = name => String(name || '').split('(')[0].trim() || String(name || '');
     const mapCompatibility = (entity) => {
       const mapped = {
         ...entity,
@@ -104,19 +120,22 @@ export class DataManager {
             ? (entity.history || [])
             : (entity.ownership_history || [])
       };
+      // The map needs a short, cartographic label.  Keep `name` intact: it is
+      // still the canonical full name used by search and the information panel.
+      if (typeof mapped.name === 'string') mapped.map_label = mapLabel(mapped.name);
       return mapped;
     };
 
     this.data.castles = temp.locations
-      .filter(l => l.type === 'castle' || l.type === 'fortress')
+      .filter(l => l.type === 'stronghold' || l.type === 'castle' || l.type === 'fortress')
       .map(mapCompatibility);
 
     this.data.cities = temp.locations
-      .filter(l => l.type === 'city' || l.type === 'town')
+      .filter(l => l.type === 'settlement' || l.type === 'city' || l.type === 'town')
       .map(mapCompatibility);
 
     this.data.landmarks = temp.locations
-      .filter(l => l.type === 'landmark' || l.type === 'ruins')
+      .filter(l => l.type !== 'non_place' && l.type !== 'stronghold' && l.type !== 'castle' && l.type !== 'fortress' && l.type !== 'settlement' && l.type !== 'city' && l.type !== 'town' && l.type !== 'location')
       .map(mapCompatibility);
 
     this.data.houses = temp.houses.map(mapCompatibility);
@@ -267,6 +286,60 @@ export class DataManager {
   }
 
   getAllLocations() {
+    return this.getAllLocationsIncludingSubLocations().filter(isMappableLocation);
+  }
+
+  /**
+   * The location that should carry a map position on behalf of `idOrLocation`.
+   *
+   * A sub-location is a real place with real provenance, but it has no business
+   * owning a marker of its own: the Hightower sits inside Oldtown, Winterfell's
+   * kitchen inside Winterfell. Rendering both puts two pins on one place —
+   * `oldtown` and `oldtown_city` are 27 units apart on a 1500×1000 canvas, which
+   * the declutter pass then pushes further apart into a false separation.
+   *
+   * So anything that needs to *position* an entity — a house seat, an event, a
+   * distance endpoint, a marker — resolves through here first, walking
+   * `parent_id` up to the first mappable ancestor. Anything that needs to
+   * *identify* or *describe* an entity must NOT: the sub-location keeps its own
+   * page, its own search entry and its own sourced history.
+   *
+   * Returns the location itself when it is already mappable, and null when
+   * neither it nor any ancestor is.
+   */
+  getMappableAnchor(idOrLocation) {
+    let location = typeof idOrLocation === 'string'
+      ? this.getLocation(idOrLocation)
+      : idOrLocation;
+    const seen = new Set();
+    let anchor = null;
+
+    // The *highest* mappable ancestor wins, not the first one found. `oldtown`
+    // is itself mappable — it is a castle and belongs in search — so stopping at
+    // the first match would return the very location that carries no marker.
+    // Containment is transitive: if the tower sits in the city, the city holds
+    // the pin, and anything below the city defers to it.
+    for (let depth = 0; location && depth <= MAX_PARENT_DEPTH; depth++) {
+      if (isMappableLocation(location)) anchor = location;
+      if (!location.parent_id || seen.has(location.id)) break;
+      seen.add(location.id);
+      location = this.getLocation(location.parent_id);
+    }
+    return anchor;
+  }
+
+  /**
+   * True when this location's marker is drawn by an ancestor instead. Distinct
+   * from "not mappable": `oldtown` stays in getAllLocations(), and so stays in
+   * search, the wiki and the filter facets — it just does not get a pin.
+   */
+  isRenderedByAncestor(location) {
+    if (!location?.parent_id) return false;
+    const anchor = this.getMappableAnchor(location);
+    return Boolean(anchor) && anchor.id !== location.id;
+  }
+
+  getAllLocationsIncludingSubLocations() {
     return [
       ...this.data.castles,
       ...this.data.cities,

@@ -1,0 +1,4217 @@
+[
+  {
+    "id": "the_neck",
+    "name": "The Neck",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "broken_branch",
+    "name": "Broken Branch",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "cape_kraken",
+    "name": "Cape Kraken",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "flint_cliffs",
+    "name": "Flint Cliffs",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "lonely_hills",
+    "name": "Lonely Hills",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "neck",
+    "name": "Neck",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "causeway",
+    "name": "Causeway",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "rills",
+    "name": "Rills",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "saltspear",
+    "name": "Saltspear",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "sheepshead_hills",
+    "name": "Sheepshead Hills",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "stony_shore",
+    "name": "Stony Shore",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "weeping_water",
+    "name": "Weeping Water",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "wolf_s_den",
+    "name": "Wolf's Den",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "the_gift",
+    "name": "The Gift",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "barrowlands",
+    "name": "Barrowlands",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "great_barrow",
+    "name": "Great Barrow",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "grey_cliffs",
+    "name": "Grey Cliffs",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "frozen_ford",
+    "name": "Frozen Ford",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "blue_fork",
+    "name": "Blue Fork",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "green_fork",
+    "name": "Green Fork",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "high_heart",
+    "name": "High Heart",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "battle_valley",
+    "name": "Battle Valley",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "blackwood_vale",
+    "name": "Blackwood Vale",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "cairns",
+    "name": "Cairns",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "cape_of_eagles",
+    "name": "Cape of Eagles",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "the_bite",
+    "name": "The Bite",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "alyssa_s_tears",
+    "name": "Alyssa's Tears",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "three_sisters",
+    "name": "Three Sisters",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "pebble",
+    "name": "Pebble",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "the_paps",
+    "name": "The Paps",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "nunn_s_deep",
+    "name": "Nunn's Deep",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "tumblestone",
+    "name": "Tumblestone",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "goldroad",
+    "name": "Goldroad",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "blueburn",
+    "name": "Blueburn",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "cockleswhent",
+    "name": "Cockleswhent",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "honeywine",
+    "name": "Honeywine",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "redwyne_straits",
+    "name": "Redwyne Straits",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "shield_islands",
+    "name": "Shield Islands",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "brimstone",
+    "name": "Brimstone",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "scourge",
+    "name": "Scourge",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "torentine",
+    "name": "Torentine",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "broken_arm",
+    "name": "Broken Arm",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "water_gardens",
+    "name": "Water Gardens",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "tower_of_joy",
+    "name": "Tower of Joy",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "dornish_marches",
+    "name": "Dornish Marches",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "rainwood",
+    "name": "Rainwood",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "wendwater",
+    "name": "Wendwater",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "slayne",
+    "name": "Slayne",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "straits_of_tarth",
+    "name": "Straits of Tarth",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "red_watch",
+    "name": "Red Watch",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "massey_s_hook",
+    "name": "Massey's Hook",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "gullet",
+    "name": "Gullet",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "nagga_s_cradle",
+    "name": "Nagga's Cradle",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "nagga_s_hill",
+    "name": "Nagga's Hill",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "red_harbor",
+    "name": "Red Harbor",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "abisul_mahnirii",
+    "name": "Abisul Mâhnirii",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "adapostul_pietruit",
+    "name": "Adăpostul Pietruit",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "arena_de_aur",
+    "name": "Arena de Aur",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "arena_lui_ghrazz",
+    "name": "Arena lui Ghrazz",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "ashford",
+    "name": "Ashford",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "asshai_de_langa_umbra",
+    "name": "Asshai de lângă Umbră",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "barcagiul_negru",
+    "name": "Barcagiul Negru",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "bazinul_de_apa_de_sub_ulm",
+    "name": "Bazinul de apă de sub ulm (locul de tabără al lui Dunk)",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "braavos_casa_cu_usa_rosie",
+    "name": "Braavos — casa cu ușă roșie",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "brat_rupt_de_dorne",
+    "name": "Braț(ul) Rupt de Dorne (Arm of Dorne)",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "busteanul_fumegand",
+    "name": "Buşteanul Fumegând",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "cabana_unui_padurar",
+    "name": "Cabana unui pădurar (nenumită)",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "campia_de_foc",
+    "name": "Câmpia de Foc",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "campul_de_foc",
+    "name": "Câmpul de Foc",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "campul_ierbii_rosii",
+    "name": "Câmpul Ierbii Roșii",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "canionul_torrentine",
+    "name": "Canionul Torrentine",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "capul_ghearei_sfaramate",
+    "name": "Capul Ghearei Sfărâmate",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "capul_mansey",
+    "name": "Capul Mansey",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "carligul",
+    "name": "Cârligul",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "casa_bracken",
+    "name": "Casa Bracken",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "casa_celor_sapte_felinare",
+    "name": "Casa celor Șapte Felinare",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "casa_cu_acoperis_de_paie",
+    "name": "Casă cu acoperiș de paie (nenumită)",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "casa_de_oaspeti",
+    "name": "Casa de Oaspeți (Winterfell)",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": "winterfell",
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "casa_pe_piloni",
+    "name": "Casă pe piloni (nenumită)",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "castanul_chip",
+    "name": "Castanul-chip",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "catarama",
+    "name": "Catarama",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "catarama_neagra",
+    "name": "Catarama Neagră",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "cele_trei_iazuri_termale",
+    "name": "Cele trei iazuri termale (lângă Casa de Oaspeți, Winterfell)",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": "winterfell",
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "cele_trei_surori",
+    "name": "Cele Trei Surori (Three Sisters)",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "cele_trei_tarfe",
+    "name": "Cele Trei Târfe",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "celulele_negre",
+    "name": "Celulele negre",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "cerwyn",
+    "name": "Cerwyn",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "chequy_port",
+    "name": "Chequy Port",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "coarnele_lui_hazzat",
+    "name": "Coarnele lui Hazzat",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "coasta_dornului",
+    "name": "Coasta Dornului",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "compania_de_aur",
+    "name": "Compania de Aur",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "copacul_cu_miere",
+    "name": "Copacul cu Miere",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "copacul_inima_de_la_copacul_alb",
+    "name": "Copacul-inimă de la Copacul Alb",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "creasta_plangerii",
+    "name": "Creasta Plângerii",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "darul",
+    "name": "Darul",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "darul_lui_brandon",
+    "name": "Darul lui Brandon",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "dealul_cornului",
+    "name": "Dealul Cornului (Horn Hill)",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "dealul_lui_rhaenys",
+    "name": "Dealul lui Rhaenys",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "dealul_naggai",
+    "name": "Dealul Naggăi",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "dealul_visenyei",
+    "name": "Dealul Visenyei",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "dealul_vizenyei",
+    "name": "Dealul Vizenyei",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "dealurile_potcoavei",
+    "name": "Dealurile Potcoavei",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "derring_downs",
+    "name": "Derring Downs",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "dintii_cotoroantei",
+    "name": "Dinţii Cotoroanţei",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "doamna_alba",
+    "name": "Doamna Albă",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "dosk_micul_dosk",
+    "name": "Dosk / Micul Dosk",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "downdelving_pana_ciorii_lacul_lesului",
+    "name": "Downdelving, Pana Ciorii, Lacul Leșului",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "dumbrava_cu_noua_copaci_ai_inimii",
+    "name": "Dumbrava cu nouă copaci ai inimii",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "dumbrava_luminisul_cu_copaci_inima",
+    "name": "Dumbrava/luminișul cu copaci-inimă",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "duskendale_gulltown",
+    "name": "Duskendale, Gulltown",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "eastwick",
+    "name": "Eastwick",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "elysen",
+    "name": "Elysen",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "faros",
+    "name": "Faros",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "fieldstone_si_moara_soarecilor",
+    "name": "Fieldstone și Moara Șoarecilor",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "frasinul_chip",
+    "name": "Frasinul-chip",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "furca_mare_a_apei_negre",
+    "name": "Furca Mare a Apei Negre",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "garda_apei_cenusii",
+    "name": "Garda Apei Cenușii",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "garda_cenusie",
+    "name": "Garda Cenuşie",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "ghozai",
+    "name": "Ghozai",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "gorgane",
+    "name": "Gorgane",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "gorganele_primilor_oameni",
+    "name": "Gorganele Primilor Oameni",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "gorganul_mare",
+    "name": "Gorganul Mare",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "gradina_cenusie",
+    "name": "Grădina Cenușie",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "gradina_de_piatra",
+    "name": "Grădina de Piatră",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "gradina_lui_gehane",
+    "name": "Grădina lui Gehane",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "gradinile_de_sticla",
+    "name": "Grădinile de sticlă",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "gradinile_gelenei",
+    "name": "Grădinile Gelenei",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "groapa_cu_argila",
+    "name": "Groapa cu Argilă",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "groapa_dragonilor",
+    "name": "Groapa Dragonilor",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "groapa_dragonilor_de_la_debarcaderul_regelui",
+    "name": "Groapa Dragonilor de la Debarcaderul Regelui",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": "kings_landing",
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "groapa_ursului",
+    "name": "Groapa ursului",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "gull_tower",
+    "name": "Gull Tower",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "gura_manderului",
+    "name": "Gura Manderului",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "han_neidentificat",
+    "name": "Han neidentificat",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "hanul_nicovala_sparta",
+    "name": "Hanul „Nicovala Spartă\"",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "hanul_pana_si_stacana",
+    "name": "Hanul „Pana și Stacana\"",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "hanul_proscrisului",
+    "name": "Hanul Proscrisului",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "hanul_tiparului_verde",
+    "name": "Hanul Țiparului Verde",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "hanul_violet_hanul_tiparului_verde_barcagiul_negru_la_moroggo_hanul_proscrisilor_casa_celor_sapte_felinare",
+    "name": "Hanul Violet, Hanul Tiparului Verde, Barcagiul Negru, La Moroggo, Hanul Proscrișilor, Casa celor Șapte Felinare",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "hoasca",
+    "name": "Hoaşca",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "hotarul_ghetii",
+    "name": "Hotarul Gheţii",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "iazul_lunii",
+    "name": "Iazul Lunii",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "iazul_mocirlos",
+    "name": "Iazul Mocirlos",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "inima_avantata_referinta_vaga_naluca_de_la_inima_avantata",
+    "name": "Inima Avântată (Heart's Home?) / referință vagă „năluca de la Inima Avântată”",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "insulele_verii",
+    "name": "Insulele Verii",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "labirintul_lui_mazdhan",
+    "name": "Labirintul lui Mazdhan",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "lantul_turnurile_de_pe_apa_neagra",
+    "name": "Lanțul/turnurile de pe Apa Neagră",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "locatii_mentionate_incidental",
+    "name": "Locații menționate incidental",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "magazie_la_baza_zidului",
+    "name": "Magazie la baza Zidului",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "magura_nalucii",
+    "name": "Măgura Nălucii",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "malurile_raului_fierbinte",
+    "name": "Malurile Râului Fierbinte",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "manastirea_de_la_bechester",
+    "name": "Mănăstirea de la Bechester",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "manastirea_maris",
+    "name": "Mănăstirea Maris",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "marea_apusului",
+    "name": "Marea Apusului",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "marea_arena_a_lui_daznak",
+    "name": "Marea Arenă a lui Daznak",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "marea_fumeganda",
+    "name": "Marea Fumegândă",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "marea_piramida_din_ghis",
+    "name": "Marea Piramidă din Ghis",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "marea_tremuratoare",
+    "name": "Marea Tremurătoare",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "marele_sept",
+    "name": "Marele Sept",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "marele_templu_al_lui_baelor",
+    "name": "Marele Templu al lui Baelor",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "matisorul",
+    "name": "Mâțișorul",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "merling_rock",
+    "name": "Merling Rock",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "merreq",
+    "name": "Merreq",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "mlastina_cetoasa",
+    "name": "Mlaștina Cețoasă",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "mlastina_cotoroantei",
+    "name": "Mlaștina Cotoroanței",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "mlastina_vrajitoarei",
+    "name": "Mlaștina Vrăjitoarei",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "moara_babei",
+    "name": "Moara Babei",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "moara_de_pe_apa_ghindei",
+    "name": "Moara de pe Apa Ghindei",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "moara_de_pe_apa_lacrimilor",
+    "name": "Moara de pe Apa Lacrimilor",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "moara_nenumita",
+    "name": "Moara nenumită (lângă Standfast/Coldmoat)",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "moara_stapanului",
+    "name": "Moara Stăpânului",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "movila_lunga",
+    "name": "Movila Lungă",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "neprecizat",
+    "name": "neprecizat",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "orasele_libere",
+    "name": "Orașele Libere",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "orasul_inecat",
+    "name": "Oraşul Înecat",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "orasul_wendish",
+    "name": "Orașul Wendish",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "oxcross_ashemark",
+    "name": "Oxcross, Ashemark",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "padocul_concurentilor",
+    "name": "Padocul concurenților",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "padurile_de_la_capul_maniei",
+    "name": "Pădurile de la Capul Mâniei",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "pajistea_ashford",
+    "name": "Pajiștea Ashford",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "palatul_adevarului",
+    "name": "Palatul Adevărului",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "palatul_de_satin",
+    "name": "Palatul de Satin",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "palatul_lordului_marii",
+    "name": "Palatul Lordului Mării",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "palatul_stapanului_armoniei",
+    "name": "Palatul Stăpânului Armoniei",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "pamanturile_darului",
+    "name": "pământurile Darului",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "pebbleton",
+    "name": "Pebbleton",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "pentos_tyrosh",
+    "name": "Pentos, Tyrosh",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "perla_albastra",
+    "name": "Perla Albastră",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "pestera_clarvazatorului_verde",
+    "name": "Peștera Clarvăzătorului verde",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "pestera_fratiei_fara_stindarde",
+    "name": "Peștera Frăției fără Stindarde",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "pestera_pustnicului",
+    "name": "Peştera pustnicului",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "piatra_marii",
+    "name": "Piatra Mării",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "pietrele_zeului_tacut_labirintul_zamislitorului_de_tipare",
+    "name": "Pietrele Zeului Tăcut / Labirintul Zămislitorului-de-tipare",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "pinkmaiden",
+    "name": "Pinkmaiden",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "piramida_clanului_kandaq",
+    "name": "Piramida clanului Kandaq",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "piramida_din_hazkar",
+    "name": "Piramida din Hazkar",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "piramida_hazkar",
+    "name": "Piramida Hazkar",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "piramida_lui_dany",
+    "name": "Piramida lui Dany",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "piramida_lui_naqqan",
+    "name": "Piramida lui Naqqan",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "piramida_lui_pahl",
+    "name": "Piramida lui Pahl",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "piramida_lui_rhazdar",
+    "name": "Piramida lui Rhazdar",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "piramida_lui_yherizan",
+    "name": "Piramida lui Yherizan",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "piramidele_din_uhlez_si_yhezan",
+    "name": "Piramidele din Uhlez și Yhezan",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "podul_bataia_sagetii",
+    "name": "Podul Bătaia Săgeții",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "podul_de_lemn_ars",
+    "name": "Podul de lemn ars",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "podul_insangerat",
+    "name": "Podul Însângerat",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "podul_lui_nabbo",
+    "name": "Podul lui Nabbo",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "podul_testelor",
+    "name": "Podul Țestelor",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "podul_visurilor",
+    "name": "Podul Visurilor",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "poiana_cu_noua_copaci_ai_inimii",
+    "name": "Poiana cu nouă copaci ai inimii",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "popasul_calatorului",
+    "name": "Popasul Călătorului",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "promontoriul_pustiit",
+    "name": "Promontoriul Pustiit (Părăsit)",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "ramsford",
+    "name": "Ramsford",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "refugiul_sfant",
+    "name": "Refugiul Sfânt",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "riveranul_si_masa_pictata",
+    "name": "Riveranul şi Masa Pictată",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "ruine_nenumite_cu_zid_prabusit_si_copac_inima",
+    "name": "Ruine nenumite cu zid prăbușit și copac-inimă",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "ruinele_bhorashului",
+    "name": "ruinele Bhorashului",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "salcia_dulce",
+    "name": "Salcia Dulce",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "saltcliffe_si_wyk",
+    "name": "Saltcliffe și Wyk",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "scuturile",
+    "name": "Scuturile",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "sealskin_point",
+    "name": "Sealskin Point",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "septul_aducerii_aminte",
+    "name": "Septul Aducerii Aminte",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "septul_de_dincolo_de_mare",
+    "name": "Septul-de-Dincolo-de-Mare",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "septul_de_la_piatra_dragonului",
+    "name": "Septul de la Piatra Dragonului",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "septul_instelat",
+    "name": "Septul Înstelat",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "septul_stelat",
+    "name": "Septul Stelat",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "septul_zapezilor",
+    "name": "Septul Zăpezilor",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "sfarcurile",
+    "name": "Sfârcurile",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "sirena",
+    "name": "„Sirena\"",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "sora_lunga_sora_mica",
+    "name": "Sora Lungă, Sora Mică",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "sora_ticaloasa",
+    "name": "Sora Ticăloasă",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "stanca_ceapa",
+    "name": "Stânca Ceapă",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "stancile_cenusii",
+    "name": "Stâncile Cenușii",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "stavilarul_de_pe_raul_baltat",
+    "name": "Stăvilarul de pe Râul Bălțat",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "stejarul_chip",
+    "name": "Stejarul-chip",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "tabara_de_asediu_a_lordului_jonos_bracken",
+    "name": "Tabăra de asediu a Lordului Jonos Bracken",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "tabara_fiilor_secunzi",
+    "name": "Tabăra Fiilor Secunzi",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "tabara_yunkailor",
+    "name": "Tabăra yunkailor",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "tarmul_de_sare",
+    "name": "Țărmul de Sare",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "taverna_lui_pynto",
+    "name": "Taverna lui Pynto",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "templele_gemene_ale_lui_semosh_si_selloso",
+    "name": "Templele gemene ale lui Semosh şi Selloso",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "templul_amintirii",
+    "name": "Templul Amintirii",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "templul_cantaretilor_lunii",
+    "name": "Templul Cântăreților Lunii",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "templul_gratiilor",
+    "name": "Templul Graţiilor",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "templul_lui_aquan_taurul_rosu",
+    "name": "Templul lui Aquan Taurul Roşu",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "templul_lui_yndros",
+    "name": "Templul lui Yndros",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "templul_mamei",
+    "name": "Templul Mamei",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "templul_negotului",
+    "name": "Templul Negoțului",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "templul_rosu_din_selhorys",
+    "name": "Templul roşu din Selhorys",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "templul_septului",
+    "name": "Templul septului",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "templul_stapanului_luminii",
+    "name": "Templul Stăpânului Luminii",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "titanul",
+    "name": "Titanul",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "titanul_din_braavos",
+    "name": "Titanul din Braavos",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "tolos_noul_ghis",
+    "name": "Tolos, Noul Ghis",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "trei_surori",
+    "name": "Trei Surori",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "ulita_aramarilor",
+    "name": "Ulița Arămarilor",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "ulita_osanzei",
+    "name": "Uliţa Osânzei",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "usa_din_spate",
+    "name": "Ușa din spate\"",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "vadul_inghetat",
+    "name": "Vadul Înghețat",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "vadul_papusarului",
+    "name": "Vadul Păpușarului",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "vadul_vrajii",
+    "name": "Vadul Vrăjii",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "vaes_tolloru",
+    "name": "Vaes Tolloru",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "vechea_monetarie",
+    "name": "Vechea Monetărie",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "vechiul_pod_de_scanduri",
+    "name": "Vechiul pod de scânduri",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "vechiul_pod_plutitor",
+    "name": "Vechiul Pod Plutitor",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "velarul",
+    "name": "Velarul",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "volantis_lys_lorath_portul_ibben_pentos",
+    "name": "Volantis, Lys, Lorath, Portul Ibben, Pentos",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "warth",
+    "name": "Warth",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "woodswatch_by_the_pools",
+    "name": "Woodswatch-by-the-Pools",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "zidul_negru",
+    "name": "Zidul Negru",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "zidurile_debarcaderului_regelui",
+    "name": "Zidurile Debarcaderului Regelui",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "zidurile_serpuitoare",
+    "name": "Zidurile Șerpuitoare",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "sothoryos_continent",
+    "name": "Sothoryos",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "gorosh",
+    "name": "Gorosh",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "five_forts",
+    "name": "The Five Forts",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "shadow_lands",
+    "name": "The Shadow Lands",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "ulthos_continent",
+    "name": "Ulthos",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "saffron_straits",
+    "name": "Saffron Straits",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "lhazar",
+    "name": "Lhazar",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "stepstones",
+    "name": "Stepstones",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  },
+  {
+    "id": "ib",
+    "name": "Ib",
+    "proposal": {
+      "type": null,
+      "subtype": null,
+      "mappable": false,
+      "parent_id": null,
+      "confidence": "low",
+      "evidence": [
+        "no_reliable_signal"
+      ]
+    },
+    "reason": "low confidence: manual triage required"
+  }
+]

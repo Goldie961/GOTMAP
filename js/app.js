@@ -13,6 +13,8 @@ import { FilterPanel } from './ui/FilterPanel.js';
 import { DistanceTool } from './ui/DistanceTool.js';
 import { Toolbar } from './ui/Toolbar.js';
 import { AudioManager } from './utils/AudioManager.js';
+import * as i18n from './i18n/index.js';
+import { t, displayName } from './i18n/index.js';
 
 class AtlasApp {
   constructor() {
@@ -38,7 +40,19 @@ class AtlasApp {
   async init() {
     window.atlasApp = this;
 
-    // 0. Initialize Audio Manager (muted by default)
+    // 0. i18n first: `t()` is synchronous, so the dictionaries have to be in
+    // memory before anything renders. A failure here throws rather than logging,
+    // which is what turns a missing en.json into a visible error instead of a
+    // loading screen that never ends.
+    await i18n.init();
+    i18n.onLanguageChange(() => this.applyLanguage());
+
+    const loadingTitle = document.querySelector('#loading-screen h1');
+    if (loadingTitle) loadingTitle.textContent = t('app.title');
+    const loadingSub = document.querySelector('#loading-screen p');
+    if (loadingSub) loadingSub.textContent = t('app.subtitle');
+
+    // 0b. Audio Manager (muted by default)
     this.audioManager = new AudioManager();
     this.audioManager.init();
 
@@ -48,7 +62,7 @@ class AtlasApp {
 
     // 2. Build engines
     this.timelineEngine = new TimelineEngine(this.dataManager);
-    this.searchEngine = new SearchEngine();
+    this.searchEngine = new SearchEngine({ language: i18n.getLanguage() });
     this.searchEngine.buildIndex(this.dataManager);
 
     // Get starting world state
@@ -80,7 +94,13 @@ class AtlasApp {
     this.wikiPage.init();
 
     this.filterPanel = new FilterPanel('filter-panel');
-    this.filterPanel.setLocationSubtypes(this.dataManager.getAllLocations());
+    // Point markers and surface labels together: both are things the reader sees
+    // and both must be counted, or unchecking "Ape" would report zero and be
+    // dropped as ineffective while seven bay names stayed on the map.
+    this.filterPanel.setRenderableLocations(
+      this.mapRenderer.getRenderableLocations(),
+      this.currentWorldState?.year ?? 1
+    );
     this.filterPanel.init();
 
     this.timeline = new Timeline('timeline');
@@ -106,7 +126,15 @@ class AtlasApp {
       this.currentWorldState = this.timelineEngine.getWorldState(year);
       // Animated smooth transition for region colors (Faza 4 spec)
       this.mapRenderer.updateWorldState(this.currentWorldState, true);
-      
+
+      // Crest badges are resolved per year, so which houses hold anything on
+      // screen changes as the slider moves. Rebuilding keeps the Houses category
+      // honest instead of listing holders from year 1 forever.
+      this.filterPanel.setRenderableLocations(
+        this.mapRenderer.getRenderableLocations(),
+        year
+      );
+
       // Update info panel if it's currently open
       if (this.infoPanel && this.infoPanel.currentEntity) {
         this.infoPanel.open(this.infoPanel.currentEntity, this.currentWorldState);
@@ -218,7 +246,7 @@ class AtlasApp {
     document.addEventListener('locationHovered', e => {
       const detail = e.detail;
       if (detail.show) {
-        tooltip.innerHTML = `<strong>${detail.location.name}</strong><br/><span style="font-size:0.75rem; color:var(--gold-dark); font-weight:bold;">${detail.location.type.toUpperCase()}</span>`;
+        tooltip.innerHTML = `<strong>${displayName(detail.location)}</strong><br/><span style="font-size:0.75rem; color:var(--gold-dark); font-weight:bold;">${detail.location.type.toUpperCase()}</span>`;
         tooltip.style.left = `${detail.x}px`;
         tooltip.style.top = `${detail.y}px`;
         tooltip.style.display = 'block';
@@ -236,9 +264,14 @@ class AtlasApp {
       });
     });
 
-    // Kept separate from layer toggles: subtype filtering only changes location pins.
-    this.filterPanel.onLocationSubtypeChange(subtypes => {
-      this.mapRenderer.setVisibleLocationSubtypes(subtypes);
+    // Kept separate from layer toggles: these change individual map features
+    // rather than showing or hiding a whole SVG group.
+    this.filterPanel.onLocationFilterChange(visibleIds => {
+      this.mapRenderer.setVisibleLocationIds(visibleIds);
+    });
+
+    this.filterPanel.onHouseFilterChange(visibleHouseIds => {
+      this.mapRenderer.setVisibleHouseIds(visibleHouseIds);
     });
 
     // Toolbar event dispatchers
@@ -277,6 +310,50 @@ class AtlasApp {
     });
   }
 
+  /**
+   * Language switch: a full re-render, no DOM diffing (§6.5).
+   *
+   * Without a framework, a complete rebuild on a rare user action is correct and
+   * verifiable, whereas a partial update is exactly how code gets written that
+   * never runs. What must survive it is enumerated below; everything else is
+   * rebuilt from the model.
+   *
+   * The search index is deliberately absent from this list — INV-S1.
+   */
+  applyLanguage() {
+    // State that lives in the DOM rather than in a model.
+    const query = this.searchBar?.input?.value ?? '';
+    const year = this.timeline?.getYear?.() ?? 1;
+    const wikiWasOpen = this.wikiPage?.host?.classList.contains('open');
+
+    // Display projections only; searchTerms are untouched.
+    this.searchEngine.refreshDisplayNames(i18n.getLanguage());
+
+    // The toolbar owns the search bar's container, so the two are rebuilt together.
+    this.toolbar.init();
+    this.searchBar.init();
+    this.searchBar.input.value = query;
+
+    // Checkbox state lives in FilterPanel's own maps and survives the rebuild.
+    this.filterPanel.init();
+
+    this.timeline.container.innerHTML = '';
+    this.timeline.init();
+    this.timeline.renderMinimap(this.dataManager.data.events);
+    this.timeline.slider.value = String(year);
+    this.timeline.updateDisplay();
+
+    this.distanceTool.rebuild();
+    this.mapRenderer.refreshLabels();
+
+    if (this.infoPanel?.currentEntity) {
+      this.infoPanel.open(this.infoPanel.currentEntity, this.currentWorldState);
+    }
+    if (wikiWasOpen && this.wikiPage.currentEntity) {
+      this.wikiPage.render();
+    }
+  }
+
   selectLocation(location) {
     this.selectEntity(location, location);
   }
@@ -294,7 +371,11 @@ class AtlasApp {
       // authority for where a marker actually sits. Most locations (327 of 391)
       // carry no root-level `coordinates` at all, so that field is a fallback and
       // must be read with optional chaining, never before the calibrated lookup.
-      const renderedPos = this.mapRenderer.getRenderedPosition(location.id);
+      // A sub-location has no marker of its own, so flying to it means flying to
+      // the ancestor that carries one — otherwise selecting the Hightower would
+      // fall through to its deprecated root `coordinates` and land elsewhere.
+      const anchorId = this.dataManager.getMappableAnchor(location)?.id || location.id;
+      const renderedPos = this.mapRenderer.getRenderedPosition(anchorId);
       const targetX = renderedPos?.x ?? location.coordinates?.x;
       const targetY = renderedPos?.y ?? location.coordinates?.y;
 
@@ -322,7 +403,7 @@ window.addEventListener('DOMContentLoaded', () => {
       errDiv.style.marginTop = '1.5rem';
       errDiv.style.fontWeight = 'bold';
       errDiv.style.fontSize = '1.1rem';
-      errDiv.textContent = `Eroare la încărcare: ${err.message}`;
+      errDiv.textContent = t('app.loadError', { message: err.message });
       content.appendChild(errDiv);
     }
   });

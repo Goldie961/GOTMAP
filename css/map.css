@@ -116,6 +116,27 @@
   filter: none;
 }
 
+/* Areas rendered as a name instead of a pin (TAXONOMIE_v2 §4.4). They borrow the
+   region and sea styles, but those are sized for continents and oceans: at
+   continent scale "Claw Isle" is 225px wide at medium zoom, far larger than the
+   island it names. Until the polygons exist there is no extent to size against,
+   so the next best thing is to tier by kind. */
+.map-surface-label--island,
+.map-surface-label--landform,
+.map-surface-label--linear {
+  font-size: 9px;
+  letter-spacing: 0.12em;
+  opacity: 0.62;
+  text-transform: none;
+}
+
+/* Bays and lakes are smaller than the oceans the sea style was built for. */
+.map-surface-label--water {
+  font-size: 9.5px;
+  letter-spacing: 0.14em;
+  opacity: 0.5;
+}
+
 /* ─────────────────────────────────────────────
    Interactive Location Markers
    ───────────────────────────────────────────── */
@@ -128,6 +149,11 @@
 
 .location-marker-position.region-filtered-out { opacity: 0.12; pointer-events: none; }
 .location-marker-position.subtype-filtered-out { display: none; pointer-events: none; }
+/* Surfaces are labels, not markers, so the filter has to reach them separately. */
+.map-surface-label.subtype-filtered-out { display: none; pointer-events: none; }
+/* A CSS class outranks the inline `display` presentation attribute the badge
+   carries, which is what lets the house filter hide a crest without a re-render. */
+.house-crest-badge.crest-filtered-out { display: none; pointer-events: none; }
 
 /* Triangulated coordinates are estimates, not confirmed placements. */
 .location-marker.coordinate-triangulated > :not(.marker-hit-area) {

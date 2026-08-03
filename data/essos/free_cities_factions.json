@@ -8,7 +8,12 @@
     "city": "braavos",
     "canon_status": "canon",
     "source": "https://awoiaf.westeros.org/index.php/Iron_Bank_of_Braavos",
-    "tags": ["institution", "financial", "braavos", "essos"],
+    "tags": [
+      "institution",
+      "financial",
+      "braavos",
+      "essos"
+    ],
     "coordinates": {
       "x": 760,
       "y": 290,
@@ -43,9 +48,13 @@
     "metadata": {
       "description": "One of the most powerful financial institutions in the known world. When kings or nations default on debts, the Iron Bank funds their rivals. 'The Iron Bank will have its due' is its guiding motto.",
       "role_in_sealord_election": "The keyholders of the Iron Bank participate in the election of the Sealord of Braavos.",
-      "notable_members": ["Tycho Nestoris"],
+      "notable_members": [
+        "Tycho Nestoris"
+      ],
       "narratorText": "The Iron Bank of Braavos does not forgive. When the Iron Throne stopped paying its debts, the bank turned to Stannis Baratheon. Princes have learned — it is easier to move the stones of the Titan than to escape what you owe the Iron Bank."
-    }
+    },
+    "name_ro": null,
+    "name_en": "Iron Bank of Braavos"
   },
   {
     "id": "faceless_men",
@@ -56,7 +65,13 @@
     "city": "braavos",
     "canon_status": "canon",
     "source": "https://awoiaf.westeros.org/index.php/Faceless_Men",
-    "tags": ["faction", "assassins", "braavos", "essos", "religious"],
+    "tags": [
+      "faction",
+      "assassins",
+      "braavos",
+      "essos",
+      "religious"
+    ],
     "coordinates": {
       "x": 760,
       "y": 295,
@@ -86,8 +101,16 @@
       "description": "A guild of assassins based in the House of Black and White in Braavos. They worship the Many-Faced God (the God of Death) and are famous for their ability to change their appearance using the faces of the dead. Their services are extraordinarily expensive and often exacted in non-monetary forms.",
       "temple": "House of Black and White, Braavos",
       "deity": "Many-Faced God (God of Death)",
-      "abilities": ["face-changing", "death-dealing", "disguise"],
-      "notable_members": ["Jaqen H'ghar (alias)", "the Waif", "the Kindly Man"],
+      "abilities": [
+        "face-changing",
+        "death-dealing",
+        "disguise"
+      ],
+      "notable_members": [
+        "Jaqen H'ghar (alias)",
+        "the Waif",
+        "the Kindly Man"
+      ],
       "narratorText": "A man says: Valar Morghulis. A woman says: Valar Dohaeris. All men must serve. The Faceless Men take no payment in gold alone. A face for a face. A life for a life. They are death wearing many faces."
     }
   },
@@ -100,7 +123,12 @@
     "city": "braavos",
     "canon_status": "canon",
     "source": "https://awoiaf.westeros.org/index.php/Sealord_of_Braavos",
-    "tags": ["institution", "government", "braavos", "essos"],
+    "tags": [
+      "institution",
+      "government",
+      "braavos",
+      "essos"
+    ],
     "coordinates": {
       "x": 760,
       "y": 288,
@@ -117,9 +145,13 @@
     "metadata": {
       "description": "The ruler of Braavos, elected for life by the city's wealthy elite and the keyholders of the Iron Bank. Not a hereditary position. The Sealord commands Braavos's formidable fleet and represents the city in diplomacy.",
       "election_method": "Elected for life by wealthy elite and Iron Bank keyholders — not hereditary",
-      "notable_sealords": ["Uthero Zalyne (Uncloaking)"],
+      "notable_sealords": [
+        "Uthero Zalyne (Uncloaking)"
+      ],
       "narratorText": "The Sealord of Braavos rules from his palace, surrounded by exotic creatures and advisors. He is elected for life by those with wealth and influence — and the Iron Bank holds more influence than any. When a Sealord dies, the city holds its breath until a new one is named."
-    }
+    },
+    "name_ro": null,
+    "name_en": "Sealord of Braavos"
   },
   {
     "id": "triarchs_of_volantis",
@@ -130,7 +162,12 @@
     "city": "volantis",
     "canon_status": "canon",
     "source": "https://awoiaf.westeros.org/index.php/Triarch",
-    "tags": ["institution", "government", "volantis", "essos"],
+    "tags": [
+      "institution",
+      "government",
+      "volantis",
+      "essos"
+    ],
     "coordinates": {
       "x": 1020,
       "y": 700,
@@ -158,11 +195,16 @@
     ],
     "metadata": {
       "description": "Three Triarchs govern Volantis, elected annually. Two factions contest the election: the Tigers (old military aristocracy, pro-expansion, pro-Valyrian legacy) and the Elephants (merchants, pro-trade, pro-peace). Only those of Valyrian blood may vote or stand. The Elephants have dominated for three centuries at the time of the main series.",
-      "factions": ["Tigers (expansionist)", "Elephants (merchant/trade)"],
+      "factions": [
+        "Tigers (expansionist)",
+        "Elephants (merchant/trade)"
+      ],
       "election_cycle": "Annual",
       "voter_requirement": "Must be of Valyrian blood (old families only)",
       "narratorText": "Three Triarchs. Three votes. One city divided between the memory of empire and the pragmatism of trade. The Elephants have won for three hundred years — but the Tigers have not forgotten what Volantis once was."
-    }
+    },
+    "name_ro": null,
+    "name_en": "Triarchs of Volantis"
   },
   {
     "id": "bearded_priests_of_norvos",
@@ -173,7 +215,13 @@
     "city": "norvos",
     "canon_status": "canon",
     "source": "https://awoiaf.westeros.org/index.php/Norvos",
-    "tags": ["faction", "religious", "theocracy", "norvos", "essos"],
+    "tags": [
+      "faction",
+      "religious",
+      "theocracy",
+      "norvos",
+      "essos"
+    ],
     "coordinates": {
       "x": 940,
       "y": 380,
@@ -190,10 +238,16 @@
     "metadata": {
       "description": "The theocratic rulers of Norvos. The Bearded Priests worship a deity whose name is kept secret from outsiders, known only to initiates. They select the council of magisters that nominally governs the city, but real power rests with the priests. They maintain a holy guard of slave soldiers branded with an axe. Life in Norvos is governed by the three great bells: Noom, Narrah, and Nyel.",
       "deity": "Secret — name known only to initiates",
-      "three_bells": ["Noom", "Narrah", "Nyel"],
+      "three_bells": [
+        "Noom",
+        "Narrah",
+        "Nyel"
+      ],
       "holy_guard": "Slave soldiers branded with an axe",
       "narratorText": "The Bearded Priests of Norvos keep their god's name as closely as they keep their hearts — a secret within a secret. They ring the three bells that command the life of every citizen. They choose who rules. They are the law, the faith, and the sword of Norvos."
-    }
+    },
+    "name_ro": null,
+    "name_en": "Bearded Priests of Norvos"
   },
   {
     "id": "black_goat_of_qohor",
@@ -204,7 +258,12 @@
     "city": "qohor",
     "canon_status": "canon",
     "source": "https://awoiaf.westeros.org/index.php/Black_Goat",
-    "tags": ["faction", "religious", "qohor", "essos"],
+    "tags": [
+      "faction",
+      "religious",
+      "qohor",
+      "essos"
+    ],
     "coordinates": {
       "x": 1020,
       "y": 420,
@@ -228,7 +287,9 @@
       "description": "The patron deity of Qohor, worshipped through daily blood sacrifices. In times of crisis, the faithful have offered their own children. The Black Goat cult is intertwined with the city's merchant oligarchy and its dark reputation for sorcerous craftsmanship.",
       "sacrifice": "Daily blood sacrifice required; in extreme crisis, noble children have been offered",
       "narratorText": "Each dawn in Qohor, blood is spilled for the Black Goat. It has always been so. When Khal Temmo's fifty thousand rode toward the walls, nobles carried their own children to the altars. The god is satisfied, or the god is not — the city breathes either way."
-    }
+    },
+    "name_ro": null,
+    "name_en": "Black Goat of Qohor"
   },
   {
     "id": "pentoshi_magisters",
@@ -239,7 +300,12 @@
     "city": "pentos",
     "canon_status": "canon",
     "source": "https://awoiaf.westeros.org/index.php/Pentos",
-    "tags": ["institution", "government", "pentos", "essos"],
+    "tags": [
+      "institution",
+      "government",
+      "pentos",
+      "essos"
+    ],
     "coordinates": {
       "x": 820,
       "y": 490,
@@ -256,8 +322,12 @@
     "metadata": {
       "description": "The true rulers of Pentos, drawn from the Great Families. They elect the Prince of Pentos as a figurehead. The Prince cannot act on trade, justice, or war without their approval, and risks execution if the city suffers major failures.",
       "prince_status": "Figurehead — elected by magisters; can be executed if city fails",
-      "notable_members": ["Illyrio Mopatis"],
+      "notable_members": [
+        "Illyrio Mopatis"
+      ],
       "narratorText": "The magisters of Pentos hold the true reins of the city. The Prince sits on his throne and signs what they place before him. If he protests, they remind him of the tradition: a Prince who fails the city is given to the gods."
-    }
+    },
+    "name_ro": null,
+    "name_en": "Magisters of Pentos"
   }
 ]

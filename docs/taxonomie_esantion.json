@@ -1,7 +1,7 @@
 {
   "schema_version": "taxonomie_v2_esantion/1",
   "generat_din": "data/locations/locations.json + data/essos/free_cities.json + data/essos/far_lands.json",
-  "total": 60,
+  "total": 68,
   "grupuri": {
     "evident_mappable": [
       {
@@ -1129,6 +1129,155 @@
           "geometry": null
         },
         "nota": "DOUĂ castele într-un rând („Capătul Furtunii ŞI Piatra Dragonului\"), ambele existând deja separat (`storm_end`, `dragonstone`). Rând compus — trebuie despicat sau retras, nu tipat."
+      }
+    ],
+    "set_regresie_fals_pozitive": [
+      {
+        "id": "kings_landing",
+        "name_curent": "King's Landing (Aegonfort)",
+        "stare_curenta": {
+          "type": "castle",
+          "subtip": null,
+          "are_pin_in_catalog": true,
+          "coordinates_radacina": {
+            "x": 304.4,
+            "y": 580.2
+          }
+        },
+        "propunere": {
+          "type": "settlement",
+          "subtype": "city",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "point"
+        },
+        "nota": "Caz de regresie împotriva fals pozitivelor pe sufixe ASOIAF (Hall/Keep/Town/Way/Pool/Landing)"
+      },
+      {
+        "id": "crakehall",
+        "name_curent": "Crakehall",
+        "stare_curenta": {
+          "type": "castle",
+          "subtip": "castel/regiune (Westerlands)",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "stronghold",
+          "subtype": "castle",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "point"
+        },
+        "nota": "Caz de regresie împotriva fals pozitivelor pe sufixe ASOIAF (Hall/Keep/Town/Way/Pool/Landing)"
+      },
+      {
+        "id": "acorn_hall",
+        "name_curent": "Acorn Hall",
+        "stare_curenta": {
+          "type": "castle",
+          "subtip": "castel mic (ziduri de piatră, fortăreață de stejar)",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "stronghold",
+          "subtype": "castle",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "point"
+        },
+        "nota": "Caz de regresie împotriva fals pozitivelor pe sufixe ASOIAF (Hall/Keep/Town/Way/Pool/Landing)"
+      },
+      {
+        "id": "brightwater_keep",
+        "name_curent": "Brightwater Keep",
+        "stare_curenta": {
+          "type": "castle",
+          "subtip": "castel",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "stronghold",
+          "subtype": "castle",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "point"
+        },
+        "nota": "Caz de regresie împotriva fals pozitivelor pe sufixe ASOIAF (Hall/Keep/Town/Way/Pool/Landing)"
+      },
+      {
+        "id": "maidenpool",
+        "name_curent": "Maidenpool",
+        "stare_curenta": {
+          "type": "city",
+          "subtip": "oraş/port",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "settlement",
+          "subtype": "town",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "point"
+        },
+        "nota": "Caz de regresie împotriva fals pozitivelor pe sufixe ASOIAF (Hall/Keep/Town/Way/Pool/Landing)"
+      },
+      {
+        "id": "blackpool",
+        "name_curent": "Blackpool",
+        "stare_curenta": {
+          "type": "town",
+          "subtip": null,
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "settlement",
+          "subtype": "town",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": null
+        },
+        "nota": "Așezare/târg (Lord Blackpool) — mappable=True. Testează fallback-ul pe type=town când subtip/nume nu au keyword."
+      },
+      {
+        "id": "harroway_town",
+        "name_curent": "Lord Harroway's Town",
+        "stare_curenta": {
+          "type": "city",
+          "subtip": null,
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "settlement",
+          "subtype": "town",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "point"
+        },
+        "nota": "Caz de regresie împotriva fals pozitivelor pe sufixe ASOIAF (Hall/Keep/Town/Way/Pool/Landing)"
+      },
+      {
+        "id": "boneway",
+        "name_curent": "Boneway",
+        "stare_curenta": {
+          "type": "landmark",
+          "subtip": "drum",
+          "are_pin_in_catalog": false,
+          "coordinates_radacina": null
+        },
+        "propunere": {
+          "type": "route",
+          "subtype": "road",
+          "mappable": true,
+          "parent_id": null,
+          "geometry": "point"
+        },
+        "nota": "Caz de regresie împotriva fals pozitivelor pe sufixe ASOIAF (Hall/Keep/Town/Way/Pool/Landing)"
       }
     ]
   }

@@ -1,20 +1,28 @@
 import { createElement, debounce } from '../utils/helpers.js';
+import { t, nameDescriptor } from '../i18n/index.js';
 
 export class SearchBar {
   constructor(containerId) {
+    this.containerId = containerId;
     this.container = document.getElementById(containerId);
     this.input = null;
     this.dropdown = null;
     this.searchEngine = null;
     this.onSelectCallback = null;
     this.selectedIndex = -1;
+    this.shortcutBound = false;
   }
 
   init() {
+    // The Toolbar owns this container and recreates it on every language
+    // switch, so the reference captured at construction is stale by then.
+    this.container = document.getElementById(this.containerId) || this.container;
+    this.container.innerHTML = '';
+
     // Construct HTML structure
     this.input = createElement('input');
     this.input.type = 'text';
-    this.input.placeholder = "Search Winterfell, The Eyrie...";
+    this.input.placeholder = t('search.placeholder');
     this.input.style.width = '100%';
     this.input.style.padding = '0.4rem 1rem';
     this.input.style.border = '1px solid var(--parchment-dark)';
@@ -57,15 +65,19 @@ export class SearchBar {
     this.input.addEventListener('input', debounce(this.onInput.bind(this), 250));
     this.input.addEventListener('keydown', this.onKeyDown.bind(this));
 
-    // Shortcut '/' to focus
-    window.addEventListener('keydown', (e) => {
-      const isCtrlK = (e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k';
-      if ((e.key === '/' || isCtrlK) && document.activeElement !== this.input) {
-        e.preventDefault();
-        this.input.focus();
-        this.input.select();
-      }
-    });
+    // Shortcut '/' to focus. Bound to the window, so it must not be re-bound
+    // when init() runs again for a language switch.
+    if (!this.shortcutBound) {
+      this.shortcutBound = true;
+      window.addEventListener('keydown', (e) => {
+        const isCtrlK = (e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k';
+        if ((e.key === '/' || isCtrlK) && document.activeElement !== this.input) {
+          e.preventDefault();
+          this.input.focus();
+          this.input.select();
+        }
+      });
+    }
   }
 
   setSearchEngine(engine) {
@@ -94,7 +106,7 @@ export class SearchBar {
     this.selectedIndex = -1;
 
     if (results.length === 0) {
-      const empty = createElement('div', '', "No locations found");
+      const empty = createElement('div', '', t('search.noResults'));
       empty.style.padding = '0.5rem 1rem';
       empty.style.fontStyle = 'italic';
       empty.style.color = 'var(--ink-light)';
@@ -128,8 +140,16 @@ export class SearchBar {
 
       // Avoid showing empty parentheses if regionName is empty
       const regionSpan = res.regionName ? ` <span style="font-size:0.8rem; color:var(--ink-light);">(${res.regionName})</span>` : '';
-      const aliasSpan = res.matchedAlias ? ` <span style="font-size:0.75rem; color:var(--ink-light); font-style:italic;">(găsit ca: ${res.matchedAlias})</span>` : '';
-      item.innerHTML = `<span>${icon}</span> <strong style="color:var(--ink);">${res.name}</strong>${regionSpan}${aliasSpan}`;
+      // INV-S3: the result is shown in the interface language but declares the
+      // term that actually matched, so a Romanian query on the English
+      // interface explains itself.
+      const aliasSpan = res.matchedAlias ? ` <span style="font-size:0.75rem; color:var(--ink-light); font-style:italic;">${t('search.matchedAlias', { alias: res.matchedAlias })}</span>` : '';
+      const descriptor = nameDescriptor(res.entity || res);
+      const badgeCode = descriptor.badgeLang === 'ro' || descriptor.badgeLang === 'en' ? descriptor.badgeLang : descriptor.badgeLang ? 'unknown' : null;
+      const badgeSpan = badgeCode
+        ? ` <span class="lang-badge lang-badge-${badgeCode}" title="${t('lang.untranslated')}">${t(`lang.badge.${badgeCode}`)}</span>`
+        : '';
+      item.innerHTML = `<span>${icon}</span> <strong style="color:var(--ink);">${res.name}</strong>${badgeSpan}${regionSpan}${aliasSpan}`;
 
       item.addEventListener('mouseenter', () => this.highlightItem(idx));
       item.addEventListener('click', () => this.selectResult(res));

@@ -54,6 +54,21 @@ OVERRIDES: dict[str, dict[str, Any]] = {
     "banca_de_fier": {"type": "non_place", "subtype": "institution", "mappable": False},
     "nota_ocr": {"type": "non_place", "subtype": "extraction_artifact", "mappable": False},
     "capatul_furtunii_si_piatra_dragonului": {"type": "non_place", "subtype": "compound_row", "mappable": False},
+    # ASOIAF places whose English name contains a misleading geographic term.
+    # These are castles/settlements despite having Lake/Wood/Sound/Hill/Ford in the name.
+    "red_lake": {"type": "stronghold", "subtype": "castle", "mappable": True},
+    "hornwood": {"type": "stronghold", "subtype": "castle", "mappable": True},
+    "ten_towers": {"type": "stronghold", "subtype": "castle", "mappable": True},
+    "sweetport_sound": {"type": "stronghold", "subtype": "castle", "mappable": True},
+    "darry": {"type": "stronghold", "subtype": "castle", "mappable": True},
+    "duskendale": {"type": "settlement", "subtype": "city", "mappable": True},
+    "widow_s_watch": {"type": "stronghold", "subtype": "castle", "mappable": True},
+    "oldstones": {"type": "stronghold", "subtype": "castle", "mappable": True, "state": "ruined"},
+    "mummer_s_ford": {"type": "point_of_interest", "subtype": "ford", "mappable": True},
+    "ruby_ford": {"type": "point_of_interest", "subtype": "ford", "mappable": True},
+    # Ambiguous subtip ("castel + drum") or misleading subtip content.
+    "yronwood": {"type": "stronghold", "subtype": "castle", "mappable": True},
+    "deep_lake": {"type": "stronghold", "subtype": "fortress", "mappable": True},
 }
 
 PARENT_HINTS = {
@@ -62,39 +77,73 @@ PARENT_HINTS = {
     "turnul sabiei albe": "turnul_sabiei_albe",
 }
 
+# In ASOIAF, "Hall", "Keep", and "Tower" at the END of a name are castle suffixes
+# (Acorn Hall, Brightwater Keep, Hightower), not indicators of interior/structure.
+# These patterns catch "<Name> Hall/Keep/Tower" as strongholds.  The interior/structure
+# In ASOIAF, "Hall", "Keep", and "Tower" at the END of a name are castle suffixes
+# (Acorn Hall, Brightwater Keep, Hightower), not indicators of interior/structure.
+# These are checked ONLY against the `name` field, before the main RULES loop,
+# to prevent false positives from subtip text like "sală interioară de castel".
+NAME_SUFFIX_STRONGHOLD = (
+    r"\bhall$",       # "Acorn Hall", "Raventree Hall" — name ends with Hall
+    r"\bkeep$",       # "Brightwater Keep", "Grassfield Keep"
+    r"\bhalls$",      # plural form
+)
+
 RULES = [
     # Each tuple is (type, subtype, mappable, patterns).  This ordering is the
     # documented signal priority within a text: specific non-places first,
-    # then natural forms and constructed/contained places.
-    ("non_place", "vessel", False, (r"\bnava\b", r"\bcorab")),
-    ("non_place", "institution", False, (r"institutie", r"banca")),
-    ("non_place", "event_record", False, (r"eveniment", r"turnir")),
-    ("non_place", "compound_row", False, (r"\bcastele/regiuni\b",)),
-    ("watercourse", "river", True, (r"\brau\b", r"fluvi", r"parau", r"canal", r"cascad")),
-    ("water", "lake", True, (r"\blac\b",)),
-    ("water", "bay", True, (r"\bgolf\b", r"\bmare\b", r"ocean", r"stramtoare")),
-    ("island", "island", True, (r"insula", r"arhipelag")),
-    ("landform", "forest", True, (r"padure", r"wood\b", r"jungl")),
-    ("landform", "mountain_range", True, (r"lant muntos", r"munt")),
+    # then natural forms and constructed/contained places, then settlements and
+    # strongholds.
+    #
+    # IMPORTANT: interior/structure rules MUST come BEFORE stronghold/settlement
+    # in this list.  The subtip field is descriptive text where the FIRST keyword
+    # is the correct signal: "sală interioară de castel" means hall, not castle.
+    # The ASOIAF name-suffix problem (Acorn Hall = castle, not hall) is handled
+    # separately in classify() via NAME_SUFFIX_STRONGHOLD on the name field only.
+
+    # --- Non-places (highest priority, unambiguous) ---
+    ("non_place", "vessel", False, (r"\bnava\b", r"\bcorab", r"\bship\b", r"\bvessel\b", r"\bgalley\b")),
+    ("non_place", "institution", False, (r"institutie", r"banca", r"institution")),
+    ("non_place", "event_record", False, (r"eveniment", r"turnir", r"tourney", r"tournament")),
+    ("non_place", "compound_row", False, (r"\bcastele/regiuni\b", r"\bcastles/regions\b")),
+
+    # --- Natural water and landforms ---
+    ("watercourse", "river", True, (r"\brau\b", r"fluvi", r"parau", r"\bcanal\b", r"cascad", r"\briver\b", r"\bstream\b", r"\bbrook\b", r"\bcreek\b", r"\bwaterfall\b")),
+    ("water", "lake", True, (r"\blac\b", r"\blake\b")),
+    ("water", "bay", True, (r"\bgolf\b", r"\bocean\b", r"stramtoare", r"\bbay\b", r"\bgulf\b", r"\bsea\b", r"\bstrait\b")),
+    ("island", "island", True, (r"insula", r"arhipelag", r"\bisland\b", r"\bisle\b", r"archipelago")),
+    ("landform", "forest", True, (r"padure", r"jungl", r"\bforest\b", r"\bjungle\b")),
+    ("landform", "mountain_range", True, (r"lant muntos", r"munt", r"\bmountains\b", r"\bmountain range\b")),
     ("landform", "hills", True, (r"colin",)),
-    ("route", "road", True, (r"drum", r"ruta", r"trecatoare", r"poteca")),
-    ("urban_feature", "street", False, (r"strada", r"calea", r"poarta", r"piata", r"docuri", r"cartier")),
-    ("urban_feature", "alley", False, (r"alee",)),
-    ("interior", "crypt", False, (r"cript",)),
-    ("interior", "hall", False, (r"\bsala\b", r"audiente", r"consiliu")),
-    ("interior", "armoury", False, (r"armurar",)),
-    ("interior", "chamber", False, (r"camera", r"incapere", r"dormitor", r"apartament")),
-    ("interior", "kitchen", False, (r"bucatar",)),
+    ("route", "road", True, (r"drum", r"ruta", r"trecatoare", r"poteca", r"\broad\b", r"\bpath\b", r"\btrail\b", r"\bkingsroad\b", r"\broseroad\b")),
+
+    # --- Urban features (sub-location, never mappable) ---
+    ("urban_feature", "street", False, (r"strada", r"calea", r"poarta", r"piata", r"docuri", r"cartier", r"\bstreet\b", r"\bsquare\b", r"\bdocks\b", r"\bquarter\b")),
+    ("urban_feature", "alley", False, (r"alee", r"\balley\b")),
+    ("urban_feature", "gate", False, (r"\bgate\b",)),
+
+    # --- Interiors (sub-location, never mappable) ---
+    ("interior", "crypt", False, (r"cript", r"\bcrypt\b", r"\bcrypts\b")),
+    ("interior", "hall", False, (r"\bsala\b", r"audiente", r"consiliu", r"\bgreat hall\b", r"\bthe hall\b", r"\bcouncil hall\b")),
+    ("interior", "armoury", False, (r"armurar", r"armory", r"armoury")),
+    ("interior", "chamber", False, (r"camera", r"incapere", r"dormitor", r"apartament", r"chamber", r"\broom\b", r"bedroom")),
+    ("interior", "kitchen", False, (r"bucatar", r"kitchen")),
     ("interior", "stable", False, (r"grajd",)),
-    ("interior", "greenhouse", False, (r"sera", r"gradina de sticla")),
-    ("structure", "brothel", False, (r"bordel",)),
-    ("structure", "keep", False, (r"marea fortareata",)),
-    ("structure", "tower", False, (r"\bturn",)),
-    ("settlement", "town", True, (r"localitate",)),
-    ("stronghold", "castle", True, (r"castel", r"cetate", r"fortareata")),
-    ("settlement", "village", True, (r"sat", r"satuc", r"catun")),
-    ("settlement", "town", True, (r"oras", r"targ")),
-    ("region", "region", True, (r"regiune", r"regat", r"continent", r"imperiu", r"tinut")),
+    ("interior", "greenhouse", False, (r"sera", r"gradina de sticla", r"greenhouse", r"glass garden")),
+    ("interior", "courtyard", False, (r"\bcurte\b", r"\bcourtyard\b", r"\byard\b")),
+
+    # --- Structures (sub-location or standalone) ---
+    ("structure", "brothel", False, (r"bordel", r"brothel")),
+    ("structure", "keep", False, (r"marea fortareata", r"\bgreat keep\b")),
+    ("structure", "tower", False, (r"\bturn\b", r"\bturnul\b", r"\bthe tower\b")),
+
+    # --- Settlements and strongholds (after interior/structure for subtip safety) ---
+    ("settlement", "town", True, (r"localitate", r"settlement")),
+    ("stronghold", "castle", True, (r"castel", r"cetate", r"fortareata", r"\bcastle\b", r"\bfortress\b", r"\bstronghold\b", r"\bfort\b")),
+    ("settlement", "village", True, (r"\bsat\b", r"satuc", r"catun", r"village", r"hamlet")),
+    ("settlement", "town", True, (r"\boras\b", r"\btarg\b", r"\bcity\b", r"\btown\b")),
+    ("region", "region", True, (r"regiune", r"regat", r"\bcontinent\b", r"\bimperiu\b", r"tinut", r"\bregion\b", r"\brealm\b", r"\bkingdom\b", r"\bempire\b")),
 ]
 
 
@@ -142,6 +191,16 @@ def classify(record: dict[str, Any], pins: set[str], ids: set[str]) -> dict[str,
     for source, text in fields:
         if not text:
             continue
+        # NAME-ONLY pre-check: ASOIAF castle suffixes (Hall, Keep) at end of
+        # name take priority over interior/structure rules.  This is NOT applied
+        # to subtip or descriere_fizica, where "castel" appears as context, not
+        # as the primary type signal.
+        if source == "name":
+            if any(re.search(pattern, text) for pattern in NAME_SUFFIX_STRONGHOLD):
+                parent = infer_parent(record, ids)
+                return {"type": "stronghold", "subtype": "castle", "mappable": True,
+                        "parent_id": parent, "confidence": "medium",
+                        "evidence": ["name_suffix"]}
         for kind, subtype, mappable, patterns in RULES:
             if any(re.search(pattern, text) for pattern in patterns):
                 # A structure inside another named place is not world-mappable.
@@ -238,7 +297,11 @@ def main() -> int:
     before = {str(path.relative_to(ROOT)): digest(path) for path, _ in sources}
     changes: dict[Path, list[dict[str, Any]]] = {}
     review: list[dict[str, Any]] = []
+    records_708 = [r for _, recs in sources for r in recs if r.get("type") in (None, "location")]
+    low_708_count = 0
+    preserved_count = 0
     counts = Counter()
+
     for path, records in sources:
         changed = copy.deepcopy(records)
         altered = False
@@ -247,12 +310,14 @@ def main() -> int:
             counts[proposal["confidence"]] += 1
             existing = original.get("type")
             eligible = args.retype_all or existing in (None, "location")
+            if existing in (None, "location") and proposal["confidence"] == "low":
+                low_708_count += 1
             if proposal["confidence"] == "low":
                 review.append({"id": record["id"], "name": record.get("name"), "proposal": proposal,
                                "reason": "low confidence: manual triage required"})
                 continue
             if not eligible:
-                counts["preserved_existing_type"] += 1
+                preserved_count += 1
                 continue
             for key in ("type", "subtype", "mappable", "parent_id", "state"):
                 if key in proposal and proposal[key] is not None:
@@ -263,8 +328,15 @@ def main() -> int:
         if altered:
             changes[path] = changed
 
+    total_records = sum(len(r) for _, r in sources)
     report = {"mode": "apply" if args.apply else "dry-run", "retype_all": args.retype_all,
-              "records": sum(len(r) for _, r in sources), "proposals_by_confidence": dict(counts),
+              "records": total_records,
+              "proposals_by_confidence": dict(counts),
+              "preserved_existing_type_count": preserved_count,
+              "low_confidence_ratios": {
+                  "low_vs_total_1099": f"{counts['low']} / {total_records} ({counts['low'] / total_records:.2%})",
+                  "low_vs_unclassified_708": f"{low_708_count} / {len(records_708)} ({low_708_count / len(records_708):.2%})"
+              },
               "files_to_change": [str(p.relative_to(ROOT)) for p in changes], "manual_review_count": len(review),
               "checksums_before": before}
     if args.apply:

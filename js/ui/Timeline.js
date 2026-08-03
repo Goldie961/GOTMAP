@@ -1,4 +1,5 @@
 import { createElement, formatYear } from '../utils/helpers.js';
+import { t } from '../i18n/index.js';
 
 export class Timeline {
   constructor(containerId) {
@@ -8,6 +9,7 @@ export class Timeline {
     this.kingNameDisplay = null;
     this.minimap = null;
     this.playBtn = null;
+    this.toggleBtn = null;
     this.tooltip = null;
 
 
@@ -21,26 +23,36 @@ export class Timeline {
     // Year range
     this.minYear = 1;
     this.maxYear = 300;
+
+    // Persisted state: collapsed by default (~28px)
+    const savedState = localStorage.getItem('got_timeline_state');
+    this.isExpanded = savedState === 'expanded';
   }
 
   init() {
     // 1. Setup Wrapper
-    const wrapper = createElement('div', 'timeline-container');
+    const wrapper = createElement('div', `timeline-container ${this.isExpanded ? 'expanded' : 'collapsed'}`);
 
-    // 2. Setup Top row (Play button + displays)
+    // 2. Setup Top row (Play button + displays + Expand/Collapse toggle)
     const topRow = createElement('div', 'timeline-top-row');
 
     this.playBtn = createElement('button', 'timeline-play-btn', '▶');
-    this.playBtn.title = "Play History";
+    this.playBtn.title = t('timeline.playHistory');
+    this.playBtn.setAttribute('aria-label', t('timeline.playHistory'));
     this.playBtn.addEventListener('click', () => this.togglePlay());
     topRow.appendChild(this.playBtn);
 
     const yearDisplay = createElement('div', 'timeline-year-display');
     this.yearValDisplay = createElement('span', 'year-number', '1 AC');
-    this.kingNameDisplay = createElement('div', 'timeline-king-name', 'King Aegon I Targaryen');
+    this.kingNameDisplay = createElement('div', 'timeline-king-name', '');
     yearDisplay.appendChild(this.yearValDisplay);
     yearDisplay.appendChild(this.kingNameDisplay);
     topRow.appendChild(yearDisplay);
+
+    this.toggleBtn = createElement('button', 'timeline-toggle-btn', this.isExpanded ? '▼' : '▲');
+    this.updateToggleTitle();
+    this.toggleBtn.addEventListener('click', () => this.toggleExpand(wrapper));
+    topRow.appendChild(this.toggleBtn);
 
     wrapper.appendChild(topRow);
 
@@ -75,6 +87,27 @@ export class Timeline {
 
     this.container.appendChild(wrapper);
     this.updateDisplay();
+  }
+
+  toggleExpand(wrapper) {
+    this.isExpanded = !this.isExpanded;
+    localStorage.setItem('got_timeline_state', this.isExpanded ? 'expanded' : 'collapsed');
+    if (wrapper) {
+      wrapper.classList.toggle('expanded', this.isExpanded);
+      wrapper.classList.toggle('collapsed', !this.isExpanded);
+    }
+    if (this.toggleBtn) {
+      this.toggleBtn.textContent = this.isExpanded ? '▼' : '▲';
+      this.updateToggleTitle();
+    }
+  }
+
+  updateToggleTitle() {
+    if (this.toggleBtn) {
+      const titleText = this.isExpanded ? t('timeline.collapse') : t('timeline.expand');
+      this.toggleBtn.title = titleText;
+      this.toggleBtn.setAttribute('aria-label', titleText);
+    }
   }
 
   /**
@@ -123,12 +156,12 @@ export class Timeline {
         
         // Check if title is Queen
         const isQueen = state.king.title && state.king.title.toLowerCase().includes('queen');
-        this.kingNameDisplay.textContent = isQueen ? `Queen ${name}` : `King ${name}`;
+        this.kingNameDisplay.textContent = isQueen ? t('timeline.queenName', { name }) : t('timeline.kingName', { name });
       } else {
-        this.kingNameDisplay.textContent = 'Peace in the Realm';
+        this.kingNameDisplay.textContent = t('timeline.peaceInRealm');
       }
     } else {
-      this.kingNameDisplay.textContent = 'King Aegon I Targaryen';
+      this.kingNameDisplay.textContent = t('timeline.kingName', { name: 'Aegon I Targaryen' });
     }
   }
 

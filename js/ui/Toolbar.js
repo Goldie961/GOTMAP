@@ -1,11 +1,20 @@
 import { createElement } from '../utils/helpers.js';
+import { t, getLanguage, setLanguage, LANGUAGES } from '../i18n/index.js';
 
 export class Toolbar {
   constructor(containerId) {
     this.container = document.getElementById(containerId);
+    // Toggles whose state lives in the button rather than in a model. It has to
+    // survive the rebuild that a language switch performs.
+    this.isNight = false;
+    this.isSummer = true;
+    this.isMuted = true;
   }
 
   init() {
+    // init() doubles as the re-render entry point for a language switch, so it
+    // must start from an empty container rather than append a second toolbar.
+    this.container.innerHTML = '';
     this.container.className = 'timeline-top-row';
     this.container.style.position = 'fixed';
     this.container.style.top = '15px';
@@ -24,7 +33,7 @@ export class Toolbar {
     this.container.style.alignItems = 'center';
 
     // 1. App Title
-    const title = createElement('h1', 'heading-primary', 'Atlas of Westeros');
+    const title = createElement('h1', 'heading-primary', t('toolbar.title'));
     title.style.fontSize = '1.3rem';
     title.style.margin = '0';
     this.container.appendChild(title);
@@ -45,31 +54,31 @@ export class Toolbar {
 
     // Day/Night Toggle
     const nightBtn = createElement('button', 'timeline-play-btn');
-    nightBtn.innerHTML = '☀';
-    nightBtn.title = "Toggle Day/Night Mode";
+    nightBtn.innerHTML = this.isNight ? '🌙' : '☀';
+    if (this.isNight) nightBtn.classList.add('active');
+    nightBtn.title = t('toolbar.toggleDayNight');
     nightBtn.addEventListener('click', () => {
       document.dispatchEvent(new CustomEvent('toggleDayNight'));
-      const active = nightBtn.classList.toggle('active');
-      nightBtn.innerHTML = active ? '🌙' : '☀';
+      this.isNight = nightBtn.classList.toggle('active');
+      nightBtn.innerHTML = this.isNight ? '🌙' : '☀';
     });
     buttons.appendChild(nightBtn);
 
     // Season Toggle
     const seasonBtn = createElement('button', 'timeline-play-btn');
-    seasonBtn.innerHTML = '🍃';
-    seasonBtn.title = "Toggle Season (Summer/Winter)";
-    let isSummer = true;
+    seasonBtn.innerHTML = this.isSummer ? '🍃' : '❄';
+    seasonBtn.title = t('toolbar.toggleSeason');
     seasonBtn.addEventListener('click', () => {
-      isSummer = !isSummer;
-      document.dispatchEvent(new CustomEvent('seasonChanged', { detail: { season: isSummer ? 'summer' : 'winter' } }));
-      seasonBtn.innerHTML = isSummer ? '🍃' : '❄';
+      this.isSummer = !this.isSummer;
+      document.dispatchEvent(new CustomEvent('seasonChanged', { detail: { season: this.isSummer ? 'summer' : 'winter' } }));
+      seasonBtn.innerHTML = this.isSummer ? '🍃' : '❄';
     });
     buttons.appendChild(seasonBtn);
 
     // Filter Toggle
     const filterBtn = createElement('button', 'timeline-play-btn');
     filterBtn.innerHTML = '⚙';
-    filterBtn.title = "Toggle Map Filters";
+    filterBtn.title = t('toolbar.toggleFilters');
     filterBtn.addEventListener('click', () => {
       document.dispatchEvent(new CustomEvent('toggleFilters'));
     });
@@ -78,7 +87,7 @@ export class Toolbar {
     // Distance Tool Toggle
     const distanceBtn = createElement('button', 'timeline-play-btn');
     distanceBtn.innerHTML = '📏';
-    distanceBtn.title = "Distance Calculator";
+    distanceBtn.title = t('toolbar.distanceCalculator');
     distanceBtn.addEventListener('click', () => {
       document.dispatchEvent(new CustomEvent('toggleDistanceTool'));
     });
@@ -87,8 +96,8 @@ export class Toolbar {
     // Reset View Button
     const resetBtn = createElement('button', 'timeline-play-btn');
     resetBtn.innerHTML = '⟲';
-    resetBtn.title = "Reset Map View";
-    resetBtn.setAttribute('aria-label', 'Reset Map View');
+    resetBtn.title = t('toolbar.resetView');
+    resetBtn.setAttribute('aria-label', t('toolbar.resetView'));
     resetBtn.addEventListener('click', () => {
       if (window.atlasApp && window.atlasApp.mapInteraction) {
         window.atlasApp.mapInteraction.resetView();
@@ -98,18 +107,46 @@ export class Toolbar {
 
     // Mute/Unmute Toggle
     const muteBtn = createElement('button', 'timeline-play-btn');
-    muteBtn.innerHTML = '🔇';
-    muteBtn.title = "Unmute Sounds";
+    this.isMuted = window.atlasApp?.audioManager?.isMuted ?? this.isMuted;
+    muteBtn.innerHTML = this.isMuted ? '🔇' : '🔊';
+    muteBtn.title = this.isMuted ? t('toolbar.unmuteSounds') : t('toolbar.muteSounds');
     muteBtn.addEventListener('click', () => {
       if (window.atlasApp && window.atlasApp.audioManager) {
         const currentlyMuted = window.atlasApp.audioManager.isMuted;
         window.atlasApp.audioManager.setMuted(!currentlyMuted);
+        this.isMuted = !currentlyMuted;
         muteBtn.innerHTML = currentlyMuted ? '🔊' : '🔇';
-        muteBtn.title = currentlyMuted ? "Mute Sounds" : "Unmute Sounds";
+        muteBtn.title = currentlyMuted ? t('toolbar.muteSounds') : t('toolbar.unmuteSounds');
       }
     });
     buttons.appendChild(muteBtn);
 
+    buttons.appendChild(this.createLanguageSwitch());
+
     this.container.appendChild(buttons);
+  }
+
+  /**
+   * RO | EN. `setLanguage` persists the choice and updates `<html lang>`; the
+   * re-render is driven from AtlasApp's subscription, not from here, so the
+   * switch stays a plain control with no knowledge of the rest of the UI.
+   */
+  createLanguageSwitch() {
+    const active = getLanguage();
+    const group = createElement('div', 'lang-switch');
+    group.setAttribute('role', 'group');
+    group.setAttribute('aria-label', t('toolbar.language'));
+
+    LANGUAGES.forEach(lang => {
+      const option = createElement('button', 'lang-switch-option', t(`lang.badge.${lang}`));
+      option.type = 'button';
+      option.setAttribute('aria-pressed', String(lang === active));
+      option.title = t(lang === 'ro' ? 'toolbar.switchToRo' : 'toolbar.switchToEn');
+      option.setAttribute('lang', lang);
+      option.addEventListener('click', () => setLanguage(lang));
+      group.appendChild(option);
+    });
+
+    return group;
   }
 }

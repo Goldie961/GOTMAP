@@ -68,8 +68,8 @@
           "method": "admin-editor"
         },
         "the_wall": {
-          "x": 357.8,
-          "y": 158.1,
+          "x": 356.6,
+          "y": 166.3,
           "source": "admin/map-editor.html",
           "method": "admin-editor"
         },
@@ -96,6 +96,12 @@
           "y": 691.9,
           "source": "admin/map-editor.html",
           "method": "admin-editor"
+        },
+        "highgarden": {
+          "x": 190,
+          "y": 640,
+          "source": "capital-label-visibility",
+          "method": "approximate"
         },
         "starfall": {
           "x": 173.9,
@@ -150,6 +156,12 @@
           "y": 716.9,
           "source": "admin/map-editor.html",
           "method": "admin-editor"
+        },
+        "storm_end": {
+          "x": 372,
+          "y": 672,
+          "source": "capital-label-visibility",
+          "method": "approximate"
         },
         "tarth": {
           "x": 419.7,
@@ -514,6 +526,12 @@
         "lhazar": {
           "x": 861.5,
           "y": 593.2,
+          "source": "admin/map-editor.html",
+          "method": "admin-editor"
+        },
+        "acorn_hall": {
+          "x": 477.4,
+          "y": 383.5,
           "source": "admin/map-editor.html",
           "method": "admin-editor"
         }

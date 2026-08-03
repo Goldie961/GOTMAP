@@ -1,32 +1,38 @@
 import { isLowCompletenessEntity } from '../utils/config.js';
 import { stripEntityPrefix } from '../utils/helpers.js';
+import { displayName, normalizeForSearch, allAliases } from '../i18n/entityName.js';
 
+/**
+ * INV-S1 — the index never depends on the interface language. It is built once,
+ * with every term from every language, and `setLanguage` neither rebuilds nor
+ * filters it: "King's Landing" must find the entity on the Romanian interface
+ * and "Debarcaderul Regelui" must find it on the English one.
+ *
+ * The only language-dependent part is `name`, which is a projection used for
+ * sorting and display and is refreshed in place by `refreshDisplayNames()`.
+ */
 export class SearchEngine {
-  constructor() {
+  constructor(options = {}) {
     this.index = [];
     this.dataManager = null;
+    this.language = options.language || 'ro';
   }
 
-  buildIndex(dataManager) {
+  buildIndex(dataManager, language = this.language) {
     this.index = [];
     this.dataManager = dataManager;
+    this.language = language;
     const locations = dataManager.getAllLocations();
-    
+
     locations.forEach(loc => {
       if (isLowCompletenessEntity(loc)) return;
       // Map region human name for readability
       const regionId = this.normalizeSearchField(loc.region, 'location region', loc.id);
-      const regionName = this.formatRegionName(regionId);
-      const primaryName = loc.name || loc.nume_canonic || loc.nume || loc.id;
-
-      this.index.push({
-        id: loc.id,
-        name: primaryName,
+      this.addEntry(loc, {
         type: loc.type,
         regionId,
-        regionName: regionName,
-        coordinates: loc.coordinates,
-        searchTerms: this.extractSearchTerms(loc)
+        regionName: this.formatRegionName(regionId),
+        coordinates: loc.coordinates
       });
     });
 
@@ -35,15 +41,11 @@ export class SearchEngine {
       dataManager.data.houses.forEach(house => {
         if (isLowCompletenessEntity(house)) return;
         const regionId = this.normalizeSearchField(house.region, 'house region', house.id);
-        const primaryName = house.name || house.nume_canonic || house.nume || house.id;
-        this.index.push({
-          id: house.id,
-          name: primaryName,
+        this.addEntry(house, {
           type: house.type || 'house',
           regionId,
           regionName: this.formatRegionName(regionId),
-          seat: house.seat || house.city || null,
-          searchTerms: this.extractSearchTerms(house)
+          seat: house.seat || house.city || null
         });
       });
     }
@@ -54,16 +56,12 @@ export class SearchEngine {
         if (isLowCompletenessEntity(char)) return;
         const rawHouseId = this.normalizeSearchField(char.house || char.membru_al || '', 'character house', char.id);
         const houseId = stripEntityPrefix(rawHouseId);
-        const primaryName = char.name || char.nume_canonic || char.nume || char.id;
-        this.index.push({
-          id: char.id,
-          name: primaryName,
+        this.addEntry(char, {
           type: 'character',
           regionId: '',
           regionName: this.formatRegionName(houseId),
           house: houseId || null,
-          timeline: char.timeline || [],
-          searchTerms: this.extractSearchTerms(char)
+          timeline: char.timeline || []
         });
       });
     }
@@ -72,16 +70,12 @@ export class SearchEngine {
     if (dataManager.data.dragons) {
       dataManager.data.dragons.forEach(dragon => {
         if (isLowCompletenessEntity(dragon)) return;
-        const primaryName = dragon.name || dragon.nume || dragon.id;
-        const displayName = dragon.epithet ? `${primaryName} (${dragon.epithet})` : primaryName;
-        this.index.push({
-          id: dragon.id,
-          name: displayName,
+        this.addEntry(dragon, {
           type: 'dragon',
           regionId: '',
           regionName: dragon.epithet || 'Dragon',
-          timeline: dragon.timeline || [],
-          searchTerms: this.extractSearchTerms(dragon)
+          epithet: dragon.epithet || null,
+          timeline: dragon.timeline || []
         });
       });
     }
@@ -90,15 +84,7 @@ export class SearchEngine {
     if (dataManager.data.events) {
       dataManager.data.events.forEach(event => {
         if (isLowCompletenessEntity(event)) return;
-        const primaryName = event.name || event.nume_generat || event.nume || event.id;
-        this.index.push({
-          id: event.id,
-          name: primaryName,
-          type: 'event',
-          regionId: '',
-          regionName: 'Event',
-          searchTerms: this.extractSearchTerms(event)
-        });
+        this.addEntry(event, { type: 'event', regionId: '', regionName: 'Event' });
       });
     }
 
@@ -106,15 +92,7 @@ export class SearchEngine {
     if (dataManager.data.objects) {
       dataManager.data.objects.forEach(obj => {
         if (isLowCompletenessEntity(obj)) return;
-        const primaryName = obj.name || obj.nume || obj.id;
-        this.index.push({
-          id: obj.id,
-          name: primaryName,
-          type: 'object',
-          regionId: '',
-          regionName: 'Object',
-          searchTerms: this.extractSearchTerms(obj)
-        });
+        this.addEntry(obj, { type: 'object', regionId: '', regionName: 'Object' });
       });
     }
 
@@ -122,17 +100,46 @@ export class SearchEngine {
     if (dataManager.data.titles) {
       dataManager.data.titles.forEach(title => {
         if (isLowCompletenessEntity(title)) return;
-        const primaryName = title.name || title.nume || title.id;
-        this.index.push({
-          id: title.id,
-          name: primaryName,
-          type: 'title',
-          regionId: '',
-          regionName: 'Title',
-          searchTerms: this.extractSearchTerms(title)
-        });
+        this.addEntry(title, { type: 'title', regionId: '', regionName: 'Title' });
       });
     }
+  }
+
+  /**
+   * One index entry. `searchTerms` is the language-independent half and is
+   * computed once; `name` is the language-dependent projection.
+   *
+   * `searchTermsFolded` is precomputed because folding is the hot path: every
+   * keystroke otherwise re-normalizes ~25.000 strings.
+   */
+  addEntry(entity, fields) {
+    const searchTerms = this.extractSearchTerms(entity);
+    this.index.push({
+      id: entity.id,
+      ...fields,
+      entity,
+      name: this.resolveEntryName(entity, fields),
+      searchTerms,
+      searchTermsFolded: searchTerms.map(normalizeForSearch)
+    });
+  }
+
+  resolveEntryName(entity, fields) {
+    const base = displayName(entity, this.language) || entity.id;
+    return fields.epithet ? `${base} (${fields.epithet})` : base;
+  }
+
+  /**
+   * Re-project display names after a language switch. INV-S1: `searchTerms` and
+   * `searchTermsFolded` are deliberately left untouched, so the index length and
+   * every match stay identical across the switch.
+   */
+  refreshDisplayNames(language) {
+    if (language) this.language = language;
+    this.index.forEach(entry => {
+      if (entry.entity) entry.name = this.resolveEntryName(entry.entity, entry);
+    });
+    return this.index.length;
   }
 
   extractSearchTerms(entity) {
@@ -149,23 +156,29 @@ export class SearchEngine {
       }
     };
 
+    // Every name field, in every language, unconditionally. Which of them the
+    // interface happens to be showing is irrelevant here (INV-S1).
     addTerm(entity.name);
+    addTerm(entity.name_ro);
+    addTerm(entity.name_en);
     addTerm(entity.nume_canonic);
     addTerm(entity.nume);
     addTerm(entity.nume_generat);
     addTerm(entity.id);
 
+    // `id_intern` carries the normalized Romanian form for 887 locations
+    // (`LOCATION_DEBARCADERUL_REGELUI`). Part of bilingual search already works
+    // through it, by accident of provenance; indexing it is intentional and is
+    // covered by an assertion so a future cleanup does not drop it as "internal".
     if (Array.isArray(entity.id_intern)) {
       entity.id_intern.forEach(addTerm);
     } else if (typeof entity.id_intern === 'string') {
       addTerm(entity.id_intern);
     }
 
-    if (Array.isArray(entity.aliasuri)) {
-      entity.aliasuri.forEach(addTerm);
-    } else if (typeof entity.aliasuri === 'string') {
-      addTerm(entity.aliasuri);
-    }
+    // aliasuri + aliases_ro + aliases_en + aliases_unclassified. The
+    // unclassified bucket is indexed but never displayed (§4.1).
+    allAliases(entity).forEach(addTerm);
 
     return terms;
   }
@@ -220,9 +233,15 @@ export class SearchEngine {
     return prevRow[aLen];
   }
 
-  scoreTerm(cleanQuery, termStr) {
-    if (!termStr || typeof termStr !== 'string') return 0;
-    const tLower = termStr.toLowerCase();
+  /**
+   * @param {string} cleanQuery  already lowercased and diacritic-folded
+   * @param {string} tLower      likewise — see `normalizeForSearch`
+   *
+   * Folding happens before this function, on both sides, which is why all six
+   * matching branches below inherit it from one place (INV-S2, §7.2).
+   */
+  scoreTerm(cleanQuery, tLower) {
+    if (!tLower || typeof tLower !== 'string') return 0;
 
     // Exact match
     if (tLower === cleanQuery) {
@@ -270,7 +289,8 @@ export class SearchEngine {
   }
 
   search(query) {
-    const cleanQuery = query.toLowerCase().trim();
+    // Folded once, then compared against terms folded at index time.
+    const cleanQuery = normalizeForSearch(query);
     if (!cleanQuery) return [];
 
     const bestMatches = new Map();
@@ -278,28 +298,24 @@ export class SearchEngine {
     this.index.forEach(item => {
       let bestScore = 0;
       let bestMatchedAlias = null;
-      const nameLower = item.name.toLowerCase();
+      const nameFolded = normalizeForSearch(item.name);
 
-      // Primary name score
-      const primaryScore = this.scoreTerm(cleanQuery, item.name);
-      bestScore = primaryScore;
+      // The displayed name is itself one of the indexed terms, so scoring the
+      // term list covers it; scoring it separately would only double the work.
+      const terms = item.searchTerms || [];
+      const folded = item.searchTermsFolded || terms.map(normalizeForSearch);
 
-      // Check all search terms (aliases, id_intern, etc.)
-      if (item.searchTerms) {
-        item.searchTerms.forEach(term => {
-          const tLower = term.toLowerCase();
-          if (tLower === nameLower) return;
+      for (let i = 0; i < folded.length; i += 1) {
+        const termScore = this.scoreTerm(cleanQuery, folded[i]);
+        if (termScore <= bestScore) continue;
+        bestScore = termScore;
 
-          const termScore = this.scoreTerm(cleanQuery, term);
-          if (termScore > bestScore) {
-            bestScore = termScore;
-            // Only set matchedAlias if term is a human readable alias (not internal ID)
-            if (!term.startsWith('LOCATION_') && !term.startsWith('PERSON_') && 
-                !term.startsWith('HOUSE_') && !term.startsWith('EVENT_')) {
-              bestMatchedAlias = term;
-            }
-          }
-        });
+        // The alias note only makes sense when what matched is not what is
+        // displayed, and never for an internal id.
+        const term = terms[i];
+        bestMatchedAlias = (folded[i] !== nameFolded && !/^(LOCATION|PERSON|HOUSE|EVENT|OBJECT|TITLE)_/.test(term))
+          ? term
+          : null;
       }
 
       if (bestScore > 0) {
