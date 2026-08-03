@@ -1,7 +1,7 @@
 // Data-driven smoke test: run with `node tests/smoke.mjs`.
 // It deliberately reads the same datasets as DataManager, but from disk so it
 // remains useful before a browser or local server has been started.
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { isMappableLocation } from '../js/data/DataManager.js';
@@ -15,6 +15,7 @@ import {
   setDictionaries, setLanguage, getLanguage, t, displayName,
   getMissingKeys, resetMissingKeys, compareKeySets, LANGUAGES
 } from '../js/i18n/index.js';
+import { isTranslated } from '../js/i18n/dictionary.js';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const readJson = path => JSON.parse(readFileSync(join(root, path), 'utf8'));
@@ -151,6 +152,47 @@ if (keySets.onlyInRo.length || keySets.onlyInEn.length) {
     check: 'S6 dictionary key sets',
     detail: `only in ro: ${keySets.onlyInRo.join(', ') || '—'} | only in en: ${keySets.onlyInEn.join(', ') || '—'}`
   });
+}
+
+// S8 — every key the *source* asks for exists in the dictionaries.
+//
+// S7 below walks the dictionary and checks each key resolves, which can only
+// find keys that are already there. It cannot see a key the code calls and the
+// dictionary lacks — and that is the direction the bug actually goes: a renamed
+// key shipped `t('distance.selectBoth')` against a dictionary that had
+// `distance.selectLocations`, and the panel rendered the raw key. Scanning the
+// call sites is what closes that gap.
+const sourceFiles = [];
+const collectSources = directory => {
+  for (const entry of readdirSync(join(root, directory), { withFileTypes: true })) {
+    const relative = `${directory}/${entry.name}`;
+    if (entry.isDirectory()) collectSources(relative);
+    else if (entry.name.endsWith('.js')) sourceFiles.push(relative);
+  }
+};
+collectSources('js');
+
+const referencedKeys = new Map();
+for (const relative of sourceFiles) {
+  const source = readFileSync(join(root, relative), 'utf8');
+  // Literal keys only. A computed key — t(`distance.unit.${claim.unit}`) — is
+  // checked by expanding its known suffixes below rather than guessed at here.
+  for (const match of source.matchAll(/\bt\(\s*'([a-zA-Z0-9_.]+)'/g)) {
+    if (!referencedKeys.has(match[1])) referencedKeys.set(match[1], relative);
+  }
+}
+// Template-literal keys whose suffixes are enumerable from the data model.
+for (const prefix of ['distance.unit.', 'distance.emphasis.', 'distance.conflictReason.', 'distance.endpoint.']) {
+  for (const key of Object.keys(dictionaries.ro).filter(candidate => candidate.startsWith(prefix))) {
+    if (!referencedKeys.has(key)) referencedKeys.set(key, '(computed)');
+  }
+}
+for (const [key, where] of referencedKeys) {
+  for (const lang of LANGUAGES) {
+    if (!isTranslated(dictionaries[lang][key])) {
+      i18nFailures.push({ check: `S8 key used in source is missing (${lang})`, detail: `${key} — ${where}` });
+    }
+  }
 }
 
 // S7 — every key the application renders resolves in both languages. admin/ is

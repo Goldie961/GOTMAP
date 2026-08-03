@@ -171,7 +171,7 @@ export class DistanceTool {
     const b = this.secondLocation;
 
     if (!a || !b) {
-      canonical.innerHTML = `<p class="distance-hint">${t('distance.selectBoth')}</p>`;
+      canonical.innerHTML = `<p class="distance-hint">${t('distance.selectLocations')}</p>`;
       travel.innerHTML = '';
       narrative.innerHTML = '';
       geometry.innerHTML = '';

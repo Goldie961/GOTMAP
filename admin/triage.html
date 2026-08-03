@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atlas of Westeros — Triaj</title>
+  <link rel="stylesheet" href="triage.css">
+</head>
+<body class="triage-page">
+  <header class="triage-header">
+    <h1>Triaj</h1>
+
+    <div class="triage-progress" role="status" aria-live="polite">
+      <div class="triage-progress-bar"><span id="progress-fill"></span></div>
+      <div class="triage-progress-text" id="progress-text">se încarcă…</div>
+    </div>
+
+    <div class="triage-filters">
+      <label>Sursă
+        <select id="filter-source"><option value="">toate</option></select>
+      </label>
+      <label>Problemă
+        <select id="filter-problem"><option value="">toate</option></select>
+      </label>
+      <label>Stare
+        <select id="filter-status">
+          <option value="open">nerezolvate</option>
+          <option value="">toate</option>
+          <option value="resolved">rezolvate</option>
+          <option value="rejected">respinse</option>
+          <option value="archived">arhivate</option>
+        </select>
+      </label>
+      <label>Operator
+        <input id="actor" type="text" size="10" autocomplete="off">
+      </label>
+      <button type="button" id="help-btn" title="Ajutor (?)">?</button>
+    </div>
+  </header>
+
+  <main class="triage-main">
+    <section class="triage-list" aria-label="Coadă">
+      <div class="triage-list-count" id="list-count"></div>
+      <ol id="list" tabindex="0" role="listbox" aria-label="Elemente de triat"></ol>
+    </section>
+
+    <section class="triage-detail" aria-label="Detaliu">
+      <div id="detail-empty" class="triage-empty">Nimic selectat.</div>
+      <article id="detail" hidden>
+        <div class="detail-head">
+          <div>
+            <h2 id="detail-title"></h2>
+            <div class="detail-meta" id="detail-meta"></div>
+          </div>
+          <div class="detail-status" id="detail-status"></div>
+        </div>
+
+        <div class="detail-hint" id="detail-hint"></div>
+
+        <h3>Entitatea brută</h3>
+        <pre class="detail-raw" id="detail-raw"></pre>
+
+        <h3>Acțiuni</h3>
+        <div class="detail-actions" id="detail-actions"></div>
+        <div class="detail-form" id="detail-form" hidden></div>
+      </article>
+    </section>
+  </main>
+
+  <div class="triage-toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <div class="triage-help" id="help" hidden role="dialog" aria-label="Scurtături">
+    <div class="triage-help-inner">
+      <h2>Scurtături</h2>
+      <table>
+        <tr><th colspan="2">Navigare</th></tr>
+        <tr><td><kbd>j</kbd> / <kbd>↓</kbd></td><td>următorul element</td></tr>
+        <tr><td><kbd>k</kbd> / <kbd>↑</kbd></td><td>elementul anterior</td></tr>
+        <tr><td><kbd>J</kbd> / <kbd>K</kbd></td><td>salt de 10</td></tr>
+        <tr><td><kbd>g</kbd> / <kbd>G</kbd></td><td>primul / ultimul</td></tr>
+        <tr><th colspan="2">Acțiuni</th></tr>
+        <tr><td><kbd>1</kbd>…<kbd>9</kbd></td><td>atribuie tipul din lista scurtă</td></tr>
+        <tr><td><kbd>t</kbd></td><td>tip / mappable / parent_id (toată taxonomia)</td></tr>
+        <tr><td><kbd>n</kbd></td><td>name_ro / name_en</td></tr>
+        <tr><td><kbd>d</kbd></td><td>marchează drept duplicat</td></tr>
+        <tr><td><kbd>s</kbd></td><td>sparge în N entități</td></tr>
+        <tr><td><kbd>x</kbd></td><td>respinge</td></tr>
+        <tr><td><kbd>a</kbd></td><td>arhivează</td></tr>
+        <tr><td><kbd>u</kbd></td><td>anulează ultima modificare</td></tr>
+        <tr><th colspan="2">În formular</th></tr>
+        <tr><td><kbd>Enter</kbd></td><td>salvează și treci la următorul</td></tr>
+        <tr><td><kbd>Ctrl</kbd>+<kbd>Enter</kbd></td><td>salvează (în câmpurile multi-linie)</td></tr>
+        <tr><td><kbd>Esc</kbd></td><td>renunță</td></tr>
+        <tr><th colspan="2">Filtre</th></tr>
+        <tr><td><kbd>f</kbd> / <kbd>F</kbd></td><td>ciclează sursa / problema</td></tr>
+        <tr><td><kbd>o</kbd></td><td>ciclează starea afișată</td></tr>
+        <tr><td><kbd>?</kbd></td><td>închide acest panou</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <script type="module" src="triage.js"></script>
+</body>
+</html>

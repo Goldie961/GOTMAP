@@ -7,6 +7,9 @@ import json
 import os
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
+from urllib.parse import parse_qs, urlparse
+
+import triage
 
 ROOT = Path(__file__).resolve().parent
 LOCATION_FILES = [ROOT / 'data/locations/locations.json', ROOT / 'data/essos/free_cities.json', ROOT / 'data/essos/far_lands.json']
@@ -95,6 +98,8 @@ class AtlasHandler(SimpleHTTPRequestHandler):
     def do_GET(self):
         if self.path.rstrip('/') == '/api/ping':
             return self.reply(200, {'ok': True, 'server': 'atlas-admin'})
+        if self.path.split('?', 1)[0].startswith('/api/triage/'):
+            return self.handle_triage_get()
         # /admin is a route in the table, but the editor is a real second
         # document rather than a view of the app, so it is a redirect and not a
         # fallback.  Doing it here means the address works without JavaScript.
@@ -105,9 +110,54 @@ class AtlasHandler(SimpleHTTPRequestHandler):
             self.path = fallback
         return super().do_GET()
 
+    # ── triage (admin/triage.html) ─────────────────────────────────────────
+    # The queue is read-only and cheap; every write goes through one endpoint so
+    # that the backup and the journal cannot be bypassed by adding a route.
+
+    def handle_triage_get(self):
+        try:
+            parsed = urlparse(self.path)
+            route = parsed.path.rstrip('/')
+            query = parse_qs(parsed.query)
+            if route == '/api/triage/queue':
+                return self.reply(200, {'items': triage.build_queue(), 'progress': triage.progress(),
+                                        'types': list(triage.KNOWN_TYPES), 'actions': list(triage.ACTIONS)})
+            if route == '/api/triage/item':
+                item_id = (query.get('id') or [''])[0]
+                return self.reply(200, triage.load_context(item_id))
+            if route == '/api/triage/journal':
+                limit = int((query.get('limit') or ['100'])[0])
+                entries = triage.read_journal()
+                return self.reply(200, {'entries': entries[-limit:], 'total': len(entries)})
+            return self.send_error(404)
+        except KeyError as exc:
+            return self.reply(404, {'error': str(exc)})
+        except Exception as exc:
+            return self.reply(400, {'error': str(exc)})
+
+    def handle_triage_post(self, payload):
+        route = self.path.rstrip('/')
+        try:
+            if route == '/api/triage/apply':
+                entry = triage.apply_action(payload)
+                return self.reply(200, {'entry': entry, 'progress': triage.progress()})
+            if route == '/api/triage/undo':
+                seq = payload.get('seq')
+                if not isinstance(seq, int):
+                    raise ValueError('seq must be an integer')
+                entry = triage.undo(seq)
+                return self.reply(200, {'entry': entry, 'progress': triage.progress()})
+            return self.send_error(404)
+        except KeyError as exc:
+            return self.reply(404, {'error': str(exc)})
+        except Exception as exc:
+            return self.reply(400, {'error': str(exc)})
+
     def do_POST(self):
         try:
             payload = self.read_body()
+            if self.path.split('?', 1)[0].startswith('/api/triage/'):
+                return self.handle_triage_post(payload)
             if self.path == '/api/save-coordinates':
                 coordinates = payload.get('coordinates', {})
                 if not isinstance(coordinates, dict):

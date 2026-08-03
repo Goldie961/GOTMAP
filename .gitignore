@@ -5,3 +5,8 @@ data.zip
 Imagini dovezi/
 .DS_Store
 scratch/
+
+# Triage runtime state: per-session working files, not source.
+data/_review/triage_journal.jsonl
+data/_review/triage_resolutions.json
+*.tmp
