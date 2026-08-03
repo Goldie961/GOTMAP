@@ -1,6 +1,19 @@
 import { createElement, debounce } from '../utils/helpers.js';
 import { t, nameDescriptor } from '../i18n/index.js';
 
+/**
+ * How many matches to score before splitting them.
+ *
+ * The dropdown shows a handful, but it now shows a handful *of each kind*, and
+ * the engine returns results in score order without regard for the split. Ten
+ * would routinely be ten events, leaving the map section empty on a query that
+ * had places further down.
+ */
+const FETCH_LIMIT = 60;
+
+/** Rows shown per section. Two short lists read faster than one long one. */
+const SECTION_LIMIT = 6;
+
 export class SearchBar {
   constructor(containerId) {
     this.containerId = containerId;
@@ -9,6 +22,9 @@ export class SearchBar {
     this.dropdown = null;
     this.searchEngine = null;
     this.onSelectCallback = null;
+    this.mapTargetResolver = null;
+    /** The selectable rows of the last render, across both sections. */
+    this.items = [];
     this.selectedIndex = -1;
     this.shortcutBound = false;
   }
@@ -84,6 +100,19 @@ export class SearchBar {
     this.searchEngine = engine;
   }
 
+  /**
+   * Supply the predicate that decides which section a result belongs in.
+   *
+   * Injected rather than imported so that this component keeps knowing nothing
+   * about the catalog, the year or the anchor rule — and so that the label a
+   * reader clicks is produced by the very function that will handle the click.
+   *
+   * @param {(entity: object) => object|null} resolver
+   */
+  setMapTargetResolver(resolver) {
+    this.mapTargetResolver = resolver;
+  }
+
   onSelect(callback) {
     this.onSelectCallback = callback;
   }
@@ -96,78 +125,104 @@ export class SearchBar {
     }
 
     if (this.searchEngine) {
-      const results = this.searchEngine.search(query);
-      this.renderResults(results);
+      this.renderResults(this.searchEngine.search(query, { limit: FETCH_LIMIT }));
     }
   }
 
+  /**
+   * Two sections, because the map's search answers two different questions.
+   *
+   * "On the map" is a promise: every row in it flies the camera. "In the
+   * encyclopedia" is the honest home for everything else — events, characters,
+   * objects, titles, and the 614 places the project has catalogued but not yet
+   * calibrated. Castle Black is a castle and appears here, not because it is
+   * not a place but because the map cannot yet say where it is; clicking it
+   * opens its page rather than pretending to zoom.
+   *
+   * The split is recomputed per query from the catalog, so calibrating a castle
+   * moves it between the sections with no code change.
+   */
   renderResults(results) {
     this.dropdown.innerHTML = '';
     this.selectedIndex = -1;
+    this.items = [];
 
-    if (results.length === 0) {
-      const empty = createElement('div', '', t('search.noResults'));
-      empty.style.padding = '0.5rem 1rem';
-      empty.style.fontStyle = 'italic';
-      empty.style.color = 'var(--ink-light)';
+    const onMap = [];
+    const encyclopedia = [];
+    for (const res of results) {
+      const entity = res.entity || res;
+      (this.mapTargetResolver?.(entity) ? onMap : encyclopedia).push(res);
+    }
+
+    if (!onMap.length && !encyclopedia.length) {
+      const empty = createElement('div', 'search-empty', t('search.noResults'));
       this.dropdown.appendChild(empty);
       this.dropdown.style.display = 'block';
       return;
     }
 
-    results.forEach((res, idx) => {
-      const item = createElement('div');
-      item.style.padding = '0.5rem 1rem';
-      item.style.cursor = 'pointer';
-      item.style.display = 'flex';
-      item.style.alignItems = 'center';
-      item.style.gap = '0.6rem';
-      item.style.borderBottom = '1px solid rgba(44, 24, 16, 0.05)';
-      item.style.transition = 'background-color 0.2s';
-
-      // Icon matching
-      let icon = '📍';
-      if (res.type === 'castle' || res.type === 'fortress') icon = '🏰';
-      if (res.type === 'city') icon = '🏘';
-      if (res.type === 'town' || res.type === 'port') icon = '⛵';
-      if (res.type === 'landmark' || res.type === 'natural' || res.type === 'ruins') icon = '🌲';
-      if (res.type === 'house' || res.type === 'faction' || res.type === 'institution') icon = '🛡️';
-      if (res.type === 'character') icon = '👤';
-      if (res.type === 'dragon') icon = '🐉';
-      if (res.type === 'event') icon = '⚔️';
-      if (res.type === 'object') icon = '🗡️';
-      if (res.type === 'title') icon = '👑';
-
-      // Avoid showing empty parentheses if regionName is empty
-      const regionSpan = res.regionName ? ` <span style="font-size:0.8rem; color:var(--ink-light);">(${res.regionName})</span>` : '';
-      // INV-S3: the result is shown in the interface language but declares the
-      // term that actually matched, so a Romanian query on the English
-      // interface explains itself.
-      const aliasSpan = res.matchedAlias ? ` <span style="font-size:0.75rem; color:var(--ink-light); font-style:italic;">${t('search.matchedAlias', { alias: res.matchedAlias })}</span>` : '';
-      const descriptor = nameDescriptor(res.entity || res);
-      const badgeCode = descriptor.badgeLang === 'ro' || descriptor.badgeLang === 'en' ? descriptor.badgeLang : descriptor.badgeLang ? 'unknown' : null;
-      const badgeSpan = badgeCode
-        ? ` <span class="lang-badge lang-badge-${badgeCode}" title="${t('lang.untranslated')}">${t(`lang.badge.${badgeCode}`)}</span>`
-        : '';
-      item.innerHTML = `<span>${icon}</span> <strong style="color:var(--ink);">${res.name}</strong>${badgeSpan}${regionSpan}${aliasSpan}`;
-
-      item.addEventListener('mouseenter', () => this.highlightItem(idx));
-      item.addEventListener('click', () => this.selectResult(res));
-
-      this.dropdown.appendChild(item);
-    });
-
+    this.appendSection(t('search.section.onMap'), onMap.slice(0, SECTION_LIMIT), 'map');
+    this.appendSection(t('search.section.encyclopedia'), encyclopedia.slice(0, SECTION_LIMIT), 'encyclopedia');
     this.dropdown.style.display = 'block';
   }
 
+  appendSection(title, results, kind) {
+    if (!results.length) return;
+    const header = createElement('div', `search-section-title search-section-${kind}`, title);
+    this.dropdown.appendChild(header);
+    for (const res of results) this.dropdown.appendChild(this.buildResultItem(res, kind));
+  }
+
+  /** Icon by indexed type. Unchanged from the flat list; only the home moved. */
+  iconFor(type) {
+    if (type === 'castle' || type === 'fortress' || type === 'stronghold') return '🏰';
+    if (type === 'city') return '🏘';
+    if (type === 'town' || type === 'port') return '⛵';
+    if (type === 'landmark' || type === 'natural' || type === 'ruins') return '🌲';
+    if (type === 'house' || type === 'faction' || type === 'institution') return '🛡️';
+    if (type === 'character') return '👤';
+    if (type === 'dragon') return '🐉';
+    if (type === 'event') return '⚔️';
+    if (type === 'object') return '🗡️';
+    if (type === 'title') return '👑';
+    return '📍';
+  }
+
+  buildResultItem(res, kind) {
+    const item = createElement('div', `search-result search-result-${kind}`);
+    const index = this.items.length;
+    this.items.push(item);
+
+    // Avoid showing empty parentheses if regionName is empty
+    const regionSpan = res.regionName ? ` <span class="search-result-region">(${res.regionName})</span>` : '';
+    // INV-S3: the result is shown in the interface language but declares the
+    // term that actually matched, so a Romanian query on the English
+    // interface explains itself. Independent of which section it landed in —
+    // both stay bilingual because both read the same index (INV-S1).
+    const aliasSpan = res.matchedAlias ? ` <span class="search-result-alias">${t('search.matchedAlias', { alias: res.matchedAlias })}</span>` : '';
+    const descriptor = nameDescriptor(res.entity || res);
+    const badgeCode = descriptor.badgeLang === 'ro' || descriptor.badgeLang === 'en' ? descriptor.badgeLang : descriptor.badgeLang ? 'unknown' : null;
+    const badgeSpan = badgeCode
+      ? ` <span class="lang-badge lang-badge-${badgeCode}" title="${t('lang.untranslated')}">${t(`lang.badge.${badgeCode}`)}</span>`
+      : '';
+    item.innerHTML = `<span>${this.iconFor(res.type)}</span> <strong class="search-result-name">${res.name}</strong>${badgeSpan}${regionSpan}${aliasSpan}`;
+
+    item.addEventListener('mouseenter', () => this.highlightItem(index));
+    item.addEventListener('click', () => this.selectResult(res));
+    return item;
+  }
+
   highlightItem(idx) {
-    const items = this.dropdown.children;
+    // Indexes the selectable rows, not the dropdown's children: the section
+    // headings are children too, and arrowing onto one would look like a dead
+    // keypress.
+    const items = this.items || [];
     if (this.selectedIndex >= 0 && this.selectedIndex < items.length) {
-      items[this.selectedIndex].style.background = 'none';
+      items[this.selectedIndex].classList.remove('active');
     }
     this.selectedIndex = idx;
     if (this.selectedIndex >= 0 && this.selectedIndex < items.length) {
-      items[this.selectedIndex].style.background = 'rgba(197, 165, 90, 0.15)';
+      items[this.selectedIndex].classList.add('active');
     }
   }
 
@@ -180,8 +235,8 @@ export class SearchBar {
   }
 
   onKeyDown(e) {
-    const items = this.dropdown.children;
-    if (this.dropdown.style.display === 'none') return;
+    const items = this.items || [];
+    if (this.dropdown.style.display === 'none' || !items.length) return;
 
     if (e.key === 'ArrowDown') {
       e.preventDefault();

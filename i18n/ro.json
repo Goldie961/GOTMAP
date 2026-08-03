@@ -187,6 +187,8 @@
   "layers.towns": "Sate",
   "layers.waters": "Ape",
   "search.matchedAlias": "(găsit ca: {alias})",
+  "search.section.onMap": "Pe hartă",
+  "search.section.encyclopedia": "În enciclopedie",
   "search.noResults": "Nicio locație găsită",
   "search.placeholder": "Caută Winterfell, Cuibul Vulturilor...",
   "source.externalLink": "↗ link",

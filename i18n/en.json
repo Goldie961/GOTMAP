@@ -187,6 +187,8 @@
   "layers.towns": "Towns",
   "layers.waters": "Waters",
   "search.matchedAlias": "(found as: {alias})",
+  "search.section.onMap": "On the map",
+  "search.section.encyclopedia": "In the encyclopedia",
   "search.noResults": "No locations found",
   "search.placeholder": "Search Winterfell, The Eyrie...",
   "source.externalLink": "↗ link",

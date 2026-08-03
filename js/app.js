@@ -16,7 +16,8 @@ import { Toolbar } from './ui/Toolbar.js';
 import { AudioManager } from './utils/AudioManager.js';
 import { Router } from './router/Router.js';
 import { entityKind, resolveEntity, sameRoute } from './router/routes.js';
-import { stripEntityPrefix } from './utils/helpers.js';
+import { navigateToEntity } from './router/links.js';
+import { resolveMapTarget } from './map/mapTarget.js';
 import * as i18n from './i18n/index.js';
 import { t, displayName } from './i18n/index.js';
 
@@ -165,12 +166,17 @@ class AtlasApp {
       this.syncMapState();
     });
 
-    // Handle search selection clicks. The result already carries the indexed
-    // entity, so the type dispatch this handler used to perform — six branches
-    // re-fetching by id, each with its own copy of the timeline walk — now lives
-    // once in mapTargetFor(), where restoring a selection from the address bar
-    // can ask the same question and get the same answer.
-    this.searchBar.onSelect(res => this.openEntity(res.entity || this.dataManager.getLocation(res.id)));
+    // The map's search decides between two outcomes, and the decision is the
+    // same one that put the result under "on the map" or "in the encyclopedia":
+    // a place the map can show is a zoom, everything else is a page. Nothing
+    // reaches the camera by accident (P6.2).
+    this.searchBar.setMapTargetResolver(entity => this.mapTargetFor(entity));
+    this.searchBar.onSelect(res => {
+      const entity = res.entity || this.dataManager.getLocation(res.id);
+      if (!entity) return;
+      if (this.mapTargetFor(entity)) this.openEntity(entity);
+      else navigateToEntity(entity);
+    });
 
     // SVG location clicking
     document.addEventListener('locationSelected', e => {
@@ -471,38 +477,15 @@ class AtlasApp {
   }
 
   /**
-   * The location the camera should go to for an entity, or null when it has no
-   * place on the map.
+   * The location the camera should go to for an entity, or null when the map
+   * has nowhere to put it.
    *
-   * The house seat is read from the entity rather than from a search result, so
-   * restoring `?sel=character:…` from a cold tab resolves exactly as the click
-   * that produced it did.
+   * Delegates so that the search dropdown's two sections and this click handler
+   * cannot disagree: the label the reader clicked and the thing that happens are
+   * decided by the same function (js/map/mapTarget.js).
    */
   mapTargetFor(entity) {
-    if (!entity) return null;
-    const kind = entityKind(entity, this.dataManager);
-    if (kind === 'location') return entity;
-
-    const year = this.currentWorldState?.year ?? 1;
-    const fromTimeline = timeline => {
-      if (!Array.isArray(timeline) || !timeline.length) return null;
-      const upToNow = timeline.filter(entry => entry.year <= year);
-      return (upToNow.length ? upToNow[upToNow.length - 1] : timeline[0])?.location || null;
-    };
-    // `membru_al` carries a HOUSE_ prefix on all 631 records that have one.
-    const seatOf = houseId => {
-      const house = houseId ? this.dataManager.getHouse(stripEntityPrefix(houseId)) : null;
-      return house?.seat || house?.city || null;
-    };
-
-    let targetId = null;
-    if (kind === 'house') targetId = entity.seat || entity.city || null;
-    else if (kind === 'character') targetId = fromTimeline(entity.timeline) || seatOf(entity.membru_al || entity.house);
-    else if (kind === 'dragon') targetId = fromTimeline(entity.timeline);
-    // Events, objects and titles have no position of their own; opening one
-    // must not move the camera.
-
-    return targetId ? this.dataManager.getLocation(targetId) || null : null;
+    return resolveMapTarget(entity, this.dataManager);
   }
 
   /** What the address bar should currently say about the map. */
