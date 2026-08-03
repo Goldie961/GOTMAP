@@ -4,6 +4,7 @@ Run: python server.py  (then open http://localhost:8000/admin/map-editor.html)
 """
 import argparse
 import json
+import os
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
@@ -248,7 +249,10 @@ class AtlasHandler(SimpleHTTPRequestHandler):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Atlas server')
     parser.add_argument('--host', default='127.0.0.1', help='Host address to bind to (default: 127.0.0.1)')
-    parser.add_argument('--port', type=int, default=8000, help='Port to listen on (default: 8000)')
+    # PORT lets a second instance run alongside the first without a flag, which
+    # is what tooling that assigns its own port expects. --port still wins.
+    parser.add_argument('--port', type=int, default=int(os.environ.get('PORT', 8000)),
+                        help='Port to listen on (default: $PORT, or 8000)')
     args = parser.parse_args()
 
     print(f'Atlas server listening on http://{args.host}:{args.port}/ (admin: http://{args.host}:{args.port}/admin/map-editor.html)')

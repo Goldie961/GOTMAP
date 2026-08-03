@@ -50,6 +50,7 @@ export class DataManager {
       objects: 'data/objects/objects.json',
       titles: 'data/titles/titles.json',
       distances: 'data/locations/distances.json',
+      canonicalDistances: 'data/locations/canonical_distances.json',
       essosLocations: 'data/essos/free_cities.json',
       essosFactions: 'data/essos/free_cities_factions.json',
       essosEvents: 'data/essos/free_cities_events.json',
@@ -79,6 +80,7 @@ export class DataManager {
     temp.events = [...temp.events, ...temp.essosEvents];
 
     this.data.distances = temp.distances || [];
+    this.data.canonicalDistances = temp.canonicalDistances?.pairs || [];
 
     // characters.json predates the shared entity discriminator used by the UI.
     // Keep source data untouched while making its runtime entity type explicit.
@@ -149,7 +151,15 @@ export class DataManager {
     this.data.objects = temp.objects.map(mapCompatibility);
     this.data.titles = temp.titles.map(mapCompatibility);
 
+    // Every place in the datasets, including the 217 still carrying the
+    // untriaged `type: "location"` and the 16 `non_place` records that the
+    // castle/city/landmark split drops. The map must not draw these, and
+    // getAllLocations() rightly excludes them — but a distance endpoint is a
+    // different question from a marker. All 237 endpoint ids in distances.json
+    // exist in the data, and 31 of them are reachable only through this index.
+    this.data.allLocations = temp.locations.map(mapCompatibility);
     this.buildLocationIndex();
+    this.buildAllLocationIndex();
 
     // Load timeline snapshots (Year 1 AC for milestone 1)
     const timelineYears = [1]; // Extensible array
@@ -179,9 +189,45 @@ export class DataManager {
     return this.locationIndex;
   }
 
+  /**
+   * A second index over every place in the data, kept separate from
+   * `locationIndex` on purpose. `locationIndex` answers "what can the map and
+   * the encyclopedia show", and narrowing it is what keeps 217 untriaged
+   * records out of search results. This one answers "what places does the
+   * project know about at all", which is the right question for a distance
+   * endpoint. Precedence matches locationIndex so a duplicated id resolves the
+   * same way in both.
+   */
+  buildAllLocationIndex() {
+    this.allLocationIndex = new Map();
+    for (const location of this.data.allLocations || []) {
+      if (location?.id) this.allLocationIndex.set(location.id, location);
+    }
+    for (const [id, location] of this.locationIndex || []) {
+      this.allLocationIndex.set(id, location);
+    }
+    return this.allLocationIndex;
+  }
+
   getLocation(id) {
     if (!id) return undefined;
     return this.locationIndex?.get(id);
+  }
+
+  /**
+   * Resolve an id against every known place, not only the mappable ones.
+   * Callers that position something on the map must keep using getLocation();
+   * this exists for the distance tool, whose endpoints are legitimately wider
+   * than the set of places that carry a marker.
+   */
+  getAnyLocation(id) {
+    if (!id) return undefined;
+    return this.allLocationIndex?.get(id) || this.locationIndex?.get(id);
+  }
+
+  /** Candidate endpoints for the distance tool's two search fields. */
+  getDistanceEndpointCandidates() {
+    return this.data.allLocations || [];
   }
 
   getCastle(id) {
@@ -370,5 +416,26 @@ export class DataManager {
 
       return (matchA1 && matchB2) || (matchA2 && matchB1);
     });
+  }
+
+  /**
+   * The curated distance for a pair, or null.
+   *
+   * This is the only figure the distance tool is allowed to present as a result,
+   * and the only one travel times may be derived from. A record with
+   * `distanta_canonica_leghe: null` is a pair that has been *scheduled* for
+   * curation, not a pair with a value — returning it as a hit would put an empty
+   * headline back where the calibration notice used to be, so it does not count.
+   */
+  getCanonicalDistance(loc1, loc2) {
+    const id1 = typeof loc1 === 'object' ? loc1?.id : loc1;
+    const id2 = typeof loc2 === 'object' ? loc2?.id : loc2;
+    if (!id1 || !id2) return null;
+
+    const record = (this.data.canonicalDistances || []).find(entry => {
+      const [a, b] = entry.pair || [];
+      return (a === id1 && b === id2) || (a === id2 && b === id1);
+    });
+    return Number.isFinite(record?.distanta_canonica_leghe) ? record : null;
   }
 }

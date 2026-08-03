@@ -1,0 +1,373 @@
+{
+  "_descriere": "Valori canonice de distanță, completate manual. distanta_canonica_leghe este singura sursă pentru rezultatul principal și pentru timpii de călătorie din instrumentul de distanță. null = necompletat; instrumentul afișează atunci doar afirmațiile narative, ca dovadă.",
+  "_unitate": "leghe (1 leghe = 3 mile)",
+  "_reguli": [
+    "Nu completa din memorie și nu de pe wiki-uri externe. Doar din surse cu proveniență (carte + pagină) sau dintr-o măsurătoare declarată în câmpul sursa.",
+    "ruta contează: distanța pe drum și distanța în zbor de corb sunt valori diferite. Scrie în ruta care dintre ele este.",
+    "Dacă sursele se contrazic și nu poți alege una, lasă null. Instrumentul afișează contradicția, iar asta este un rezultat valid.",
+    "Câmpurile cu prefix _ sunt ajutoare de lucru derivate din distances.json, nu surse de adevăr. _nume folosește name_ro din locations.json, care pentru câteva locații este greșit (kings_landing → „Fortăreața Roșie”, white_harbor_city → „Gâtul”)."
+  ],
+  "_generat": "2026-08-03 — cele 40 de perechi cu cele mai multe afirmații în data/locations/distances.json, ordonate descrescător după numărul de afirmații",
+  "pairs": [
+    {
+      "pair": ["dragonstone", "kings_landing"],
+      "_nume": "Dragonstone ↔ King's Landing",
+      "_afirmatii": 10,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["kings_landing", "storm_end"],
+      "_nume": "King's Landing ↔ Storm's End",
+      "_afirmatii": 9,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["the_wall", "winterfell"],
+      "_nume": "Zidul ↔ Winterfell",
+      "_afirmatii": 7,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["castle_black", "shadow_tower"],
+      "_nume": "Castle Black ↔ Shadow Tower",
+      "_afirmatii": 6,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["meereen", "volantis"],
+      "_nume": "Meereen ↔ Volantis",
+      "_afirmatii": 5,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["casterly_rock", "kings_landing"],
+      "_nume": "Casterly Rock ↔ King's Landing",
+      "_afirmatii": 5,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["kings_landing", "oldtown_city"],
+      "_nume": "King's Landing ↔ Oldtown",
+      "_afirmatii": 5,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["white_harbor_city", "winterfell"],
+      "_nume": "White Harbor ↔ Winterfell",
+      "_afirmatii": 5,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["castle_black", "orasul_cartitei"],
+      "_nume": "Castle Black ↔ Oraşul Cârtiţei / Mole's Town",
+      "_afirmatii": 4,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["harrenhal", "kings_landing"],
+      "_nume": "Harrenhal ↔ King's Landing",
+      "_afirmatii": 4,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": "Cele 4 afirmații se contrazic: „sute de leghe”, „mii de kilometri”, „se ajunge repede și direct pe drumul regelui”. A patra nu dă nicio valoare."
+    },
+    {
+      "pair": ["meereen", "yunkai"],
+      "_nume": "Meereen ↔ Yunkai",
+      "_afirmatii": 4,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["kings_landing", "sunspear"],
+      "_nume": "King's Landing ↔ Sunspear",
+      "_afirmatii": 4,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["astapor", "qarth"],
+      "_nume": "Astapor ↔ Qarth",
+      "_afirmatii": 4,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["duskendale", "kings_landing"],
+      "_nume": "Duskendale ↔ King's Landing",
+      "_afirmatii": 4,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["golden_tooth", "riverrun"],
+      "_nume": "Golden Tooth ↔ Riverrun",
+      "_afirmatii": 4,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["pentos", "vaes_dothrak"],
+      "_nume": "Pentos ↔ Vaes Dothrak",
+      "_afirmatii": 4,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["kings_landing", "the_eyrie"],
+      "_nume": "King's Landing ↔ The Eyrie",
+      "_afirmatii": 3,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["sunspear", "water_gardens"],
+      "_nume": "Sunspear ↔ Water Gardens",
+      "_afirmatii": 3,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["deepwood_motte", "winterfell"],
+      "_nume": "Deepwood Motte ↔ Winterfell",
+      "_afirmatii": 3,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": "Două afirmații independente dau aceeași valoare: „o sută de leghe” ≈ „cinci sute de kilometri în zbor de corb”. Cel mai bun candidat pentru prima valoare completată."
+    },
+    {
+      "pair": ["astapor", "meereen"],
+      "_nume": "Astapor ↔ Meereen",
+      "_afirmatii": 3,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["braavos", "oldtown_city"],
+      "_nume": "Braavos ↔ Oldtown",
+      "_afirmatii": 3,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["castle_black", "rondul_de_est_la_mare"],
+      "_nume": "Castle Black ↔ Rondul de Est la Mare / Eastwatch",
+      "_afirmatii": 3,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["crossing", "riverrun"],
+      "_nume": "The Twins / Crossing ↔ Riverrun",
+      "_afirmatii": 3,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["fist_of_first_men", "frostfangs"],
+      "_nume": "Fist of the First Men ↔ Frostfangs",
+      "_afirmatii": 3,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["meereen", "skahazadhan"],
+      "_nume": "Meereen ↔ Skahazadhan",
+      "_afirmatii": 3,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["dragonstone", "driftmark"],
+      "_nume": "Dragonstone ↔ Driftmark",
+      "_afirmatii": 3,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["driftmark", "kings_landing"],
+      "_nume": "Driftmark ↔ King's Landing",
+      "_afirmatii": 3,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["harrenhal", "riverrun"],
+      "_nume": "Harrenhal ↔ Riverrun",
+      "_afirmatii": 3,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["kings_landing", "lannisport_city"],
+      "_nume": "King's Landing ↔ Lannisport",
+      "_afirmatii": 3,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["kings_landing", "riverrun"],
+      "_nume": "King's Landing ↔ Riverrun",
+      "_afirmatii": 3,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["mama_muntilor", "vaes_dothrak"],
+      "_nume": "Mama Munților ↔ Vaes Dothrak",
+      "_afirmatii": 3,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["riverrun", "the_eyrie"],
+      "_nume": "Riverrun ↔ The Eyrie",
+      "_afirmatii": 3,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["acorn_hall", "high_heart"],
+      "_nume": "Acorn Hall ↔ High Heart",
+      "_afirmatii": 2,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["bitterbridge", "longtable"],
+      "_nume": "Bitterbridge ↔ Longtable",
+      "_afirmatii": 2,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": "Ambele afirmații spun „treizeci de leghe”. Candidat sigur."
+    },
+    {
+      "pair": ["castle_black", "winterfell"],
+      "_nume": "Castle Black ↔ Winterfell",
+      "_afirmatii": 2,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["kings_landing", "tumbleton"],
+      "_nume": "King's Landing ↔ Tumbleton",
+      "_afirmatii": 2,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": "„vreo cincizeci de leghe” față de „șaizeci de leghe” — două cifre diferite pentru același drum."
+    },
+    {
+      "pair": ["kings_landing", "winterfell"],
+      "_nume": "King's Landing ↔ Winterfell",
+      "_afirmatii": 2,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": "„o mie de kilometri” (≈207 leghe) față de „o sută de leghe” — diferență de factor 2."
+    },
+    {
+      "pair": ["satul_dintre_lacuri", "winterfell"],
+      "_nume": "Satul dintre lacuri ↔ Winterfell",
+      "_afirmatii": 2,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["castle_black", "karhold"],
+      "_nume": "Castle Black ↔ Karhold",
+      "_afirmatii": 2,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    },
+    {
+      "pair": ["duskendale", "maidenpool"],
+      "_nume": "Duskendale ↔ Maidenpool",
+      "_afirmatii": 2,
+      "distanta_canonica_leghe": null,
+      "ruta": null,
+      "sursa": null,
+      "nota": null
+    }
+  ]
+}

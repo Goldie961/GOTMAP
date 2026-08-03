@@ -4,8 +4,9 @@
     {
       "name": "atlas",
       "runtimeExecutable": "python",
-      "runtimeArgs": ["server.py", "--port", "8000"],
-      "port": 8000
+      "runtimeArgs": ["server.py"],
+      "port": 8000,
+      "autoPort": true
     }
   ]
 }

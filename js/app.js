@@ -121,7 +121,7 @@ class AtlasApp {
     this.timeline.init();
     this.timeline.renderMinimap(this.dataManager.data.events);
 
-    this.distanceTool = new DistanceTool(this.mapRenderer.svg);
+    this.distanceTool = new DistanceTool(this.mapRenderer.svg, { dataManager: this.dataManager });
 
     // 5. Connect all UI actions and custom events
     this.wireEvents();

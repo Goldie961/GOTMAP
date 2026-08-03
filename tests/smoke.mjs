@@ -7,6 +7,8 @@ import { fileURLToPath } from 'node:url';
 import { isMappableLocation } from '../js/data/DataManager.js';
 import { SearchEngine } from '../js/data/SearchEngine.js';
 import { normalizeInternIds, toInternIds } from '../js/utils/entities.js';
+import { assessPair, parseDistanceClaim, MILES_PER_LEAGUE } from '../js/data/DistanceClaims.js';
+import { travelTime } from '../js/utils/coordinates.js';
 import { isCharacterEntity, isEventEntity } from '../js/utils/entityKind.js';
 import { stripEntityPrefix } from '../js/utils/helpers.js';
 import {
@@ -261,6 +263,153 @@ for (const id of capitalsWithoutPin) {
 }
 const suppressedMarkers = getAllLocations().filter(isRenderedByAncestor);
 
+// ── distance tool (P7) ─────────────────────────────────────────────────────
+// These are assertions, not milestone counts. The tool makes three promises the
+// data can break silently: that both endpoints of a pair can be *selected* even
+// with no marker, that a pair with contradictory statements is reported as
+// contradictory rather than reconciled, and that no travel time is ever derived
+// from anything but a curated value.
+const distanceFailures = [];
+
+// The wide index the distance pickers search: every place, including the 217
+// `type: "location"` and 16 `non_place` records the map split discards.
+const allLocationIndex = new Map(temp.locations.filter(l => l?.id).map(l => [l.id, mapCompatibility(l)]));
+for (const [id, location] of locationIndex) allLocationIndex.set(id, location);
+
+const internToId = new Map();
+for (const location of allLocationIndex.values()) {
+  for (const intern of toInternIds(location.id_intern)) if (!internToId.has(intern)) internToId.set(intern, location.id);
+}
+const resolveEndpoint = (id, intern) => allLocationIndex.has(id) ? id : (internToId.get(intern) || null);
+
+const endpointIds = new Set();
+for (const statement of data.distances) {
+  endpointIds.add(statement.location_a_id);
+  endpointIds.add(statement.location_b_id);
+}
+const unreachableEndpoints = [...endpointIds].filter(id => !allLocationIndex.has(id));
+for (const id of unreachableEndpoints) {
+  distanceFailures.push({ check: 'distance endpoint not selectable', id, detail: 'absent from the wide location index' });
+}
+
+// getNarrativeDistances, mirrored against the same records the app filters.
+const narrativeFor = (id1, id2) => {
+  const a = allLocationIndex.get(id1);
+  const b = allLocationIndex.get(id2);
+  const intern1 = toInternIds(a?.id_intern);
+  const intern2 = toInternIds(b?.id_intern);
+  return data.distances.filter(statement => {
+    const matchA1 = statement.location_a_id === id1 || intern1.includes(statement.location_a_intern);
+    const matchB2 = statement.location_b_id === id2 || intern2.includes(statement.location_b_intern);
+    const matchA2 = statement.location_a_id === id2 || intern2.includes(statement.location_a_intern);
+    const matchB1 = statement.location_b_id === id1 || intern1.includes(statement.location_b_intern);
+    return (matchA1 && matchB2) || (matchA2 && matchB1);
+  });
+};
+
+// The acceptance case. Harrenhal ↔ King's Landing carries four statements from
+// three books: "sute de leghe", "mii de kilometri", "se ajunge repede și
+// direct", and one that gives no figure at all. All four must survive to the
+// panel and the set must be reported as conflicting.
+const harrenhalStatements = narrativeFor('harrenhal', 'kings_landing');
+const harrenhalAssessment = assessPair(harrenhalStatements);
+if (harrenhalStatements.length !== 4) {
+  distanceFailures.push({ check: 'harrenhal↔kings_landing statement count', id: 'harrenhal|kings_landing', detail: `expected 4, got ${harrenhalStatements.length}` });
+}
+if (!harrenhalAssessment.conflict) {
+  distanceFailures.push({ check: 'harrenhal↔kings_landing not flagged as conflicting', id: 'harrenhal|kings_landing', detail: JSON.stringify(harrenhalAssessment.reasons) });
+}
+for (const reason of ['magnitude', 'emphasis']) {
+  if (!harrenhalAssessment.reasons.includes(reason)) {
+    distanceFailures.push({ check: `harrenhal↔kings_landing missing conflict reason "${reason}"`, id: 'harrenhal|kings_landing', detail: JSON.stringify(harrenhalAssessment.reasons) });
+  }
+}
+if (harrenhalAssessment.claims.length !== harrenhalStatements.length) {
+  distanceFailures.push({ check: 'assessPair dropped a statement', id: 'harrenhal|kings_landing', detail: `${harrenhalStatements.length} in, ${harrenhalAssessment.claims.length} out` });
+}
+
+// A pair neither of whose ends has a pin must still be comparable end to end.
+const unpinnedPairs = [['castle_black', 'shadow_tower'], ['coldmoat', 'standfast'], ['duskendale', 'maidenpool']];
+for (const [id1, id2] of unpinnedPairs) {
+  if (worldCoordinates[id1] || worldCoordinates[id2]) {
+    distanceFailures.push({ check: 'expected an unpinned pair', id: `${id1}|${id2}`, detail: 'one end now has a pin; pick another probe' });
+    continue;
+  }
+  if (!allLocationIndex.has(id1) || !allLocationIndex.has(id2)) {
+    distanceFailures.push({ check: 'unpinned pair not selectable', id: `${id1}|${id2}`, detail: 'missing from the wide index' });
+  } else if (!narrativeFor(id1, id2).length) {
+    distanceFailures.push({ check: 'unpinned pair yields no statements', id: `${id1}|${id2}`, detail: 'expected at least one' });
+  }
+}
+
+// Travel times come from the canonical value alone. With every value still null
+// the tool must derive nothing; injecting one must make all four modes resolve.
+const canonical = readJson('data/locations/canonical_distances.json');
+const canonicalHit = (pairs, id1, id2) => {
+  const record = pairs.find(entry => {
+    const [a, b] = entry.pair || [];
+    return (a === id1 && b === id2) || (a === id2 && b === id1);
+  });
+  return Number.isFinite(record?.distanta_canonica_leghe) ? record : null;
+};
+const filledCanonical = canonical.pairs.filter(entry => Number.isFinite(entry.distanta_canonica_leghe));
+if (canonicalHit(canonical.pairs, 'harrenhal', 'kings_landing') && filledCanonical.length === 0) {
+  distanceFailures.push({ check: 'canonical lookup returned a null value as a hit', id: 'harrenhal|kings_landing', detail: 'null must not count as a value' });
+}
+const injected = canonicalHit([{ pair: ['harrenhal', 'kings_landing'], distanta_canonica_leghe: 100 }], 'kings_landing', 'harrenhal');
+if (!injected) {
+  distanceFailures.push({ check: 'canonical lookup is not order-independent', id: 'harrenhal|kings_landing', detail: 'reversed pair did not match' });
+} else {
+  const miles = injected.distanta_canonica_leghe * MILES_PER_LEAGUE;
+  for (const mode of ['walking', 'horse', 'ship', 'dragon']) {
+    const days = travelTime(miles, mode);
+    if (!Number.isFinite(days) || days <= 0) {
+      distanceFailures.push({ check: `travelTime(${mode}) not derivable from canonical value`, id: 'harrenhal|kings_landing', detail: String(days) });
+    }
+  }
+}
+
+// Every pair scheduled for curation must name two ids that actually exist,
+// otherwise a filled-in value would never be found by the lookup.
+for (const entry of canonical.pairs) {
+  const [a, b] = entry.pair || [];
+  if (!allLocationIndex.has(a) || !allLocationIndex.has(b)) {
+    distanceFailures.push({ check: 'canonical pair references an unknown id', id: `${a}|${b}`, detail: 'not in the wide index' });
+  }
+}
+
+// Parser coverage, reported rather than asserted: it will move as the corpus
+// grows, and the panel degrades to "no measurable value" rather than breaking.
+const parsedClaims = data.distances.map(parseDistanceClaim);
+const lengthClaims = parsedClaims.filter(claim => claim.axis === 'length').length;
+const durationClaims = parsedClaims.filter(claim => claim.axis === 'duration').length;
+const statementsWithDigit = data.distances.filter(statement => /\d/.test(statement.distance_value || '')).length;
+
+// No claim may carry an inverted or non-finite interval — that would make the
+// disjointness test silently meaningless.
+for (let i = 0; i < parsedClaims.length; i++) {
+  const claim = parsedClaims[i];
+  if (claim.axis === 'length' && !(claim.leagueMin <= claim.leagueMax)) {
+    distanceFailures.push({ check: 'inverted length interval', id: data.distances[i].id, detail: `${claim.leagueMin}..${claim.leagueMax}` });
+  }
+  if (claim.axis === 'duration' && !(claim.dayMin <= claim.dayMax)) {
+    distanceFailures.push({ check: 'inverted duration interval', id: data.distances[i].id, detail: `${claim.dayMin}..${claim.dayMax}` });
+  }
+}
+
+const distancePairs = new Map();
+for (const statement of data.distances) {
+  const a = resolveEndpoint(statement.location_a_id, statement.location_a_intern);
+  const b = resolveEndpoint(statement.location_b_id, statement.location_b_intern);
+  if (!a || !b || a === b) continue;
+  const key = [a, b].sort().join('|');
+  if (!distancePairs.has(key)) distancePairs.set(key, []);
+  distancePairs.get(key).push(statement);
+}
+const conflictingPairs = [...distancePairs.values()].filter(list => assessPair(list).conflict).length;
+const pairsNeedingSearch = [...distancePairs.keys()]
+  .filter(key => key.split('|').some(id => !worldCoordinates[mappableAnchor(id)?.id || id])).length;
+
 // The expected values are phase milestones, not hard assertions: later import
 // phases legitimately grow the dataset. Predicate exceptions are the smoke
 // test's only failure condition.
@@ -280,6 +429,16 @@ const metrics = [
   { check: 'Locations with parent_id', expected: 'reported', actual: childLocations.length },
   { check: 'Markers suppressed by anchor rule', expected: 'reported', actual: suppressedMarkers.length },
   { check: 'Anchor invariants', expected: '0 failures', actual: anchorFailures.length },
+  { check: 'Distance tool assertions', expected: '0 failures', actual: distanceFailures.length },
+  { check: 'Distance endpoints selectable', expected: 'all 237', actual: `${endpointIds.size - unreachableEndpoints.length} / ${endpointIds.size}` },
+  { check: 'Distance pairs (resolved, distinct)', expected: 'reported', actual: distancePairs.size },
+  { check: 'Distance pairs needing a search field', expected: 'reported', actual: pairsNeedingSearch },
+  { check: 'Distance pairs flagged as conflicting', expected: 'reported', actual: conflictingPairs },
+  { check: 'Statements parsed as a length claim', expected: 'reported', actual: lengthClaims },
+  { check: 'Statements parsed as a duration claim', expected: 'reported', actual: durationClaims },
+  { check: 'Statements containing an Arabic digit', expected: 'for comparison', actual: statementsWithDigit },
+  { check: 'harrenhal↔kings_landing statements', expected: '4, conflicting', actual: `${harrenhalStatements.length}, ${harrenhalAssessment.reasons.join('+') || 'no conflict'}` },
+  { check: 'Canonical pairs scheduled / filled in', expected: 'filled in by hand', actual: `${canonical.pairs.length} / ${filledCanonical.length}` },
   { check: 'i18n assertions S1-S7', expected: '0 failures', actual: i18nFailures.length },
   { check: 'L1 keys (ro / en)', expected: 'identical sets', actual: Object.keys(dictionaries.ro).length },
   { check: 'Index names differing between ro and en', expected: 'display projection only', actual: localizedNames },
@@ -299,7 +458,11 @@ if (anchorFailures.length) {
   console.error(`\nAnchor invariants failed (${anchorFailures.length}):`);
   console.table(anchorFailures);
 }
-if (predicateFailures.length || i18nFailures.length || anchorFailures.length) {
+if (distanceFailures.length) {
+  console.error(`\nDistance tool assertions failed (${distanceFailures.length}):`);
+  console.table(distanceFailures);
+}
+if (predicateFailures.length || i18nFailures.length || anchorFailures.length || distanceFailures.length) {
   process.exitCode = 1;
 } else {
   console.log(`\nSmoke test passed: ${entityGroups.reduce((sum, [, entities]) => sum + entities.length, 0)} entities exercised.`);
