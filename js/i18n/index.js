@@ -105,7 +105,10 @@ function writeStoredLanguage(lang) {
  * screen that never ends (§6.4).
  */
 export async function init(options = {}) {
-  const basePath = options.basePath || '';
+  // Root-relative for the same reason as DataManager.basePath: on
+  // /wiki/character/eddard_stark a relative 'i18n/ro.json' would be fetched from
+  // /wiki/character/i18n/ro.json and startup would fail fatally (§6.4).
+  const basePath = options.basePath || '/';
   const dictionaries = await Promise.all(LANGUAGES.map(async lang => {
     const url = `${basePath}i18n/${lang}.json`;
     const response = await fetch(url);

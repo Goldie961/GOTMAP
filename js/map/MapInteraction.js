@@ -54,6 +54,9 @@ export class MapInteraction {
     this.animationId = null;
     this._lastLabelVisibilityWidth = null;
 
+    /** Set by AtlasApp to keep the address bar in step with the view (P6.1). */
+    this.onViewBoxChange = null;
+
     this.init();
   }
 
@@ -272,6 +275,30 @@ export class MapInteraction {
     this.flyTo(this.mapWidth / 2, this.mapHeight / 2, this.mapWidth, 1200);
   }
 
+  /**
+   * Put the view exactly where told, with no animation.
+   *
+   * Restoring from an address — on load or on Back — has to land on the value
+   * that was shared, not near it. flyTo() would interpolate towards it over
+   * 1.5 s while the reader watches a view they did not ask for, and any pointer
+   * event in that window would cancel the animation part-way and leave the
+   * address bar describing a view the map never reached.
+   */
+  setViewBox(x, y, width) {
+    if (![x, y, width].every(Number.isFinite) || width <= 0) return false;
+    if (this.animationId) cancelAnimationFrame(this.animationId);
+    if (this._zoomAnimId) cancelAnimationFrame(this._zoomAnimId);
+    this.animationId = null;
+    this._zoomAnimId = null;
+
+    this.viewBox.width = Math.max(this.minWidth, Math.min(this.maxWidth, width));
+    this.viewBox.height = this.viewBox.width * (this.mapHeight / this.mapWidth);
+    this.viewBox.x = x;
+    this.viewBox.y = y;
+    this.updateViewBox();
+    return true;
+  }
+
   updateViewBox() {
     this.svg.setAttribute('viewBox', `${this.viewBox.x.toFixed(2)} ${this.viewBox.y.toFixed(2)} ${this.viewBox.width.toFixed(2)} ${this.viewBox.height.toFixed(2)}`);
     if (window.atlasApp && window.atlasApp.mapRenderer) {
@@ -286,5 +313,8 @@ export class MapInteraction {
         this._lastLabelVisibilityWidth = this.viewBox.width;
       }
     }
+    // Fires once per animation frame during a flyTo, so the subscriber must
+    // debounce rather than push a history entry (see Router.syncState).
+    this.onViewBoxChange?.(this.viewBox);
   }
 }

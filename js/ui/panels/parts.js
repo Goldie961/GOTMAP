@@ -8,6 +8,7 @@ import { createElement, stripEntityPrefix } from '../../utils/helpers.js';
 import { matchesInternId } from '../../utils/entities.js';
 import { t, displayName } from '../../i18n/index.js';
 import { createSourceCite } from '../SourceCite.js';
+import { navigateToEntity, entityHref } from '../../router/links.js';
 
 // How much of a long value list a summary row shows before folding. The panel is
 // 420px wide and must not scroll, so this is deliberately tight; the full list is
@@ -127,10 +128,20 @@ export function formatStatus(status) {
   return String(status).replace(/_/g, ' ').toUpperCase();
 }
 
-/** The one action the summary panel offers: go read the whole record. */
+/**
+ * The one action the summary panel offers: go read the whole record.
+ *
+ * An `<a>` to /wiki/:kind/:id rather than a button, so the address it leads to
+ * is visible before the click and the page it opens is shareable after it.
+ */
 export function createFullPageButton(entity) {
-  const button = createElement('button', 'info-panel-full-page', t('info.fullPageButton'));
-  button.type = 'button';
-  button.addEventListener('click', () => window.atlasApp?.wikiPage?.open(entity, { fromCompact: true }));
+  const href = entityHref(entity);
+  const button = createElement(href ? 'a' : 'button', 'info-panel-full-page', t('info.fullPageButton'));
+  if (href) button.href = href; else button.type = 'button';
+  button.addEventListener('click', event => {
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.button > 0) return;
+    event.preventDefault();
+    if (!navigateToEntity(entity)) window.atlasApp?.wikiPage?.open(entity, { fromCompact: true });
+  });
   return button;
 }

@@ -60,9 +60,48 @@ class AtlasHandler(SimpleHTTPRequestHandler):
                     return path, rows, index
         return None, None, None
 
+    def redirect(self, location):
+        self.send_response(302)
+        self.send_header('Location', location)
+        self.send_header('Content-Length', '0')
+        self.end_headers()
+
+    def spa_fallback_path(self):
+        """The document to serve for a client-side route, or None.
+
+        The router owns /harta/:id, /wiki/:kind/:id and /admin; the server has
+        never heard of them and would answer 404, so a shared link would open on
+        an error page (P6.1 requirement 2).  Three conditions have to hold, and
+        each of them is guarding against a different way of getting this wrong:
+
+          · /api/ is never rewritten — an unknown endpoint must stay a 404, not
+            become a 200 with HTML in it.
+          · An existing file wins, always.  This is a fallback, not a rewrite.
+          · Only extensionless paths fall through.  Without that rule a missing
+            data/locations/locations.json would be answered with index.html, and
+            DataManager would report a JSON parse error at line 1 instead of the
+            404 that would have told anyone what was actually wrong.
+        """
+        path = self.path.split('?', 1)[0].split('#', 1)[0]
+        if path.startswith('/api/'):
+            return None
+        if Path(self.translate_path(path)).exists():
+            return None
+        if '.' in path.rsplit('/', 1)[-1]:
+            return None
+        return '/index.html'
+
     def do_GET(self):
         if self.path.rstrip('/') == '/api/ping':
             return self.reply(200, {'ok': True, 'server': 'atlas-admin'})
+        # /admin is a route in the table, but the editor is a real second
+        # document rather than a view of the app, so it is a redirect and not a
+        # fallback.  Doing it here means the address works without JavaScript.
+        if self.path.split('?', 1)[0].rstrip('/') == '/admin':
+            return self.redirect('/admin/map-editor.html')
+        fallback = self.spa_fallback_path()
+        if fallback:
+            self.path = fallback
         return super().do_GET()
 
     def do_POST(self):

@@ -7,6 +7,7 @@ import { collectSources, collectClaimVariants, dedupeSources } from '../utils/so
 import { createSourceCite, createSourceList } from './SourceCite.js';
 import { readCompletenessScore, completenessBand, coverageBand } from '../utils/completeness.js';
 import { getHouseColor } from '../utils/colors.js';
+import { navigateToEntity, entityHref } from '../router/links.js';
 
 /**
  * Does a built section actually say anything?
@@ -70,6 +71,12 @@ export class WikiPage {
     document.getElementById('app').appendChild(this.host);
   }
 
+  /**
+   * Show a record. This is the *render* entry point and stays deliberately
+   * ignorant of the address bar: the router calls it after a navigation has
+   * already happened. Anything in the interface that should change the address
+   * calls navigateToEntity() instead, and comes back here through the router.
+   */
   open(entity, options = {}) {
     if (!entity) return;
     if (this.currentEntity && !options.fromCompact) this.previousEntity = this.currentEntity;
@@ -82,6 +89,11 @@ export class WikiPage {
   close() {
     this.host.classList.remove('open');
     this.host.setAttribute('aria-hidden', 'true');
+  }
+
+  /** True while the page is on screen — the router's test for what to close. */
+  get isOpen() {
+    return this.host?.classList.contains('open') ?? false;
   }
 
   get data() { return window.atlasDataManager?.data || {}; }
@@ -98,10 +110,28 @@ export class WikiPage {
     return all.find(item => item.id === id || matchesInternId(item, id) || item.id === cleanId) || null;
   }
 
+  /**
+   * A cross-reference to another record.
+   *
+   * Now a real `<a>` with a real href when the target is routable, so a reader
+   * can middle-click it, copy it or bookmark it — the point of P6.1. The click
+   * is still intercepted: the app has the entity in memory and a full page load
+   * would discard the map behind the overlay.
+   */
   linkToEntity(id, fallback = '') {
     const entity = this.getEntity(id);
-    const link = createElement(entity ? 'button' : 'span', entity ? 'wiki-entity-link' : 'wiki-missing-reference', (entity && displayName(entity)) || fallback || String(id));
-    if (entity) link.addEventListener('click', () => this.open(entity));
+    if (!entity) {
+      return createElement('span', 'wiki-missing-reference', fallback || String(id));
+    }
+    const href = entityHref(entity);
+    const link = createElement(href ? 'a' : 'button', 'wiki-entity-link', displayName(entity) || fallback || String(id));
+    if (href) link.href = href;
+    link.addEventListener('click', event => {
+      // Let the browser handle the modified clicks it handles better than we do.
+      if (event.metaKey || event.ctrlKey || event.shiftKey || event.button > 0) return;
+      event.preventDefault();
+      if (!navigateToEntity(entity)) this.open(entity);
+    });
     return link;
   }
 
@@ -300,14 +330,28 @@ export class WikiPage {
     this.host.appendChild(page);
   }
 
+  /**
+   * Close and Back both go through browser history now, so the page's own
+   * controls and the browser's own buttons cannot disagree about where "back"
+   * is. `previousEntity` remains only as the label's condition: it says whether
+   * this page was reached from another one.
+   */
   buildToolbar() {
     const toolbar = createElement('div', 'wiki-toolbar');
     const close = createElement('button', 'wiki-close', t('wiki.close'));
-    close.addEventListener('click', () => this.close());
+    close.addEventListener('click', () => {
+      const router = window.atlasApp?.router;
+      if (router) router.back({ name: 'map', params: {} });
+      else this.close();
+    });
     toolbar.appendChild(close);
     if (this.previousEntity) {
       const back = createElement('button', 'wiki-back', t('wiki.back'));
-      back.addEventListener('click', () => this.open(this.previousEntity, { fromCompact: true }));
+      back.addEventListener('click', () => {
+        const router = window.atlasApp?.router;
+        if (router) router.back({ name: 'map', params: {} });
+        else this.open(this.previousEntity, { fromCompact: true });
+      });
       toolbar.appendChild(back);
     }
     return toolbar;
@@ -655,10 +699,15 @@ export class WikiPage {
     related.forEach(id => {
       const house = manager.getHouse(id);
       if (!house) return;
-      const card = createElement('button', 'wiki-house-card', displayName(house));
-      card.type = 'button';
+      const href = entityHref(house);
+      const card = createElement(href ? 'a' : 'button', 'wiki-house-card', displayName(house));
+      if (href) card.href = href; else card.type = 'button';
       card.style.borderLeftColor = getHouseColor(id);
-      card.addEventListener('click', () => this.open(house));
+      card.addEventListener('click', event => {
+        if (event.metaKey || event.ctrlKey || event.shiftKey || event.button > 0) return;
+        event.preventDefault();
+        if (!navigateToEntity(house)) this.open(house);
+      });
       grid.appendChild(card);
     });
     if (grid.childNodes.length) box.appendChild(grid);

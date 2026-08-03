@@ -273,6 +273,57 @@ export class FilterPanel {
     );
   }
 
+  /**
+   * The controls the reader has turned OFF, for the address bar.
+   *
+   * Deviations only. Listing what is checked would put 320 ids in every URL and
+   * would also freeze today's defaults into yesterday's links: a leaf added next
+   * month would arrive switched off in every address shared before it existed.
+   */
+  getHiddenIds() {
+    const off = (store) => [...store].filter(([, isVisible]) => isVisible === false).map(([id]) => id);
+    return {
+      leaves: [
+        ...Object.entries(this.filters).filter(([, isVisible]) => !isVisible).map(([id]) => id),
+        ...off(this.leafFilters)
+      ].sort(),
+      houses: off(this.houseFilters).sort()
+    };
+  }
+
+  /**
+   * Restore that state from a shared address. Anything not named is switched on,
+   * so the URL stays the whole truth about the panel rather than a patch on
+   * whatever the previous view happened to leave behind.
+   *
+   * Silent: the caller re-emits once, after the map's other state is in place.
+   */
+  applyHiddenIds({ leaves = [], houses = [] } = {}) {
+    const hiddenLeaves = new Set(leaves);
+    const hiddenHouses = new Set(houses);
+
+    for (const id of Object.keys(this.filters)) this.filters[id] = !hiddenLeaves.has(id);
+    for (const id of this.leafFilters.keys()) this.leafFilters.set(id, !hiddenLeaves.has(id));
+    for (const id of this.houseFilters.keys()) this.houseFilters.set(id, !hiddenHouses.has(id));
+
+    // A leaf named in the URL may not be registered yet — setRenderableLocations
+    // seeds the map from the registry, and a house only appears once it holds
+    // something in the displayed year. Recording it now means the checkbox comes
+    // back unchecked when it does appear, instead of the URL being ignored.
+    for (const id of hiddenLeaves) {
+      if (!(id in this.filters) && !this.leafFilters.has(id)) this.leafFilters.set(id, false);
+    }
+    for (const id of hiddenHouses) {
+      if (!this.houseFilters.has(id)) this.houseFilters.set(id, false);
+    }
+
+    // init(), not renderTree(): the static SVG-layer checkboxes are built by
+    // init() and would otherwise keep showing the state the URL just replaced.
+    // Before the first init() there is nothing to redraw — the stores above are
+    // read when it runs.
+    if (this.container?.querySelector('.filter-tree')) this.init();
+  }
+
   onFilterChange(callback) {
     this.onFilterChangeCallback = callback;
   }

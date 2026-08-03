@@ -8,13 +8,20 @@ import { MapAnimations } from './map/MapAnimations.js';
 import { Timeline } from './ui/Timeline.js';
 import { InfoPanel } from './ui/InfoPanel.js';
 import { WikiPage } from './ui/WikiPage.js';
+import { WikiIndex } from './ui/WikiIndex.js';
 import { SearchBar } from './ui/SearchBar.js';
 import { FilterPanel } from './ui/FilterPanel.js';
 import { DistanceTool } from './ui/DistanceTool.js';
 import { Toolbar } from './ui/Toolbar.js';
 import { AudioManager } from './utils/AudioManager.js';
+import { Router } from './router/Router.js';
+import { entityKind, resolveEntity, sameRoute } from './router/routes.js';
+import { stripEntityPrefix } from './utils/helpers.js';
 import * as i18n from './i18n/index.js';
 import { t, displayName } from './i18n/index.js';
+
+/** The bare map, and the fallback for every route that resolves to nothing. */
+const MAP_ROUTE = { name: 'map', params: {} };
 
 class AtlasApp {
   constructor() {
@@ -29,10 +36,12 @@ class AtlasApp {
     this.timeline = null;
     this.infoPanel = null;
     this.wikiPage = null;
+    this.wikiIndex = null;
     this.searchBar = null;
     this.filterPanel = null;
     this.distanceTool = null;
     this.toolbar = null;
+    this.router = null;
 
     this.currentWorldState = null;
   }
@@ -93,6 +102,10 @@ class AtlasApp {
     this.wikiPage = new WikiPage();
     this.wikiPage.init();
 
+    this.wikiIndex = new WikiIndex();
+    this.wikiIndex.init();
+    this.wikiIndex.setSources({ searchEngine: this.searchEngine, dataManager: this.dataManager });
+
     this.filterPanel = new FilterPanel('filter-panel');
     // Point markers and surface labels together: both are things the reader sees
     // and both must be counted, or unchecking "Ape" would report zero and be
@@ -112,7 +125,16 @@ class AtlasApp {
     // 5. Connect all UI actions and custom events
     this.wireEvents();
 
-    // 6. Dismiss loading screen
+    // 6. Resolve the address the page was opened with. Last, because applying a
+    // route selects entities, moves the camera and rebuilds the filter panel —
+    // all of which need the components above to exist — and before the loading
+    // screen lifts, so a shared link reveals its own state rather than the
+    // default map followed by a jump to it.
+    this.router = new Router({ onNavigate: (route, context) => this.applyRoute(route, context) });
+    this.mapInteraction.onViewBoxChange = () => this.syncMapState();
+    this.router.start();
+
+    // 7. Dismiss loading screen
     const loader = document.getElementById('loading-screen');
     if (loader) {
       loader.classList.add('fade-out');
@@ -139,92 +161,28 @@ class AtlasApp {
       if (this.infoPanel && this.infoPanel.currentEntity) {
         this.infoPanel.open(this.infoPanel.currentEntity, this.currentWorldState);
       }
+
+      this.syncMapState();
     });
 
-    // Handle search selection clicks
-    this.searchBar.onSelect(res => {
-      let loc = this.dataManager.getLocation(res.id);
-      let entity = loc;
-
-      if (!loc) {
-        if (res.type === 'house' || res.type === 'faction' || res.type === 'institution') {
-          entity = this.dataManager.getHouse(res.id);
-          if (entity) {
-            const seatId = entity.seat || entity.city || null;
-            if (seatId) {
-              loc = this.dataManager.getLocation(seatId);
-            }
-          }
-        } else if (res.type === 'character') {
-          const char = this.dataManager.getCharacter(res.id);
-          entity = char;
-          let targetLocationId = null;
-          if (char && char.timeline && char.timeline.length > 0) {
-            const currentYear = this.currentWorldState ? this.currentWorldState.year : 1;
-            const matches = char.timeline.filter(t => t.year <= currentYear);
-            if (matches.length > 0) {
-              targetLocationId = matches[matches.length - 1].location;
-            } else {
-              targetLocationId = char.timeline[0].location;
-            }
-          }
-          if (!targetLocationId && res.house) {
-            const house = this.dataManager.getHouse(res.house);
-            if (house && house.seat) {
-              targetLocationId = house.seat;
-            }
-          }
-          if (targetLocationId) {
-            loc = this.dataManager.getLocation(targetLocationId);
-          }
-        } else if (res.type === 'dragon') {
-          const dragon = this.dataManager.getDragon(res.id);
-          entity = dragon;
-          let targetLocationId = null;
-          if (dragon && dragon.timeline && dragon.timeline.length > 0) {
-            const currentYear = this.currentWorldState ? this.currentWorldState.year : 1;
-            const matches = dragon.timeline.filter(t => t.year <= currentYear);
-            if (matches.length > 0) {
-              targetLocationId = matches[matches.length - 1].location;
-            } else {
-              targetLocationId = dragon.timeline[0].location;
-            }
-          }
-          if (targetLocationId) {
-            loc = this.dataManager.getLocation(targetLocationId);
-          }
-        } else if (res.type === 'event') {
-          entity = this.dataManager.getEvent(res.id);
-          // Events have no map position of their own; opening the panel must
-          // not zoom to a linked location.
-          loc = null;
-        } else if (res.type === 'object') {
-          entity = this.dataManager.getObject(res.id);
-          // Objects are not map entities.
-          loc = null;
-        } else if (res.type === 'title') {
-          entity = this.dataManager.getTitle(res.id);
-          // Titles are not map entities.
-          loc = null;
-        }
-      }
-
-      if (entity) {
-        this.selectEntity(entity, loc);
-      }
-    });
+    // Handle search selection clicks. The result already carries the indexed
+    // entity, so the type dispatch this handler used to perform — six branches
+    // re-fetching by id, each with its own copy of the timeline walk — now lives
+    // once in mapTargetFor(), where restoring a selection from the address bar
+    // can ask the same question and get the same answer.
+    this.searchBar.onSelect(res => this.openEntity(res.entity || this.dataManager.getLocation(res.id)));
 
     // SVG location clicking
     document.addEventListener('locationSelected', e => {
       const locId = e.detail.locationId;
       const loc = this.dataManager.getLocation(locId);
-      
+
       if (loc) {
         // If distance tool is active, handle path routing
         if (this.distanceTool.isActive) {
           this.distanceTool.handleLocationClick(loc);
         } else {
-          this.selectEntity(loc, loc);
+          this.openEntity(loc);
         }
       }
     });
@@ -262,16 +220,19 @@ class AtlasApp {
       Object.entries(filters).forEach(([layer, isVisible]) => {
         this.mapLayers.toggleLayer(layer, isVisible);
       });
+      this.syncMapState();
     });
 
     // Kept separate from layer toggles: these change individual map features
     // rather than showing or hiding a whole SVG group.
     this.filterPanel.onLocationFilterChange(visibleIds => {
       this.mapRenderer.setVisibleLocationIds(visibleIds);
+      this.syncMapState();
     });
 
     this.filterPanel.onHouseFilterChange(visibleHouseIds => {
       this.mapRenderer.setVisibleHouseIds(visibleHouseIds);
+      this.syncMapState();
     });
 
     // Toolbar event dispatchers
@@ -291,10 +252,21 @@ class AtlasApp {
       this.mapAnimations.applySeason(e.detail.season);
     });
 
+    /**
+     * Dropping the selection is a navigation, not a UI reset: Back has to
+     * return to the place the reader just left. The panel is closed by
+     * applyRoute() on the way through, so it is not closed here as well.
+     */
     const dismissDetailsAndResetMap = () => {
+      this.mapInteraction.resetView();
+      const hasSelection = Boolean(this.router?.current?.params?.locationId)
+        || Boolean(this.router?.readState()?.selection);
+      if (this.router && (hasSelection || !sameRoute(this.router.current, MAP_ROUTE))) {
+        this.router.navigate(MAP_ROUTE, { state: { selection: null, view: null } });
+        return;
+      }
       this.infoPanel.close();
       this.mapRenderer.clearHighlight();
-      this.mapInteraction.resetView();
     };
 
     // Clicking out of details returns to the complete map as well as closing the panel.
@@ -306,7 +278,14 @@ class AtlasApp {
     });
 
     document.addEventListener('keydown', e => {
-      if (e.key === 'Escape') dismissDetailsAndResetMap();
+      if (e.key !== 'Escape') return;
+      // An overlay is on top of the map; Escape belongs to it, and resetting the
+      // camera behind it would leave the reader somewhere else on return.
+      if (this.wikiPage?.isOpen || this.wikiIndex?.isOpen) {
+        this.router.back(MAP_ROUTE);
+        return;
+      }
+      dismissDetailsAndResetMap();
     });
   }
 
@@ -352,13 +331,204 @@ class AtlasApp {
     if (wikiWasOpen && this.wikiPage.currentEntity) {
       this.wikiPage.render();
     }
+    if (this.wikiIndex?.isOpen) this.wikiIndex.render();
+
+    // The address has to follow the switch, or copying it would hand someone a
+    // link that opens in the other language: ?lang wins over the stored choice
+    // at startup (docs/I18N_ARHITECTURA.md §6.3), which is what makes a shared
+    // link reproduce the language it was shared in.
+    this.router?.syncStateNow({ lang: i18n.getLanguage() });
+  }
+
+  // ── routing ────────────────────────────────────────────────────────────────
+  //
+  // One direction only: the interface calls openEntity(), which writes the
+  // address; the router reads the address and calls applyRoute(), which applies
+  // it. Nothing below applyRoute() ever writes the address, which is what keeps
+  // a navigation from re-entering itself.
+
+  /**
+   * The navigation entry point for selecting an entity, from anywhere.
+   *
+   * A place becomes /harta/:locationId, as the route table specifies. Anything
+   * else stays on the map route — the summary panel opens over the map, which
+   * is what the app has always done — and records itself in `?sel=`, because
+   * /harta/:locationId cannot carry a character and the acceptance criterion is
+   * that the address reproduces the state, not most of it.
+   *
+   * `view: null` clears the inherited viewBox so applyRoute() flies to the new
+   * selection rather than honouring the previous view; the flight's result is
+   * written back by syncMapState() when it settles.
+   */
+  openEntity(entity) {
+    if (!entity || !this.router) return;
+    const kind = entityKind(entity, this.dataManager);
+    if (kind === 'location') {
+      this.router.navigate({ name: 'map', params: { locationId: entity.id } },
+        { state: { selection: null, view: null } });
+      return;
+    }
+    this.router.navigate(MAP_ROUTE, {
+      state: { selection: kind ? { kind, id: entity.id } : null, view: null }
+    });
+  }
+
+  /** Apply a resolved route. Called by the router — on load, on a navigation and on popstate. */
+  applyRoute(route, { state, initial } = {}) {
+    if (route.name === 'admin') {
+      // A separate document, not a view of this one.
+      window.location.replace('admin/map-editor.html');
+      return;
+    }
+
+    this.applySharedState(state, { initial });
+
+    if (route.name === 'wikiEntity') {
+      const entity = resolveEntity(route.params.kind, route.params.id, this.dataManager);
+      if (!entity) {
+        // An id that resolves to nothing is a broken link, not a broken app:
+        // say so and show the index rather than an empty page.
+        console.warn(`[router] /wiki/${route.params.kind}/${route.params.id} matches no record.`);
+        this.wikiPage.close();
+        this.wikiIndex.open();
+        return;
+      }
+      this.wikiIndex.close();
+      this.wikiPage.open(entity);
+      return;
+    }
+
+    if (route.name === 'wikiIndex') {
+      this.wikiPage.close();
+      this.wikiIndex.open();
+      return;
+    }
+
+    this.wikiPage.close();
+    this.wikiIndex.close();
+    this.applyMapSelection(route, state);
+  }
+
+  /** Year, filters and camera — the part of the address every route carries. */
+  applySharedState(state, { initial } = {}) {
+    if (!state) return;
+
+    if (state.lang && i18n.isSupported(state.lang) && state.lang !== i18n.getLanguage()) {
+      i18n.setLanguage(state.lang);
+    }
+
+    if (Number.isFinite(state.year) && state.year !== this.timeline.getYear()) {
+      this.timeline.setYear(state.year);
+    }
+
+    // Filters before the camera: applying them re-renders markers, and the
+    // declutter pass that runs with them reads the view it is decluttering for.
+    const wanted = { leaves: state.offLeaves || [], houses: state.offHouses || [] };
+    const current = this.filterPanel.getHiddenIds();
+    const differs = current.leaves.join(',') !== wanted.leaves.join(',')
+      || current.houses.join(',') !== wanted.houses.join(',');
+    if (initial || differs) {
+      this.filterPanel.applyHiddenIds(wanted);
+      this.applyFilters();
+    }
+
+    if (state.view) this.mapInteraction.setViewBox(state.view.x, state.view.y, state.view.width);
+  }
+
+  /**
+   * Push the panel's whole state into the map at once.
+   *
+   * The panel's three callbacks each push one third of it, which is right when
+   * the reader ticks one box; restoring an address changes all three at once and
+   * needs all three applied whether or not they differ from the default.
+   */
+  applyFilters() {
+    Object.entries(this.filterPanel.filters).forEach(([layer, isVisible]) => {
+      this.mapLayers.toggleLayer(layer, isVisible);
+    });
+    this.mapRenderer.setVisibleLocationIds(this.filterPanel.getVisibleLocationIds());
+    this.mapRenderer.setVisibleHouseIds(this.filterPanel.getVisibleHouseIds());
+  }
+
+  applyMapSelection(route, state) {
+    const selection = route.params.locationId
+      ? { kind: 'location', id: route.params.locationId }
+      : state?.selection || null;
+
+    const entity = selection ? resolveEntity(selection.kind, selection.id, this.dataManager) : null;
+    if (selection && !entity) console.warn(`[router] ${selection.kind}/${selection.id} matches no record.`);
+
+    if (!entity) {
+      this.infoPanel.close();
+      this.mapRenderer.clearHighlight();
+      return;
+    }
+
+    // A viewBox in the address is the state to reproduce. Flying to the entity
+    // would compute a different one and a shared link would not open on the view
+    // it was shared from.
+    this.selectEntity(entity, this.mapTargetFor(entity), { fly: !state?.view });
+  }
+
+  /**
+   * The location the camera should go to for an entity, or null when it has no
+   * place on the map.
+   *
+   * The house seat is read from the entity rather than from a search result, so
+   * restoring `?sel=character:…` from a cold tab resolves exactly as the click
+   * that produced it did.
+   */
+  mapTargetFor(entity) {
+    if (!entity) return null;
+    const kind = entityKind(entity, this.dataManager);
+    if (kind === 'location') return entity;
+
+    const year = this.currentWorldState?.year ?? 1;
+    const fromTimeline = timeline => {
+      if (!Array.isArray(timeline) || !timeline.length) return null;
+      const upToNow = timeline.filter(entry => entry.year <= year);
+      return (upToNow.length ? upToNow[upToNow.length - 1] : timeline[0])?.location || null;
+    };
+    // `membru_al` carries a HOUSE_ prefix on all 631 records that have one.
+    const seatOf = houseId => {
+      const house = houseId ? this.dataManager.getHouse(stripEntityPrefix(houseId)) : null;
+      return house?.seat || house?.city || null;
+    };
+
+    let targetId = null;
+    if (kind === 'house') targetId = entity.seat || entity.city || null;
+    else if (kind === 'character') targetId = fromTimeline(entity.timeline) || seatOf(entity.membru_al || entity.house);
+    else if (kind === 'dragon') targetId = fromTimeline(entity.timeline);
+    // Events, objects and titles have no position of their own; opening one
+    // must not move the camera.
+
+    return targetId ? this.dataManager.getLocation(targetId) || null : null;
+  }
+
+  /** What the address bar should currently say about the map. */
+  currentMapState() {
+    const hidden = this.filterPanel.getHiddenIds();
+    // `selection` and `lang` are deliberately absent: encodeState only writes
+    // the keys it is given, so omitting them leaves what navigate() and the
+    // language switch wrote intact.
+    return {
+      year: this.timeline?.getYear?.() ?? null,
+      view: this.mapInteraction ? { ...this.mapInteraction.viewBox } : null,
+      offLeaves: hidden.leaves,
+      offHouses: hidden.houses
+    };
+  }
+
+  /** Debounced: this is called once per animation frame during a flyTo. */
+  syncMapState() {
+    this.router?.syncState(this.currentMapState());
   }
 
   selectLocation(location) {
     this.selectEntity(location, location);
   }
 
-  selectEntity(entity, location) {
+  selectEntity(entity, location, { fly = true } = {}) {
     // Paper rustle sound on location selection
     if (this.audioManager) this.audioManager.playPaper();
 
@@ -366,6 +536,7 @@ class AtlasApp {
 
     if (location) {
       this.mapRenderer.highlightLocation(location.id);
+      if (!fly) return;
 
       // The rendered position comes from the calibrated catalog and is the only
       // authority for where a marker actually sits. Most locations (327 of 391)

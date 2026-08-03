@@ -20,7 +20,11 @@ const MAX_PARENT_DEPTH = 8;
 // replace these seeds by supplying a normal `path` with no seed method.
 export class DataManager {
   constructor(options = {}) {
-    this.basePath = options.basePath || '';
+    // Root-relative by default: the app is served from '/harta/winterfell' and
+    // '/wiki/character/eddard_stark' as well as from '/', and a relative
+    // 'data/...' would be resolved against the route (P6.1). admin/map-editor.js
+    // still passes '../' explicitly and is unaffected.
+    this.basePath = options.basePath || '/';
     this.data = {
       castles: null,
       cities: null,

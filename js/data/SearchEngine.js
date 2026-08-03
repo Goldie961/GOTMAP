@@ -288,7 +288,13 @@ export class SearchEngine {
     return 0;
   }
 
-  search(query) {
+  /**
+   * @param {string} query
+   * @param {{limit?: number}} options the map's dropdown wants ten; the wiki
+   *        index is a whole page and wants as many as it can show. Defaulted so
+   *        every existing call site keeps its behaviour.
+   */
+  search(query, { limit = 10 } = {}) {
     // Folded once, then compared against terms folded at index time.
     const cleanQuery = normalizeForSearch(query);
     if (!cleanQuery) return [];
@@ -333,6 +339,6 @@ export class SearchEngine {
 
     return Array.from(bestMatches.values())
       .sort((a, b) => b.score - a.score)
-      .slice(0, 10);
+      .slice(0, limit);
   }
 }

@@ -156,13 +156,35 @@
 .wiki-document { max-width: 980px; min-height: calc(100vh - 4rem); margin: 0 auto; padding: 2.5rem clamp(1.25rem, 5vw, 4.5rem); background: radial-gradient(circle at top, var(--parchment-light), var(--parchment)); color: var(--ink); box-shadow: 0 8px 32px rgba(0,0,0,.45); }
 .wiki-toolbar { display: flex; justify-content: flex-end; gap: .6rem; margin-bottom: 1.4rem; }
 .wiki-toolbar button, .wiki-entity-link { border: 1px solid var(--parchment-dark); background: rgba(255,255,255,.35); color: var(--ink); padding: .4rem .65rem; font: 700 .75rem 'Cinzel', serif; cursor: pointer; }
-.wiki-entity-link { padding: 0; border: 0; background: none; color: var(--gold-dark); text-decoration: underline; text-decoration-style: dotted; font-size: inherit; }
+/* Entity links became real anchors in P6.1 so they can be copied and
+   middle-clicked; the rule has to reach them as <a> as well as <button>. */
+.wiki-entity-link, a.wiki-entity-link { padding: 0; border: 0; background: none; color: var(--gold-dark); text-decoration: underline; text-decoration-style: dotted; font-size: inherit; cursor: pointer; }
 .wiki-header { border-bottom: 2px solid var(--gold); padding-bottom: 1.3rem; margin-bottom: 1.7rem; }
 .wiki-header h1 { margin: .1rem 0 .4rem; font: 2.7rem 'Cinzel', serif; }
 .wiki-kicker { margin: 0; color: var(--gold-dark); font: .75rem 'Cinzel', serif; letter-spacing: .11em; text-transform: uppercase; }
 .wiki-aliases { margin: .35rem 0; font-style: italic; color: var(--ink-light); }
 .wiki-identity { display: flex; flex-wrap: wrap; align-items: center; gap: .45rem .8rem; margin-top: 1rem; }
 .wiki-fact { font-size: .9rem; text-transform: capitalize; }
+/* ── /wiki — the encyclopedic index ────────────────────────────────────────
+   Shares the overlay geometry of .wiki-page rather than restating it; only what
+   the index has and an entity page does not is declared here. */
+.wiki-index { position: fixed; inset: 0; z-index: 500; display: none; overflow: auto; background: rgba(31, 21, 15, 0.68); padding: 2rem; }
+.wiki-index.open { display: block; }
+.wiki-index-document { max-width: 980px; min-height: calc(100vh - 4rem); margin: 0 auto; padding: 2.5rem clamp(1.25rem, 5vw, 4.5rem); background: radial-gradient(circle at top, var(--parchment-light), var(--parchment)); color: var(--ink); box-shadow: 0 8px 32px rgba(0,0,0,.45); }
+.wiki-index-header { border-bottom: 2px solid var(--gold); padding-bottom: 1.3rem; margin-bottom: 1.4rem; }
+.wiki-index-header h1 { margin: .1rem 0 .4rem; font: 2.7rem 'Cinzel', serif; }
+.wiki-index-lede { margin: 0; color: var(--ink-light); font-style: italic; }
+.wiki-index-search { width: 100%; padding: .6rem .9rem; border: 1px solid var(--parchment-dark); background: var(--parchment-light); font: 1rem 'Crimson Text', serif; border-radius: 3px; outline: none; }
+.wiki-index-search:focus { border-color: var(--gold); box-shadow: 0 0 5px var(--gold); }
+.wiki-index-kinds { display: flex; flex-wrap: wrap; gap: .4rem; margin: .9rem 0 1.4rem; }
+.wiki-index-kind { display: inline-flex; align-items: center; gap: .4rem; border: 1px solid var(--parchment-dark); background: rgba(255,255,255,.35); color: var(--ink); padding: .35rem .6rem; font: 700 .72rem 'Cinzel', serif; cursor: pointer; }
+.wiki-index-kind[aria-pressed="true"] { border-color: var(--gold); background: rgba(197, 165, 90, .22); }
+.wiki-index-kind-count { color: var(--ink-light); font-weight: 400; font-size: .68rem; }
+.wiki-index-section h2 { display: flex; align-items: baseline; gap: .5rem; margin: 1.6rem 0 .5rem; font: 1.15rem 'Cinzel', serif; border-bottom: 1px solid var(--parchment-dark); padding-bottom: .3rem; }
+.wiki-index-count, .wiki-index-more, .wiki-index-empty { color: var(--ink-light); font-size: .85rem; font-style: italic; }
+.wiki-index-list { list-style: none; margin: .4rem 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: .3rem .9rem; }
+.wiki-index-list li { display: flex; align-items: baseline; gap: .4rem; }
+.wiki-index-badge { color: var(--ink-light); font: .62rem 'Cinzel', serif; text-transform: uppercase; letter-spacing: .06em; }
 /* ── Page navigation ───────────────────────────────────────────────────────
    One link per section that actually rendered. It is built after the sections
    precisely so it cannot advertise an empty one — on a dataset where 1530 of

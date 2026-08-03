@@ -10,13 +10,18 @@
   
   <!-- Premium Fonts (Loaded locally in typography.css) -->
   
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/typography.css">
-  <link rel="stylesheet" href="css/map.css">
-  <link rel="stylesheet" href="css/panels.css">
-  <link rel="stylesheet" href="css/timeline.css">
-  <link rel="stylesheet" href="css/animations.css">
+  <!-- Root-relative, because the same document is served for /harta/winterfell
+       and /wiki/character/eddard_stark (P6.1). A <base href="/"> would have done
+       this in one line, but it also redirects bare-fragment URLs in HTML and
+       inline-style attributes, and js/map/MapAnimations.js:56 sets
+       filter: url(#markerGlowHover) — the marker glows would have resolved
+       against the base and silently stopped rendering. -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/typography.css">
+  <link rel="stylesheet" href="/css/map.css">
+  <link rel="stylesheet" href="/css/panels.css">
+  <link rel="stylesheet" href="/css/timeline.css">
+  <link rel="stylesheet" href="/css/animations.css">
 </head>
 <body>
   <div id="app">
@@ -51,6 +56,6 @@
   </div>
 
   <!-- Bootstrapper Module -->
-  <script type="module" src="js/app.js"></script>
+  <script type="module" src="/js/app.js"></script>
 </body>
 </html>

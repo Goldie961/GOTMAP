@@ -121,6 +121,20 @@ export class Toolbar {
     });
     buttons.appendChild(muteBtn);
 
+    // The only way into /wiki from the interface. Without it the route would be
+    // reachable only by typing the address, which is not a route the reader has.
+    const wikiBtn = createElement('a', 'timeline-play-btn');
+    wikiBtn.innerHTML = '📖';
+    wikiBtn.title = t('toolbar.encyclopedia');
+    wikiBtn.setAttribute('aria-label', t('toolbar.encyclopedia'));
+    wikiBtn.href = window.atlasApp?.router?.href({ name: 'wikiIndex', params: {} }) || '/wiki';
+    wikiBtn.addEventListener('click', event => {
+      if (event.metaKey || event.ctrlKey || event.shiftKey || event.button > 0) return;
+      event.preventDefault();
+      window.atlasApp?.router?.navigate({ name: 'wikiIndex', params: {} });
+    });
+    buttons.appendChild(wikiBtn);
+
     buttons.appendChild(this.createLanguageSwitch());
 
     this.container.appendChild(buttons);
