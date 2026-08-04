@@ -1,4 +1,5 @@
 import { entityKind } from '../router/routes.js';
+import { resolveSeat } from '../utils/entities.js';
 import { stripEntityPrefix } from '../utils/helpers.js';
 
 /**
@@ -54,7 +55,11 @@ export function resolveMapTarget(entity, manager) {
 
   // A house's seat lives at the root after DataManager's compatibility pass,
   // but 152 of them carry it under `metadata` on disk, so both are read.
-  const seatId = entity.seat || entity.city || entity.metadata?.seat || null;
+  // resolveSeat is applied to either: 26 houses store the seat as a list of
+  // provenance records, and `String()` on one of those produced
+  // "[object object],[object object]", which resolved nowhere and silently cost
+  // those houses their map position.
+  const seatId = resolveSeat(entity.seat ?? entity.metadata?.seat).id || entity.city || null;
   const locationId = seatId ? stripEntityPrefix(String(seatId)) : entity.id;
   const location = manager.getLocation?.(locationId);
   if (!location) return null;

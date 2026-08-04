@@ -1,5 +1,5 @@
 import { createElement, formatYear, stripEntityPrefix } from '../utils/helpers.js';
-import { matchesInternId } from '../utils/entities.js';
+import { matchesInternId, resolveSeat } from '../utils/entities.js';
 import { isCharacterEntity, isEventEntity } from '../utils/entityKind.js';
 import { t, displayName, resolveAliases } from '../i18n/index.js';
 import { appendEntityName, markFragmentLanguage } from '../i18n/langBadge.js';
@@ -728,18 +728,22 @@ export class WikiPage {
     const milesPerUnit = manager?.getWorldMilesPerUnit?.();
     if (!manager || !renderer || !milesPerUnit) return box;
 
+    // Houses keep their seat under `metadata` on disk; DataManager lifts a
+    // normalized copy to the root, which is the one to read. 26 of them store it
+    // as a list of provenance records, and getMappableAnchor expects an id.
+    // Declared out here because the proximity list below also excludes the seat:
+    // the nearest place to a house is its own seat, which is not a useful row.
+    const seatId = resolveSeat(entity.seat ?? entity.metadata?.seat).id || entity.city;
+
     let origin = renderer.getLocationCoordinate(entity);
     if (!origin) {
-      // Houses keep their seat under `metadata`; 152 of 229 have one and none has
-      // a root-level `seat`, so the root-only lookup resolved to undefined.
-      const seatId = entity.metadata?.seat || entity.seat || entity.city;
       const anchor = seatId ? manager.getMappableAnchor(seatId) : null;
       if (anchor) origin = renderer.getLocationCoordinate(anchor);
     }
     if (!origin || origin.x == null || origin.y == null) return box;
 
     const places = (manager.getAllLocations() || [])
-      .filter(location => location.id !== entity.id && location.id !== entity.seat)
+      .filter(location => location.id !== entity.id && location.id !== seatId)
       .map(location => ({ location, point: renderer.getLocationCoordinate(location) }))
       .filter(item => item.point)
       .map(item => ({ location: item.location, miles: distanceBetween(origin, item.point) * milesPerUnit }))

@@ -6,7 +6,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { isMappableLocation } from '../js/data/DataManager.js';
 import { SearchEngine } from '../js/data/SearchEngine.js';
-import { normalizeInternIds, toInternIds } from '../js/utils/entities.js';
+import { normalizeInternIds, resolveSeat, toInternIds } from '../js/utils/entities.js';
 import { assessPair, parseDistanceClaim, MILES_PER_LEAGUE } from '../js/data/DistanceClaims.js';
 import { travelTime } from '../js/utils/coordinates.js';
 import { isCharacterEntity, isEventEntity } from '../js/utils/entityKind.js';
@@ -51,10 +51,17 @@ temp.events = [...temp.events, ...temp.essosEvents];
 
 // Keep this in lockstep with DataManager.mapCompatibility. It is intentionally
 // local to make the test exercise the runtime shape rather than raw JSON only.
+const seatFields = entity => {
+  const raw = entity?.seat ?? entity?.metadata?.seat;
+  if (raw === undefined) return {};
+  const { id, sources } = resolveSeat(raw);
+  return { seat: id, seat_sources: sources };
+};
 const mapCompatibility = entity => ({
   ...entity,
   ...entity.metadata,
   ...(Object.hasOwn(entity, 'id_intern') ? { id_intern: toInternIds(entity.id_intern) } : {}),
+  ...seatFields(entity),
   region: entity.region,
   timeline: (entity.type === 'house' && entity.metadata)
     ? (entity.metadata.timeline || [])
@@ -309,6 +316,46 @@ for (const id of capitalsWithoutPin) {
 }
 const suppressedMarkers = getAllLocations().filter(isRenderedByAncestor);
 
+// ── house seats ────────────────────────────────────────────────────────────
+// Assertions. `seat` is string-or-array on disk for the same reason `id_intern`
+// was, and the array form reached the interface as "[OBJECT OBJECT]" and cost 26
+// houses their map position. After mapCompatibility the root field must be a
+// plain id or null, with nothing left that a String() would mangle.
+const seatFailures = [];
+let seatsResolvingToLocation = 0;
+let seatsCarryingSources = 0;
+for (const house of data.houses) {
+  if (!Object.hasOwn(house, 'seat')) continue;
+  if (house.seat !== null && typeof house.seat !== 'string') {
+    seatFailures.push({ check: 'seat is neither string nor null', id: house.id, detail: Array.isArray(house.seat) ? 'array' : typeof house.seat });
+  }
+  if (typeof house.seat === 'string' && /\[object object\]/i.test(house.seat)) {
+    seatFailures.push({ check: 'seat stringified an object', id: house.id, detail: house.seat });
+  }
+  if (!Array.isArray(house.seat_sources)) {
+    seatFailures.push({ check: 'seat_sources is not an array', id: house.id, detail: typeof house.seat_sources });
+  } else if (house.seat_sources.length) {
+    seatsCarryingSources++;
+  }
+  if (house.seat && allLocationIds.has(house.seat)) seatsResolvingToLocation++;
+}
+// The one case the audit names by id: House Blacktyde's seat is an array of two
+// provenance records, and `LOCATION_BLACKTYDE` has to reach the location.
+const blacktyde = data.houses.find(house => house.id === 'blacktyde');
+if (!blacktyde) {
+  seatFailures.push({ check: 'house blacktyde is missing', id: 'blacktyde', detail: 'expected by the seat regression probe' });
+} else {
+  if (blacktyde.seat !== 'blacktyde') {
+    seatFailures.push({ check: 'blacktyde seat did not normalize', id: 'blacktyde', detail: JSON.stringify(blacktyde.seat) });
+  }
+  if (!locationIndex.has(String(blacktyde.seat))) {
+    seatFailures.push({ check: 'blacktyde seat does not resolve to a location', id: 'blacktyde', detail: JSON.stringify(blacktyde.seat) });
+  }
+  if (!blacktyde.seat_sources?.length) {
+    seatFailures.push({ check: 'blacktyde seat provenance was dropped', id: 'blacktyde', detail: 'expected the extraction records' });
+  }
+}
+
 // ── timeline eras ──────────────────────────────────────────────────────────
 // Assertions, not milestone counts. Timeline.setEras silently drops any era
 // whose bounds are not finite, so a malformed record does not throw — it just
@@ -508,6 +555,9 @@ const metrics = [
   { check: 'Locations with parent_id', expected: 'reported', actual: childLocations.length },
   { check: 'Markers suppressed by anchor rule', expected: 'reported', actual: suppressedMarkers.length },
   { check: 'Anchor invariants', expected: '0 failures', actual: anchorFailures.length },
+  { check: 'House seat assertions', expected: '0 failures', actual: seatFailures.length },
+  { check: 'House seats resolving to a location', expected: 'reported', actual: `${seatsResolvingToLocation} / ${data.houses.filter(h => h.seat).length}` },
+  { check: 'House seats carrying provenance', expected: '26 after normalization', actual: seatsCarryingSources },
   { check: 'Timeline eras loaded', expected: '>= 1', actual: Array.isArray(temp.eras) ? temp.eras.length : 'not an array' },
   { check: 'Timeline era assertions', expected: '0 failures', actual: eraFailures.length },
   { check: 'Distance tool assertions', expected: '0 failures', actual: distanceFailures.length },
@@ -539,6 +589,10 @@ if (anchorFailures.length) {
   console.error(`\nAnchor invariants failed (${anchorFailures.length}):`);
   console.table(anchorFailures);
 }
+if (seatFailures.length) {
+  console.error(`\nHouse seat assertions failed (${seatFailures.length}):`);
+  console.table(seatFailures);
+}
 if (eraFailures.length) {
   console.error(`\nTimeline era assertions failed (${eraFailures.length}):`);
   console.table(eraFailures);
@@ -547,7 +601,7 @@ if (distanceFailures.length) {
   console.error(`\nDistance tool assertions failed (${distanceFailures.length}):`);
   console.table(distanceFailures);
 }
-if (predicateFailures.length || i18nFailures.length || anchorFailures.length || eraFailures.length || distanceFailures.length) {
+if (predicateFailures.length || i18nFailures.length || anchorFailures.length || seatFailures.length || eraFailures.length || distanceFailures.length) {
   process.exitCode = 1;
 } else {
   console.log(`\nSmoke test passed: ${entityGroups.reduce((sum, [, entities]) => sum + entities.length, 0)} entities exercised.`);

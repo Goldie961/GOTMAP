@@ -1,5 +1,5 @@
 import { getPolygonBounds, isPointInPolygon } from '../map/RegionSelector.js';
-import { normalizeInternIds, toInternIds } from '../utils/entities.js';
+import { normalizeInternIds, resolveSeat, toInternIds } from '../utils/entities.js';
 
 const MAPPABLE_TYPES = ['castle', 'city', 'town', 'landmark', 'ruins', 'fortress'];
 
@@ -121,6 +121,16 @@ export class DataManager {
     // Compatibility Layer: Reconstruct castles, cities, landmarks, and houses/factions
     // to expose all metadata/timeline/crest properties at the root level.
     const mapLabel = name => String(name || '').split('(')[0].trim() || String(name || '');
+    // Only entities that actually carry a seat get these two fields. Returning
+    // `{ seat: null }` unconditionally would invent a schema field on the 1099
+    // locations and 370 objects/titles that never had one — the same reason
+    // `id_intern` above is spread conditionally.
+    const seatFields = (entity) => {
+      const raw = entity?.seat ?? entity?.metadata?.seat;
+      if (raw === undefined) return {};
+      const { id, sources } = resolveSeat(raw);
+      return { seat: id, seat_sources: sources };
+    };
     const mapCompatibility = (entity) => {
       const mapped = {
         ...entity,
@@ -128,6 +138,12 @@ export class DataManager {
         // Three locations store `id_intern` as an array. Normalizing here means
         // no consumer has to test the type before calling a string method on it.
         ...(Object.hasOwn(entity, 'id_intern') ? { id_intern: toInternIds(entity.id_intern) } : {}),
+        // Same treatment for `seat`, which 26 houses store as a list of
+        // provenance records rather than a string (see resolveSeat). The root
+        // field becomes a plain id or null, and the citations it used to hide
+        // move to `seat_sources`. `metadata.seat` on disk is left untouched: it
+        // stays the source of truth, this is only the runtime projection.
+        ...seatFields(entity),
         // `metadata.region` may contain imported evidence rather than the
         // normalized region id used by the UI. Keep the top-level string.
         region: entity.region,
