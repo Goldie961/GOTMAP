@@ -483,6 +483,67 @@ resolveName(entity, lang):
 **Interzis:** ascunderea entităților fără nume în limba curentă. Un filtru pe limbă ar
 elimina 1749 de locații și personaje din interfața EN. Aceasta este regula fermă a stratului.
 
+### 4.2.1 Excepții de la scară
+
+Scara are o singură premisă: că `name_ro` și `name_en` ale aceleiași înregistrări
+denumesc **același loc**. Când premisa nu ține, pasul 1 devine cel mai prost pas
+posibil — este singurul care afișează un nume greșit *fără* niciun marcaj.
+
+Până la această fază scara nu avea nicio excepție; secțiunea se deschide aici.
+
+#### Excepția 1 — `name_review_status: "contested"`
+
+**Măsurat** (`node scripts/report_bilingual_name_conflicts.mjs`, 2026-08-04, pe
+`data/locations/locations.json` — 1041 înregistrări): 56 de locații au și `name_ro`,
+și `name_en`. **16 dintre perechi nu sunt confirmate ca denumind același loc.**
+
+| id | `name_ro` | `name_en` | ce se ciocnește |
+|---|---|---|---|
+| `kings_landing` | Fortăreața Roșie | King's Landing (Aegonfort) | „Fortăreața Roșie" e nume principal la 6 alte înregistrări |
+| `white_harbor_city` | Gâtul | White Harbor | „Gâtul" e nume principal la `gatul` |
+| `white_harbor` | Portul Alb | New Keep (White Harbor) | „White Harbor" e nume principal la `white_harbor_city` |
+| `fundatura_puricilor` | Fundătura Puricilor | King's Landing | „King's Landing" e nume principal la `kings_landing` |
+| `strada_otelului` | Strada Oțelului | King's Landing | idem |
+| `the_eyrie` | Ținutul Eyrie | The Eyrie | fără urmă structurală; din auditul CRITICAL-1 |
+| `casa_celor_nemuritori` | Casa Celor Nemuritori | House of Dust | idem |
+| `garda_apei_cenusii` | Garda Apei Cenușii | Stone Door | idem |
+
+Cauza este în **date** — despărțirea numelor din P3.2 —, nu în `resolveName()`.
+Reparația numelor este triaj manual (`admin/triage.html`, sursa `contested_name`).
+Ce se repară în cod este numai **comportamentul de afișare până atunci**:
+
+```
+resolveName(entity, lang):
+  0. entity.name_review_status === 'contested'  →  sari direct la pasul 4
+  1. entity[`name_${lang}`]                     →  curat, fără badge
+  ...
+```
+
+Pașii 1, 2 și 3 se sar toți trei, nu doar pasul 1: pasul 3 citește `name_${otherLang}`,
+adică exact celălalt capăt al aceleiași perechi contestate, iar pasul 2 se referă la
+`name` brut, unde ajunge oricum pasul 4 — cu deosebirea că pasul 4 pune badge-ul de
+limbă, iar pasul 2 nu.
+
+**De ce numele brut.** `name` este șirul extras din carte, cu proveniență la nivel de
+pagină. Nu este tradus, deci nu poate fi tradus *greșit*. Pe interfața RO,
+`kings_landing` afișează azi „King's Landing (Aegonfort)" cu badge `EN` în loc de
+„Fortăreața Roșie" fără niciun badge. Primul spune cititorului adevărul și îi arată
+că traducerea lipsește; al doilea îi spunea o informație de canon falsă, prezentată ca
+fapt — exact ce interzice `CLAUDE.md` §5.2.
+
+**Costul, măsurat:** 6 din cele 16 perechi (`fortareata_lui_maegor`, `gatul`,
+`insula_cedrilor`, `marea_fumeganda`, `muscatura`, `turnul_mainii`) se ciocnesc cu o
+înregistrare care este **duplicatul aceluiași loc**, nu un loc diferit — la ele
+traducerea era bună, iar interfața EN pierde temporar numele englezesc. Criteriul de
+coliziune nu poate distinge structural cazul (`white_harbor_city` are exact aceeași
+formă și este greșit), deci alegerea este între a le trimite la triaj și a lăsa 10
+nume greșite pe hartă. Merg la triaj.
+
+Statusul se închide singur: acțiunea `set_names` din triaj îl coboară la `"reviewed"`
+(`triage.py:_apply_set_names`), iar `contested` este singura valoare pe care
+`resolveName()` o ocolește. `name_review_status` și `name_review` se **adaugă** lângă
+`name_ro` / `name_en`, care rămân neatinse (`CLAUDE.md` §5.4).
+
 ### 4.3 Badge-ul de limbă
 
 Un singur mecanism vizual, folosit identic la L2 și L3:

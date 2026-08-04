@@ -83,12 +83,28 @@ export function resolveName(entity, lang) {
   }
   const other = lang === 'ro' ? 'en' : 'ro';
 
+  const raw = rawName(entity);
+  const rawLang = detectLanguage(raw);
+
+  // Third exception to the ladder (§4.2.3). `contested` means triage has not yet
+  // confirmed that name_ro and name_en denote the same place — for 16 locations
+  // they demonstrably do not, and `kings_landing.name_ro` is "Fortăreața Roșie",
+  // a building inside the city. Steps 1–3 all read those fields, so all three are
+  // skipped and resolution drops to the raw extracted string, which carries page
+  // provenance and is therefore wrong about nothing. A correct raw name beats a
+  // confidently mistranslated one; the badge says which language it is in.
+  if (entity.name_review_status === 'contested' && raw) {
+    return {
+      text: raw,
+      lang: rawLang,
+      badgeLang: rawLang === lang || rawLang === 'neutral' ? null : rawLang,
+      source: 'raw:contested'
+    };
+  }
+
   // 1. Written for this language.
   const own = localizedField(entity, 'name', lang);
   if (own) return { text: own, lang, badgeLang: null, source: 'field' };
-
-  const raw = rawName(entity);
-  const rawLang = detectLanguage(raw);
 
   // 2. Same string in both languages — no translation was ever needed.
   if (raw && rawLang === 'neutral') {

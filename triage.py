@@ -210,6 +210,40 @@ def collect_name_shape():
     return items
 
 
+def collect_contested_names():
+    """Records whose `name_ro` / `name_en` pair is not known to denote one place.
+
+    Written by scripts/mark_contested_bilingual_names.py, from the classification
+    in scripts/report_bilingual_name_conflicts.mjs. Detected live off the status
+    field rather than read from a generated list, for the same reason as
+    collect_name_shape: settling a pair takes it out of the queue immediately,
+    and no file can go stale behind it.
+
+    The reviewer settles these with the existing `set_names` action — the form
+    already shows `name`, `name_ro` and `name_en`, and the raw record shown
+    beside it carries the `name_review` block with the conflicting ids. Nothing
+    new is needed in the console for this source.
+    """
+    items = []
+    for category, relative, row in _location_rows():
+        if row.get('name_review_status') != 'contested':
+            continue
+        review = row.get('name_review') or {}
+        hint = review.get('audit_note') or '; '.join(review.get('evidence') or [])
+        items.append({
+            'id': f'contested_name:{row.get("id")}',
+            'source': 'contested_name',
+            'problem': 'nume bilingv contradictoriu',
+            'title': _name_of(row),
+            'entityId': row.get('id'),
+            'category': category,
+            'file': relative,
+            'hint': f'RO „{row.get("name_ro")}" ⇄ EN „{row.get("name_en")}" — {hint}',
+            'conflictsWith': review.get('conflicts_with') or [],
+        })
+    return items
+
+
 def collect_needs_manual_type():
     rows = read_json(REVIEW_DIR / 'needs_manual_type.json', []) or []
     categories = _location_categories()
@@ -312,6 +346,7 @@ def collect_needs_review_md():
 
 
 COLLECTORS = (
+    collect_contested_names,
     collect_needs_manual_type,
     collect_needs_language_review,
     collect_name_shape,
@@ -537,6 +572,13 @@ def _apply_set_names(row, payload):
             touched = True
     if not touched:
         raise ValueError('set_names needs name_ro or name_en')
+    # Settling the pair is what this action means, so it also closes the review
+    # that put the record in the queue. Downgraded rather than removed
+    # (CLAUDE.md §5.4); `name_review` stays as the record of why it was opened.
+    # `contested` is the only value entityName.js diverts on, so this restores
+    # normal resolution — and an undo puts the whole record back, status included.
+    if row.get('name_review_status') == 'contested':
+        row['name_review_status'] = 'reviewed'
     row['triaged_at'] = _now()
 
 

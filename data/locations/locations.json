@@ -14792,7 +14792,17 @@
       "y": 434
     },
     "name_ro": "Ținutul Eyrie",
-    "name_en": "The Eyrie"
+    "name_en": "The Eyrie",
+    "name_review_status": "contested",
+    "name_review": {
+      "reason": "bilingual_name_conflict",
+      "detected_by": "scripts/report_bilingual_name_conflicts.mjs",
+      "detected_at": "2026-08-04",
+      "name_ro_at_detection": "Ținutul Eyrie",
+      "name_en_at_detection": "The Eyrie",
+      "source_doc": "docs/VERIFICARE_FINALA.md CRITICAL-1",
+      "audit_note": "„Ținutul\" = regiunea, nu castelul"
+    }
   },
   {
     "id": "dragonstone",
@@ -28145,7 +28155,35 @@
       "near"
     ],
     "name_ro": "Fortăreața Roșie",
-    "name_en": "King's Landing (Aegonfort)"
+    "name_en": "King's Landing (Aegonfort)",
+    "name_review_status": "contested",
+    "name_review": {
+      "reason": "bilingual_name_conflict",
+      "detected_by": "scripts/report_bilingual_name_conflicts.mjs",
+      "detected_at": "2026-08-04",
+      "name_ro_at_detection": "Fortăreața Roșie",
+      "name_en_at_detection": "King's Landing (Aegonfort)",
+      "conflicts_with": [
+        "cetatea_rosie_fortareata_rosie",
+        "fortareata_rosie_debarcaderul_regelui",
+        "fortareata_rosie_fortareata_lui_maegor",
+        "fortareata_rosie_implicit_locul_scenei_cu_kevan_lannister_varys",
+        "fortareata_rosie_turnul_mainii",
+        "postul_de_paza",
+        "aegonfort"
+      ],
+      "evidence": [
+        "name_ro=\"fortareata rosie\" este nume principal la cetatea_rosie_fortareata_rosie (\"Cetatea Roşie / Fortăreaţa Roşie\")",
+        "name_ro=\"fortareata rosie\" este nume principal la fortareata_rosie_debarcaderul_regelui (\"Fortăreața Roșie / Debarcaderul Regelui\")",
+        "name_ro=\"fortareata rosie\" este nume principal la fortareata_rosie_fortareata_lui_maegor (\"Fortăreața Roșie / Fortăreața lui Maegor\")",
+        "name_ro=\"fortareata rosie\" este nume principal la fortareata_rosie_implicit_locul_scenei_cu_kevan_lannister_varys (\"Fortăreața Roșie (Red Keep) — implicit, locul scenei cu Kevan Lannister/Varys\")",
+        "name_ro=\"fortareata rosie\" este nume principal la fortareata_rosie_turnul_mainii (\"Fortăreața Roșie / Turnul Mâinii\")",
+        "name_ro=\"fortareata rosie\" este nume principal la postul_de_paza (\"Postul de pază (Fortăreața Roșie)\")",
+        "name_en=\"aegonfort\" este nume principal la aegonfort (\"Aegonfort\")"
+      ],
+      "source_doc": "docs/VERIFICARE_FINALA.md CRITICAL-1",
+      "audit_note": "Fortăreața Roșie e o clădire ÎN oraș, nu orașul"
+    }
   },
   {
     "id": "highgarden",
@@ -39423,7 +39461,23 @@
       "scor_total": 0.57
     },
     "name_ro": "Portul Alb",
-    "name_en": "New Keep (White Harbor)"
+    "name_en": "New Keep (White Harbor)",
+    "name_review_status": "contested",
+    "name_review": {
+      "reason": "bilingual_name_conflict",
+      "detected_by": "scripts/report_bilingual_name_conflicts.mjs",
+      "detected_at": "2026-08-04",
+      "name_ro_at_detection": "Portul Alb",
+      "name_en_at_detection": "New Keep (White Harbor)",
+      "conflicts_with": [
+        "white_harbor_city"
+      ],
+      "evidence": [
+        "name_en=\"white harbor\" este nume principal la white_harbor_city (\"White Harbor\")"
+      ],
+      "source_doc": "docs/VERIFICARE_FINALA.md CRITICAL-1",
+      "audit_note": "New Keep e cetatea, Portul Alb e orașul"
+    }
   },
   {
     "id": "oldtown",
@@ -59062,7 +59116,27 @@
       "y": 339.4
     },
     "name_ro": "Gâtul",
-    "name_en": "White Harbor"
+    "name_en": "White Harbor",
+    "name_review_status": "contested",
+    "name_review": {
+      "reason": "bilingual_name_conflict",
+      "detected_by": "scripts/report_bilingual_name_conflicts.mjs",
+      "detected_at": "2026-08-04",
+      "name_ro_at_detection": "Gâtul",
+      "name_en_at_detection": "White Harbor",
+      "conflicts_with": [
+        "gatul",
+        "gatul_moat_cailin",
+        "white_harbor"
+      ],
+      "evidence": [
+        "name_ro=\"gatul\" este nume principal la gatul (\"Gâtul\")",
+        "name_ro=\"gatul\" este nume principal la gatul_moat_cailin (\"Gâtul (The Neck) / Moat Cailin\")",
+        "name_en=\"white harbor\" este nume principal la white_harbor (\"New Keep (White Harbor)\")"
+      ],
+      "source_doc": "docs/VERIFICARE_FINALA.md CRITICAL-1",
+      "audit_note": "Gâtul e o regiune la ~1000 de mile distanță"
+    }
   },
   {
     "id": "gulltown_city",
@@ -118029,7 +118103,17 @@
     "mappable": false,
     "classification_confidence": "medium",
     "name_ro": "Casa Celor Nemuritori",
-    "name_en": "House of Dust"
+    "name_en": "House of Dust",
+    "name_review_status": "contested",
+    "name_review": {
+      "reason": "bilingual_name_conflict",
+      "detected_by": "scripts/report_bilingual_name_conflicts.mjs",
+      "detected_at": "2026-08-04",
+      "name_ro_at_detection": "Casa Celor Nemuritori",
+      "name_en_at_detection": "House of Dust",
+      "source_doc": "docs/VERIFICARE_FINALA.md CRITICAL-1",
+      "audit_note": "este House of the Undying, nu House of Dust"
+    }
   },
   {
     "id": "casa_celor_sapte_felinare",
@@ -132640,7 +132724,21 @@
       "near": []
     },
     "name_ro": "Darul lui Brandon",
-    "name_en": "Brandon's Gift"
+    "name_en": "Brandon's Gift",
+    "name_review_status": "contested",
+    "name_review": {
+      "reason": "bilingual_name_conflict",
+      "detected_by": "scripts/report_bilingual_name_conflicts.mjs",
+      "detected_at": "2026-08-04",
+      "name_ro_at_detection": "Darul lui Brandon",
+      "name_en_at_detection": "Brandon's Gift",
+      "conflicts_with": [
+        "noul_dar"
+      ],
+      "evidence": [
+        "name_ro=\"darul lui brandon\" este nume principal la noul_dar (\"Noul Dar (Darul lui Brandon)\")"
+      ]
+    }
   },
   {
     "id": "dealul_chiciurii",
@@ -140544,7 +140642,21 @@
     "mappable": true,
     "classification_confidence": "high",
     "name_ro": "Fortăreața lui Maegor",
-    "name_en": "Maegor's Holdfast"
+    "name_en": "Maegor's Holdfast",
+    "name_review_status": "contested",
+    "name_review": {
+      "reason": "bilingual_name_conflict",
+      "detected_by": "scripts/report_bilingual_name_conflicts.mjs",
+      "detected_at": "2026-08-04",
+      "name_ro_at_detection": "Fortăreața lui Maegor",
+      "name_en_at_detection": "Maegor's Holdfast",
+      "conflicts_with": [
+        "fortareata_rosie_fortareata_lui_maegor"
+      ],
+      "evidence": [
+        "name_ro=\"fortareata lui maegor\" este nume principal la fortareata_rosie_fortareata_lui_maegor (\"Fortăreața Roșie / Fortăreața lui Maegor\")"
+      ]
+    }
   },
   {
     "id": "fortareata_oaspetilor",
@@ -142313,7 +142425,23 @@
     "mappable": false,
     "classification_confidence": "high",
     "name_ro": "Fundătura Puricilor",
-    "name_en": "King's Landing"
+    "name_en": "King's Landing",
+    "name_review_status": "contested",
+    "name_review": {
+      "reason": "bilingual_name_conflict",
+      "detected_by": "scripts/report_bilingual_name_conflicts.mjs",
+      "detected_at": "2026-08-04",
+      "name_ro_at_detection": "Fundătura Puricilor",
+      "name_en_at_detection": "King's Landing",
+      "conflicts_with": [
+        "kings_landing"
+      ],
+      "evidence": [
+        "name_en=\"king's landing\" este nume principal la kings_landing (\"King's Landing (Aegonfort)\")"
+      ],
+      "source_doc": "docs/VERIFICARE_FINALA.md CRITICAL-1",
+      "audit_note": "Flea Bottom ≠ orașul"
+    }
   },
   {
     "id": "furca_albastra_a_tridentului",
@@ -143136,7 +143264,17 @@
       ]
     },
     "name_ro": "Garda Apei Cenușii",
-    "name_en": "Stone Door"
+    "name_en": "Stone Door",
+    "name_review_status": "contested",
+    "name_review": {
+      "reason": "bilingual_name_conflict",
+      "detected_by": "scripts/report_bilingual_name_conflicts.mjs",
+      "detected_at": "2026-08-04",
+      "name_ro_at_detection": "Garda Apei Cenușii",
+      "name_en_at_detection": "Stone Door",
+      "source_doc": "docs/VERIFICARE_FINALA.md CRITICAL-1",
+      "audit_note": "perechi complet nelegate"
+    }
   },
   {
     "id": "garda_cenusie",
@@ -144120,7 +144258,24 @@
     "mappable": true,
     "classification_confidence": "high",
     "name_ro": "Gâtul",
-    "name_en": "The Neck"
+    "name_en": "The Neck",
+    "name_review_status": "contested",
+    "name_review": {
+      "reason": "bilingual_name_conflict",
+      "detected_by": "scripts/report_bilingual_name_conflicts.mjs",
+      "detected_at": "2026-08-04",
+      "name_ro_at_detection": "Gâtul",
+      "name_en_at_detection": "The Neck",
+      "conflicts_with": [
+        "gatul_moat_cailin",
+        "the_neck"
+      ],
+      "evidence": [
+        "name_ro=\"gatul\" este nume principal la gatul_moat_cailin (\"Gâtul (The Neck) / Moat Cailin\")",
+        "name_en=\"the neck\" este nume principal la the_neck (\"The Neck\")",
+        "name_en=\"the neck\" este nume principal la gatul_moat_cailin (\"Gâtul (The Neck) / Moat Cailin\")"
+      ]
+    }
   },
   {
     "id": "gatul_dragonului",
@@ -153303,7 +153458,22 @@
     "mappable": true,
     "classification_confidence": "high",
     "name_ro": "Insula Cedrilor",
-    "name_en": "Isle of Cedars"
+    "name_en": "Isle of Cedars",
+    "name_review_status": "contested",
+    "name_review": {
+      "reason": "bilingual_name_conflict",
+      "detected_by": "scripts/report_bilingual_name_conflicts.mjs",
+      "detected_at": "2026-08-04",
+      "name_ro_at_detection": "Insula Cedrilor",
+      "name_en_at_detection": "Isle of Cedars",
+      "conflicts_with": [
+        "insula_cedrilor_numita_si_insula_celor_o_suta_de_batalii_poreclita_de_victarion_insula_maimutelor"
+      ],
+      "evidence": [
+        "name_ro=\"insula cedrilor\" este nume principal la insula_cedrilor_numita_si_insula_celor_o_suta_de_batalii_poreclita_de_victarion_insula_maimutelor (\"Insula Cedrilor (Isle of Cedars) — numită și „Insula celor o Sută de Bătălii\" (istoric) / poreclită de Victarion „Insula Maimuțelor\")",
+        "name_en=\"isle of cedars\" este nume principal la insula_cedrilor_numita_si_insula_celor_o_suta_de_batalii_poreclita_de_victarion_insula_maimutelor (\"Insula Cedrilor (Isle of Cedars) — numită și „Insula celor o Sută de Bătălii\" (istoric) / poreclită de Victarion „Insula Maimuțelor\")"
+      ]
+    }
   },
   {
     "id": "insula_cedrilor_numita_si_insula_celor_o_suta_de_batalii_poreclita_de_victarion_insula_maimutelor",
@@ -155689,7 +155859,21 @@
     "mappable": true,
     "classification_confidence": "high",
     "name_ro": "Insula Ursului",
-    "name_en": "Bear Island"
+    "name_en": "Bear Island",
+    "name_review_status": "contested",
+    "name_review": {
+      "reason": "bilingual_name_conflict",
+      "detected_by": "scripts/report_bilingual_name_conflicts.mjs",
+      "detected_at": "2026-08-04",
+      "name_ro_at_detection": "Insula Ursului",
+      "name_en_at_detection": "Bear Island",
+      "conflicts_with": [
+        "bear_island"
+      ],
+      "evidence": [
+        "name_en=\"bear island\" este nume principal la bear_island (\"Mormont Keep (Bear Island)\")"
+      ]
+    }
   },
   {
     "id": "insula_visenya",
@@ -161413,7 +161597,21 @@
       ]
     },
     "name_ro": "Marea Fumegândă",
-    "name_en": "Smoking Sea"
+    "name_en": "Smoking Sea",
+    "name_review_status": "contested",
+    "name_review": {
+      "reason": "bilingual_name_conflict",
+      "detected_by": "scripts/report_bilingual_name_conflicts.mjs",
+      "detected_at": "2026-08-04",
+      "name_ro_at_detection": "Marea Fumegândă",
+      "name_en_at_detection": "Smoking Sea",
+      "conflicts_with": [
+        "marea_fumeganda_valyria"
+      ],
+      "evidence": [
+        "name_ro=\"marea fumeganda\" este nume principal la marea_fumeganda_valyria (\"Marea Fumegândă / Valyria\")"
+      ]
+    }
   },
   {
     "id": "marea_fumeganda_valyria",
@@ -167590,7 +167788,21 @@
     "mappable": true,
     "classification_confidence": "high",
     "name_ro": "Mușcătura",
-    "name_en": "The Bite"
+    "name_en": "The Bite",
+    "name_review_status": "contested",
+    "name_review": {
+      "reason": "bilingual_name_conflict",
+      "detected_by": "scripts/report_bilingual_name_conflicts.mjs",
+      "detected_at": "2026-08-04",
+      "name_ro_at_detection": "Mușcătura",
+      "name_en_at_detection": "The Bite",
+      "conflicts_with": [
+        "the_bite"
+      ],
+      "evidence": [
+        "name_en=\"the bite\" este nume principal la the_bite (\"The Bite\")"
+      ]
+    }
   },
   {
     "id": "neprecizat",
@@ -203320,7 +203532,23 @@
     "mappable": false,
     "classification_confidence": "high",
     "name_ro": "Strada Oțelului",
-    "name_en": "King's Landing"
+    "name_en": "King's Landing",
+    "name_review_status": "contested",
+    "name_review": {
+      "reason": "bilingual_name_conflict",
+      "detected_by": "scripts/report_bilingual_name_conflicts.mjs",
+      "detected_at": "2026-08-04",
+      "name_ro_at_detection": "Strada Oțelului",
+      "name_en_at_detection": "King's Landing",
+      "conflicts_with": [
+        "kings_landing"
+      ],
+      "evidence": [
+        "name_en=\"king's landing\" este nume principal la kings_landing (\"King's Landing (Aegonfort)\")"
+      ],
+      "source_doc": "docs/VERIFICARE_FINALA.md CRITICAL-1",
+      "audit_note": "stradă în oraș ≠ orașul"
+    }
   },
   {
     "id": "strada_razboaielor_de_tesut",
@@ -215161,7 +215389,21 @@
     "parent_id": "kings_landing",
     "classification_confidence": "high",
     "name_ro": "Turnul Mâinii",
-    "name_en": "Tower of the Hand"
+    "name_en": "Tower of the Hand",
+    "name_review_status": "contested",
+    "name_review": {
+      "reason": "bilingual_name_conflict",
+      "detected_by": "scripts/report_bilingual_name_conflicts.mjs",
+      "detected_at": "2026-08-04",
+      "name_ro_at_detection": "Turnul Mâinii",
+      "name_en_at_detection": "Tower of the Hand",
+      "conflicts_with": [
+        "fortareata_rosie_turnul_mainii"
+      ],
+      "evidence": [
+        "name_ro=\"turnul mainii\" este nume principal la fortareata_rosie_turnul_mainii (\"Fortăreața Roșie / Turnul Mâinii\")"
+      ]
+    }
   },
   {
     "id": "turnul_marii",
