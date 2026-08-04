@@ -343,7 +343,9 @@
         "source_fragment": null,
         "source_page": "12,16,227,262–263"
       }
-    ]
+    ],
+    "deprecated": true,
+    "superseded_by": "dragon/balerion"
   },
   {
     "id": "barda_executarii_lui_karstark",
@@ -667,7 +669,9 @@
         "source_fragment": null,
         "source_page": null
       }
-    ]
+    ],
+    "deprecated": true,
+    "superseded_by": "dragon/cannibal"
   },
   {
     "id": "carte_artefact",
@@ -2393,7 +2397,9 @@
         "source_fragment": 2,
         "source_page": "182–186,227,233,244,262"
       }
-    ]
+    ],
+    "deprecated": true,
+    "superseded_by": "dragon/dreamfyre"
   },
   {
     "id": "dreapta_fecioara",
@@ -3363,7 +3369,9 @@
     "categorie": null,
     "material": null,
     "owned_by": [],
-    "sursa": null
+    "sursa": null,
+    "deprecated": true,
+    "superseded_by": "dragon/meraxes"
   },
   {
     "id": "mijloc_de_deplasare_implicat",
@@ -4987,7 +4995,9 @@
         "source_fragment": null,
         "source_page": "208"
       }
-    ]
+    ],
+    "deprecated": true,
+    "superseded_by": "dragon/silverwing"
   },
   {
     "id": "sora_intunecata",
@@ -5476,7 +5486,9 @@
         "source_fragment": null,
         "source_page": "198,205–206"
       }
-    ]
+    ],
+    "deprecated": true,
+    "superseded_by": "dragon/vermithor"
   },
   {
     "id": "vhagar",
@@ -5484,7 +5496,9 @@
     "categorie": null,
     "material": null,
     "owned_by": [],
-    "sursa": null
+    "sursa": null,
+    "deprecated": true,
+    "superseded_by": "dragon/vhagar"
   },
   {
     "id": "victoria_de_fier",

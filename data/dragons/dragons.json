@@ -3,61 +3,3006 @@
     "id": "balerion",
     "name_ro": "Balerion",
     "name_en": "Balerion",
-    "riders": [{ "character_id": "aegon_i", "from_year": -2, "to_year": 37, "confidence": "canon", "sources": [{ "source_file": "data/dragons/dragons.json", "confidence": "canon" }] }],
-    "birth": { "year": -114, "location_id": "valyria", "confidence": "canon", "sources": [{ "source_file": "data/dragons/dragons.json", "confidence": "canon" }] },
-    "death": { "year": null, "location_id": null, "confidence": "unknown", "sources": [{ "event_id": "balerion_moare_la_varsta_inaintata", "source_file": "data/events/events.json", "source_book": "Focul și sângele", "source_page": "374", "confidence": "canon" }], "note": "The legacy dragon record and the dated event disagree on the year; no year is resolved here." },
-    "events": [
-      { "event_id": "burning_harrenhal", "confidence": "canon", "sources": [{ "event_id": "burning_harrenhal", "source_file": "data/events/events.json", "url": "https://awoiaf.westeros.org/index.php/Burning_of_Harrenhal", "confidence": "canon" }] },
-      { "event_id": "field_of_fire", "confidence": "canon", "sources": [{ "event_id": "field_of_fire", "source_file": "data/events/events.json", "url": "https://awoiaf.westeros.org/index.php/Field_of_Fire", "confidence": "canon" }] }
+    "riders": [
+      {
+        "character_id": "aegon_i_targaryen",
+        "from_year": -2,
+        "to_year": 37,
+        "confidence": "inferred",
+        "sources": [
+          {
+            "source_file": "data/dragons/dragons.json",
+            "confidence": "canon",
+            "note": "stub P7.4, fara carte/pagina"
+          }
+        ]
+      }
     ],
-    "sources": [{ "source_file": "data/dragons/dragons.json", "confidence": "canon" }]
+    "birth": {
+      "year": -114,
+      "location_id": "valyria",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "source_file": "data/dragons/dragons.json",
+          "confidence": "canon",
+          "note": "stub P7.4, fara carte/pagina"
+        }
+      ]
+    },
+    "death": {
+      "year": 98,
+      "location_id": null,
+      "confidence": "canon",
+      "sources": [
+        {
+          "event_id": "balerion_moare_la_varsta_inaintata",
+          "source_file": "data/events/events.json",
+          "source_book": "Focul și sângele",
+          "source_page": "374",
+          "confidence": "canon"
+        }
+      ]
+    },
+    "events": [
+      {
+        "event_id": "burning_harrenhal",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "burning_harrenhal",
+            "source_file": "data/events/events.json",
+            "source_book": "Fire & Blood",
+            "source_page": "Aegon's Conquest",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "field_of_fire",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "field_of_fire",
+            "source_file": "data/events/events.json",
+            "source_book": "Fire & Blood",
+            "source_page": "Aegon's Conquest",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "aegon_a_coborat_asupra_insulelor_de_fier_calare_pe_balerion_sustinut_de_flote_di",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "aegon_a_coborat_asupra_insulelor_de_fier_calare_pe_balerion_sustinut_de_flote_di",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "37",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "aegon_a_inconjurat_harrenhal_alaturi_de_edmyn_tully_si_lorzii_riverani",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "aegon_a_inconjurat_harrenhal_alaturi_de_edmyn_tully_si_lorzii_riverani",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "19–22",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "aenys_il_obliga_pe_maegor_sa_aleaga_intre_renuntarea_la_alys_harroway_sau_5_ani_",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "aenys_il_obliga_pe_maegor_sa_aleaga_intre_renuntarea_la_alys_harroway_sau_5_ani_",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "80",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "balerion_moare_la_varsta_inaintata",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "balerion_moare_la_varsta_inaintata",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "374",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "balerion_mutat_definitiv_la_groapa_dragonului",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "balerion_mutat_definitiv_la_groapa_dragonului",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "283–284",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "balerion_se_intoarce_la_debarcaderul_regelui_aducand_o_pe_aerea_aproape_moarta_d",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "balerion_se_intoarce_la_debarcaderul_regelui_aducand_o_pe_aerea_aproape_moarta_d",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "275–276",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "batalia_campiilor_de_foc",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "batalia_campiilor_de_foc",
+            "source_file": "data/events/events.json",
+            "source_book": "Urzeala tronurilor",
+            "source_page": "123–124",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "cei_doi_anunta_ca_magister_illyrio_i_a_trimis_sa_o_gaseasca_pe_dany_si_s_o_duca_",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "cei_doi_anunta_ca_magister_illyrio_i_a_trimis_sa_o_gaseasca_pe_dany_si_s_o_duca_",
+            "source_file": "data/events/events.json",
+            "source_book": "Încleștarea regilor",
+            "source_page": "nespecificat",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "dany_il_palmuieste_pe_jorah_furioasa_pe_conditiile_de_la_astapor_si_pe_apropiere",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "dany_il_palmuieste_pe_jorah_furioasa_pe_conditiile_de_la_astapor_si_pe_apropiere",
+            "source_file": "data/events/events.json",
+            "source_book": "Iureșul săbiilor",
+            "source_page": "265",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "dany_se_masturbeaza_noaptea_e_surprinsa_de_irri_care_ii_ofera_placere",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "dany_se_masturbeaza_noaptea_e_surprinsa_de_irri_care_ii_ofera_placere",
+            "source_file": "data/events/events.json",
+            "source_book": "Iureșul săbiilor",
+            "source_page": "265",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "deria_i_a_inmanat_lui_aegon_o_scrisoare_pecetluita_numai_pentru_ochii_regelui",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "deria_i_a_inmanat_lui_aegon_o_scrisoare_pecetluita_numai_pentru_ochii_regelui",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "48",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "flota_navigheaza_de_la_qarth_spre_pentos",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "flota_navigheaza_de_la_qarth_spre_pentos",
+            "source_file": "data/events/events.json",
+            "source_book": "Iureșul săbiilor",
+            "source_page": "91-104",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "fuge_din_piatra_dragonului_calare_pe_balerion",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "fuge_din_piatra_dragonului_calare_pe_balerion",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "256–257, 260–264",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "incendierea_septului_aducerii_aminte_cu_foc_de_dragon",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "incendierea_septului_aducerii_aminte_cu_foc_de_dragon",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "90",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "la_salciile_plangatoare_doi_dintre_fiii_lui_harren_au_traversat_lacul_in_corabii",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "la_salciile_plangatoare_doi_dintre_fiii_lui_harren_au_traversat_lacul_in_corabii",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "19",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "moartea_printesei_de_o_febra_cu_creaturi_iesite_din_trupul_ei",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "moartea_printesei_de_o_febra_cu_creaturi_iesite_din_trupul_ei",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "276–283",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "orys_baratheon_si_ceilalti_lorzi_capturati_pe_drumul_oaselor_au_fost_rascumparat",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "orys_baratheon_si_ceilalti_lorzi_capturati_pe_drumul_oaselor_au_fost_rascumparat",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "42–43",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "prima_confruntare_intre_dragoni_de_la_urgia_valyriei",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "prima_confruntare_intre_dragoni_de_la_urgia_valyriei",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "102–104",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "toate_castelele_din_dorne_arse_de_cate_trei_ori",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "toate_castelele_din_dorne_arse_de_cate_trei_ori",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "44–45",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "viserys_il_ia_pe_balerion_si_zboara_de_trei_ori_in_jurul_orasului",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "viserys_il_ia_pe_balerion_si_zboara_de_trei_ori_in_jurul_orasului",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "373",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "aegon_burns_volantene_fleet",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "aegon_burns_volantene_fleet",
+            "source_file": "data/events/events.json",
+            "source_book": "The World of Ice and Fire",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "source_file": "data/dragons/dragons.json",
+        "confidence": "canon"
+      },
+      {
+        "source_file": "data/objects/objects.json",
+        "source_book": "Foc și Sânge",
+        "source_page": "12,16,227,262–263",
+        "source_fragment": null,
+        "confidence": "canon"
+      }
+    ],
+    "descrieri": [
+      "[dragonul lui Aegon, cel mai mare dintre cei trei, unul dintre cei cinci dragoni originari care au zburat din Valyria cu Aenar Surghiunitul, singurul supraviețuitor din acel grup până în vremea lui Aegon.] — Fragment 1.1 [Balerion (Teroarea Neagră)** — dragonul lui Maegor cel Crud, cel mai mare și bătrân dragon existent; luat de Aerea la fuga ei.] — Fragment 2.2 [cel mai mare și mai bătrân dintre cei trei dragoni călăriți de Aegon Cuceritorul și surorile lui; singurul care venise pe Piatra Dragonului odată cu Aenar Surghiunitul și Daenys Visătoarea (cel mai tânăr dintre cei cinci dragoni aduși atunci); probabil singura creatură vie care a văzut Valyria înainte de Urgie.] — Fragment 2.3 [Balerion Spaima Neagră** — menționat ca fostul cel mai mare dragon al Casei Targaryen, mort înaintea lui Vhagar (care i-a urmat ca cel mai masiv dragon rămas).] — Fragment 4.2"
+    ],
+    "migrated_from": "object/balerion"
   },
   {
     "id": "vhagar",
     "name_ro": "Vhagar",
     "name_en": "Vhagar",
-    "riders": [{ "character_id": "visenya_targaryen", "from_year": -2, "to_year": 44, "confidence": "canon", "sources": [{ "source_file": "data/dragons/dragons.json", "confidence": "canon" }] }],
-    "birth": { "year": -51, "location_id": "dragonstone", "confidence": "canon", "sources": [{ "source_file": "data/dragons/dragons.json", "confidence": "canon" }] },
-    "death": { "year": 130, "location_id": "gods_eye", "confidence": "canon", "sources": [{ "event_id": "aemond_si_alys_sosesc_la_harrenhal", "source_file": "data/events/events.json", "source_book": "Focul și sângele", "source_page": "567-570", "confidence": "canon" }] },
-    "events": [
-      { "event_id": "battle_gulltown", "confidence": "canon", "sources": [{ "event_id": "battle_gulltown", "source_file": "data/events/events.json", "url": "https://awoiaf.westeros.org/index.php/Battle_of_Gulltown", "confidence": "canon" }] },
-      { "event_id": "field_of_fire", "confidence": "canon", "sources": [{ "event_id": "field_of_fire", "source_file": "data/events/events.json", "url": "https://awoiaf.westeros.org/index.php/Field_of_Fire", "confidence": "canon" }] },
-      { "event_id": "aemond_si_alys_sosesc_la_harrenhal", "confidence": "canon", "sources": [{ "event_id": "aemond_si_alys_sosesc_la_harrenhal", "source_file": "data/events/events.json", "source_book": "Focul și sângele", "source_page": "567-570", "confidence": "canon" }] }
+    "riders": [
+      {
+        "character_id": "visenya_targaryen",
+        "from_year": -2,
+        "to_year": 44,
+        "confidence": "inferred",
+        "sources": [
+          {
+            "source_file": "data/dragons/dragons.json",
+            "confidence": "canon",
+            "note": "stub P7.4, fara carte/pagina"
+          }
+        ]
+      }
     ],
-    "sources": [{ "source_file": "data/dragons/dragons.json", "confidence": "canon" }]
+    "birth": {
+      "year": -51,
+      "location_id": "dragonstone",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "source_file": "data/dragons/dragons.json",
+          "confidence": "canon",
+          "note": "stub P7.4, fara carte/pagina"
+        }
+      ]
+    },
+    "death": {
+      "year": 130,
+      "location_id": "gods_eye",
+      "confidence": "canon",
+      "sources": [
+        {
+          "event_id": "aemond_si_alys_sosesc_la_harrenhal",
+          "source_file": "data/events/events.json",
+          "source_book": "Focul și sângele",
+          "source_page": "567-570",
+          "confidence": "canon"
+        }
+      ]
+    },
+    "events": [
+      {
+        "event_id": "battle_gulltown",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "battle_gulltown",
+            "source_file": "data/events/events.json",
+            "source_book": "Fire & Blood",
+            "source_page": "Aegon's Conquest",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "field_of_fire",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "field_of_fire",
+            "source_file": "data/events/events.json",
+            "source_book": "Fire & Blood",
+            "source_page": "Aegon's Conquest",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "submission_vale",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "submission_vale",
+            "source_file": "data/events/events.json",
+            "source_book": "Fire & Blood",
+            "source_page": "Aegon's Conquest",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "aegon_a_atacat_skyreach_visenya_si_vhagar_au_atacat_starfall_iar_rhaenys_si_mera",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "aegon_a_atacat_skyreach_visenya_si_vhagar_au_atacat_starfall_iar_rhaenys_si_mera",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "44",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "aemond_devasteaza_tinuturile_riverane_cu_foc_lovind_salcia_batrana_salcia_alba_c",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "aemond_devasteaza_tinuturile_riverane_cu_foc_lovind_salcia_batrana_salcia_alba_c",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "542",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "aemond_liber_de_orice_comanda_parjoleste_sistematic_sate_si_castele_din_tinuturi",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "aemond_liber_de_orice_comanda_parjoleste_sistematic_sate_si_castele_din_tinuturi",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "538",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "aemond_si_alys_sosesc_la_harrenhal",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "aemond_si_alys_sosesc_la_harrenhal",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "567-570",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "batalia_campiilor_de_foc",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "batalia_campiilor_de_foc",
+            "source_file": "data/events/events.json",
+            "source_book": "Urzeala tronurilor",
+            "source_page": "123–124",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "cei_doi_anunta_ca_magister_illyrio_i_a_trimis_sa_o_gaseasca_pe_dany_si_s_o_duca_",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "cei_doi_anunta_ca_magister_illyrio_i_a_trimis_sa_o_gaseasca_pe_dany_si_s_o_duca_",
+            "source_file": "data/events/events.json",
+            "source_book": "Încleștarea regilor",
+            "source_page": "nespecificat",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "daemon_si_nettles_se_instaleaza_la_iazul_fecioarelor_patruleaza_zilnic_cautandu_",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "daemon_si_nettles_se_instaleaza_la_iazul_fecioarelor_patruleaza_zilnic_cautandu_",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "550-551",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "loveste_teasta_de_piatra_salcia_dulce_sallydance_transforma_podul_bataia_sagetii",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "loveste_teasta_de_piatra_salcia_dulce_sallydance_transforma_podul_bataia_sagetii",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "549-551",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "meleys_ataca_popasul_corbilor_e_lovita_de_arme_de_asediu",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "meleys_ataca_popasul_corbilor_e_lovita_de_arme_de_asediu",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "490–493",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "morion_martell_planuieste_invazia_tinuturilor_furtunii_pe_mare",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "morion_martell_planuieste_invazia_tinuturilor_furtunii_pe_mare",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "348–350",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "toate_castelele_din_dorne_arse_de_cate_trei_ori",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "toate_castelele_din_dorne_arse_de_cate_trei_ori",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "44–45",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "source_file": "data/dragons/dragons.json",
+        "confidence": "canon"
+      }
+    ],
+    "migrated_from": "object/vhagar"
   },
   {
     "id": "meraxes",
     "name_ro": "Meraxes",
     "name_en": "Meraxes",
-    "riders": [{ "character_id": "rhaenys_targaryen", "from_year": -2, "to_year": 10, "confidence": "canon", "sources": [{ "source_file": "data/dragons/dragons.json", "confidence": "canon" }] }],
-    "birth": { "year": -52, "location_id": "dragonstone", "confidence": "canon", "sources": [{ "source_file": "data/dragons/dragons.json", "confidence": "canon" }] },
-    "death": { "year": 10, "location_id": "hellholt", "confidence": "canon", "sources": [{ "event_id": "aegon_a_atacat_skyreach_visenya_si_vhagar_au_atacat_starfall_iar_rhaenys_si_mera", "source_file": "data/events/events.json", "source_book": "Focul și sângele", "source_page": "44", "confidence": "canon" }] },
-    "events": [
-      { "event_id": "battle_last_storm", "confidence": "canon", "sources": [{ "event_id": "battle_last_storm", "source_file": "data/events/events.json", "url": "https://awoiaf.westeros.org/index.php/Last_Storm", "confidence": "canon" }] },
-      { "event_id": "field_of_fire", "confidence": "canon", "sources": [{ "event_id": "field_of_fire", "source_file": "data/events/events.json", "url": "https://awoiaf.westeros.org/index.php/Field_of_Fire", "confidence": "canon" }] },
-      { "event_id": "aegon_a_atacat_skyreach_visenya_si_vhagar_au_atacat_starfall_iar_rhaenys_si_mera", "confidence": "canon", "sources": [{ "event_id": "aegon_a_atacat_skyreach_visenya_si_vhagar_au_atacat_starfall_iar_rhaenys_si_mera", "source_file": "data/events/events.json", "source_book": "Focul și sângele", "source_page": "44", "confidence": "canon" }] }
+    "riders": [
+      {
+        "character_id": "rhaenys_targaryen",
+        "from_year": -2,
+        "to_year": 10,
+        "confidence": "inferred",
+        "sources": [
+          {
+            "source_file": "data/dragons/dragons.json",
+            "confidence": "canon",
+            "note": "stub P7.4, fara carte/pagina"
+          }
+        ]
+      }
     ],
-    "sources": [{ "source_file": "data/dragons/dragons.json", "confidence": "canon" }]
+    "birth": {
+      "year": -52,
+      "location_id": "dragonstone",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "source_file": "data/dragons/dragons.json",
+          "confidence": "canon",
+          "note": "stub P7.4, fara carte/pagina"
+        }
+      ]
+    },
+    "death": {
+      "year": 10,
+      "location_id": "hellholt",
+      "confidence": "canon",
+      "sources": [
+        {
+          "event_id": "aegon_a_atacat_skyreach_visenya_si_vhagar_au_atacat_starfall_iar_rhaenys_si_mera",
+          "source_file": "data/events/events.json",
+          "source_book": "Focul și sângele",
+          "source_page": "44",
+          "confidence": "canon"
+        }
+      ]
+    },
+    "events": [
+      {
+        "event_id": "battle_last_storm",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "battle_last_storm",
+            "source_file": "data/events/events.json",
+            "source_book": "Fire & Blood",
+            "source_page": "Aegon's Conquest",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "field_of_fire",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "field_of_fire",
+            "source_file": "data/events/events.json",
+            "source_book": "Fire & Blood",
+            "source_page": "Aegon's Conquest",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "dorne_resistance",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "dorne_resistance",
+            "source_file": "data/events/events.json",
+            "source_book": "Fire & Blood",
+            "source_page": "Aegon's Conquest",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "aegon_a_atacat_skyreach_visenya_si_vhagar_au_atacat_starfall_iar_rhaenys_si_mera",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "aegon_a_atacat_skyreach_visenya_si_vhagar_au_atacat_starfall_iar_rhaenys_si_mera",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "44",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "argilac_a_atacat_pozitiile_intarite_ale_lui_orys_baratheon_pe_dealurile_de_la_mi",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "argilac_a_atacat_pozitiile_intarite_ale_lui_orys_baratheon_pe_dealurile_de_la_mi",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "22–24",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "batalia_campiilor_de_foc",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "batalia_campiilor_de_foc",
+            "source_file": "data/events/events.json",
+            "source_book": "Urzeala tronurilor",
+            "source_page": "123–124",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "cei_doi_anunta_ca_magister_illyrio_i_a_trimis_sa_o_gaseasca_pe_dany_si_s_o_duca_",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "cei_doi_anunta_ca_magister_illyrio_i_a_trimis_sa_o_gaseasca_pe_dany_si_s_o_duca_",
+            "source_file": "data/events/events.json",
+            "source_book": "Încleștarea regilor",
+            "source_page": "nespecificat",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "nymor_a_trimis_o_solie_la_debarcaderul_regelui_condusa_de_fiica_sa_deria_cu_cran",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "nymor_a_trimis_o_solie_la_debarcaderul_regelui_condusa_de_fiica_sa_deria_cu_cran",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "47",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "rhaenys_si_dragonul_ei_meraxes_au_fost_ucisi_in_dorne",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "rhaenys_si_dragonul_ei_meraxes_au_fost_ucisi_in_dorne",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "55, 61",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "source_file": "data/dragons/dragons.json",
+        "confidence": "canon"
+      }
+    ],
+    "migrated_from": "object/meraxes"
   },
   {
     "id": "caraxes",
     "name_ro": "Caraxes",
     "name_en": "Caraxes",
-    "riders": [{ "character_id": "daemon_targaryen", "from_year": 130, "to_year": 130, "confidence": "inferred", "sources": [{ "event_id": "aemond_si_alys_sosesc_la_harrenhal", "source_file": "data/events/events.json", "source_book": "Focul și sângele", "source_page": "567-570", "confidence": "canon" }] }],
-    "birth": { "year": null, "location_id": null, "confidence": "unknown", "sources": [] },
-    "death": { "year": 130, "location_id": "gods_eye", "confidence": "canon", "sources": [{ "event_id": "aemond_si_alys_sosesc_la_harrenhal", "source_file": "data/events/events.json", "source_book": "Focul și sângele", "source_page": "567-570", "confidence": "canon" }] },
-    "events": [{ "event_id": "aemond_si_alys_sosesc_la_harrenhal", "confidence": "canon", "sources": [{ "event_id": "aemond_si_alys_sosesc_la_harrenhal", "source_file": "data/events/events.json", "source_book": "Focul și sângele", "source_page": "567-570", "confidence": "canon" }] }],
-    "sources": [{ "event_id": "aemond_si_alys_sosesc_la_harrenhal", "source_file": "data/events/events.json", "source_book": "Focul și sângele", "source_page": "567-570", "confidence": "canon" }]
+    "riders": [
+      {
+        "character_id": "daemon_targaryen",
+        "from_year": 130,
+        "to_year": 130,
+        "confidence": "inferred",
+        "sources": [
+          {
+            "event_id": "aemond_si_alys_sosesc_la_harrenhal",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "567-570",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "birth": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "death": {
+      "year": 130,
+      "location_id": "gods_eye",
+      "confidence": "canon",
+      "sources": [
+        {
+          "event_id": "aemond_si_alys_sosesc_la_harrenhal",
+          "source_file": "data/events/events.json",
+          "source_book": "Focul și sângele",
+          "source_page": "567-570",
+          "confidence": "canon"
+        }
+      ]
+    },
+    "events": [
+      {
+        "event_id": "aemond_si_alys_sosesc_la_harrenhal",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "aemond_si_alys_sosesc_la_harrenhal",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "567-570",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "daemon_si_nettles_se_instaleaza_la_iazul_fecioarelor_patruleaza_zilnic_cautandu_",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "daemon_si_nettles_se_instaleaza_la_iazul_fecioarelor_patruleaza_zilnic_cautandu_",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "550-551",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "incepe_campania_militara_propriu_zisa_a_dansului_dragonilor",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "incepe_campania_militara_propriu_zisa_a_dansului_dragonilor",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "476",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "morion_martell_planuieste_invazia_tinuturilor_furtunii_pe_mare",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "morion_martell_planuieste_invazia_tinuturilor_furtunii_pe_mare",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "348–350",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "event_id": "aemond_si_alys_sosesc_la_harrenhal",
+        "source_file": "data/events/events.json",
+        "source_book": "Focul și sângele",
+        "source_page": "567-570",
+        "confidence": "canon"
+      }
+    ]
   },
   {
     "id": "syrax",
     "name_ro": "Syrax",
     "name_en": "Syrax",
-    "riders": [{ "character_id": "rhaenyra_targaryen", "from_year": 130, "to_year": 130, "confidence": "inferred", "sources": [{ "event_id": "capture_kl_rhaenyra", "source_file": "data/events/events.json", "url": "https://awoiaf.westeros.org/index.php/Rhaenyra_Targaryen", "confidence": "canon" }] }],
-    "birth": { "year": null, "location_id": null, "confidence": "unknown", "sources": [] },
-    "death": { "year": null, "location_id": null, "confidence": "unknown", "sources": [] },
-    "events": [{ "event_id": "capture_kl_rhaenyra", "confidence": "canon", "sources": [{ "event_id": "capture_kl_rhaenyra", "source_file": "data/events/events.json", "url": "https://awoiaf.westeros.org/index.php/Rhaenyra_Targaryen", "confidence": "canon" }] }],
-    "sources": [{ "event_id": "capture_kl_rhaenyra", "source_file": "data/events/events.json", "url": "https://awoiaf.westeros.org/index.php/Rhaenyra_Targaryen", "confidence": "canon" }]
+    "riders": [
+      {
+        "character_id": "rhaenyra_targaryen",
+        "from_year": 130,
+        "to_year": 130,
+        "confidence": "inferred",
+        "sources": [
+          {
+            "event_id": "capture_kl_rhaenyra",
+            "source_file": "data/events/events.json",
+            "url": "https://awoiaf.westeros.org/index.php/Rhaenyra_Targaryen",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "birth": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "death": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "events": [
+      {
+        "event_id": "capture_kl_rhaenyra",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "capture_kl_rhaenyra",
+            "source_file": "data/events/events.json",
+            "source_book": "Fire & Blood",
+            "source_page": "Rhaenyra the Queen",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "conform_legendei_populare_pastorul_a_ramas_singur_in_fata_dragonului_syrax_si_l_",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "conform_legendei_populare_pastorul_a_ramas_singur_in_fata_dragonului_syrax_si_l_",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "594",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "corlys_cade_grav_bolnav",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "corlys_cade_grav_bolnav",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "437",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "joffrey_sare_pe_syrax_fara_sa_sperand_sa_ajunga_la_groapa_dragonului",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "joffrey_sare_pe_syrax_fara_sa_sperand_sa_ajunga_la_groapa_dragonului",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "583-586",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "multimea_patrunde_prin_intrarile_mai_putin_fortificate",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "multimea_patrunde_prin_intrarile_mai_putin_fortificate",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "585-593",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "rhaenyra_ramane_la_debarcaderul_regelui_cu_syrax_si_fiii_ei",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "rhaenyra_ramane_la_debarcaderul_regelui_cu_syrax_si_fiii_ei",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "544",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "event_id": "capture_kl_rhaenyra",
+        "source_file": "data/events/events.json",
+        "url": "https://awoiaf.westeros.org/index.php/Rhaenyra_Targaryen",
+        "confidence": "canon"
+      }
+    ]
+  },
+  {
+    "id": "vermithor",
+    "name_ro": "Vermithor",
+    "name_en": "Vermithor",
+    "riders": [
+      {
+        "character_id": "hugh_ciocanul",
+        "from_year": null,
+        "to_year": null,
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "cautarea_de_noi_calareti_pentru_dragonii_fara_stapan_din_piatra_dragonului",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "497–504",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "birth": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "death": {
+      "year": null,
+      "location_id": null,
+      "confidence": "canon",
+      "sources": [
+        {
+          "event_id": "dans_lupta_in_vazduh",
+          "source_file": "data/events/events.json",
+          "source_book": "Focul și sângele",
+          "source_page": "602–605",
+          "confidence": "canon"
+        }
+      ]
+    },
+    "events": [
+      {
+        "event_id": "atac_nocturn_surprinzator_incendiere_de_corturi_si_oras_partial",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "atac_nocturn_surprinzator_incendiere_de_corturi_si_oras_partial",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "599–609",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "cautarea_de_noi_calareti_pentru_dragonii_fara_stapan_din_piatra_dragonului",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "cautarea_de_noi_calareti_pentru_dragonii_fara_stapan_din_piatra_dragonului",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "497–504",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "dans_lupta_in_vazduh",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "dans_lupta_in_vazduh",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "602–605",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "flota_triarhiei_ataca_driftmark",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "flota_triarhiei_ataca_driftmark",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "504–507",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "incercari_esuate_de_a_incaleca_dragoni_salbatici_soldate_cu_morti",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "incercari_esuate_de_a_incaleca_dragoni_salbatici_soldate_cu_morti",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "498–499",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "jaehaerys_si_alysanne_au_zburat_pe_dragonii_lor_la_piatra_dragonului",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "jaehaerys_si_alysanne_au_zburat_pe_dragonii_lor_la_piatra_dragonului",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "157, 161, 162, 166",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "morion_martell_planuieste_invazia_tinuturilor_furtunii_pe_mare",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "morion_martell_planuieste_invazia_tinuturilor_furtunii_pe_mare",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "348–350",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "oastea_reginei_lupta_curajos_dar_e_rapusa_de_arcasii_si_cavaleria_lui_ormund",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "oastea_reginei_lupta_curajos_dar_e_rapusa_de_arcasii_si_cavaleria_lui_ormund",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "548-550",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "regina_alyssa_si_cei_doi_copii_mici_ai_ei_au_evadat_din_piatra_dragonului_cu_dra",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "regina_alyssa_si_cei_doi_copii_mici_ai_ei_au_evadat_din_piatra_dragonului_cu_dra",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "111–112",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "source_file": "data/objects/objects.json",
+        "source_book": "Foc și Sânge",
+        "source_page": "198,205–206",
+        "source_fragment": null,
+        "confidence": "canon"
+      }
+    ],
+    "descrieri": [
+      "dragonul regelui Jaehaerys, solzi aramii, hrănit cu bou în curtea Fortăreței Roșii"
+    ],
+    "migrated_from": "object/vermithor"
+  },
+  {
+    "id": "silverwing",
+    "name_ro": "Silverwing",
+    "name_en": "Silverwing",
+    "riders": [
+      {
+        "character_id": "ulf_cel_alb",
+        "from_year": null,
+        "to_year": null,
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "cautarea_de_noi_calareti_pentru_dragonii_fara_stapan_din_piatra_dragonului",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "497–504",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "birth": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "death": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "events": [
+      {
+        "event_id": "cautarea_de_noi_calareti_pentru_dragonii_fara_stapan_din_piatra_dragonului",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "cautarea_de_noi_calareti_pentru_dragonii_fara_stapan_din_piatra_dragonului",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "497–504",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "dans_lupta_in_vazduh",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "dans_lupta_in_vazduh",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "602–605",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "flota_triarhiei_ataca_driftmark",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "flota_triarhiei_ataca_driftmark",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "504–507",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "jaehaerys_si_alysanne_au_zburat_pe_dragonii_lor_la_piatra_dragonului",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "jaehaerys_si_alysanne_au_zburat_pe_dragonii_lor_la_piatra_dragonului",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "157, 161, 162, 166",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "oastea_reginei_lupta_curajos_dar_e_rapusa_de_arcasii_si_cavaleria_lui_ormund",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "oastea_reginei_lupta_curajos_dar_e_rapusa_de_arcasii_si_cavaleria_lui_ormund",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "548-550",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "regina_alyssa_si_cei_doi_copii_mici_ai_ei_au_evadat_din_piatra_dragonului_cu_dra",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "regina_alyssa_si_cei_doi_copii_mici_ai_ei_au_evadat_din_piatra_dragonului_cu_dra",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "111–112",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "source_file": "data/objects/objects.json",
+        "source_book": "Foc și Sânge",
+        "source_page": "208",
+        "source_fragment": null,
+        "confidence": "canon"
+      }
+    ],
+    "descrieri": [
+      "dragonul reginei Alysanne"
+    ],
+    "migrated_from": "object/silverwing"
+  },
+  {
+    "id": "seasmoke",
+    "name_ro": "Seasmoke",
+    "name_en": "Seasmoke",
+    "riders": [
+      {
+        "character_id": "addam_din_hull",
+        "from_year": null,
+        "to_year": null,
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "atac_nocturn_surprinzator_incendiere_de_corturi_si_oras_partial",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "599–609",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "birth": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "death": {
+      "year": null,
+      "location_id": null,
+      "confidence": "canon",
+      "sources": [
+        {
+          "event_id": "dans_lupta_in_vazduh",
+          "source_file": "data/events/events.json",
+          "source_book": "Focul și sângele",
+          "source_page": "602–605",
+          "confidence": "canon"
+        }
+      ]
+    },
+    "events": [
+      {
+        "event_id": "atac_nocturn_surprinzator_incendiere_de_corturi_si_oras_partial",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "atac_nocturn_surprinzator_incendiere_de_corturi_si_oras_partial",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "599–609",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "cautarea_de_noi_calareti_pentru_dragonii_fara_stapan_din_piatra_dragonului",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "cautarea_de_noi_calareti_pentru_dragonii_fara_stapan_din_piatra_dragonului",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "497–504",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "consiliul_negru_pune_la_indoiala_loialitatea_lui_addam_si_nettles",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "consiliul_negru_pune_la_indoiala_loialitatea_lui_addam_si_nettles",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "556-557",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "dans_lupta_in_vazduh",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "dans_lupta_in_vazduh",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "602–605",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "flota_triarhiei_ataca_driftmark",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "flota_triarhiei_ataca_driftmark",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "504–507",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "incercari_esuate_de_a_incaleca_dragoni_salbatici_soldate_cu_morti",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "incercari_esuate_de_a_incaleca_dragoni_salbatici_soldate_cu_morti",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "498–499",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "event_id": "atac_nocturn_surprinzator_incendiere_de_corturi_si_oras_partial",
+        "source_file": "data/events/events.json",
+        "source_book": "Focul și sângele",
+        "source_page": "599–609",
+        "confidence": "canon"
+      }
+    ]
+  },
+  {
+    "id": "sunfyre",
+    "name_ro": "Sunfyre",
+    "name_en": "Sunfyre",
+    "riders": [
+      {
+        "character_id": "aegon_ii_targaryen",
+        "from_year": null,
+        "to_year": null,
+        "confidence": "inferred",
+        "sources": [
+          {
+            "event_id": "meleys_ataca_popasul_corbilor_e_lovita_de_arme_de_asediu",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "490–493",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "birth": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "death": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "events": [
+      {
+        "event_id": "lordul_mooton_conduce_un_atac_pentru_a_ucide_dragonul_ranit_sunfyre_langa_popasu",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "lordul_mooton_conduce_un_atac_pentru_a_ucide_dragonul_ranit_sunfyre_langa_popasu",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "511–512",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "lupta_in_vazduh_inaintea_zorilor",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "lupta_in_vazduh_inaintea_zorilor",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "615–617",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "meleys_ataca_popasul_corbilor_e_lovita_de_arme_de_asediu",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "meleys_ataca_popasul_corbilor_e_lovita_de_arme_de_asediu",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "490–493",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "rhaenyra_oferita_drept_hrana_dragonului_sunfyre_de_catre_fratele_ei_vitreg",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "rhaenyra_oferita_drept_hrana_dragonului_sunfyre_de_catre_fratele_ei_vitreg",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "617–621",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "event_id": "lordul_mooton_conduce_un_atac_pentru_a_ucide_dragonul_ranit_sunfyre_langa_popasu",
+        "source_file": "data/events/events.json",
+        "source_book": "Focul și sângele",
+        "source_page": "511–512",
+        "confidence": "canon"
+      }
+    ]
+  },
+  {
+    "id": "moondancer",
+    "name_ro": "Moondancer",
+    "name_en": "Moondancer",
+    "riders": [
+      {
+        "character_id": "baela_targaryen",
+        "from_year": null,
+        "to_year": null,
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "baela_s_a_avantat_pentru_prima_oara_pe_dragonul_ei",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "554",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "birth": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "death": {
+      "year": null,
+      "location_id": null,
+      "confidence": "canon",
+      "sources": [
+        {
+          "event_id": "lupta_in_vazduh_inaintea_zorilor",
+          "source_file": "data/events/events.json",
+          "source_book": "Focul și sângele",
+          "source_page": "615–617",
+          "confidence": "canon"
+        }
+      ]
+    },
+    "events": [
+      {
+        "event_id": "baela_s_a_avantat_pentru_prima_oara_pe_dragonul_ei",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "baela_s_a_avantat_pentru_prima_oara_pe_dragonul_ei",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "554",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "lupta_in_vazduh_inaintea_zorilor",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "lupta_in_vazduh_inaintea_zorilor",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "615–617",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "event_id": "baela_s_a_avantat_pentru_prima_oara_pe_dragonul_ei",
+        "source_file": "data/events/events.json",
+        "source_book": "Focul și sângele",
+        "source_page": "554",
+        "confidence": "canon"
+      }
+    ]
+  },
+  {
+    "id": "tessarion",
+    "name_ro": "Tessarion",
+    "name_en": "Tessarion",
+    "riders": [],
+    "birth": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "death": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "events": [
+      {
+        "event_id": "atac_nocturn_surprinzator_incendiere_de_corturi_si_oras_partial",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "atac_nocturn_surprinzator_incendiere_de_corturi_si_oras_partial",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "599–609",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "dans_lupta_in_vazduh",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "dans_lupta_in_vazduh",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "602–605",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "oastea_hightower_impresurata_pe_malul_miedului",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "oastea_hightower_impresurata_pe_malul_miedului",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "508",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "oastea_reginei_lupta_curajos_dar_e_rapusa_de_arcasii_si_cavaleria_lui_ormund",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "oastea_reginei_lupta_curajos_dar_e_rapusa_de_arcasii_si_cavaleria_lui_ormund",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "548-550",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "podul_amar_distrus_complet_cu_foc_de_dragon_ca_raspuns_la_moartea_lui_maelor",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "podul_amar_distrus_complet_cu_foc_de_dragon_ca_raspuns_la_moartea_lui_maelor",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "537–538",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "event_id": "atac_nocturn_surprinzator_incendiere_de_corturi_si_oras_partial",
+        "source_file": "data/events/events.json",
+        "source_book": "Focul și sângele",
+        "source_page": "599–609",
+        "confidence": "canon"
+      }
+    ],
+    "note": "Corpusul mentioneaza sosirea lui Tessarion (p.508) fara sa numeasca un calaret. `printul_daeron_targaryen` din characters.json este fiul lui Maekar (~200 AC), nu calaretul din 130 AC."
+  },
+  {
+    "id": "vermax",
+    "name_ro": "Vermax",
+    "name_en": "Vermax",
+    "riders": [
+      {
+        "character_id": "jacaerys_velaryon",
+        "from_year": null,
+        "to_year": null,
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "flota_triarhiei_ataca_driftmark",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "504–507",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "birth": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "death": {
+      "year": 130,
+      "location_id": "defileul",
+      "confidence": "canon",
+      "sources": [
+        {
+          "event_id": "flota_triarhiei_ataca_driftmark",
+          "source_file": "data/events/events.json",
+          "source_book": "Focul și sângele",
+          "source_page": "504–507",
+          "confidence": "canon"
+        }
+      ]
+    },
+    "events": [
+      {
+        "event_id": "flota_triarhiei_ataca_driftmark",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "flota_triarhiei_ataca_driftmark",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "504–507",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "event_id": "flota_triarhiei_ataca_driftmark",
+        "source_file": "data/events/events.json",
+        "source_book": "Focul și sângele",
+        "source_page": "504–507",
+        "confidence": "canon"
+      }
+    ]
+  },
+  {
+    "id": "arrax",
+    "name_ro": "Arrax",
+    "name_en": "Arrax",
+    "riders": [
+      {
+        "character_id": "lucerys_velaryon",
+        "from_year": null,
+        "to_year": null,
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "confruntare_initiala_in_sala_rotunda_a_capatului_furtunii",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "476-480",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "birth": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "death": {
+      "year": 129,
+      "location_id": "storm_end",
+      "confidence": "canon",
+      "sources": [
+        {
+          "event_id": "confruntare_initiala_in_sala_rotunda_a_capatului_furtunii",
+          "source_file": "data/events/events.json",
+          "source_book": "Focul și sângele",
+          "source_page": "476-480",
+          "confidence": "canon"
+        }
+      ]
+    },
+    "events": [
+      {
+        "event_id": "confruntare_initiala_in_sala_rotunda_a_capatului_furtunii",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "confruntare_initiala_in_sala_rotunda_a_capatului_furtunii",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "476-480",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "event_id": "confruntare_initiala_in_sala_rotunda_a_capatului_furtunii",
+        "source_file": "data/events/events.json",
+        "source_book": "Focul și sângele",
+        "source_page": "476-480",
+        "confidence": "canon"
+      }
+    ]
+  },
+  {
+    "id": "tyraxes",
+    "name_ro": "Tyraxes",
+    "name_en": "Tyraxes",
+    "riders": [],
+    "birth": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "death": {
+      "year": null,
+      "location_id": "groapa_dragonului",
+      "confidence": "canon",
+      "sources": [
+        {
+          "event_id": "multimea_patrunde_prin_intrarile_mai_putin_fortificate",
+          "source_file": "data/events/events.json",
+          "source_book": "Focul și sângele",
+          "source_page": "585-593",
+          "confidence": "canon"
+        }
+      ]
+    },
+    "events": [
+      {
+        "event_id": "multimea_patrunde_prin_intrarile_mai_putin_fortificate",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "multimea_patrunde_prin_intrarile_mai_putin_fortificate",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "585-593",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "event_id": "multimea_patrunde_prin_intrarile_mai_putin_fortificate",
+        "source_file": "data/events/events.json",
+        "source_book": "Focul și sângele",
+        "source_page": "585-593",
+        "confidence": "canon"
+      }
+    ]
+  },
+  {
+    "id": "stormcloud",
+    "name_ro": "Stormcloud",
+    "name_en": "Stormcloud",
+    "riders": [
+      {
+        "character_id": "aegon_iii",
+        "from_year": null,
+        "to_year": null,
+        "confidence": "inferred",
+        "sources": [
+          {
+            "event_id": "corabia_si_escorta_ei_capturate_scufundate_de_flota_triarhiei",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "504–505",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "birth": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "death": {
+      "year": null,
+      "location_id": "treptele_de_piatra",
+      "confidence": "canon",
+      "sources": [
+        {
+          "event_id": "corabia_si_escorta_ei_capturate_scufundate_de_flota_triarhiei",
+          "source_file": "data/events/events.json",
+          "source_book": "Focul și sângele",
+          "source_page": "504–505",
+          "confidence": "canon"
+        }
+      ]
+    },
+    "events": [
+      {
+        "event_id": "corabia_si_escorta_ei_capturate_scufundate_de_flota_triarhiei",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "corabia_si_escorta_ei_capturate_scufundate_de_flota_triarhiei",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "504–505",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "event_id": "corabia_si_escorta_ei_capturate_scufundate_de_flota_triarhiei",
+        "source_file": "data/events/events.json",
+        "source_book": "Focul și sângele",
+        "source_page": "504–505",
+        "confidence": "canon"
+      }
+    ]
+  },
+  {
+    "id": "morghul",
+    "name_ro": "Morghul",
+    "name_en": "Morghul",
+    "riders": [],
+    "birth": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "death": {
+      "year": null,
+      "location_id": "groapa_dragonului",
+      "confidence": "canon",
+      "sources": [
+        {
+          "event_id": "multimea_patrunde_prin_intrarile_mai_putin_fortificate",
+          "source_file": "data/events/events.json",
+          "source_book": "Focul și sângele",
+          "source_page": "585-593",
+          "confidence": "canon"
+        }
+      ]
+    },
+    "events": [
+      {
+        "event_id": "multimea_patrunde_prin_intrarile_mai_putin_fortificate",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "multimea_patrunde_prin_intrarile_mai_putin_fortificate",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "585-593",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "event_id": "multimea_patrunde_prin_intrarile_mai_putin_fortificate",
+        "source_file": "data/events/events.json",
+        "source_book": "Focul și sângele",
+        "source_page": "585-593",
+        "confidence": "canon"
+      }
+    ]
+  },
+  {
+    "id": "shrykos",
+    "name_ro": "Shrykos",
+    "name_en": "Shrykos",
+    "riders": [],
+    "birth": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "death": {
+      "year": null,
+      "location_id": "groapa_dragonului",
+      "confidence": "canon",
+      "sources": [
+        {
+          "event_id": "multimea_patrunde_prin_intrarile_mai_putin_fortificate",
+          "source_file": "data/events/events.json",
+          "source_book": "Focul și sângele",
+          "source_page": "585-593",
+          "confidence": "canon"
+        }
+      ]
+    },
+    "events": [
+      {
+        "event_id": "multimea_patrunde_prin_intrarile_mai_putin_fortificate",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "multimea_patrunde_prin_intrarile_mai_putin_fortificate",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "585-593",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "event_id": "multimea_patrunde_prin_intrarile_mai_putin_fortificate",
+        "source_file": "data/events/events.json",
+        "source_book": "Focul și sângele",
+        "source_page": "585-593",
+        "confidence": "canon"
+      }
+    ]
+  },
+  {
+    "id": "dreamfyre",
+    "name_ro": "Dreamfyre",
+    "name_en": "Dreamfyre",
+    "riders": [
+      {
+        "character_id": "rhaena_targaryen",
+        "from_year": null,
+        "to_year": null,
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "rhaena_imprastie_cenusa_fiicei_sale_in_vant_de_pe_dreamfyre",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "284–286",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "birth": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "death": {
+      "year": null,
+      "location_id": "groapa_dragonului",
+      "confidence": "canon",
+      "sources": [
+        {
+          "event_id": "multimea_patrunde_prin_intrarile_mai_putin_fortificate",
+          "source_file": "data/events/events.json",
+          "source_book": "Focul și sângele",
+          "source_page": "585-593",
+          "confidence": "canon"
+        }
+      ]
+    },
+    "events": [
+      {
+        "event_id": "cautarea_aereei_prin_orasul_vechi_highgarden_crakehall_casterly_rock_insula_frum",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "cautarea_aereei_prin_orasul_vechi_highgarden_crakehall_casterly_rock_insula_frum",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "260–262",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "helaena_s_a_aruncat_de_la_fereastra_din_cetatuia_lui_maegor_murind_strapunsa_de_",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "helaena_s_a_aruncat_de_la_fereastra_din_cetatuia_lui_maegor_murind_strapunsa_de_",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "573",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "multimea_patrunde_prin_intrarile_mai_putin_fortificate",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "multimea_patrunde_prin_intrarile_mai_putin_fortificate",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "585-593",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "rhaena_imprastie_cenusa_fiicei_sale_in_vant_de_pe_dreamfyre",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "rhaena_imprastie_cenusa_fiicei_sale_in_vant_de_pe_dreamfyre",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "284–286",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "source_file": "data/objects/objects.json",
+        "source_book": "Foc și Sânge",
+        "source_page": "182–186,227,233,244,262",
+        "source_fragment": 2,
+        "confidence": "canon"
+      }
+    ],
+    "descrieri": [
+      "[dragonul reginei Rhaena, cu cuibar pe Insula Frumoasă] — Fragment 2.1 [Dreamfyre** — dragonul Rhaenei Targaryen.] — Fragment 2.2"
+    ],
+    "migrated_from": "object/dreamfyre"
+  },
+  {
+    "id": "meleys",
+    "name_ro": "Meleys",
+    "name_en": "Meleys",
+    "riders": [],
+    "birth": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "death": {
+      "year": null,
+      "location_id": "insula_corbilor",
+      "confidence": "canon",
+      "sources": [
+        {
+          "event_id": "meleys_ataca_popasul_corbilor_e_lovita_de_arme_de_asediu",
+          "source_file": "data/events/events.json",
+          "source_book": "Focul și sângele",
+          "source_page": "490–493",
+          "confidence": "canon"
+        }
+      ]
+    },
+    "events": [
+      {
+        "event_id": "alyssa_devine_calareata_de_dragon_alegand_o_pe_meleys",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "alyssa_devine_calareata_de_dragon_alegand_o_pe_meleys",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "340",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "cucerirea_popasului_corbilor_executarea_garnizoanei",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "cucerirea_popasului_corbilor_executarea_garnizoanei",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "493",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "meleys_ataca_popasul_corbilor_e_lovita_de_arme_de_asediu",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "meleys_ataca_popasul_corbilor_e_lovita_de_arme_de_asediu",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "490–493",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "event_id": "alyssa_devine_calareata_de_dragon_alegand_o_pe_meleys",
+        "source_file": "data/events/events.json",
+        "source_book": "Focul și sângele",
+        "source_page": "340",
+        "confidence": "canon"
+      }
+    ],
+    "note": "Corpusul numeste Alyssa (Focul si sangele p.340) si Rhaenys (p.490-493) ca fiind legate de Meleys, dar `printesa_alyssa_targaryen` nu exista in characters.json, iar `rhaenys_targaryen` este deja calareata lui Meraxes; un id comun ar contopi doua persoane. Calaret lasat gol, la triaj."
+  },
+  {
+    "id": "cannibal",
+    "name_ro": "Canibalul",
+    "name_en": "Cannibal",
+    "riders": [],
+    "birth": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "death": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "events": [
+      {
+        "event_id": "echipajul_corabiei_nessaria_vede_doi_dragoni_luptandu_se_langa_muntele_dragonulu",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "echipajul_corabiei_nessaria_vede_doi_dragoni_luptandu_se_langa_muntele_dragonulu",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "552-553",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "incercari_esuate_de_a_incaleca_dragoni_salbatici_soldate_cu_morti",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "incercari_esuate_de_a_incaleca_dragoni_salbatici_soldate_cu_morti",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "498–499",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "ramasitele_arse_ale_lui_grey_ghost_gasite_la_poalele_muntelui_dragonului_rupt_in",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "ramasitele_arse_ale_lui_grey_ghost_gasite_la_poalele_muntelui_dragonului_rupt_in",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "553",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "source_file": "data/objects/objects.json",
+        "source_book": "Foc și Sânge",
+        "source_page": null,
+        "source_fragment": null,
+        "confidence": "canon"
+      }
+    ],
+    "descrieri": [
+      "numele dragonului sălbatic asociat cu Corlys Velaryon (zboară deasupra înmormântării lui, posibil doar legendă ulterioară)"
+    ],
+    "migrated_from": "object/cannibal",
+    "note": "Dragon salbatic; corpusul nu ii atribuie niciun calaret."
+  },
+  {
+    "id": "sheepstealer",
+    "name_ro": "Sheepstealer",
+    "name_en": "Sheepstealer",
+    "riders": [
+      {
+        "character_id": "nettles",
+        "from_year": null,
+        "to_year": null,
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "cautarea_de_noi_calareti_pentru_dragonii_fara_stapan_din_piatra_dragonului",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "497–504",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "birth": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "death": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "events": [
+      {
+        "event_id": "cautarea_de_noi_calareti_pentru_dragonii_fara_stapan_din_piatra_dragonului",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "cautarea_de_noi_calareti_pentru_dragonii_fara_stapan_din_piatra_dragonului",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "497–504",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "daemon_si_nettles_se_instaleaza_la_iazul_fecioarelor_patruleaza_zilnic_cautandu_",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "daemon_si_nettles_se_instaleaza_la_iazul_fecioarelor_patruleaza_zilnic_cautandu_",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "550-551",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "flota_triarhiei_ataca_driftmark",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "flota_triarhiei_ataca_driftmark",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "504–507",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "incercari_esuate_de_a_incaleca_dragoni_salbatici_soldate_cu_morti",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "incercari_esuate_de_a_incaleca_dragoni_salbatici_soldate_cu_morti",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "498–499",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "o_armata_de_noua_mii_de_oameni_a_traversat_muntii_lunii_atacata_repetat_de_salba",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "o_armata_de_noua_mii_de_oameni_a_traversat_muntii_lunii_atacata_repetat_de_salba",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "764–767",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "event_id": "cautarea_de_noi_calareti_pentru_dragonii_fara_stapan_din_piatra_dragonului",
+        "source_file": "data/events/events.json",
+        "source_book": "Focul și sângele",
+        "source_page": "497–504",
+        "confidence": "canon"
+      }
+    ]
+  },
+  {
+    "id": "grey_ghost",
+    "name_ro": "Grey Ghost",
+    "name_en": "Grey Ghost",
+    "riders": [],
+    "birth": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "death": {
+      "year": null,
+      "location_id": "muntele_dragonului",
+      "confidence": "canon",
+      "sources": [
+        {
+          "event_id": "ramasitele_arse_ale_lui_grey_ghost_gasite_la_poalele_muntelui_dragonului_rupt_in",
+          "source_file": "data/events/events.json",
+          "source_book": "Focul și sângele",
+          "source_page": "553",
+          "confidence": "canon"
+        }
+      ]
+    },
+    "events": [
+      {
+        "event_id": "echipajul_corabiei_nessaria_vede_doi_dragoni_luptandu_se_langa_muntele_dragonulu",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "echipajul_corabiei_nessaria_vede_doi_dragoni_luptandu_se_langa_muntele_dragonulu",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "552-553",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "ramasitele_arse_ale_lui_grey_ghost_gasite_la_poalele_muntelui_dragonului_rupt_in",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "ramasitele_arse_ale_lui_grey_ghost_gasite_la_poalele_muntelui_dragonului_rupt_in",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "553",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "event_id": "echipajul_corabiei_nessaria_vede_doi_dragoni_luptandu_se_langa_muntele_dragonulu",
+        "source_file": "data/events/events.json",
+        "source_book": "Focul și sângele",
+        "source_page": "552-553",
+        "confidence": "canon"
+      }
+    ],
+    "note": "Dragon salbatic; corpusul nu ii atribuie niciun calaret."
+  },
+  {
+    "id": "drogon",
+    "name_ro": "Drogon",
+    "name_en": "Drogon",
+    "riders": [
+      {
+        "character_id": "daenerys_targaryen",
+        "from_year": null,
+        "to_year": null,
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "dragonul_drogon_apare_in_arena_ucide_oameni_daenerys_il_incaleca_si_pleaca_in_zb",
+            "source_file": "data/events/events.json",
+            "source_book": "Dansul dragonilor",
+            "source_page": "1019, 1028–1029, 1031–1033",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "birth": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "death": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "events": [
+      {
+        "event_id": "casa_celor_nemuritori_a_fost_arsa_distrusa",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "casa_celor_nemuritori_a_fost_arsa_distrusa",
+            "source_file": "data/events/events.json",
+            "source_book": "Încleștarea regilor",
+            "source_page": "nespecificat",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "daenerys_a_fugit_calare_pe_drogon_din_arena",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "daenerys_a_fugit_calare_pe_drogon_din_arena",
+            "source_file": "data/events/events.json",
+            "source_book": "Dansul dragonilor",
+            "source_page": "990–991",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "daenerys_coboara_dealul_rataceste_prin_marea_dothraki_urmand_un_parau_sufera_de_",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "daenerys_coboara_dealul_rataceste_prin_marea_dothraki_urmand_un_parau_sufera_de_",
+            "source_file": "data/events/events.json",
+            "source_book": "Dansul dragonilor",
+            "source_page": "1258–1275",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "daenerys_sare_in_arena_il_controleaza_pe_drogon_cu_biciul_maestrului_de_arena_mo",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "daenerys_sare_in_arena_il_controleaza_pe_drogon_cu_biciul_maestrului_de_arena_mo",
+            "source_file": "data/events/events.json",
+            "source_book": "Dansul dragonilor",
+            "source_page": "942–944",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "dany_are_un_sir_de_viziuni_despre_trecut_viitor_in_lacasul_nemuritorilor",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "dany_are_un_sir_de_viziuni_despre_trecut_viitor_in_lacasul_nemuritorilor",
+            "source_file": "data/events/events.json",
+            "source_book": "Încleștarea regilor",
+            "source_page": "nespecificat",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "dany_construieste_un_rug_funerar_urias_pentru_drogo",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "dany_construieste_un_rug_funerar_urias_pentru_drogo",
+            "source_file": "data/events/events.json",
+            "source_book": "Urzeala tronurilor",
+            "source_page": "827–839",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "dany_cumpara_intreaga_armata_de_nepatati_platind_cu_toate",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "dany_cumpara_intreaga_armata_de_nepatati_platind_cu_toate",
+            "source_file": "data/events/events.json",
+            "source_book": "Iureșul săbiilor",
+            "source_page": "296–301",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "dragonul_drogon_apare_in_arena_ucide_oameni_daenerys_il_incaleca_si_pleaca_in_zb",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "dragonul_drogon_apare_in_arena_ucide_oameni_daenerys_il_incaleca_si_pleaca_in_zb",
+            "source_file": "data/events/events.json",
+            "source_book": "Dansul dragonilor",
+            "source_page": "1019, 1028–1029, 1031–1033",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "drogon_vaneaza_si_ucide_un_cal_dintr_o_herghelie_daenerys_mananca_din_prada_drag",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "drogon_vaneaza_si_ucide_un_cal_dintr_o_herghelie_daenerys_mananca_din_prada_drag",
+            "source_file": "data/events/events.json",
+            "source_book": "Dansul dragonilor",
+            "source_page": "1274–1275",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "la_predarea_trupelor_dany_refuza_sa_l_lase_pe_kraznys_sa_ia_efectiv_dragonul_il_",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "la_predarea_trupelor_dany_refuza_sa_l_lase_pe_kraznys_sa_ia_efectiv_dragonul_il_",
+            "source_file": "data/events/events.json",
+            "source_book": "Iureșul săbiilor",
+            "source_page": "304–307",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "o_iscoada_dothraki_repereaza_dragonul_si_fuge",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "o_iscoada_dothraki_repereaza_dragonul_si_fuge",
+            "source_file": "data/events/events.json",
+            "source_book": "Dansul dragonilor",
+            "source_page": "1274–1276",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "un_barbat_aduce_in_fata_reginei_un_sac_cu_oase_arse_si_rupte_sustinand_ca_umbra_",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "un_barbat_aduce_in_fata_reginei_un_sac_cu_oase_arse_si_rupte_sustinand_ca_umbra_",
+            "source_file": "data/events/events.json",
+            "source_book": "Festinul ciorilor",
+            "source_page": "Fragment 13: pp. 302–304",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "un_barbat_aduce_oasele_unui_copil_ucis_si_mancat_de_un_dragon",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "un_barbat_aduce_oasele_unui_copil_ucis_si_mancat_de_un_dragon",
+            "source_file": "data/events/events.json",
+            "source_book": "Dansul dragonilor",
+            "source_page": "69–70",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "un_barbat_din_multime_infige_o_sulita_de_vanatoare_de_mistreti_in_gatul_lui_drog",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "un_barbat_din_multime_infige_o_sulita_de_vanatoare_de_mistreti_in_gatul_lui_drog",
+            "source_file": "data/events/events.json",
+            "source_book": "Dansul dragonilor",
+            "source_page": "941–942",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "viserion_prins_dupa_ce_a_fost_imbuibat_cu_boi",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "viserion_prins_dupa_ce_a_fost_imbuibat_cu_boi",
+            "source_file": "data/events/events.json",
+            "source_book": "Dansul dragonilor",
+            "source_page": "221–222",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "event_id": "casa_celor_nemuritori_a_fost_arsa_distrusa",
+        "source_file": "data/events/events.json",
+        "source_book": "Încleștarea regilor",
+        "source_page": "nespecificat",
+        "confidence": "canon"
+      }
+    ]
+  },
+  {
+    "id": "rhaegal",
+    "name_ro": "Rhaegal",
+    "name_en": "Rhaegal",
+    "riders": [
+      {
+        "character_id": "daenerys_targaryen",
+        "from_year": null,
+        "to_year": null,
+        "confidence": "inferred",
+        "sources": [
+          {
+            "event_id": "dany_construieste_un_rug_funerar_urias_pentru_drogo",
+            "source_file": "data/events/events.json",
+            "source_book": "Urzeala tronurilor",
+            "source_page": "827–839",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "birth": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "death": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "events": [
+      {
+        "event_id": "dany_construieste_un_rug_funerar_urias_pentru_drogo",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "dany_construieste_un_rug_funerar_urias_pentru_drogo",
+            "source_file": "data/events/events.json",
+            "source_book": "Urzeala tronurilor",
+            "source_page": "827–839",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "dany_il_duce_pe_quentyn_sa_vada_dragonii_viserion_si_rhaegal_il_avertizeaza_asup",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "dany_il_duce_pe_quentyn_sa_vada_dragonii_viserion_si_rhaegal_il_avertizeaza_asup",
+            "source_file": "data/events/events.json",
+            "source_book": "Dansul dragonilor",
+            "source_page": "899–904",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "fetita_a_fost_ucisa_si_mistuita",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "fetita_a_fost_ucisa_si_mistuita",
+            "source_file": "data/events/events.json",
+            "source_book": "Dansul dragonilor",
+            "source_page": "219–221",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "grupul_deghizat_in_fiare_de_bronz_patrunde_prin_portile_laterale_ale_piramidei_f",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "grupul_deghizat_in_fiare_de_bronz_patrunde_prin_portile_laterale_ale_piramidei_f",
+            "source_file": "data/events/events.json",
+            "source_book": "Dansul dragonilor",
+            "source_page": "1206–1216, 1238",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "quentyn_martell_moare_chiar_inainte_de_zori_de_ranile_arsurile_grave_suferite_de",
+        "confidence": "unknown",
+        "sources": [
+          {
+            "event_id": "quentyn_martell_moare_chiar_inainte_de_zori_de_ranile_arsurile_grave_suferite_de",
+            "source_file": "data/events/events.json",
+            "source_book": "Dansul dragonilor",
+            "source_page": "1238–1240, 1244, 1249",
+            "confidence": "unknown"
+          }
+        ]
+      },
+      {
+        "event_id": "viserion_prins_dupa_ce_a_fost_imbuibat_cu_boi",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "viserion_prins_dupa_ce_a_fost_imbuibat_cu_boi",
+            "source_file": "data/events/events.json",
+            "source_book": "Dansul dragonilor",
+            "source_page": "221–222",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "event_id": "dany_construieste_un_rug_funerar_urias_pentru_drogo",
+        "source_file": "data/events/events.json",
+        "source_book": "Urzeala tronurilor",
+        "source_page": "827–839",
+        "confidence": "canon"
+      }
+    ]
+  },
+  {
+    "id": "viserion",
+    "name_ro": "Viserion",
+    "name_en": "Viserion",
+    "riders": [
+      {
+        "character_id": "daenerys_targaryen",
+        "from_year": null,
+        "to_year": null,
+        "confidence": "inferred",
+        "sources": [
+          {
+            "event_id": "dany_construieste_un_rug_funerar_urias_pentru_drogo",
+            "source_file": "data/events/events.json",
+            "source_book": "Urzeala tronurilor",
+            "source_page": "827–839",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "birth": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "death": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "events": [
+      {
+        "event_id": "dany_construieste_un_rug_funerar_urias_pentru_drogo",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "dany_construieste_un_rug_funerar_urias_pentru_drogo",
+            "source_file": "data/events/events.json",
+            "source_book": "Urzeala tronurilor",
+            "source_page": "827–839",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "dany_il_duce_pe_quentyn_sa_vada_dragonii_viserion_si_rhaegal_il_avertizeaza_asup",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "dany_il_duce_pe_quentyn_sa_vada_dragonii_viserion_si_rhaegal_il_avertizeaza_asup",
+            "source_file": "data/events/events.json",
+            "source_book": "Dansul dragonilor",
+            "source_page": "899–904",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "fetita_a_fost_ucisa_si_mistuita",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "fetita_a_fost_ucisa_si_mistuita",
+            "source_file": "data/events/events.json",
+            "source_book": "Dansul dragonilor",
+            "source_page": "219–221",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "grupul_deghizat_in_fiare_de_bronz_patrunde_prin_portile_laterale_ale_piramidei_f",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "grupul_deghizat_in_fiare_de_bronz_patrunde_prin_portile_laterale_ale_piramidei_f",
+            "source_file": "data/events/events.json",
+            "source_book": "Dansul dragonilor",
+            "source_page": "1206–1216, 1238",
+            "confidence": "canon"
+          }
+        ]
+      },
+      {
+        "event_id": "viserion_prins_dupa_ce_a_fost_imbuibat_cu_boi",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "viserion_prins_dupa_ce_a_fost_imbuibat_cu_boi",
+            "source_file": "data/events/events.json",
+            "source_book": "Dansul dragonilor",
+            "source_page": "221–222",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "event_id": "dany_construieste_un_rug_funerar_urias_pentru_drogo",
+        "source_file": "data/events/events.json",
+        "source_book": "Urzeala tronurilor",
+        "source_page": "827–839",
+        "confidence": "canon"
+      }
+    ]
+  },
+  {
+    "id": "quicksilver",
+    "name_ro": "Quicksilver",
+    "name_en": "Quicksilver",
+    "riders": [],
+    "birth": {
+      "year": null,
+      "location_id": null,
+      "confidence": "unknown",
+      "sources": []
+    },
+    "death": {
+      "year": 43,
+      "location_id": "gods_eye",
+      "confidence": "canon",
+      "sources": [
+        {
+          "event_id": "prima_confruntare_intre_dragoni_de_la_urgia_valyriei",
+          "source_file": "data/events/events.json",
+          "source_book": "Focul și sângele",
+          "source_page": "102–104",
+          "confidence": "canon"
+        }
+      ]
+    },
+    "events": [
+      {
+        "event_id": "prima_confruntare_intre_dragoni_de_la_urgia_valyriei",
+        "confidence": "canon",
+        "sources": [
+          {
+            "event_id": "prima_confruntare_intre_dragoni_de_la_urgia_valyriei",
+            "source_file": "data/events/events.json",
+            "source_book": "Focul și sângele",
+            "source_page": "102–104",
+            "confidence": "canon"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "event_id": "prima_confruntare_intre_dragoni_de_la_urgia_valyriei",
+        "source_file": "data/events/events.json",
+        "source_book": "Focul și sângele",
+        "source_page": "102–104",
+        "confidence": "canon"
+      }
+    ],
+    "note": "Textul spune \"Quicksilver ucis de Balerion, Aegon cazut si mort\" (p.102-104). Singurul id apropiat, `aegon_targaryen`, este \"Aegon Targaryen (prunc)\" — alta persoana. Calaret lasat gol, la triaj."
   }
 ]

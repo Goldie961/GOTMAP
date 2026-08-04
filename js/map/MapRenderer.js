@@ -1,4 +1,4 @@
-import { createSVGElement } from '../utils/helpers.js';
+import { createSVGElement, formatYear } from '../utils/helpers.js';
 import { getHouseColor } from '../utils/colors.js';
 import { isLowCompletenessEntity } from '../utils/config.js';
 import { getLocationSubtype } from '../utils/locationSubtypes.js';
@@ -637,7 +637,13 @@ export class MapRenderer {
           transform: `translate(${position.x}, ${position.y})`,
           'data-event-id': record.event.id
         });
-        marker.appendChild(createSVGElement('title', {}, `${label}: ${record.name} — ${record.event.year} AC`));
+        // createSVGElement takes no text argument — it was dropped silently, so
+        // every battle and dragon marker carried an empty <title> and hovering a
+        // pin said nothing. With 26 dragons instead of 5 the tooltip is the only
+        // thing telling two adjacent markers apart.
+        const tooltip = createSVGElement('title');
+        tooltip.textContent = `${label}: ${record.name} — ${formatYear(record.event.year)}`;
+        marker.appendChild(tooltip);
         marker.appendChild(createSVGElement('circle', { r: '8', fill: '#f7edd3', stroke: color, 'stroke-width': '2' }));
         const glyph = createSVGElement('text', { x: '0', y: '3.5', 'text-anchor': 'middle', fill: color, 'font-size': '9', 'font-weight': 'bold' });
         glyph.textContent = className === 'battle-marker' ? '×' : 'D';

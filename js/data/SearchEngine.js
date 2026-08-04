@@ -92,6 +92,13 @@ export class SearchEngine {
     if (dataManager.data.objects) {
       dataManager.data.objects.forEach(obj => {
         if (isLowCompletenessEntity(obj)) return;
+        // Seven dragons were extracted into objects.json as "obiect / ființă
+        // (dragon)" and now live in dragons.json, which carries their riders,
+        // births and deaths. The records stay on disk — nothing is deleted — but
+        // indexing both would put two entries for the same Balerion in the same
+        // dropdown, and `/wiki/object/balerion` beside `/wiki/dragon/balerion`.
+        // The dragon record is the one that wins; this skips the retired twin.
+        if (obj.deprecated && obj.superseded_by) return;
         this.addEntry(obj, { type: 'object', regionId: '', regionName: 'Object' });
       });
     }
