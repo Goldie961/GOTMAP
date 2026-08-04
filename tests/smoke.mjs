@@ -35,7 +35,11 @@ const temp = {
   farLands: readJson('data/essos/far_lands.json'),
   mapCatalog: readJson('data/map/catalog.json'),
   worldFeatures: readJson('data/map/world_features.json'),
-  timeline: readJson('data/timeline/year_1.json')
+  timeline: readJson('data/timeline/year_1.json'),
+  // Read here rather than only where it is asserted: DataManager.loadAll fetches
+  // this file alongside the other sixteen, so a missing or untracked eras.json
+  // has to fail the test the same way it fails a fresh clone in the browser.
+  eras: readJson('data/timeline/eras.json')
 };
 
 // P1.3's 875-event milestone refers to the core event export; Essos adds its
@@ -305,6 +309,39 @@ for (const id of capitalsWithoutPin) {
 }
 const suppressedMarkers = getAllLocations().filter(isRenderedByAncestor);
 
+// ── timeline eras ──────────────────────────────────────────────────────────
+// Assertions, not milestone counts. Timeline.setEras silently drops any era
+// whose bounds are not finite, so a malformed record does not throw — it just
+// disappears from the selector. The failure is invisible in the browser and has
+// to be caught here.
+const eraFailures = [];
+if (!Array.isArray(temp.eras)) {
+  eraFailures.push({ check: 'eras.json is not an array', id: '(file)', detail: typeof temp.eras });
+} else if (temp.eras.length < 1) {
+  eraFailures.push({ check: 'eras.json declares no era', id: '(file)', detail: '0 records' });
+}
+const seenEraIds = new Set();
+for (const era of Array.isArray(temp.eras) ? temp.eras : []) {
+  const id = typeof era?.id === 'string' && era.id ? era.id : null;
+  if (!id) {
+    eraFailures.push({ check: 'era has no string id', id: '(missing id)', detail: JSON.stringify(era?.id ?? null) });
+  } else if (seenEraIds.has(id)) {
+    eraFailures.push({ check: 'duplicate era id', id, detail: 'ids address eras in the selector' });
+  } else {
+    seenEraIds.add(id);
+  }
+  const label = id || '(missing id)';
+  if (!Number.isFinite(era?.start_year)) {
+    eraFailures.push({ check: 'start_year is not a finite number', id: label, detail: JSON.stringify(era?.start_year ?? null) });
+  }
+  if (!Number.isFinite(era?.end_year)) {
+    eraFailures.push({ check: 'end_year is not a finite number', id: label, detail: JSON.stringify(era?.end_year ?? null) });
+  }
+  if (Number.isFinite(era?.start_year) && Number.isFinite(era?.end_year) && era.start_year > era.end_year) {
+    eraFailures.push({ check: 'start_year is after end_year', id: label, detail: `${era.start_year} > ${era.end_year}` });
+  }
+}
+
 // ── distance tool (P7) ─────────────────────────────────────────────────────
 // These are assertions, not milestone counts. The tool makes three promises the
 // data can break silently: that both endpoints of a pair can be *selected* even
@@ -471,6 +508,8 @@ const metrics = [
   { check: 'Locations with parent_id', expected: 'reported', actual: childLocations.length },
   { check: 'Markers suppressed by anchor rule', expected: 'reported', actual: suppressedMarkers.length },
   { check: 'Anchor invariants', expected: '0 failures', actual: anchorFailures.length },
+  { check: 'Timeline eras loaded', expected: '>= 1', actual: Array.isArray(temp.eras) ? temp.eras.length : 'not an array' },
+  { check: 'Timeline era assertions', expected: '0 failures', actual: eraFailures.length },
   { check: 'Distance tool assertions', expected: '0 failures', actual: distanceFailures.length },
   { check: 'Distance endpoints selectable', expected: 'all 237', actual: `${endpointIds.size - unreachableEndpoints.length} / ${endpointIds.size}` },
   { check: 'Distance pairs (resolved, distinct)', expected: 'reported', actual: distancePairs.size },
@@ -500,11 +539,15 @@ if (anchorFailures.length) {
   console.error(`\nAnchor invariants failed (${anchorFailures.length}):`);
   console.table(anchorFailures);
 }
+if (eraFailures.length) {
+  console.error(`\nTimeline era assertions failed (${eraFailures.length}):`);
+  console.table(eraFailures);
+}
 if (distanceFailures.length) {
   console.error(`\nDistance tool assertions failed (${distanceFailures.length}):`);
   console.table(distanceFailures);
 }
-if (predicateFailures.length || i18nFailures.length || anchorFailures.length || distanceFailures.length) {
+if (predicateFailures.length || i18nFailures.length || anchorFailures.length || eraFailures.length || distanceFailures.length) {
   process.exitCode = 1;
 } else {
   console.log(`\nSmoke test passed: ${entityGroups.reduce((sum, [, entities]) => sum + entities.length, 0)} entities exercised.`);
