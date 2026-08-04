@@ -10,3 +10,8 @@ scratch/
 data/_review/triage_journal.jsonl
 data/_review/triage_resolutions.json
 *.tmp
+
+# Pre-transformation snapshots written by the ETL scripts (~40 MB). They are
+# derived copies of files git already versions, so the history is the recovery
+# path; tracking them would duplicate the corpus on every transformation.
+data/_backups/
