@@ -83,6 +83,38 @@
   margin-bottom: 0.1rem;
 }
 
+.timeline-era-control {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--ink-light);
+  font-family: 'Cinzel', serif;
+  font-size: 0.68rem;
+}
+
+.timeline-era-select {
+  max-width: 180px;
+  border: 1px solid var(--gold-dark);
+  border-radius: 2px;
+  background: var(--parchment-light);
+  color: var(--ink);
+  font: inherit;
+  padding: 0.2rem;
+}
+
+.timeline-era-notice {
+  margin: 0;
+  color: var(--ink-light);
+  font-size: 0.72rem;
+  font-style: italic;
+  text-align: center;
+}
+
+.timeline-container.collapsed .timeline-era-control,
+.timeline-container.collapsed .timeline-era-notice {
+  display: none;
+}
+
 .timeline-play-btn,
 .timeline-toggle-btn {
   background: var(--parchment-light);

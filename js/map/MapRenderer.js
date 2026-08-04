@@ -393,6 +393,7 @@ export class MapRenderer {
     this.selectedRegionId = null;
     this.visibleLocationIds = null;
     this.visibleHouseIds = null;
+    this.eventRange = null;
     this._missingCoordinatesKey = null;
     this.disableLabelCulling = false;
     this._labelMeasurementCache = new Map();
@@ -592,9 +593,74 @@ export class MapRenderer {
         this._rafPending = false;
         if (this._pendingWorldState) {
           this.renderLocationMarkers(this._pendingWorldState);
+          this.renderHistoricalEventMarkers();
         }
       });
     }
+  }
+
+  /** The selected timeline era governs event-derived overlays, never locations. */
+  setEventRange(range) {
+    const start = Number(range?.start);
+    const end = Number(range?.end);
+    this.eventRange = Number.isFinite(start) && Number.isFinite(end) ? { start, end } : null;
+    this.renderHistoricalEventMarkers();
+  }
+
+  eventIsInActiveRange(event) {
+    if (!Number.isFinite(event?.year)) return false;
+    return !this.eventRange || (event.year >= this.eventRange.start && event.year <= this.eventRange.end);
+  }
+
+  eventMarkerPosition(event) {
+    const location = window.atlasDataManager?.getMappableAnchor?.(event?.location);
+    return location ? this.getLocationCoordinate(location) : null;
+  }
+
+  renderHistoricalEventMarkers() {
+    if (!this.svg) return;
+    const dataManager = window.atlasDataManager;
+    if (!dataManager) return;
+    const events = dataManager.data.events || [];
+    const render = (layerId, records, className, label, color) => {
+      let group = this.svg.getElementById(`layer-${layerId}`);
+      if (!group) {
+        group = createSVGElement('g', { id: `layer-${layerId}`, class: `historical-markers ${className}` });
+        this.svg.appendChild(group);
+      }
+      group.innerHTML = '';
+      records.forEach(record => {
+        const position = this.eventMarkerPosition(record.event);
+        if (!position) return;
+        const marker = createSVGElement('g', {
+          class: `historical-marker ${className}`,
+          transform: `translate(${position.x}, ${position.y})`,
+          'data-event-id': record.event.id
+        });
+        marker.appendChild(createSVGElement('title', {}, `${label}: ${record.name} — ${record.event.year} AC`));
+        marker.appendChild(createSVGElement('circle', { r: '8', fill: '#f7edd3', stroke: color, 'stroke-width': '2' }));
+        const glyph = createSVGElement('text', { x: '0', y: '3.5', 'text-anchor': 'middle', fill: color, 'font-size': '9', 'font-weight': 'bold' });
+        glyph.textContent = className === 'battle-marker' ? '×' : 'D';
+        marker.appendChild(glyph);
+        group.appendChild(marker);
+      });
+    };
+
+    const battles = events
+      .filter(event => event.type === 'battle' && this.eventIsInActiveRange(event))
+      .map(event => ({ event, name: event.name_ro || event.name || event.id }));
+    render('battles', battles, 'battle-marker', 'Battle', '#8b1e1e');
+
+    const dragonMarkers = [];
+    for (const dragon of dataManager.data.dragons || []) {
+      for (const reference of dragon.events || []) {
+        const event = dataManager.getEvent(reference.event_id);
+        if (event && this.eventIsInActiveRange(event)) {
+          dragonMarkers.push({ event, name: dragon.name_ro || dragon.name_en || dragon.id });
+        }
+      }
+    }
+    render('dragons', dragonMarkers, 'dragon-marker', 'Dragon', '#75420d');
   }
 
   /* ─────────────────────────────────────────────

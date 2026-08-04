@@ -155,6 +155,11 @@
    carries, which is what lets the house filter hide a crest without a re-render. */
 .house-crest-badge.crest-filtered-out { display: none; pointer-events: none; }
 
+.historical-marker { cursor: default; pointer-events: all; }
+.historical-marker text { font-family: 'Cinzel', serif; pointer-events: none; }
+.battle-marker circle { filter: drop-shadow(0 1px 1px rgba(52, 13, 13, .35)); }
+.dragon-marker circle { filter: drop-shadow(0 1px 1px rgba(82, 43, 7, .35)); }
+
 /* Triangulated coordinates are estimates, not confirmed placements. */
 .location-marker.coordinate-triangulated > :not(.marker-hit-area) {
   opacity: 0.58;

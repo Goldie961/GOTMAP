@@ -273,7 +273,13 @@ export class TimelineEngine {
 
 
   resolveDragons(year) {
-    return this.dataManager.data.dragons.filter(d => d.born <= year && d.died >= year).map(d => d.id);
+    return this.dataManager.data.dragons
+      .filter(dragon => {
+        const born = dragon.birth?.year;
+        const died = dragon.death?.year;
+        return Number.isFinite(born) && born <= year && (!Number.isFinite(died) || died >= year);
+      })
+      .map(dragon => dragon.id);
   }
 
   resolveEvents(year) {

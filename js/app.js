@@ -119,6 +119,7 @@ class AtlasApp {
 
     this.timeline = new Timeline('timeline');
     this.timeline.init();
+    this.timeline.setEras(this.dataManager.data.eras);
     this.timeline.renderMinimap(this.dataManager.data.events);
 
     this.distanceTool = new DistanceTool(this.mapRenderer.svg, { dataManager: this.dataManager });
@@ -165,6 +166,11 @@ class AtlasApp {
 
       this.syncMapState();
     });
+
+    // Epochs filter narrative events, including event-derived overlays. Location
+    // markers deliberately stay out of this callback.
+    this.timeline.onEventRangeChange(range => this.mapRenderer.setEventRange(range));
+    this.mapRenderer.setEventRange(this.timeline.getEventRange());
 
     // The map's search decides between two outcomes, and the decision is the
     // same one that put the result under "on the map" or "in the encyclopedia":
@@ -324,6 +330,7 @@ class AtlasApp {
 
     this.timeline.container.innerHTML = '';
     this.timeline.init();
+    this.timeline.setEras(this.dataManager.data.eras);
     this.timeline.renderMinimap(this.dataManager.data.events);
     this.timeline.slider.value = String(year);
     this.timeline.updateDisplay();

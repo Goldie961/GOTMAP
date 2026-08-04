@@ -1,0 +1,44 @@
+[
+  {
+    "id": "age_of_heroes",
+    "start_year": -114,
+    "end_year": 0,
+    "name_ro": "Era Eroilor",
+    "name_en": "Age of Heroes"
+  },
+  {
+    "id": "conquest",
+    "start_year": 1,
+    "end_year": 37,
+    "name_ro": "Cucerirea",
+    "name_en": "The Conquest"
+  },
+  {
+    "id": "targaryen_era",
+    "start_year": 1,
+    "end_year": 282,
+    "name_ro": "Epoca Targaryen",
+    "name_en": "Targaryen Era"
+  },
+  {
+    "id": "dance_of_dragons",
+    "start_year": 129,
+    "end_year": 131,
+    "name_ro": "Dansul Dragonilor",
+    "name_en": "Dance of the Dragons"
+  },
+  {
+    "id": "roberts_rebellion",
+    "start_year": 282,
+    "end_year": 283,
+    "name_ro": "Rebeliunea lui Robert",
+    "name_en": "Robert's Rebellion"
+  },
+  {
+    "id": "narrative_present",
+    "start_year": 284,
+    "end_year": 302,
+    "name_ro": "Prezentul narativ",
+    "name_en": "Narrative Present"
+  }
+]

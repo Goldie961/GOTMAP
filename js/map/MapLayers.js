@@ -120,6 +120,14 @@ export const LAYER_REGISTRY = {
   labels: {
     kind: 'svgLayer', isStaticGeometry: true, entityTypes: [], available: true,
     get label() { return t('layers.labels'); }
+  },
+  dragons: {
+    kind: 'svgLayer', isStaticGeometry: true, entityTypes: ['dragon'], available: true,
+    get label() { return t('layers.dragons'); }
+  },
+  battles: {
+    kind: 'svgLayer', isStaticGeometry: true, entityTypes: ['event'], available: true,
+    get label() { return t('layers.battles'); }
   }
 };
 

@@ -33,6 +33,7 @@ export class DataManager {
       characters: null,
       dragons: null,
       events: null,
+      eras: [],
       objects: null,
       titles: null,
       timeline: {},
@@ -47,6 +48,7 @@ export class DataManager {
       characters: 'data/characters/characters.json',
       dragons: 'data/dragons/dragons.json',
       events: 'data/events/events.json',
+      eras: 'data/timeline/eras.json',
       objects: 'data/objects/objects.json',
       titles: 'data/titles/titles.json',
       distances: 'data/locations/distances.json',
@@ -88,8 +90,17 @@ export class DataManager {
       ...character,
       type: character.type || 'character'
     }));
-    this.data.dragons = temp.dragons.map(normalizeInternIds);
+    // Dragon records use the sourced bilingual schema. These aliases preserve
+    // the small legacy surface consumed by the generic wiki and timeline code;
+    // the JSON remains authoritative through `birth` / `death`.
+    this.data.dragons = temp.dragons.map(dragon => normalizeInternIds({
+      ...dragon,
+      name: dragon.name || dragon.name_ro || dragon.name_en || dragon.id,
+      born: Number.isFinite(dragon.birth?.year) ? dragon.birth.year : null,
+      died: Number.isFinite(dragon.death?.year) ? dragon.death.year : null
+    }));
     this.data.events = temp.events.map(normalizeInternIds);
+    this.data.eras = Array.isArray(temp.eras) ? temp.eras : [];
     // The catalog is the single authoritative registry for world-space
     // coordinates. Keeping a second coordinate export here would silently
     // override reviewed placements and make map calibration non-deterministic.

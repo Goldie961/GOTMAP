@@ -11,18 +11,24 @@ export class Timeline {
     this.playBtn = null;
     this.toggleBtn = null;
     this.tooltip = null;
+    this.eraSelect = null;
 
 
     // Playback step in years per tick (configurable)
     this.playStep = 1;
 
     this.onYearChangeCallback = null;
+    this.onEventRangeChangeCallback = null;
     this.isPlaying = false;
     this.playInterval = null;
 
     // Year range
     this.minYear = 1;
     this.maxYear = 300;
+    this.eventBounds = { min: this.minYear, max: this.maxYear };
+    this.eras = [];
+    this.activeEraId = '';
+    this.events = [];
 
     // Persisted state: collapsed by default (~28px)
     const savedState = localStorage.getItem('got_timeline_state');
@@ -49,6 +55,14 @@ export class Timeline {
     yearDisplay.appendChild(this.kingNameDisplay);
     topRow.appendChild(yearDisplay);
 
+    const eraControl = createElement('label', 'timeline-era-control');
+    eraControl.appendChild(createElement('span', 'timeline-era-label', t('timeline.eraLabel')));
+    this.eraSelect = createElement('select', 'timeline-era-select');
+    this.eraSelect.setAttribute('aria-label', t('timeline.eraLabel'));
+    this.eraSelect.addEventListener('change', () => this.selectEra(this.eraSelect.value));
+    eraControl.appendChild(this.eraSelect);
+    topRow.appendChild(eraControl);
+
     this.toggleBtn = createElement('button', 'timeline-toggle-btn', this.isExpanded ? '▼' : '▲');
     this.updateToggleTitle();
     this.toggleBtn.addEventListener('click', () => this.toggleExpand(wrapper));
@@ -59,6 +73,7 @@ export class Timeline {
     // 3. Setup Minimap for events (placed ABOVE progress bar/slider)
     this.minimap = createElement('div', 'timeline-minimap');
     wrapper.appendChild(this.minimap);
+    wrapper.appendChild(createElement('p', 'timeline-era-notice', t('timeline.eraNotice')));
 
     // 4. Setup Slider Wrapper — continuous range 1–300 AC
     const sliderWrapper = createElement('div', 'timeline-slider-wrapper');
@@ -121,6 +136,51 @@ export class Timeline {
     this.notifyChange();
   }
 
+  /** Populate the event-only era selector from the data file. */
+  setEras(eras = []) {
+    this.eras = eras.filter(era => Number.isFinite(era?.start_year) && Number.isFinite(era?.end_year));
+    this.renderEraOptions();
+  }
+
+  renderEraOptions() {
+    if (!this.eraSelect) return;
+    const language = document.documentElement.lang === 'en' ? 'en' : 'ro';
+    this.eraSelect.innerHTML = '';
+    const all = createElement('option', '', t('timeline.allEras'));
+    all.value = '';
+    this.eraSelect.appendChild(all);
+    for (const era of this.eras) {
+      const name = era[`name_${language}`] || era.name_ro || era.id;
+      const range = era.start_year === era.end_year
+        ? formatYear(era.start_year)
+        : `${formatYear(era.start_year)}–${formatYear(era.end_year)}`;
+      const option = createElement('option', '', `${name} (${range})`);
+      option.value = era.id;
+      this.eraSelect.appendChild(option);
+    }
+    this.eraSelect.value = this.activeEraId;
+  }
+
+  /**
+   * An era constrains timeline navigation and event markers only. It deliberately
+   * emits the normal year change, so map ownership keeps its existing behavior;
+   * it never calls a map-location filter.
+   */
+  selectEra(eraId) {
+    const era = this.eras.find(candidate => candidate.id === eraId);
+    this.activeEraId = era?.id || '';
+    this.minYear = era ? era.start_year : this.eventBounds.min;
+    this.maxYear = era ? era.end_year : this.eventBounds.max;
+    if (this.slider) {
+      this.slider.min = String(this.minYear);
+      this.slider.max = String(this.maxYear);
+    }
+    if (this.eraSelect) this.eraSelect.value = this.activeEraId;
+    this.renderMinimap(this.events);
+    this.onEventRangeChangeCallback?.(this.getEventRange());
+    this.setYear(this.minYear);
+  }
+
   /**
    * Returns the current year as an integer read directly from the slider value.
    */
@@ -130,6 +190,14 @@ export class Timeline {
 
   onYearChange(callback) {
     this.onYearChangeCallback = callback;
+  }
+
+  onEventRangeChange(callback) {
+    this.onEventRangeChangeCallback = callback;
+  }
+
+  getEventRange() {
+    return { start: this.minYear, end: this.maxYear };
   }
 
   notifyChange() {
@@ -169,11 +237,16 @@ export class Timeline {
     this.minimap.innerHTML = '';
     if (!events) return;
 
+    this.events = events;
+
     // Dynamically compute year bounds from loaded event data
     const validYears = events.filter(evt => Number.isFinite(evt.year)).map(evt => evt.year);
     if (validYears.length > 0) {
-      this.minYear = Math.min(...validYears);
-      this.maxYear = Math.max(...validYears);
+      this.eventBounds = { min: Math.min(...validYears), max: Math.max(...validYears) };
+      if (!this.activeEraId) {
+        this.minYear = this.eventBounds.min;
+        this.maxYear = this.eventBounds.max;
+      }
       if (this.slider) {
         this.slider.min = this.minYear.toString();
         this.slider.max = this.maxYear.toString();
@@ -185,7 +258,7 @@ export class Timeline {
     const range = (endYear - startYear) || 1;
 
     // The timeline has no visual representation for undated Wiki-only events.
-    events.filter(evt => Number.isFinite(evt.year)).forEach(evt => {
+    events.filter(evt => Number.isFinite(evt.year) && evt.year >= startYear && evt.year <= endYear).forEach(evt => {
       const relative = (evt.year - startYear) / range;
       const left = Math.max(2, Math.min(98, relative * 100)); // Clamp between 2% and 98%
 

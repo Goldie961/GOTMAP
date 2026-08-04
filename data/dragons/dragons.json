@@ -1,101 +1,63 @@
 [
   {
     "id": "balerion",
-    "name": "Balerion",
-    "epithet": "The Black Dread",
-    "color": "#111111",
-    "born": -114,
-    "died": 94,
-    "birthplace": "valyria",
-    "canon": "canon",
-    "description": "The largest and oldest of the Targaryen dragons, the only one born in Valyria. His scales and wings were black, and his fire was said to melt stone. He was ridden by Aegon I during the Conquest.",
-    "riders": [
-      {
-        "character": "aegon_i",
-        "from": -2,
-        "to": 37,
-        "canon": "canon"
-      }
+    "name_ro": "Balerion",
+    "name_en": "Balerion",
+    "riders": [{ "character_id": "aegon_i", "from_year": -2, "to_year": 37, "confidence": "canon", "sources": [{ "source_file": "data/dragons/dragons.json", "confidence": "canon" }] }],
+    "birth": { "year": -114, "location_id": "valyria", "confidence": "canon", "sources": [{ "source_file": "data/dragons/dragons.json", "confidence": "canon" }] },
+    "death": { "year": null, "location_id": null, "confidence": "unknown", "sources": [{ "event_id": "balerion_moare_la_varsta_inaintata", "source_file": "data/events/events.json", "source_book": "Focul și sângele", "source_page": "374", "confidence": "canon" }], "note": "The legacy dragon record and the dated event disagree on the year; no year is resolved here." },
+    "events": [
+      { "event_id": "burning_harrenhal", "confidence": "canon", "sources": [{ "event_id": "burning_harrenhal", "source_file": "data/events/events.json", "url": "https://awoiaf.westeros.org/index.php/Burning_of_Harrenhal", "confidence": "canon" }] },
+      { "event_id": "field_of_fire", "confidence": "canon", "sources": [{ "event_id": "field_of_fire", "source_file": "data/events/events.json", "url": "https://awoiaf.westeros.org/index.php/Field_of_Fire", "confidence": "canon" }] }
     ],
-    "timeline": [
-      {
-        "year": -2,
-        "location": "harrenhal",
-        "event": "Balerion burns Harrenhal, destroying Harren the Black and his line.",
-        "canon": "canon"
-      },
-      {
-        "year": 1,
-        "location": "kings_landing",
-        "event": "Resides with Aegon I at the rising capital of King's Landing.",
-        "canon": "canon"
-      }
-    ]
+    "sources": [{ "source_file": "data/dragons/dragons.json", "confidence": "canon" }]
   },
   {
     "id": "vhagar",
-    "name": "Vhagar",
-    "epithet": "The Bronze Fury",
-    "color": "#8B5A2B",
-    "born": -51,
-    "died": 130,
-    "birthplace": "dragonstone",
-    "canon": "canon",
-    "description": "A fierce bronze-and-green dragon ridden by Queen Visenya Targaryen. During the Conquest, Vhagar's size was third to Balerion, but she grew to equal him in size in her old age.",
-    "riders": [
-      {
-        "character": "visenya_targaryen",
-        "from": -2,
-        "to": 44,
-        "canon": "canon"
-      }
+    "name_ro": "Vhagar",
+    "name_en": "Vhagar",
+    "riders": [{ "character_id": "visenya_targaryen", "from_year": -2, "to_year": 44, "confidence": "canon", "sources": [{ "source_file": "data/dragons/dragons.json", "confidence": "canon" }] }],
+    "birth": { "year": -51, "location_id": "dragonstone", "confidence": "canon", "sources": [{ "source_file": "data/dragons/dragons.json", "confidence": "canon" }] },
+    "death": { "year": 130, "location_id": "gods_eye", "confidence": "canon", "sources": [{ "event_id": "aemond_si_alys_sosesc_la_harrenhal", "source_file": "data/events/events.json", "source_book": "Focul și sângele", "source_page": "567-570", "confidence": "canon" }] },
+    "events": [
+      { "event_id": "battle_gulltown", "confidence": "canon", "sources": [{ "event_id": "battle_gulltown", "source_file": "data/events/events.json", "url": "https://awoiaf.westeros.org/index.php/Battle_of_Gulltown", "confidence": "canon" }] },
+      { "event_id": "field_of_fire", "confidence": "canon", "sources": [{ "event_id": "field_of_fire", "source_file": "data/events/events.json", "url": "https://awoiaf.westeros.org/index.php/Field_of_Fire", "confidence": "canon" }] },
+      { "event_id": "aemond_si_alys_sosesc_la_harrenhal", "confidence": "canon", "sources": [{ "event_id": "aemond_si_alys_sosesc_la_harrenhal", "source_file": "data/events/events.json", "source_book": "Focul și sângele", "source_page": "567-570", "confidence": "canon" }] }
     ],
-    "timeline": [
-      {
-        "year": -2,
-        "location": "the_eyrie",
-        "event": "Vhagar lands in the Eyrie courtyard, prompting Sharra Arryn to surrender.",
-        "canon": "canon"
-      },
-      {
-        "year": 1,
-        "location": "kings_landing",
-        "event": "Vhagar resides with Queen Visenya.",
-        "canon": "canon"
-      }
-    ]
+    "sources": [{ "source_file": "data/dragons/dragons.json", "confidence": "canon" }]
   },
   {
     "id": "meraxes",
-    "name": "Meraxes",
-    "epithet": "The Golden-Eyed Queen",
-    "color": "#C0C0C0",
-    "born": -52,
-    "died": 10,
-    "birthplace": "dragonstone",
-    "canon": "canon",
-    "description": "A massive silver-grey dragon ridden by Queen Rhaenys Targaryen, known for her gold eyes and great speed. Meraxes was larger than Vhagar during the Conquest.",
-    "riders": [
-      {
-        "character": "rhaenys_targaryen",
-        "from": -2,
-        "to": 10,
-        "canon": "canon"
-      }
+    "name_ro": "Meraxes",
+    "name_en": "Meraxes",
+    "riders": [{ "character_id": "rhaenys_targaryen", "from_year": -2, "to_year": 10, "confidence": "canon", "sources": [{ "source_file": "data/dragons/dragons.json", "confidence": "canon" }] }],
+    "birth": { "year": -52, "location_id": "dragonstone", "confidence": "canon", "sources": [{ "source_file": "data/dragons/dragons.json", "confidence": "canon" }] },
+    "death": { "year": 10, "location_id": "hellholt", "confidence": "canon", "sources": [{ "event_id": "aegon_a_atacat_skyreach_visenya_si_vhagar_au_atacat_starfall_iar_rhaenys_si_mera", "source_file": "data/events/events.json", "source_book": "Focul și sângele", "source_page": "44", "confidence": "canon" }] },
+    "events": [
+      { "event_id": "battle_last_storm", "confidence": "canon", "sources": [{ "event_id": "battle_last_storm", "source_file": "data/events/events.json", "url": "https://awoiaf.westeros.org/index.php/Last_Storm", "confidence": "canon" }] },
+      { "event_id": "field_of_fire", "confidence": "canon", "sources": [{ "event_id": "field_of_fire", "source_file": "data/events/events.json", "url": "https://awoiaf.westeros.org/index.php/Field_of_Fire", "confidence": "canon" }] },
+      { "event_id": "aegon_a_atacat_skyreach_visenya_si_vhagar_au_atacat_starfall_iar_rhaenys_si_mera", "confidence": "canon", "sources": [{ "event_id": "aegon_a_atacat_skyreach_visenya_si_vhagar_au_atacat_starfall_iar_rhaenys_si_mera", "source_file": "data/events/events.json", "source_book": "Focul și sângele", "source_page": "44", "confidence": "canon" }] }
     ],
-    "timeline": [
-      {
-        "year": -2,
-        "location": "storm_end",
-        "event": "Meraxes blasts Argilac's host at the Last Storm.",
-        "canon": "canon"
-      },
-      {
-        "year": 1,
-        "location": "kings_landing",
-        "event": "Meraxes resides with Queen Rhaenys.",
-        "canon": "canon"
-      }
-    ]
+    "sources": [{ "source_file": "data/dragons/dragons.json", "confidence": "canon" }]
+  },
+  {
+    "id": "caraxes",
+    "name_ro": "Caraxes",
+    "name_en": "Caraxes",
+    "riders": [{ "character_id": "daemon_targaryen", "from_year": 130, "to_year": 130, "confidence": "inferred", "sources": [{ "event_id": "aemond_si_alys_sosesc_la_harrenhal", "source_file": "data/events/events.json", "source_book": "Focul și sângele", "source_page": "567-570", "confidence": "canon" }] }],
+    "birth": { "year": null, "location_id": null, "confidence": "unknown", "sources": [] },
+    "death": { "year": 130, "location_id": "gods_eye", "confidence": "canon", "sources": [{ "event_id": "aemond_si_alys_sosesc_la_harrenhal", "source_file": "data/events/events.json", "source_book": "Focul și sângele", "source_page": "567-570", "confidence": "canon" }] },
+    "events": [{ "event_id": "aemond_si_alys_sosesc_la_harrenhal", "confidence": "canon", "sources": [{ "event_id": "aemond_si_alys_sosesc_la_harrenhal", "source_file": "data/events/events.json", "source_book": "Focul și sângele", "source_page": "567-570", "confidence": "canon" }] }],
+    "sources": [{ "event_id": "aemond_si_alys_sosesc_la_harrenhal", "source_file": "data/events/events.json", "source_book": "Focul și sângele", "source_page": "567-570", "confidence": "canon" }]
+  },
+  {
+    "id": "syrax",
+    "name_ro": "Syrax",
+    "name_en": "Syrax",
+    "riders": [{ "character_id": "rhaenyra_targaryen", "from_year": 130, "to_year": 130, "confidence": "inferred", "sources": [{ "event_id": "capture_kl_rhaenyra", "source_file": "data/events/events.json", "url": "https://awoiaf.westeros.org/index.php/Rhaenyra_Targaryen", "confidence": "canon" }] }],
+    "birth": { "year": null, "location_id": null, "confidence": "unknown", "sources": [] },
+    "death": { "year": null, "location_id": null, "confidence": "unknown", "sources": [] },
+    "events": [{ "event_id": "capture_kl_rhaenyra", "confidence": "canon", "sources": [{ "event_id": "capture_kl_rhaenyra", "source_file": "data/events/events.json", "url": "https://awoiaf.westeros.org/index.php/Rhaenyra_Targaryen", "confidence": "canon" }] }],
+    "sources": [{ "event_id": "capture_kl_rhaenyra", "source_file": "data/events/events.json", "url": "https://awoiaf.westeros.org/index.php/Rhaenyra_Targaryen", "confidence": "canon" }]
   }
 ]
